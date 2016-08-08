@@ -1,4 +1,4 @@
-In this bitbucket page, we share our code and data sets for the following paper: 
+In this page, we share our code and data sets for the following paper: 
 
 @inproceedings{ZhengC16,
  author = {Zheng, Vincent W. and Chang, Kevin Chen-Chuan},
