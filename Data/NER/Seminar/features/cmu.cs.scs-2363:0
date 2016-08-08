@@ -1,0 +1,214 @@
+Type	others	type|_start_|cmu|true|false|false|false|false|false|false|false|false|NN
+cmu	others	cmu|type|c|false|false|false|false|false|false|false|false|false|NN
+cs	others	c|cmu|sc|false|false|false|false|false|false|false|false|false|NNS
+scs	others	sc|c|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+Topic	others	topic|_start_|mse|true|false|false|false|false|false|false|false|false|NN
+MSE	others	mse|topic|end-of-semest|false|true|false|true|false|false|false|false|false|NNP
+End-of-Semester	others	end-of-semest|mse|present|false|false|false|false|false|false|false|false|false|NNP
+Presentation	others	present|end-of-semest|_end_|true|false|false|false|false|false|false|false|false|NN
+
+Dates	others	date|_start_|3-dec-93|true|false|false|false|false|false|false|false|false|NNS
+3-Dec-93	others	3-dec-93|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|11:00|true|false|false|false|false|false|false|false|false|NNP
+11:00	stime	11:00|time|am|false|false|false|false|false|false|false|false|false|CD
+AM	stime	am|11:00|12:00|false|true|false|true|false|false|true|false|false|NNP
+12:00	etime	12:00|am|pm|false|false|false|false|false|false|false|true|false|CD
+PM	etime	pm|12:00|_end_|false|true|false|true|false|false|false|false|false|NN
+
+PostedBy	others	postedbi|_start_|marco|false|false|false|false|true|false|false|false|false|NNP
+marcos	others	marco|postedbi|on|false|false|false|false|false|false|false|false|false|NNS
+on	others	on|marco|1-dec-93|false|false|false|false|false|false|false|false|false|IN
+1-Dec-93	others	1-dec-93|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|1-dec-93|00:02|false|false|false|false|false|false|false|false|false|IN
+00:02	others	00:02|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|00:02|gs100|false|false|false|false|false|false|false|false|false|IN
+gs100	others	gs100|from|sp.cs.cmu.edu|false|false|false|false|false|false|false|false|false|NN
+sp.cs.cmu.edu	others	sp.cs.cmu.edu|gs100|-lrb-|false|false|false|false|false|false|false|false|false|NN
+-LRB-	others	-lrb-|sp.cs.cmu.edu|marco|false|false|false|false|false|false|false|false|false|-LRB-
+Marco	others	marco|-lrb-|j|true|false|false|false|false|true|false|false|false|NNP
+J	others	j|marco|schumach|false|false|true|true|false|true|false|false|false|NNP
+Schumacher	others	schumach|j|-rrb-|true|false|false|false|false|true|false|false|false|NNP
+-RRB-	others	-rrb-|schumach|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+Master	others	master|_start_|of|true|false|false|false|false|true|false|false|false|NN
+of	others	of|master|softwar|false|false|false|false|false|false|false|false|false|IN
+Software	others	softwar|of|engin|true|false|false|false|false|false|false|false|false|NNP
+Engineering	others	engin|softwar|-lrb-|true|false|false|false|false|false|false|false|false|NNP
+-LRB-	others	-lrb-|engin|mse|false|false|false|false|false|false|false|false|false|-LRB-
+MSE	others	mse|-lrb-|-rrb-|false|true|false|true|false|false|false|false|false|NNP
+-RRB-	others	-rrb-|mse|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+Final	others	final|_start_|end-of-semest|true|false|false|false|false|false|false|false|false|JJ
+End-of-Semester	others	end-of-semest|final|present|false|false|false|false|false|false|false|false|false|NNP
+Presentation	others	present|end-of-semest|of|true|false|false|false|false|false|false|false|false|NN
+of	others	of|present|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|of|studio|false|false|false|false|false|false|false|false|false|DT
+Studio	others	studio|the|92-93|true|false|false|false|false|false|false|false|false|NNP
+92-93	others	92-93|studio|team|false|false|false|false|false|false|false|false|false|CD
+Team	others	team|92-93|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+
+Hasta	others	hasta|_start_|la|true|false|false|false|false|false|false|false|false|NNP
+La	others	la|hasta|vista|true|false|false|false|false|false|false|false|false|NNP
+Vista	others	vista|la|tessel|true|false|false|false|false|false|false|false|false|NNP
+Tessellator	others	tessel|vista|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+
+December	others	decemb|_start_|3|true|false|false|false|false|false|false|false|true|NNP
+3	others	3|decemb|from|false|false|false|false|false|false|false|false|true|CD
+from	others	from|3|11:00|false|false|false|false|false|false|false|false|false|IN
+11:00	stime	11:00|from|be|false|false|false|false|false|false|false|false|false|CD
+am	stime	be|11:00|to|false|false|false|false|false|false|false|false|false|VBP
+to	others	to|be|12:00|false|false|false|false|false|false|false|false|false|TO
+12:00	etime	12:00|to|noon|false|false|false|false|false|false|false|false|false|CD
+noon	etime	noon|12:00|_end_|false|false|false|false|false|false|false|false|false|NN
+
+The	others	the|_start_|mse|true|false|false|false|false|false|false|false|false|DT
+MSE	others	mse|the|92-93|false|true|false|true|false|false|false|false|false|NN
+92-93	others	92-93|mse|studio|false|false|false|false|false|false|false|false|false|CD
+studio	others	studio|92-93|team|false|false|false|false|false|false|false|false|false|NN
+team	others	team|studio|will|false|false|false|false|false|false|false|false|false|NN
+will	others	will|team|present|false|false|false|false|false|false|false|false|false|MD
+present	others	present|will|a|false|false|false|false|false|false|false|false|false|VB
+a	others	a|present|final|false|false|false|false|false|false|false|false|false|DT
+final	others	final|a|review|false|false|false|false|false|false|false|false|false|JJ
+review	others	review|final|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|review|it|false|false|false|false|false|false|false|false|false|IN
+its	others	it|of|t2|false|false|false|false|false|false|false|false|false|PRP$
+T2	others	t2|it|project|false|false|false|false|false|false|false|false|false|NN
+project	others	project|t2|_end_|false|false|false|false|false|false|false|false|false|NN
+
+the	others	the|_start_|develop|false|false|false|false|false|false|false|false|false|DT
+development	others	develop|the|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|develop|softwar|false|false|false|false|false|false|false|false|false|IN
+software	others	softwar|of|for|false|false|false|false|false|false|false|false|false|NN
+for	others	for|softwar|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|for|tessel|false|false|false|false|false|false|false|false|false|DT
+Tessellator	others	tessel|the|robot|true|false|false|false|false|false|false|false|false|NNP
+robot	others	robot|tessel|the|false|false|false|false|false|false|false|false|false|NN
+The	others	the|robot|tessel|true|false|false|false|false|false|false|false|false|DT
+Tessellator	others	tessel|the|_end_|true|false|false|false|false|false|false|false|false|NN
+
+is	others	be|_start_|design|false|false|false|false|false|false|false|false|false|VBZ
+designed	others	design|be|by|false|false|false|false|false|false|false|false|false|VBN
+by	others	by|design|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|by|field|false|false|false|false|false|false|false|false|false|DT
+Field	others	field|the|robot|true|false|false|false|false|false|false|false|false|NN
+Robotics	others	robot|field|center|true|false|false|false|false|false|false|false|false|NNP
+Center	others	center|robot|to|true|false|false|false|false|false|false|false|false|NNP
+to	others	to|center|servic|false|false|false|false|false|false|false|false|false|TO
+service	others	servic|to|the|false|false|false|false|false|false|false|false|false|VB
+the	others	the|servic|tile|false|false|false|false|false|false|false|false|false|DT
+tiles	others	tile|the|of|false|false|false|false|false|false|false|false|false|NNS
+of	others	of|tile|nasa|false|false|false|false|false|false|false|false|false|IN
+NASA	others	nasa|of|'s|false|true|false|true|false|false|false|false|false|NNP
+'s	others	's|nasa|_end_|false|false|false|false|false|false|false|false|false|POS
+
+Space	others	space|_start_|shuttl|true|false|false|false|false|false|false|false|false|NN
+Shuttles	others	shuttl|space|the|true|false|false|false|false|false|false|false|false|NNS
+The	others	the|shuttl|t2|true|false|false|false|false|false|false|false|false|DT
+T2	others	t2|the|team|false|false|false|false|false|false|false|false|false|NN
+team	others	team|t2|contribut|false|false|false|false|false|false|false|false|false|NN
+contributes	others	contribut|team|the|false|false|false|false|false|false|false|false|false|VBZ
+the	others	the|contribut|posit|false|false|false|false|false|false|false|false|false|DT
+positioning	others	posit|the|system|false|false|false|false|false|false|false|false|false|VBG
+system	others	system|posit|for|false|false|false|false|false|false|false|false|false|NN
+for	others	for|system|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|for|_end_|false|false|false|false|false|false|false|false|false|DT
+
+robot	others	robot|_start_|'s|false|false|false|false|false|false|false|false|false|NN
+'s	others	's|robot|manipul|false|false|false|false|false|false|false|false|false|POS
+manipulator	others	manipul|'s|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|manipul|part|false|false|false|false|false|false|false|false|false|CC
+part	others	part|and|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|part|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|of|high-level|false|false|false|false|false|false|false|false|false|DT
+high-level	others	high-level|the|control|false|false|false|false|false|false|false|false|false|JJ
+controller	others	control|high-level|_end_|false|false|false|false|false|false|false|false|false|NN
+
+The	others	the|_start_|present|true|false|false|false|false|false|false|false|false|DT
+presentation	others	present|the|will|false|false|false|false|false|false|false|false|false|NN
+will	others	will|present|cover|false|false|false|false|false|false|false|false|false|MD
+cover	others	cover|will|two|false|false|false|false|false|false|false|false|false|VB
+two	others	two|cover|topic|false|false|false|false|false|false|false|false|false|CD
+topics	others	topic|two|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+1	others	1|_start_|project|false|false|false|false|false|false|false|false|false|LS
+Project	others	project|1|summari|true|false|false|false|false|false|false|false|false|NNP
+Summary	others	summari|project|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+This	others	thi|_start_|part|true|false|false|false|false|false|false|false|false|DT
+part	others	part|thi|will|false|false|false|false|false|false|false|false|false|NN
+will	others	will|part|describ|false|false|false|false|false|false|false|false|false|MD
+describe	others	describ|will|the|false|false|false|false|false|false|false|false|false|VB
+the	others	the|describ|tessel|false|false|false|false|false|false|false|false|false|DT
+Tessellator	others	tessel|the|project|true|false|false|false|false|false|false|false|false|NNP
+project	others	project|tessel|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|project|highlight|false|false|false|false|false|false|false|false|false|CC
+highlight	others	highlight|and|the|false|false|false|false|false|false|false|false|false|VB
+the	others	the|highlight|_end_|false|false|false|false|false|false|false|false|false|DT
+
+T2	others	t2|_start_|team|false|false|false|false|false|false|false|false|false|NN
+team	others	team|t2|'s|false|false|false|false|false|false|false|false|false|NN
+'s	others	's|team|contribut|false|false|false|false|false|false|false|false|false|POS
+contributions	others	contribut|'s|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+2	others	2|_start_|requir|false|false|false|false|false|false|false|false|false|LS
+Requirements	others	requir|2|engin|true|false|false|false|false|false|false|false|false|NNS
+Engineering	others	engin|requir|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+This	others	thi|_start_|part|true|false|false|false|false|false|false|false|false|DT
+part	others	part|thi|will|false|false|false|false|false|false|false|false|false|NN
+will	others	will|part|focu|false|false|false|false|false|false|false|false|false|MD
+focus	others	focu|will|on|false|false|false|false|false|false|false|false|false|VB
+on	others	on|focu|a|false|false|false|false|false|false|false|false|false|IN
+an	others	a|on|area|false|false|false|false|false|false|false|false|false|DT
+area	others	area|a|the|false|false|false|false|false|false|false|false|false|NN
+the	others	the|area|t2|false|false|false|false|false|false|false|false|false|DT
+T2	others	t2|the|team|false|false|false|false|false|false|false|false|false|NN
+team	others	team|t2|consid|false|false|false|false|false|false|false|false|false|NN
+considers	others	consid|team|to|false|false|false|false|false|false|false|false|false|VBZ
+to	others	to|consid|be|false|false|false|false|false|false|false|false|false|TO
+be	others	be|to|crucial|false|false|false|false|false|false|false|false|false|VB
+crucial	others	crucial|be|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+in	others	in|_start_|softwar|false|false|false|false|false|false|false|false|false|IN
+software	others	softwar|in|develop|false|false|false|false|false|false|false|false|false|NN
+development	others	develop|softwar|requir|false|false|false|false|false|false|false|false|false|NN
+requirements	others	requir|develop|engin|false|false|false|false|false|false|false|false|false|NNS
+engineering	others	engin|requir|the|false|false|false|false|false|false|false|false|false|NN
+The	others	the|engin|present|true|false|false|false|false|false|false|false|false|DT
+presentation	others	present|the|_end_|false|false|false|false|false|false|false|false|false|NN
+
+will	others	will|_start_|discuss|false|false|false|false|false|false|false|false|false|MD
+discuss	others	discuss|will|the|false|false|false|false|false|false|false|false|false|VB
+the	others	the|discuss|challeng|false|false|false|false|false|false|false|false|false|DT
+challenges	others	challeng|the|face|false|false|false|false|false|false|false|false|false|NNS
+faced	others	face|challeng|by|false|false|false|false|false|false|false|false|false|VBN
+by	others	by|face|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|by|team|false|false|false|false|false|false|false|false|false|DT
+team	others	team|the|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|team|the|false|false|false|false|false|false|false|false|false|CC
+the	others	the|and|method|false|false|false|false|false|false|false|false|false|DT
+methods	others	method|the|-lrb-|false|false|false|false|false|false|false|false|false|NNS
+-LRB-	others	-lrb-|method|such|false|false|false|false|false|false|false|false|false|-LRB-
+such	others	such|-lrb-|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+as	others	as|_start_|formal|false|false|false|false|false|false|false|false|false|IN
+formal	others	formal|as|specif|false|false|false|false|false|false|false|false|false|JJ
+specification	others	specif|formal|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|specif|peer|false|false|false|false|false|false|false|false|false|CC
+peer	others	peer|and|review|false|false|false|false|false|false|false|false|false|VB
+reviews	others	review|peer|-rrb-|false|false|false|false|false|false|false|false|false|NNS
+-RRB-	others	-rrb-|review|us|false|false|false|false|false|false|false|false|false|-RRB-
+used	others	us|-rrb-|to|false|false|false|false|false|false|false|false|false|VBN
+to	others	to|us|tackl|false|false|false|false|false|false|false|false|false|TO
+tackle	others	tackl|to|the|false|false|false|false|false|false|false|false|false|VB
+the	others	the|tackl|problem|false|false|false|false|false|false|false|false|false|DT
+problems	others	problem|the|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+

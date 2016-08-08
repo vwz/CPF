@@ -1,0 +1,129 @@
+Type	others	type|_start_|cmu|true|false|false|false|false|false|false|false|false|NN
+cmu	others	cmu|type|c|false|false|false|false|false|false|false|false|false|NN
+cs	others	c|cmu|proj|false|false|false|false|false|false|false|false|false|NNS
+proj	others	proj|c|speech|false|false|false|false|false|false|false|false|false|NN
+speech	others	speech|proj|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Topic	others	topic|_start_|zapdash|true|false|false|false|false|false|false|false|false|NN
+zapdash	others	zapdash|topic|mini-seminar|false|false|false|false|false|false|false|false|false|NN
+mini-seminar	others	mini-seminar|zapdash|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Dates	others	date|_start_|19-dec-84|true|false|false|false|false|false|false|false|false|NNS
+19-Dec-84	others	19-dec-84|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|2:30|true|false|false|false|false|false|false|false|false|NNP
+2:30	stime	2:30|time|pm|false|false|false|false|false|false|false|false|false|CD
+PM	stime	pm|2:30|_end_|false|true|false|true|false|false|false|false|false|NNP
+
+PostedBy	others	postedbi|_start_|alex|false|false|false|false|true|false|false|false|false|NNP
+Alex	others	alex|postedbi|waibel|true|false|false|false|false|true|false|false|false|NNP
+Waibel	others	waibel|alex|on|true|false|false|false|false|true|false|false|false|NNP
+on	others	on|waibel|18-dec-84|false|false|false|false|false|false|false|false|false|IN
+18-Dec-84	others	18-dec-84|on|at|false|false|false|false|false|false|false|false|false|NNP
+at	others	at|18-dec-84|21:05|false|false|false|false|false|false|false|false|false|IN
+21:05	others	21:05|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|21:05|cmu-cs-cad|false|false|false|false|false|false|false|false|false|IN
+CMU-CS-CAD	others	cmu-cs-cad|from|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+Folks	others	folk|_start_|_end_|true|false|false|false|false|false|false|false|false|NNS
+
+due	others	due|_start_|to|false|false|false|false|false|false|false|false|false|JJ
+to	others	to|due|a|false|false|false|false|false|false|false|false|false|TO
+an	others	a|to|-lrb-|false|false|false|false|false|false|false|false|false|DT
+-LRB-	others	-lrb-|a|understand|false|false|false|false|false|false|false|false|false|-LRB-
+understandable	others	understand|-lrb-|-rrb-|false|false|false|false|false|false|false|false|false|JJ
+-RRB-	others	-rrb-|understand|weiri|false|false|false|false|false|false|false|false|false|-RRB-
+weiriness	others	weiri|-rrb-|to|false|false|false|false|false|false|false|false|false|NN
+to	others	to|weiri|make|false|false|false|false|false|false|false|false|false|TO
+make	others	make|to|yet|false|false|false|false|false|false|false|false|false|VB
+yet	others	yet|make|_end_|false|false|false|false|false|false|false|false|false|RB
+
+another	others	anoth|_start_|chang|false|false|false|false|false|false|false|false|false|DT
+change	others	chang|anoth|fix|false|false|false|false|false|false|false|false|false|NN
+fix	others	fix|chang|or|false|false|false|false|false|false|false|false|false|NN
+or	others	or|fix|modif|false|false|false|false|false|false|false|false|false|CC
+modification	others	modif|or|to|false|false|false|false|false|false|false|false|false|NN
+to	others	to|modif|the|false|false|false|false|false|false|false|false|false|TO
+the	others	the|to|zapdash|false|false|false|false|false|false|false|false|false|DT
+zapdash	others	zapdash|the|segment|false|false|false|false|false|false|false|false|false|NN
+segmenter	others	segment|zapdash|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|segment|_end_|false|false|false|false|false|false|false|false|false|CC
+
+canear	others	canear|_start_|fil|false|false|false|false|false|false|false|false|false|NN
+Fil	others	fil|canear|have|true|false|false|false|false|true|false|false|false|NNP
+has	others	have|fil|volunt|false|false|false|false|false|false|false|false|false|VBZ
+volunteered	others	volunt|have|to|false|false|false|false|false|false|false|false|false|VBN
+to	others	to|volunt|give|false|false|false|false|false|false|false|false|false|TO
+give	others	give|to|to|false|false|false|false|false|false|false|false|false|VB
+to	others	to|give|whoever|false|false|false|false|false|false|false|false|false|TO
+whoever	others	whoever|to|be|false|false|false|false|false|false|false|false|false|WP
+is	others	be|whoever|interest|false|false|false|false|false|false|false|false|false|VBZ
+interested	others	interest|be|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+a	others	a|_start_|littl|false|false|false|false|false|false|false|false|false|DT
+little	others	littl|a|spiel|false|false|false|false|false|false|false|false|false|JJ
+spiel	others	spiel|littl|about|false|false|false|false|false|false|false|false|false|NN
+about	others	about|spiel|everyth|false|false|false|false|false|false|false|false|false|IN
+Everything	others	everyth|about|you|true|false|false|false|false|false|false|false|false|NNP
+you	others	you|everyth|alwai|false|false|false|false|false|false|false|false|false|PRP
+always	others	alwai|you|want|false|false|false|false|false|false|false|false|false|RB
+wanted	others	want|alwai|to|false|false|false|false|false|false|false|false|false|VBD
+to	others	to|want|know|false|false|false|false|false|false|false|false|false|TO
+know	others	know|to|_end_|false|false|false|false|false|false|false|false|false|VB
+
+about	others	about|_start_|zapdash|false|false|false|false|false|false|false|false|false|IN
+zapdash	others	zapdash|about|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|zapdash|be|false|false|false|false|false|false|false|false|false|CC
+were	others	be|and|afraid|false|false|false|false|false|false|false|false|false|VBD
+afraid	others	afraid|be|to|false|false|false|false|false|false|false|false|false|JJ
+to	others	to|afraid|ask|false|false|false|false|false|false|false|false|false|TO
+ask	others	ask|to|fil|false|false|false|false|false|false|false|false|false|VB
+Fil	speaker	fil|ask|alleva|true|false|false|false|false|false|false|false|false|NNP
+Alleva	speaker	alleva|fil|in|true|false|false|false|false|true|false|false|false|NNP
+In	others	in|alleva|other|true|false|false|false|false|false|false|false|false|IN
+other	others	other|in|word|false|false|false|false|false|false|false|false|false|JJ
+words	others	word|other|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+he	others	he|_start_|'ll|false|false|false|false|false|false|false|false|false|PRP
+'ll	others	'll|he|tell|false|false|false|false|false|false|false|false|false|MD
+tell	others	tell|'ll|we|false|false|false|false|false|false|false|false|false|VB
+us	others	we|tell|all|false|false|false|false|false|false|false|false|false|PRP
+all	others	all|we|he|false|false|false|false|false|false|false|false|false|DT
+he	others	he|all|know|false|false|false|false|false|false|false|false|false|PRP
+knows	others	know|he|about|false|false|false|false|false|false|false|false|false|VBZ
+about	others	about|know|it|false|false|false|false|false|false|false|false|false|IN
+it	others	it|about|so|false|false|false|false|false|false|false|false|false|PRP
+so	others	so|it|we|false|false|false|false|false|false|false|false|false|IN
+we	others	we|so|can|false|false|false|false|false|false|false|false|false|PRP
+can	others	can|we|make|false|false|false|false|false|false|false|false|false|MD
+make	others	make|can|the|false|false|false|false|false|false|false|false|false|VB
+the	others	the|make|chang|false|false|false|false|false|false|false|false|false|DT
+changes	others	chang|the|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+we	others	we|_start_|need|false|false|false|false|false|false|false|false|false|PRP
+need	others	need|we|in|false|false|false|false|false|false|false|false|false|VBP
+in	others	in|need|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|in|futur|false|false|false|false|false|false|false|false|true|DT
+future	others	futur|the|ourselv|false|false|false|false|false|false|false|false|true|JJ
+ourselves	others	ourselv|futur|sinc|false|false|false|false|false|false|false|false|false|PRP
+Since	others	sinc|ourselv|zapdash|true|false|false|false|false|false|false|false|false|IN
+zapdash	others	zapdash|sinc|segment|false|false|false|false|false|false|false|false|false|NN
+segmentation	others	segment|zapdash|be|false|false|false|false|false|false|false|false|false|NN
+is	others	be|segment|_end_|false|false|false|false|false|false|false|false|false|VBZ
+
+in	others	in|_start_|vogu|false|false|false|false|false|false|false|false|false|IN
+vogue	others	vogu|in|again|false|false|false|false|false|false|false|false|false|NN
+again	others	again|vogu|among|false|false|false|false|false|false|false|false|false|RB
+among	others	among|again|sever|false|false|false|false|false|false|false|false|false|IN
+several	others	sever|among|of|false|false|false|false|false|false|false|false|false|JJ
+of	others	of|sever|we|false|false|false|false|false|false|false|false|false|IN
+us	others	we|of|you|false|false|false|false|false|false|false|false|false|PRP
+You	others	you|we|might|true|false|false|false|false|false|false|false|false|PRP
+might	others	might|you|be|false|false|false|false|false|false|false|false|false|MD
+be	others	be|might|interest|false|false|false|false|false|false|false|false|false|VB
+interested	others	interest|be|to|false|false|false|false|false|false|false|false|false|JJ
+to	others	to|interest|attend|false|false|false|false|false|false|false|false|false|TO
+attend	others	attend|to|_end_|false|false|false|false|false|false|false|false|false|VB
+

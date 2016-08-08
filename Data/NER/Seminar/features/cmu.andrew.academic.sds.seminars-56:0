@@ -1,0 +1,52 @@
+Type	others	type|_start_|cmu|true|false|false|false|false|false|false|false|false|NN
+cmu	others	cmu|type|andrew|false|false|false|false|false|false|false|false|false|NN
+andrew	others	andrew|cmu|academ|false|false|false|false|false|true|false|false|false|NN
+academic	others	academ|andrew|sd|false|false|false|false|false|false|false|false|false|JJ
+sds	others	sd|academ|seminar|false|false|false|false|false|false|false|false|false|NNS
+seminars	others	seminar|sd|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+Topic	others	topic|_start_|skvoretz|true|false|false|false|false|false|false|false|false|NN
+SKVORETZ	others	skvoretz|topic|seminar|false|true|false|true|false|false|false|false|false|NNS
+Seminar	others	seminar|skvoretz|_end_|true|false|false|false|false|false|false|false|false|NN
+
+Dates	others	date|_start_|4-may-95|true|false|false|false|false|false|false|false|false|NNS
+4-May-95	others	4-may-95|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|4:00|true|false|false|false|false|false|false|false|false|NNP
+4:00	stime	4:00|time|5:30|false|false|false|false|false|false|true|false|false|CD
+5:30	etime	5:30|4:00|_end_|false|false|false|false|false|false|false|true|false|CD
+
+PostedBy	others	postedbi|_start_|carol|false|false|false|false|true|false|false|false|false|NNP
+Carole	others	carol|postedbi|deaunovich|true|false|false|false|false|true|false|false|false|NNP
+Deaunovich	others	deaunovich|carol|on|true|false|false|false|false|true|false|false|false|NNP
+on	others	on|deaunovich|2-may-95|false|false|false|false|false|false|false|false|false|IN
+2-May-95	others	2-may-95|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|2-may-95|11:00|false|false|false|false|false|false|false|false|false|IN
+11:00	others	11:00|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|11:00|andrew.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+andrew.cmu.edu	others	andrew.cmu.edu|from|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+Professor	speaker	professor|_start_|john|true|false|false|false|false|true|false|false|false|NNP
+John	speaker	john|professor|skvoretz|true|false|false|false|false|true|false|false|false|NNP
+Skvoretz	speaker	skvoretz|john|u.|true|false|false|false|false|true|false|false|false|NNP
+U.	others	u.|skvoretz|of|false|false|false|false|false|false|false|false|false|NNP
+of	others	of|u.|south|false|false|false|false|false|false|false|false|false|IN
+South	others	south|of|carolina|true|false|false|false|false|false|false|false|false|NNP
+Carolina	others	carolina|south|columbia|true|false|false|false|false|false|false|false|false|NNP
+Columbia	others	columbia|carolina|will|true|false|false|false|false|false|false|false|false|NNP
+will	others	will|columbia|present|false|false|false|false|false|false|false|false|false|MD
+present	others	present|will|_end_|false|false|false|false|false|false|false|false|false|VB
+
+a	others	a|_start_|seminar|false|false|false|false|false|false|false|false|false|DT
+seminar	others	seminar|a|entitl|false|false|false|false|false|false|false|false|false|NN
+entitled	others	entitl|seminar|emb|false|false|false|false|false|false|false|false|false|VBN
+Embedded	others	emb|entitl|commit|true|false|false|false|false|false|false|false|false|VBN
+Commitment	others	commit|emb|on|true|false|false|false|false|false|false|false|false|NN
+on	others	on|commit|thursdai|false|false|false|false|false|false|false|false|false|IN
+Thursday	others	thursdai|on|mai|true|false|false|false|false|false|false|false|true|NNP
+May	others	mai|thursdai|4th|true|false|false|false|false|false|false|false|true|NNP
+4th	others	4th|mai|from|false|false|false|false|false|false|false|false|true|JJ
+from	others	from|4th|_end_|false|false|false|false|false|false|false|false|false|IN
+

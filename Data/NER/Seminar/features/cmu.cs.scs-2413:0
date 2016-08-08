@@ -1,0 +1,160 @@
+Type	others	type|_start_|cmu|true|false|false|false|false|false|false|false|false|NN
+cmu	others	cmu|type|c|false|false|false|false|false|false|false|false|false|NN
+cs	others	c|cmu|sc|false|false|false|false|false|false|false|false|false|NNS
+scs	others	sc|c|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+Who	others	who|_start_|maxin|true|false|false|false|false|false|false|false|false|WP
+Maxine	speaker	maxin|who|eskenazi|true|false|false|false|false|true|false|false|false|NNP
+Eskenazi	speaker	eskenazi|maxin|limsi\/cnr|true|false|false|false|false|true|false|false|false|NNP
+LIMSI\/CNRS	others	limsi\/cnr|eskenazi|orsai|false|false|false|false|false|false|false|false|false|NN
+ORSAY	others	orsai|limsi\/cnr|franc|false|true|false|true|false|false|false|false|false|NNP
+FRANCE	others	franc|orsai|_end_|false|true|false|true|false|false|false|false|false|NNP
+
+Topic	others	topic|_start_|speech|true|false|false|false|false|false|false|false|false|NN
+Speech	others	speech|topic|seminar|true|false|false|false|false|false|false|false|false|NN
+Seminar	others	seminar|speech|_end_|true|false|false|false|false|false|false|false|false|NN
+
+Dates	others	date|_start_|20-dec-93|true|false|false|false|false|false|false|false|false|NNS
+20-Dec-93	others	20-dec-93|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|1:30|true|false|false|false|false|false|false|false|false|NNP
+1:30	stime	1:30|time|3:30|false|false|false|false|false|false|true|false|false|CD
+3:30	etime	3:30|1:30|_end_|false|false|false|false|false|false|false|true|false|CD
+
+PostedBy	others	postedbi|_start_|tanium|false|false|false|false|true|false|false|false|false|NNP
+tania	others	tanium|postedbi|on|false|false|false|false|false|false|false|false|false|NN
+on	others	on|tanium|13-dec-93|false|false|false|false|false|false|false|false|false|IN
+13-Dec-93	others	13-dec-93|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|13-dec-93|12:01|false|false|false|false|false|false|false|false|false|IN
+12:01	others	12:01|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|12:01|cs.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+CS.CMU.EDU	others	cs.cmu.edu|from|-lrb-|false|false|false|false|false|false|false|false|false|NNP
+-LRB-	others	-lrb-|cs.cmu.edu|tania|false|false|false|false|false|false|false|false|false|-LRB-
+Tania	others	tania|-lrb-|e|true|false|false|false|false|false|false|false|false|NNP
+E	others	e|tania|marrero|false|false|true|true|false|false|false|false|false|NNP
+Marrero	others	marrero|e|-rrb-|true|false|false|false|false|true|false|false|false|NNP
+-RRB-	others	-rrb-|marrero|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+Speaker	others	speaker|_start_|maxin|true|false|false|false|false|false|false|false|false|NNP
+Maxine	speaker	maxin|speaker|eskenazi|true|false|false|false|false|true|false|false|false|NNP
+Eskenazi	speaker	eskenazi|maxin|limsi\/cnr|true|false|false|false|false|true|false|false|false|NNP
+LIMSI\/CNRS	others	limsi\/cnr|eskenazi|orsai|false|false|false|false|false|false|false|false|false|NN
+ORSAY	others	orsai|limsi\/cnr|franc|false|true|false|true|false|false|false|false|false|NNP
+FRANCE	others	franc|orsai|_end_|false|true|false|true|false|false|false|false|false|NNP
+
+December	others	decemb|_start_|20|true|false|false|false|false|false|false|false|true|NNP
+20	others	20|decemb|1993|false|false|false|false|false|false|false|false|true|CD
+1993	others	1993|20|_end_|false|false|false|false|false|false|false|false|true|CD
+
+Within	others	within|_start_|the|true|false|false|false|false|false|false|false|false|IN
+the	others	the|within|quest|false|false|false|false|false|false|false|false|false|DT
+quest	others	quest|the|to|false|false|false|false|false|false|false|false|false|NN
+to	others	to|quest|understand|false|false|false|false|false|false|false|false|false|TO
+understand	others	understand|to|and|false|false|false|false|false|false|false|false|false|VB
+and	others	and|understand|eventu|false|false|false|false|false|false|false|false|false|CC
+eventually	others	eventu|and|automat|false|false|false|false|false|false|false|false|false|RB
+automatically	others	automat|eventu|account|false|false|false|false|false|false|false|false|false|RB
+account	others	account|automat|for|false|false|false|false|false|false|false|false|false|VB
+for	others	for|account|_end_|false|false|false|false|false|false|false|false|false|IN
+
+the	others	the|_start_|inher|false|false|false|false|false|false|false|false|false|DT
+inherent	others	inher|the|variabl|false|false|false|false|false|false|false|false|false|JJ
+variability	others	variabl|inher|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|variabl|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|of|speech|false|false|false|false|false|false|false|false|false|DT
+speech	others	speech|the|signal|false|false|false|false|false|false|false|false|false|NN
+signal	others	signal|speech|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|signal|in|false|false|false|false|false|false|false|false|false|CC
+in	others	in|and|line|false|false|false|false|false|false|false|false|false|IN
+line	others	line|in|with|false|false|false|false|false|false|false|false|false|NN
+with	others	with|line|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|with|recent|false|false|false|false|false|false|false|false|false|DT
+recent	others	recent|the|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+interest	others	interest|_start_|show|false|false|false|false|false|false|false|false|false|NN
+shown	others	show|interest|by|false|false|false|false|false|false|false|false|false|VBN
+by	others	by|show|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|by|speech|false|false|false|false|false|false|false|false|false|DT
+speech	others	speech|the|commun|false|false|false|false|false|false|false|false|false|NN
+community	others	commun|speech|for|false|false|false|false|false|false|false|false|false|NN
+for	others	for|commun|spontan|false|false|false|false|false|false|false|false|false|IN
+spontaneous	others	spontan|for|speech|false|false|false|false|false|false|false|false|false|JJ
+speech	others	speech|spontan|sever|false|false|false|false|false|false|false|false|false|NN
+several	others	sever|speech|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+laboratories	others	laboratori|_start_|have|false|false|false|false|false|false|false|false|false|NNS
+have	others	have|laboratori|undertak|false|false|false|false|false|false|false|false|false|VBP
+undertaken	others	undertak|have|work|false|false|false|false|false|false|false|false|false|VBN
+work	others	work|undertak|on|false|false|false|false|false|false|false|false|false|NN
+on	others	on|work|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|on|characteris|false|false|false|false|false|false|false|false|false|DT
+characterisation	others	characteris|the|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|characteris|speak|false|false|false|false|false|false|false|false|false|IN
+speaking	others	speak|of|_end_|false|false|false|false|false|false|false|false|false|VBG
+
+styles	others	style|_start_|the|false|false|false|false|false|false|false|false|false|NNS
+The	others	the|style|divers|true|false|false|false|false|false|false|false|false|DT
+diverse	others	divers|the|speak|false|false|false|false|false|false|false|false|false|JJ
+speaking	others	speak|divers|style|false|false|false|false|false|false|false|false|false|NN
+styles	others	style|speak|that|false|false|false|false|false|false|false|false|false|NNS
+that	others	that|style|have|false|false|false|false|false|false|false|false|false|WDT
+have	others	have|that|be|false|false|false|false|false|false|false|false|false|VBP
+been	others	be|have|studi|false|false|false|false|false|false|false|false|false|VBN
+studied	others	studi|be|will|false|false|false|false|false|false|false|false|false|VBN
+will	others	will|studi|first|false|false|false|false|false|false|false|false|false|MD
+first	others	first|will|be|false|false|false|false|false|false|false|false|false|RB
+be	others	be|first|_end_|false|false|false|false|false|false|false|false|false|VB
+
+presented	others	present|_start_|then|false|false|false|false|false|false|false|false|false|VBN
+then	others	then|present|a|false|false|false|false|false|false|false|false|false|RB
+an	others	a|then|overview|false|false|false|false|false|false|false|false|false|DT
+overview	others	overview|a|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|overview|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|of|work|false|false|false|false|false|false|false|false|false|DT
+work	others	work|the|will|false|false|false|false|false|false|false|false|false|NN
+will	others	will|work|be|false|false|false|false|false|false|false|false|false|MD
+be	others	be|will|give|false|false|false|false|false|false|false|false|false|VB
+given	others	give|be|base|false|false|false|false|false|false|false|false|false|VBN
+based	others	base|give|on|false|false|false|false|false|false|false|false|false|VBN
+on	others	on|base|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|on|end|false|false|false|false|false|false|false|false|false|DT
+end	others	end|the|_end_|false|false|false|false|false|false|false|false|false|NN
+
+goals	others	goal|_start_|of|false|false|false|false|false|false|false|false|false|NNS
+of	others	of|goal|each|false|false|false|false|false|false|false|false|false|IN
+each	others	each|of|studi|false|false|false|false|false|false|false|false|false|DT
+study	others	studi|each|-lrb-|false|false|false|false|false|false|false|false|false|NN
+-LRB-	others	-lrb-|studi|amelior|false|false|false|false|false|false|false|false|false|-LRB-
+ameliorating	others	amelior|-lrb-|synthesi|false|false|false|false|false|false|false|false|false|VBG
+synthesis	others	synthesi|amelior|etc.|false|false|false|false|false|false|false|false|false|NN
+etc.	others	etc.|synthesi|-rrb-|false|false|false|false|false|false|false|false|false|NN
+-RRB-	others	-rrb-|etc.|exampl|false|false|false|false|false|false|false|false|false|-RRB-
+Examples	others	exampl|-rrb-|will|true|false|false|false|false|false|false|false|false|NNS
+will	others	will|exampl|then|false|false|false|false|false|false|false|false|false|MD
+then	others	then|will|be|false|false|false|false|false|false|false|false|false|RB
+be	others	be|then|_end_|false|false|false|false|false|false|false|false|false|VB
+
+given	others	give|_start_|of|false|false|false|false|false|false|false|false|false|VBN
+of	others	of|give|state-of-the-art|false|false|false|false|false|false|false|false|false|IN
+state-of-the-art	others	state-of-the-art|of|databas|false|false|false|false|false|false|false|false|false|JJ
+databases	others	databas|state-of-the-art|and|false|false|false|false|false|false|false|false|false|NNS
+and	others	and|databas|synthesi|false|false|false|false|false|false|false|false|false|CC
+synthesis	others	synthesi|and|final|false|false|false|false|false|false|false|false|false|NN
+Finally	others	final|synthesi|a|true|false|false|false|false|false|false|false|false|RB
+a	others	a|final|new|false|false|false|false|false|false|false|false|false|DT
+new	others	new|a|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+multi-level	others	multi-level|_start_|studi|false|false|false|false|false|false|false|false|false|JJ
+study	others	studi|multi-level|under|false|false|false|false|false|false|false|false|false|NN
+under	others	under|studi|wai|false|false|false|false|false|false|false|false|false|IN
+way	others	wai|under|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|wai|present|false|false|false|false|false|false|false|false|false|IN
+present	others	present|at|at|false|false|false|false|false|false|false|false|false|JJ
+at	others	at|present|limsi|false|false|false|false|false|false|false|false|false|IN
+LIMSI	others	limsi|at|will|false|true|false|true|false|false|false|false|false|NNP
+will	others	will|limsi|be|false|false|false|false|false|false|false|false|false|MD
+be	others	be|will|describ|false|false|false|false|false|false|false|false|false|VB
+described	others	describ|be|_end_|false|false|false|false|false|false|false|false|false|VBN
+

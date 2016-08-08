@@ -1,0 +1,75 @@
+Type	others	type|_start_|cmu.andrew.org|true|false|false|false|false|false|false|false|false|NN
+cmu.andrew.org	others	cmu.andrew.org|type|epp|false|false|false|false|false|false|false|false|false|NN
+epp	others	epp|cmu.andrew.org|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Topic	others	topic|_start_|distinguish|true|false|false|false|false|false|false|false|false|NN
+Distinguished	others	distinguish|topic|lectur|true|false|false|false|false|false|false|false|false|VBN
+Lecture	others	lectur|distinguish|seri|true|false|false|false|false|false|false|false|false|NNP
+Series	others	seri|lectur|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Dates	others	date|_start_|3-apr-95|true|false|false|false|false|false|false|false|false|NNS
+3-Apr-95	others	3-apr-95|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|4:30|true|false|false|false|false|false|false|false|false|NNP
+4:30	stime	4:30|time|_end_|false|false|false|false|false|false|false|false|false|CD
+
+PostedBy	others	postedbi|_start_|cliff|false|false|false|false|true|false|false|false|false|NNP
+Cliff	others	cliff|postedbi|davidson|true|false|false|false|false|true|false|false|false|NNP
+Davidson	others	davidson|cliff|on|true|false|false|false|false|true|false|false|false|NNP
+on	others	on|davidson|31-mar-95|false|false|false|false|false|false|false|false|false|IN
+31-Mar-95	others	31-mar-95|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|31-mar-95|12:27|false|false|false|false|false|false|false|false|false|IN
+12:27	others	12:27|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|12:27|andrew.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+andrew.cmu.edu	others	andrew.cmu.edu|from|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+Setting	others	set|_start_|risk|true|false|false|false|false|false|false|false|false|VBG
+Risk	others	risk|set|prioriti|true|false|false|false|false|false|false|false|false|NN
+Priorities	others	prioriti|risk|what|true|false|false|false|false|false|false|false|false|NNS
+What	others	what|prioriti|be|true|false|false|false|false|false|false|false|false|WP
+'s	others	be|what|the|false|false|false|false|false|false|false|false|false|VBZ
+the	others	the|be|public|false|false|false|false|false|false|false|false|false|DT
+Public	others	public|the|'s|true|false|false|false|false|false|false|false|false|NNP
+'s	others	's|public|role|false|false|false|false|false|false|false|false|false|POS
+Role	others	role|'s|_end_|true|false|false|false|false|false|false|false|false|NN
+
+Panel	others	panel|_start_|discuss|true|false|false|false|false|false|false|false|false|NN
+Discussion	others	discuss|panel|with|true|false|false|false|false|false|false|false|false|NN
+with	others	with|discuss|_end_|false|false|false|false|false|false|false|false|false|IN
+
+John	speaker	john|_start_|graham|true|false|false|false|false|true|false|false|false|NNP
+Graham	speaker	graham|john|-lrb-|true|false|false|false|false|true|false|false|false|NNP
+-LRB-	others	-lrb-|graham|harvard|false|false|false|false|false|false|false|false|false|-LRB-
+Harvard	others	harvard|-lrb-|center|true|false|false|false|false|false|false|false|false|NNP
+Center	others	center|harvard|for|true|false|false|false|false|false|false|false|false|NNP
+for	others	for|center|risk|false|false|false|false|false|false|false|false|false|IN
+Risk	others	risk|for|analysi|true|false|false|false|false|false|false|false|false|NN
+Analysis	others	analysi|risk|-rrb-|true|false|false|false|false|false|false|false|false|NN
+-RRB-	others	-rrb-|analysi|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+and	others	and|_start_|_end_|false|false|false|false|false|false|false|false|false|CC
+
+Paul	speaker	paul|_start_|slovic|true|false|false|false|false|true|false|false|false|NNP
+Slovic	speaker	slovic|paul|-lrb-|true|false|false|false|false|true|false|false|false|NNP
+-LRB-	others	-lrb-|slovic|decis|false|false|false|false|false|false|false|false|false|-LRB-
+Decision	others	decis|-lrb-|research|true|false|false|false|false|false|false|false|false|NNP
+Research	others	research|decis|-rrb-|true|false|false|false|false|false|false|false|false|NNP
+-RRB-	others	-rrb-|research|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+Moderator	others	moder|_start_|baruch|true|false|false|false|false|false|false|false|false|NNP
+Baruch	others	baruch|moder|fischhoff|true|false|false|false|false|true|false|false|false|NNP
+Fischhoff	others	fischhoff|baruch|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+Monday	others	mondai|_start_|april|true|false|false|false|false|false|false|false|true|NNP
+April	others	april|mondai|3|true|false|false|false|false|false|false|false|true|NNP
+3	others	3|april|4:30|false|false|false|false|false|false|false|false|true|CD
+4:30	stime	4:30|3|_end_|false|false|false|false|false|false|false|false|false|CD
+
+Reception	others	recept|_start_|follow|true|false|false|false|false|false|false|false|false|NN
+Following	others	follow|recept|the|true|false|false|false|false|false|false|false|false|VBG
+the	others	the|follow|panel|false|false|false|false|false|false|false|false|false|DT
+Panel	others	panel|the|discuss|true|false|false|false|false|false|false|false|false|NNP
+Discussion	others	discuss|panel|_end_|true|false|false|false|false|false|false|false|false|NNP
+

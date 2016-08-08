@@ -1,0 +1,72 @@
+Type	others	type|_start_|cmu|true|false|false|false|false|false|false|false|false|NN
+cmu	others	cmu|type|c|false|false|false|false|false|false|false|false|false|NN
+cs	others	c|cmu|proj|false|false|false|false|false|false|false|false|false|NNS
+proj	others	proj|c|vda|false|false|false|false|false|false|false|false|false|NN
+vdata	others	vda|proj|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Topic	others	topic|_start_|remind|true|false|false|false|false|false|false|false|false|NN
+Reminder	others	remind|topic|vision|true|false|false|false|false|false|false|false|false|NN
+Vision	others	vision|remind|seminar|true|false|false|false|false|false|false|false|false|NNP
+Seminar	others	seminar|vision|todai|true|false|false|false|false|false|false|false|false|NNP
+TODAY	others	todai|seminar|_end_|false|true|false|true|false|false|false|false|true|NNP
+
+Dates	others	date|_start_|10-dec-90|true|false|false|false|false|false|false|false|false|NNS
+10-Dec-90	others	10-dec-90|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|3:30|true|false|false|false|false|false|false|false|false|NNP
+3:30	stime	3:30|time|pm|false|false|false|false|false|false|false|false|false|CD
+PM	stime	pm|3:30|_end_|false|true|false|true|false|false|false|false|false|NN
+
+PostedBy	others	postedbi|_start_|dave|false|false|false|false|true|false|false|false|false|NNP
+Dave	others	dave|postedbi|mckeown|true|false|false|false|false|true|false|false|false|NNP
+McKeown	others	mckeown|dave|on|false|false|false|false|false|true|false|false|false|NNP
+on	others	on|mckeown|10-dec-90|false|false|false|false|false|false|false|false|false|IN
+10-Dec-90	others	10-dec-90|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|10-dec-90|10:27|false|false|false|false|false|false|false|false|false|IN
+10:27	others	10:27|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|10:27|maps.cs.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+MAPS.CS.CMU.EDU	others	maps.cs.cmu.edu|from|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+There	others	there|_start_|will|true|false|false|false|false|false|false|false|false|EX
+will	others	will|there|be|false|false|false|false|false|false|false|false|false|MD
+be	others	be|will|a|false|false|false|false|false|false|false|false|false|VB
+a	others	a|be|special|false|false|false|false|false|false|false|false|false|DT
+special	others	special|a|vision|false|false|false|false|false|false|false|false|false|JJ
+vision	others	vision|special|seminar|false|false|false|false|false|false|false|false|false|NN
+seminar	others	seminar|vision|todai|false|false|false|false|false|false|false|false|false|NN
+TODAY	others	todai|seminar|at|false|true|false|true|false|false|false|false|true|NN
+at	others	at|todai|3:30|false|false|false|false|false|false|false|false|false|IN
+3:30	stime	3:30|at|pm|false|false|false|false|false|false|false|false|false|CD
+pm	stime	pm|3:30|in|false|false|false|false|false|false|false|false|false|NN
+in	others	in|pm|7220|false|false|false|false|false|false|false|false|false|IN
+7220	location	7220|in|wean|false|false|false|false|false|false|false|false|false|CD
+Wean	location	wean|7220|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+The	others	the|_start_|speaker|true|false|false|false|false|false|false|false|false|DT
+speaker	others	speaker|the|be|false|false|false|false|false|false|false|false|false|NN
+is	others	be|speaker|steve|false|false|false|false|false|false|false|false|false|VBZ
+Steve	speaker	steve|be|cochran|true|false|false|false|false|true|false|false|false|NNP
+Cochran	speaker	cochran|steve|-lrb-|true|false|false|false|false|true|false|false|false|NNP
+-LRB-	others	-lrb-|cochran|usc|false|false|false|false|false|false|false|false|false|-LRB-
+USC	others	usc|-lrb-|-rrb-|false|true|false|true|false|false|false|false|false|NN
+-RRB-	others	-rrb-|usc|on|false|false|false|false|false|false|false|false|false|-RRB-
+on	others	on|-rrb-|surfac|false|false|false|false|false|false|false|false|false|IN
+Surface	others	surfac|on|descript|true|false|false|false|false|false|false|false|false|NN
+Description	others	descript|surfac|from|true|false|false|false|false|false|false|false|false|NN
+from	others	from|descript|binocular|false|false|false|false|false|false|false|false|false|IN
+Binocular	others	binocular|from|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+Stereo	others	stereo|_start_|the|true|false|false|false|false|false|false|false|false|NN
+The	others	the|stereo|abstract|true|false|false|false|false|false|false|false|false|DT
+abstract	others	abstract|the|have|false|false|false|false|false|false|false|false|false|JJ
+has	others	have|abstract|be|false|false|false|false|false|false|false|false|false|VBZ
+been	others	be|have|post|false|false|false|false|false|false|false|false|false|VBN
+posted	others	post|be|on|false|false|false|false|false|false|false|false|false|VBN
+on	others	on|post|physic|false|false|false|false|false|false|false|false|false|IN
+physical	others	physic|on|bboard|false|false|false|false|false|false|false|false|false|JJ
+bboards	others	bboard|physic|and|false|false|false|false|false|false|false|false|false|NNS
+and	others	and|bboard|cboard|false|false|false|false|false|false|false|false|false|CC
+cboard	others	cboard|and|_end_|false|false|false|false|false|false|false|false|false|NN
+

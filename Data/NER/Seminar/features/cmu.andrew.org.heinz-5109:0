@@ -1,0 +1,81 @@
+Type	others	type|_start_|cmu.andrew.org|true|false|false|false|false|false|false|false|false|NN
+cmu.andrew.org	others	cmu.andrew.org|type|heinz|false|false|false|false|false|false|false|false|false|NN
+heinz	others	heinz|cmu.andrew.org|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Topic	others	topic|_start_|fwd|true|false|false|false|false|false|false|false|false|NN
+Fwd	others	fwd|topic|mike|true|false|false|false|false|false|false|false|false|NN
+Mike	speaker	mike|fwd|davi|true|false|false|false|false|true|false|false|false|NNP
+Davis	speaker	davi|mike|lectur|true|false|false|false|false|true|false|false|false|NNP
+Lectures	others	lectur|davi|_end_|true|false|false|false|false|false|false|false|false|VBZ
+
+Dates	others	date|_start_|27-oct-93|true|false|false|false|false|false|false|false|false|NNS
+27-Oct-93	others	27-oct-93|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|4:30|true|false|false|false|false|false|false|false|false|NNP
+4:30	stime	4:30|time|pm|false|false|false|false|false|false|false|false|false|CD
+PM	stime	pm|4:30|_end_|false|true|false|true|false|false|false|false|false|NN
+
+PostedBy	others	postedbi|_start_|sandi|false|false|false|false|true|false|false|false|false|NNP
+Sandy	others	sandi|postedbi|dai|true|false|false|false|false|false|false|false|false|NNP
+Day	others	dai|sandi|on|true|false|false|false|false|false|false|false|false|NNP
+on	others	on|dai|20-oct-93|false|false|false|false|false|false|false|false|false|IN
+20-Oct-93	others	20-oct-93|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|20-oct-93|10:04|false|false|false|false|false|false|false|false|false|IN
+10:04	others	10:04|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|10:04|andrew.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+andrew.cmu.edu	others	andrew.cmu.edu|from|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+MIKE	speaker	mike|_start_|davi|false|true|false|true|false|true|false|false|false|NNP
+DAVIS	speaker	davi|mike|to|false|true|false|true|false|true|false|false|false|NNP
+TO	others	to|davi|talk|false|true|false|true|false|false|false|false|false|TO
+TALK	others	talk|to|at|false|true|false|true|false|false|false|false|false|NNP
+AT	others	at|talk|carnegi|false|true|false|true|false|false|false|false|false|IN
+CARNEGIE	others	carnegi|at|mellon|false|true|false|true|false|false|false|false|false|NNP
+MELLON	others	mellon|carnegi|_end_|false|true|false|true|false|false|false|false|false|NNP
+
+Mike	speaker	mike|_start_|davi|true|false|false|false|false|true|false|false|false|NNP
+Davis	speaker	davi|mike|polit|true|false|false|false|false|true|false|false|false|NNP
+political	others	polit|davi|activist|false|false|false|false|false|false|false|false|false|JJ
+activist	others	activist|polit|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|activist|urban|false|false|false|false|false|false|false|false|false|CC
+urban	others	urban|and|theorist|false|false|false|false|false|false|false|false|false|JJ
+theorist	others	theorist|urban|will|false|false|false|false|false|false|false|false|false|NN
+will	others	will|theorist|discuss|false|false|false|false|false|false|false|false|false|MD
+discuss	others	discuss|will|lo|false|false|false|false|false|false|false|false|false|VB
+Los	others	lo|discuss|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Angeles	others	angel|_start_|recent|true|false|false|false|false|false|false|false|false|NNP
+recent	others	recent|angel|crisi|false|false|false|false|false|false|false|false|false|JJ
+crises	others	crisi|recent|and|false|false|false|false|false|false|false|false|false|NNS
+and	others	and|crisi|futur|false|false|false|false|false|false|false|false|false|CC
+future	others	futur|and|prospect|false|false|false|false|false|false|false|false|false|JJ
+prospects	others	prospect|futur|in|false|false|false|false|false|false|false|false|false|NNS
+in	others	in|prospect|two|false|false|false|false|false|false|false|false|false|IN
+two	others	two|in|lectur|false|false|false|false|false|false|false|false|false|CD
+lectures	others	lectur|two|at|false|false|false|false|false|false|false|false|false|VBZ
+at	others	at|lectur|carnegi|false|false|false|false|false|false|false|false|false|IN
+Carnegie	others	carnegi|at|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Mellon	others	mellon|_start_|next|true|false|false|false|false|false|false|false|false|NNP
+next	others	next|mellon|week|false|false|false|false|false|false|false|false|true|JJ
+week	others	week|next|_end_|false|false|false|false|false|false|false|false|true|NN
+
+Wednesday	others	wednesdai|_start_|oct.|true|false|false|false|false|false|false|false|true|NNP
+Oct.	others	oct.|wednesdai|27|false|false|false|false|false|false|false|false|true|NNP
+27	others	27|oct.|4:30|false|false|false|false|false|false|false|false|true|CD
+4:30	stime	4:30|27|p.|false|false|false|false|false|false|false|false|false|CD
+p.	stime	p.|4:30|m|false|false|false|false|false|false|false|false|false|NN
+m	stime	m|p.|skibo|false|false|false|false|false|false|false|false|false|NN
+Skibo	location	skibo|m|ballroom|true|false|false|false|false|false|false|false|false|NNP
+Ballroom	location	ballroom|skibo|ecolog|true|false|false|false|false|false|false|false|false|NN
+Ecology	others	ecolog|ballroom|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|ecolog|fear|false|false|false|false|false|false|false|false|false|IN
+Fear	others	fear|of|gangster|true|false|false|false|false|false|false|false|false|NN
+Gangsters	others	gangster|fear|_end_|true|false|false|false|false|false|false|false|false|NNS
+
+Cops	others	cop|_start_|and|true|false|false|false|false|false|false|false|false|NNS
+and	others	and|cop|homeown|false|false|false|false|false|false|false|false|false|CC
+Homeowners	others	homeown|and|_end_|true|false|false|false|false|false|false|false|false|NNS
+

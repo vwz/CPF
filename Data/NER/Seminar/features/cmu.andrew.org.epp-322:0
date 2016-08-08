@@ -1,0 +1,84 @@
+Type	others	type|_start_|cmu.andrew.org|true|false|false|false|false|false|false|false|false|NN
+cmu.andrew.org	others	cmu.andrew.org|type|epp|false|false|false|false|false|false|false|false|false|NN
+epp	others	epp|cmu.andrew.org|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Topic	others	topic|_start_|epp|true|false|false|false|false|false|false|false|false|NN
+EPP	others	epp|topic|seminar|false|true|false|true|false|false|false|false|false|NN
+Seminar	others	seminar|epp|seri|true|false|false|false|false|false|false|false|false|NNP
+Series	others	seri|seminar|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Dates	others	date|_start_|11-nov-93|true|false|false|false|false|false|false|false|false|NNS
+11-Nov-93	others	11-nov-93|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|4:30|true|false|false|false|false|false|false|false|false|NNP
+4:30	stime	4:30|time|pm|false|false|false|false|false|false|false|false|false|CD
+PM	stime	pm|4:30|_end_|false|true|false|true|false|false|false|false|false|NN
+
+PostedBy	others	postedbi|_start_|tse-sung|false|false|false|false|true|false|false|false|false|NNP
+Tse-Sung	others	tse-sung|postedbi|wu|false|false|false|false|false|true|false|false|false|NNP
+Wu	others	wu|tse-sung|on|true|false|false|false|false|true|false|false|false|NNP
+on	others	on|wu|3-nov-93|false|false|false|false|false|false|false|false|false|IN
+3-Nov-93	others	3-nov-93|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|3-nov-93|10:14|false|false|false|false|false|false|false|false|false|IN
+10:14	others	10:14|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|10:14|andrew.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+andrew.cmu.edu	others	andrew.cmu.edu|from|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+The	others	the|_start_|next|true|false|false|false|false|false|false|false|false|DT
+next	others	next|the|engin|false|false|false|false|false|false|false|false|false|JJ
+Engineering	others	engin|next|and|true|false|false|false|false|false|false|false|false|NNP
+and	others	and|engin|public|false|false|false|false|false|false|false|false|false|CC
+Public	others	public|and|polici|true|false|false|false|false|false|false|false|false|NNP
+Policy	others	polici|public|department|true|false|false|false|false|false|false|false|false|NNP
+departmental	others	department|polici|seminar|false|false|false|false|false|false|false|false|false|JJ
+seminar	others	seminar|department|will|false|false|false|false|false|false|false|false|false|NN
+will	others	will|seminar|take|false|false|false|false|false|false|false|false|false|MD
+take	others	take|will|place|false|false|false|false|false|false|false|false|false|VB
+place	others	place|take|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Thursday	others	thursdai|_start_|novemb|true|false|false|false|false|false|false|false|true|NNP
+November	others	novemb|thursdai|11|true|false|false|false|false|false|false|false|true|NNP
+11	others	11|novemb|at|false|false|false|false|false|false|false|false|true|CD
+at	others	at|11|4:30|false|false|false|false|false|false|false|false|false|IN
+4:30	stime	4:30|at|pm|false|false|false|false|false|false|false|false|false|CD
+pm	stime	pm|4:30|_end_|false|false|false|false|false|false|false|false|false|NN
+
+in	others	in|_start_|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|in|epp|false|false|false|false|false|false|false|false|false|DT
+EPP	location	epp|the|confer|false|true|false|true|false|false|false|false|false|NN
+conference	location	confer|epp|room|false|false|false|false|false|false|false|false|false|NN
+room	location	room|confer|locat|false|false|false|false|false|false|false|false|false|NN
+located	location	locat|room|in|false|false|false|false|false|false|false|false|false|JJ
+in	location	in|locat|bh|false|false|false|false|false|false|false|false|false|IN
+BH	location	bh|in|129|false|true|false|true|false|false|false|false|false|NN
+129	location	129|bh|_end_|false|false|false|false|false|false|false|false|false|CD
+
+Keith	speaker	keith|_start_|florig|true|false|false|false|false|true|false|false|false|NNP
+Florig	speaker	florig|keith|-lrb-|true|false|false|false|false|true|false|false|false|NNP
+-LRB-	others	-lrb-|florig|phd|false|false|false|false|false|false|false|false|false|-LRB-
+PhD	others	phd|-lrb-|1986|false|false|false|false|false|true|false|false|false|NN
+1986	others	1986|phd|-rrb-|false|false|false|false|false|false|false|false|true|CD
+-RRB-	others	-rrb-|1986|of|false|false|false|false|false|false|false|false|false|-RRB-
+of	others	of|-rrb-|rff|false|false|false|false|false|false|false|false|false|IN
+RFF	others	rff|of|_end_|false|true|false|true|false|false|false|false|false|NN
+
+on	others	on|_start_|china|false|false|false|false|false|false|false|false|false|IN
+China	others	china|on|and|true|false|false|false|false|false|false|false|false|NNP
+and	others	and|china|the|false|false|false|false|false|false|false|false|false|CC
+the	others	the|and|environ|false|false|false|false|false|false|false|false|false|DT
+Environment	others	environ|the|_end_|true|false|false|false|false|false|false|false|false|NN
+
+and	others	and|_start_|life|false|false|false|false|false|false|false|false|false|CC
+life	others	life|and|after|false|false|false|false|false|false|false|false|false|NN
+after	others	after|life|grad|false|false|false|false|false|false|false|false|false|IN
+grad	others	grad|after|school|false|false|false|false|false|false|false|false|false|JJ
+school	others	school|grad|_end_|false|false|false|false|false|false|false|false|false|NN
+
+All	others	all|_start_|be|true|false|false|false|false|false|false|false|false|DT
+are	others	be|all|invit|false|false|false|false|false|false|false|false|false|VBP
+invited	others	invit|be|to|false|false|false|false|false|false|false|false|false|VBN
+to	others	to|invit|attend|false|false|false|false|false|false|false|false|false|TO
+attend	others	attend|to|_end_|false|false|false|false|false|false|false|false|false|VB
+

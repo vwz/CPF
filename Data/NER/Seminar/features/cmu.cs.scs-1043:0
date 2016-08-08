@@ -1,0 +1,105 @@
+Type	others	type|_start_|cmu|true|false|false|false|false|false|false|false|false|NN
+cmu	others	cmu|type|c|false|false|false|false|false|false|false|false|false|NN
+cs	others	c|cmu|sc|false|false|false|false|false|false|false|false|false|NNS
+scs	others	sc|c|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+Topic	others	topic|_start_|talk|true|false|false|false|false|false|false|false|false|NN
+Talk	others	talk|topic|dtm|true|false|false|false|false|false|false|false|false|NN
+DTM	others	dtm|talk|from|false|true|false|true|false|false|false|false|false|NNP
+from	others	from|dtm|spot|false|false|false|false|false|false|false|false|false|IN
+SPOT	others	spot|from|and|false|true|false|true|false|false|false|false|false|NNP
+and	others	and|spot|aerial|false|false|false|false|false|false|false|false|false|CC
+Aerial	others	aerial|and|imag|true|false|false|false|false|false|false|false|false|NNP
+Images	others	imag|aerial|_end_|true|false|false|false|false|false|false|false|false|NNPS
+
+Dates	others	date|_start_|11-aug-92|true|false|false|false|false|false|false|false|false|NNS
+11-Aug-92	others	11-aug-92|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|2:00|true|false|false|false|false|false|false|false|false|NNP
+2:00	stime	2:00|time|pm|false|false|false|false|false|false|false|false|false|CD
+PM	stime	pm|2:00|_end_|false|true|false|true|false|false|false|false|false|NN
+
+PostedBy	others	postedbi|_start_|wah|false|false|false|false|true|false|false|false|false|NNP
+wah	others	wah|postedbi|on|false|false|false|false|false|false|false|false|false|NN
+on	others	on|wah|11-aug-92|false|false|false|false|false|false|false|false|false|IN
+11-Aug-92	others	11-aug-92|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|11-aug-92|12:54|false|false|false|false|false|false|false|false|false|IN
+12:54	others	12:54|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|12:54|maps.cs.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+MAPS.CS.CMU.EDU	others	maps.cs.cmu.edu|from|-lrb-|false|false|false|false|false|false|false|false|false|NN
+-LRB-	others	-lrb-|maps.cs.cmu.edu|wilson|false|false|false|false|false|false|false|false|false|-LRB-
+Wilson	others	wilson|-lrb-|harvei|true|false|false|false|false|true|false|false|false|NNP
+Harvey	others	harvei|wilson|-rrb-|true|false|false|false|false|true|false|false|false|NNP
+-RRB-	others	-rrb-|harvei|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+
+Today	others	todai|_start_|at|true|false|false|false|false|false|false|false|true|NN
+at	others	at|todai|2pm|false|false|false|false|false|false|false|false|false|IN
+2PM	others	2pm|at|in|false|false|false|false|false|false|false|false|false|NNP
+in	others	in|2pm|weh|false|false|false|false|false|false|false|false|false|IN
+WeH	location	weh|in|4625|false|false|false|false|false|false|false|false|false|NNP
+4625	location	4625|weh|laurent|false|false|false|false|false|false|false|false|false|CD
+Laurent	speaker	laurent|4625|renouard|true|false|false|false|false|true|false|false|false|NNP
+Renouard	speaker	renouard|laurent|of|true|false|false|false|false|true|false|false|false|NNP
+of	others	of|renouard|istar|false|false|false|false|false|false|false|false|false|IN
+ISTAR	others	istar|of|a|false|true|false|true|false|false|false|false|false|NNP
+a	others	a|istar|french|false|false|false|false|false|false|false|false|false|DT
+French	others	french|a|compari|true|false|false|false|false|false|false|false|false|JJ
+compary	others	compari|french|_end_|false|false|false|false|false|false|false|false|false|NN
+
+focussing	others	focu|_start_|on|false|false|false|false|false|false|false|false|false|VBG
+on	others	on|focu|issu|false|false|false|false|false|false|false|false|false|IN
+issues	others	issu|on|in|false|false|false|false|false|false|false|false|false|NNS
+in	others	in|issu|remot|false|false|false|false|false|false|false|false|false|IN
+remote	others	remot|in|sens|false|false|false|false|false|false|false|false|false|JJ
+sensing	others	sens|remot|will|false|false|false|false|false|false|false|false|false|VBG
+will	others	will|sens|be|false|false|false|false|false|false|false|false|false|MD
+be	others	be|will|give|false|false|false|false|false|false|false|false|false|VB
+giving	others	give|be|a|false|false|false|false|false|false|false|false|false|VBG
+a	others	a|give|brief|false|false|false|false|false|false|false|false|false|DT
+brief	others	brief|a|talk|false|false|false|false|false|false|false|false|false|JJ
+talk	others	talk|brief|entitl|false|false|false|false|false|false|false|false|false|NN
+entitled	others	entitl|talk|_end_|false|false|false|false|false|false|false|false|false|VBN
+
+DTM	others	dtm|_start_|from|false|true|false|true|false|false|false|false|false|NNP
+from	others	from|dtm|spot|false|false|false|false|false|false|false|false|false|IN
+SPOT	others	spot|from|and|false|true|false|true|false|false|false|false|false|NNP
+and	others	and|spot|aerial|false|false|false|false|false|false|false|false|false|CC
+Aerial	others	aerial|and|imag|true|false|false|false|false|false|false|false|false|NNP
+Images	others	imag|aerial|addition|true|false|false|false|false|false|false|false|false|NNPS
+Additionally	others	addition|imag|freder|true|false|false|false|false|false|false|false|false|RB
+Frederic	speaker	freder|addition|perlant|true|false|false|false|false|true|false|false|false|NNP
+Perlant	speaker	perlant|freder|will|true|false|false|false|false|true|false|false|false|NNP
+will	others	will|perlant|_end_|false|false|false|false|false|false|false|false|false|MD
+
+present	others	present|_start_|some|false|false|false|false|false|false|false|false|false|JJ
+some	others	some|present|preliminari|false|false|false|false|false|false|false|false|false|DT
+preliminary	others	preliminari|some|result|false|false|false|false|false|false|false|false|false|JJ
+results	others	result|preliminari|do|false|false|false|false|false|false|false|false|false|NNS
+doing	others	do|result|interferometri|false|false|false|false|false|false|false|false|false|VBG
+interferometry	others	interferometri|do|with|false|false|false|false|false|false|false|false|false|NN
+with	others	with|interferometri|radar|false|false|false|false|false|false|false|false|false|IN
+RADAR	others	radar|with|imageri|false|true|false|true|false|false|false|false|false|NN
+imagery	others	imageri|radar|_end_|false|false|false|false|false|false|false|false|false|NN
+
+
+W.	others	w.|_start_|a.|false|false|false|false|false|false|false|false|false|NNP
+A.	others	a.|w.|harvei|false|false|false|false|false|false|false|false|false|NNP
+Harvey	others	harvei|a.|school|true|false|false|false|false|false|false|false|false|NNP
+School	others	school|harvei|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|school|comput|false|false|false|false|false|false|false|false|false|IN
+Computer	others	comput|of|scienc|true|false|false|false|false|false|false|false|false|NNP
+Science	others	scienc|comput|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+wah+@cs.cmu.edu	others	wah+@cs.cmu.edu|_start_|carnegi|false|false|false|false|false|false|false|false|false|NN
+Carnegie	others	carnegi|wah+@cs.cmu.edu|mellon|true|false|false|false|false|false|false|false|false|NNP
+Mellon	others	mellon|carnegi|univers|true|false|false|false|false|false|false|false|false|NNP
+University	others	univers|mellon|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+412-268-7552	others	412-268-7552|_start_|pittsburgh|false|false|false|false|false|false|false|false|false|CD
+Pittsburgh	others	pittsburgh|412-268-7552|pa|true|false|false|false|false|false|false|false|false|NNP
+PA	others	pa|pittsburgh|15213-3890|false|true|false|true|false|false|false|false|false|NN
+15213-3890	others	15213-3890|pa|_end_|false|false|false|false|false|false|false|false|false|CD
+

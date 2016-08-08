@@ -1,0 +1,86 @@
+Type	others	type|_start_|cmu.andrew.org|true|false|false|false|false|false|false|false|false|NN
+cmu.andrew.org	others	cmu.andrew.org|type|epp|false|false|false|false|false|false|false|false|false|NN
+epp	others	epp|cmu.andrew.org|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Topic	others	topic|_start_|ee|true|false|false|false|false|false|false|false|false|NN
+EES	others	ee|topic|spring|false|true|false|true|false|false|false|false|false|NNP
+Spring	others	spring|ee|seminar|true|false|false|false|false|false|false|false|true|NNP
+Seminars	others	seminar|spring|ii|true|false|false|false|false|false|false|false|false|NNP
+II	others	ii|seminar|_end_|false|true|false|true|false|false|false|false|false|NNP
+
+Dates	others	date|_start_|29-mar-95|true|false|false|false|false|false|false|false|false|NNS
+29-Mar-95	others	29-mar-95|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|4:00|true|false|false|false|false|false|false|false|false|NNP
+4:00	stime	4:00|time|_end_|false|false|false|false|false|false|false|false|false|CD
+
+PostedBy	others	postedbi|_start_|david|false|false|false|false|true|false|false|false|false|NNP
+David	others	david|postedbi|adam|true|false|false|false|false|true|false|false|false|NNP
+Adam	others	adam|david|dzombak|true|false|false|false|false|true|false|false|false|NNP
+Dzombak	others	dzombak|adam|on|true|false|false|false|false|true|false|false|false|NNP
+on	others	on|dzombak|17-feb-95|false|false|false|false|false|false|false|false|false|IN
+17-Feb-95	others	17-feb-95|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|17-feb-95|10:30|false|false|false|false|false|false|false|false|false|IN
+10:30	others	10:30|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|10:30|andrew.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+andrew.cmu.edu	others	andrew.cmu.edu|from|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+DEPARTMENT	others	depart|_start_|of|false|true|false|true|false|false|false|false|false|NNP
+OF	others	of|depart|civil|false|true|false|true|false|false|false|false|false|IN
+CIVIL	others	civil|of|and|false|true|false|true|false|false|false|false|false|NNP
+AND	others	and|civil|environment|false|true|false|true|false|false|false|false|false|CC
+ENVIRONMENTAL	others	environment|and|engin|false|true|false|true|false|false|false|false|false|JJ
+ENGINEERING	others	engin|environment|_end_|false|true|false|true|false|false|false|false|false|NN
+
+CARNEGIE	others	carnegi|_start_|mellon|false|true|false|true|false|false|false|false|false|NNP
+MELLON	others	mellon|carnegi|univers|false|true|false|true|false|false|false|false|false|NNP
+UNIVERSITY	others	univers|mellon|_end_|false|true|false|true|false|false|false|false|false|NNP
+
+ENVIRONMENTAL	others	environment|_start_|engin|false|true|false|true|false|false|false|false|false|JJ
+ENGINEERING	others	engin|environment|and|false|true|false|true|false|false|false|false|false|NN
+AND	others	and|engin|scienc|false|true|false|true|false|false|false|false|false|CC
+SCIENCE	others	scienc|and|seminar|false|true|false|true|false|false|false|false|false|NN
+SEMINARS	others	seminar|scienc|_end_|false|true|false|true|false|false|false|false|false|NNS
+
+SPRING	others	spring|_start_|1995|false|true|false|true|false|false|false|false|true|VBG
+1995	others	1995|spring|_end_|false|false|false|false|false|false|false|false|true|CD
+
+DATE	others	date|_start_|room|false|true|false|true|false|false|false|false|false|NN
+ROOM	others	room|date|time|false|true|false|true|false|false|false|false|false|NN
+TIME	others	time|room|speaker|false|true|false|true|false|false|false|false|false|NN
+SPEAKER	others	speaker|time|topic|false|true|false|true|false|false|false|false|false|NN
+TOPIC	others	topic|speaker|_end_|false|true|false|true|false|false|false|false|false|NN
+
+3\/29c	others	3\/29c|_start_|ph|false|false|false|false|false|false|false|false|false|JJ
+PH	location	ph|3\/29c|100|false|true|false|true|false|false|false|false|false|NN
+100	location	100|ph|4:00|false|false|false|false|false|false|false|false|false|CD
+4:00	stime	4:00|100|dr.|false|false|false|false|false|false|false|false|false|CD
+Dr.	speaker	dr.|4:00|alexand|false|false|false|false|false|true|false|false|false|NNP
+Alexander	speaker	alexand|dr.|zehnder|true|false|false|false|false|true|false|false|false|NNP
+Zehnder	speaker	zehnder|alexand|bioavail|true|false|false|false|false|true|false|false|false|NNP
+Bioavailability	others	bioavail|zehnder|a|true|false|false|false|false|false|false|false|false|NNP
+A	others	a|bioavail|_end_|false|false|true|true|false|false|false|false|false|NN
+
+Swiss	others	swiss|_start_|feder|true|false|false|false|false|false|false|false|false|NNP
+Federal	others	feder|swiss|institut|true|false|false|false|false|false|false|false|false|NNP
+Institute	others	institut|feder|major|true|false|false|false|false|false|false|false|false|NNP
+Major	others	major|institut|limit|true|false|false|false|false|false|false|false|false|NNP
+Limiting	others	limit|major|factor|true|false|false|false|false|false|false|false|false|VBG
+Factor	others	factor|limit|_end_|true|false|false|false|false|false|false|false|false|NN
+
+for	others	for|_start_|env|false|false|false|false|false|false|false|false|false|IN
+Env	others	env|for|sci|true|false|false|false|false|false|false|false|false|NN
+Sci	others	sci|env|and|true|false|false|false|false|false|false|false|false|NNP
+and	others	and|sci|tech|false|false|false|false|false|false|false|false|false|CC
+Tech	others	tech|and|control|true|false|false|false|false|false|false|false|false|NNP
+Controlling	others	control|tech|microbi|true|false|false|false|false|false|false|false|false|NNP
+Microbial	others	microbi|control|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Activities	others	activ|_start_|in|true|false|false|false|false|false|false|false|false|NNS
+in	others	in|activ|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|in|_end_|false|false|false|false|false|false|false|false|false|DT
+
+Environment	others	environ|_start_|_end_|true|false|false|false|false|false|false|false|false|NN
+

@@ -1,0 +1,276 @@
+Type	others	type|_start_|cmu.andrew.org|true|false|false|false|false|false|false|false|false|NN
+cmu.andrew.org	others	cmu.andrew.org|type|heinz|false|false|false|false|false|false|false|false|false|NN
+heinz	others	heinz|cmu.andrew.org|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Topic	others	topic|_start_|epp|true|false|false|false|false|false|false|false|false|NN
+EPP	others	epp|topic|seminar|false|true|false|true|false|false|false|false|false|NN
+Seminar	others	seminar|epp|_end_|true|false|false|false|false|false|false|false|false|NN
+
+Dates	others	date|_start_|1-oct-92|true|false|false|false|false|false|false|false|false|NNS
+1-Oct-92	others	1-oct-92|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|4:00|true|false|false|false|false|false|false|false|false|NNP
+4:00	stime	4:00|time|pm|false|false|false|false|false|false|false|false|false|CD
+PM	stime	pm|4:00|_end_|false|true|false|true|false|false|false|false|false|NN
+
+PostedBy	others	postedbi|_start_|milind|false|false|false|false|true|false|false|false|false|NNP
+Milind	others	milind|postedbi|kandlikar|true|false|false|false|false|true|false|false|false|NNP
+Kandlikar	others	kandlikar|milind|on|true|false|false|false|false|true|false|false|false|NNP
+on	others	on|kandlikar|30-sep-92|false|false|false|false|false|false|false|false|false|IN
+30-Sep-92	others	30-sep-92|on|at|false|false|false|false|false|false|false|false|false|NNP
+at	others	at|30-sep-92|10:23|false|false|false|false|false|false|false|false|false|IN
+10:23	others	10:23|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|10:23|andrew.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+andrew.cmu.edu	others	andrew.cmu.edu|from|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+EPP	location	epp|_start_|confer|false|true|false|true|false|false|false|false|false|NN
+Conference	location	confer|epp|room|true|false|false|false|false|false|false|false|false|NN
+Room	location	room|confer|_end_|true|false|false|false|false|false|false|false|false|NN
+
+Baker	others	baker|_start_|hall|true|false|false|false|false|true|false|false|false|NNP
+Hall	others	hall|baker|129|true|false|false|false|false|true|false|false|false|NNP
+129	others	129|hall|_end_|false|false|false|false|false|false|false|false|false|CD
+
+Thursday	others	thursdai|_start_|octob|true|false|false|false|false|false|false|false|true|NNP
+October	others	octob|thursdai|1|true|false|false|false|false|false|false|false|true|NNP
+1	others	1|octob|1992|false|false|false|false|false|false|false|false|true|CD
+1992	others	1992|1|_end_|false|false|false|false|false|false|false|false|true|CD
+
+In	others	in|_start_|mani|true|false|false|false|false|false|false|false|false|IN
+many	others	mani|in|environment|false|false|false|false|false|false|false|false|false|JJ
+environmental	others	environment|mani|polici|false|false|false|false|false|false|false|false|false|JJ
+policy	others	polici|environment|problem|false|false|false|false|false|false|false|false|false|NN
+problems	others	problem|polici|the|false|false|false|false|false|false|false|false|false|NNS
+the	others	the|problem|distinct|false|false|false|false|false|false|false|false|false|DT
+distinction	others	distinct|the|between|false|false|false|false|false|false|false|false|false|NN
+between	others	between|distinct|_end_|false|false|false|false|false|false|false|false|false|IN
+
+variability	others	variabl|_start_|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|variabl|uncertainti|false|false|false|false|false|false|false|false|false|CC
+uncertainty	others	uncertainti|and|be|false|false|false|false|false|false|false|false|false|NN
+is	others	be|uncertainti|quit|false|false|false|false|false|false|false|false|false|VBZ
+quite	others	quit|be|import|false|false|false|false|false|false|false|false|false|RB
+important	others	import|quit|gener|false|false|false|false|false|false|false|false|false|JJ
+Generally	others	gener|import|uncertainti|true|false|false|false|false|false|false|false|false|RB
+uncertainty	others	uncertainti|gener|_end_|false|false|false|false|false|false|false|false|false|NN
+
+is	others	be|_start_|the|false|false|false|false|false|false|false|false|false|VBZ
+the	others	the|be|lack|false|false|false|false|false|false|false|false|false|DT
+lack	others	lack|the|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|lack|knowledg|false|false|false|false|false|false|false|false|false|IN
+knowledge	others	knowledg|of|about|false|false|false|false|false|false|false|false|false|NN
+about	others	about|knowledg|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|about|actual|false|false|false|false|false|false|false|false|false|DT
+actual	others	actual|the|valu|false|false|false|false|false|false|false|false|false|JJ
+value	others	valu|actual|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|valu|a|false|false|false|false|false|false|false|false|false|IN
+a	others	a|of|quantiti|false|false|false|false|false|false|false|false|false|DT
+quantity	others	quantiti|a|due|false|false|false|false|false|false|false|false|false|NN
+due	others	due|quantiti|to|false|false|false|false|false|false|false|false|false|JJ
+to	others	to|due|_end_|false|false|false|false|false|false|false|false|false|TO
+
+measurement	others	measur|_start_|error|false|false|false|false|false|false|false|false|false|NN
+error	others	error|measur|systemat|false|false|false|false|false|false|false|false|false|NN
+systematic	others	systemat|error|error|false|false|false|false|false|false|false|false|false|JJ
+error	others	error|systemat|irreduc|false|false|false|false|false|false|false|false|false|NN
+irreducible	others	irreduc|error|random|false|false|false|false|false|false|false|false|false|JJ
+randomness	others	random|irreduc|_end_|false|false|false|false|false|false|false|false|false|NN
+
+disagreement	others	disagr|_start_|among|false|false|false|false|false|false|false|false|false|NN
+among	others	among|disagr|expert|false|false|false|false|false|false|false|false|false|IN
+experts	others	expert|among|or|false|false|false|false|false|false|false|false|false|NNS
+or	others	or|expert|lack|false|false|false|false|false|false|false|false|false|CC
+lack	others	lack|or|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|lack|a|false|false|false|false|false|false|false|false|false|IN
+an	others	a|of|empir|false|false|false|false|false|false|false|false|false|DT
+empirical	others	empir|a|basi|false|false|false|false|false|false|false|false|false|JJ
+basis	others	basi|empir|for|false|false|false|false|false|false|false|false|false|NN
+for	others	for|basi|make|false|false|false|false|false|false|false|false|false|IN
+making	others	make|for|a|false|false|false|false|false|false|false|false|false|VBG
+a	others	a|make|_end_|false|false|false|false|false|false|false|false|false|DT
+
+prediction	others	predict|_start_|in|false|false|false|false|false|false|false|false|false|NN
+In	others	in|predict|contrast|true|false|false|false|false|false|false|false|false|IN
+contrast	others	contrast|in|variabl|false|false|false|false|false|false|false|false|false|NN
+variability	others	variabl|contrast|be|false|false|false|false|false|false|false|false|false|NN
+is	others	be|variabl|the|false|false|false|false|false|false|false|false|false|VBZ
+the	others	the|be|real|false|false|false|false|false|false|false|false|false|DT
+real	others	real|the|and|false|false|false|false|false|false|false|false|false|JJ
+and	others	and|real|in|false|false|false|false|false|false|false|false|false|CC
+in	others	in|and|principl|false|false|false|false|false|false|false|false|false|IN
+principle	others	principl|in|_end_|false|false|false|false|false|false|false|false|false|NN
+
+knowable	others	knowabl|_start_|heterogen|false|false|false|false|false|false|false|false|false|JJ
+heterogeneity	others	heterogen|knowabl|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|heterogen|valu|false|false|false|false|false|false|false|false|false|IN
+values	others	valu|of|for|false|false|false|false|false|false|false|false|false|NNS
+for	others	for|valu|differ|false|false|false|false|false|false|false|false|false|IN
+different	others	differ|for|individu|false|false|false|false|false|false|false|false|false|JJ
+individuals	others	individu|differ|-lrb-|false|false|false|false|false|false|false|false|false|NNS
+-LRB-	others	-lrb-|individu|broadli|false|false|false|false|false|false|false|false|false|-LRB-
+broadly	others	broadli|-lrb-|_end_|false|false|false|false|false|false|false|false|false|RB
+
+defined	others	defin|_start_|-rrb-|false|false|false|false|false|false|false|false|false|VBN
+-RRB-	others	-rrb-|defin|in|false|false|false|false|false|false|false|false|false|-RRB-
+in	others	in|-rrb-|a|false|false|false|false|false|false|false|false|false|IN
+a	others	a|in|popul|false|false|false|false|false|false|false|false|false|DT
+population	others	popul|a|polici|false|false|false|false|false|false|false|false|false|NN
+Policy	others	polici|popul|analyst|true|false|false|false|false|false|false|false|false|NN
+analysts	others	analyst|polici|be|false|false|false|false|false|false|false|false|false|NNS
+are	others	be|analyst|often|false|false|false|false|false|false|false|false|false|VBP
+often	others	often|be|concern|false|false|false|false|false|false|false|false|false|RB
+concerned	others	concern|often|with|false|false|false|false|false|false|false|false|false|VBN
+with	others	with|concern|_end_|false|false|false|false|false|false|false|false|false|IN
+
+determining	others	determin|_start_|what|false|false|false|false|false|false|false|false|false|VBG
+what	others	what|determin|portion|false|false|false|false|false|false|false|false|false|WP
+portion	others	portion|what|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|portion|a|false|false|false|false|false|false|false|false|false|IN
+a	others	a|of|popul|false|false|false|false|false|false|false|false|false|DT
+population	others	popul|a|expos|false|false|false|false|false|false|false|false|false|NN
+exposed	others	expos|popul|to|false|false|false|false|false|false|false|false|false|VBN
+to	others	to|expos|a|false|false|false|false|false|false|false|false|false|TO
+a	others	a|to|give|false|false|false|false|false|false|false|false|false|DT
+given	others	give|a|chemic|false|false|false|false|false|false|false|false|false|VBN
+chemical	others	chemic|give|_end_|false|false|false|false|false|false|false|false|false|NN
+
+faces	others	face|_start_|health|false|false|false|false|false|false|false|false|false|NNS
+health	others	health|face|effect|false|false|false|false|false|false|false|false|false|NN
+effects	others	effect|health|at|false|false|false|false|false|false|false|false|false|NNS
+at	others	at|effect|or|false|false|false|false|false|false|false|false|false|IN
+or	others	or|at|abov|false|false|false|false|false|false|false|false|false|CC
+above	others	abov|or|some|false|false|false|false|false|false|false|false|false|IN
+some	others	some|abov|level|false|false|false|false|false|false|false|false|false|DT
+level	others	level|some|determin|false|false|false|false|false|false|false|false|false|NN
+Determining	others	determin|level|the|true|false|false|false|false|false|false|false|false|VBG
+the	others	the|determin|_end_|false|false|false|false|false|false|false|false|false|DT
+
+variability	others	variabl|_start_|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|variabl|health|false|false|false|false|false|false|false|false|false|IN
+health	others	health|of|effect|false|false|false|false|false|false|false|false|false|NN
+effects	others	effect|health|or|false|false|false|false|false|false|false|false|false|NNS
+or	others	or|effect|exposur|false|false|false|false|false|false|false|false|false|CC
+exposure	others	exposur|or|level|false|false|false|false|false|false|false|false|false|NN
+levels	others	level|exposur|be|false|false|false|false|false|false|false|false|false|NNS
+is	others	be|level|complic|false|false|false|false|false|false|false|false|false|VBZ
+complicated	others	complic|be|when|false|false|false|false|false|false|false|false|false|VBN
+when	others	when|complic|_end_|false|false|false|false|false|false|false|false|false|WRB
+
+uncertainty	others	uncertainti|_start_|exist|false|false|false|false|false|false|false|false|false|NN
+exists	others	exist|uncertainti|regard|false|false|false|false|false|false|false|false|false|VBZ
+regarding	others	regard|exist|the|false|false|false|false|false|false|false|false|false|VBG
+the	others	the|regard|differ|false|false|false|false|false|false|false|false|false|DT
+different	others	differ|the|exposur|false|false|false|false|false|false|false|false|false|JJ
+exposures	others	exposur|differ|face|false|false|false|false|false|false|false|false|false|NNS
+faced	others	face|exposur|by|false|false|false|false|false|false|false|false|false|VBN
+by	others	by|face|each|false|false|false|false|false|false|false|false|false|IN
+each	others	each|by|_end_|false|false|false|false|false|false|false|false|false|DT
+
+member	others	member|_start_|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|member|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|of|popul|false|false|false|false|false|false|false|false|false|DT
+population	others	popul|the|in|false|false|false|false|false|false|false|false|false|NN
+In	others	in|popul|thi|true|false|false|false|false|false|false|false|false|IN
+this	others	thi|in|work|false|false|false|false|false|false|false|false|false|DT
+work	others	work|thi|a|false|false|false|false|false|false|false|false|false|NN
+a	others	a|work|generaliz|false|false|false|false|false|false|false|false|false|DT
+generalizable	others	generaliz|a|approach|false|false|false|false|false|false|false|false|false|JJ
+approach	others	approach|generaliz|to|false|false|false|false|false|false|false|false|false|NN
+to	others	to|approach|_end_|false|false|false|false|false|false|false|false|false|TO
+
+simulating	others	simul|_start_|uncertainti|false|false|false|false|false|false|false|false|false|VBG
+uncertainty	others	uncertainti|simul|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|uncertainti|variabl|false|false|false|false|false|false|false|false|false|CC
+variability	others	variabl|and|us|false|false|false|false|false|false|false|false|false|NN
+using	others	us|variabl|demo|false|false|false|false|false|false|false|false|false|VBG
+Demos	others	demo|us|be|true|false|false|false|false|false|false|false|false|NNP
+was	others	be|demo|develop|false|false|false|false|false|false|false|false|false|VBD
+developed	others	develop|be|_end_|false|false|false|false|false|false|false|false|false|VBN
+
+featuring	others	featur|_start_|a|false|false|false|false|false|false|false|false|false|VBG
+a	others	a|featur|two-dimension|false|false|false|false|false|false|false|false|false|DT
+two-dimensional	others	two-dimension|a|mont|false|false|false|false|false|false|false|false|false|JJ
+Monte	others	mont|two-dimension|carlo|true|false|false|false|false|false|false|false|false|NNP
+Carlo	others	carlo|mont|simul|true|false|false|false|false|false|false|false|false|NNP
+simulation	others	simul|carlo|the|false|false|false|false|false|false|false|false|false|NN
+The	others	the|simul|approach|true|false|false|false|false|false|false|false|false|DT
+approach	others	approach|the|be|false|false|false|false|false|false|false|false|false|NN
+was	others	be|approach|_end_|false|false|false|false|false|false|false|false|false|VBD
+
+illustrated	others	illustr|_start_|by|false|false|false|false|false|false|false|false|false|VBN
+by	others	by|illustr|a|false|false|false|false|false|false|false|false|false|IN
+an	others	a|by|applic|false|false|false|false|false|false|false|false|false|DT
+application	others	applic|a|to|false|false|false|false|false|false|false|false|false|NN
+to	others	to|applic|a|false|false|false|false|false|false|false|false|false|TO
+a	others	a|to|hypothet|false|false|false|false|false|false|false|false|false|DT
+hypothetical	others	hypothet|a|exposur|false|false|false|false|false|false|false|false|false|JJ
+exposure	others	exposur|hypothet|model|false|false|false|false|false|false|false|false|false|NN
+model	others	model|exposur|the|false|false|false|false|false|false|false|false|false|NN
+The	others	the|model|_end_|true|false|false|false|false|false|false|false|false|DT
+
+challenges	others	challeng|_start_|to|false|false|false|false|false|false|false|false|false|NNS
+to	others	to|challeng|the|false|false|false|false|false|false|false|false|false|TO
+the	others	the|to|us|false|false|false|false|false|false|false|false|false|DT
+use	others	us|the|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|us|mont|false|false|false|false|false|false|false|false|false|IN
+Monte	others	mont|of|carlo|true|false|false|false|false|false|false|false|false|NNP
+Carlo	others	carlo|mont|techniqu|true|false|false|false|false|false|false|false|false|NNP
+techniques	others	techniqu|carlo|datum|false|false|false|false|false|false|false|false|false|NNS
+data	others	datum|techniqu|requir|false|false|false|false|false|false|false|false|false|NNS
+requirements	others	requir|datum|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+communication	others	commun|_start_|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|commun|result|false|false|false|false|false|false|false|false|false|IN
+results	others	result|of|to|false|false|false|false|false|false|false|false|false|NNS
+to	others	to|result|decision-mak|false|false|false|false|false|false|false|false|false|TO
+decision-makers	others	decision-mak|to|and|false|false|false|false|false|false|false|false|false|NNS
+and	others	and|decision-mak|the|false|false|false|false|false|false|false|false|false|CC
+the	others	the|and|implic|false|false|false|false|false|false|false|false|false|DT
+implications	others	implic|the|for|false|false|false|false|false|false|false|false|false|NNS
+for	others	for|implic|_end_|false|false|false|false|false|false|false|false|false|IN
+
+policy	others	polici|_start_|analysi|false|false|false|false|false|false|false|false|false|NN
+analysis	others	analysi|polici|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|analysi|research|false|false|false|false|false|false|false|false|false|CC
+research	others	research|and|plan|false|false|false|false|false|false|false|false|false|NN
+planning	others	plan|research|will|false|false|false|false|false|false|false|false|false|NN
+will	others	will|plan|be|false|false|false|false|false|false|false|false|false|MD
+be	others	be|will|discuss|false|false|false|false|false|false|false|false|false|VB
+discussed	others	discuss|be|thi|false|false|false|false|false|false|false|false|false|VBN
+This	others	thi|discuss|work|true|false|false|false|false|false|false|false|false|DT
+work	others	work|thi|be|false|false|false|false|false|false|false|false|false|NN
+was	others	be|work|_end_|false|false|false|false|false|false|false|false|false|VBD
+
+performed	others	perform|_start_|by|false|false|false|false|false|false|false|false|false|VBN
+by	others	by|perform|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|by|author|false|false|false|false|false|false|false|false|false|DT
+author	others	author|the|in|false|false|false|false|false|false|false|false|false|NN
+in	others	in|author|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|in|exposur|false|false|false|false|false|false|false|false|false|DT
+Exposure	others	exposur|the|assess|true|false|false|false|false|false|false|false|false|NN
+Assessment	others	assess|exposur|group|true|false|false|false|false|false|false|false|false|NNP
+Group	others	group|assess|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|group|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|of|u.s.|false|false|false|false|false|false|false|false|false|DT
+U.S.	others	u.s.|the|_end_|false|false|false|false|false|false|false|false|false|NNP
+
+Environmental	others	environment|_start_|protect|true|false|false|false|false|false|false|false|false|NNP
+Protection	others	protect|environment|agenc|true|false|false|false|false|false|false|false|false|NNP
+Agency	others	agenc|protect|in|true|false|false|false|false|false|false|false|false|NNP
+in	others	in|agenc|washington|false|false|false|false|false|false|false|false|false|IN
+Washington	others	washington|in|dc|true|false|false|false|false|false|false|false|false|NNP
+DC	others	dc|washington|under|false|true|false|true|false|false|false|false|false|NNP
+under	others	under|dc|a|false|false|false|false|false|false|false|false|false|IN
+an	others	a|under|american|false|false|false|false|false|false|false|false|false|DT
+American	others	american|a|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+Association	others	associ|_start_|for|true|false|false|false|false|false|false|false|false|NNP
+for	others	for|associ|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|for|advanc|false|false|false|false|false|false|false|false|false|DT
+Advancement	others	advanc|the|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|advanc|scienc|false|false|false|false|false|false|false|false|false|IN
+Science	others	scienc|of|fellowship|true|false|false|false|false|false|false|false|false|NNP
+fellowship	others	fellowship|scienc|_end_|false|false|false|false|false|false|false|false|false|NN
+

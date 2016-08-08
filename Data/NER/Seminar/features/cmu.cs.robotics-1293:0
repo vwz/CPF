@@ -1,0 +1,89 @@
+Type	others	type|_start_|cmu|true|false|false|false|false|false|false|false|false|NN
+cmu	others	cmu|type|c|false|false|false|false|false|false|false|false|false|NN
+cs	others	c|cmu|robot|false|false|false|false|false|false|false|false|false|NNS
+robotics	others	robot|c|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+Topic	others	topic|_start_|antal|true|false|false|false|false|false|false|false|false|NN
+Antal	speaker	antal|topic|bejczi|true|false|false|false|false|true|false|false|false|NNP
+Bejczy	speaker	bejczi|antal|lectur|true|false|false|false|false|true|false|false|false|NNP
+Lecture	others	lectur|bejczi|nov.|true|false|false|false|false|false|false|false|false|NNP
+Nov.	others	nov.|lectur|11|false|false|false|false|false|false|false|false|true|NNP
+11	others	11|nov.|_end_|false|false|false|false|false|false|false|false|true|CD
+
+Dates	others	date|_start_|11-nov-94|true|false|false|false|false|false|false|false|false|NNS
+11-Nov-94	others	11-nov-94|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|1:30|true|false|false|false|false|false|false|false|false|NNP
+1:30	stime	1:30|time|_end_|false|false|false|false|false|false|false|false|false|CD
+
+PostedBy	others	postedbi|_start_|muir|false|false|false|false|true|false|false|false|false|NNP
+muir	others	muir|postedbi|on|false|false|false|false|false|false|false|false|false|NN
+on	others	on|muir|27-oct-94|false|false|false|false|false|false|false|false|false|IN
+27-Oct-94	others	27-oct-94|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|27-oct-94|12:41|false|false|false|false|false|false|false|false|false|IN
+12:41	others	12:41|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|12:41|cs.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+CS.CMU.EDU	others	cs.cmu.edu|from|-lrb-|false|false|false|false|false|false|false|false|false|NNP
+-LRB-	others	-lrb-|cs.cmu.edu|patrick|false|false|false|false|false|false|false|false|false|-LRB-
+Patrick	others	patrick|-lrb-|muir|true|false|false|false|false|true|false|false|false|NNP
+Muir	others	muir|patrick|-rrb-|true|false|false|false|false|true|false|false|false|NNP
+-RRB-	others	-rrb-|muir|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+The	others	the|_start_|pittsburgh|true|false|false|false|false|false|false|false|false|DT
+Pittsburgh	others	pittsburgh|the|robot|true|false|false|false|false|false|false|false|false|NNP
+Robotics	others	robot|pittsburgh|and|true|false|false|false|false|false|false|false|false|NNPS
+and	others	and|robot|autom|false|false|false|false|false|false|false|false|false|CC
+Automation	others	autom|and|chapter|true|false|false|false|false|false|false|false|false|NNP
+Chapter	others	chapter|autom|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|chapter|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|of|ieee|false|false|false|false|false|false|false|false|false|DT
+IEEE	others	ieee|the|be|false|true|false|true|false|false|false|false|false|NNP
+is	others	be|ieee|_end_|false|false|false|false|false|false|false|false|false|VBZ
+
+sponsoring	others	sponsor|_start_|a|false|false|false|false|false|false|false|false|false|VBG
+a	others	a|sponsor|lectur|false|false|false|false|false|false|false|false|false|DT
+lecture	others	lectur|a|by|false|false|false|false|false|false|false|false|false|NN
+by	others	by|lectur|antal|false|false|false|false|false|false|false|false|false|IN
+Antal	speaker	antal|by|bejczi|true|false|false|false|false|true|false|false|false|NNP
+Bejczy	speaker	bejczi|antal|of|true|false|false|false|false|true|false|false|false|NNP
+of	others	of|bejczi|jpl|false|false|false|false|false|false|false|false|false|IN
+JPL	others	jpl|of|under|false|true|false|true|false|false|false|false|false|NNP
+under	others	under|jpl|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|under|ieee|false|false|false|false|false|false|false|false|false|DT
+IEEE	others	ieee|the|_end_|false|true|false|true|false|false|false|false|false|NN
+
+distinguished	others	distinguish|_start_|lectur|false|false|false|false|false|false|false|false|false|JJ
+lecture	others	lectur|distinguish|program|false|false|false|false|false|false|false|false|false|NN
+program	others	program|lectur|antal|false|false|false|false|false|false|false|false|false|NN
+Antal	others	antal|program|will|true|false|false|false|false|true|false|false|false|NNP
+will	others	will|antal|speak|false|false|false|false|false|false|false|false|false|MD
+speak	others	speak|will|on|false|false|false|false|false|false|false|false|false|VB
+on	others	on|speak|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|on|topic|false|false|false|false|false|false|false|false|false|DT
+topic	others	topic|the|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Calibrated	others	calibr|_start_|virtual|true|false|false|false|false|false|false|false|false|VBN
+Virtual	others	virtual|calibr|realiti|true|false|false|false|false|false|false|false|false|JJ
+Reality	others	realiti|virtual|in|true|false|false|false|false|false|false|false|false|NN
+in	others	in|realiti|telerobot|false|false|false|false|false|false|false|false|false|IN
+Telerobotics	others	telerobot|in|the|true|false|false|false|false|false|false|false|false|NNS
+The	others	the|telerobot|lectur|true|false|false|false|false|false|false|false|false|DT
+lecture	others	lectur|the|will|false|false|false|false|false|false|false|false|false|NN
+will	others	will|lectur|_end_|false|false|false|false|false|false|false|false|false|MD
+
+be	others	be|_start_|in|false|false|false|false|false|false|false|false|false|VB
+in	others	in|be|wean|false|false|false|false|false|false|false|false|false|IN
+Wean	location	wean|in|4623|true|false|false|false|false|false|false|false|false|JJ
+4623	location	4623|wean|at|false|false|false|false|false|false|false|false|false|CD
+at	others	at|4623|1:30|false|false|false|false|false|false|false|false|false|IN
+1:30	stime	1:30|at|on|false|false|false|false|false|false|false|false|false|CD
+on	others	on|1:30|fridai|false|false|false|false|false|false|false|false|false|IN
+Friday	others	fridai|on|novemb|true|false|false|false|false|false|false|false|true|NNP
+November	others	novemb|fridai|11|true|false|false|false|false|false|false|false|true|NNP
+11	others	11|novemb|all|false|false|false|false|false|false|false|false|true|CD
+All	others	all|11|be|true|false|false|false|false|false|false|false|false|DT
+are	others	be|all|invit|false|false|false|false|false|false|false|false|false|VBP
+invited	others	invit|be|_end_|false|false|false|false|false|false|false|false|false|VBN
+

@@ -1,0 +1,370 @@
+Type	others	type|_start_|cmu|true|false|false|false|false|false|false|false|false|NN
+cmu	others	cmu|type|c|false|false|false|false|false|false|false|false|false|NN
+cs	others	c|cmu|proj|false|false|false|false|false|false|false|false|false|NNS
+proj	others	proj|c|vision|false|false|false|false|false|false|false|false|false|NN
+vision	others	vision|proj|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Topic	others	topic|_start_|special|true|false|false|false|false|false|false|false|false|NN
+Special	others	special|topic|seminar|true|false|false|false|false|false|false|false|false|JJ
+Seminar	others	seminar|special|6\/14\/90|true|false|false|false|false|false|false|false|false|NN
+6\/14\/90	others	6\/14\/90|seminar|_end_|false|false|false|false|false|false|false|false|true|CD
+
+Dates	others	date|_start_|14-jun-90|true|false|false|false|false|false|false|false|false|NNS
+14-Jun-90	others	14-jun-90|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|10:00|true|false|false|false|false|false|false|false|false|NNP
+10:00	stime	10:00|time|am|false|false|false|false|false|false|false|false|false|CD
+AM	stime	am|10:00|_end_|false|true|false|true|false|false|false|false|false|NNP
+
+Place	others	place|_start_|wean|true|false|false|false|false|false|false|false|false|NN
+Wean	location	wean|place|hall|true|false|false|false|false|false|false|false|false|VB
+Hall	location	hall|wean|7220|true|false|false|false|false|false|false|false|false|NNP
+7220	location	7220|hall|_end_|false|false|false|false|false|false|false|false|false|CD
+
+PostedBy	others	postedbi|_start_|patricia|false|false|false|false|true|false|false|false|false|NNP
+Patricia	others	patricia|postedbi|mackiewicz|true|false|false|false|false|true|false|false|false|NNP
+Mackiewicz	others	mackiewicz|patricia|on|true|false|false|false|false|true|false|false|false|NNP
+on	others	on|mackiewicz|05-jun-90|false|false|false|false|false|false|false|false|false|IN
+05-Jun-90	others	05-jun-90|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|05-jun-90|14:58|false|false|false|false|false|false|false|false|false|IN
+14:58	others	14:58|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|14:58|ius2|false|false|false|false|false|false|false|false|false|IN
+IUS2	others	ius2|from|cs.cmu.edu|false|false|false|false|false|false|false|false|false|NN
+CS.CMU.EDU	others	cs.cmu.edu|ius2|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+WHEN	others	when|_start_|thursdai|false|true|false|true|false|false|false|false|false|WRB
+Thursday	others	thursdai|when|june|true|false|false|false|false|false|false|false|true|NNP
+June	others	june|thursdai|14|true|false|false|false|false|false|false|false|true|NNP
+14	others	14|june|1990|false|false|false|false|false|false|false|false|true|CD
+1990	others	1990|14|10:00|false|false|false|false|false|false|false|false|true|CD
+10:00	stime	10:00|1990|be|false|false|false|false|false|false|false|false|false|CD
+am	stime	be|10:00|_end_|false|false|false|false|false|false|false|false|false|VBP
+
+WHERE	others	where|_start_|wean|false|true|false|true|false|false|false|false|false|NN
+Wean	location	wean|where|hall|true|false|false|false|false|false|false|false|false|VB
+Hall	location	hall|wean|7220|true|false|false|false|false|false|false|false|false|NNP
+7220	location	7220|hall|_end_|false|false|false|false|false|false|false|false|false|CD
+
+Parallel	others	parallel|_start_|comput|true|false|false|false|false|false|false|false|false|JJ
+Computer	others	comput|parallel|architectur|true|false|false|false|false|false|false|false|false|NN
+Architectures	others	architectur|comput|for|true|false|false|false|false|false|false|false|false|NNS
+for	others	for|architectur|real|false|false|false|false|false|false|false|false|false|IN
+Real	others	real|for|time|true|false|false|false|false|false|false|false|false|JJ
+Time	others	time|real|imag|true|false|false|false|false|false|false|false|false|NNP
+Image	others	imag|time|process|true|false|false|false|false|false|false|false|false|NN
+Processing	others	process|imag|and|true|false|false|false|false|false|false|false|false|NN
+and	others	and|process|_end_|false|false|false|false|false|false|false|false|false|CC
+
+Neural	others	neural|_start_|net|true|false|false|false|false|false|false|false|false|JJ
+Net	others	net|neural|simul|true|false|false|false|false|false|false|false|false|JJ
+Simulations	others	simul|net|_end_|true|false|false|false|false|false|false|false|false|NNS
+
+Swiss	others	swiss|_start_|feder|true|false|false|false|false|false|false|false|false|NNP
+Federal	others	feder|swiss|institut|true|false|false|false|false|false|false|false|false|NNP
+Institute	others	institut|feder|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|institut|technolog|false|false|false|false|false|false|false|false|false|IN
+Technology	others	technolog|of|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+The	others	the|_start_|synchron|true|false|false|false|false|false|false|false|false|DT
+SYnchronous	others	synchron|the|dataflow|false|false|false|false|false|false|false|false|false|JJ
+DAtaflow	others	dataflow|synchron|machin|false|false|false|false|false|false|false|false|false|NNP
+MAchine	others	machin|dataflow|-lrb-|false|false|false|false|false|false|false|false|false|NN
+-LRB-	others	-lrb-|machin|sydama|false|false|false|false|false|false|false|false|false|-LRB-
+SYDAMA	others	sydama|-lrb-|-rrb-|false|true|false|true|false|false|false|false|false|NN
+-RRB-	others	-rrb-|sydama|be|false|false|false|false|false|false|false|false|false|-RRB-
+is	others	be|-rrb-|a|false|false|false|false|false|false|false|false|false|VBZ
+a	others	a|be|parallel|false|false|false|false|false|false|false|false|false|DT
+parallel	others	parallel|a|comput|false|false|false|false|false|false|false|false|false|JJ
+computer	others	comput|parallel|architectur|false|false|false|false|false|false|false|false|false|NN
+architecture	others	architectur|comput|_end_|false|false|false|false|false|false|false|false|false|NN
+
+for	others	for|_start_|real|false|false|false|false|false|false|false|false|false|IN
+real	others	real|for|time|false|false|false|false|false|false|false|false|false|JJ
+time	others	time|real|imag|false|false|false|false|false|false|false|false|false|NN
+image	others	imag|time|process|false|false|false|false|false|false|false|false|false|NN
+processing	others	process|imag|the|false|false|false|false|false|false|false|false|false|NN
+The	others	the|process|architectur|true|false|false|false|false|false|false|false|false|DT
+architecture	others	architectur|the|center|false|false|false|false|false|false|false|false|false|NN
+centers	others	center|architectur|on|false|false|false|false|false|false|false|false|false|NNS
+on	others	on|center|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|on|direct|false|false|false|false|false|false|false|false|false|DT
+direct	others	direct|the|map|false|false|false|false|false|false|false|false|false|JJ
+mapping	others	map|direct|_end_|false|false|false|false|false|false|false|false|false|NN
+
+of	others	of|_start_|a|false|false|false|false|false|false|false|false|false|IN
+a	others	a|of|static|false|false|false|false|false|false|false|false|false|DT
+static	others	static|a|dataflow|false|false|false|false|false|false|false|false|false|JJ
+dataflow	others	dataflow|static|graph|false|false|false|false|false|false|false|false|false|NN
+graph	others	graph|dataflow|into|false|false|false|false|false|false|false|false|false|NN
+into	others	into|graph|hardwar|false|false|false|false|false|false|false|false|false|IN
+hardware	others	hardwar|into|each|false|false|false|false|false|false|false|false|false|NN
+each	others	each|hardwar|node|false|false|false|false|false|false|false|false|false|DT
+node	others	node|each|-lrb-|false|false|false|false|false|false|false|false|false|NN
+-LRB-	others	-lrb-|node|or|false|false|false|false|false|false|false|false|false|-LRB-
+or	others	or|-lrb-|group|false|false|false|false|false|false|false|false|false|CC
+group	others	group|or|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|group|node|false|false|false|false|false|false|false|false|false|IN
+nodes	others	node|of|-rrb-|false|false|false|false|false|false|false|false|false|NNS
+-RRB-	others	-rrb-|node|be|false|false|false|false|false|false|false|false|false|-RRB-
+is	others	be|-rrb-|_end_|false|false|false|false|false|false|false|false|false|VBZ
+
+replaced	others	replac|_start_|by|false|false|false|false|false|false|false|false|false|VBN
+by	others	by|replac|a|false|false|false|false|false|false|false|false|false|IN
+a	others	a|by|process|false|false|false|false|false|false|false|false|false|DT
+processing	others	process|a|element|false|false|false|false|false|false|false|false|false|NN
+element	others	element|process|the|false|false|false|false|false|false|false|false|false|NN
+The	others	the|element|process|true|false|false|false|false|false|false|false|false|DT
+processing	others	process|the|element|false|false|false|false|false|false|false|false|false|NN
+elements	others	element|process|be|false|false|false|false|false|false|false|false|false|NNS
+are	others	be|element|connect|false|false|false|false|false|false|false|false|false|VBP
+connected	others	connect|be|by|false|false|false|false|false|false|false|false|false|VBN
+by	others	by|connect|a|false|false|false|false|false|false|false|false|false|IN
+a	others	a|by|_end_|false|false|false|false|false|false|false|false|false|DT
+
+flexible	others	flexibl|_start_|and|false|false|false|false|false|false|false|false|false|JJ
+and	others	and|flexibl|fast|false|false|false|false|false|false|false|false|false|CC
+fast	others	fast|and|commun|false|false|false|false|false|false|false|false|false|JJ
+communication	others	commun|fast|network|false|false|false|false|false|false|false|false|false|NN
+network	others	network|commun|base|false|false|false|false|false|false|false|false|false|NN
+based	others	base|network|on|false|false|false|false|false|false|false|false|false|VBN
+on	others	on|base|multipl|false|false|false|false|false|false|false|false|false|IN
+multiple	others	multipl|on|interrupt|false|false|false|false|false|false|false|false|false|JJ
+interruptable	others	interrupt|multipl|bu|false|false|false|false|false|false|false|false|false|JJ
+buses	others	bu|interrupt|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+A	others	a|_start_|prototyp|false|false|true|true|false|false|false|false|false|NN
+prototype	others	prototyp|a|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|prototyp|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|of|system|false|false|false|false|false|false|false|false|false|DT
+system	others	system|the|have|false|false|false|false|false|false|false|false|false|NN
+has	others	have|system|be|false|false|false|false|false|false|false|false|false|VBZ
+been	others	be|have|build|false|false|false|false|false|false|false|false|false|VBN
+built	others	build|be|mani|false|false|false|false|false|false|false|false|false|VBN
+Many	others	mani|build|low|true|false|false|false|false|false|false|false|false|JJ
+low	others	low|mani|level|false|false|false|false|false|false|false|false|false|JJ
+level	others	level|low|imag|false|false|false|false|false|false|false|false|false|NN
+image	others	imag|level|process|false|false|false|false|false|false|false|false|false|NN
+processing	others	process|imag|_end_|false|false|false|false|false|false|false|false|false|NN
+
+algorithms	others	algorithm|_start_|run|false|false|false|false|false|false|false|false|false|NNS
+run	others	run|algorithm|in|false|false|false|false|false|false|false|false|false|VBP
+in	others	in|run|real|false|false|false|false|false|false|false|false|false|IN
+real	others	real|in|time|false|false|false|false|false|false|false|false|false|JJ
+time	others	time|real|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|time|video|false|false|false|false|false|false|false|false|false|IN
+video	others	video|at|rate|false|false|false|false|false|false|false|false|false|NN
+rate	others	rate|video|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Applications	others	applic|_start_|of|true|false|false|false|false|false|false|false|false|NNS
+of	others	of|applic|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|of|system|false|false|false|false|false|false|false|false|false|DT
+system	others	system|the|includ|false|false|false|false|false|false|false|false|false|NN
+include	others	includ|system|real|false|false|false|false|false|false|false|false|false|VBP
+real	others	real|includ|time|false|false|false|false|false|false|false|false|false|JJ
+time	others	time|real|comput|false|false|false|false|false|false|false|false|false|NN
+computer	others	comput|time|vision|false|false|false|false|false|false|false|false|false|NN
+vision	others	vision|comput|real|false|false|false|false|false|false|false|false|false|NN
+real	others	real|vision|time|false|false|false|false|false|false|false|false|false|JJ
+time	others	time|real|imag|false|false|false|false|false|false|false|false|false|NN
+image	others	imag|time|_end_|false|false|false|false|false|false|false|false|false|NN
+
+enhancement	others	enhanc|_start_|robot|false|false|false|false|false|false|false|false|false|NN
+robotics	others	robot|enhanc|and|false|false|false|false|false|false|false|false|false|NNS
+and	others	and|robot|autonom|false|false|false|false|false|false|false|false|false|CC
+autonomous	others	autonom|and|system|false|false|false|false|false|false|false|false|false|JJ
+systems	others	system|autonom|a|false|false|false|false|false|false|false|false|false|NNS
+A	others	a|system|color|false|false|true|true|false|false|false|false|false|DT
+color	others	color|a|classif|false|false|false|false|false|false|false|false|false|NN
+classification	others	classif|color|_end_|false|false|false|false|false|false|false|false|false|NN
+
+algorithm	others	algorithm|_start_|for|false|false|false|false|false|false|false|false|false|NN
+for	others	for|algorithm|a|false|false|false|false|false|false|false|false|false|IN
+an	others	a|for|autonom|false|false|false|false|false|false|false|false|false|DT
+autonomous	others	autonom|a|vehicl|false|false|false|false|false|false|false|false|false|JJ
+vehicle	others	vehicl|autonom|guidanc|false|false|false|false|false|false|false|false|false|NN
+guidance	others	guidanc|vehicl|run|false|false|false|false|false|false|false|false|false|NN
+runs	others	run|guidanc|at|false|false|false|false|false|false|false|false|false|VBZ
+at	others	at|run|video|false|false|false|false|false|false|false|false|false|IN
+video	others	video|at|rate|false|false|false|false|false|false|false|false|false|NN
+rate	others	rate|video|-lrb-|false|false|false|false|false|false|false|false|false|NN
+-LRB-	others	-lrb-|rate|50|false|false|false|false|false|false|false|false|false|-LRB-
+50	others	50|-lrb-|frame|false|false|false|false|false|false|false|false|false|CD
+frames	others	frame|50|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+per	others	per|_start_|second|false|false|false|false|false|false|false|false|false|IN
+second	others	second|per|-rrb-|false|false|false|false|false|false|false|false|false|JJ
+-RRB-	others	-rrb-|second|for|false|false|false|false|false|false|false|false|false|-RRB-
+For	others	for|-rrb-|thi|true|false|false|false|false|false|false|false|false|IN
+this	others	thi|for|applic|false|false|false|false|false|false|false|false|false|DT
+application	others	applic|thi|more|false|false|false|false|false|false|false|false|false|NN
+more	others	more|applic|than|false|false|false|false|false|false|false|false|false|RBR
+than	others	than|more|200|false|false|false|false|false|false|false|false|false|IN
+200	others	200|than|million|false|false|false|false|false|false|false|false|false|CD
+million	others	million|200|instruct|false|false|false|false|false|false|false|false|false|CD
+instructions	others	instruct|million|-lrb-|false|false|false|false|false|false|false|false|false|NNS
+-LRB-	others	-lrb-|instruct|vax|false|false|false|false|false|false|false|false|false|-LRB-
+VAX	others	vax|-lrb-|_end_|false|true|false|true|false|false|false|false|false|NNP
+
+equivalent	others	equival|_start_|-rrb-|false|false|false|false|false|false|false|false|false|JJ
+-RRB-	others	-rrb-|equival|be|false|false|false|false|false|false|false|false|false|-RRB-
+are	others	be|-rrb-|execut|false|false|false|false|false|false|false|false|false|VBP
+executed	others	execut|be|on|false|false|false|false|false|false|false|false|false|VBN
+on	others	on|execut|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|on|sydama|false|false|false|false|false|false|false|false|false|DT
+SYDAMA	others	sydama|the|_end_|false|true|false|true|false|false|false|false|false|NNP
+
+
+The	others	the|_start_|sydama-3|true|false|false|false|false|false|false|false|false|DT
+SYDAMA-3	others	sydama-3|the|-lrb-|false|false|false|false|false|false|false|false|false|NN
+-LRB-	others	-lrb-|sydama-3|synchron|false|false|false|false|false|false|false|false|false|-LRB-
+SYnchronous	others	synchron|-lrb-|dataflow|false|false|false|false|false|false|false|false|false|JJ
+DAtaflow	others	dataflow|synchron|machin|false|false|false|false|false|false|false|false|false|NNP
+MAchine	others	machin|dataflow|-rrb-|false|false|false|false|false|false|false|false|false|NN
+-RRB-	others	-rrb-|machin|be|false|false|false|false|false|false|false|false|false|-RRB-
+is	others	be|-rrb-|a|false|false|false|false|false|false|false|false|false|VBZ
+a	others	a|be|parallel|false|false|false|false|false|false|false|false|false|DT
+parallel	others	parallel|a|comput|false|false|false|false|false|false|false|false|false|JJ
+computer	others	comput|parallel|architectur|false|false|false|false|false|false|false|false|false|NN
+architecture	others	architectur|comput|_end_|false|false|false|false|false|false|false|false|false|NN
+
+for	others	for|_start_|numer|false|false|false|false|false|false|false|false|false|IN
+numeric	others	numer|for|applic|false|false|false|false|false|false|false|false|false|JJ
+applications	others	applic|numer|each|false|false|false|false|false|false|false|false|false|NNS
+Each	others	each|applic|process|true|false|false|false|false|false|false|false|false|DT
+Processing	others	process|each|element|true|false|false|false|false|false|false|false|false|NN
+element	others	element|process|consist|false|false|false|false|false|false|false|false|false|NN
+consists	others	consist|element|of|false|false|false|false|false|false|false|false|false|VBZ
+of	others	of|consist|a|false|false|false|false|false|false|false|false|false|IN
+a	others	a|of|dsp|false|false|false|false|false|false|false|false|false|DT
+DSP	others	dsp|a|-lrb-|false|true|false|true|false|false|false|false|false|NNP
+-LRB-	others	-lrb-|dsp|digit|false|false|false|false|false|false|false|false|false|-LRB-
+digital	others	digit|-lrb-|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+signal	others	signal|_start_|processor|false|false|false|false|false|false|false|false|false|NN
+processor	others	processor|signal|-rrb-|false|false|false|false|false|false|false|false|false|NN
+-RRB-	others	-rrb-|processor|memori|false|false|false|false|false|false|false|false|false|-RRB-
+memory	others	memori|-rrb-|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|memori|a|false|false|false|false|false|false|false|false|false|CC
+a	others	a|and|fast|false|false|false|false|false|false|false|false|false|DT
+fast	others	fast|a|commun|false|false|false|false|false|false|false|false|false|JJ
+communication	others	commun|fast|unit|false|false|false|false|false|false|false|false|false|NN
+unit	others	unit|commun|a|false|false|false|false|false|false|false|false|false|NN
+A	others	a|unit|first|false|false|true|true|false|false|false|false|false|NN
+first	others	first|a|system|false|false|false|false|false|false|false|false|false|JJ
+system	others	system|first|with|false|false|false|false|false|false|false|false|false|NN
+with	others	with|system|_end_|false|false|false|false|false|false|false|false|false|IN
+
+one	others	on|_start_|singl|false|false|false|false|false|false|false|false|false|CD
+single	others	singl|on|dsp|false|false|false|false|false|false|false|false|false|JJ
+DSP	others	dsp|singl|have|false|true|false|true|false|false|false|false|false|NNP
+have	others	have|dsp|be|false|false|false|false|false|false|false|false|false|VBP
+been	others	be|have|build|false|false|false|false|false|false|false|false|false|VBN
+built	others	build|be|for|false|false|false|false|false|false|false|false|false|VBN
+For	others	for|build|a|true|false|false|false|false|false|false|false|false|IN
+a	others	a|for|multilay|false|false|false|false|false|false|false|false|false|DT
+multilayer	others	multilay|a|perceptron|false|false|false|false|false|false|false|false|false|JJ
+perceptron	others	perceptron|multilay|-lrb-|false|false|false|false|false|false|false|false|false|NN
+-LRB-	others	-lrb-|perceptron|3|false|false|false|false|false|false|false|false|false|-LRB-
+3	others	3|-lrb-|layer|false|false|false|false|false|false|false|false|false|CD
+layers	others	layer|3|with|false|false|false|false|false|false|false|false|false|NNS
+with	others	with|layer|_end_|false|false|false|false|false|false|false|false|false|IN
+
+100	others	100|_start_|node|false|false|false|false|false|false|false|false|false|CD
+node	others	node|100|each|false|false|false|false|false|false|false|false|false|NN
+each	others	each|node|-rrb-|false|false|false|false|false|false|false|false|false|DT
+-RRB-	others	-rrb-|each|5|false|false|false|false|false|false|false|false|false|-RRB-
+5	others	5|-rrb-|mcp|false|false|false|false|false|false|false|false|false|CD
+MCPS	others	mcp|5|-lrb-|false|true|false|true|false|false|false|false|false|NNS
+-LRB-	others	-lrb-|mcp|million|false|false|false|false|false|false|false|false|false|-LRB-
+Million	others	million|-lrb-|connect|true|false|false|false|false|false|false|false|false|NNP
+Connections	others	connect|million|per|true|false|false|false|false|false|false|false|false|NNP
+Per	others	per|connect|second|true|false|false|false|false|false|false|false|false|IN
+Second	others	second|per|-rrb-|true|false|false|false|false|false|false|false|false|NNP
+-RRB-	others	-rrb-|second|respect|false|false|false|false|false|false|false|false|false|-RRB-
+respectively	others	respect|-rrb-|_end_|false|false|false|false|false|false|false|false|false|RB
+
+0.4	others	0.4|_start_|mbcp|false|false|false|false|false|false|false|false|false|CD
+MBCPS	others	mbcp|0.4|-lrb-|false|true|false|true|false|false|false|false|false|NN
+-LRB-	others	-lrb-|mbcp|million|false|false|false|false|false|false|false|false|false|-LRB-
+Million	others	million|-lrb-|backward|true|false|false|false|false|false|false|false|false|NNP
+Backwards	others	backward|million|connect|true|false|false|false|false|false|false|false|false|RB
+Connections	others	connect|backward|per|true|false|false|false|false|false|false|false|false|NNP
+Per	others	per|connect|second|true|false|false|false|false|false|false|false|false|IN
+Second	others	second|per|-rrb-|true|false|false|false|false|false|false|false|false|NNP
+-RRB-	others	-rrb-|second|can|false|false|false|false|false|false|false|false|false|-RRB-
+can	others	can|-rrb-|be|false|false|false|false|false|false|false|false|false|MD
+be	others	be|can|execut|false|false|false|false|false|false|false|false|false|VB
+executed	others	execut|be|_end_|false|false|false|false|false|false|false|false|false|VBN
+
+SYDAMA-3	others	sydama-3|_start_|with|false|false|false|false|false|false|false|false|false|NN
+with	others	with|sydama-3|10|false|false|false|false|false|false|false|false|false|IN
+10	others	10|with|process|false|false|false|false|false|false|false|false|false|CD
+processing	others	process|10|element|false|false|false|false|false|false|false|false|false|NN
+elements	others	element|process|will|false|false|false|false|false|false|false|false|false|NNS
+will	others	will|element|allow|false|false|false|false|false|false|false|false|false|MD
+allow	others	allow|will|50|false|false|false|false|false|false|false|false|false|VB
+50	others	50|allow|mcp|false|false|false|false|false|false|false|false|false|CD
+MCPS	others	mcp|50|respect|false|true|false|true|false|false|false|false|false|NNS
+respectively	others	respect|mcp|25|false|false|false|false|false|false|false|false|false|RB
+25	others	25|respect|mbcp|false|false|false|false|false|false|false|false|false|CD
+MBCPS	others	mbcp|25|_end_|false|true|false|true|false|false|false|false|false|NN
+
+
+BIO	others	bio|_start_|_end_|false|true|false|true|false|false|false|false|false|NNP
+
+I	others	i|_start_|be|false|false|true|true|false|false|false|false|false|PRP
+am	others	be|i|chief|false|false|false|false|false|false|false|false|false|VBP
+chief	others	chief|be|assist|false|false|false|false|false|false|false|false|false|JJ
+assistant	others	assist|chief|in|false|false|false|false|false|true|false|false|false|NN
+in	others	in|assist|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|in|electron|false|false|false|false|false|false|false|false|false|DT
+electronics	others	electron|the|lab|false|false|false|false|false|false|false|false|false|NNS
+lab	others	lab|electron|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|lab|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|at|swiss|false|false|false|false|false|false|false|false|false|DT
+Swiss	others	swiss|the|feder|true|false|false|false|false|false|false|false|false|NNP
+Federal	others	feder|swiss|institut|true|false|false|false|false|false|false|false|false|NNP
+Institute	others	institut|feder|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|institut|_end_|false|false|false|false|false|false|false|false|false|IN
+
+Technology	others	technolog|_start_|a|true|false|false|false|false|false|false|false|false|NN
+A	others	a|technolog|few|false|false|true|true|false|false|false|false|true|DT
+few	others	few|a|year|false|false|false|false|false|false|false|false|true|JJ
+years	others	year|few|ago|false|false|false|false|false|false|false|false|true|NNS
+ago	others	ago|year|you|false|false|false|false|false|false|false|false|true|IN
+you	others	you|ago|visit|false|false|false|false|false|false|false|false|false|PRP
+visited	others	visit|you|we|false|false|false|false|false|false|false|false|false|VBD
+our	others	we|visit|lab|false|false|false|false|false|false|false|false|false|PRP$
+lab	others	lab|we|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|lab|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|at|eth|false|false|false|false|false|false|false|false|false|DT
+ETH	others	eth|the|-lrb-|false|true|false|true|false|false|false|false|false|NN
+-LRB-	others	-lrb-|eth|swiss|false|false|false|false|false|false|false|false|false|-LRB-
+Swiss	others	swiss|-lrb-|feder|true|false|false|false|false|false|false|false|false|JJ
+Federal	others	feder|swiss|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Institute	others	institut|_start_|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|institut|technolog|false|false|false|false|false|false|false|false|false|IN
+Technology	others	technolog|of|-rrb-|true|false|false|false|false|false|false|false|false|NNP
+-RRB-	others	-rrb-|technolog|we|false|false|false|false|false|false|false|false|false|-RRB-
+We	others	we|-rrb-|be|true|false|false|false|false|false|false|false|false|PRP
+are	others	be|we|build|false|false|false|false|false|false|false|false|false|VBP
+building	others	build|be|parallel|false|false|false|false|false|false|false|false|false|VBG
+parallel	others	parallel|build|comput|false|false|false|false|false|false|false|false|false|JJ
+computer	others	comput|parallel|architectur|false|false|false|false|false|false|false|false|false|NN
+architectures	others	architectur|comput|for|false|false|false|false|false|false|false|false|false|NNS
+for	others	for|architectur|_end_|false|false|false|false|false|false|false|false|false|IN
+
+real	others	real|_start_|time|false|false|false|false|false|false|false|false|false|JJ
+time	others	time|real|imag|false|false|false|false|false|false|false|false|false|NN
+image	others	imag|time|process|false|false|false|false|false|false|false|false|false|NN
+processing	others	process|imag|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|process|for|false|false|false|false|false|false|false|false|false|CC
+for	others	for|and|neural|false|false|false|false|false|false|false|false|false|IN
+neural	others	neural|for|net|false|false|false|false|false|false|false|false|false|JJ
+net	others	net|neural|simul|false|false|false|false|false|false|false|false|false|JJ
+simulations	others	simul|net|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+

@@ -1,0 +1,326 @@
+Type	others	type|_start_|cmu.andrew.org|true|false|false|false|false|false|false|false|false|NN
+cmu.andrew.org	others	cmu.andrew.org|type|che|false|false|false|false|false|false|false|false|false|NN
+che	others	che|cmu.andrew.org|chegsa|false|false|false|false|false|false|false|false|false|NN
+chegsa	others	chegsa|che|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Topic	others	topic|_start_|fwd|true|false|false|false|false|false|false|false|false|NN
+Fwd	others	fwd|topic|lectur|true|false|false|false|false|false|false|false|false|NN
+Lecture	others	lectur|fwd|demonstr|true|false|false|false|false|false|false|false|false|NN
+Demonstration	others	demonstr|lectur|by|true|false|false|false|false|false|false|false|false|NN
+by	others	by|demonstr|ravi|false|false|false|false|false|false|false|false|false|IN
+Ravi	others	ravi|by|kiran|true|false|false|false|false|true|false|false|false|NNP
+Kiran	others	kiran|ravi|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+Dates	others	date|_start_|18-oct-93|true|false|false|false|false|false|false|false|false|NNS
+18-Oct-93	others	18-oct-93|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|7:30|true|false|false|false|false|false|false|false|false|NNP
+7:30	stime	7:30|time|pm|false|false|false|false|false|false|false|false|false|CD
+PM	stime	pm|7:30|_end_|false|true|false|true|false|false|false|false|false|NN
+
+PostedBy	others	postedbi|_start_|tim|false|false|false|false|true|false|false|false|false|NNP
+Tim	others	tim|postedbi|a|true|false|false|false|false|true|false|false|false|NNP
+A	others	a|tim|mallo|false|false|true|true|false|true|false|false|false|NNP
+Mallo	others	mallo|a|on|true|false|false|false|false|true|false|false|false|NNP
+on	others	on|mallo|12-oct-93|false|false|false|false|false|false|false|false|false|IN
+12-Oct-93	others	12-oct-93|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|12-oct-93|09:01|false|false|false|false|false|false|false|false|false|IN
+09:01	others	09:01|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|09:01|andrew.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+andrew.cmu.edu	others	andrew.cmu.edu|from|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+
+S	others	s|_start_|p|false|false|true|true|false|false|false|false|false|NN
+P	others	p|s|i|false|false|true|true|false|false|false|false|false|NN
+I	others	i|p|c|false|false|true|true|false|false|false|false|false|NN
+C	others	c|i|m|false|false|true|true|false|false|false|false|false|NN
+M	others	m|c|a|false|false|true|true|false|false|false|false|false|NN
+A	others	a|m|c|false|false|true|true|false|false|false|false|false|NN
+C	others	c|a|a|false|false|true|true|false|false|false|false|false|NN
+A	others	a|c|y|false|false|true|true|false|false|false|false|false|NN
+Y	others	y|a|_end_|false|false|true|true|false|false|false|false|false|NN
+
+Society	others	societi|_start_|for|true|false|false|false|false|false|false|false|false|NNP
+for	others	for|societi|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|for|promot|false|false|false|false|false|false|false|false|false|DT
+Promotion	others	promot|the|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|promot|indian|false|false|false|false|false|false|false|false|false|IN
+Indian	others	indian|of|classic|true|false|false|false|false|false|false|false|false|NNP
+Classical	others	classic|indian|music|true|false|false|false|false|false|false|false|false|NNP
+Music	others	music|classic|and|true|false|false|false|false|false|false|false|false|NNP
+and	others	and|music|cultur|false|false|false|false|false|false|false|false|false|CC
+Culture	others	cultur|and|amongst|true|false|false|false|false|false|false|false|false|NNP
+Amongst	others	amongst|cultur|youth|true|false|false|false|false|false|false|false|false|NNP
+Youth	others	youth|amongst|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+-LRB-	others	-lrb-|_start_|carnegi|false|false|false|false|false|false|false|false|false|-LRB-
+Carnegie	others	carnegi|-lrb-|mellon|true|false|false|false|false|false|false|false|false|NNP
+Mellon	others	mellon|carnegi|univers|true|false|false|false|false|false|false|false|false|NNP
+University	others	univers|mellon|chapter|true|false|false|false|false|false|false|false|false|NNP
+Chapter	others	chapter|univers|-rrb-|true|false|false|false|false|false|false|false|false|NNP
+-RRB-	others	-rrb-|chapter|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+presents	others	present|_start_|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+Lecture	others	lectur|_start_|demonstr|true|false|false|false|false|false|false|false|false|NN
+Demonstration	others	demonstr|lectur|_end_|true|false|false|false|false|false|false|false|false|NN
+
+by	others	by|_start_|_end_|false|false|false|false|false|false|false|false|false|IN
+
+-LRB-	others	-lrb-|_start_|on|false|false|false|false|false|false|false|false|false|-LRB-
+On	others	on|-lrb-|the|true|false|false|false|false|false|false|false|false|IN
+the	others	the|on|chitra|false|false|false|false|false|false|false|false|false|DT
+Chitra	others	chitra|the|veena|true|false|false|false|false|true|false|false|false|NNP
+Veena	others	veena|chitra|gottuvadyam|true|false|false|false|false|true|false|false|false|NNP
+Gottuvadyam	others	gottuvadyam|veena|-rrb-|true|false|false|false|false|false|false|false|false|NNP
+-RRB-	others	-rrb-|gottuvadyam|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+accompanied	others	accompani|_start_|by|false|false|false|false|false|false|false|false|false|VBN
+by	others	by|accompani|_end_|false|false|false|false|false|false|false|false|false|IN
+
+KUMBAKONAM	others	kumbakonam|_start_|ganesh|false|true|false|true|false|false|false|false|false|NNP
+GANESH	others	ganesh|kumbakonam|_end_|false|true|false|true|false|false|false|false|false|NNP
+
+-LRB-	others	-lrb-|_start_|on|false|false|false|false|false|false|false|false|false|-LRB-
+On	others	on|-lrb-|the|true|false|false|false|false|false|false|false|false|IN
+the	others	the|on|mridangam|false|false|false|false|false|false|false|false|false|DT
+Mridangam	others	mridangam|the|-rrb-|true|false|false|false|false|false|false|false|false|NN
+-RRB-	others	-rrb-|mridangam|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+Monday	others	mondai|_start_|octob|true|false|false|false|false|false|false|false|true|NNP
+October	others	octob|mondai|18|true|false|false|false|false|false|false|false|true|NNP
+18	others	18|octob|1993|false|false|false|false|false|false|false|false|true|CD
+1993	others	1993|18|_end_|false|false|false|false|false|false|false|false|true|CD
+
+4400	others	4400|_start_|fifth|false|false|false|false|false|false|false|false|false|CD
+Fifth	others	fifth|4400|avenu|true|false|false|false|false|false|false|false|false|NNP
+Avenue	others	avenu|fifth|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Pittsburgh	others	pittsburgh|_start_|pa|true|false|false|false|false|false|false|false|false|NNP
+PA	others	pa|pittsburgh|15213|false|true|false|true|false|false|false|false|false|NN
+15213	others	15213|pa|_end_|false|false|false|false|false|false|false|false|false|CD
+
+Admission	others	admiss|_start_|be|true|false|false|false|false|false|false|false|false|NN
+is	others	be|admiss|free|false|false|false|false|false|false|false|false|false|VBZ
+FREE	others	free|be|_end_|false|true|false|true|false|false|false|false|false|JJ
+
+For	others	for|_start_|inform|true|false|false|false|false|false|false|false|false|IN
+information	others	inform|for|pleas|false|false|false|false|false|false|false|false|false|NN
+please	others	pleas|inform|contact|false|false|false|false|false|false|false|false|false|VB
+contact	others	contact|pleas|_end_|false|false|false|false|false|false|false|false|false|NN
+
+James	others	jame|_start_|white|true|false|false|false|false|true|false|false|false|NNP
+White	others	white|jame|-lrb-|true|false|false|false|false|true|false|false|false|NNP
+-LRB-	others	-lrb-|white|412|false|false|false|false|false|false|false|false|false|-LRB-
+412	others	412|-lrb-|-rrb-|false|false|false|false|false|false|false|false|false|CD
+-RRB-	others	-rrb-|412|363-8420|false|false|false|false|false|false|false|false|false|-RRB-
+363-8420	others	363-8420|-rrb-|_end_|false|false|false|false|false|false|false|false|false|CD
+
+Jui	others	jui|_start_|joshi|true|false|false|false|false|true|false|false|false|NNP
+Joshi	others	joshi|jui|-lrb-|true|false|false|false|false|true|false|false|false|NNP
+-LRB-	others	-lrb-|joshi|412|false|false|false|false|false|false|false|false|false|-LRB-
+412	others	412|-lrb-|-rrb-|false|false|false|false|false|false|false|false|false|CD
+-RRB-	others	-rrb-|412|683-8098|false|false|false|false|false|false|false|false|false|-RRB-
+683-8098	others	683-8098|-rrb-|_end_|false|false|false|false|false|false|false|false|false|CD
+
+Funded	others	fund|_start_|in|true|false|false|false|false|false|false|false|false|VBN
+in	others	in|fund|part|false|false|false|false|false|false|false|false|false|IN
+part	others	part|in|by|false|false|false|false|false|false|false|false|false|NN
+by	others	by|part|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|by|graduat|false|false|false|false|false|false|false|false|false|DT
+Graduate	others	graduat|the|student|true|false|false|false|false|false|false|false|false|NN
+Student	others	student|graduat|organis|true|false|false|false|false|false|false|false|false|NN
+Organisation	others	organis|student|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|organis|carnegi|false|false|false|false|false|false|false|false|false|IN
+Carnegie	others	carnegi|of|mellon|true|false|false|false|false|false|false|false|false|NNP
+Mellon	others	mellon|carnegi|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+University	others	univers|_start_|pittsburgh|true|false|false|false|false|false|false|false|false|NNP
+Pittsburgh	others	pittsburgh|univers|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+
+Directions	others	direct|_start_|to|true|false|false|false|false|false|false|false|false|NNS
+to	others	to|direct|mellon|false|false|false|false|false|false|false|false|false|TO
+Mellon	others	mellon|to|institut|true|false|false|false|false|false|false|false|false|NNP
+Institute	others	institut|mellon|auditorium|true|false|false|false|false|false|false|false|false|NNP
+auditorium	others	auditorium|institut|_end_|false|false|false|false|false|false|false|false|false|NN
+
+
+Coming	others	come|_start_|by|true|false|false|false|false|false|false|false|false|NNP
+by	others	by|come|79|false|false|false|false|false|false|false|false|false|IN
+79	others	79|by|south|false|false|false|false|false|false|false|false|false|CD
+South	others	south|79|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Take	others	take|_start_|279|true|false|false|false|false|false|false|false|false|VB
+279	others	279|take|south|false|false|false|false|false|false|false|false|false|CD
+south	others	south|279|to|false|false|false|false|false|false|false|false|false|RB
+to	others	to|south|pittsburgh|false|false|false|false|false|false|false|false|false|TO
+Pittsburgh	others	pittsburgh|to|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Take	others	take|_start_|exit|true|false|false|false|false|false|false|false|false|VB
+exit	others	exit|take|for|false|false|false|false|false|false|false|false|false|NN
+for	others	for|exit|376|false|false|false|false|false|false|false|false|false|IN
+376	others	376|for|east|false|false|false|false|false|false|false|false|false|CD
+East	others	east|376|for|true|false|false|false|false|false|false|false|false|NNP
+for	others	for|east|monroevil|false|false|false|false|false|false|false|false|false|IN
+Monroeville	others	monroevil|for|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Take	others	take|_start_|exit|true|false|false|false|false|false|false|false|false|VB
+exit	others	exit|take|for|false|false|false|false|false|false|false|false|false|NN
+for	others	for|exit|forb|false|false|false|false|false|false|false|false|false|IN
+Forbes	others	forb|for|avenu|true|false|false|false|false|false|false|false|false|NNP
+Avenue	others	avenu|forb|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Turn	others	turn|_start_|leav|true|false|false|false|false|false|false|false|false|VB
+left	others	leav|turn|on|false|false|false|false|false|false|false|false|false|VBN
+on	others	on|leav|bellefield|false|false|false|false|false|false|false|false|false|IN
+Bellefield	others	bellefield|on|-lrb-|true|false|false|false|false|false|false|false|false|NNP
+-LRB-	others	-lrb-|bellefield|forb|false|false|false|false|false|false|false|false|false|-LRB-
+Forbes	others	forb|-lrb-|turn|true|false|false|false|false|false|false|false|false|NNP
+turns	others	turn|forb|two-wai|false|false|false|false|false|false|false|false|false|VBZ
+two-way	others	two-wai|turn|here|false|false|false|false|false|false|false|false|false|JJ
+here	others	here|two-wai|-rrb-|false|false|false|false|false|false|false|false|false|RB
+-RRB-	others	-rrb-|here|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+Mellon	others	mellon|_start_|auditorium|true|false|false|false|false|false|false|false|false|NNP
+Auditorium	others	auditorium|mellon|be|true|false|false|false|false|false|false|false|false|NNP
+is	others	be|auditorium|on|false|false|false|false|false|false|false|false|false|VBZ
+on	others	on|be|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|on|right|false|false|false|false|false|false|false|false|false|DT
+right	others	right|the|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|right|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|at|intersect|false|false|false|false|false|false|false|false|false|DT
+intersection	others	intersect|the|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|intersect|fifth|false|false|false|false|false|false|false|false|false|IN
+Fifth	others	fifth|of|and|true|false|false|false|false|false|false|false|false|NNP
+and	others	and|fifth|bellefield|false|false|false|false|false|false|false|false|false|CC
+Bellefield	others	bellefield|and|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Coming	others	come|_start_|by|true|false|false|false|false|false|false|false|false|NNP
+by	others	by|come|79|false|false|false|false|false|false|false|false|false|IN
+79	others	79|by|north|false|false|false|false|false|false|false|false|false|CD
+North	others	north|79|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Take	others	take|_start_|279|true|false|false|false|false|false|false|false|false|VB
+279	others	279|take|north|false|false|false|false|false|false|false|false|false|CD
+north	others	north|279|to|false|false|false|false|false|false|false|false|false|RB
+to	others	to|north|pittsburgh|false|false|false|false|false|false|false|false|false|TO
+Pittsburgh	others	pittsburgh|to|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Just	others	just|_start_|past|true|false|false|false|false|false|false|false|false|RB
+past	others	past|just|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|past|fort|false|false|false|false|false|false|false|false|false|DT
+Fort	others	fort|the|pitt|true|false|false|false|false|false|false|false|false|NNP
+Pitt	others	pitt|fort|tunnel|true|false|false|false|false|false|false|false|false|NNP
+Tunnel	others	tunnel|pitt|take|true|false|false|false|false|false|false|false|false|NN
+take	others	take|tunnel|the|false|false|false|false|false|false|false|false|false|VB
+the	others	the|take|exit|false|false|false|false|false|false|false|false|false|DT
+exit	others	exit|the|for|false|false|false|false|false|false|false|false|false|NN
+for	others	for|exit|376|false|false|false|false|false|false|false|false|false|IN
+376	others	376|for|east|false|false|false|false|false|false|false|false|false|CD
+East	others	east|376|-lrb-|true|false|false|false|false|false|false|false|false|NNP
+-LRB-	others	-lrb-|east|monroevil|false|false|false|false|false|false|false|false|false|-LRB-
+Monroeville	others	monroevil|-lrb-|-rrb-|true|false|false|false|false|false|false|false|false|NNP
+-RRB-	others	-rrb-|monroevil|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+Take	others	take|_start_|exit|true|false|false|false|false|false|false|false|false|VB
+exit	others	exit|take|for|false|false|false|false|false|false|false|false|false|NN
+for	others	for|exit|forb|false|false|false|false|false|false|false|false|false|IN
+Forbes	others	forb|for|avenu|true|false|false|false|false|false|false|false|false|NNP
+Avenue	others	avenu|forb|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Turn	others	turn|_start_|leav|true|false|false|false|false|false|false|false|false|VB
+left	others	leav|turn|on|false|false|false|false|false|false|false|false|false|VBN
+on	others	on|leav|bellefield|false|false|false|false|false|false|false|false|false|IN
+Bellefield	others	bellefield|on|-lrb-|true|false|false|false|false|false|false|false|false|NNP
+-LRB-	others	-lrb-|bellefield|forb|false|false|false|false|false|false|false|false|false|-LRB-
+Forbes	others	forb|-lrb-|av|true|false|false|false|false|false|false|false|false|NNP
+Av	others	av|forb|turn|true|false|false|false|false|false|false|false|false|NNP
+turns	others	turn|av|into|false|false|false|false|false|false|false|false|false|VBZ
+into	others	into|turn|a|false|false|false|false|false|false|false|false|false|IN
+a	others	a|into|two-wai|false|false|false|false|false|false|false|false|false|DT
+two-way	others	two-wai|a|street|false|false|false|false|false|false|false|false|false|JJ
+street	others	street|two-wai|here|false|false|false|false|false|false|false|false|false|NN
+here	others	here|street|-rrb-|false|false|false|false|false|false|false|false|false|RB
+-RRB-	others	-rrb-|here|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+Mellon	others	mellon|_start_|auditorium|true|false|false|false|false|false|false|false|false|NNP
+Auditorium	others	auditorium|mellon|be|true|false|false|false|false|false|false|false|false|NNP
+is	others	be|auditorium|on|false|false|false|false|false|false|false|false|false|VBZ
+on	others	on|be|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|on|right|false|false|false|false|false|false|false|false|false|DT
+right	others	right|the|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|right|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|at|intersect|false|false|false|false|false|false|false|false|false|DT
+intersection	others	intersect|the|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|intersect|fifth|false|false|false|false|false|false|false|false|false|IN
+Fifth	others	fifth|of|and|true|false|false|false|false|false|false|false|false|NNP
+and	others	and|fifth|bellefield|false|false|false|false|false|false|false|false|false|CC
+Bellefield	others	bellefield|and|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Coming	others	come|_start_|by|true|false|false|false|false|false|false|false|false|NNP
+by	others	by|come|76|false|false|false|false|false|false|false|false|false|IN
+76	others	76|by|west\/east|false|false|false|false|false|false|false|false|false|CD
+west\/east	others	west\/east|76|or|false|false|false|false|false|false|false|false|false|NN
+or	others	or|west\/east|22|false|false|false|false|false|false|false|false|false|CC
+22	others	22|or|west|false|false|false|false|false|false|false|false|false|CD
+west	others	west|22|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Take	others	take|_start_|376|true|false|false|false|false|false|false|false|false|VB
+376	others	376|take|west|false|false|false|false|false|false|false|false|false|CD
+west	others	west|376|to|false|false|false|false|false|false|false|false|false|NN
+to	others	to|west|pittsburgh|false|false|false|false|false|false|false|false|false|TO
+Pittsburgh	others	pittsburgh|to|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Right	others	right|_start_|after|true|false|false|false|false|false|false|false|false|RB
+after	others	after|right|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|after|squirrel|false|false|false|false|false|false|false|false|false|DT
+squirrel	others	squirrel|the|hill|false|false|false|false|false|false|false|false|false|NN
+hill	others	hill|squirrel|tunnel|false|false|false|false|false|false|false|false|false|NN
+tunnel	others	tunnel|hill|take|false|false|false|false|false|false|false|false|false|NN
+take	others	take|tunnel|squirrel|false|false|false|false|false|false|false|false|false|VB
+Squirrel	others	squirrel|take|hill|true|false|false|false|false|false|false|false|false|NN
+hill	others	hill|squirrel|exit|false|false|false|false|false|false|false|false|false|NN
+exit	others	exit|hill|_end_|false|false|false|false|false|false|false|false|false|NN
+
+At	others	at|_start_|the|true|false|false|false|false|false|false|false|false|IN
+the	others	the|at|light|false|false|false|false|false|false|false|false|false|DT
+light	others	light|the|go|false|false|false|false|false|false|false|false|false|NN
+go	others	go|light|straight|false|false|false|false|false|false|false|false|false|VB
+straight	others	straight|go|on|false|false|false|false|false|false|false|false|false|RB
+on	others	on|straight|forward|false|false|false|false|false|false|false|false|false|IN
+Forward	others	forward|on|avenu|true|false|false|false|false|false|false|false|false|NNP
+Avenue	others	avenu|forward|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+At	others	at|_start_|next|true|false|false|false|false|false|false|false|false|IN
+next	others	next|at|light|false|false|false|false|false|false|false|false|false|JJ
+light	others	light|next|turn|false|false|false|false|false|false|false|false|false|NN
+turn	others	turn|light|leav|false|false|false|false|false|false|false|false|false|VB
+left	others	leav|turn|on|false|false|false|false|false|false|false|false|false|VBN
+on	others	on|leav|shadi|false|false|false|false|false|false|false|false|false|IN
+Shady	others	shadi|on|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Continue	others	continu|_start_|till|true|false|false|false|false|false|false|false|false|NNP
+till	others	till|continu|fifth|false|false|false|false|false|false|false|false|false|IN
+Fifth	others	fifth|till|avenu|true|false|false|false|false|false|false|false|false|NNP
+Avenue	others	avenu|fifth|turn|true|false|false|false|false|false|false|false|false|NNP
+turn	others	turn|avenu|leav|false|false|false|false|false|false|false|false|false|NN
+left	others	leav|turn|_end_|false|false|false|false|false|false|false|false|false|VBD
+
+Mellon	others	mellon|_start_|auditorium|true|false|false|false|false|false|false|false|false|NNP
+Auditorium	others	auditorium|mellon|be|true|false|false|false|false|false|false|false|false|NNP
+is	others	be|auditorium|on|false|false|false|false|false|false|false|false|false|VBZ
+on	others	on|be|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|on|leav|false|false|false|false|false|false|false|false|false|DT
+left	others	leav|the|at|false|false|false|false|false|false|false|false|false|VBN
+at	others	at|leav|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|at|intersect|false|false|false|false|false|false|false|false|false|DT
+intersection	others	intersect|the|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|intersect|fifth|false|false|false|false|false|false|false|false|false|IN
+Fifth	others	fifth|of|and|true|false|false|false|false|false|false|false|false|NNP
+and	others	and|fifth|bellefield|false|false|false|false|false|false|false|false|false|CC
+Bellefield	others	bellefield|and|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+

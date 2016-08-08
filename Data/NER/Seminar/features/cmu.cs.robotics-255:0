@@ -1,0 +1,249 @@
+Type	others	type|_start_|cmu|true|false|false|false|false|false|false|false|false|NN
+cmu	others	cmu|type|c|false|false|false|false|false|false|false|false|false|NN
+cs	others	c|cmu|robot|false|false|false|false|false|false|false|false|false|NNS
+robotics	others	robot|c|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+Who	others	who|_start_|d.|true|false|false|false|false|false|false|false|false|WP
+D.	others	d.|who|navinchandra|false|false|false|false|false|true|false|false|false|NNP
+Navinchandra	others	navinchandra|d.|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+Topic	others	topic|_start_|product|true|false|false|false|false|false|false|false|false|NN
+Product	others	product|topic|design|true|false|false|false|false|false|false|false|false|NNP
+Design	others	design|product|for|true|false|false|false|false|false|false|false|false|NNP
+for	others	for|design|environment|false|false|false|false|false|false|false|false|false|IN
+Environmental	others	environment|for|compat|true|false|false|false|false|false|false|false|false|NNP
+Compatibility	others	compat|environment|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Dates	others	date|_start_|20-sep-91|true|false|false|false|false|false|false|false|false|NNS
+20-Sep-91	others	20-sep-91|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|2:00|true|false|false|false|false|false|false|false|false|NNP
+2:00	stime	2:00|time|pm|false|false|false|false|false|false|false|false|false|CD
+PM	stime	pm|2:00|3:00|false|true|false|true|false|false|true|false|false|NN
+3:00	etime	3:00|pm|pm|false|false|false|false|false|false|false|true|false|CD
+PM	etime	pm|3:00|_end_|false|true|false|true|false|false|false|false|false|NN
+
+Place	others	place|_start_|3313|true|false|false|false|false|false|false|false|false|NN
+3313	location	3313|place|doherti|false|false|false|false|false|false|false|false|true|CD
+Doherty	location	doherti|3313|hall|true|false|false|false|false|false|false|false|false|NNP
+Hall	location	hall|doherti|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+PostedBy	others	postedbi|_start_|maa|false|false|false|false|true|false|false|false|false|NNP
+maa	others	maa|postedbi|on|false|false|false|false|false|false|false|false|false|NN
+on	others	on|maa|18-sep-91|false|false|false|false|false|false|false|false|false|IN
+18-Sep-91	others	18-sep-91|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|18-sep-91|12:12|false|false|false|false|false|false|false|false|false|IN
+12:12	others	12:12|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|12:12|isl1|false|false|false|false|false|false|false|false|false|IN
+ISL1	others	isl1|from|ri.cmu.edu|false|false|false|false|false|false|false|false|false|NN
+RI.CMU.EDU	others	ri.cmu.edu|isl1|-lrb-|false|false|false|false|false|false|false|false|false|NN
+-LRB-	others	-lrb-|ri.cmu.edu|michel|false|false|false|false|false|false|false|false|false|-LRB-
+Michelle	others	michel|-lrb-|agi|true|false|false|false|false|false|false|false|false|NNP
+Agie	others	agi|michel|-rrb-|true|false|false|false|false|false|false|false|false|NNP
+-RRB-	others	-rrb-|agi|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+SPEAKER	others	speaker|_start_|d.|false|true|false|true|false|false|false|false|false|NN
+D.	speaker	d.|speaker|navinchandra|false|false|false|false|false|true|false|false|false|NNP
+Navinchandra	speaker	navinchandra|d.|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+DATE	others	date|_start_|fridai|false|true|false|true|false|false|false|false|false|NN
+Friday	others	fridai|date|septemb|true|false|false|false|false|false|false|false|true|NNP
+September	others	septemb|fridai|20|true|false|false|false|false|false|false|false|true|NNP
+20	others	20|septemb|1991|false|false|false|false|false|false|false|false|true|CD
+1991	others	1991|20|_end_|false|false|false|false|false|false|false|false|true|CD
+
+TIME	others	time|_start_|2:00|false|true|false|true|false|false|false|false|false|NN
+2:00	stime	2:00|time|pm|false|false|false|false|false|false|false|false|false|CD
+pm	stime	pm|2:00|3:00|false|false|false|false|false|false|true|false|false|NN
+3:00	etime	3:00|pm|pm|false|false|false|false|false|false|false|true|false|CD
+pm	etime	pm|3:00|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Place	others	place|_start_|3313|true|false|false|false|false|false|false|false|false|NN
+3313	location	3313|place|doherti|false|false|false|false|false|false|false|false|true|CD
+Doherty	location	doherti|3313|hall|true|false|false|false|false|false|false|false|false|NNP
+Hall	location	hall|doherti|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+TITLE	others	titl|_start_|product|false|true|false|true|false|false|false|false|false|NN
+Product	others	product|titl|design|true|false|false|false|false|false|false|false|false|NNP
+Design	others	design|product|for|true|false|false|false|false|false|false|false|false|NNP
+for	others	for|design|environment|false|false|false|false|false|false|false|false|false|IN
+Environmental	others	environment|for|compat|true|false|false|false|false|false|false|false|false|NNP
+Compatibility	others	compat|environment|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+There	others	there|_start_|be|true|false|false|false|false|false|false|false|false|EX
+is	others	be|there|a|false|false|false|false|false|false|false|false|false|VBZ
+a	others	a|be|grow|false|false|false|false|false|false|false|false|false|DT
+growing	others	grow|a|interest|false|false|false|false|false|false|false|false|false|VBG
+interest	others	interest|grow|in|false|false|false|false|false|false|false|false|false|NN
+in	others	in|interest|make|false|false|false|false|false|false|false|false|false|IN
+making	others	make|in|product|false|false|false|false|false|false|false|false|false|VBG
+products	others	product|make|environment|false|false|false|false|false|false|false|false|false|NNS
+environmentally	others	environment|product|more|false|false|false|false|false|false|false|false|false|RB
+more	others	more|environment|_end_|false|false|false|false|false|false|false|false|false|RBR
+
+compatible	others	compat|_start_|while|false|false|false|false|false|false|false|false|false|JJ
+While	others	while|compat|there|true|false|false|false|false|false|false|false|false|IN
+there	others	there|while|be|false|false|false|false|false|false|false|false|false|EX
+is	others	be|there|a|false|false|false|false|false|false|false|false|false|VBZ
+a	others	a|be|need|false|false|false|false|false|false|false|false|false|DT
+need	others	need|a|to|false|false|false|false|false|false|false|false|false|NN
+to	others	to|need|make|false|false|false|false|false|false|false|false|false|TO
+make	others	make|to|product|false|false|false|false|false|false|false|false|false|VB
+products	others	product|make|and|false|false|false|false|false|false|false|false|false|NNS
+and	others	and|product|process|false|false|false|false|false|false|false|false|false|CC
+processes	others	process|and|less|false|false|false|false|false|false|false|false|false|NNS
+less	others	less|process|toxic|false|false|false|false|false|false|false|false|false|JJR
+toxic	others	toxic|less|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+to	others	to|_start_|increas|false|false|false|false|false|false|false|false|false|TO
+increase	others	increas|to|recycl|false|false|false|false|false|false|false|false|false|VB
+recyclability	others	recycl|increas|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|recycl|to|false|false|false|false|false|false|false|false|false|CC
+to	others	to|and|reduc|false|false|false|false|false|false|false|false|false|TO
+reduce	others	reduc|to|wast|false|false|false|false|false|false|false|false|false|VB
+waste	others	wast|reduc|we|false|false|false|false|false|false|false|false|false|NN
+we	others	we|wast|have|false|false|false|false|false|false|false|false|false|PRP
+have	others	have|we|to|false|false|false|false|false|false|false|false|false|VBP
+to	others	to|have|try|false|false|false|false|false|false|false|false|false|TO
+try	others	try|to|to|false|false|false|false|false|false|false|false|false|VB
+to	others	to|try|achiev|false|false|false|false|false|false|false|false|false|TO
+achieve	others	achiev|to|_end_|false|false|false|false|false|false|false|false|false|VB
+
+environmental	others	environment|_start_|friendli|false|false|false|false|false|false|false|false|false|JJ
+friendliness	others	friendli|environment|without|false|false|false|false|false|false|false|false|false|NN
+without	others	without|friendli|compromis|false|false|false|false|false|false|false|false|false|IN
+compromising	others	compromis|without|product|false|false|false|false|false|false|false|false|false|VBG
+product	others	product|compromis|qualiti|false|false|false|false|false|false|false|false|false|NN
+quality	others	qualiti|product|thi|false|false|false|false|false|false|false|false|false|NN
+This	others	thi|qualiti|_end_|true|false|false|false|false|false|false|false|false|DT
+
+approach	others	approach|_start_|to|false|false|false|false|false|false|false|false|false|NN
+to	others	to|approach|design|false|false|false|false|false|false|false|false|false|TO
+design	others	design|to|have|false|false|false|false|false|false|false|false|false|NN
+has	others	have|design|come|false|false|false|false|false|false|false|false|false|VBZ
+come	others	come|have|to|false|false|false|false|false|false|false|false|false|VBN
+to	others	to|come|be|false|false|false|false|false|false|false|false|false|TO
+be	others	be|to|call|false|false|false|false|false|false|false|false|false|VB
+called	others	call|be|@i|false|false|false|false|false|false|false|false|false|VBN
+@i	others	@i|call|-lrb-|false|false|false|false|false|false|false|false|false|NNS
+-LRB-	others	-lrb-|@i|green|false|false|false|false|false|false|false|false|false|-LRB-
+Green	others	green|-lrb-|engin|true|false|false|false|false|false|false|false|false|NNP
+Engineering	others	engin|green|design|true|false|false|false|false|false|false|false|false|NNP
+Design	others	design|engin|-rrb-|true|false|false|false|false|false|false|false|false|NN
+-RRB-	others	-rrb-|design|the|false|false|false|false|false|false|false|false|false|-RRB-
+The	others	the|-rrb-|_end_|true|false|false|false|false|false|false|false|false|DT
+
+aim	others	aim|_start_|be|false|false|false|false|false|false|false|false|false|NN
+is	others	be|aim|to|false|false|false|false|false|false|false|false|false|VBZ
+to	others	to|be|identifi|false|false|false|false|false|false|false|false|false|TO
+identify	others	identifi|to|develop|false|false|false|false|false|false|false|false|false|VB
+develop	others	develop|identifi|and|false|false|false|false|false|false|false|false|false|VB
+and	others	and|develop|exploit|false|false|false|false|false|false|false|false|false|CC
+exploit	others	exploit|and|new|false|false|false|false|false|false|false|false|false|VB
+new	others	new|exploit|technolog|false|false|false|false|false|false|false|false|false|JJ
+technologies	others	technolog|new|that|false|false|false|false|false|false|false|false|false|NNS
+that	others	that|technolog|can|false|false|false|false|false|false|false|false|false|WDT
+can	others	can|that|bolster|false|false|false|false|false|false|false|false|false|MD
+bolster	others	bolster|can|_end_|false|false|false|false|false|false|false|false|false|VB
+
+productivity	others	product|_start_|without|false|false|false|false|false|false|false|false|false|NN
+without	others	without|product|cost|false|false|false|false|false|false|false|false|false|IN
+costing	others	cost|without|the|false|false|false|false|false|false|false|false|false|VBG
+the	others	the|cost|environ|false|false|false|false|false|false|false|false|false|DT
+environment	others	environ|the|the|false|false|false|false|false|false|false|false|false|NN
+The	others	the|environ|idea|true|false|false|false|false|false|false|false|false|DT
+idea	others	idea|the|be|false|false|false|false|false|false|false|false|false|NN
+is	others	be|idea|to|false|false|false|false|false|false|false|false|false|VBZ
+to	others	to|be|inject|false|false|false|false|false|false|false|false|false|TO
+inject	others	inject|to|concern|false|false|false|false|false|false|false|false|false|VB
+concerns	others	concern|inject|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+about	others	about|_start_|environment|false|false|false|false|false|false|false|false|false|IN
+environmental	others	environment|about|friendli|false|false|false|false|false|false|false|false|false|JJ
+friendliness	others	friendli|environment|into|false|false|false|false|false|false|false|false|false|NN
+into	others	into|friendli|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|into|design|false|false|false|false|false|false|false|false|false|DT
+design	others	design|the|process|false|false|false|false|false|false|false|false|false|NN
+process	others	process|design|where|false|false|false|false|false|false|false|false|false|NN
+where	others	where|process|the|false|false|false|false|false|false|false|false|false|WRB
+the	others	the|where|assess|false|false|false|false|false|false|false|false|false|DT
+assessment	others	assess|the|_end_|false|false|false|false|false|false|false|false|false|NN
+
+of	others	of|_start_|environment|false|false|false|false|false|false|false|false|false|IN
+environmental	others	environment|of|friendli|false|false|false|false|false|false|false|false|false|JJ
+friendliness	others	friendli|environment|be|false|false|false|false|false|false|false|false|false|NN
+is	others	be|friendli|base|false|false|false|false|false|false|false|false|false|VBZ
+based	others	base|be|on|false|false|false|false|false|false|false|false|false|VBN
+on	others	on|base|a|false|false|false|false|false|false|false|false|false|IN
+a	others	a|on|life-cycl|false|false|false|false|false|false|false|false|false|DT
+life-cycle	others	life-cycl|a|view|false|false|false|false|false|false|false|false|false|JJ
+view	others	view|life-cycl|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|view|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|of|product|false|false|false|false|false|false|false|false|false|DT
+product	others	product|the|_end_|false|false|false|false|false|false|false|false|false|NN
+
+This	others	thi|_start_|includ|true|false|false|false|false|false|false|false|false|DT
+includes	others	includ|thi|the|false|false|false|false|false|false|false|false|false|VBZ
+the	others	the|includ|product|false|false|false|false|false|false|false|false|false|DT
+product	others	product|the|'s|false|false|false|false|false|false|false|false|false|NN
+'s	others	's|product|manufactur|false|false|false|false|false|false|false|false|false|POS
+manufacturing	others	manufactur|'s|process|false|false|false|false|false|false|false|false|false|NN
+process	others	process|manufactur|distribut|false|false|false|false|false|false|false|false|false|NN
+distribution	others	distribut|process|us|false|false|false|false|false|false|false|false|false|NN
+use	others	us|distribut|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|us|_end_|false|false|false|false|false|false|false|false|false|CC
+
+final	others	final|_start_|dispos|false|false|false|false|false|false|false|false|false|JJ
+disposal	others	dispos|final|_end_|false|false|false|false|false|false|false|false|false|NN
+
+We	others	we|_start_|will|true|false|false|false|false|false|false|false|false|PRP
+will	others	will|we|examin|false|false|false|false|false|false|false|false|false|MD
+examine	others	examin|will|a|false|false|false|false|false|false|false|false|false|VB
+a	others	a|examin|two|false|false|false|false|false|false|false|false|false|DT
+two	others	two|a|part|false|false|false|false|false|false|false|false|false|CD
+part	others	part|two|approach|false|false|false|false|false|false|false|false|false|NN
+approach	others	approach|part|to|false|false|false|false|false|false|false|false|false|NN
+to	others	to|approach|green|false|false|false|false|false|false|false|false|false|TO
+green	others	green|to|engin|false|false|false|false|false|false|false|false|false|JJ
+engineering	others	engin|green|-lrb-|false|false|false|false|false|false|false|false|false|NN
+-LRB-	others	-lrb-|engin|1|false|false|false|false|false|false|false|false|false|-LRB-
+1	others	1|-lrb-|-rrb-|false|false|false|false|false|false|false|false|false|LS
+-RRB-	others	-rrb-|1|the|false|false|false|false|false|false|false|false|false|-RRB-
+the	others	the|-rrb-|develop|false|false|false|false|false|false|false|false|false|DT
+development	others	develop|the|_end_|false|false|false|false|false|false|false|false|false|NN
+
+of	others	of|_start_|special|false|false|false|false|false|false|false|false|false|IN
+special	others	special|of|@i|false|false|false|false|false|false|false|false|false|JJ
+@i	others	@i|special|-lrb-|false|false|false|false|false|false|false|false|false|NNS
+-LRB-	others	-lrb-|@i|green|false|false|false|false|false|false|false|false|false|-LRB-
+green	others	green|-lrb-|indic|false|false|false|false|false|false|false|false|false|JJ
+indicators	others	indic|green|-rrb-|false|false|false|false|false|false|false|false|false|NNS
+-RRB-	others	-rrb-|indic|measur|false|false|false|false|false|false|false|false|false|-RRB-
+measures	others	measur|-rrb-|of|false|false|false|false|false|false|false|false|false|NNS
+of	others	of|measur|environment|false|false|false|false|false|false|false|false|false|IN
+environmental	others	environment|of|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+compatibility	others	compat|_start_|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|compat|-lrb-|false|false|false|false|false|false|false|false|false|CC
+-LRB-	others	-lrb-|and|2|false|false|false|false|false|false|false|false|false|-LRB-
+2	others	2|-lrb-|-rrb-|false|false|false|false|false|false|false|false|false|LS
+-RRB-	others	-rrb-|2|tool|false|false|false|false|false|false|false|false|false|-RRB-
+tools	others	tool|-rrb-|that|false|false|false|false|false|false|false|false|false|NNS
+that	others	that|tool|us|false|false|false|false|false|false|false|false|false|WDT
+use	others	us|that|the|false|false|false|false|false|false|false|false|false|VBP
+the	others	the|us|green|false|false|false|false|false|false|false|false|false|DT
+green	others	green|the|indic|false|false|false|false|false|false|false|false|false|JJ
+indicators	others	indic|green|to|false|false|false|false|false|false|false|false|false|NNS
+to	others	to|indic|help|false|false|false|false|false|false|false|false|false|TO
+help	others	help|to|design|false|false|false|false|false|false|false|false|false|VB
+designers	others	design|help|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+assess	others	assess|_start_|compar|false|false|false|false|false|false|false|false|false|VB
+compare	others	compar|assess|and|false|false|false|false|false|false|false|false|false|VB
+and	others	and|compar|make|false|false|false|false|false|false|false|false|false|CC
+make	others	make|and|design|false|false|false|false|false|false|false|false|false|VB
+design	others	design|make|decis|false|false|false|false|false|false|false|false|false|NN
+decisions	others	decis|design|_end_|false|false|false|false|false|false|false|false|false|NNS
+

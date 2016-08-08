@@ -1,0 +1,245 @@
+Type	others	type|_start_|cmu|true|false|false|false|false|false|false|false|false|NN
+cmu	others	cmu|type|c|false|false|false|false|false|false|false|false|false|NN
+cs	others	c|cmu|sc|false|false|false|false|false|false|false|false|false|NNS
+scs	others	sc|c|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+Topic	others	topic|_start_|undergrad|true|false|false|false|false|false|false|false|false|NN
+Undergrad	others	undergrad|topic|research|true|false|false|false|false|false|false|false|false|NNP
+Research	others	research|undergrad|present|true|false|false|false|false|false|false|false|false|NNP
+Presentations	others	present|research|_end_|true|false|false|false|false|false|false|false|false|NNPS
+
+Dates	others	date|_start_|4-may-92|true|false|false|false|false|false|false|false|false|NNS
+4-May-92	others	4-may-92|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|3:30|true|false|false|false|false|false|false|false|false|NNP
+3:30	stime	3:30|time|5:00|false|false|false|false|false|false|true|false|false|CD
+5:00	etime	5:00|3:30|_end_|false|false|false|false|false|false|false|true|false|CD
+
+PostedBy	others	postedbi|_start_|mj|false|false|false|false|true|false|false|false|false|NNP
+mjs	others	mj|postedbi|on|false|false|false|false|false|false|false|false|false|NNS
+on	others	on|mj|29-apr-92|false|false|false|false|false|false|false|false|false|IN
+29-Apr-92	others	29-apr-92|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|29-apr-92|00:39|false|false|false|false|false|false|false|false|false|IN
+00:39	others	00:39|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|00:39|g.gp.cs.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+G.GP.CS.CMU.EDU	others	g.gp.cs.cmu.edu|from|-lrb-|false|false|false|false|false|false|false|false|false|NN
+-LRB-	others	-lrb-|g.gp.cs.cmu.edu|mark|false|false|false|false|false|false|false|false|false|-LRB-
+Mark	others	mark|-lrb-|stehlik|true|false|false|false|false|true|false|false|false|NNP
+Stehlik	others	stehlik|mark|-rrb-|true|false|false|false|false|true|false|false|false|NNP
+-RRB-	others	-rrb-|stehlik|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+The	others	the|_start_|other|true|false|false|false|false|false|false|false|false|DT
+other	others	other|the|independ|false|false|false|false|false|false|false|false|false|JJ
+Independent	others	independ|other|studi|true|false|false|false|false|false|false|false|false|NNP
+Study	others	studi|independ|project|true|false|false|false|false|false|false|false|false|NNP
+Projects	others	project|studi|to|true|false|false|false|false|false|false|false|false|NNPS
+to	others	to|project|be|false|false|false|false|false|false|false|false|false|TO
+be	others	be|to|present|false|false|false|false|false|false|false|false|false|VB
+presented	others	present|be|from|false|false|false|false|false|false|false|false|false|VBN
+from	others	from|present|3:30|false|false|false|false|false|false|false|false|false|IN
+3:30	stime	3:30|from|to|false|false|false|false|false|false|false|false|false|CD
+to	others	to|3:30|5|false|false|false|false|false|false|false|false|false|TO
+5	etime	5|to|on|false|false|false|false|false|false|false|false|false|CD
+on	others	on|5|mondai|false|false|false|false|false|false|false|false|false|IN
+Monday	others	mondai|on|_end_|true|false|false|false|false|false|false|false|true|NNP
+
+May	others	mai|_start_|4|true|false|false|false|false|false|false|false|true|NNP
+4	others	4|mai|in|false|false|false|false|false|false|false|false|true|CD
+in	others	in|4|wean|false|false|false|false|false|false|false|false|false|IN
+Wean	location	wean|in|5403|true|false|false|false|false|false|false|false|false|JJ
+5403	location	5403|wean|be|false|false|false|false|false|false|false|false|false|CD
+are	others	be|5403|as|false|false|false|false|false|false|false|false|false|VBP
+as	others	as|be|follow|false|false|false|false|false|false|false|false|false|IN
+follows	others	follow|as|_end_|false|false|false|false|false|false|false|false|false|VBZ
+
+Bill	others	bill|_start_|adam|true|false|false|false|false|true|false|false|false|NNP
+Adams	others	adam|bill|geni|true|false|false|false|false|true|false|false|false|NNP
+Genie	others	geni|adam|error|true|false|false|false|false|false|false|false|false|NNP
+Error	others	error|geni|interfac|true|false|false|false|false|false|false|false|false|NNP
+Interface	others	interfac|error|design|true|false|false|false|false|false|false|false|false|NNP
+Design	others	design|interfac|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Gerard	others	gerard|_start_|decatrel|true|false|false|false|false|true|false|false|false|NNP
+Decatrel	others	decatrel|gerard|virtual|true|false|false|false|false|true|false|false|false|NNP
+Virtual	others	virtual|decatrel|realiti|true|false|false|false|false|false|false|false|false|NNP
+Reality	others	realiti|virtual|object|true|false|false|false|false|false|false|false|false|NN
+Object	others	object|realiti|reconstruct|true|false|false|false|false|false|false|false|false|NNP
+Reconstruction	others	reconstruct|object|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Andrew	others	andrew|_start_|dent|true|false|false|false|false|false|false|false|false|NNP
+Dent	others	dent|andrew|implement|true|false|false|false|false|false|false|false|false|NNP
+Implementing	others	implement|dent|biolog|true|false|false|false|false|false|false|false|false|NNP
+Biological	others	biolog|implement|imag|true|false|false|false|false|false|false|false|false|NNP
+Imaging	others	imag|biolog|algorithm|true|false|false|false|false|false|false|false|false|NNP
+Algorithms	others	algorithm|imag|_end_|true|false|false|false|false|false|false|false|false|NNPS
+
+Melissa	others	melissa|_start_|goldman|true|false|false|false|false|true|false|false|false|NNP
+Goldman	others	goldman|melissa|ezmail|true|false|false|false|false|true|false|false|false|NNP
+Ezmail	others	ezmail|goldman|dectalk|true|false|false|false|false|true|false|false|false|NN
+Dectalk	others	dectalk|ezmail|eztalk|true|false|false|false|false|false|false|false|false|NN
+Eztalk	others	eztalk|dectalk|_end_|true|false|false|false|false|false|false|false|false|NN
+
+Vivek	others	vivek|_start_|gupta|true|false|false|false|false|false|false|false|false|NNP
+Gupta	others	gupta|vivek|data|true|false|false|false|false|false|false|false|false|NNP
+Data	others	data|gupta|visual|true|false|false|false|false|false|false|false|false|NNP
+Visualization	others	visual|data|in|true|false|false|false|false|false|false|false|false|NN
+in	others	in|visual|garnet|false|false|false|false|false|false|false|false|false|IN
+Garnet	others	garnet|in|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Chris	others	chri|_start_|kirbi|true|false|false|false|false|true|false|false|false|NNP
+Kirby	others	kirbi|chri|appli|true|false|false|false|false|true|false|false|false|NNP
+Applying	others	appli|kirbi|object-ori|true|false|false|false|false|false|false|false|false|VBG
+Object-Oriented	others	object-ori|appli|design|false|false|false|false|false|false|false|false|false|NNP
+Design	others	design|object-ori|to|true|false|false|false|false|false|false|false|false|NNP
+to	others	to|design|realtim|false|false|false|false|false|false|false|false|false|TO
+Realtime	others	realtim|to|system|true|false|false|false|false|false|false|false|false|NNP
+System	others	system|realtim|develop|true|false|false|false|false|false|false|false|false|NNP
+Development	others	develop|system|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Greg	others	greg|_start_|landrum|true|false|false|false|false|false|false|false|false|NNP
+Landrum	others	landrum|greg|us|true|false|false|false|false|false|false|false|false|NNP
+Using	others	us|landrum|graphic|true|false|false|false|false|false|false|false|false|VBG
+Graphics	others	graphic|us|in|true|false|false|false|false|false|false|false|false|NNS
+in	others	in|graphic|computer-aid|false|false|false|false|false|false|false|false|false|IN
+Computer-Aided	others	computer-aid|in|instruct|false|false|false|false|false|false|false|false|false|JJ
+Instruction	others	instruct|computer-aid|of|true|false|false|false|false|false|false|false|false|NN
+of	others	of|instruct|scienc|false|false|false|false|false|false|false|false|false|IN
+Science	others	scienc|of|math|true|false|false|false|false|false|false|false|false|NNP
+Math	others	math|scienc|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+David	others	david|_start_|pierc|true|false|false|false|false|true|false|false|false|NNP
+Pierce	others	pierc|david|replication-bas|true|false|false|false|false|true|false|false|false|NNP
+Replication-Based	others	replication-bas|pierc|increment|false|false|false|false|false|false|false|false|false|NNP
+Incremental	others	increment|replication-bas|garbag|true|false|false|false|false|false|false|false|false|NNP
+Garbage	others	garbag|increment|collect|true|false|false|false|false|false|false|false|false|NNP
+Collection	others	collect|garbag|for|true|false|false|false|false|false|false|false|false|NNP
+for	others	for|collect|sml|false|false|false|false|false|false|false|false|false|IN
+SML	others	sml|for|_end_|false|true|false|true|false|false|false|false|false|NNS
+
+Jeon	others	jeon|_start_|rezvani|true|false|false|false|false|false|false|false|false|NNP
+Rezvani	others	rezvani|jeon|appli|true|false|false|false|false|false|false|false|false|NNP
+Applying	others	appli|rezvani|object-ori|true|false|false|false|false|false|false|false|false|VBG
+Object-Oriented	others	object-ori|appli|design|false|false|false|false|false|false|false|false|false|NNP
+Design	others	design|object-ori|to|true|false|false|false|false|false|false|false|false|NNP
+to	others	to|design|realtim|false|false|false|false|false|false|false|false|false|TO
+Realtime	others	realtim|to|system|true|false|false|false|false|false|false|false|false|NNP
+System	others	system|realtim|develop|true|false|false|false|false|false|false|false|false|NNP
+Development	others	develop|system|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Mike	others	mike|_start_|stein|true|false|false|false|false|false|false|false|false|NNP
+Stein	others	stein|mike|high|true|false|false|false|false|false|false|false|false|NNP
+High	others	high|stein|qualiti|true|false|false|false|false|false|false|false|false|NNP
+Quality	others	qualiti|high|anim|true|false|false|false|false|false|false|false|false|NNP
+Animation	others	anim|qualiti|and|true|false|false|false|false|false|false|false|false|NNP
+and	others	and|anim|scienc|false|false|false|false|false|false|false|false|false|CC
+Science	others	scienc|and|educ|true|false|false|false|false|false|false|false|false|NNP
+Education	others	educ|scienc|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Marcus	others	marcu|_start_|alzona|true|false|false|false|false|true|false|false|false|NNP
+Alzona	others	alzona|marcu|mobiltii|true|false|false|false|false|true|false|false|false|NNP
+Mobiltiy	others	mobiltii|alzona|and|true|false|false|false|false|true|false|false|false|NNP
+and	others	and|mobiltii|control|false|false|false|false|false|false|false|false|false|CC
+Control	others	control|and|issu|true|false|false|false|false|false|false|false|false|NNP
+Issues	others	issu|control|in|true|false|false|false|false|false|false|false|false|NNP
+in	others	in|issu|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|in|tile|false|false|false|false|false|false|false|false|false|DT
+Tile	others	tile|the|robot|true|false|false|false|false|false|false|false|false|NNP
+Robot	others	robot|tile|project|true|false|false|false|false|false|false|false|false|NNP
+Project	others	project|robot|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Scott	others	scott|_start_|boehmk|true|false|false|false|false|true|false|false|false|NNP
+Boehmke	others	boehmk|scott|the|true|false|false|false|false|true|false|false|false|NNP
+The	others	the|boehmk|design|true|false|false|false|false|false|false|false|false|NNP
+Design	others	design|the|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|design|robot|false|false|false|false|false|false|false|false|false|IN
+Robotic	others	robot|of|system|true|false|false|false|false|false|false|false|false|NNP
+Systems	others	system|robot|in|true|false|false|false|false|false|false|false|false|NNPS
+in	others	in|system|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|in|erebu|false|false|false|false|false|false|false|false|false|DT
+Erebus	others	erebu|the|project|true|false|false|false|false|false|false|false|false|NNP
+Project	others	project|erebu|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Richard	others	richard|_start_|chung|true|false|false|false|false|false|false|false|false|NNP
+Chung	others	chung|richard|simul|true|false|false|false|false|false|false|false|false|NNP
+Simulation	others	simul|chung|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|simul|robot|false|false|false|false|false|false|false|false|false|IN
+Robotic	others	robot|of|system|true|false|false|false|false|false|false|false|false|NNP
+Systems	others	system|robot|in|true|false|false|false|false|false|false|false|false|NNPS
+in	others	in|system|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|in|erebu|false|false|false|false|false|false|false|false|false|DT
+Erebus	others	erebu|the|project|true|false|false|false|false|false|false|false|false|NNP
+Project	others	project|erebu|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Alex	others	alex|_start_|dougla|true|false|false|false|false|false|false|false|false|NNP
+Douglas	others	dougla|alex|intellig|true|false|false|false|false|false|false|false|false|NNP
+Intelligent	others	intellig|dougla|share|true|false|false|false|false|false|false|false|false|NNP
+Shared	others	share|intellig|control|true|false|false|false|false|false|false|false|false|NNP
+Control	others	control|share|for|true|false|false|false|false|false|false|false|false|NNP
+for	others	for|control|space|false|false|false|false|false|false|false|false|false|IN
+Space	others	space|for|robot|true|false|false|false|false|false|false|false|false|NNP
+Robots	others	robot|space|_end_|true|false|false|false|false|false|false|false|false|NNPS
+
+Carolyn	others	carolyn|_start_|dunmir|true|false|false|false|false|true|false|false|false|NNP
+Dunmire	others	dunmir|carolyn|the|true|false|false|false|false|true|false|false|false|NNP
+The	others	the|dunmir|studi|true|false|false|false|false|false|false|false|false|NNP
+Study	others	studi|the|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|studi|intellig|false|false|false|false|false|false|false|false|false|IN
+Intelligent	others	intellig|of|human-comput|true|false|false|false|false|false|false|false|false|NNP
+Human-Computer	others	human-comput|intellig|interfac|false|false|false|false|false|false|false|false|false|NNP
+Interfaces	others	interfac|human-comput|_end_|true|false|false|false|false|false|false|false|false|NNPS
+
+Mike	others	mike|_start_|mantarro|true|false|false|false|false|true|false|false|false|NNP
+Mantarro	others	mantarro|mike|a|true|false|false|false|false|true|false|false|false|NNP
+A	others	a|mantarro|parallel|false|false|true|true|false|false|false|false|false|NNP
+Parallel	others	parallel|a|object-ori|true|false|false|false|false|false|false|false|false|JJ
+Object-Oriented	others	object-ori|parallel|bioprocessor|false|false|false|false|false|false|false|false|false|JJ
+BioProcessor	others	bioprocessor|object-ori|_end_|false|false|false|false|false|false|false|false|false|NNP
+
+Nanci	others	nanci|_start_|miller|true|false|false|false|false|true|false|false|false|NNP
+Miller	others	miller|nanci|a|true|false|false|false|false|true|false|false|false|NNP
+A	others	a|miller|parallel|false|false|true|true|false|false|false|false|false|NNP
+Parallel	others	parallel|a|object-ori|true|false|false|false|false|false|false|false|false|JJ
+Object-Oriented	others	object-ori|parallel|bioprocessor|false|false|false|false|false|false|false|false|false|JJ
+BioProcessor	others	bioprocessor|object-ori|_end_|false|false|false|false|false|false|false|false|false|NNP
+
+Constantine	others	constantin|_start_|papageorgi|true|false|false|false|false|false|false|false|false|NNP
+Papageorgiou	others	papageorgi|constantin|intellig|true|false|false|false|false|false|false|false|false|NNP
+Intelligent	others	intellig|papageorgi|singular|true|false|false|false|false|false|false|false|false|NNP
+Singularity	others	singular|intellig|avoid|true|false|false|false|false|false|false|false|false|NNP
+Avoidance	others	avoid|singular|in|true|false|false|false|false|false|false|false|false|NNP
+in	others	in|avoid|telerobot|false|false|false|false|false|false|false|false|false|IN
+Telerobotics	others	telerobot|in|_end_|true|false|false|false|false|false|false|false|false|NNPS
+
+
+Mark	others	mark|_start_|stehlik|true|false|false|false|false|false|false|false|false|NNP
+Stehlik	others	stehlik|mark|assist|true|false|false|false|false|false|false|false|false|NNP
+Assistant	others	assist|stehlik|dean|true|false|false|false|false|true|false|false|false|NNP
+Dean	others	dean|assist|for|true|false|false|false|false|false|false|false|false|NNP
+for	others	for|dean|undergrad|false|false|false|false|false|false|false|false|false|IN
+Undergrad	others	undergrad|for|educ|true|false|false|false|false|false|false|false|false|NNP
+Education	others	educ|undergrad|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+School	others	school|_start_|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|school|comput|false|false|false|false|false|false|false|false|false|IN
+Computer	others	comput|of|scienc|true|false|false|false|false|false|false|false|false|NNP
+Science	others	scienc|comput|-lrb-412-rrb- 268-3609|true|false|false|false|false|false|false|false|false|NNP
+-LRB-412-RRB- 268-3609	others	-lrb-412-rrb- 268-3609|scienc|-lrb-|false|false|false|false|false|false|false|false|false|NN
+-LRB-	others	-lrb-|-lrb-412-rrb- 268-3609|offic|false|false|false|false|false|false|false|false|false|-LRB-
+office	others	offic|-lrb-|-rrb-|false|false|false|false|false|false|false|false|false|NN
+-RRB-	others	-rrb-|offic|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+Carnegie-Mellon	others	carnegie-mellon|_start_|univers|false|false|false|false|false|false|false|false|false|NNP
+University	others	univers|carnegie-mellon|-lrb-412-rrb- 681-5739|true|false|false|false|false|false|false|false|false|NNP
+-LRB-412-RRB- 681-5739	others	-lrb-412-rrb- 681-5739|univers|-lrb-|false|false|false|false|false|false|false|false|false|NN
+-LRB-	others	-lrb-|-lrb-412-rrb- 681-5739|fax|false|false|false|false|false|false|false|false|false|-LRB-
+fax	others	fax|-lrb-|-rrb-|false|false|false|false|false|false|false|false|false|NN
+-RRB-	others	-rrb-|fax|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+Pittsburgh	others	pittsburgh|_start_|pa|true|false|false|false|false|false|false|false|false|NNP
+PA	others	pa|pittsburgh|15213|false|true|false|true|false|false|false|false|false|NN
+15213	others	15213|pa|internet|false|false|false|false|false|false|false|false|false|CD
+Internet	others	internet|15213|mjs@cs.cmu.edu|true|false|false|false|false|false|false|false|false|NN
+mjs@cs.cmu.edu	others	mjs@cs.cmu.edu|internet|_end_|false|false|false|false|false|false|false|false|false|NN
+

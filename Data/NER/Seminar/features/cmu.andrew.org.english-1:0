@@ -1,0 +1,99 @@
+Type	others	type|_start_|cmu.andrew.org|true|false|false|false|false|false|false|false|false|NN
+cmu.andrew.org	others	cmu.andrew.org|type|english|false|false|false|false|false|false|false|false|false|NN
+english	others	english|cmu.andrew.org|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Topic	others	topic|_start_|colloquium|true|false|false|false|false|false|false|false|false|NN
+Colloquium	others	colloquium|topic|tomorrow|true|false|false|false|false|false|false|false|false|NNP
+Tomorrow	others	tomorrow|colloquium|_end_|true|false|false|false|false|false|false|false|true|NNP
+
+Dates	others	date|_start_|12-nov-92|true|false|false|false|false|false|false|false|false|NNS
+12-Nov-92	others	12-nov-92|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|12:00|true|false|false|false|false|false|false|false|false|NNP
+12:00	stime	12:00|time|pm|false|false|false|false|false|false|false|false|false|CD
+PM	stime	pm|12:00|1:00|false|true|false|true|false|false|true|false|false|NN
+1:00	etime	1:00|pm|pm|false|false|false|false|false|false|false|true|false|CD
+PM	etime	pm|1:00|_end_|false|true|false|true|false|false|false|false|false|NN
+
+PostedBy	others	postedbi|_start_|mark|false|false|false|false|true|false|false|false|false|NNP
+Mark	others	mark|postedbi|jame|true|false|false|false|false|true|false|false|false|NNP
+James	others	jame|mark|werner|true|false|false|false|false|true|false|false|false|NNP
+Werner	others	werner|jame|on|true|false|false|false|false|true|false|false|false|NNP
+on	others	on|werner|11-nov-92|false|false|false|false|false|false|false|false|false|IN
+11-Nov-92	others	11-nov-92|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|11-nov-92|16:05|false|false|false|false|false|false|false|false|false|IN
+16:05	others	16:05|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|16:05|andrew.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+andrew.cmu.edu	others	andrew.cmu.edu|from|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+Dave	speaker	dave|_start_|kaufer|true|false|false|false|false|true|false|false|false|NNP
+Kaufer	speaker	kaufer|dave|of|true|false|false|false|false|true|false|false|false|NNP
+of	others	of|kaufer|cmu|false|false|false|false|false|false|false|false|false|IN
+CMU	others	cmu|of|'s|false|true|false|true|false|false|false|false|false|NNP
+'s	others	's|cmu|english|false|false|false|false|false|false|false|false|false|POS
+English	others	english|'s|depart|true|false|false|false|false|false|false|false|false|NNP
+Department	others	depart|english|will|true|false|false|false|false|false|false|false|false|NNP
+will	others	will|depart|be|false|false|false|false|false|false|false|false|false|MD
+be	others	be|will|speak|false|false|false|false|false|false|false|false|false|VB
+speaking	others	speak|be|tomorrow|false|false|false|false|false|false|false|false|false|VBG
+tomorrow	others	tomorrow|speak|in|false|false|false|false|false|false|false|false|true|NN
+in	others	in|tomorrow|_end_|false|false|false|false|false|false|false|false|false|IN
+
+the	others	the|_start_|swank|false|false|false|false|false|false|false|false|false|DT
+Swank	location	swank|the|room|true|false|false|false|false|false|false|false|false|NNP
+Room	location	room|swank|baker|true|false|false|false|false|false|false|false|false|NNP
+Baker	location	baker|room|hall|true|false|false|false|false|true|false|false|false|NNP
+Hall	location	hall|baker|255b|true|false|false|false|false|true|false|false|false|NNP
+255B	location	255b|hall|from|false|false|false|false|false|false|false|false|false|NN
+from	others	from|255b|12|false|false|false|false|false|false|false|false|false|IN
+12	stime	12|from|noon|false|false|false|false|false|false|false|false|false|CD
+Noon	stime	noon|12|to|true|false|false|false|false|false|false|false|false|NN
+to	others	to|noon|1:00|false|false|false|false|false|false|false|false|false|TO
+1:00	etime	1:00|to|p.|false|false|false|false|false|false|false|false|false|CD
+p.	etime	p.|1:00|m|false|false|false|false|false|false|false|false|false|NN
+m	etime	m|p.|the|false|false|false|false|false|false|false|false|false|NN
+The	others	the|m|titl|true|false|false|false|false|false|false|false|false|DT
+title	others	titl|the|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|titl|_end_|false|false|false|false|false|false|false|false|false|IN
+
+his	others	he|_start_|talk|false|false|false|false|false|false|false|false|false|PRP$
+talk	others	talk|he|be|false|false|false|false|false|false|false|false|false|NN
+is	others	be|talk|benchmark|false|false|false|false|false|false|false|false|false|VBZ
+Benchmarking	others	benchmark|be|master|true|false|false|false|false|false|false|false|false|NNP
+Master	others	master|benchmark|'s|true|false|false|false|false|true|false|false|false|NNP
+'s	others	's|master|program|false|false|false|false|false|false|false|false|false|POS
+Programs	others	program|'s|in|true|false|false|false|false|false|false|false|false|NNP
+in	others	in|program|profession|false|false|false|false|false|false|false|false|false|IN
+Professional	others	profession|in|write|true|false|false|false|false|false|false|false|false|NNP
+Writing	others	write|profession|_end_|true|false|false|false|false|false|false|false|false|VBG
+
+Dave	others	dave|_start_|will|true|false|false|false|false|true|false|false|false|NNP
+will	others	will|dave|be|false|false|false|false|false|false|false|false|false|MD
+be	others	be|will|discuss|false|false|false|false|false|false|false|false|false|VB
+discussing	others	discuss|be|the|false|false|false|false|false|false|false|false|false|VBG
+the	others	the|discuss|result|false|false|false|false|false|false|false|false|false|DT
+results	others	result|the|of|false|false|false|false|false|false|false|false|false|NNS
+of	others	of|result|he|false|false|false|false|false|false|false|false|false|IN
+his	others	he|of|recent|false|false|false|false|false|false|false|false|false|PRP$
+recent	others	recent|he|evalu|false|false|false|false|false|false|false|false|false|JJ
+evaluation	others	evalu|recent|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|evalu|master|false|false|false|false|false|false|false|false|false|IN
+master	others	master|of|'s|false|false|false|false|false|true|false|false|false|NN
+'s	others	's|master|_end_|false|false|false|false|false|false|false|false|false|POS
+
+programs	others	program|_start_|in|false|false|false|false|false|false|false|false|false|NNS
+in	others	in|program|profession|false|false|false|false|false|false|false|false|false|IN
+professional	others	profession|in|write|false|false|false|false|false|false|false|false|false|JJ
+writing	others	write|profession|in|false|false|false|false|false|false|false|false|false|NN
+in	others	in|write|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|in|u.s.|false|false|false|false|false|false|false|false|false|DT
+U.S.	others	u.s.|the|and|false|false|false|false|false|false|false|false|false|NNP
+and	others	and|u.s.|profession|false|false|false|false|false|false|false|false|false|CC
+professional	others	profession|and|write|false|false|false|false|false|false|false|false|false|JJ
+writing	others	write|profession|in|false|false|false|false|false|false|false|false|false|NN
+in	others	in|write|_end_|false|false|false|false|false|false|false|false|false|IN
+
+Japan	others	japan|_start_|_end_|true|false|false|false|false|false|false|false|false|NNP
+

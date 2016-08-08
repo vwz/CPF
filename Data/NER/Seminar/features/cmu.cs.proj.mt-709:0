@@ -1,0 +1,328 @@
+Type	others	type|_start_|cmu|true|false|false|false|false|false|false|false|false|NN
+cmu	others	cmu|type|c|false|false|false|false|false|false|false|false|false|NN
+cs	others	c|cmu|proj|false|false|false|false|false|false|false|false|false|NNS
+proj	others	proj|c|mt|false|false|false|false|false|false|false|false|false|NN
+mt	others	mt|proj|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Topic	others	topic|_start_|cmt|true|false|false|false|false|false|false|false|false|NN
+CMT	others	cmt|topic|research|false|true|false|true|false|false|false|false|false|NNP
+Research	others	research|cmt|seminar|true|false|false|false|false|false|false|false|false|NNP
+Seminar	others	seminar|research|announc|true|false|false|false|false|false|false|false|false|NNP
+Announcement	others	announc|seminar|_end_|true|false|false|false|false|false|false|false|false|NN
+
+Dates	others	date|_start_|16-nov-92|true|false|false|false|false|false|false|false|false|NNS
+16-Nov-92	others	16-nov-92|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|2:30|true|false|false|false|false|false|false|false|false|NNP
+2:30	stime	2:30|time|pm|false|false|false|false|false|false|false|false|false|CD
+PM	stime	pm|2:30|_end_|false|true|false|true|false|false|false|false|false|NNP
+
+PostedBy	others	postedbi|_start_|ehn|false|false|false|false|true|false|false|false|false|NNP
+ehn	others	ehn|postedbi|on|false|false|false|false|false|false|false|false|false|NN
+on	others	on|ehn|9-nov-92|false|false|false|false|false|false|false|false|false|IN
+9-Nov-92	others	9-nov-92|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|9-nov-92|13:03|false|false|false|false|false|false|false|false|false|IN
+13:03	others	13:03|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|13:03|kiev.mt.cs.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+KIEV.MT.CS.CMU.EDU	others	kiev.mt.cs.cmu.edu|from|-lrb-|false|false|false|false|false|false|false|false|false|NN
+-LRB-	others	-lrb-|kiev.mt.cs.cmu.edu|eric|false|false|false|false|false|false|false|false|false|-LRB-
+Eric	others	eric|-lrb-|nyberg|true|false|false|false|false|true|false|false|false|NNP
+Nyberg	others	nyberg|eric|-rrb-|true|false|false|false|false|true|false|false|false|NNP
+-RRB-	others	-rrb-|nyberg|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+CMT	others	cmt|_start_|research|false|true|false|true|false|false|false|false|false|NNP
+RESEARCH	others	research|cmt|seminar|false|true|false|true|false|false|false|false|false|NNP
+SEMINAR	others	seminar|research|_end_|false|true|false|true|false|false|false|false|false|NN
+
+Practical	others	practic|_start_|knowledge-bas|true|false|false|false|false|false|false|false|false|NNP
+Knowledge-Based	others	knowledge-bas|practic|machin|false|false|false|false|false|false|false|false|false|NNP
+Machine	others	machin|knowledge-bas|translat|true|false|false|false|false|false|false|false|false|NNP
+Translation	others	translat|machin|_end_|true|false|false|false|false|false|false|false|false|NN
+
+Experience	others	experi|_start_|with|true|false|false|false|false|false|false|false|false|NN
+with	others	with|experi|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|with|kant|false|false|false|false|false|false|false|false|false|DT
+KANT	others	kant|the|system|false|true|false|true|false|false|false|false|false|NNP
+System	others	system|kant|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Center	others	center|_start_|for|true|false|false|false|false|false|false|false|false|NNP
+for	others	for|center|machin|false|false|false|false|false|false|false|false|false|IN
+Machine	others	machin|for|translat|true|false|false|false|false|false|false|false|false|NN
+Translation	others	translat|machin|_end_|true|false|false|false|false|false|false|false|false|NN
+
+Monday	others	mondai|_start_|novemb|true|false|false|false|false|false|false|false|true|NNP
+November	others	novemb|mondai|16|true|false|false|false|false|false|false|false|true|NNP
+16	others	16|novemb|_end_|false|false|false|false|false|false|false|false|true|CD
+
+One	others	on|_start_|import|true|false|false|false|false|false|false|false|false|CD
+important	others	import|on|focu|false|false|false|false|false|false|false|false|false|JJ
+focus	others	focu|import|for|false|false|false|false|false|false|false|false|false|NN
+for	others	for|focu|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|for|cmt|false|false|false|false|false|false|false|false|false|DT
+CMT	others	cmt|the|be|false|true|false|true|false|false|false|false|false|NNP
+is	others	be|cmt|research|false|false|false|false|false|false|false|false|false|VBZ
+research	others	research|be|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|research|develop|false|false|false|false|false|false|false|false|false|CC
+development	others	develop|and|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|develop|practic|false|false|false|false|false|false|false|false|false|IN
+practical	others	practic|of|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+machine	others	machin|_start_|translat|false|false|false|false|false|false|false|false|false|NN
+translation	others	translat|machin|system|false|false|false|false|false|false|false|false|false|NN
+systems	others	system|translat|there|false|false|false|false|false|false|false|false|false|NNS
+There	others	there|system|be|true|false|false|false|false|false|false|false|false|EX
+is	others	be|there|continu|false|false|false|false|false|false|false|false|false|VBZ
+continuing	others	continu|be|commerci|false|false|false|false|false|false|false|false|false|VBG
+commercial	others	commerci|continu|demand|false|false|false|false|false|false|false|false|false|JJ
+demand	others	demand|commerci|for|false|false|false|false|false|false|false|false|false|NN
+for	others	for|demand|_end_|false|false|false|false|false|false|false|false|false|IN
+
+fast	others	fast|_start_|accur|false|false|false|false|false|false|false|false|false|RB
+accurate	others	accur|fast|machin|false|false|false|false|false|false|false|false|false|JJ
+machine	others	machin|accur|translat|false|false|false|false|false|false|false|false|false|NN
+translation	others	translat|machin|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|translat|technic|false|false|false|false|false|false|false|false|false|IN
+technical	others	technic|of|literatur|false|false|false|false|false|false|false|false|false|JJ
+literature	others	literatur|technic|which|false|false|false|false|false|false|false|false|false|NN
+which	others	which|literatur|do|false|false|false|false|false|false|false|false|false|WDT
+does	others	do|which|not|false|false|false|false|false|false|false|false|false|VBZ
+not	others	not|do|_end_|false|false|false|false|false|false|false|false|false|RB
+
+require	others	requir|_start_|post-edit|false|false|false|false|false|false|false|false|false|VB
+post-editing	others	post-edit|requir|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|post-edit|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|of|output|false|false|false|false|false|false|false|false|false|DT
+output	others	output|the|text|false|false|false|false|false|false|false|false|false|NN
+text	others	text|output|the|false|false|false|false|false|false|false|false|false|NN
+The	others	the|text|knowledge-bas|true|false|false|false|false|false|false|false|false|DT
+knowledge-based	others	knowledge-bas|the|approach|false|false|false|false|false|false|false|false|false|JJ
+approach	others	approach|knowledge-bas|to|false|false|false|false|false|false|false|false|false|NN
+to	others	to|approach|_end_|false|false|false|false|false|false|false|false|false|TO
+
+MT	others	mt|_start_|origin|false|true|false|true|false|false|false|false|false|NNP
+originating	others	origin|mt|here|false|false|false|false|false|false|false|false|false|VBG
+here	others	here|origin|at|false|false|false|false|false|false|false|false|false|RB
+at	others	at|here|cmu|false|false|false|false|false|false|false|false|false|IN
+CMU	others	cmu|at|hold|false|true|false|true|false|false|false|false|false|NNP
+holds	others	hold|cmu|promis|false|false|false|false|false|false|false|false|false|VBZ
+promise	others	promis|hold|as|false|false|false|false|false|false|false|false|false|NN
+as	others	as|promis|a|false|false|false|false|false|false|false|false|false|IN
+a	others	a|as|mean|false|false|false|false|false|false|false|false|false|DT
+means	others	mean|a|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|mean|satisfi|false|false|false|false|false|false|false|false|false|IN
+satisfying	others	satisfi|of|thi|false|false|false|false|false|false|false|false|false|VBG
+this	others	thi|satisfi|_end_|false|false|false|false|false|false|false|false|false|DT
+
+demand	others	demand|_start_|_end_|false|false|false|false|false|false|false|false|false|NN
+
+KANT	others	kant|_start_|be|false|true|false|true|false|true|false|false|false|NN
+is	others	be|kant|a|false|false|false|false|false|false|false|false|false|VBZ
+a	others	a|be|knowledge-bas|false|false|false|false|false|false|false|false|false|DT
+knowledge-based	others	knowledge-bas|a|accur|false|false|false|false|false|false|false|false|false|JJ
+accurate	others	accur|knowledge-bas|natur|false|false|false|false|false|false|false|false|false|JJ
+natural	others	natur|accur|languag|false|false|false|false|false|false|false|false|false|JJ
+language	others	languag|natur|translat|false|false|false|false|false|false|false|false|false|NN
+translation	others	translat|languag|system|false|false|false|false|false|false|false|false|false|NN
+system	others	system|translat|_end_|false|false|false|false|false|false|false|false|false|NN
+
+developed	others	develop|_start_|at|false|false|false|false|false|false|false|false|false|VBN
+at	others	at|develop|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|at|cmt|false|false|false|false|false|false|false|false|false|DT
+CMT	others	cmt|the|kant|false|true|false|true|false|false|false|false|false|NNP
+KANT	others	kant|cmt|be|false|true|false|true|false|true|false|false|false|NN
+is	others	be|kant|a|false|false|false|false|false|false|false|false|false|VBZ
+a	others	a|be|direct|false|false|false|false|false|false|false|false|false|DT
+direct	others	direct|a|descend|false|false|false|false|false|false|false|false|false|JJ
+descendant	others	descend|direct|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|descend|earlier|false|false|false|false|false|false|false|false|false|IN
+earlier	others	earlier|of|mt|false|false|false|false|false|false|false|false|false|JJR
+MT	others	mt|earlier|system|false|true|false|true|false|false|false|false|false|NN
+systems	others	system|mt|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+built	others	build|_start_|at|false|false|false|false|false|false|false|false|false|VBN
+at	others	at|build|cmu|false|false|false|false|false|false|false|false|false|IN
+CMU	others	cmu|at|-lrb-|false|true|false|true|false|false|false|false|false|NNP
+-LRB-	others	-lrb-|cmu|cmt\/semsyn|false|false|false|false|false|false|false|false|false|-LRB-
+CMT\/SEMSYN	others	cmt\/semsyn|-lrb-|kbmt-89|false|false|false|false|false|false|false|false|false|NNP
+KBMT-89	others	kbmt-89|cmt\/semsyn|-rrb-|false|false|false|false|false|false|false|false|false|NN
+-RRB-	others	-rrb-|kbmt-89|and|false|false|false|false|false|false|false|false|false|-RRB-
+and	others	and|-rrb-|incorpor|false|false|false|false|false|false|false|false|false|CC
+incorporates	others	incorpor|and|softwar|false|false|false|false|false|false|false|false|false|VBZ
+software	others	softwar|incorpor|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|softwar|idea|false|false|false|false|false|false|false|false|false|CC
+ideas	others	idea|and|from|false|false|false|false|false|false|false|false|false|NNS
+from	others	from|idea|_end_|false|false|false|false|false|false|false|false|false|IN
+
+several	others	sever|_start_|tool|false|false|false|false|false|false|false|false|false|JJ
+tools	others	tool|sever|and|false|false|false|false|false|false|false|false|false|NNS
+and	others	and|tool|system|false|false|false|false|false|false|false|false|false|CC
+systems	others	system|and|develop|false|false|false|false|false|false|false|false|false|NNS
+developed	others	develop|system|at|false|false|false|false|false|false|false|false|false|VBD
+at	others	at|develop|cmu|false|false|false|false|false|false|false|false|false|IN
+CMU	others	cmu|at|-lrb-|false|true|false|true|false|false|false|false|false|NNP
+-LRB-	others	-lrb-|cmu|tomita|false|false|false|false|false|false|false|false|false|-LRB-
+Tomita	others	tomita|-lrb-|parser|true|false|false|false|false|false|false|false|false|NNP
+Parser	others	parser|tomita|genkit|true|false|false|false|false|false|false|false|false|NNP
+GenKit	others	genkit|parser|_end_|false|false|false|false|false|false|false|false|false|NNP
+
+DIOGENES	others	diogen|_start_|etc.|false|true|false|true|false|false|false|false|false|NNP
+etc.	others	etc.|diogen|-rrb-|false|false|false|false|false|false|false|false|false|FW
+-RRB-	others	-rrb-|etc.|kant|false|false|false|false|false|false|false|false|false|-RRB-
+KANT	others	kant|-rrb-|be|false|true|false|true|false|true|false|false|false|NN
+is	others	be|kant|intend|false|false|false|false|false|false|false|false|false|VBZ
+intended	others	intend|be|to|false|false|false|false|false|false|false|false|false|VBN
+to	others	to|intend|meet|false|false|false|false|false|false|false|false|false|TO
+meet	others	meet|to|the|false|false|false|false|false|false|false|false|false|VB
+the	others	the|meet|need|false|false|false|false|false|false|false|false|false|DT
+needs	others	need|the|of|false|false|false|false|false|false|false|false|false|NNS
+of	others	of|need|compani|false|false|false|false|false|false|false|false|false|IN
+companies	others	compani|of|with|false|false|false|false|false|false|false|false|false|NNS
+with	others	with|compani|a|false|false|false|false|false|false|false|false|false|IN
+a	others	a|with|_end_|false|false|false|false|false|false|false|false|false|DT
+
+high	others	high|_start_|volum|false|false|false|false|false|false|false|false|false|JJ
+volume	others	volum|high|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|volum|technic|false|false|false|false|false|false|false|false|false|IN
+technical	others	technic|of|document|false|false|false|false|false|false|false|false|false|JJ
+documentation	others	document|technic|which|false|false|false|false|false|false|false|false|false|NN
+which	others	which|document|must|false|false|false|false|false|false|false|false|false|WDT
+must	others	must|which|be|false|false|false|false|false|false|false|false|false|MD
+be	others	be|must|translat|false|false|false|false|false|false|false|false|false|VB
+translated	others	translat|be|_end_|false|false|false|false|false|false|false|false|false|VBN
+
+automatically	others	automat|_start_|and|false|false|false|false|false|false|false|false|false|RB
+and	others	and|automat|accur|false|false|false|false|false|false|false|false|false|CC
+accurately	others	accur|and|to|false|false|false|false|false|false|false|false|false|RB
+to	others	to|accur|be|false|false|false|false|false|false|false|false|false|TO
+be	others	be|to|cost-effect|false|false|false|false|false|false|false|false|false|VB
+cost-effective	others	cost-effect|be|we|false|false|false|false|false|false|false|false|false|JJ
+We	others	we|cost-effect|be|true|false|false|false|false|false|false|false|false|PRP
+are	others	be|we|current|false|false|false|false|false|false|false|false|false|VBP
+currently	others	current|be|_end_|false|false|false|false|false|false|false|false|true|RB
+
+developing	others	develop|_start_|a|false|false|false|false|false|false|false|false|false|VBG
+a	others	a|develop|kant|false|false|false|false|false|false|false|false|false|DT
+KANT	others	kant|a|applic|false|true|false|true|false|false|false|false|false|JJ
+application	others	applic|kant|for|false|false|false|false|false|false|false|false|false|NN
+for	others	for|applic|caterpillar|false|false|false|false|false|false|false|false|false|IN
+Caterpillar	others	caterpillar|for|inc|true|false|false|false|false|false|false|false|false|NNP
+Inc	others	inc|caterpillar|call|true|false|false|false|false|false|false|false|false|NNP
+Called	others	call|inc|catalyst|true|false|false|false|false|false|false|false|false|VBN
+CATALYST	others	catalyst|call|thi|false|true|false|true|false|false|false|false|false|NN
+this	others	thi|catalyst|_end_|false|false|false|false|false|false|false|false|false|DT
+
+system	others	system|_start_|have|false|false|false|false|false|false|false|false|false|NN
+has	others	have|system|a|false|false|false|false|false|false|false|false|false|VBZ
+a	others	a|have|large-scal|false|false|false|false|false|false|false|false|false|DT
+large-scale	others	large-scal|a|vocabulari|false|false|false|false|false|false|false|false|false|JJ
+vocabulary	others	vocabulari|large-scal|-lrb-|false|false|false|false|false|false|false|false|false|NN
+-LRB-	others	-lrb-|vocabulari|50-60|false|false|false|false|false|false|false|false|false|-LRB-
+50-60	others	50-60|-lrb-|,000|false|false|false|false|false|false|false|false|false|CD
+,000	others	,000|50-60|word|false|false|false|false|false|false|false|false|false|CD
+words	others	word|,000|and|false|false|false|false|false|false|false|false|false|NNS
+and	others	and|word|phrase|false|false|false|false|false|false|false|false|false|CC
+phrases	others	phrase|and|-rrb-|false|false|false|false|false|false|false|false|false|NNS
+-RRB-	others	-rrb-|phrase|and|false|false|false|false|false|false|false|false|false|-RRB-
+and	others	and|-rrb-|will|false|false|false|false|false|false|false|false|false|CC
+will	others	will|and|_end_|false|false|false|false|false|false|false|false|false|MD
+
+eventually	others	eventu|_start_|translat|false|false|false|false|false|false|false|false|false|RB
+translate	others	translat|eventu|all|false|false|false|false|false|false|false|false|false|VB
+all	others	all|translat|of|false|false|false|false|false|false|false|false|false|DT
+of	others	of|all|caterpillar|false|false|false|false|false|false|false|false|false|IN
+Caterpillar	others	caterpillar|of|'s|true|false|false|false|false|false|false|false|false|NNP
+'s	others	's|caterpillar|product|false|false|false|false|false|false|false|false|false|POS
+product	others	product|'s|document|false|false|false|false|false|false|false|false|false|NN
+documentation	others	document|product|-lrb-|false|false|false|false|false|false|false|false|false|NN
+-LRB-	others	-lrb-|document|servic|false|false|false|false|false|false|false|false|false|-LRB-
+service	others	servic|-lrb-|_end_|false|false|false|false|false|false|false|false|false|NN
+
+manuals	others	manual|_start_|oper|false|false|false|false|false|false|false|false|false|NNS
+operator	others	oper|manual|guid|false|false|false|false|false|false|false|false|false|NN
+guides	others	guid|oper|etc.|false|false|false|false|false|false|false|false|false|NNS
+etc.	others	etc.|guid|-rrb-|false|false|false|false|false|false|false|false|false|FW
+-RRB-	others	-rrb-|etc.|across|false|false|false|false|false|false|false|false|false|-RRB-
+across	others	across|-rrb-|thei|false|false|false|false|false|false|false|false|false|IN
+their	others	thei|across|entir|false|false|false|false|false|false|false|false|false|PRP$
+entire	others	entir|thei|rang|false|false|false|false|false|false|false|false|false|JJ
+range	others	rang|entir|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|rang|product|false|false|false|false|false|false|false|false|false|IN
+products	others	product|of|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+-LRB-	others	-lrb-|_start_|tractor|false|false|false|false|false|false|false|false|false|-LRB-
+tractors	others	tractor|-lrb-|truck|false|false|false|false|false|false|false|false|false|NNS
+trucks	others	truck|tractor|engin|false|false|false|false|false|false|false|false|false|NNS
+engines	others	engin|truck|forestri|false|false|false|false|false|false|false|false|false|NNS
+forestry	others	forestri|engin|equip|false|false|false|false|false|false|false|false|false|NN
+equipment	others	equip|forestri|pave|false|false|false|false|false|false|false|false|false|NN
+paving	others	pave|equip|machin|false|false|false|false|false|false|false|false|false|VBG
+machines	others	machin|pave|etc.|false|false|false|false|false|false|false|false|false|NNS
+etc.	others	etc.|machin|-rrb-|false|false|false|false|false|false|false|false|false|FW
+-RRB-	others	-rrb-|etc.|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+I	others	i|_start_|will|false|false|true|true|false|false|false|false|false|PRP
+will	others	will|i|present|false|false|false|false|false|false|false|false|false|MD
+present	others	present|will|a|false|false|false|false|false|false|false|false|false|VB
+a	others	a|present|brief|false|false|false|false|false|false|false|false|false|DT
+brief	others	brief|a|histori|false|false|false|false|false|false|false|false|false|JJ
+history	others	histori|brief|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|histori|kant|false|false|false|false|false|false|false|false|false|IN
+KANT	others	kant|of|follow|false|true|false|true|false|false|false|false|false|NNP
+followed	others	follow|kant|by|false|false|false|false|false|false|false|false|false|VBN
+by	others	by|follow|a|false|false|false|false|false|false|false|false|false|IN
+a	others	a|by|technic|false|false|false|false|false|false|false|false|false|DT
+technical	others	technic|a|overview|false|false|false|false|false|false|false|false|false|JJ
+overview	others	overview|technic|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|overview|_end_|false|false|false|false|false|false|false|false|false|IN
+
+the	others	the|_start_|system|false|false|false|false|false|false|false|false|false|DT
+system	others	system|the|architectur|false|false|false|false|false|false|false|false|false|NN
+architecture	others	architectur|system|i|false|false|false|false|false|false|false|false|false|NN
+I	others	i|architectur|will|false|false|true|true|false|false|false|false|false|PRP
+will	others	will|i|then|false|false|false|false|false|false|false|false|false|MD
+then	others	then|will|describ|false|false|false|false|false|false|false|false|false|RB
+describe	others	describ|then|the|false|false|false|false|false|false|false|false|false|VB
+the	others	the|describ|differ|false|false|false|false|false|false|false|false|false|DT
+different	others	differ|the|step|false|false|false|false|false|false|false|false|false|JJ
+steps	others	step|differ|that|false|false|false|false|false|false|false|false|false|NNS
+that	others	that|step|be|false|false|false|false|false|false|false|false|false|WDT
+are	others	be|that|_end_|false|false|false|false|false|false|false|false|false|VBP
+
+required	others	requir|_start_|in|false|false|false|false|false|false|false|false|false|VBN
+in	others	in|requir|develop|false|false|false|false|false|false|false|false|false|IN
+developing	others	develop|in|a|false|false|false|false|false|false|false|false|false|VBG
+a	others	a|develop|practic|false|false|false|false|false|false|false|false|false|DT
+practical	others	practic|a|machin|false|false|false|false|false|false|false|false|false|JJ
+machine	others	machin|practic|translat|false|false|false|false|false|false|false|false|false|NN
+translation	others	translat|machin|applic|false|false|false|false|false|false|false|false|false|NN
+application	others	applic|translat|_end_|false|false|false|false|false|false|false|false|false|NN
+
+including	others	includ|_start_|domain|false|false|false|false|false|false|false|false|false|VBG
+domain	others	domain|includ|analysi|false|false|false|false|false|false|false|false|false|NN
+analysis	others	analysi|domain|vocabulari|false|false|false|false|false|false|false|false|false|NN
+vocabulary	others	vocabulari|analysi|creation|false|false|false|false|false|false|false|false|false|NN
+creation	others	creation|vocabulari|source\/target|false|false|false|false|false|false|false|false|false|NN
+source\/target	others	source\/target|creation|languag|false|false|false|false|false|false|false|false|false|JJ
+language	others	languag|source\/target|_end_|false|false|false|false|false|false|false|false|false|NN
+
+specification	others	specif|_start_|knowledg|false|false|false|false|false|false|false|false|false|NN
+knowledge	others	knowledg|specif|engin|false|false|false|false|false|false|false|false|false|NN
+engineering	others	engin|knowledg|integr|false|false|false|false|false|false|false|false|false|NN
+integration	others	integr|engin|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|integr|test|false|false|false|false|false|false|false|false|false|CC
+testing	others	test|and|each|false|false|false|false|false|false|false|false|false|NN
+each	others	each|test|step|false|false|false|false|false|false|false|false|false|DT
+step	others	step|each|_end_|false|false|false|false|false|false|false|false|false|NN
+
+will	others	will|_start_|be|false|false|false|false|false|false|false|false|false|MD
+be	others	be|will|illustr|false|false|false|false|false|false|false|false|false|VB
+illustrated	others	illustr|be|with|false|false|false|false|false|false|false|false|false|VBN
+with	others	with|illustr|exampl|false|false|false|false|false|false|false|false|false|IN
+examples	others	exampl|with|from|false|false|false|false|false|false|false|false|false|NNS
+from	others	from|exampl|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|from|catalyst|false|false|false|false|false|false|false|false|false|DT
+CATALYST	others	catalyst|the|domain|false|true|false|true|false|false|false|false|false|NN
+domain	others	domain|catalyst|_end_|false|false|false|false|false|false|false|false|false|NN
+

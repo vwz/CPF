@@ -1,0 +1,149 @@
+Type	others	type|_start_|cmu.andrew.org|true|false|false|false|false|false|false|false|false|NN
+cmu.andrew.org	others	cmu.andrew.org|type|heinz|false|false|false|false|false|false|false|false|false|NN
+heinz	others	heinz|cmu.andrew.org|mam|false|false|false|false|false|false|false|false|false|NN
+mam	others	mam|heinz|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Topic	others	topic|_start_|fwd|true|false|false|false|false|false|false|false|false|NN
+Fwd	others	fwd|topic|creativ|true|false|false|false|false|false|false|false|false|NN
+CREATIVE	others	creativ|fwd|career|false|true|false|true|false|false|false|false|false|NNP
+CAREERS	others	career|creativ|seminar|false|true|false|true|false|false|false|false|false|NNP
+SEMINAR	others	seminar|career|_end_|false|true|false|true|false|false|false|false|false|NN
+
+Dates	others	date|_start_|18-feb-94|true|false|false|false|false|false|false|false|false|NNS
+18-Feb-94	others	18-feb-94|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|9:00|true|false|false|false|false|false|false|false|false|NNP
+9:00	stime	9:00|time|am|false|false|false|false|false|false|false|false|false|CD
+AM	stime	am|9:00|1:00|false|true|false|true|false|false|true|false|false|NNP
+1:00	etime	1:00|am|pm|false|false|false|false|false|false|false|true|false|CD
+PM	etime	pm|1:00|_end_|false|true|false|true|false|false|false|false|false|NN
+
+Place	others	place|_start_|robert|true|false|false|false|false|false|false|false|false|NN
+ROBERT	location	robert|place|morri|false|true|false|true|false|true|false|false|false|NNP
+MORRIS	location	morri|robert|moon|false|true|false|true|false|true|false|false|false|NNP
+MOON	location	moon|morri|campu|false|true|false|true|false|false|false|false|false|NNP
+CAMPUS	location	campu|moon|transport|false|true|false|true|false|false|false|false|false|NNP
+Transportation	others	transport|campu|provid|true|false|false|false|false|false|false|false|false|NNP
+Provided	others	provid|transport|_end_|true|false|false|false|false|false|false|false|false|VBD
+
+PostedBy	others	postedbi|_start_|lou|false|false|false|false|true|false|false|false|false|NNP
+Lou	others	lou|postedbi|brososki|true|false|false|false|false|true|false|false|false|NNP
+Brososky	others	brososki|lou|on|true|false|false|false|false|true|false|false|false|NNP
+on	others	on|brososki|1-feb-94|false|false|false|false|false|false|false|false|false|IN
+1-Feb-94	others	1-feb-94|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|1-feb-94|11:45|false|false|false|false|false|false|false|false|false|IN
+11:45	others	11:45|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|11:45|andrew.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+andrew.cmu.edu	others	andrew.cmu.edu|from|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+CREATIVE	others	creativ|_start_|career|false|true|false|true|false|false|false|false|false|JJ
+CAREERS	others	career|creativ|seminar|false|true|false|true|false|false|false|false|false|NNS
+SEMINAR	others	seminar|career|_end_|false|true|false|true|false|false|false|false|false|NN
+
+FRIDAY	others	fridai|_start_|februari|false|true|false|true|false|false|false|false|true|NNP
+FEBRUARY	others	februari|fridai|18|false|true|false|true|false|false|false|false|true|NNP
+18	others	18|februari|1994|false|false|false|false|false|false|false|false|true|CD
+1994	others	1994|18|_end_|false|false|false|false|false|false|false|false|true|CD
+
+HOSTED	others	host|_start_|by|false|true|false|true|false|false|false|false|false|VBN
+BY	others	by|host|the|false|true|false|true|false|false|false|false|false|IN
+THE	others	the|by|career|false|true|false|true|false|false|false|false|false|DT
+CAREER	others	career|the|center|false|true|false|true|false|false|false|false|false|NN
+CENTER	others	center|career|in|false|true|false|true|false|false|false|false|false|NN
+IN	others	in|center|conjunct|false|true|false|true|false|false|false|false|false|IN
+CONJUNCTION	others	conjunct|in|with|false|true|false|true|false|false|false|false|false|NNP
+WITH	others	with|conjunct|career|false|true|false|true|false|false|false|false|false|IN
+CAREER	others	career|with|center|false|true|false|true|false|false|false|false|false|NNP
+CENTERS	others	center|career|from|false|true|false|true|false|false|false|false|false|NNP
+FROM	others	from|center|_end_|false|true|false|true|false|false|false|false|false|IN
+
+LOCAL	others	local|_start_|colleg|false|true|false|true|false|false|false|false|false|JJ
+COLLEGES	others	colleg|local|and|false|true|false|true|false|false|false|false|false|NNS
+AND	others	and|colleg|univers|false|true|false|true|false|false|false|false|false|CC
+UNIVERSITIES	others	univers|and|_end_|false|true|false|true|false|false|false|false|false|NNS
+
+5	others	5|_start_|registr|false|false|false|false|false|false|false|false|false|CD
+REGISTRATION	others	registr|5|_end_|false|true|false|true|false|false|false|false|false|NN
+
+LOCATION	others	locat|_start_|robert|false|true|false|true|false|false|false|false|false|NN
+ROBERT	location	robert|locat|morri|false|true|false|true|false|true|false|false|false|NNP
+MORRIS	location	morri|robert|moon|false|true|false|true|false|true|false|false|false|NNP
+MOON	location	moon|morri|campu|false|true|false|true|false|false|false|false|false|NNP
+CAMPUS	location	campu|moon|transport|false|true|false|true|false|false|false|false|false|NNP
+Transportation	others	transport|campu|provid|true|false|false|false|false|false|false|false|false|NNP
+Provided	others	provid|transport|_end_|true|false|false|false|false|false|false|false|false|VBD
+
+A	others	a|_start_|veri|false|false|true|true|false|false|false|false|false|NN
+very	others	veri|a|excit|false|false|false|false|false|false|false|false|false|RB
+exciting	others	excit|veri|network|false|false|false|false|false|false|false|false|false|JJ
+networking	others	network|excit|opportun|false|false|false|false|false|false|false|false|false|VBG
+opportunity	others	opportun|network|for|false|false|false|false|false|false|false|false|false|NN
+for	others	for|opportun|student|false|false|false|false|false|false|false|false|false|IN
+students	others	student|for|interest|false|false|false|false|false|false|false|false|false|NNS
+interested	others	interest|student|in|false|false|false|false|false|false|false|false|false|JJ
+in	others	in|interest|_end_|false|false|false|false|false|false|false|false|false|IN
+
+creative	others	creativ|_start_|career|false|false|false|false|false|false|false|false|false|JJ
+careers	others	career|creativ|here|false|false|false|false|false|false|false|false|false|NNS
+Here	others	here|career|be|true|false|false|false|false|false|false|false|false|RB
+'s	others	be|here|a|false|false|false|false|false|false|false|false|false|VBZ
+an	others	a|be|opportun|false|false|false|false|false|false|false|false|false|DT
+opportunity	others	opportun|a|to|false|false|false|false|false|false|false|false|false|NN
+to	others	to|opportun|intereact|false|false|false|false|false|false|false|false|false|TO
+intereact	others	intereact|to|with|false|false|false|false|false|false|false|false|false|VB
+with	others	with|intereact|over|false|false|false|false|false|false|false|false|false|IN
+over	others	over|with|30|false|false|false|false|false|false|false|false|false|IN
+30	others	30|over|_end_|false|false|false|false|false|false|false|false|false|CD
+
+professionals	others	profession|_start_|who|false|false|false|false|false|false|false|false|false|NNS
+who	others	who|profession|work|false|false|false|false|false|false|false|false|false|WP
+work	others	work|who|in|false|false|false|false|false|false|false|false|false|VBP
+in	others	in|work|a|false|false|false|false|false|false|false|false|false|IN
+a	others	a|in|varieti|false|false|false|false|false|false|false|false|false|DT
+variety	others	varieti|a|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|varieti|creativ|false|false|false|false|false|false|false|false|false|IN
+creative	others	creativ|of|field|false|false|false|false|false|false|false|false|false|JJ
+fields	others	field|creativ|includ|false|false|false|false|false|false|false|false|false|NNS
+including	others	includ|field|_end_|false|false|false|false|false|false|false|false|false|VBG
+
+advertising	others	advertis|_start_|_end_|false|false|false|false|false|false|false|false|false|NN
+
+public	others	public|_start_|relat|false|false|false|false|false|false|false|false|false|JJ
+relations	others	relat|public|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+print	others	print|_start_|media|false|false|false|false|false|false|false|false|false|NN
+media	others	media|print|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+arts	others	art|_start_|manag|false|false|false|false|false|false|false|false|false|NNS
+management	others	manag|art|_end_|false|false|false|false|false|false|false|false|false|NN
+
+radio	others	radio|_start_|_end_|false|false|false|false|false|false|false|false|false|NN
+
+TV	others	tv|_start_|_end_|false|true|false|true|false|false|false|false|false|NN
+
+film	others	film|_start_|_end_|false|false|false|false|false|false|false|false|false|NN
+
+video	others	video|_start_|_end_|false|false|false|false|false|false|false|false|false|NN
+
+visual	others	visual|_start_|and|false|false|false|false|false|false|false|false|false|JJ
+and	others	and|visual|graphic|false|false|false|false|false|false|false|false|false|CC
+graphic	others	graphic|and|art|false|false|false|false|false|false|false|false|false|JJ
+arts	others	art|graphic|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+REGISTRATION	others	registr|_start_|form|false|true|false|true|false|false|false|false|false|NN
+FORMS	others	form|registr|avail|false|true|false|true|false|false|false|false|false|NNS
+AVAILABLE	others	avail|form|in|false|true|false|true|false|false|false|false|false|JJ
+IN	others	in|avail|the|false|true|false|true|false|false|false|false|false|IN
+THE	others	the|in|career|false|true|false|true|false|false|false|false|false|DT
+CAREER	others	career|the|center|false|true|false|true|false|false|false|false|false|NN
+CENTER	others	center|career|_end_|false|true|false|true|false|false|false|false|false|NN
+
+REGISTRATION	others	registr|_start_|deadlin|false|true|false|true|false|false|false|false|false|NN
+DEADLINE	others	deadlin|registr|fridai|false|true|false|true|false|false|false|false|false|NN
+FRIDAY	others	fridai|deadlin|februari|false|true|false|true|false|false|false|false|true|NNP
+FEBRUARY	others	februari|fridai|11|false|true|false|true|false|false|false|false|true|NNP
+11	others	11|februari|1994|false|false|false|false|false|false|false|false|true|CD
+1994	others	1994|11|_end_|false|false|false|false|false|false|false|false|true|CD
+

@@ -1,0 +1,62 @@
+Type	others	type|_start_|cmu.andrew.org|true|false|false|false|false|false|false|false|false|NN
+cmu.andrew.org	others	cmu.andrew.org|type|heinz|false|false|false|false|false|false|false|false|false|NN
+heinz	others	heinz|cmu.andrew.org|phd|false|false|false|false|false|false|false|false|false|NN
+phd	others	phd|heinz|_end_|false|false|false|false|false|true|false|false|false|NN
+
+Topic	others	topic|_start_|ph.d.|true|false|false|false|false|false|false|false|false|NN
+Ph.D.	others	ph.d.|topic|present|false|false|false|false|false|true|false|false|false|NNP
+Presentations	others	present|ph.d.|_end_|true|false|false|false|false|false|false|false|false|NNPS
+
+Dates	others	date|_start_|5-apr-95|true|false|false|false|false|false|false|false|false|NNS
+5-Apr-95	others	5-apr-95|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|3:30|true|false|false|false|false|false|false|false|false|NNP
+3:30	stime	3:30|time|5:00|false|false|false|false|false|false|true|false|false|CD
+5:00	etime	5:00|3:30|pm|false|false|false|false|false|false|false|true|false|CD
+PM	etime	pm|5:00|_end_|false|true|false|true|false|false|false|false|false|NN
+
+PostedBy	others	postedbi|_start_|carol|false|false|false|false|true|false|false|false|false|NNP
+Carole	others	carol|postedbi|mccoi|true|false|false|false|false|true|false|false|false|NNP
+McCoy	others	mccoi|carol|on|false|false|false|false|false|true|false|false|false|NNP
+on	others	on|mccoi|4-apr-95|false|false|false|false|false|false|false|false|false|IN
+4-Apr-95	others	4-apr-95|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|4-apr-95|08:11|false|false|false|false|false|false|false|false|false|IN
+08:11	others	08:11|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|08:11|andrew.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+andrew.cmu.edu	others	andrew.cmu.edu|from|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+The	others	the|_start_|ph.d.|true|false|false|false|false|false|false|false|false|DT
+Ph.D.	others	ph.d.|the|present|false|false|false|false|false|true|false|false|false|NN
+presentations	others	present|ph.d.|thi|false|false|false|false|false|false|false|false|false|NNS
+this	others	thi|present|week|false|false|false|false|false|false|false|false|true|DT
+week	others	week|thi|be|false|false|false|false|false|false|false|false|true|NN
+are	others	be|week|_end_|false|false|false|false|false|false|false|false|false|VBP
+
+First	others	first|_start_|research|true|false|false|false|false|false|false|false|false|NNP
+Research	others	research|first|paper|true|false|false|false|false|false|false|false|false|NNP
+Paper	others	paper|research|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+The	others	the|_start_|role|true|false|false|false|false|false|false|false|false|DT
+Role	others	role|the|of|true|false|false|false|false|false|false|false|false|NN
+of	others	of|role|abil|false|false|false|false|false|false|false|false|false|IN
+Ability	others	abil|of|social|true|false|false|false|false|false|false|false|false|NN
+Social	others	social|abil|similar|true|false|false|false|false|false|false|false|false|NNP
+Similarity	others	similar|social|and|true|false|false|false|false|false|false|false|false|NNP
+and	others	and|similar|social|false|false|false|false|false|false|false|false|false|CC
+Social	others	social|and|network|true|false|false|false|false|false|false|false|false|NNP
+Networks	others	network|social|on|true|false|false|false|false|false|false|false|false|NNP
+on	others	on|network|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|on|_end_|false|false|false|false|false|false|false|false|false|DT
+
+Determination	others	determin|_start_|of|true|false|false|false|false|false|false|false|false|NN
+of	others	of|determin|autonom|false|false|false|false|false|false|false|false|false|IN
+Autonomous	others	autonom|of|work|true|false|false|false|false|false|false|false|false|JJ
+Work	others	work|autonom|group|true|false|false|false|false|false|false|false|false|NN
+Groups	others	group|work|_end_|true|false|false|false|false|false|false|false|false|NNS
+
+Wednesday	others	wednesdai|_start_|april|true|false|false|false|false|false|false|false|true|NNP
+April	others	april|wednesdai|5|true|false|false|false|false|false|false|false|true|NNP
+5	others	5|april|_end_|false|false|false|false|false|false|false|false|true|CD
+

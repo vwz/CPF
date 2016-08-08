@@ -1,0 +1,62 @@
+Type	others	type|_start_|cmu|true|false|false|false|false|false|false|false|false|NN
+cmu	others	cmu|type|c|false|false|false|false|false|false|false|false|false|NN
+cs	others	c|cmu|proj|false|false|false|false|false|false|false|false|false|NNS
+proj	others	proj|c|speech|false|false|false|false|false|false|false|false|false|NN
+speech	others	speech|proj|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Topic	others	topic|_start_|remind|true|false|false|false|false|false|false|false|false|NN
+Reminder	others	remind|topic|talk|true|false|false|false|false|false|false|false|false|NN
+talk	others	talk|remind|tuesdai|false|false|false|false|false|false|false|false|false|NN
+Tuesday	others	tuesdai|talk|_end_|true|false|false|false|false|false|false|false|true|NNP
+
+Dates	others	date|_start_|1-jun-93|true|false|false|false|false|false|false|false|false|NNS
+1-Jun-93	others	1-jun-93|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|12:30|true|false|false|false|false|false|false|false|false|NNP
+12:30	stime	12:30|time|_end_|false|false|false|false|false|false|false|false|false|CD
+
+PostedBy	others	postedbi|_start_|rm|false|false|false|false|true|false|false|false|false|NNP
+rms	others	rm|postedbi|on|false|false|false|false|false|false|false|false|false|NNS
+on	others	on|rm|31-may-93|false|false|false|false|false|false|false|false|false|IN
+31-May-93	others	31-may-93|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|31-may-93|21:38|false|false|false|false|false|false|false|false|false|IN
+21:38	others	21:38|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|21:38|speech1|false|false|false|false|false|false|false|false|false|IN
+SPEECH1	others	speech1|from|cs.cmu.edu|false|false|false|false|false|false|false|false|false|NN
+CS.CMU.EDU	others	cs.cmu.edu|speech1|-lrb-|false|false|false|false|false|false|false|false|false|NN
+-LRB-	others	-lrb-|cs.cmu.edu|richard|false|false|false|false|false|false|false|false|false|-LRB-
+Richard	others	richard|-lrb-|stern|true|false|false|false|false|true|false|false|false|NNP
+Stern	others	stern|richard|-rrb-|true|false|false|false|false|true|false|false|false|NNP
+-RRB-	others	-rrb-|stern|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+This	others	thi|_start_|be|true|false|false|false|false|false|false|false|false|DT
+is	others	be|thi|a|false|false|false|false|false|false|false|false|false|VBZ
+a	others	a|be|remind|false|false|false|false|false|false|false|false|false|DT
+reminder	others	remind|a|that|false|false|false|false|false|false|false|false|false|NN
+that	others	that|remind|nobutoshi|false|false|false|false|false|false|false|false|false|IN
+Nobutoshi	speaker	nobutoshi|that|hanai|true|false|false|false|false|true|false|false|false|NNP
+Hanai	speaker	hanai|nobutoshi|will|true|false|false|false|false|true|false|false|false|NNP
+will	others	will|hanai|give|false|false|false|false|false|false|false|false|false|MD
+give	others	give|will|a|false|false|false|false|false|false|false|false|false|VB
+a	others	a|give|talk|false|false|false|false|false|false|false|false|false|DT
+talk	others	talk|a|about|false|false|false|false|false|false|false|false|false|NN
+about	others	about|talk|he|false|false|false|false|false|false|false|false|false|IN
+his	others	he|about|m.s.|false|false|false|false|false|false|false|false|false|PRP$
+M.S.	others	m.s.|he|project|false|false|false|false|false|true|false|false|false|NNP
+project	others	project|m.s.|_end_|false|false|false|false|false|false|false|false|false|NN
+
+work	others	work|_start_|speech|false|false|false|false|false|false|false|false|false|NN
+Speech	others	speech|work|recognit|true|false|false|false|false|false|false|false|false|NN
+Recognition	others	recognit|speech|in|true|false|false|false|false|false|false|false|false|NN
+in	others	in|recognit|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|in|automobil|false|false|false|false|false|false|false|false|false|DT
+Automobile	others	automobil|the|at|true|false|false|false|false|false|false|false|false|NNP
+at	others	at|automobil|12:30|false|false|false|false|false|false|false|false|false|IN
+12:30	stime	12:30|at|tuesdai|false|false|false|false|false|false|false|false|false|CD
+Tuesday	others	tuesdai|12:30|june|true|false|false|false|false|false|false|false|true|NNP
+June	others	june|tuesdai|1|true|false|false|false|false|false|false|false|true|NNP
+1	others	1|june|in|false|false|false|false|false|false|false|false|true|CD
+in	others	in|1|_end_|false|false|false|false|false|false|false|false|false|IN
+

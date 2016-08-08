@@ -1,0 +1,126 @@
+Type	others	type|_start_|cmu.andrew.org.student-affair|true|false|false|false|false|false|false|false|false|NN
+cmu.andrew.org.student-affairs	others	cmu.andrew.org.student-affair|type|divers|false|false|false|false|false|false|false|false|false|NNS
+diversity	others	divers|cmu.andrew.org.student-affair|announc|false|false|false|false|false|false|false|false|false|NN
+announce	others	announc|divers|_end_|false|false|false|false|false|false|false|false|false|VB
+
+Topic	others	topic|_start_|talk|true|false|false|false|false|false|false|false|false|NN
+Talk	others	talk|topic|_end_|true|false|false|false|false|false|false|false|false|NN
+
+Dates	others	date|_start_|13-nov-94|true|false|false|false|false|false|false|false|false|NNS
+13-Nov-94	others	13-nov-94|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|7:00|true|false|false|false|false|false|false|false|false|NNP
+7:00	stime	7:00|time|pm|false|false|false|false|false|false|false|false|false|CD
+PM	stime	pm|7:00|_end_|false|true|false|true|false|false|false|false|false|NN
+
+PostedBy	others	postedbi|_start_|chong|false|false|false|false|true|false|false|false|false|NNP
+Chong	others	chong|postedbi|h|true|false|false|false|false|false|false|false|false|NNP
+H	others	h|chong|ee|false|false|true|true|false|false|false|false|false|NNP
+Ee	others	ee|h|on|true|false|false|false|false|false|false|false|false|NN
+on	others	on|ee|3-nov-94|false|false|false|false|false|false|false|false|false|IN
+3-Nov-94	others	3-nov-94|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|3-nov-94|17:26|false|false|false|false|false|false|false|false|false|IN
+17:26	others	17:26|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|17:26|andrew.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+andrew.cmu.edu	others	andrew.cmu.edu|from|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+Jeannine	speaker	jeannin|_start_|amber|true|false|false|false|false|true|false|false|false|NNP
+Amber	speaker	amber|jeannin|a|true|false|false|false|false|true|false|false|false|NNP
+an	others	a|amber|african|false|false|false|false|false|false|false|false|false|DT
+African	others	african|a|american|true|false|false|false|false|false|false|false|false|JJ
+American	others	american|african|jewish|true|false|false|false|false|false|false|false|false|JJ
+Jewish	others	jewish|american|freelanc|true|false|false|false|false|false|false|false|false|JJ
+freelance	others	freelanc|jewish|writer|false|false|false|false|false|false|false|false|false|NN
+writer	others	writer|freelanc|in|false|false|false|false|false|false|false|false|false|NN
+in	others	in|writer|new|false|false|false|false|false|false|false|false|false|IN
+New	others	new|in|york|true|false|false|false|false|false|false|false|false|NNP
+York	others	york|new|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+City	others	citi|_start_|provid|true|false|false|false|false|false|false|false|false|NNP
+provides	others	provid|citi|viewpoint|false|false|false|false|false|false|false|false|false|VBZ
+viewpoints	others	viewpoint|provid|on|false|false|false|false|false|false|false|false|false|NNS
+on	others	on|viewpoint|_end_|false|false|false|false|false|false|false|false|false|IN
+
+relations	others	relat|_start_|between|false|false|false|false|false|false|false|false|false|NNS
+between	others	between|relat|african|false|false|false|false|false|false|false|false|false|IN
+African	others	african|between|american|true|false|false|false|false|false|false|false|false|JJ
+Americans	others	american|african|and|true|false|false|false|false|false|false|false|false|NNPS
+and	others	and|american|jew|false|false|false|false|false|false|false|false|false|CC
+Jews	others	jew|and|_end_|true|false|false|false|false|false|false|false|false|NNPS
+
+making	others	make|_start_|link|false|false|false|false|false|false|false|false|false|VBG
+links	others	link|make|between|false|false|false|false|false|false|false|false|false|NNS
+between	others	between|link|student|false|false|false|false|false|false|false|false|false|IN
+student	others	student|between|organ|false|false|false|false|false|false|false|false|false|NN
+organizations	others	organ|student|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+her	others	she|_start_|person|false|false|false|false|false|false|false|false|false|PRP$
+personal	others	person|she|experi|false|false|false|false|false|false|false|false|false|JJ
+experience	others	experi|person|with|false|false|false|false|false|false|false|false|false|NN
+with	others	with|experi|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|with|nation|false|false|false|false|false|false|false|false|false|DT
+Nation	others	nation|the|of|true|false|false|false|false|false|false|false|false|NN
+of	others	of|nation|islam|false|false|false|false|false|false|false|false|false|IN
+Islam	others	islam|of|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+The	others	the|_start_|talk|true|false|false|false|false|false|false|false|false|DT
+talk	others	talk|the|take|false|false|false|false|false|false|false|false|false|NN
+takes	others	take|talk|place|false|false|false|false|false|false|false|false|false|VBZ
+place	others	place|take|on|false|false|false|false|false|false|false|false|false|NN
+on	others	on|place|sundai|false|false|false|false|false|false|false|false|false|IN
+Sunday	others	sundai|on|novemb|true|false|false|false|false|false|false|false|true|NNP
+November	others	novemb|sundai|13|true|false|false|false|false|false|false|false|true|NNP
+13	others	13|novemb|7:00|false|false|false|false|false|false|false|false|true|CD
+7:00	stime	7:00|13|pm|false|false|false|false|false|false|false|false|false|CD
+pm	stime	pm|7:00|in|false|false|false|false|false|false|false|false|false|NN
+in	others	in|pm|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|in|william|false|false|false|false|false|false|false|false|false|DT
+William	location	william|the|pitt|true|false|false|false|false|true|false|false|false|NNP
+Pitt	location	pitt|william|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+Union	others	union|_start_|in|true|false|false|false|false|false|false|false|false|NNP
+in	others	in|union|the|false|false|false|false|false|false|false|false|false|IN
+The	others	the|in|ballroom|true|false|false|false|false|false|false|false|false|DT
+Ballroom	others	ballroom|the|_end_|true|false|false|false|false|false|false|false|false|NN
+
+This	others	thi|_start_|program|true|false|false|false|false|false|false|false|false|DT
+program	others	program|thi|be|false|false|false|false|false|false|false|false|false|NN
+is	others	be|program|sponsor|false|false|false|false|false|false|false|false|false|VBZ
+sponsored	others	sponsor|be|by|false|false|false|false|false|false|false|false|false|VBN
+by	others	by|sponsor|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|by|ethel|false|false|false|false|false|false|false|false|false|DT
+Ethel	others	ethel|the|stept|true|false|false|false|false|false|false|false|false|NNP
+Stept	others	stept|ethel|social|true|false|false|false|false|false|false|false|false|NNP
+Social	others	social|stept|awar|true|false|false|false|false|false|false|false|false|NNP
+Awareness	others	awar|social|_end_|true|false|false|false|false|false|false|false|false|NN
+
+Lectureship	others	lectureship|_start_|endow|true|false|false|false|false|false|false|false|false|NNP
+Endowment	others	endow|lectureship|fund|true|false|false|false|false|false|false|false|false|NNP
+Fund	others	fund|endow|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|fund|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|of|unit|false|false|false|false|false|false|false|false|false|DT
+United	others	unit|the|jewish|true|false|false|false|false|false|false|false|false|NNP
+Jewish	others	jewish|unit|feder|true|false|false|false|false|false|false|false|false|NNP
+Federation	others	feder|jewish|foundat|true|false|false|false|false|false|false|false|false|NNP
+Foundation	others	foundat|feder|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+the	others	the|_start_|jewish|false|false|false|false|false|false|false|false|false|DT
+Jewish	others	jewish|the|commun|true|false|false|false|false|false|false|false|false|NNP
+Community	others	commun|jewish|relat|true|false|false|false|false|false|false|false|false|NNP
+Relations	others	relat|commun|council|true|false|false|false|false|false|false|false|false|NNP
+Council	others	council|relat|pitt|true|false|false|false|false|false|false|false|false|NNP
+Pitt	others	pitt|council|student|true|false|false|false|false|false|false|false|false|NNP
+Student	others	student|pitt|goever|true|false|false|false|false|false|false|false|false|NNP
+Goeverment	others	goever|student|board|true|false|false|false|false|false|false|false|false|NNP
+Board	others	board|goever|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Multicultural	others	multicultur|_start_|committe|true|false|false|false|false|false|false|false|false|NNP
+Committee	others	committe|multicultur|black|true|false|false|false|false|false|false|false|false|NNP
+Black	others	black|committe|action|true|false|false|false|false|false|false|false|false|NNP
+Action	others	action|black|societi|true|false|false|false|false|false|false|false|false|NNP
+Society	others	societi|action|and|true|false|false|false|false|false|false|false|false|NNP
+and	others	and|societi|hillel|false|false|false|false|false|false|false|false|false|CC
+Hillel	others	hillel|and|_end_|true|false|false|false|false|true|false|false|false|NNP
+

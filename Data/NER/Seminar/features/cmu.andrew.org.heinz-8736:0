@@ -1,0 +1,88 @@
+Type	others	type|_start_|cmu.andrew.org|true|false|false|false|false|false|false|false|false|NN
+cmu.andrew.org	others	cmu.andrew.org|type|heinz|false|false|false|false|false|false|false|false|false|NN
+heinz	others	heinz|cmu.andrew.org|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Topic	others	topic|_start_|health|true|false|false|false|false|false|false|false|false|NN
+Health	others	health|topic|system|true|false|false|false|false|false|false|false|false|NNP
+Systems	others	system|health|present|true|false|false|false|false|false|false|false|false|NNPS
+Presentation	others	present|system|_end_|true|false|false|false|false|false|false|false|false|NN
+
+Dates	others	date|_start_|28-may-95|true|false|false|false|false|false|false|false|false|NNS
+28-May-95	others	28-may-95|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|10:00|true|false|false|false|false|false|false|false|false|NNP
+10:00	stime	10:00|time|am|false|false|false|false|false|false|false|false|false|CD
+AM	stime	am|10:00|_end_|false|true|false|true|false|false|false|false|false|NNP
+
+Place	others	place|_start_|hamburg|true|false|false|false|false|false|false|false|false|NN
+Hamburg	location	hamburg|place|hall|true|false|false|false|false|false|false|false|false|NNP
+Hall	location	hall|hamburg|room|true|false|false|false|false|false|false|false|false|NNP
+Room	location	room|hall|1004|true|false|false|false|false|false|false|false|false|NNP
+1004	location	1004|room|_end_|false|false|false|false|false|false|false|false|true|CD
+
+PostedBy	others	postedbi|_start_|isabel|false|false|false|false|true|false|false|false|false|NNP
+Isabel	others	isabel|postedbi|bermudez|true|false|false|false|false|true|false|false|false|NNP
+Bermudez	others	bermudez|isabel|on|true|false|false|false|false|true|false|false|false|NNP
+on	others	on|bermudez|26-apr-95|false|false|false|false|false|false|false|false|false|IN
+26-Apr-95	others	26-apr-95|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|26-apr-95|19:54|false|false|false|false|false|false|false|false|false|IN
+19:54	others	19:54|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|19:54|andrew.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+andrew.cmu.edu	others	andrew.cmu.edu|from|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+The	others	the|_start_|health|true|false|false|false|false|false|false|false|false|DT
+Health	others	health|the|system|true|false|false|false|false|false|false|false|false|NNP
+Systems	others	system|health|synthesi|true|false|false|false|false|false|false|false|false|NNPS
+Synthesis	others	synthesi|system|group|true|false|false|false|false|false|false|false|false|NN
+group	others	group|synthesi|will|false|false|false|false|false|false|false|false|false|NN
+will	others	will|group|be|false|false|false|false|false|false|false|false|false|MD
+be	others	be|will|make|false|false|false|false|false|false|false|false|false|VB
+making	others	make|be|thei|false|false|false|false|false|false|false|false|false|VBG
+their	others	thei|make|final|false|false|false|false|false|false|false|false|false|PRP$
+final	others	final|thei|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+presentation	others	present|_start_|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|present|would|false|false|false|false|false|false|false|false|false|CC
+would	others	would|and|like|false|false|false|false|false|false|false|false|false|MD
+like	others	like|would|to|false|false|false|false|false|false|false|false|false|VB
+to	others	to|like|invit|false|false|false|false|false|false|false|false|false|TO
+invite	others	invit|to|the|false|false|false|false|false|false|false|false|false|VB
+the	others	the|invit|heinz|false|false|false|false|false|false|false|false|false|DT
+Heinz	others	heinz|the|commun|true|false|false|false|false|false|false|false|false|NNP
+Community	others	commun|heinz|to|true|false|false|false|false|false|false|false|false|NNP
+to	others	to|commun|attend|false|false|false|false|false|false|false|false|false|TO
+attend	others	attend|to|_end_|false|false|false|false|false|false|false|false|false|VB
+
+Date	others	date|_start_|fridai|true|false|false|false|false|false|false|false|false|NN
+Friday	others	fridai|date|28|true|false|false|false|false|false|false|false|true|NNP
+28	others	28|fridai|mai|false|false|false|false|false|false|false|false|true|CD
+May	others	mai|28|1995|true|false|false|false|false|false|false|false|true|NNP
+1995	others	1995|mai|_end_|false|false|false|false|false|false|false|false|true|CD
+
+Time	others	time|_start_|10:00|true|false|false|false|false|false|false|false|false|NNP
+10:00	stime	10:00|time|be|false|false|false|false|false|false|false|false|false|CD
+am	stime	be|10:00|_end_|false|false|false|false|false|false|false|false|false|VBP
+
+Place	others	place|_start_|hamburg|true|false|false|false|false|false|false|false|false|NN
+Hamburg	location	hamburg|place|hall|true|false|false|false|false|false|false|false|false|NNP
+Hall	location	hall|hamburg|room|true|false|false|false|false|false|false|false|false|NNP
+Room	location	room|hall|1004|true|false|false|false|false|false|false|false|false|NNP
+1004	location	1004|room|_end_|false|false|false|false|false|false|false|false|true|CD
+
+The	others	the|_start_|topic|true|false|false|false|false|false|false|false|false|DT
+topic	others	topic|the|be|false|false|false|false|false|false|false|false|false|NN
+is	others	be|topic|establish|false|false|false|false|false|false|false|false|false|VBZ
+Establishing	others	establish|be|evalu|true|false|false|false|false|false|false|false|false|VBG
+Evaluation	others	evalu|establish|benchmark|true|false|false|false|false|false|false|false|false|NN
+Benchmarks	others	benchmark|evalu|pennsylvania|true|false|false|false|false|false|false|false|false|NNS
+Pennsylvania	others	pennsylvania|benchmark|medicaid|true|false|false|false|false|false|false|false|false|NNP
+Medicaid	others	medicaid|pennsylvania|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Fee-for-Service	others	fee-for-servic|_start_|and|false|false|false|false|false|false|false|false|false|NNP
+and	others	and|fee-for-servic|manag|false|false|false|false|false|false|false|false|false|CC
+Managed	others	manag|and|care|true|false|false|false|false|false|false|false|false|NNP
+Care	others	care|manag|program|true|false|false|false|false|false|false|false|false|NNP
+Programs	others	program|care|_end_|true|false|false|false|false|false|false|false|false|NNP
+

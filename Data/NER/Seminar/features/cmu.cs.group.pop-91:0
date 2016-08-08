@@ -1,0 +1,169 @@
+Type	others	type|_start_|cmu|true|false|false|false|false|false|false|false|false|NN
+cmu	others	cmu|type|c|false|false|false|false|false|false|false|false|false|NN
+cs	others	c|cmu|group|false|false|false|false|false|false|false|false|false|NNS
+group	others	group|c|pop|false|false|false|false|false|false|false|false|false|NN
+pop	others	pop|group|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Topic	others	topic|_start_|pop|true|false|false|false|false|false|false|false|false|NN
+POP	others	pop|topic|seminar|false|true|false|true|false|false|false|false|false|NNP
+SEMINAR	others	seminar|pop|_end_|false|true|false|true|false|false|false|false|false|NN
+
+Dates	others	date|_start_|19-apr-93|true|false|false|false|false|false|false|false|false|NNS
+19-Apr-93	others	19-apr-93|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|1:30|true|false|false|false|false|false|false|false|false|NNP
+1:30	stime	1:30|time|3:30|false|false|false|false|false|false|true|false|false|CD
+3:30	etime	3:30|1:30|pm|false|false|false|false|false|false|false|true|false|CD
+PM	etime	pm|3:30|_end_|false|true|false|true|false|false|false|false|false|NN
+
+PostedBy	others	postedbi|_start_|mp3r|false|false|false|false|true|false|false|false|false|NNP
+mp3r	others	mp3r|postedbi|on|false|false|false|false|false|false|false|false|false|NN
+on	others	on|mp3r|16-apr-93|false|false|false|false|false|false|false|false|false|IN
+16-Apr-93	others	16-apr-93|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|16-apr-93|16:39|false|false|false|false|false|false|false|false|false|IN
+16:39	others	16:39|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|16:39|michelle.adm.cs.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+MICHELLE.ADM.CS.CMU.EDU	others	michelle.adm.cs.cmu.edu|from|-lrb-|false|false|false|false|false|false|false|false|false|NN
+-LRB-	others	-lrb-|michelle.adm.cs.cmu.edu|margaret|false|false|false|false|false|false|false|false|false|-LRB-
+Margaret	others	margaret|-lrb-|profeta|true|false|false|false|false|true|false|false|false|NNP
+Profeta	others	profeta|margaret|-rrb-|true|false|false|false|false|true|false|false|false|NNP
+-RRB-	others	-rrb-|profeta|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+
+
+
+NOTE	others	note|_start_|unusu|false|true|false|true|false|false|false|false|false|VB
+UNUSUAL	others	unusu|note|time|false|true|false|true|false|false|false|false|false|JJ
+TIME	others	time|unusu|and|false|true|false|true|false|false|false|false|false|NNS
+AND	others	and|time|place|false|true|false|true|false|false|false|false|false|CC
+PLACE	others	place|and|_end_|false|true|false|true|false|false|false|false|false|NN
+
+
+
+POP	others	pop|_start_|seminar|false|true|false|true|false|false|false|false|false|NNP
+SEMINAR	others	seminar|pop|_end_|false|true|false|true|false|false|false|false|false|NNP
+
+
+Proofs	others	proof|_start_|by|true|false|false|false|false|false|false|false|false|NNS
+by	others	by|proof|structur|false|false|false|false|false|false|false|false|false|IN
+Structural	others	structur|by|induct|true|false|false|false|false|false|false|false|false|JJ
+Induction	others	induct|structur|us|true|false|false|false|false|false|false|false|false|NN
+using	others	us|induct|partial|false|false|false|false|false|false|false|false|false|VBG
+Partial	others	partial|us|evalu|true|false|false|false|false|false|false|false|false|JJ
+Evaluation	others	evalu|partial|_end_|true|false|false|false|false|false|false|false|false|NN
+
+
+Julia	speaker	julia|_start_|lawal|true|false|false|false|false|true|false|false|false|NNP
+Lawall	speaker	lawal|julia|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+Indiana	others	indiana|_start_|univers|true|false|false|false|false|false|false|false|false|NNP
+University	others	univers|indiana|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+
+Monday	others	mondai|_start_|april|true|false|false|false|false|false|false|false|true|NNP
+April	others	april|mondai|19|true|false|false|false|false|false|false|false|true|NNP
+19	others	19|april|1993|false|false|false|false|false|false|false|false|true|CD
+1993	others	1993|19|_end_|false|false|false|false|false|false|false|false|true|CD
+
+1:30	stime	1:30|_start_|3:30|false|false|false|false|false|false|true|false|false|CD
+3:30	etime	3:30|1:30|p.m.|false|false|false|false|false|false|false|true|false|CD
+p.m.	etime	p.m.|3:30|_end_|false|false|false|false|false|false|false|false|false|NN
+
+WeH	location	weh|_start_|4601|false|false|false|false|false|false|false|false|false|NN
+4601	location	4601|weh|_end_|false|false|false|false|false|false|false|false|false|CD
+
+
+
+We	others	we|_start_|show|true|false|false|false|false|false|false|false|false|PRP
+show	others	show|we|how|false|false|false|false|false|false|false|false|false|VBP
+how	others	how|show|partial|false|false|false|false|false|false|false|false|false|WRB
+partial	others	partial|how|evalu|false|false|false|false|false|false|false|false|false|JJ
+evaluation	others	evalu|partial|can|false|false|false|false|false|false|false|false|false|NN
+can	others	can|evalu|be|false|false|false|false|false|false|false|false|false|MD
+be	others	be|can|us|false|false|false|false|false|false|false|false|false|VB
+used	others	us|be|in|false|false|false|false|false|false|false|false|false|VBN
+in	others	in|us|develop|false|false|false|false|false|false|false|false|false|IN
+developing	others	develop|in|proof|false|false|false|false|false|false|false|false|false|VBG
+proofs	others	proof|develop|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+by	others	by|_start_|structur|false|false|false|false|false|false|false|false|false|IN
+structural	others	structur|by|induct|false|false|false|false|false|false|false|false|false|JJ
+induction	others	induct|structur|about|false|false|false|false|false|false|false|false|false|NN
+about	others	about|induct|program|false|false|false|false|false|false|false|false|false|IN
+program	others	program|about|transform|false|false|false|false|false|false|false|false|false|NN
+transformations	others	transform|program|partial|false|false|false|false|false|false|false|false|false|NNS
+Partial	others	partial|transform|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+evaluation	others	evalu|_start_|be|false|false|false|false|false|false|false|false|false|NN
+is	others	be|evalu|particularli|false|false|false|false|false|false|false|false|false|VBZ
+particularly	others	particularli|be|appropri|false|false|false|false|false|false|false|false|false|RB
+appropriate	others	appropri|particularli|for|false|false|false|false|false|false|false|false|false|JJ
+for	others	for|appropri|thi|false|false|false|false|false|false|false|false|false|IN
+this	others	thi|for|task|false|false|false|false|false|false|false|false|false|DT
+task	others	task|thi|becaus|false|false|false|false|false|false|false|false|false|NN
+because	others	becaus|task|it|false|false|false|false|false|false|false|false|false|IN
+it	others	it|becaus|_end_|false|false|false|false|false|false|false|false|false|PRP
+
+distinguishes	others	distinguish|_start_|between|false|false|false|false|false|false|false|false|false|VBZ
+between	others	between|distinguish|static|false|false|false|false|false|false|false|false|false|IN
+static	others	static|between|and|false|false|false|false|false|false|false|false|false|JJ
+and	others	and|static|dynam|false|false|false|false|false|false|false|false|false|CC
+dynamic	others	dynam|and|datum|false|false|false|false|false|false|false|false|false|JJ
+data	others	datum|dynam|thi|false|false|false|false|false|false|false|false|false|NNS
+This	others	thi|datum|approach|true|false|false|false|false|false|false|false|false|DT
+approach	others	approach|thi|_end_|false|false|false|false|false|false|false|false|false|NN
+
+requires	others	requir|_start_|a|false|false|false|false|false|false|false|false|false|VBZ
+a	others	a|requir|partial|false|false|false|false|false|false|false|false|false|DT
+partial	others	partial|a|evalu|false|false|false|false|false|false|false|false|false|JJ
+evaluator	others	evalu|partial|that|false|false|false|false|false|false|false|false|false|NN
+that	others	that|evalu|support|false|false|false|false|false|false|false|false|false|WDT
+supports	others	support|that|the|false|false|false|false|false|false|false|false|false|VBZ
+the	others	the|support|follow|false|false|false|false|false|false|false|false|false|DT
+following	others	follow|the|_end_|false|false|false|false|false|false|false|false|false|VBG
+
+features	others	featur|_start_|resugar|false|false|false|false|false|false|false|false|false|NNS
+resugaring	others	resugar|featur|partially-stat|false|false|false|false|false|false|false|false|false|NN
+partially-static	others	partially-stat|resugar|structur|false|false|false|false|false|false|false|false|false|JJ
+structures	others	structur|partially-stat|higher-ord|false|false|false|false|false|false|false|false|false|NNS
+higher-order	others	higher-ord|structur|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+functions	others	function|_start_|polyvari|false|false|false|false|false|false|false|false|false|NNS
+polyvariance	others	polyvari|function|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|polyvari|filter|false|false|false|false|false|false|false|false|false|CC
+filters	others	filter|and|-lrb-|false|false|false|false|false|false|false|false|false|NNS
+-LRB-	others	-lrb-|filter|we|false|false|false|false|false|false|false|false|false|-LRB-
+we	others	we|-lrb-|us|false|false|false|false|false|false|false|false|false|PRP
+use	others	us|we|consel|false|false|false|false|false|false|false|false|false|VBP
+Consel	others	consel|us|'s|true|false|false|false|false|false|false|false|false|NNP
+'s	others	's|consel|partial|false|false|false|false|false|false|false|false|false|POS
+partial	others	partial|'s|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+evaluator	others	evalu|_start_|schism|false|false|false|false|false|false|false|false|false|NN
+Schism	others	schism|evalu|-rrb-|true|false|false|false|false|false|false|false|false|NN
+-RRB-	others	-rrb-|schism|as|false|false|false|false|false|false|false|false|false|-RRB-
+As	others	as|-rrb-|a|true|false|false|false|false|false|false|false|false|IN
+a	others	a|as|realist|false|false|false|false|false|false|false|false|false|DT
+realistic	others	realist|a|exampl|false|false|false|false|false|false|false|false|false|JJ
+example	others	exampl|realist|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|exampl|thi|false|false|false|false|false|false|false|false|false|IN
+this	others	thi|of|techniqu|false|false|false|false|false|false|false|false|false|DT
+technique	others	techniqu|thi|we|false|false|false|false|false|false|false|false|false|NN
+we	others	we|techniqu|_end_|false|false|false|false|false|false|false|false|false|PRP
+
+prove	others	prove|_start_|a|false|false|false|false|false|false|false|false|false|VB
+a	others	a|prove|theorem|false|false|false|false|false|false|false|false|false|DT
+theorem	others	theorem|a|aris|false|false|false|false|false|false|false|false|false|NN
+arising	others	aris|theorem|in|false|false|false|false|false|false|false|false|false|VBG
+in	others	in|aris|we|false|false|false|false|false|false|false|false|false|IN
+our	others	we|in|earlier|false|false|false|false|false|false|false|false|false|PRP$
+earlier	others	earlier|we|studi|false|false|false|false|false|false|false|false|false|JJR
+study	others	studi|earlier|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|studi|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|of|cp|false|false|false|false|false|false|false|false|false|DT
+CPS	others	cp|the|_end_|false|true|false|true|false|false|false|false|false|NNP
+
+transformatons	others	transformaton|_start_|_end_|false|false|false|false|false|false|false|false|false|NNS
+

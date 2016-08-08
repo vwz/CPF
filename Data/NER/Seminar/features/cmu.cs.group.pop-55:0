@@ -1,0 +1,240 @@
+Type	others	type|_start_|cmu|true|false|false|false|false|false|false|false|false|NN
+cmu	others	cmu|type|c|false|false|false|false|false|false|false|false|false|NN
+cs	others	c|cmu|group|false|false|false|false|false|false|false|false|false|NNS
+group	others	group|c|pop|false|false|false|false|false|false|false|false|false|NN
+pop	others	pop|group|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Topic	others	topic|_start_|pop|true|false|false|false|false|false|false|false|false|NN
+POP	others	pop|topic|seminar|false|true|false|true|false|false|false|false|false|NNP
+Seminar	others	seminar|pop|kohlhas|true|false|false|false|false|false|false|false|false|NNP
+Kohlhase	speaker	kohlhas|seminar|_end_|true|false|false|false|false|false|false|false|false|NN
+
+Dates	others	date|_start_|16-oct-92|true|false|false|false|false|false|false|false|false|NNS
+16-Oct-92	others	16-oct-92|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|3:00|true|false|false|false|false|false|false|false|false|NNP
+3:00	stime	3:00|time|pm|false|false|false|false|false|false|false|false|false|CD
+PM	stime	pm|3:00|4:00|false|true|false|true|false|false|true|false|false|NN
+4:00	etime	4:00|pm|pm|false|false|false|false|false|false|false|true|false|CD
+PM	etime	pm|4:00|_end_|false|true|false|true|false|false|false|false|false|NN
+
+PostedBy	others	postedbi|_start_|fp|false|false|false|false|true|false|false|false|false|NNP
+fp	others	fp|postedbi|on|false|false|false|false|false|false|false|false|false|NN
+on	others	on|fp|13-oct-92|false|false|false|false|false|false|false|false|false|IN
+13-Oct-92	others	13-oct-92|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|13-oct-92|13:32|false|false|false|false|false|false|false|false|false|IN
+13:32	others	13:32|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|13:32|cs.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+cs.cmu.edu	others	cs.cmu.edu|from|-lrb-|false|false|false|false|false|false|false|false|false|NN
+-LRB-	others	-lrb-|cs.cmu.edu|frank|false|false|false|false|false|false|false|false|false|-LRB-
+Frank	others	frank|-lrb-|pfen|true|false|false|false|false|true|false|false|false|NNP
+Pfenning	others	pfen|frank|-rrb-|true|false|false|false|false|true|false|false|false|NNP
+-RRB-	others	-rrb-|pfen|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+POP	others	pop|_start_|seminar|false|true|false|true|false|false|false|false|false|NNP
+SEMINAR	others	seminar|pop|_end_|false|true|false|true|false|false|false|false|false|NN
+
+Friday	others	fridai|_start_|octob|true|false|false|false|false|false|false|false|true|NNP
+October	others	octob|fridai|16|true|false|false|false|false|false|false|false|true|NNP
+16	others	16|octob|1992|false|false|false|false|false|false|false|false|true|CD
+1992	others	1992|16|_end_|false|false|false|false|false|false|false|false|true|CD
+
+Unification	others	unif|_start_|in|true|false|false|false|false|false|false|false|false|NNP
+in	others	in|unif|order-sort|false|false|false|false|false|false|false|false|false|IN
+Order-Sorted	others	order-sort|in|type|false|false|false|false|false|false|false|false|false|NNP
+Type	others	type|order-sort|theori|true|false|false|false|false|false|false|false|false|NN
+Theory	others	theori|type|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Department	others	depart|_start_|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|depart|mathemat|false|false|false|false|false|false|false|false|false|IN
+Mathematics	others	mathemat|of|_end_|true|false|false|false|false|false|false|false|false|NNPS
+
+Carnegie	others	carnegi|_start_|mellon|true|false|false|false|false|false|false|false|false|NNP
+Mellon	others	mellon|carnegi|univers|true|false|false|false|false|false|false|false|false|NNP
+University	others	univers|mellon|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+visiting	others	visit|_start_|from|false|false|false|false|false|false|false|false|false|VBG
+from	others	from|visit|_end_|false|false|false|false|false|false|false|false|false|IN
+
+Department	others	depart|_start_|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|depart|comput|false|false|false|false|false|false|false|false|false|IN
+Computer	others	comput|of|scienc|true|false|false|false|false|false|false|false|false|NNP
+Science	others	scienc|comput|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Universit	others	universit|_start_|at|true|false|false|false|false|false|false|false|false|NNP
+at	others	at|universit|de|false|false|false|false|false|false|false|false|false|IN
+des	others	de|at|saarland|false|false|false|false|false|false|false|false|false|FW
+Saarlandes	others	saarland|de|_end_|true|false|false|false|false|false|false|false|false|FW
+
+Saarbr	others	saarbr|_start_|ucken|true|false|false|false|false|false|false|false|false|FW
+ucken	others	ucken|saarbr|germani|false|false|false|false|false|false|false|false|false|NN
+Germany	others	germani|ucken|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+The	others	the|_start_|introduct|true|false|false|false|false|false|false|false|false|DT
+introduction	others	introduct|the|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|introduct|sort|false|false|false|false|false|false|false|false|false|IN
+sorts	others	sort|of|to|false|false|false|false|false|false|false|false|false|NNS
+to	others	to|sort|first-ord|false|false|false|false|false|false|false|false|false|TO
+first-order	others	first-ord|to|atom|false|false|false|false|false|false|false|false|false|JJ
+atomated	others	atom|first-ord|theorem|false|false|false|false|false|false|false|false|false|JJ
+theorem	others	theorem|atom|prove|false|false|false|false|false|false|false|false|false|NN
+proving	others	prove|theorem|have|false|false|false|false|false|false|false|false|false|NN
+has	others	have|prove|bring|false|false|false|false|false|false|false|false|false|VBZ
+brought	others	bring|have|_end_|false|false|false|false|false|false|false|false|false|VBN
+
+a	others	a|_start_|consider|false|false|false|false|false|false|false|false|false|DT
+considerable	others	consider|a|gain|false|false|false|false|false|false|false|false|false|JJ
+gain	others	gain|consider|in|false|false|false|false|false|false|false|false|false|NN
+in	others	in|gain|effici|false|false|false|false|false|false|false|false|false|IN
+efficiency	others	effici|in|by|false|false|false|false|false|false|false|false|false|NN
+by	others	by|effici|reduc|false|false|false|false|false|false|false|false|false|IN
+reducing	others	reduc|by|the|false|false|false|false|false|false|false|false|false|VBG
+the	others	the|reduc|search|false|false|false|false|false|false|false|false|false|DT
+search	others	search|the|space|false|false|false|false|false|false|false|false|false|NN
+spaces	others	space|search|therefor|false|false|false|false|false|false|false|false|false|NNS
+therefore	others	therefor|space|it|false|false|false|false|false|false|false|false|false|RB
+it	others	it|therefor|_end_|false|false|false|false|false|false|false|false|false|PRP
+
+is	others	be|_start_|desir|false|false|false|false|false|false|false|false|false|VBZ
+desirable	others	desir|be|to|false|false|false|false|false|false|false|false|false|JJ
+to	others	to|desir|be|false|false|false|false|false|false|false|false|false|TO
+be	others	be|to|abl|false|false|false|false|false|false|false|false|false|VB
+able	others	abl|be|to|false|false|false|false|false|false|false|false|false|JJ
+to	others	to|abl|treat|false|false|false|false|false|false|false|false|false|TO
+treat	others	treat|to|sort|false|false|false|false|false|false|false|false|false|VB
+sorts	others	sort|treat|in|false|false|false|false|false|false|false|false|false|NNS
+in	others	in|sort|higher|false|false|false|false|false|false|false|false|false|IN
+higher	others	higher|in|order|false|false|false|false|false|false|false|false|false|JJR
+order	others	order|higher|theorem|false|false|false|false|false|false|false|false|false|NN
+theorem	others	theorem|order|prove|false|false|false|false|false|false|false|false|false|NN
+proving	others	prove|theorem|in|false|false|false|false|false|false|false|false|false|VBG
+in	others	in|prove|a|false|false|false|false|false|false|false|false|false|IN
+a	others	a|in|_end_|false|false|false|false|false|false|false|false|false|DT
+
+similar	others	similar|_start_|wai|false|false|false|false|false|false|false|false|false|JJ
+way	others	wai|similar|_end_|false|false|false|false|false|false|false|false|false|NN
+
+We	others	we|_start_|present|true|false|false|false|false|false|false|false|false|PRP
+present	others	present|we|a|false|false|false|false|false|false|false|false|false|VBP
+a	others	a|present|sort|false|false|false|false|false|false|false|false|false|DT
+sorted	others	sort|a|version|false|false|false|false|false|false|false|false|false|VBN
+version	others	version|sort|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|version|type|false|false|false|false|false|false|false|false|false|IN
+type	others	type|of|theori|false|false|false|false|false|false|false|false|false|NN
+theory	others	theori|type|we|false|false|false|false|false|false|false|false|false|NN
+we	others	we|theori|extend|false|false|false|false|false|false|false|false|false|PRP
+extend	others	extend|we|the|false|false|false|false|false|false|false|false|false|VBP
+the	others	the|extend|syntax|false|false|false|false|false|false|false|false|false|DT
+syntax	others	syntax|the|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|syntax|semant|false|false|false|false|false|false|false|false|false|CC
+semantics	others	semant|and|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+of	others	of|_start_|simpl|false|false|false|false|false|false|false|false|false|IN
+simple	others	simpl|of|type|false|false|false|false|false|false|false|false|false|JJ
+type	others	type|simpl|theori|false|false|false|false|false|false|false|false|false|NN
+theory	others	theori|type|by|false|false|false|false|false|false|false|false|false|NN
+by	others	by|theori|a|false|false|false|false|false|false|false|false|false|IN
+a	others	a|by|higher|false|false|false|false|false|false|false|false|false|DT
+higher	others	higher|a|order|false|false|false|false|false|false|false|false|false|JJR
+order	others	order|higher|sort|false|false|false|false|false|false|false|false|false|NN
+sort	others	sort|order|concept|false|false|false|false|false|false|false|false|false|NN
+concept	others	concept|sort|that|false|false|false|false|false|false|false|false|false|NN
+that	others	that|concept|includ|false|false|false|false|false|false|false|false|false|WDT
+includes	others	includ|that|term|false|false|false|false|false|false|false|false|false|VBZ
+term	others	term|includ|_end_|false|false|false|false|false|false|false|false|false|NN
+
+declarations	others	declar|_start_|in|false|false|false|false|false|false|false|false|false|NNS
+In	others	in|declar|we|true|false|false|false|false|false|false|false|false|IN
+our	others	we|in|system|false|false|false|false|false|false|false|false|false|PRP$
+system	others	system|we|the|false|false|false|false|false|false|false|false|false|NN
+the	others	the|system|partial|false|false|false|false|false|false|false|false|false|DT
+partial	others	partial|the|order|false|false|false|false|false|false|false|false|false|JJ
+ordering	others	order|partial|on|false|false|false|false|false|false|false|false|false|VBG
+on	others	on|order|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|on|base|false|false|false|false|false|false|false|false|false|DT
+base	others	base|the|sort|false|false|false|false|false|false|false|false|false|NN
+sorts	others	sort|base|induc|false|false|false|false|false|false|false|false|false|NNS
+induces	others	induc|sort|a|false|false|false|false|false|false|false|false|false|VBZ
+a	others	a|induc|_end_|false|false|false|false|false|false|false|false|false|DT
+
+partial	others	partial|_start_|order|false|false|false|false|false|false|false|false|false|JJ
+ordering	others	order|partial|on|false|false|false|false|false|false|false|false|false|VBG
+on	others	on|order|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|on|higher|false|false|false|false|false|false|false|false|false|DT
+higher	others	higher|the|type|false|false|false|false|false|false|false|false|false|JJR
+types	others	type|higher|by|false|false|false|false|false|false|false|false|false|NNS
+by	others	by|type|covari|false|false|false|false|false|false|false|false|false|IN
+covariance	others	covari|by|in|false|false|false|false|false|false|false|false|false|NN
+in	others	in|covari|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|in|rangesort|false|false|false|false|false|false|false|false|false|DT
+rangesort	others	rangesort|the|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|rangesort|the|false|false|false|false|false|false|false|false|false|CC
+the	others	the|and|_end_|false|false|false|false|false|false|false|false|false|DT
+
+natural	others	natur|_start_|inclus|false|false|false|false|false|false|false|false|false|JJ
+inclusion	others	inclus|natur|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|inclus|base|false|false|false|false|false|false|false|false|false|IN
+base	others	base|of|function|false|false|false|false|false|false|false|false|false|NN
+function	others	function|base|sort|false|false|false|false|false|false|false|false|false|NN
+sorts	others	sort|function|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+We	others	we|_start_|present|true|false|false|false|false|false|false|false|false|PRP
+present	others	present|we|a|false|false|false|false|false|false|false|false|false|VBP
+a	others	a|present|set|false|false|false|false|false|false|false|false|false|DT
+set	others	set|a|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|set|transform|false|false|false|false|false|false|false|false|false|IN
+transformations	others	transform|of|for|false|false|false|false|false|false|false|false|false|NNS
+for	others	for|transform|sort|false|false|false|false|false|false|false|false|false|IN
+sorted	others	sort|for|-lrb-|false|false|false|false|false|false|false|false|false|VBN
+-LRB-	others	-lrb-|sort|pre|false|false|false|false|false|false|false|false|false|-LRB-
+pre	others	pre|-lrb-|-rrb-|false|false|false|false|false|false|false|false|false|JJ
+-RRB-	others	-rrb-|pre|unif|false|false|false|false|false|false|false|false|false|-RRB-
+unification	others	unif|-rrb-|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|unif|prove|false|false|false|false|false|false|false|false|false|CC
+prove	others	prove|and|_end_|false|false|false|false|false|false|false|false|false|VB
+
+the	others	the|_start_|nondeterminist|false|false|false|false|false|false|false|false|false|DT
+nondeterministic	others	nondeterminist|the|complet|false|false|false|false|false|false|false|false|false|JJ
+completeness	others	complet|nondeterminist|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|complet|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|of|algorithm|false|false|false|false|false|false|false|false|false|DT
+algorithm	others	algorithm|the|induc|false|false|false|false|false|false|false|false|false|NN
+induced	others	induc|algorithm|by|false|false|false|false|false|false|false|false|false|VBN
+by	others	by|induc|these|false|false|false|false|false|false|false|false|false|IN
+these	others	these|by|_end_|false|false|false|false|false|false|false|false|false|DT
+
+transformations	others	transform|_start_|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+If	others	if|_start_|you|true|false|false|false|false|false|false|false|false|IN
+you	others	you|if|would|false|false|false|false|false|false|false|false|false|PRP
+would	others	would|you|like|false|false|false|false|false|false|false|false|false|MD
+like	others	like|would|to|false|false|false|false|false|false|false|false|false|VB
+to	others	to|like|talk|false|false|false|false|false|false|false|false|false|TO
+talk	others	talk|to|to|false|false|false|false|false|false|false|false|false|VB
+to	others	to|talk|the|false|false|false|false|false|false|false|false|false|TO
+the	others	the|to|speaker|false|false|false|false|false|false|false|false|false|DT
+speaker	others	speaker|the|you|false|false|false|false|false|false|false|false|false|NN
+you	others	you|speaker|mai|false|false|false|false|false|false|false|false|false|PRP
+may	others	mai|you|contact|false|false|false|false|false|false|false|false|false|MD
+contact	others	contact|mai|he|false|false|false|false|false|false|false|false|false|VB
+him	others	he|contact|under|false|false|false|false|false|false|false|false|false|PRP
+under	others	under|he|_end_|false|false|false|false|false|false|false|false|false|IN
+
+kohlhase@cs.cmu.edu,	others	kohlhase@cs.cmu.edu,|_start_|weh|false|false|false|false|false|false|false|false|false|NN
+WeH	location	weh|kohlhase@cs.cmu.edu,|7211|false|false|false|false|false|false|false|false|false|NN
+7211	location	7211|weh|x1439|false|false|false|false|false|false|false|false|false|CD
+x1439	others	x1439|7211|he|false|false|false|false|false|false|false|false|false|NN
+He	others	he|x1439|will|true|false|false|false|false|false|false|false|false|PRP
+will	others	will|he|be|false|false|false|false|false|false|false|false|false|MD
+be	others	be|will|visit|false|false|false|false|false|false|false|false|false|VB
+visiting	others	visit|be|the|false|false|false|false|false|false|false|false|false|VBG
+the	others	the|visit|depart|false|false|false|false|false|false|false|false|false|DT
+Department	others	depart|the|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|depart|_end_|false|false|false|false|false|false|false|false|false|IN
+
+Mathematics	others	mathemat|_start_|until|true|false|false|false|false|false|false|false|false|NN
+until	others	until|mathemat|februari|false|false|false|false|false|false|false|false|false|IN
+February	others	februari|until|_end_|true|false|false|false|false|false|false|false|true|NNP
+

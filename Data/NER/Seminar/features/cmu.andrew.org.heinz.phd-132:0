@@ -1,0 +1,124 @@
+Type	others	type|_start_|cmu.andrew.org|true|false|false|false|false|false|false|false|false|NN
+cmu.andrew.org	others	cmu.andrew.org|type|heinz|false|false|false|false|false|false|false|false|false|NN
+heinz	others	heinz|cmu.andrew.org|phd|false|false|false|false|false|false|false|false|false|NN
+phd	others	phd|heinz|_end_|false|false|false|false|false|true|false|false|false|NN
+
+Topic	others	topic|_start_|women|true|false|false|false|false|false|false|false|false|NN
+Women	others	women|topic|'s|true|false|false|false|false|false|false|false|false|NNP
+'s	others	's|women|speaker|false|false|false|false|false|false|false|false|false|POS
+Speaker	others	speaker|'s|seri|true|false|false|false|false|false|false|false|false|NNP
+Series	others	seri|speaker|thrive|true|false|false|false|false|false|false|false|false|NNP
+Thriving	others	thrive|seri|in|true|false|false|false|false|false|false|false|false|VBG
+in	others	in|thrive|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|in|academi|false|false|false|false|false|false|false|false|false|DT
+Academy	others	academi|the|_end_|true|false|false|false|false|false|false|false|false|NN
+
+Dates	others	date|_start_|30-sep-93|true|false|false|false|false|false|false|false|false|NNS
+30-Sep-93	others	30-sep-93|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|4:30|true|false|false|false|false|false|false|false|false|NNP
+4:30	stime	4:30|time|pm|false|false|false|false|false|false|false|false|false|CD
+PM	stime	pm|4:30|_end_|false|true|false|true|false|false|false|false|false|NN
+
+PostedBy	others	postedbi|_start_|lara|false|false|false|false|true|false|false|false|false|NNP
+Lara	others	lara|postedbi|j.|true|false|false|false|false|true|false|false|false|NNP
+J.	others	j.|lara|wolfson|false|false|false|false|false|true|false|false|false|NNP
+Wolfson	others	wolfson|j.|on|true|false|false|false|false|true|false|false|false|NNP
+on	others	on|wolfson|28-sep-93|false|false|false|false|false|false|false|false|false|IN
+28-Sep-93	others	28-sep-93|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|28-sep-93|13:13|false|false|false|false|false|false|false|false|false|IN
+13:13	others	13:13|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|13:13|stat.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+stat.cmu.edu	others	stat.cmu.edu|from|_end_|false|false|false|false|false|false|false|false|false|FW
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+The	others	the|_start_|univers|true|false|false|false|false|false|false|false|false|DT
+University	others	univers|the|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|univers|pittsburgh-carnegi|false|false|false|false|false|false|false|false|false|IN
+Pittsburgh-Carnegie	others	pittsburgh-carnegi|of|mellon|false|false|false|false|false|false|false|false|false|NNP
+Mellon	others	mellon|pittsburgh-carnegi|women|true|false|false|false|false|false|false|false|false|NNP
+Women	others	women|mellon|'s|true|false|false|false|false|false|false|false|false|NNP
+'s	others	's|women|speaker|false|false|false|false|false|false|false|false|false|POS
+Speaker	others	speaker|'s|seri|true|false|false|false|false|false|false|false|false|NNP
+Series	others	seri|speaker|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+September	others	septemb|_start_|30th|true|false|false|false|false|false|false|false|true|NNP
+30th	others	30th|septemb|at|false|false|false|false|false|false|false|false|true|JJ
+at	others	at|30th|4:30|false|false|false|false|false|false|false|false|false|IN
+4:30	stime	4:30|at|p.|false|false|false|false|false|false|false|false|false|CD
+p.	stime	p.|4:30|m|false|false|false|false|false|false|false|false|false|NN
+m	stime	m|p.|cmu|false|false|false|false|false|false|false|false|false|NN
+CMU	others	cmu|m|faculti|false|true|false|true|false|false|false|false|false|NNP
+Faculty	location	faculti|cmu|dine|true|false|false|false|false|false|false|false|false|NNP
+Dining	location	dine|faculti|room|true|false|false|false|false|false|false|false|false|NNP
+Room	location	room|dine|in|true|false|false|false|false|false|false|false|false|NNP
+in	location	in|room|skibo|false|false|false|false|false|false|false|false|false|IN
+Skibo	location	skibo|in|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Panel	others	panel|_start_|discuss|true|false|false|false|false|false|false|false|false|NN
+Discussion	others	discuss|panel|thrive|true|false|false|false|false|false|false|false|false|NN
+Thriving	others	thrive|discuss|in|true|false|false|false|false|false|false|false|false|VBG
+in	others	in|thrive|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|in|academi|false|false|false|false|false|false|false|false|false|DT
+Academy	others	academi|the|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Panelists	others	panelist|_start_|from|true|false|false|false|false|false|false|false|false|NNS
+from	others	from|panelist|cmu|false|false|false|false|false|false|false|false|false|IN
+CMU	others	cmu|from|_end_|false|true|false|true|false|false|false|false|false|NNP
+
+Angela	others	angela|_start_|william|true|false|false|false|false|true|false|false|false|NNP
+Williams	others	william|angela|ph.d.|true|false|false|false|false|true|false|false|false|NNP
+Ph.D.	others	ph.d.|william|candid|false|false|false|false|false|true|false|false|false|NNP
+candidate	others	candid|ph.d.|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Sue	others	sue|_start_|mcneil|true|false|false|false|false|false|false|false|false|VB
+McNeil	others	mcneil|sue|associ|false|false|false|false|false|true|false|false|false|NNP
+Associate	others	associ|mcneil|professor|true|false|false|false|false|false|false|false|false|NNP
+Professor	others	professor|associ|civil|true|false|false|false|false|true|false|false|false|NNP
+Civil	others	civil|professor|engin|true|false|false|false|false|false|false|false|false|NNP
+Engineering	others	engin|civil|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Linda	others	linda|_start_|argot|true|false|false|false|false|true|false|false|false|NNP
+Argote	others	argot|linda|associ|true|false|false|false|false|true|false|false|false|NNP
+Associate	others	associ|argot|professor|true|false|false|false|false|false|false|false|false|NNP
+Professor	others	professor|associ|gsia|true|false|false|false|false|true|false|false|false|NNP
+GSIA	others	gsia|professor|_end_|false|true|false|true|false|false|false|false|false|NNP
+
+Panelists	others	panelist|_start_|from|true|false|false|false|false|false|false|false|false|NNS
+from	others	from|panelist|pitt|false|false|false|false|false|false|false|false|false|IN
+Pitt	others	pitt|from|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+Tamara	others	tamara|_start_|horowitz|true|false|false|false|false|true|false|false|false|NNP
+Horowitz	others	horowitz|tamara|associ|true|false|false|false|false|true|false|false|false|NNP
+Associate	others	associ|horowitz|professor|true|false|false|false|false|false|false|false|false|NNP
+Professor	others	professor|associ|philosophi|true|false|false|false|false|true|false|false|false|NNP
+Philosophy	others	philosophi|professor|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Brenda	others	brenda|_start_|berrian|true|false|false|false|false|true|false|false|false|NNP
+Berrian	others	berrian|brenda|chair|true|false|false|false|false|true|false|false|false|NNP
+Chair	others	chair|berrian|and|true|false|false|false|false|false|false|false|false|NNP
+and	others	and|chair|associ|false|false|false|false|false|false|false|false|false|CC
+Associate	others	associ|and|professor|true|false|false|false|false|false|false|false|false|NNP
+Professor	others	professor|associ|black|true|false|false|false|false|true|false|false|false|NNP
+Black	others	black|professor|studi|true|false|false|false|false|false|false|false|false|NNP
+Studies	others	studi|black|_end_|true|false|false|false|false|false|false|false|false|NNPS
+
+For	others	for|_start_|further|true|false|false|false|false|false|false|false|false|IN
+further	others	further|for|inform|false|false|false|false|false|false|false|false|false|JJ
+information	others	inform|further|pleas|false|false|false|false|false|false|false|false|false|NN
+please	others	pleas|inform|contact|false|false|false|false|false|false|false|false|false|VB
+contact	others	contact|pleas|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Kathleen	others	kathleen|_start_|minadeo|true|false|false|false|false|true|false|false|false|NNP
+Minadeo	others	minadeo|kathleen|johnson|true|false|false|false|false|true|false|false|false|NNP
+Johnson	others	johnson|minadeo|at|true|false|false|false|false|true|false|false|false|NNP
+at	others	at|johnson|_end_|false|false|false|false|false|false|false|false|false|IN
+
+x8-7970	others	x8-7970|_start_|or|false|false|false|false|false|false|false|false|false|NN
+or	others	or|x8-7970|kj26@andrew.cmu.edu|false|false|false|false|false|false|false|false|false|CC
+kj26@andrew.cmu.edu	others	kj26@andrew.cmu.edu|or|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Everybody	others	everybodi|_start_|welcom|true|false|false|false|false|false|false|false|false|NN
+welcome	others	welcom|everybodi|_end_|false|false|false|false|false|false|false|false|false|JJ
+

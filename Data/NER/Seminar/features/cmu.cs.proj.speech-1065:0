@@ -1,0 +1,64 @@
+Type	others	type|_start_|cmu|true|false|false|false|false|false|false|false|false|NN
+cmu	others	cmu|type|c|false|false|false|false|false|false|false|false|false|NN
+cs	others	c|cmu|proj|false|false|false|false|false|false|false|false|false|NNS
+proj	others	proj|c|speech|false|false|false|false|false|false|false|false|false|NN
+speech	others	speech|proj|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Topic	others	topic|_start_|chri|true|false|false|false|false|false|false|false|false|NN
+Chris	speaker	chri|topic|schmandt|true|false|false|false|false|true|false|false|false|NNP
+Schmandt	speaker	schmandt|chri|itc|true|false|false|false|false|true|false|false|false|NNP
+ITC	others	itc|schmandt|talk|false|true|false|true|false|false|false|false|false|NNP
+talk	others	talk|itc|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Dates	others	date|_start_|15-mar-90|true|false|false|false|false|false|false|false|false|NNS
+15-Mar-90	others	15-mar-90|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|2:00|true|false|false|false|false|false|false|false|false|NNP
+2:00	stime	2:00|time|pm|false|false|false|false|false|false|false|false|false|CD
+PM	stime	pm|2:00|_end_|false|true|false|true|false|false|false|false|false|NN
+
+PostedBy	others	postedbi|_start_|thoma|false|false|false|false|true|false|false|false|false|NNP
+Thomas	others	thoma|postedbi|sullivan|true|false|false|false|false|true|false|false|false|NNP
+Sullivan	others	sullivan|thoma|on|true|false|false|false|false|true|false|false|false|NNP
+on	others	on|sullivan|12-mar-90|false|false|false|false|false|false|false|false|false|IN
+12-Mar-90	others	12-mar-90|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|12-mar-90|10:01|false|false|false|false|false|false|false|false|false|IN
+10:01	others	10:01|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|10:01|speech1|false|false|false|false|false|false|false|false|false|IN
+SPEECH1	others	speech1|from|cs.cmu.edu|false|false|false|false|false|false|false|false|false|NN
+CS.CMU.EDU	others	cs.cmu.edu|speech1|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+Chris	speaker	chri|_start_|schmandt|true|false|false|false|false|true|false|false|false|NNP
+Schmandt	speaker	schmandt|chri|and|true|false|false|false|false|true|false|false|false|NNP
+and	others	and|schmandt|barri|false|false|false|false|false|false|false|false|false|CC
+Barry	speaker	barri|and|aron|true|false|false|false|false|true|false|false|false|NNP
+Arons	speaker	aron|barri|talk|true|false|false|false|false|true|false|false|false|NNP
+talk	others	talk|aron|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|talk|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|at|itc|false|false|false|false|false|false|false|false|false|DT
+ITC	others	itc|the|will|false|true|false|true|false|false|false|false|false|NNP
+will	others	will|itc|be|false|false|false|false|false|false|false|false|false|MD
+be	others	be|will|thi|false|false|false|false|false|false|false|false|false|VB
+this	others	thi|be|thursdai|false|false|false|false|false|false|false|false|true|DT
+Thursday	others	thursdai|thi|_end_|true|false|false|false|false|false|false|false|true|NNP
+
+-LRB-	others	-lrb-|_start_|march|false|false|false|false|false|false|false|false|false|-LRB-
+March	others	march|-lrb-|15|true|false|false|false|false|false|false|false|true|NNP
+15	others	15|march|-rrb-|false|false|false|false|false|false|false|false|true|CD
+-RRB-	others	-rrb-|15|at|false|false|false|false|false|false|false|false|false|-RRB-
+at	others	at|-rrb-|2|false|false|false|false|false|false|false|false|false|IN
+2	stime	2|at|pm|false|false|false|false|false|false|false|false|false|CD
+pm	stime	pm|2|see|false|false|false|false|false|false|false|false|false|NN
+See	others	see|pm|the|true|false|false|false|false|false|false|false|false|VB
+the	others	the|see|c|false|false|false|false|false|false|false|false|false|DT
+cs	others	c|the|gener|false|false|false|false|false|false|false|false|false|NNS
+general	others	gener|c|bboard|false|false|false|false|false|false|false|false|false|JJ
+bboard	others	bboard|gener|for|false|false|false|false|false|false|false|false|false|NN
+for	others	for|bboard|a|false|false|false|false|false|false|false|false|false|IN
+an	others	a|for|abstract|false|false|false|false|false|false|false|false|false|DT
+abstract	others	abstract|a|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+Tom	others	tom|_start_|_end_|true|false|false|false|false|true|false|false|false|NNP
+

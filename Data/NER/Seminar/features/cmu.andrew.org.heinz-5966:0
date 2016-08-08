@@ -1,0 +1,110 @@
+Type	others	type|_start_|cmu.andrew.org|true|false|false|false|false|false|false|false|false|NN
+cmu.andrew.org	others	cmu.andrew.org|type|heinz|false|false|false|false|false|false|false|false|false|NN
+heinz	others	heinz|cmu.andrew.org|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Topic	others	topic|_start_|fwd|true|false|false|false|false|false|false|false|false|NN
+Fwd	others	fwd|topic|seminar|true|false|false|false|false|false|false|false|false|NN
+Seminar	others	seminar|fwd|polit|true|false|false|false|false|false|false|false|false|NNP
+Politics	others	polit|seminar|of|true|false|false|false|false|false|false|false|false|NNS
+of	others	of|polit|pension|false|false|false|false|false|false|false|false|false|IN
+Pensions	others	pension|of|_end_|true|false|false|false|false|false|false|false|false|NNS
+
+Dates	others	date|_start_|11-mar-94|true|false|false|false|false|false|false|false|false|NNS
+11-Mar-94	others	11-mar-94|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|3:30|true|false|false|false|false|false|false|false|false|NNP
+3:30	stime	3:30|time|pm|false|false|false|false|false|false|false|false|false|CD
+PM	stime	pm|3:30|_end_|false|true|false|true|false|false|false|false|false|NN
+
+PostedBy	others	postedbi|_start_|sandi|false|false|false|false|true|false|false|false|false|NNP
+Sandy	others	sandi|postedbi|dai|true|false|false|false|false|false|false|false|false|NNP
+Day	others	dai|sandi|on|true|false|false|false|false|false|false|false|false|NNP
+on	others	on|dai|2-mar-94|false|false|false|false|false|false|false|false|false|IN
+2-Mar-94	others	2-mar-94|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|2-mar-94|10:07|false|false|false|false|false|false|false|false|false|IN
+10:07	others	10:07|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|10:07|andrew.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+andrew.cmu.edu	others	andrew.cmu.edu|from|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+The	others	the|_start_|depart|true|false|false|false|false|false|false|false|false|DT
+Department	others	depart|the|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|depart|histori|false|false|false|false|false|false|false|false|false|IN
+History	others	histori|of|_end_|true|false|false|false|false|false|false|false|false|NN
+
+Seminar	others	seminar|_start_|announc|true|false|false|false|false|false|false|false|false|NN
+Announcement	others	announc|seminar|_end_|true|false|false|false|false|false|false|false|false|NN
+
+The	others	the|_start_|polit|true|false|false|false|false|false|false|false|false|DT
+Politics	others	polit|the|of|true|false|false|false|false|false|false|false|false|NNPS
+of	others	of|polit|pension|false|false|false|false|false|false|false|false|false|IN
+Pensions	others	pension|of|in|true|false|false|false|false|false|false|false|false|NNPS
+in	others	in|pension|britain|false|false|false|false|false|false|false|false|false|IN
+Britain	others	britain|in|canada|true|false|false|false|false|false|false|false|false|NNP
+Canada	others	canada|britain|and|true|false|false|false|false|false|false|false|false|NNP
+and	others	and|canada|the|false|false|false|false|false|false|false|false|false|CC
+the	others	the|and|unit|false|false|false|false|false|false|false|false|false|DT
+United	others	unit|the|state|true|false|false|false|false|false|false|false|false|NNP
+States	others	state|unit|_end_|true|false|false|false|false|false|false|false|false|NNPS
+
+1880s-1930s	others	1880s-1930|_start_|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+Department	others	depart|_start_|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|depart|sociolog|false|false|false|false|false|false|false|false|false|IN
+Sociology	others	sociolog|of|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+University	others	univers|_start_|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|univers|wisconsin|false|false|false|false|false|false|false|false|false|IN
+Wisconsin	others	wisconsin|of|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Professor	speaker	professor|_start_|orloff|true|false|false|false|false|true|false|false|false|NNP
+Orloff	speaker	orloff|professor|be|true|false|false|false|false|true|false|false|false|NNP
+is	others	be|orloff|know|false|false|false|false|false|false|false|false|false|VBZ
+known	others	know|be|for|false|false|false|false|false|false|false|false|false|VBN
+for	others	for|know|she|false|false|false|false|false|false|false|false|false|IN
+her	others	she|for|innov|false|false|false|false|false|false|false|false|false|PRP$
+innovative	others	innov|she|work|false|false|false|false|false|false|false|false|false|JJ
+work	others	work|innov|in|false|false|false|false|false|false|false|false|false|NN
+in	others	in|work|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|in|compar|false|false|false|false|false|false|false|false|false|DT
+comparative	others	compar|the|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+history	others	histori|_start_|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|histori|welfar|false|false|false|false|false|false|false|false|false|IN
+welfare	others	welfar|of|state|false|false|false|false|false|false|false|false|false|NN
+state	others	state|welfar|develop|false|false|false|false|false|false|false|false|false|NN
+development	others	develop|state|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|develop|the|false|false|false|false|false|false|false|false|false|CC
+the	others	the|and|issu|false|false|false|false|false|false|false|false|false|DT
+issue	others	issu|the|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|issu|gender|false|false|false|false|false|false|false|false|false|IN
+gender	others	gender|of|in|false|false|false|false|false|false|false|false|false|NN
+in	others	in|gender|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|in|_end_|false|false|false|false|false|false|false|false|false|DT
+
+formation	others	format|_start_|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|format|welfar|false|false|false|false|false|false|false|false|false|IN
+welfare	others	welfar|of|polici|false|false|false|false|false|false|false|false|false|NN
+policy	others	polici|welfar|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Friday	others	fridai|_start_|march|true|false|false|false|false|false|false|false|true|NNP
+March	others	march|fridai|11|true|false|false|false|false|false|false|false|true|NNP
+11	others	11|march|1994|false|false|false|false|false|false|false|false|true|CD
+1994	others	1994|11|_end_|false|false|false|false|false|false|false|false|true|CD
+
+3:30	stime	3:30|_start_|p.|false|false|false|false|false|false|false|false|false|CD
+p.	stime	p.|3:30|m|false|false|false|false|false|false|false|false|false|NN
+m	stime	m|p.|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Information	others	inform|_start_|katherin|true|false|false|false|false|false|false|false|false|NN
+Katherine	others	katherin|inform|a.|true|false|false|false|false|true|false|false|false|NNP
+A.	others	a.|katherin|lynch|false|false|false|false|false|true|false|false|false|NNP
+Lynch	others	lynch|a.|associ|true|false|false|false|false|true|false|false|false|NNP
+associate	others	associ|lynch|professor|false|false|false|false|false|false|false|false|false|JJ
+professor	others	professor|associ|of|false|false|false|false|false|true|false|false|false|NN
+of	others	of|professor|histori|false|false|false|false|false|false|false|false|false|IN
+History	others	histori|of|kl18@andrew|true|false|false|false|false|false|false|false|false|NN
+kl18@andrew	others	kl18@andrew|histori|-rrb-|false|false|false|false|false|false|false|false|false|NN
+-RRB-	others	-rrb-|kl18@andrew|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+

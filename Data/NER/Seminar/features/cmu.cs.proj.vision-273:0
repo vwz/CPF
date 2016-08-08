@@ -1,0 +1,48 @@
+Type	others	type|_start_|cmu|true|false|false|false|false|false|false|false|false|NN
+cmu	others	cmu|type|c|false|false|false|false|false|false|false|false|false|NN
+cs	others	c|cmu|proj|false|false|false|false|false|false|false|false|false|NNS
+proj	others	proj|c|vision|false|false|false|false|false|false|false|false|false|NN
+vision	others	vision|proj|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Topic	others	topic|_start_|sanderson|true|false|false|false|false|false|false|false|false|NN
+Sanderson	others	sanderson|topic|group|true|false|false|false|false|true|false|false|false|NNP
+group	others	group|sanderson|seminar|false|false|false|false|false|false|false|false|false|NN
+seminar	others	seminar|group|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Dates	others	date|_start_|27-apr-84|true|false|false|false|false|false|false|false|false|NNS
+27-Apr-84	others	27-apr-84|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|2:30|true|false|false|false|false|false|false|false|false|NNP
+2:30	stime	2:30|time|_end_|false|false|false|false|false|false|false|false|false|CD
+
+PostedBy	others	postedbi|_start_|on|false|false|false|false|true|false|false|false|false|NNP
+on	others	on|postedbi|25-apr-84|false|false|false|false|false|false|false|false|false|IN
+25-Apr-84	others	25-apr-84|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|25-apr-84|12:33|false|false|false|false|false|false|false|false|false|IN
+12:33	others	12:33|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|12:33|_end_|false|false|false|false|false|false|false|false|false|IN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+Alberto	speaker	alberto|_start_|elf|true|false|false|false|false|true|false|false|false|NNP
+Elfes	speaker	elf|alberto|will|true|false|false|false|false|true|false|false|false|NNP
+will	others	will|elf|be|false|false|false|false|false|false|false|false|false|MD
+be	others	be|will|speak|false|false|false|false|false|false|false|false|false|VB
+speaking	others	speak|be|about|false|false|false|false|false|false|false|false|false|VBG
+about	others	about|speak|a|false|false|false|false|false|false|false|false|false|IN
+A	others	a|about|wide-beam|false|false|true|true|false|false|false|false|false|DT
+Wide-Beam	others	wide-beam|a|sonar|false|false|false|false|false|false|false|false|false|NNP
+Sonar	others	sonar|wide-beam|map|true|false|false|false|false|false|false|false|false|NNP
+Mapping	others	map|sonar|_end_|true|false|false|false|false|false|false|false|false|NN
+
+System	others	system|_start_|on|true|false|false|false|false|false|false|false|false|NNP
+on	others	on|system|fridai|false|false|false|false|false|false|false|false|false|IN
+Friday	others	fridai|on|the|true|false|false|false|false|false|false|false|true|NNP
+the	others	the|fridai|27th|false|false|false|false|false|false|false|false|true|DT
+27th	others	27th|the|in|false|false|false|false|false|false|false|false|true|JJ
+in	others	in|27th|weh|false|false|false|false|false|false|false|false|false|IN
+WeH	location	weh|in|4623|false|false|false|false|false|false|false|false|false|NN
+4623	location	4623|weh|at|false|false|false|false|false|false|false|false|false|CD
+at	others	at|4623|2:30|false|false|false|false|false|false|false|false|false|IN
+2:30	stime	2:30|at|_end_|false|false|false|false|false|false|false|false|false|CD
+

@@ -1,0 +1,59 @@
+Type	others	type|_start_|cmu|true|false|false|false|false|false|false|false|false|NN
+cmu	others	cmu|type|c|false|false|false|false|false|false|false|false|false|NN
+cs	others	c|cmu|sc|false|false|false|false|false|false|false|false|false|NNS
+scs	others	sc|c|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+Topic	others	topic|_start_|psc\/c|true|false|false|false|false|false|false|false|false|NN
+PSC\/CS	others	psc\/c|topic|seminar|false|false|false|false|false|false|false|false|false|NN
+Seminar	others	seminar|psc\/c|additon|true|false|false|false|false|false|false|false|false|NN
+additonal	others	additon|seminar|speaker|false|false|false|false|false|false|false|false|false|JJ
+speakers	others	speaker|additon|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+Dates	others	date|_start_|9-oct-92|true|false|false|false|false|false|false|false|false|NNS
+9-Oct-92	others	9-oct-92|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|4:00|true|false|false|false|false|false|false|false|false|NNP
+4:00	stime	4:00|time|pm|false|false|false|false|false|false|false|false|false|CD
+PM	stime	pm|4:00|_end_|false|true|false|true|false|false|false|false|false|NN
+
+PostedBy	others	postedbi|_start_|trg|false|false|false|false|true|false|false|false|false|NNP
+trg	others	trg|postedbi|on|false|false|false|false|false|false|false|false|false|NN
+on	others	on|trg|20-sep-92|false|false|false|false|false|false|false|false|false|IN
+20-Sep-92	others	20-sep-92|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|20-sep-92|14:34|false|false|false|false|false|false|false|false|false|IN
+14:34	others	14:34|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|14:34|n3|false|false|false|false|false|false|false|false|false|IN
+N3	others	n3|from|sp.cs.cmu.edu|false|false|false|false|false|false|false|false|false|NN
+SP.CS.CMU.EDU	others	sp.cs.cmu.edu|n3|-lrb-|false|false|false|false|false|false|false|false|false|NN
+-LRB-	others	-lrb-|sp.cs.cmu.edu|thoma|false|false|false|false|false|false|false|false|false|-LRB-
+Thomas	others	thoma|-lrb-|gross|true|false|false|false|false|false|false|false|false|NNP
+Gross	others	gross|thoma|-rrb-|true|false|false|false|false|false|false|false|false|NNP
+-RRB-	others	-rrb-|gross|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+October	others	octob|_start_|9|true|false|false|false|false|false|false|false|true|NNP
+9	others	9|octob|how|false|false|false|false|false|false|false|false|true|CD
+How	others	how|9|effect|true|false|false|false|false|false|false|false|false|WRB
+Effective	others	effect|how|be|true|false|false|false|false|false|false|false|false|JJ
+is	others	be|effect|automat|false|false|false|false|false|false|false|false|false|VBZ
+Automatic	others	automat|be|program|true|false|false|false|false|false|false|false|false|NNP
+Program	others	program|automat|parallel|true|false|false|false|false|false|false|false|false|NNP
+Parallelization	others	parallel|program|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+David	speaker	david|_start_|a.|true|false|false|false|false|true|false|false|false|NNP
+A.	speaker	a.|david|padua|false|false|false|false|false|true|false|false|false|NNP
+Padua	speaker	padua|a.|center|true|false|false|false|false|true|false|false|false|NNP
+Center	others	center|padua|for|true|false|false|false|false|false|false|false|false|NNP
+for	others	for|center|supercomput|false|false|false|false|false|false|false|false|false|IN
+Supercomputing	others	supercomput|for|research|true|false|false|false|false|false|false|false|false|NNP
+Research	others	research|supercomput|and|true|false|false|false|false|false|false|false|false|NNP
+and	others	and|research|develop|false|false|false|false|false|false|false|false|false|CC
+Development	others	develop|and|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+University	others	univers|_start_|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|univers|illinoi|false|false|false|false|false|false|false|false|false|IN
+Illinois	others	illinoi|of|at|true|false|false|false|false|false|false|false|false|NNP
+at	others	at|illinoi|urbana-champaign|false|false|false|false|false|false|false|false|false|IN
+Urbana-Champaign	others	urbana-champaign|at|_end_|false|false|false|false|false|false|false|false|false|NNP
+

@@ -1,0 +1,78 @@
+Type	others	type|_start_|cmu.andrew.org|true|false|false|false|false|false|false|false|false|NN
+cmu.andrew.org	others	cmu.andrew.org|type|epp|false|false|false|false|false|false|false|false|false|NN
+epp	others	epp|cmu.andrew.org|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Topic	others	topic|_start_|10\/7|true|false|false|false|false|false|false|false|false|NN
+10\/7	others	10\/7|topic|ee|false|false|false|false|false|false|false|false|false|CD
+EES	others	ee|10\/7|seminar|false|true|false|true|false|false|false|false|false|NN
+Seminar	others	seminar|ee|_end_|true|false|false|false|false|false|false|false|false|NN
+
+Dates	others	date|_start_|7-oct-94|true|false|false|false|false|false|false|false|false|NNS
+7-Oct-94	others	7-oct-94|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|3:30|true|false|false|false|false|false|false|false|false|NNP
+3:30	stime	3:30|time|pm|false|false|false|false|false|false|false|false|false|CD
+PM	stime	pm|3:30|_end_|false|true|false|true|false|false|false|false|false|NN
+
+PostedBy	others	postedbi|_start_|david|false|false|false|false|true|false|false|false|false|NNP
+David	others	david|postedbi|adam|true|false|false|false|false|true|false|false|false|NNP
+Adam	others	adam|david|dzombak|true|false|false|false|false|true|false|false|false|NNP
+Dzombak	others	dzombak|adam|on|true|false|false|false|false|true|false|false|false|NNP
+on	others	on|dzombak|6-oct-94|false|false|false|false|false|false|false|false|false|IN
+6-Oct-94	others	6-oct-94|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|6-oct-94|09:12|false|false|false|false|false|false|false|false|false|IN
+09:12	others	09:12|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|09:12|andrew.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+andrew.cmu.edu	others	andrew.cmu.edu|from|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+CARNEGIE	others	carnegi|_start_|mellon|false|true|false|true|false|false|false|false|false|NNP
+MELLON	others	mellon|carnegi|univers|false|true|false|true|false|false|false|false|false|NNP
+UNIVERSITY	others	univers|mellon|_end_|false|true|false|true|false|false|false|false|false|NNP
+
+DEPARTMENT	others	depart|_start_|of|false|true|false|true|false|false|false|false|false|NNP
+OF	others	of|depart|civil|false|true|false|true|false|false|false|false|false|IN
+CIVIL	others	civil|of|and|false|true|false|true|false|false|false|false|false|NNP
+AND	others	and|civil|environment|false|true|false|true|false|false|false|false|false|CC
+ENVIRONMENTAL	others	environment|and|engin|false|true|false|true|false|false|false|false|false|JJ
+ENGINEERING	others	engin|environment|_end_|false|true|false|true|false|false|false|false|false|NN
+
+ENVIRONMENTAL	others	environment|_start_|engin|false|true|false|true|false|false|false|false|false|JJ
+ENGINEERING	others	engin|environment|and|false|true|false|true|false|false|false|false|false|NN
+AND	others	and|engin|scienc|false|true|false|true|false|false|false|false|false|CC
+SCIENCE	others	scienc|and|seminar|false|true|false|true|false|false|false|false|false|NN
+SEMINAR	others	seminar|scienc|_end_|false|true|false|true|false|false|false|false|false|NN
+
+Environmental	others	environment|_start_|integr|true|false|false|false|false|false|false|false|false|JJ
+Integrity	others	integr|environment|at|true|false|false|false|false|false|false|false|false|NN
+at	others	at|integr|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|at|st.|false|false|false|false|false|false|false|false|false|DT
+St.	others	st.|the|john|false|false|false|false|false|false|false|false|false|NNP
+Johns	others	john|st.|landfil|true|false|false|false|false|false|false|false|false|NNP
+Landfill	others	landfil|john|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+An	others	a|_start_|interdisciplinari|true|false|false|false|false|false|false|false|false|DT
+Interdisciplinary	others	interdisciplinari|a|studi|true|false|false|false|false|false|false|false|false|NNP
+Study	others	studi|interdisciplinari|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Department	others	depart|_start_|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|depart|environment|false|false|false|false|false|false|false|false|false|IN
+Environmental	others	environment|of|scienc|true|false|false|false|false|false|false|false|false|NNP
+Science	others	scienc|environment|and|true|false|false|false|false|false|false|false|false|NNP
+and	others	and|scienc|engin|false|false|false|false|false|false|false|false|false|CC
+Engineering	others	engin|and|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Oregon	others	oregon|_start_|graduat|true|false|false|false|false|false|false|false|false|NNP
+Graduate	others	graduat|oregon|institut|true|false|false|false|false|false|false|false|false|NNP
+Institute	others	institut|graduat|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|institut|scienc|false|false|false|false|false|false|false|false|false|IN
+Science	others	scienc|of|and|true|false|false|false|false|false|false|false|false|NNP
+and	others	and|scienc|technolog|false|false|false|false|false|false|false|false|false|CC
+Technology	others	technolog|and|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+FRIDAY	others	fridai|_start_|octob|false|true|false|true|false|false|false|false|true|NNP
+OCTOBER	others	octob|fridai|7|false|true|false|true|false|false|false|false|true|NNP
+7	others	7|octob|1994|false|false|false|false|false|false|false|false|true|CD
+1994	others	1994|7|_end_|false|false|false|false|false|false|false|false|true|CD
+

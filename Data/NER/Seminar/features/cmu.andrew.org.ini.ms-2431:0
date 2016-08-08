@@ -1,0 +1,553 @@
+Type	others	type|_start_|cmu.andrew.org|true|false|false|false|false|false|false|false|false|NN
+cmu.andrew.org	others	cmu.andrew.org|type|inu|false|false|false|false|false|false|false|false|false|NN
+ini	others	inu|cmu.andrew.org|m|false|false|false|false|false|false|false|false|false|NNS
+ms	others	m|inu|_end_|false|false|false|false|false|true|false|false|false|NNS
+
+Who	others	who|_start_|mr.|true|false|false|false|false|false|false|false|false|WP
+Mr.	speaker	mr.|who|m.|false|false|false|false|false|true|false|false|false|NNP
+M.	speaker	m.|mr.|irfan|false|false|false|false|false|true|false|false|false|NNP
+Irfan	speaker	irfan|m.|ali|true|false|false|false|false|true|false|false|false|NNP
+Ali	speaker	ali|irfan|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+Assistant	others	assist|_start_|vice|true|false|false|false|false|true|false|false|false|NNP
+Vice	others	vice|assist|presid|true|false|false|false|false|false|false|false|false|NNP
+President	others	presid|vice|product|true|false|false|false|false|false|false|false|false|NNP
+Product	others	product|presid|market|true|false|false|false|false|false|false|false|false|NNP
+Marketing	others	market|product|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Newbridge	others	newbridg|_start_|network|true|false|false|false|false|false|false|false|false|NNP
+Networks	others	network|newbridg|inc.|true|false|false|false|false|false|false|false|false|NNP
+Inc.	others	inc.|network|_end_|false|false|false|false|false|false|false|false|false|NNP
+
+Herndon	others	herndon|_start_|va|true|false|false|false|false|true|false|false|false|NNP
+VA	others	va|herndon|_end_|false|true|false|true|false|false|false|false|false|NNP
+
+Topic	others	topic|_start_|current|true|false|false|false|false|false|false|false|false|NN
+Current	others	current|topic|state|true|false|false|false|false|false|false|false|true|JJ
+State	others	state|current|of|true|false|false|false|false|false|false|false|false|NN
+of	others	of|state|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|of|atm|false|false|false|false|false|false|false|false|false|DT
+ATM	others	atm|the|product|false|true|false|true|false|false|false|false|false|NNP
+Products	others	product|atm|and|true|false|false|false|false|false|false|false|false|NNPS
+and	others	and|product|market|false|false|false|false|false|false|false|false|false|CC
+Market	others	market|and|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Dates	others	date|_start_|9-mar-95|true|false|false|false|false|false|false|false|false|NNS
+9-Mar-95	others	9-mar-95|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|4:00|true|false|false|false|false|false|false|false|false|NNP
+4:00	stime	4:00|time|5:00|false|false|false|false|false|false|true|false|false|CD
+5:00	etime	5:00|4:00|pm|false|false|false|false|false|false|false|true|false|CD
+PM	etime	pm|5:00|_end_|false|true|false|true|false|false|false|false|false|NN
+
+Place	others	place|_start_|scaif|true|false|false|false|false|false|false|false|false|NN
+Scaife	location	scaif|place|hall|true|false|false|false|false|false|false|false|false|NNP
+Hall	location	hall|scaif|auditorium|true|false|false|false|false|false|false|false|false|NNP
+Auditorium	location	auditorium|hall|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+PostedBy	others	postedbi|_start_|john|false|false|false|false|true|false|false|false|false|NNP
+John	others	john|postedbi|grasso|true|false|false|false|false|true|false|false|false|NNP
+Grasso	others	grasso|john|on|true|false|false|false|false|true|false|false|false|NNP
+on	others	on|grasso|28-feb-95|false|false|false|false|false|false|false|false|false|IN
+28-Feb-95	others	28-feb-95|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|28-feb-95|14:52|false|false|false|false|false|false|false|false|false|IN
+14:52	others	14:52|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|14:52|andrew.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+andrew.cmu.edu	others	andrew.cmu.edu|from|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+ELECTRICAL	others	electr|_start_|comput|false|true|false|true|false|false|false|false|false|NNP
+COMPUTER	others	comput|electr|engin|false|true|false|true|false|false|false|false|false|NNP
+ENGINEERING	others	engin|comput|graduat|false|true|false|true|false|false|false|false|false|NNP
+GRADUATE	others	graduat|engin|seminar|false|true|false|true|false|false|false|false|false|NNP
+SEMINAR	others	seminar|graduat|-lrb-|false|true|false|true|false|false|false|false|false|NN
+-LRB-	others	-lrb-|seminar|host|false|false|false|false|false|false|false|false|false|-LRB-
+Host	others	host|-lrb-|prof.|true|false|false|false|false|false|false|false|false|NN
+Prof.	others	prof.|host|h.|false|false|false|false|false|true|false|false|false|NNP
+H.	others	h.|prof.|kim|false|false|false|false|false|true|false|false|false|NNP
+Kim	others	kim|h.|-rrb-|true|false|false|false|false|true|false|false|false|NNP
+-RRB-	others	-rrb-|kim|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+Title	others	titl|_start_|current|true|false|false|false|false|false|false|false|false|NN
+Current	others	current|titl|state|true|false|false|false|false|false|false|false|true|JJ
+State	others	state|current|of|true|false|false|false|false|false|false|false|false|NN
+of	others	of|state|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|of|atm|false|false|false|false|false|false|false|false|false|DT
+ATM	others	atm|the|product|false|true|false|true|false|false|false|false|false|NNP
+Products	others	product|atm|and|true|false|false|false|false|false|false|false|false|NNPS
+and	others	and|product|market|false|false|false|false|false|false|false|false|false|CC
+Market	others	market|and|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Speaker	others	speaker|_start_|mr.|true|false|false|false|false|false|false|false|false|NNP
+Mr.	speaker	mr.|speaker|m.|false|false|false|false|false|true|false|false|false|NNP
+M.	speaker	m.|mr.|irfan|false|false|false|false|false|true|false|false|false|NNP
+Irfan	speaker	irfan|m.|ali|true|false|false|false|false|true|false|false|false|NNP
+Ali	speaker	ali|irfan|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+Assistant	others	assist|_start_|vice|true|false|false|false|false|true|false|false|false|NNP
+Vice	others	vice|assist|presid|true|false|false|false|false|false|false|false|false|NNP
+President	others	presid|vice|product|true|false|false|false|false|false|false|false|false|NNP
+Product	others	product|presid|market|true|false|false|false|false|false|false|false|false|NNP
+Marketing	others	market|product|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Newbridge	others	newbridg|_start_|network|true|false|false|false|false|false|false|false|false|NNP
+Networks	others	network|newbridg|inc.|true|false|false|false|false|false|false|false|false|NNP
+Inc.	others	inc.|network|_end_|false|false|false|false|false|false|false|false|false|NNP
+
+Herndon	others	herndon|_start_|va|true|false|false|false|false|true|false|false|false|NNP
+VA	others	va|herndon|_end_|false|true|false|true|false|false|false|false|false|NNP
+
+Date	others	date|_start_|of|true|false|false|false|false|false|false|false|false|NN
+of	others	of|date|seminar|false|false|false|false|false|false|false|false|false|IN
+Seminar	others	seminar|of|thursdai|true|false|false|false|false|false|false|false|false|NNP
+Thursday	others	thursdai|seminar|march|true|false|false|false|false|false|false|false|true|NNP
+March	others	march|thursdai|9|true|false|false|false|false|false|false|false|true|NNP
+9	others	9|march|1995|false|false|false|false|false|false|false|false|true|CD
+1995	others	1995|9|_end_|false|false|false|false|false|false|false|false|true|CD
+
+Time	others	time|_start_|4:00|true|false|false|false|false|false|false|false|false|NNP
+4:00	stime	4:00|time|5|false|false|false|false|false|false|true|false|false|CD
+5	etime	5|4:00|p.m.|false|false|false|false|false|false|false|true|false|CD
+p.m.	etime	p.m.|5|-lrb-|false|false|false|false|false|false|false|false|false|NN
+-LRB-	others	-lrb-|p.m.|refresh|false|false|false|false|false|false|false|false|false|-LRB-
+refreshments	others	refresh|-lrb-|at|false|false|false|false|false|false|false|false|false|NNS
+at	others	at|refresh|3:45|false|false|false|false|false|false|false|false|false|IN
+3:45	others	3:45|at|p.m.|false|false|false|false|false|false|false|false|false|CD
+p.m.	others	p.m.|3:45|-rrb-|false|false|false|false|false|false|false|false|false|NN
+-RRB-	others	-rrb-|p.m.|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+Place	others	place|_start_|scaif|true|false|false|false|false|false|false|false|false|NN
+Scaife	location	scaif|place|hall|true|false|false|false|false|false|false|false|false|NNP
+Hall	location	hall|scaif|auditorium|true|false|false|false|false|false|false|false|false|NNP
+Auditorium	location	auditorium|hall|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+For	others	for|_start_|addit|true|false|false|false|false|false|false|false|false|IN
+additional	others	addit|for|inform|false|false|false|false|false|false|false|false|false|JJ
+Information	others	inform|addit|contact|true|false|false|false|false|false|false|false|false|NN
+Contact	others	contact|inform|c.|true|false|false|false|false|false|false|false|false|NN
+C.	others	c.|contact|patterson|false|false|false|false|false|true|false|false|false|NNP
+Patterson	others	patterson|c.|x87286|true|false|false|false|false|true|false|false|false|NNP
+x87286	others	x87286|patterson|_end_|false|false|false|false|false|false|false|false|false|CD
+
+Recently	others	recent|_start_|there|true|false|false|false|false|false|false|false|true|RB
+there	others	there|recent|have|false|false|false|false|false|false|false|false|false|EX
+has	others	have|there|be|false|false|false|false|false|false|false|false|false|VBZ
+been	others	be|have|a|false|false|false|false|false|false|false|false|false|VBN
+a	others	a|be|surg|false|false|false|false|false|false|false|false|false|DT
+surge	others	surg|a|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|surg|interest|false|false|false|false|false|false|false|false|false|IN
+interests	others	interest|of|in|false|false|false|false|false|false|false|false|false|NNS
+in	others	in|interest|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|in|area|false|false|false|false|false|false|false|false|false|DT
+area	others	area|the|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|area|_end_|false|false|false|false|false|false|false|false|false|IN
+
+high-speed	others	high-spe|_start_|network|false|false|false|false|false|false|false|false|false|JJ
+networks	others	network|high-spe|inform|false|false|false|false|false|false|false|false|false|NNS
+Information	others	inform|network|superhighwai|true|false|false|false|false|false|false|false|false|NNP
+Superhighway	others	superhighwai|inform|promis|true|false|false|false|false|false|false|false|false|NNP
+promises	others	promis|superhighwai|_end_|false|false|false|false|false|false|false|false|false|VBZ
+
+to	others	to|_start_|provid|false|false|false|false|false|false|false|false|false|TO
+provide	others	provid|to|variou|false|false|false|false|false|false|false|false|false|VB
+various	others	variou|provid|digit|false|false|false|false|false|false|false|false|false|JJ
+digital	others	digit|variou|servic|false|false|false|false|false|false|false|false|false|JJ
+services	others	servic|digit|rang|false|false|false|false|false|false|false|false|false|NNS
+ranging	others	rang|servic|from|false|false|false|false|false|false|false|false|false|VBG
+from	others	from|rang|convent|false|false|false|false|false|false|false|false|false|IN
+conventional	others	convent|from|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+telephone	others	telephon|_start_|to|false|false|false|false|false|false|false|false|false|NN
+to	others	to|telephon|interact|false|false|false|false|false|false|false|false|false|TO
+interactive	others	interact|to|high-definit|false|false|false|false|false|false|false|false|false|JJ
+high-definition	others	high-definit|interact|tv|false|false|false|false|false|false|false|false|false|JJ
+TV	others	tv|high-definit|_end_|false|true|false|true|false|false|false|false|false|NN
+
+Regional	others	region|_start_|telephon|true|false|false|false|false|false|false|false|false|NNP
+telephone	others	telephon|region|compani|false|false|false|false|false|false|false|false|false|NN
+companies	others	compani|telephon|and|false|false|false|false|false|false|false|false|false|NNS
+and	others	and|compani|cabl|false|false|false|false|false|false|false|false|false|CC
+cable	others	cabl|and|compani|false|false|false|false|false|false|false|false|false|NN
+companies	others	compani|cabl|plan|false|false|false|false|false|false|false|false|false|NNS
+plan	others	plan|compani|to|false|false|false|false|false|false|false|false|false|VBP
+to	others	to|plan|_end_|false|false|false|false|false|false|false|false|false|TO
+
+invest	others	invest|_start_|billion|false|false|false|false|false|false|false|false|false|VB
+billions	others	billion|invest|of|false|false|false|false|false|false|false|false|false|NNS
+of	others	of|billion|dollar|false|false|false|false|false|false|false|false|false|IN
+dollars	others	dollar|of|to|false|false|false|false|false|false|false|false|false|NNS
+to	others	to|dollar|provid|false|false|false|false|false|false|false|false|false|TO
+provide	others	provid|to|a|false|false|false|false|false|false|false|false|false|VB
+an	others	a|provid|_end_|false|false|false|false|false|false|false|false|false|DT
+
+infrastructure	others	infrastructur|_start_|for|false|false|false|false|false|false|false|false|false|NN
+for	others	for|infrastructur|high-spe|false|false|false|false|false|false|false|false|false|IN
+high-speed	others	high-spe|for|network|false|false|false|false|false|false|false|false|false|JJ
+networks	others	network|high-spe|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+Multiplexing	others	multiplex|_start_|video|true|false|false|false|false|false|false|false|false|VBG
+video	others	video|multiplex|with|false|false|false|false|false|false|false|false|false|NN
+with	others	with|video|datum|false|false|false|false|false|false|false|false|false|IN
+data	others	datum|with|audio|false|false|false|false|false|false|false|false|false|NNS
+audio	others	audio|datum|voic|false|false|false|false|false|false|false|false|false|NN
+voice	others	voic|audio|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|voic|text|false|false|false|false|false|false|false|false|false|CC
+text	others	text|and|for|false|false|false|false|false|false|false|false|false|NN
+for	others	for|text|exampl|false|false|false|false|false|false|false|false|false|IN
+example	others	exampl|for|_end_|false|false|false|false|false|false|false|false|false|NN
+
+represents	others	repres|_start_|a|false|false|false|false|false|false|false|false|false|VBZ
+a	others	a|repres|dispar|false|false|false|false|false|false|false|false|false|DT
+disparity	others	dispar|a|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|dispar|datum|false|false|false|false|false|false|false|false|false|IN
+data	others	datum|of|rate|false|false|false|false|false|false|false|false|false|NNS
+rates	others	rate|datum|and|false|false|false|false|false|false|false|false|false|NNS
+and	others	and|rate|qualiti|false|false|false|false|false|false|false|false|false|CC
+qualities	others	qualiti|and|that|false|false|false|false|false|false|false|false|false|NNS
+that	others	that|qualiti|pose|false|false|false|false|false|false|false|false|false|WDT
+poses	others	pose|that|_end_|false|false|false|false|false|false|false|false|false|VBZ
+
+new	others	new|_start_|challeng|false|false|false|false|false|false|false|false|false|JJ
+challenges	others	challeng|new|when|false|false|false|false|false|false|false|false|false|NNS
+when	others	when|challeng|creat|false|false|false|false|false|false|false|false|false|WRB
+creating	others	creat|when|a|false|false|false|false|false|false|false|false|false|VBG
+a	others	a|creat|technolog|false|false|false|false|false|false|false|false|false|DT
+technology	others	technolog|a|that|false|false|false|false|false|false|false|false|false|NN
+that	others	that|technolog|be|false|false|false|false|false|false|false|false|false|WDT
+is	others	be|that|faster|false|false|false|false|false|false|false|false|false|VBZ
+faster	others	faster|be|less|false|false|false|false|false|false|false|false|false|RBR
+less	others	less|faster|_end_|false|false|false|false|false|false|false|false|false|JJR
+
+expensive	others	expens|_start_|and|false|false|false|false|false|false|false|false|false|JJ
+and	others	and|expens|more|false|false|false|false|false|false|false|false|false|CC
+more	others	more|and|flexibl|false|false|false|false|false|false|false|false|false|RBR
+flexible	others	flexibl|more|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+Asynchronous	others	asynchron|_start_|transfer|true|false|false|false|false|false|false|false|false|NNP
+Transfer	others	transfer|asynchron|mode|true|false|false|false|false|false|false|false|false|NN
+Mode	others	mode|transfer|-lrb-|true|false|false|false|false|false|false|false|false|NNP
+-LRB-	others	-lrb-|mode|atm|false|false|false|false|false|false|false|false|false|-LRB-
+ATM	others	atm|-lrb-|-rrb-|false|true|false|true|false|false|false|false|false|NNP
+-RRB-	others	-rrb-|atm|be|false|false|false|false|false|false|false|false|false|-RRB-
+is	others	be|-rrb-|the|false|false|false|false|false|false|false|false|false|VBZ
+the	others	the|be|internation|false|false|false|false|false|false|false|false|false|DT
+internationally	others	internation|the|standard|false|false|false|false|false|false|false|false|false|RB
+standardized	others	standard|internation|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+transport	others	transport|_start_|techniqu|false|false|false|false|false|false|false|false|false|NN
+technique	others	techniqu|transport|for|false|false|false|false|false|false|false|false|false|NN
+for	others	for|techniqu|such|false|false|false|false|false|false|false|false|false|IN
+such	others	such|for|high-spe|false|false|false|false|false|false|false|false|false|JJ
+high-speed	others	high-spe|such|multimedia|false|false|false|false|false|false|false|false|false|JJ
+multimedia	others	multimedia|high-spe|network|false|false|false|false|false|false|false|false|false|NNS
+networks	others	network|multimedia|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+ATM	others	atm|_start_|be|false|true|false|true|false|false|false|false|false|NNP
+is	others	be|atm|a|false|false|false|false|false|false|false|false|false|VBZ
+a	others	a|be|promis|false|false|false|false|false|false|false|false|false|DT
+promising	others	promis|a|techniqu|false|false|false|false|false|false|false|false|false|JJ
+technique	others	techniqu|promis|for|false|false|false|false|false|false|false|false|false|NN
+for	others	for|techniqu|implement|false|false|false|false|false|false|false|false|false|IN
+implementing	others	implement|for|a|false|false|false|false|false|false|false|false|false|VBG
+an	others	a|implement|integr|false|false|false|false|false|false|false|false|false|DT
+integrated	others	integr|a|access|false|false|false|false|false|false|false|false|false|JJ
+access	others	access|integr|_end_|false|false|false|false|false|false|false|false|false|NN
+
+and	others	and|_start_|transport|false|false|false|false|false|false|false|false|false|CC
+transport	others	transport|and|network|false|false|false|false|false|false|false|false|false|NN
+network	others	network|transport|that|false|false|false|false|false|false|false|false|false|NN
+that	others	that|network|can|false|false|false|false|false|false|false|false|false|WDT
+can	others	can|that|easili|false|false|false|false|false|false|false|false|false|MD
+easily	others	easili|can|be|false|false|false|false|false|false|false|false|false|RB
+be	others	be|easili|share|false|false|false|false|false|false|false|false|false|VB
+shared	others	share|be|by|false|false|false|false|false|false|false|false|false|VBN
+by	others	by|share|end-us|false|false|false|false|false|false|false|false|false|IN
+end-users	others	end-us|by|hold|false|false|false|false|false|false|false|false|false|NNS
+holding	others	hold|end-us|_end_|false|false|false|false|false|false|false|false|false|VBG
+
+multimedia	others	multimedia|_start_|servic|false|false|false|false|false|false|false|false|false|NNS
+service	others	servic|multimedia|call|false|false|false|false|false|false|false|false|false|NN
+calls	others	call|servic|_end_|false|false|false|false|false|false|false|false|false|VBZ
+
+My	others	my|_start_|present|true|false|false|false|false|false|false|false|false|PRP$
+presentation	others	present|my|will|false|false|false|false|false|false|false|false|false|NN
+will	others	will|present|primarili|false|false|false|false|false|false|false|false|false|MD
+primarily	others	primarili|will|be|false|false|false|false|false|false|false|false|false|RB
+be	others	be|primarili|on|false|false|false|false|false|false|false|false|false|VB
+on	others	on|be|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|on|current|false|false|false|false|false|false|false|false|false|DT
+current	others	current|the|state|false|false|false|false|false|false|false|false|true|JJ
+state	others	state|current|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|state|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|of|_end_|false|false|false|false|false|false|false|false|false|DT
+
+ATM	others	atm|_start_|technolog|false|true|false|true|false|false|false|false|false|NNP
+technology	others	technolog|atm|product|false|false|false|false|false|false|false|false|false|NN
+products	others	product|technolog|and|false|false|false|false|false|false|false|false|false|NNS
+and	others	and|product|market|false|false|false|false|false|false|false|false|false|CC
+market	others	market|and|it|false|false|false|false|false|false|false|false|false|NN
+It	others	it|market|will|true|false|false|false|false|false|false|false|false|PRP
+will	others	will|it|includ|false|false|false|false|false|false|false|false|false|MD
+include	others	includ|will|a|false|false|false|false|false|false|false|false|false|VB
+a	others	a|includ|_end_|false|false|false|false|false|false|false|false|false|DT
+
+discussion	others	discuss|_start_|on|false|false|false|false|false|false|false|false|false|NN
+on	others	on|discuss|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|on|emerg|false|false|false|false|false|false|false|false|false|DT
+emerging	others	emerg|the|network|false|false|false|false|false|false|false|false|false|VBG
+network	others	network|emerg|architectur|false|false|false|false|false|false|false|false|false|NN
+architectures	others	architectur|network|in|false|false|false|false|false|false|false|false|false|NNS
+in	others	in|architectur|broadband\/atm|false|false|false|false|false|false|false|false|false|IN
+Broadband\/ATM	others	broadband\/atm|in|_end_|false|false|false|false|false|false|false|false|false|NN
+
+networking	others	network|_start_|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|network|some|false|false|false|false|false|false|false|false|false|CC
+some	others	some|and|of|false|false|false|false|false|false|false|false|false|DT
+of	others	of|some|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|of|earli|false|false|false|false|false|false|false|false|false|DT
+early	others	earli|the|applic|false|false|false|false|false|false|false|false|false|JJ
+applications	others	applic|earli|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+Additionally	others	addition|_start_|the|true|false|false|false|false|false|false|false|false|RB
+the	others	the|addition|present|false|false|false|false|false|false|false|false|false|DT
+presentation	others	present|the|will|false|false|false|false|false|false|false|false|false|NN
+will	others	will|present|focu|false|false|false|false|false|false|false|false|false|MD
+focus	others	focu|will|on|false|false|false|false|false|false|false|false|false|VB
+on	others	on|focu|some|false|false|false|false|false|false|false|false|false|IN
+some	others	some|on|of|false|false|false|false|false|false|false|false|false|DT
+of	others	of|some|_end_|false|false|false|false|false|false|false|false|false|IN
+
+the	others	the|_start_|kei|false|false|false|false|false|false|false|false|false|DT
+key	others	kei|the|issu|false|false|false|false|false|false|false|false|false|JJ
+issues	others	issu|kei|relat|false|false|false|false|false|false|false|false|false|NNS
+related	others	relat|issu|to|false|false|false|false|false|false|false|false|false|VBN
+to	others	to|relat|interwork|false|false|false|false|false|false|false|false|false|TO
+interworking	others	interwork|to|between|false|false|false|false|false|false|false|false|false|VBG
+between	others	between|interwork|atm|false|false|false|false|false|false|false|false|false|IN
+ATM	others	atm|between|and|false|true|false|true|false|false|false|false|false|NNP
+and	others	and|atm|other|false|false|false|false|false|false|false|false|false|CC
+other	others	other|and|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+technologies	others	technolog|_start_|and|false|false|false|false|false|false|false|false|false|NNS
+and	others	and|technolog|the|false|false|false|false|false|false|false|false|false|CC
+the	others	the|and|driver|false|false|false|false|false|false|false|false|false|DT
+drivers	others	driver|the|behind|false|false|false|false|false|false|false|false|false|NNS
+behind	others	behind|driver|atm|false|false|false|false|false|false|false|false|false|IN
+ATM	others	atm|behind|adoption\/deploy|false|true|false|true|false|false|false|false|false|NNP
+adoption\/deployment	others	adoption\/deploy|atm|_end_|false|false|false|false|false|false|false|false|false|NN
+
+BIOGRAPHY	others	biographi|_start_|_end_|false|true|false|true|false|false|false|false|false|NN
+
+AVP	others	avp|_start_|product|false|true|false|true|false|false|false|false|false|NN
+Product	others	product|avp|market|true|false|false|false|false|false|false|false|false|NNP
+Marketing	others	market|product|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Newbridge	others	newbridg|_start_|network|true|false|false|false|false|false|false|false|false|NNP
+Networks	others	network|newbridg|inc.|true|false|false|false|false|false|false|false|false|NNP
+Inc.	others	inc.|network|_end_|false|false|false|false|false|false|false|false|false|NNP
+
+Irfan	speaker	irfan|_start_|ali|true|false|false|false|false|true|false|false|false|NNP
+Ali	speaker	ali|irfan|join|true|false|false|false|false|true|false|false|false|NNP
+joined	others	join|ali|newbridg|false|false|false|false|false|false|false|false|false|VBD
+Newbridge	others	newbridg|join|in|true|false|false|false|false|false|false|false|false|NNP
+in	others	in|newbridg|juli|false|false|false|false|false|false|false|false|false|IN
+July	others	juli|in|1993|true|false|false|false|false|false|false|false|true|NNP
+1993	others	1993|juli|_end_|false|false|false|false|false|false|false|false|true|CD
+
+as	others	as|_start_|avp|false|false|false|false|false|false|false|false|false|IN
+AVP	others	avp|as|product|false|true|false|true|false|false|false|false|false|NN
+Product	others	product|avp|market|true|false|false|false|false|false|false|false|false|NNP
+Marketing	others	market|product|where|true|false|false|false|false|false|false|false|false|NNP
+where	others	where|market|he|false|false|false|false|false|false|false|false|false|WRB
+he	others	he|where|be|false|false|false|false|false|false|false|false|false|PRP
+is	others	be|he|focu|false|false|false|false|false|false|false|false|false|VBZ
+focusing	others	focu|be|on|false|false|false|false|false|false|false|false|false|VBG
+on	others	on|focu|all|false|false|false|false|false|false|false|false|false|IN
+all	others	all|on|_end_|false|false|false|false|false|false|false|false|false|DT
+
+ATM	others	atm|_start_|applic|false|true|false|true|false|false|false|false|false|NNP
+applications	others	applic|atm|to|false|false|false|false|false|false|false|false|false|NNS
+to	others	to|applic|ensur|false|false|false|false|false|false|false|false|false|TO
+ensure	others	ensur|to|that|false|false|false|false|false|false|false|false|false|VB
+that	others	that|ensur|newbridg|false|false|false|false|false|false|false|false|false|IN
+Newbridge	others	newbridg|that|'s|true|false|false|false|false|false|false|false|false|NNP
+'s	others	's|newbridg|plan|false|false|false|false|false|false|false|false|false|POS
+plans	others	plan|'s|for|false|false|false|false|false|false|false|false|false|NNS
+for	others	for|plan|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|for|_end_|false|false|false|false|false|false|false|false|false|DT
+
+local	others	local|_start_|and|false|false|false|false|false|false|false|false|false|JJ
+and	others	and|local|wide|false|false|false|false|false|false|false|false|false|CC
+wide	others	wide|and|area|false|false|false|false|false|false|false|false|false|JJ
+area	others	area|wide|network|false|false|false|false|false|false|false|false|false|NN
+network	others	network|area|market|false|false|false|false|false|false|false|false|false|NN
+markets	others	market|network|mesh|false|false|false|false|false|false|false|false|false|NNS
+mesh	others	mesh|market|_end_|false|false|false|false|false|false|false|false|false|VBP
+
+Irfan	others	irfan|_start_|have|true|false|false|false|false|true|false|false|false|NNP
+has	others	have|irfan|also|false|false|false|false|false|false|false|false|false|VBZ
+also	others	also|have|be|false|false|false|false|false|false|false|false|false|RB
+been	others	be|also|a|false|false|false|false|false|false|false|false|false|VBN
+an	others	a|be|activ|false|false|false|false|false|false|false|false|false|DT
+active	others	activ|a|member|false|false|false|false|false|false|false|false|false|JJ
+member	others	member|activ|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|member|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|of|atm|false|false|false|false|false|false|false|false|false|DT
+ATM	others	atm|the|forum|false|true|false|true|false|false|false|false|false|NNP
+Forum	others	forum|atm|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+As	others	as|_start_|a|true|false|false|false|false|false|false|false|false|IN
+a	others	a|as|found|false|false|false|false|false|false|false|false|false|DT
+founding	others	found|a|member|false|false|false|false|false|false|false|false|false|VBG
+member	others	member|found|he|false|false|false|false|false|false|false|false|false|NN
+he	others	he|member|hold|false|false|false|false|false|false|false|false|false|PRP
+held	others	hold|he|the|false|false|false|false|false|false|false|false|false|VBD
+the	others	the|hold|posit|false|false|false|false|false|false|false|false|false|DT
+position	others	posit|the|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|posit|vice-presid|false|false|false|false|false|false|false|false|false|IN
+Vice-President	others	vice-presid|of|_end_|false|false|false|false|false|false|false|false|false|NNP
+
+Marketing	others	market|_start_|financ|true|false|false|false|false|false|false|false|false|NNP
+Finance	others	financ|market|on|true|false|false|false|false|false|false|false|false|NNP
+on	others	on|financ|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|on|board|false|false|false|false|false|false|false|false|false|DT
+Board	others	board|the|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|board|director|false|false|false|false|false|false|false|false|false|IN
+Directors	others	director|of|of|true|false|false|false|false|false|false|false|false|NNS
+of	others	of|director|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|of|forum|false|false|false|false|false|false|false|false|false|DT
+Forum	others	forum|the|from|true|false|false|false|false|false|false|false|false|NNP
+from	others	from|forum|1991-1994|false|false|false|false|false|false|false|false|false|IN
+1991-1994	others	1991-1994|from|_end_|false|false|false|false|false|false|false|false|true|CD
+
+Irfan	others	irfan|_start_|come|true|false|false|false|false|true|false|false|false|NN
+came	others	come|irfan|to|false|false|false|false|false|false|false|false|false|VBD
+to	others	to|come|newbridg|false|false|false|false|false|false|false|false|false|TO
+Newbridge	others	newbridg|to|from|true|false|false|false|false|false|false|false|false|NNP
+from	others	from|newbridg|northern|false|false|false|false|false|false|false|false|false|IN
+Northern	others	northern|from|telecom|true|false|false|false|false|false|false|false|false|NNP
+Telecom	others	telecom|northern|inc.|true|false|false|false|false|false|false|false|false|NNP
+Inc.	others	inc.|telecom|nashvil|false|false|false|false|false|false|false|false|false|NNP
+Nashville	others	nashvil|inc.|tn|true|false|false|false|false|false|false|false|false|NNP
+TN	others	tn|nashvil|where|false|true|false|true|false|false|false|false|false|NN
+where	others	where|tn|_end_|false|false|false|false|false|false|false|false|false|WRB
+
+he	others	he|_start_|most|false|false|false|false|false|false|false|false|false|PRP
+most	others	most|he|recent|false|false|false|false|false|false|false|false|false|RBS
+recently	others	recent|most|overse|false|false|false|false|false|false|false|false|true|RB
+oversaw	others	overse|recent|market|false|false|false|false|false|false|false|false|false|VBD
+market	others	market|overse|develop|false|false|false|false|false|false|false|false|false|NN
+development	others	develop|market|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|develop|strateg|false|false|false|false|false|false|false|false|false|IN
+strategic	others	strateg|of|technolog|false|false|false|false|false|false|false|false|false|JJ
+technologies	others	technolog|strateg|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+focusing	others	focu|_start_|on|false|false|false|false|false|false|false|false|false|VBG
+on	others	on|focu|broadband|false|false|false|false|false|false|false|false|false|IN
+broadband	others	broadband|on|network|false|false|false|false|false|false|false|false|false|NN
+networking	others	network|broadband|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|network|wireless|false|false|false|false|false|false|false|false|false|CC
+wireless	others	wireless|and|commun|false|false|false|false|false|false|false|false|false|JJ
+communications	others	commun|wireless|prior|false|false|false|false|false|false|false|false|false|NNS
+Prior	others	prior|commun|to|true|false|false|false|false|false|false|false|false|RB
+to	others	to|prior|that|false|false|false|false|false|false|false|false|false|TO
+that	others	that|to|_end_|false|false|false|false|false|false|false|false|false|DT
+
+position	others	posit|_start_|irfan|false|false|false|false|false|false|false|false|false|NN
+Irfan	others	irfan|posit|be|true|false|false|false|false|true|false|false|false|NNP
+was	others	be|irfan|a|false|false|false|false|false|false|false|false|false|VBD
+a	others	a|be|senior|false|false|false|false|false|false|false|false|false|DT
+Senior	others	senior|a|member|true|false|false|false|false|false|false|false|false|JJ
+Member	others	member|senior|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|member|scientif|false|false|false|false|false|false|false|false|false|IN
+Scientific	others	scientif|of|staff|true|false|false|false|false|false|false|false|false|NNP
+Staff	others	staff|scientif|at|true|false|false|false|false|false|false|false|false|NNP
+at	others	at|staff|bell-northern|false|false|false|false|false|false|false|false|false|IN
+Bell-Northern	others	bell-northern|at|_end_|false|false|false|false|false|false|false|false|false|NNP
+
+Research	others	research|_start_|inc.|true|false|false|false|false|false|false|false|false|NNP
+Inc.	others	inc.|research|-lrb-|false|false|false|false|false|false|false|false|false|NNP
+-LRB-	others	-lrb-|inc.|bnr|false|false|false|false|false|false|false|false|false|-LRB-
+BNR	others	bnr|-lrb-|-rrb-|false|true|false|true|false|false|false|false|false|NNP
+-RRB-	others	-rrb-|bnr|in|false|false|false|false|false|false|false|false|false|-RRB-
+in	others	in|-rrb-|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|in|area|false|false|false|false|false|false|false|false|false|DT
+area	others	area|the|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|area|strateg|false|false|false|false|false|false|false|false|false|IN
+Strategic	others	strateg|of|design|true|false|false|false|false|false|false|false|false|NNP
+Design	others	design|strateg|and|true|false|false|false|false|false|false|false|false|NNP
+and	others	and|design|product|false|false|false|false|false|false|false|false|false|CC
+Product	others	product|and|evolut|true|false|false|false|false|false|false|false|false|NNP
+Evolution	others	evolut|product|_end_|true|false|false|false|false|false|false|false|false|NN
+
+Irfan	others	irfan|_start_|'s|true|false|false|false|false|true|false|false|false|NNP
+'s	others	's|irfan|special|false|false|false|false|false|false|false|false|false|POS
+specialization	others	special|'s|be|false|false|false|false|false|false|false|false|false|NN
+is	others	be|special|in|false|false|false|false|false|false|false|false|false|VBZ
+in	others	in|be|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|in|field|false|false|false|false|false|false|false|false|false|DT
+field	others	field|the|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|field|high|false|false|false|false|false|false|false|false|false|IN
+high	others	high|of|speed|false|false|false|false|false|false|false|false|false|JJ
+speed	others	speed|high|network|false|false|false|false|false|false|false|false|false|NN
+networking	others	network|speed|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|network|as|false|false|false|false|false|false|false|false|false|CC
+as	others	as|and|a|false|false|false|false|false|false|false|false|false|IN
+a	others	a|as|_end_|false|false|false|false|false|false|false|false|false|DT
+
+part	others	part|_start_|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|part|bnr|false|false|false|false|false|false|false|false|false|IN
+BNR	others	bnr|of|he|false|true|false|true|false|false|false|false|false|NNP
+he	others	he|bnr|be|false|false|false|false|false|false|false|false|false|PRP
+was	others	be|he|activ|false|false|false|false|false|false|false|false|false|VBD
+active	others	activ|be|in|false|false|false|false|false|false|false|false|false|JJ
+in	others	in|activ|product|false|false|false|false|false|false|false|false|false|IN
+product	others	product|in|develop|false|false|false|false|false|false|false|false|false|NN
+development	others	develop|product|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|develop|network|false|false|false|false|false|false|false|false|false|CC
+network	others	network|and|design|false|false|false|false|false|false|false|false|false|NN
+design	others	design|network|relat|false|false|false|false|false|false|false|false|false|NN
+related	others	relat|design|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+to	others	to|_start_|new\/emerg|false|false|false|false|false|false|false|false|false|TO
+new\/emerging	others	new\/emerg|to|technolog|false|false|false|false|false|false|false|false|false|VBG
+technologies	others	technolog|new\/emerg|thi|false|false|false|false|false|false|false|false|false|NNS
+This	others	thi|technolog|includ|true|false|false|false|false|false|false|false|false|DT
+included	others	includ|thi|frame|false|false|false|false|false|false|false|false|false|VBD
+Frame	others	frame|includ|relai|true|false|false|false|false|false|false|false|false|NNP
+Relay	others	relai|frame|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Wideband	others	wideband|_start_|switch|true|false|false|false|false|false|false|false|false|NNP
+Switching	others	switch|wideband|asynchron|true|false|false|false|false|false|false|false|false|NN
+Asynchronous	others	asynchron|switch|transfer|true|false|false|false|false|false|false|false|false|JJ
+Transfer	others	transfer|asynchron|mode|true|false|false|false|false|false|false|false|false|NN
+Mode	others	mode|transfer|-lrb-|true|false|false|false|false|false|false|false|false|NNP
+-LRB-	others	-lrb-|mode|atm|false|false|false|false|false|false|false|false|false|-LRB-
+ATM	others	atm|-lrb-|-rrb-|false|true|false|true|false|false|false|false|false|NNP
+-RRB-	others	-rrb-|atm|and|false|false|false|false|false|false|false|false|false|-RRB-
+and	others	and|-rrb-|sonet|false|false|false|false|false|false|false|false|false|CC
+SONET	others	sonet|and|_end_|false|true|false|true|false|false|false|false|false|NNP
+
+Irfan	others	irfan|_start_|hold|true|false|false|false|false|true|false|false|false|NN
+holds	others	hold|irfan|a|false|false|false|false|false|false|false|false|false|VBZ
+a	others	a|hold|master|false|false|false|false|false|false|false|false|false|DT
+Masters	others	master|a|in|true|false|false|false|false|false|false|false|false|NN
+in	others	in|master|electr|false|false|false|false|false|false|false|false|false|IN
+Electrical	others	electr|in|engin|true|false|false|false|false|false|false|false|false|JJ
+Engineering	others	engin|electr|and|true|false|false|false|false|false|false|false|false|NNP
+and	others	and|engin|a|false|false|false|false|false|false|false|false|false|CC
+a	others	a|and|master|false|false|false|false|false|false|false|false|false|DT
+Masters	others	master|a|in|true|false|false|false|false|false|false|false|false|NN
+in	others	in|master|busi|false|false|false|false|false|false|false|false|false|IN
+Business	others	busi|in|_end_|true|false|false|false|false|false|false|false|false|NN
+
+Administration	others	administr|_start_|from|true|false|false|false|false|false|false|false|false|NN
+from	others	from|administr|southern|false|false|false|false|false|false|false|false|false|IN
+Southern	others	southern|from|methodist|true|false|false|false|false|false|false|false|false|NNP
+Methodist	others	methodist|southern|univers|true|false|false|false|false|false|false|false|false|NNP
+University	others	univers|methodist|-lrb-|true|false|false|false|false|false|false|false|false|NNP
+-LRB-	others	-lrb-|univers|smu|false|false|false|false|false|false|false|false|false|-LRB-
+SMU	others	smu|-lrb-|-rrb-|false|true|false|true|false|false|false|false|false|NNP
+-RRB-	others	-rrb-|smu|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+

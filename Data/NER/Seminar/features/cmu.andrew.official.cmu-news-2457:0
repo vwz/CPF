@@ -1,0 +1,148 @@
+Type	others	type|_start_|cmu.andrew.official.cmu-new|true|false|false|false|false|false|false|false|false|NN
+cmu.andrew.official.cmu-news	others	cmu.andrew.official.cmu-new|type|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+Topic	others	topic|_start_|cil|true|false|false|false|false|false|false|false|false|NN
+CIL	others	cil|topic|educ|false|true|false|true|false|false|false|false|false|NNP
+Education	others	educ|cil|seminar|true|false|false|false|false|false|false|false|false|NNP
+Seminar	others	seminar|educ|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Dates	others	date|_start_|17-feb-9|true|false|false|false|false|false|false|false|false|NNS
+17-Feb-9	others	17-feb-9|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|12:00|true|false|false|false|false|false|false|false|false|NNP
+12:00	stime	12:00|time|pm|false|false|false|false|false|false|false|false|false|CD
+PM	stime	pm|12:00|1:00|false|true|false|true|false|false|true|false|false|NN
+1:00	etime	1:00|pm|pm|false|false|false|false|false|false|false|true|false|CD
+PM	etime	pm|1:00|_end_|false|true|false|true|false|false|false|false|false|NN
+
+PostedBy	others	postedbi|_start_|edmund|false|false|false|false|true|false|false|false|false|NNP
+Edmund	others	edmund|postedbi|j.|true|false|false|false|false|true|false|false|false|NNP
+J.	others	j.|edmund|delanei|false|false|false|false|false|true|false|false|false|NNP
+Delaney	others	delanei|j.|on|true|false|false|false|false|true|false|false|false|NNP
+on	others	on|delanei|11-feb-95|false|false|false|false|false|false|false|false|false|IN
+11-Feb-95	others	11-feb-95|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|11-feb-95|15:21|false|false|false|false|false|false|false|false|false|IN
+15:21	others	15:21|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|15:21|andrew.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+andrew.cmu.edu	others	andrew.cmu.edu|from|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+CENTER	others	center|_start_|for|false|true|false|true|false|false|false|false|false|NN
+FOR	others	for|center|innov|false|true|false|true|false|false|false|false|false|IN
+INNOVATION	others	innov|for|in|false|true|false|true|false|false|false|false|false|NNP
+IN	others	in|innov|learn|false|true|false|true|false|false|false|false|false|IN
+LEARNING	others	learn|in|-lrb-|false|true|false|true|false|false|false|false|false|NNP
+-LRB-	others	-lrb-|learn|cil|false|false|false|false|false|false|false|false|false|-LRB-
+CIL	others	cil|-lrb-|-rrb-|false|true|false|true|false|false|false|false|false|NNP
+-RRB-	others	-rrb-|cil|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+EDUCATION	others	educ|_start_|seminar|false|true|false|true|false|false|false|false|false|NN
+SEMINAR	others	seminar|educ|seri|false|true|false|true|false|false|false|false|false|NN
+SERIES	others	seri|seminar|_end_|false|true|false|true|false|false|false|false|false|NN
+
+Using	others	us|_start_|a|true|false|false|false|false|false|false|false|false|VBG
+a	others	a|us|cognit|false|false|false|false|false|false|false|false|false|DT
+Cognitive	others	cognit|a|architectur|true|false|false|false|false|false|false|false|false|JJ
+Architecture	others	architectur|cognit|to|true|false|false|false|false|false|false|false|false|NNP
+to	others	to|architectur|design|false|false|false|false|false|false|false|false|false|TO
+Design	others	design|to|instruct|true|false|false|false|false|false|false|false|false|NNP
+Instructions	others	instruct|design|_end_|true|false|false|false|false|false|false|false|false|NNPS
+
+Center	others	center|_start_|for|true|false|false|false|false|false|false|false|false|NNP
+for	others	for|center|innov|false|false|false|false|false|false|false|false|false|IN
+Innovation	others	innov|for|in|true|false|false|false|false|false|false|false|false|NNP
+in	others	in|innov|learn|false|false|false|false|false|false|false|false|false|IN
+Learning	others	learn|in|cmu|true|false|false|false|false|false|false|false|false|NNP
+CMU	others	cmu|learn|_end_|false|true|false|true|false|false|false|false|false|NNP
+
+Friday	others	fridai|_start_|februari|true|false|false|false|false|false|false|false|true|NNP
+February	others	februari|fridai|17|true|false|false|false|false|false|false|false|true|NNP
+17	others	17|februari|_end_|false|false|false|false|false|false|false|false|true|CD
+
+Student	location	student|_start_|center|true|false|false|false|false|false|false|false|false|NNP
+Center	location	center|student|room|true|false|false|false|false|false|false|false|false|NNP
+Room	location	room|center|207|true|false|false|false|false|false|false|false|false|NNP
+207	location	207|room|-lrb-|false|false|false|false|false|false|false|false|false|CD
+-LRB-	others	-lrb-|207|cmu|false|false|false|false|false|false|false|false|false|-LRB-
+CMU	others	cmu|-lrb-|-rrb-|false|true|false|true|false|false|false|false|false|NN
+-RRB-	others	-rrb-|cmu|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+ABSTRACT	others	abstract|_start_|in|false|true|false|true|false|false|false|false|false|NN
+In	others	in|abstract|my|true|false|false|false|false|false|false|false|false|IN
+my	others	my|in|talk|false|false|false|false|false|false|false|false|false|PRP$
+talk	others	talk|my|i|false|false|false|false|false|false|false|false|false|NN
+I	others	i|talk|will|false|false|true|true|false|false|false|false|false|PRP
+will	others	will|i|describ|false|false|false|false|false|false|false|false|false|MD
+describe	others	describ|will|how|false|false|false|false|false|false|false|false|false|VB
+how	others	how|describ|a|false|false|false|false|false|false|false|false|false|WRB
+a	others	a|how|cognit|false|false|false|false|false|false|false|false|false|DT
+cognitive	others	cognit|a|model|false|false|false|false|false|false|false|false|false|JJ
+model	others	model|cognit|be|false|false|false|false|false|false|false|false|false|NN
+was	others	be|model|us|false|false|false|false|false|false|false|false|false|VBD
+used	others	us|be|_end_|false|false|false|false|false|false|false|false|false|VBN
+
+as	others	as|_start_|a|false|false|false|false|false|false|false|false|false|IN
+a	others	a|as|simul|false|false|false|false|false|false|false|false|false|DT
+simulated	others	simul|a|student|false|false|false|false|false|false|false|false|false|JJ
+student	others	student|simul|to|false|false|false|false|false|false|false|false|false|NN
+to	others	to|student|help|false|false|false|false|false|false|false|false|false|TO
+help	others	help|to|design|false|false|false|false|false|false|false|false|false|VB
+design	others	design|help|instruct|false|false|false|false|false|false|false|false|false|NN
+instructions	others	instruct|design|for|false|false|false|false|false|false|false|false|false|NNS
+for	others	for|instruct|train|false|false|false|false|false|false|false|false|false|IN
+training	others	train|for|_end_|false|false|false|false|false|false|false|false|false|NN
+
+circuit	others	circuit|_start_|board|false|false|false|false|false|false|false|false|false|NN
+board	others	board|circuit|assembl|false|false|false|false|false|false|false|false|false|NN
+assemblers	others	assembl|board|the|false|false|false|false|false|false|false|false|false|NNS
+The	others	the|assembl|model|true|false|false|false|false|false|false|false|false|DT
+model	others	model|the|be|false|false|false|false|false|false|false|false|false|NN
+was	others	be|model|build|false|false|false|false|false|false|false|false|false|VBD
+built	others	build|be|in|false|false|false|false|false|false|false|false|false|VBN
+in	others	in|build|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|in|soar|false|false|false|false|false|false|false|false|false|DT
+Soar	others	soar|the|cognit|true|false|false|false|false|false|false|false|false|NNP
+cognitive	others	cognit|soar|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+architecture	others	architectur|_start_|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|architectur|be|false|false|false|false|false|false|false|false|false|CC
+was	others	be|and|initi|false|false|false|false|false|false|false|false|false|VBD
+initially	others	initi|be|endow|false|false|false|false|false|false|false|false|false|RB
+endowed	others	endow|initi|with|false|false|false|false|false|false|false|false|false|JJ
+with	others	with|endow|onli|false|false|false|false|false|false|false|false|false|IN
+only	others	onli|with|minim|false|false|false|false|false|false|false|false|false|RB
+minimal	others	minim|onli|prerequisit|false|false|false|false|false|false|false|false|false|JJ
+prerequisite	others	prerequisit|minim|_end_|false|false|false|false|false|false|false|false|false|NN
+
+knowledge	others	knowledg|_start_|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|knowledg|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|of|task|false|false|false|false|false|false|false|false|false|DT
+task	others	task|the|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|task|a|false|false|false|false|false|false|false|false|false|CC
+an	others	a|and|abil|false|false|false|false|false|false|false|false|false|DT
+ability	others	abil|a|to|false|false|false|false|false|false|false|false|false|NN
+to	others	to|abil|learn|false|false|false|false|false|false|false|false|false|TO
+learn	others	learn|to|instruct|false|false|false|false|false|false|false|false|false|VB
+instructions	others	instruct|learn|lesson|false|false|false|false|false|false|false|false|false|NNS
+Lessons	others	lesson|instruct|_end_|true|false|false|false|false|false|false|false|false|NNS
+
+for	others	for|_start_|teach|false|false|false|false|false|false|false|false|false|IN
+teaching	others	teach|for|expert|false|false|false|false|false|false|false|false|false|NN
+expert	others	expert|teach|assembl|false|false|false|false|false|false|false|false|false|NN
+assembly	others	assembl|expert|skill|false|false|false|false|false|false|false|false|false|NN
+skills	others	skill|assembl|be|false|false|false|false|false|false|false|false|false|NNS
+were	others	be|skill|develop|false|false|false|false|false|false|false|false|false|VBD
+developed	others	develop|be|by|false|false|false|false|false|false|false|false|false|VBN
+by	others	by|develop|iter|false|false|false|false|false|false|false|false|false|IN
+iteratively	others	iter|by|_end_|false|false|false|false|false|false|false|false|false|RB
+
+drafting	others	draft|_start_|and|false|false|false|false|false|false|false|false|false|VBG
+and	others	and|draft|test|false|false|false|false|false|false|false|false|false|CC
+testing	others	test|and|instruct|false|false|false|false|false|false|false|false|false|VBG
+instructions	others	instruct|test|on|false|false|false|false|false|false|false|false|false|NNS
+on	others	on|instruct|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|on|simul|false|false|false|false|false|false|false|false|false|DT
+simulated	others	simul|the|student|false|false|false|false|false|false|false|false|false|JJ
+student	others	student|simul|_end_|false|false|false|false|false|false|false|false|false|NN
+

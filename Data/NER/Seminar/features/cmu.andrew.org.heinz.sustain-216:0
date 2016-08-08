@@ -1,0 +1,198 @@
+Type	others	type|_start_|cmu.andrew.org|true|false|false|false|false|false|false|false|false|NN
+cmu.andrew.org	others	cmu.andrew.org|type|heinz|false|false|false|false|false|false|false|false|false|NN
+heinz	others	heinz|cmu.andrew.org|sustain|false|false|false|false|false|false|false|false|false|NN
+sustain	others	sustain|heinz|_end_|false|false|false|false|false|false|false|false|false|VB
+
+Topic	others	topic|_start_|juri|true|false|false|false|false|false|false|false|false|NN
+Jury	others	juri|topic|present|true|false|false|false|false|false|false|false|false|NN
+presentations	others	present|juri|by|false|false|false|false|false|false|false|false|false|NNS
+by	others	by|present|architectur|false|false|false|false|false|false|false|false|false|IN
+architectural	others	architectur|by|student|false|false|false|false|false|false|false|false|false|JJ
+students	others	student|architectur|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+Dates	others	date|_start_|5-may-95|true|false|false|false|false|false|false|false|false|NNS
+5-May-95	others	5-may-95|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|1:30|true|false|false|false|false|false|false|false|false|NNP
+1:30	stime	1:30|time|3:30|false|false|false|false|false|false|true|false|false|CD
+3:30	etime	3:30|1:30|_end_|false|false|false|false|false|false|false|true|false|CD
+
+PostedBy	others	postedbi|_start_|lucinda|false|false|false|false|true|false|false|false|false|NNP
+Lucinda	others	lucinda|postedbi|g|true|false|false|false|false|true|false|false|false|NNP
+G	others	g|lucinda|beatti|false|false|true|true|false|true|false|false|false|NNP
+Beattie	others	beatti|g|on|true|false|false|false|false|true|false|false|false|NNP
+on	others	on|beatti|3-may-95|false|false|false|false|false|false|false|false|false|IN
+3-May-95	others	3-may-95|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|3-may-95|13:09|false|false|false|false|false|false|false|false|false|IN
+13:09	others	13:09|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|13:09|andrew.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+andrew.cmu.edu	others	andrew.cmu.edu|from|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+To	others	to|_start_|all|true|false|false|false|false|false|false|false|false|TO
+all	others	all|to|of|false|false|false|false|false|false|false|false|false|DT
+of	others	of|all|we|false|false|false|false|false|false|false|false|false|IN
+us	others	we|of|who|false|false|false|false|false|false|false|false|false|PRP
+who	others	who|we|particip|false|false|false|false|false|false|false|false|false|WP
+participated	others	particip|who|in|false|false|false|false|false|false|false|false|false|VBD
+in	others	in|particip|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|in|urban|false|false|false|false|false|false|false|false|false|DT
+Urban	others	urban|the|lab|true|false|false|false|false|false|false|false|false|NNP
+Lab	others	lab|urban|last|true|false|false|false|false|false|false|false|false|NNP
+last	others	last|lab|fall|false|false|false|false|false|false|false|false|true|JJ
+fall	others	fall|last|_end_|false|false|false|false|false|false|false|false|true|NN
+
+I	others	i|_start_|get|false|false|true|true|false|false|false|false|false|NN
+got	others	get|i|a|false|false|false|false|false|false|false|false|false|VBD
+a	others	a|get|call|false|false|false|false|false|false|false|false|false|DT
+call	others	call|a|from|false|false|false|false|false|false|false|false|false|NN
+from	others	from|call|karen|false|false|false|false|false|false|false|false|false|IN
+Karen	others	karen|from|brean|true|false|false|false|false|true|false|false|false|NNP
+Brean	others	brean|karen|todai|true|false|false|false|false|true|false|false|false|NNP
+today	others	todai|brean|ask|false|false|false|false|false|false|false|false|true|NN
+asking	others	ask|todai|i|false|false|false|false|false|false|false|false|false|VBG
+me	others	i|ask|to|false|false|false|false|false|false|false|false|false|PRP
+to	others	to|i|let|false|false|false|false|false|false|false|false|false|TO
+let	others	let|to|everyon|false|false|false|false|false|false|false|false|false|VB
+everyone	others	everyon|let|who|false|false|false|false|false|false|false|false|false|NN
+who	others	who|everyon|be|false|false|false|false|false|false|false|false|false|WP
+was	others	be|who|in|false|false|false|false|false|false|false|false|false|VBD
+in	others	in|be|_end_|false|false|false|false|false|false|false|false|false|IN
+
+the	others	the|_start_|urbanlab|false|false|false|false|false|false|false|false|false|DT
+urbanlab	others	urbanlab|the|that|false|false|false|false|false|false|false|false|false|NN
+that	others	that|urbanlab|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|that|architectur|false|false|false|false|false|false|false|false|false|DT
+architectural	others	architectur|the|student|false|false|false|false|false|false|false|false|false|JJ
+students	others	student|architectur|be|false|false|false|false|false|false|false|false|false|NNS
+are	others	be|student|do|false|false|false|false|false|false|false|false|false|VBP
+doing	others	do|be|thei|false|false|false|false|false|false|false|false|false|VBG
+their	others	thei|do|juri|false|false|false|false|false|false|false|false|false|PRP$
+jury	others	juri|thei|_end_|false|false|false|false|false|false|false|false|false|NN
+
+presentations	others	present|_start_|on|false|false|false|false|false|false|false|false|false|NNS
+on	others	on|present|fridai|false|false|false|false|false|false|false|false|false|IN
+Friday	others	fridai|on|mai|true|false|false|false|false|false|false|false|true|NNP
+May	others	mai|fridai|5|true|false|false|false|false|false|false|false|true|NNP
+5	others	5|mai|she|false|false|false|false|false|false|false|false|true|CD
+She	others	she|5|sai|true|false|false|false|false|false|false|false|false|PRP
+said	others	sai|she|that|false|false|false|false|false|false|false|false|false|VBD
+that	others	that|sai|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|that|student|false|false|false|false|false|false|false|false|false|DT
+students	others	student|the|in|false|false|false|false|false|false|false|false|false|NNS
+in	others	in|student|she|false|false|false|false|false|false|false|false|false|IN
+her	others	she|in|_end_|false|false|false|false|false|false|false|false|false|PRP$
+
+studio	others	studio|_start_|would|false|false|false|false|false|false|false|false|false|NN
+would	others	would|studio|especi|false|false|false|false|false|false|false|false|false|MD
+especially	others	especi|would|appreci|false|false|false|false|false|false|false|false|false|RB
+appreciate	others	appreci|especi|ani|false|false|false|false|false|false|false|false|false|VB
+any	others	ani|appreci|visit|false|false|false|false|false|false|false|false|false|DT
+visits	others	visit|ani|by|false|false|false|false|false|false|false|false|false|NNS
+by	others	by|visit|heinz|false|false|false|false|false|false|false|false|false|IN
+Heinz	others	heinz|by|student|true|false|false|false|false|false|false|false|false|NNP
+students	others	student|heinz|and|false|false|false|false|false|false|false|false|false|NNS
+and	others	and|student|_end_|false|false|false|false|false|false|false|false|false|CC
+
+asked	others	ask|_start_|she|false|false|false|false|false|false|false|false|false|VBD
+her	others	she|ask|to|false|false|false|false|false|false|false|false|false|PRP
+to	others	to|she|notifi|false|false|false|false|false|false|false|false|false|TO
+notify	others	notifi|to|we|false|false|false|false|false|false|false|false|false|VB
+us	others	we|notifi|the|false|false|false|false|false|false|false|false|false|PRP
+The	others	the|we|juri|true|false|false|false|false|false|false|false|false|DT
+juries	others	juri|the|be|false|false|false|false|false|false|false|false|false|NNS
+are	others	be|juri|from|false|false|false|false|false|false|false|false|false|VBP
+from	others	from|be|1:30|false|false|false|false|false|false|false|false|false|IN
+1:30	stime	1:30|from|3:30|false|false|false|false|false|false|true|false|false|CD
+3:30	etime	3:30|1:30|and|false|false|false|false|false|false|false|true|false|CD
+and	others	and|3:30|4-6|false|false|false|false|false|false|false|false|false|CC
+4-6	others	4-6|and|on|false|false|false|false|false|false|false|false|false|CD
+on	others	on|4-6|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|on|_end_|false|false|false|false|false|false|false|false|false|DT
+
+second	location	second|_start_|floor|false|false|false|false|false|false|false|false|false|JJ
+floor	location	floor|second|of|false|false|false|false|false|false|false|false|false|NN
+of	location	of|floor|teh|false|false|false|false|false|false|false|false|false|IN
+teh	location	teh|of|colleg|false|false|false|false|false|false|false|false|false|NN
+College	location	colleg|teh|of|true|false|false|false|false|false|false|false|false|NNP
+of	location	of|colleg|fine|false|false|false|false|false|false|false|false|false|IN
+Fine	location	fine|of|art|true|false|false|false|false|false|false|false|false|NNP
+Arts	location	art|fine|-lrb-|true|false|false|false|false|false|false|false|false|NNP
+-LRB-	others	-lrb-|art|she|false|false|false|false|false|false|false|false|false|-LRB-
+her	others	she|-lrb-|studio|false|false|false|false|false|false|false|false|false|PRP$
+studio	others	studio|she|will|false|false|false|false|false|false|false|false|false|NN
+will	others	will|studio|be|false|false|false|false|false|false|false|false|false|MD
+be	others	be|will|meet|false|false|false|false|false|false|false|false|false|VB
+meeting	others	meet|be|in|false|false|false|false|false|false|false|false|false|VBG
+in	others	in|meet|_end_|false|false|false|false|false|false|false|false|false|IN
+
+the	others	the|_start_|architectur|false|false|false|false|false|false|false|false|false|DT
+architectural	others	architectur|the|offic|false|false|false|false|false|false|false|false|false|JJ
+office	others	offic|architectur|on|false|false|false|false|false|false|false|false|false|NN
+on	others	on|offic|that|false|false|false|false|false|false|false|false|false|IN
+that	others	that|on|floor|false|false|false|false|false|false|false|false|false|DT
+floor	others	floor|that|-rrb-|false|false|false|false|false|false|false|false|false|NN
+-RRB-	others	-rrb-|floor|the|false|false|false|false|false|false|false|false|false|-RRB-
+The	others	the|-rrb-|studio|true|false|false|false|false|false|false|false|false|DT
+studios	others	studio|the|present|false|false|false|false|false|false|false|false|false|NNS
+presenting	others	present|studio|be|false|false|false|false|false|false|false|false|false|VBG
+are	others	be|present|_end_|false|false|false|false|false|false|false|false|false|VBP
+
+Karen	others	karen|_start_|'s|true|false|false|false|false|true|false|false|false|NNP
+'s	others	's|karen|david|false|false|false|false|false|false|false|false|false|POS
+David	others	david|'s|lewi|true|false|false|false|false|true|false|false|false|NNP
+Lewis	others	lewi|david|and|true|false|false|false|false|true|false|false|false|NNP
+and	others	and|lewi|john|false|false|false|false|false|false|false|false|false|CC
+John	others	john|and|decker|true|false|false|false|false|true|false|false|false|NNP
+Decker	others	decker|john|'s|true|false|false|false|false|true|false|false|false|NNP
+'s	others	's|decker|the|false|false|false|false|false|false|false|false|false|POS
+The	others	the|'s|student|true|false|false|false|false|false|false|false|false|DT
+students	others	student|the|will|false|false|false|false|false|false|false|false|false|NNS
+will	others	will|student|be|false|false|false|false|false|false|false|false|false|MD
+be	others	be|will|_end_|false|false|false|false|false|false|false|false|false|VB
+
+presenting	others	present|_start_|thei|false|false|false|false|false|false|false|false|false|VBG
+their	others	thei|present|architectur|false|false|false|false|false|false|false|false|false|PRP$
+architectural	others	architectur|thei|project|false|false|false|false|false|false|false|false|false|JJ
+projects	others	project|architectur|and|false|false|false|false|false|false|false|false|false|NNS
+and	others	and|project|masterplan|false|false|false|false|false|false|false|false|false|CC
+masterplans	others	masterplan|and|that|false|false|false|false|false|false|false|false|false|NNS
+that	others	that|masterplan|contain|false|false|false|false|false|false|false|false|false|WDT
+contain	others	contain|that|_end_|false|false|false|false|false|false|false|false|false|VBP
+
+work	others	work|_start_|from|false|false|false|false|false|false|false|false|false|NN
+from	others	from|work|last|false|false|false|false|false|false|false|false|false|IN
+last	others	last|from|semest|false|false|false|false|false|false|false|false|false|JJ
+semester	others	semest|last|as|false|false|false|false|false|false|false|false|false|NN
+as	others	as|semest|well|false|false|false|false|false|false|false|false|false|RB
+well	others	well|as|as|false|false|false|false|false|false|false|false|false|RB
+as	others	as|well|piec|false|false|false|false|false|false|false|false|false|IN
+pieces	others	piec|as|of|false|false|false|false|false|false|false|false|false|NNS
+of	others	of|piec|thei|false|false|false|false|false|false|false|false|false|IN
+their	others	thei|of|masterplan|false|false|false|false|false|false|false|false|false|PRP$
+masterplan	others	masterplan|thei|that|false|false|false|false|false|false|false|false|false|NN
+that	others	that|masterplan|thei|false|false|false|false|false|false|false|false|false|IN
+they	others	thei|that|_end_|false|false|false|false|false|false|false|false|false|PRP
+
+have	others	have|_start_|develop|false|false|false|false|false|false|false|false|false|VB
+developed	others	develop|have|in|false|false|false|false|false|false|false|false|false|VBN
+in	others	in|develop|detail|false|false|false|false|false|false|false|false|false|IN
+detail	others	detail|in|if|false|false|false|false|false|false|false|false|false|NN
+If	others	if|detail|you|true|false|false|false|false|false|false|false|false|IN
+you	others	you|if|have|false|false|false|false|false|false|false|false|false|PRP
+have	others	have|you|ani|false|false|false|false|false|false|false|false|false|VBP
+any	others	ani|have|question|false|false|false|false|false|false|false|false|false|DT
+questions	others	question|ani|or|false|false|false|false|false|false|false|false|false|NNS
+or	others	or|question|want|false|false|false|false|false|false|false|false|false|CC
+want	others	want|or|additionl|false|false|false|false|false|false|false|false|false|VB
+additionl	others	additionl|want|_end_|false|false|false|false|false|false|false|false|false|NN
+
+information	others	inform|_start_|call|false|false|false|false|false|false|false|false|false|NN
+call	others	call|inform|karen|false|false|false|false|false|false|false|false|false|NN
+Karen	others	karen|call|at|true|false|false|false|false|true|false|false|false|NNP
+at	others	at|karen|255-8699|false|false|false|false|false|false|false|false|false|IN
+255-8699	others	255-8699|at|_end_|false|false|false|false|false|false|false|false|false|CD
+
+Cinda	others	cinda|_start_|_end_|true|false|false|false|false|true|false|false|false|NNP
+

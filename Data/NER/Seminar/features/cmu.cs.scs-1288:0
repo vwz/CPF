@@ -1,0 +1,339 @@
+Type	others	type|_start_|cmu|true|false|false|false|false|false|false|false|false|NN
+cmu	others	cmu|type|c|false|false|false|false|false|false|false|false|false|NN
+cs	others	c|cmu|sc|false|false|false|false|false|false|false|false|false|NNS
+scs	others	sc|c|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+Topic	others	topic|_start_|the|true|false|false|false|false|false|false|false|false|NN
+THE	others	the|topic|futur|false|true|false|true|false|false|false|false|true|DT
+FUTURE	others	futur|the|of|false|true|false|true|false|false|false|false|true|NN
+OF	others	of|futur|computing-lectur|false|true|false|true|false|false|false|false|false|IN
+COMPUTING-Lecture	others	computing-lectur|of|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Dates	others	date|_start_|2-nov-92|true|false|false|false|false|false|false|false|false|NNS
+2-Nov-92	others	2-nov-92|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|3:30|true|false|false|false|false|false|false|false|false|NNP
+3:30	stime	3:30|time|pm|false|false|false|false|false|false|false|false|false|CD
+PM	stime	pm|3:30|_end_|false|true|false|true|false|false|false|false|false|NN
+
+PostedBy	others	postedbi|_start_|copeta|false|false|false|false|true|false|false|false|false|NNP
+copetas	others	copeta|postedbi|on|false|false|false|false|false|false|false|false|false|NNS
+on	others	on|copeta|29-oct-92|false|false|false|false|false|false|false|false|false|IN
+29-Oct-92	others	29-oct-92|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|29-oct-92|20:16|false|false|false|false|false|false|false|false|false|IN
+20:16	others	20:16|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|20:16|gandalf.cs.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+GANDALF.CS.CMU.EDU	others	gandalf.cs.cmu.edu|from|-lrb-|false|false|false|false|false|false|false|false|false|NN
+-LRB-	others	-lrb-|gandalf.cs.cmu.edu|catherin|false|false|false|false|false|false|false|false|false|-LRB-
+Catherine	others	catherin|-lrb-|copeta|true|false|false|false|false|false|false|false|false|NNP
+Copetas	others	copeta|catherin|-rrb-|true|false|false|false|false|false|false|false|false|NNP
+-RRB-	others	-rrb-|copeta|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+INTEL	others	intel|_start_|distinguish|false|true|false|true|false|false|false|false|false|NNP
+DISTINGUISHED	others	distinguish|intel|lectur|false|true|false|true|false|false|false|false|false|NNP
+LECTURE	others	lectur|distinguish|in|false|true|false|true|false|false|false|false|false|NNP
+IN	others	in|lectur|technolog|false|true|false|true|false|false|false|false|false|IN
+TECHNOLOGY	others	technolog|in|_end_|false|true|false|true|false|false|false|false|false|NNP
+
+THE	others	the|_start_|futur|false|true|false|true|false|false|false|false|true|DT
+FUTURE	others	futur|the|of|false|true|false|true|false|false|false|false|true|NN
+OF	others	of|futur|comput|false|true|false|true|false|false|false|false|false|IN
+COMPUTING	others	comput|of|_end_|false|true|false|true|false|false|false|false|false|NN
+
+Monday	others	mondai|_start_|novemb|true|false|false|false|false|false|false|false|true|NNP
+November	others	novemb|mondai|2|true|false|false|false|false|false|false|false|true|NNP
+2	others	2|novemb|1992|false|false|false|false|false|false|false|false|true|CD
+1992	others	1992|2|_end_|false|false|false|false|false|false|false|false|true|CD
+
+Reception	others	recept|_start_|will|true|false|false|false|false|false|false|false|false|NNP
+will	others	will|recept|follow|false|false|false|false|false|false|false|false|false|MD
+follow	others	follow|will|immedi|false|false|false|false|false|false|false|false|false|VB
+immediately	others	immedi|follow|after|false|false|false|false|false|false|false|false|false|RB
+after	others	after|immedi|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|after|talk|false|false|false|false|false|false|false|false|false|DT
+talk	others	talk|the|_end_|false|false|false|false|false|false|false|false|false|NN
+
+
+David	speaker	david|_start_|l.|true|false|false|false|false|true|false|false|false|NNP
+L.	speaker	l.|david|hous|false|false|false|false|false|true|false|false|false|NNP
+House	speaker	hous|l.|be|true|false|false|false|false|true|false|false|false|NNP
+is	others	be|hous|senior|false|false|false|false|false|false|false|false|false|VBZ
+Senior	others	senior|be|vice|true|false|false|false|false|false|false|false|false|JJ
+Vice	others	vice|senior|presid|true|false|false|false|false|false|false|false|false|NNP
+President	others	presid|vice|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|presid|corpor|false|false|false|false|false|false|false|false|false|IN
+Corporate	others	corpor|of|strategi|true|false|false|false|false|false|false|false|false|NNP
+Strategy	others	strategi|corpor|as|true|false|false|false|false|false|false|false|false|NNP
+As	others	as|strategi|_end_|true|false|false|false|false|false|false|false|false|IN
+
+a	others	a|_start_|member|false|false|false|false|false|false|false|false|false|DT
+member	others	member|a|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|member|intel|false|false|false|false|false|false|false|false|false|IN
+Intel	others	intel|of|'s|true|false|false|false|false|false|false|false|false|NNP
+'s	others	's|intel|execut|false|false|false|false|false|false|false|false|false|POS
+executive	others	execut|'s|staff|false|false|false|false|false|false|false|false|false|JJ
+staff	others	staff|execut|he|false|false|false|false|false|false|false|false|false|NN
+he	others	he|staff|be|false|false|false|false|false|false|false|false|false|PRP
+is	others	be|he|respons|false|false|false|false|false|false|false|false|false|VBZ
+responsible	others	respons|be|for|false|false|false|false|false|false|false|false|false|JJ
+for	others	for|respons|intel|false|false|false|false|false|false|false|false|false|IN
+Intel	others	intel|for|'s|true|false|false|false|false|false|false|false|false|NNP
+'s	others	's|intel|_end_|false|false|false|false|false|false|false|false|false|POS
+
+product	others	product|_start_|strategi|false|false|false|false|false|false|false|false|false|NN
+strategy	others	strategi|product|he|false|false|false|false|false|false|false|false|false|NN
+He	others	he|strategi|join|true|false|false|false|false|false|false|false|false|PRP
+joined	others	join|he|intel|false|false|false|false|false|false|false|false|false|VBD
+Intel	others	intel|join|in|true|false|false|false|false|false|false|false|false|NNP
+in	others	in|intel|1974|false|false|false|false|false|false|false|false|false|IN
+1974	others	1974|in|as|false|false|false|false|false|false|false|false|true|CD
+as	others	as|1974|manag|false|false|false|false|false|false|false|false|false|IN
+Manager	others	manag|as|of|true|false|false|false|false|false|false|false|false|NN
+of	others	of|manag|applic|false|false|false|false|false|false|false|false|false|IN
+Applications	others	applic|of|for|true|false|false|false|false|false|false|false|false|NNS
+for	others	for|applic|memori|false|false|false|false|false|false|false|false|false|IN
+Memory	others	memori|for|_end_|true|false|false|false|false|false|false|false|false|NN
+
+Components	others	compon|_start_|move|true|false|false|false|false|false|false|false|false|NNP
+moving	others	move|compon|a|false|false|false|false|false|false|false|false|false|VBG
+a	others	a|move|year|false|false|false|false|false|false|false|false|true|DT
+year	others	year|a|later|false|false|false|false|false|false|false|false|true|NN
+later	others	later|year|to|false|false|false|false|false|false|false|false|true|RB
+to	others	to|later|the|false|false|false|false|false|false|false|false|false|TO
+the	others	the|to|post|false|false|false|false|false|false|false|false|false|DT
+post	others	post|the|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|post|manag|false|false|false|false|false|false|false|false|false|IN
+Manager	others	manag|of|of|true|false|false|false|false|false|false|false|false|NN
+of	others	of|manag|product|false|false|false|false|false|false|false|false|false|IN
+Product	others	product|of|market|true|false|false|false|false|false|false|false|false|NNP
+Marketing	others	market|product|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+and	others	and|_start_|applic|false|false|false|false|false|false|false|false|false|CC
+Applications	others	applic|and|in|true|false|false|false|false|false|false|false|false|NNS
+In	others	in|applic|1977|true|false|false|false|false|false|false|false|false|IN
+1977	others	1977|in|he|false|false|false|false|false|false|false|false|true|CD
+he	others	he|1977|becom|false|false|false|false|false|false|false|false|false|PRP
+became	others	becom|he|market|false|false|false|false|false|false|false|false|false|VBD
+Marketing	others	market|becom|manag|true|false|false|false|false|false|false|false|false|NNP
+Manager	others	manag|market|for|true|false|false|false|false|false|false|false|false|NNP
+for	others	for|manag|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|for|microcomput|false|false|false|false|false|false|false|false|false|DT
+Microcomputer	others	microcomput|the|_end_|true|false|false|false|false|false|false|false|false|NN
+
+Components	others	compon|_start_|divis|true|false|false|false|false|false|false|false|false|NNP
+Division	others	divis|compon|he|true|false|false|false|false|false|false|false|false|NNP
+He	others	he|divis|be|true|false|false|false|false|false|false|false|false|PRP
+was	others	be|he|name|false|false|false|false|false|false|false|false|false|VBD
+named	others	name|be|gener|false|false|false|false|false|false|false|false|false|VBN
+General	others	gener|name|manag|true|false|false|false|false|false|false|false|false|NNP
+Manager	others	manag|gener|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|manag|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|of|microprocessor|false|false|false|false|false|false|false|false|false|DT
+Microprocessor	others	microprocessor|the|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+and	others	and|_start_|peripher|false|false|false|false|false|false|false|false|false|CC
+Peripheral	others	peripher|and|oper|true|false|false|false|false|false|false|false|false|JJ
+Operation	others	oper|peripher|in|true|false|false|false|false|false|false|false|false|NN
+in	others	in|oper|1979|false|false|false|false|false|false|false|false|false|IN
+1979	others	1979|in|and|false|false|false|false|false|false|false|false|true|CD
+and	others	and|1979|gener|false|false|false|false|false|false|false|false|false|CC
+General	others	gener|and|manag|true|false|false|false|false|false|false|false|false|NNP
+Manager	others	manag|gener|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|manag|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|of|develop|false|false|false|false|false|false|false|false|false|DT
+Development	others	develop|the|_end_|true|false|false|false|false|false|false|false|false|NN
+
+System	others	system|_start_|oper|true|false|false|false|false|false|false|false|false|NNP
+Operation	others	oper|system|in|true|false|false|false|false|false|false|false|false|NNP
+in	others	in|oper|1981|false|false|false|false|false|false|false|false|false|IN
+1981	others	1981|in|in|false|false|false|false|false|false|false|false|true|CD
+In	others	in|1981|1983|true|false|false|false|false|false|false|false|false|IN
+1983	others	1983|in|he|false|false|false|false|false|false|false|false|true|CD
+he	others	he|1983|be|false|false|false|false|false|false|false|false|false|PRP
+was	others	be|he|appoint|false|false|false|false|false|false|false|false|false|VBD
+appointed	others	appoint|be|to|false|false|false|false|false|false|false|false|false|VBN
+to	others	to|appoint|intel|false|false|false|false|false|false|false|false|false|TO
+Intel	others	intel|to|vice|true|false|false|false|false|false|false|false|false|NNP
+Vice	others	vice|intel|presid|true|false|false|false|false|false|false|false|false|NNP
+President	others	presid|vice|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+and	others	and|_start_|gener|false|false|false|false|false|false|false|false|false|CC
+General	others	gener|and|manag|true|false|false|false|false|false|false|false|false|NNP
+Manager	others	manag|gener|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|manag|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|of|microcomput|false|false|false|false|false|false|false|false|false|DT
+Microcomputer	others	microcomput|the|compon|true|false|false|false|false|false|false|false|false|NNP
+Components	others	compon|microcomput|group|true|false|false|false|false|false|false|false|false|NNP
+Group	others	group|compon|and|true|false|false|false|false|false|false|false|false|NNP
+and	others	and|group|be|false|false|false|false|false|false|false|false|false|CC
+was	others	be|and|promot|false|false|false|false|false|false|false|false|false|VBD
+promoted	others	promot|be|_end_|false|false|false|false|false|false|false|false|false|VBN
+
+to	others	to|_start_|senior|false|false|false|false|false|false|false|false|false|TO
+Senior	others	senior|to|vice|true|false|false|false|false|false|false|false|false|JJ
+Vice	others	vice|senior|presid|true|false|false|false|false|false|false|false|false|NNP
+President	others	presid|vice|in|true|false|false|false|false|false|false|false|false|NNP
+in	others	in|presid|1987|false|false|false|false|false|false|false|false|false|IN
+1987	others	1987|in|from|false|false|false|false|false|false|false|false|true|CD
+From	others	from|1987|1979|true|false|false|false|false|false|false|false|false|IN
+1979	others	1979|from|to|false|false|false|false|false|false|false|false|true|CD
+to	others	to|1979|1991|false|false|false|false|false|false|false|false|true|TO
+1991	others	1991|to|mr.|false|false|false|false|false|false|false|false|true|CD
+Mr.	speaker	mr.|1991|hous|false|false|false|false|false|true|false|false|false|NNP
+House	speaker	hous|mr.|hold|true|false|false|false|false|true|false|false|false|NNP
+held	others	hold|hous|profit|false|false|false|false|false|false|false|false|false|VBD
+profit	others	profit|hold|_end_|false|false|false|false|false|false|false|false|false|NN
+
+and	others	and|_start_|loss|false|false|false|false|false|false|false|false|false|CC
+loss	others	loss|and|respons|false|false|false|false|false|false|false|false|false|NN
+responsibility	others	respons|loss|for|false|false|false|false|false|false|false|false|false|NN
+for	others	for|respons|intel|false|false|false|false|false|false|false|false|false|IN
+Intel	others	intel|for|x86|true|false|false|false|false|false|false|false|false|NNP
+x86	others	x86|intel|microprocessor|false|false|false|false|false|false|false|false|false|CD
+microprocessors	others	microprocessor|x86|and|false|false|false|false|false|false|false|false|false|NNS
+and	others	and|microprocessor|relat|false|false|false|false|false|false|false|false|false|CC
+related	others	relat|and|product|false|false|false|false|false|false|false|false|false|JJ
+products	others	product|relat|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+In	others	in|_start_|1991|true|false|false|false|false|false|false|false|false|IN
+1991	others	1991|in|he|false|false|false|false|false|false|false|false|true|CD
+he	others	he|1991|head|false|false|false|false|false|false|false|false|false|PRP
+headed	others	head|he|up|false|false|false|false|false|false|false|false|false|VBD
+up	others	up|head|the|false|false|false|false|false|false|false|false|false|RP
+the	others	the|up|architectur|false|false|false|false|false|false|false|false|false|DT
+Architecture	others	architectur|the|market|true|false|false|false|false|false|false|false|false|NNP
+Marketing	others	market|architectur|applic|true|false|false|false|false|false|false|false|false|NNP
+Applications	others	applic|market|group|true|false|false|false|false|false|false|false|false|NNS
+Group	others	group|applic|prior|true|false|false|false|false|false|false|false|false|NNP
+prior	others	prior|group|_end_|false|false|false|false|false|false|false|false|false|RB
+
+to	others	to|_start_|assum|false|false|false|false|false|false|false|false|false|TO
+assuming	others	assum|to|he|false|false|false|false|false|false|false|false|false|VBG
+his	others	he|assum|current|false|false|false|false|false|false|false|false|false|PRP$
+current	others	current|he|posit|false|false|false|false|false|false|false|false|true|JJ
+position	others	posit|current|thi|false|false|false|false|false|false|false|false|false|NN
+this	others	thi|posit|year|false|false|false|false|false|false|false|false|true|DT
+year	others	year|thi|_end_|false|false|false|false|false|false|false|false|true|NN
+
+Mr.	speaker	mr.|_start_|hous|false|false|false|false|false|true|false|false|false|NNP
+House	speaker	hous|mr.|begin|true|false|false|false|false|true|false|false|false|NNP
+began	others	begin|hous|he|false|false|false|false|false|false|false|false|false|VBD
+his	others	he|begin|profession|false|false|false|false|false|false|false|false|false|PRP$
+professional	others	profession|he|career|false|false|false|false|false|false|false|false|false|JJ
+career	others	career|profession|in|false|false|false|false|false|false|false|false|false|NN
+in	others	in|career|1965|false|false|false|false|false|false|false|false|false|IN
+1965	others	1965|in|join|false|false|false|false|false|false|false|false|true|CD
+joining	others	join|1965|ratheon|false|false|false|false|false|false|false|false|false|VBG
+Ratheon	others	ratheon|join|where|true|false|false|false|false|false|false|false|false|NN
+where	others	where|ratheon|_end_|false|false|false|false|false|false|false|false|false|WRB
+
+he	others	he|_start_|work|false|false|false|false|false|false|false|false|false|PRP
+worked	others	work|he|on|false|false|false|false|false|false|false|false|false|VBD
+on	others	on|work|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|on|design|false|false|false|false|false|false|false|false|false|DT
+design	others	design|the|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|design|comput|false|false|false|false|false|false|false|false|false|IN
+computers	others	comput|of|and|false|false|false|false|false|false|false|false|false|NNS
+and	others	and|comput|datum|false|false|false|false|false|false|false|false|false|CC
+data	others	datum|and|acquisit|false|false|false|false|false|false|false|false|false|NNS
+acquisition	others	acquisit|datum|system|false|false|false|false|false|false|false|false|false|NN
+systems	others	system|acquisit|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+He	others	he|_start_|move|true|false|false|false|false|false|false|false|false|PRP
+moved	others	move|he|to|false|false|false|false|false|false|false|false|false|VBD
+to	others	to|move|honeywel|false|false|false|false|false|false|false|false|false|TO
+Honeywell	others	honeywel|to|'s|true|false|false|false|false|false|false|false|false|NNP
+'s	others	's|honeywel|comput|false|false|false|false|false|false|false|false|false|POS
+Computer	others	comput|'s|cotnrol|true|false|false|false|false|false|false|false|false|NN
+Cotnrol	others	cotnrol|comput|divis|true|false|false|false|false|false|false|false|false|NNP
+Division	others	divis|cotnrol|in|true|false|false|false|false|false|false|false|false|NNP
+in	others	in|divis|1969|false|false|false|false|false|false|false|false|false|IN
+1969	others	1969|in|where|false|false|false|false|false|false|false|false|true|CD
+where	others	where|1969|he|false|false|false|false|false|false|false|false|false|WRB
+he	others	he|where|manag|false|false|false|false|false|false|false|false|false|PRP
+managed	others	manag|he|_end_|false|false|false|false|false|false|false|false|false|VBD
+
+minicomputer	others	minicomput|_start_|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|minicomput|develop|false|false|false|false|false|false|false|false|false|CC
+development	others	develop|and|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|develop|receiv|false|false|false|false|false|false|false|false|false|CC
+received	others	receiv|and|the|false|false|false|false|false|false|false|false|false|VBD
+the	others	the|receiv|h.w.|false|false|false|false|false|false|false|false|false|DT
+H.W.	others	h.w.|the|sweatt|false|false|false|false|false|false|false|false|false|NNP
+Sweatt	others	sweatt|h.w.|engin|true|false|false|false|false|false|false|false|false|NNP
+Engineer	others	engin|sweatt|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Scientist	others	scientist|_start_|award|true|false|false|false|false|false|false|false|false|NN
+Award	others	award|scientist|for|true|false|false|false|false|false|false|false|false|NN
+for	others	for|award|he|false|false|false|false|false|false|false|false|false|IN
+his	others	he|for|definit|false|false|false|false|false|false|false|false|false|PRP$
+definition	others	definit|he|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|definit|develop|false|false|false|false|false|false|false|false|false|CC
+development	others	develop|and|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|develop|a|false|false|false|false|false|false|false|false|false|IN
+a	others	a|of|new|false|false|false|false|false|false|false|false|false|DT
+new	others	new|a|comput|false|false|false|false|false|false|false|false|false|JJ
+computer	others	comput|new|_end_|false|false|false|false|false|false|false|false|false|NN
+
+family	others	famili|_start_|in|false|false|false|false|false|false|false|false|false|NN
+In	others	in|famili|1972|true|false|false|false|false|false|false|false|false|IN
+1972	others	1972|in|he|false|false|false|false|false|false|false|false|true|CD
+he	others	he|1972|join|false|false|false|false|false|false|false|false|false|PRP
+joined	others	join|he|microdata|false|false|false|false|false|false|false|false|false|VBD
+Microdata	others	microdata|join|as|true|false|false|false|false|false|false|false|false|NNP
+as	others	as|microdata|director|false|false|false|false|false|false|false|false|false|IN
+Director	others	director|as|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|director|comput|false|false|false|false|false|false|false|false|false|IN
+Computer	others	comput|of|develop|true|false|false|false|false|false|false|false|false|NNP
+Development	others	develop|comput|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+leaving	others	leav|_start_|to|false|false|false|false|false|false|false|false|false|VBG
+to	others	to|leav|join|false|false|false|false|false|false|false|false|false|TO
+join	others	join|to|intel|false|false|false|false|false|false|false|false|false|VB
+Intel	others	intel|join|in|true|false|false|false|false|false|false|false|false|NNP
+in	others	in|intel|1974|false|false|false|false|false|false|false|false|false|IN
+1974	others	1974|in|he|false|false|false|false|false|false|false|false|true|CD
+He	others	he|1974|graduat|true|false|false|false|false|false|false|false|false|PRP
+graduated	others	graduat|he|from|false|false|false|false|false|false|false|false|false|VBD
+from	others	from|graduat|michigan|false|false|false|false|false|false|false|false|false|IN
+Michigan	others	michigan|from|technolog|true|false|false|false|false|false|false|false|false|NNP
+Technological	others	technolog|michigan|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+University	others	univers|_start_|with|true|false|false|false|false|false|false|false|false|NNP
+with	others	with|univers|a|false|false|false|false|false|false|false|false|false|IN
+a	others	a|with|b.s.|false|false|false|false|false|false|false|false|false|DT
+B.S.	others	b.s.|a|in|false|false|false|false|false|false|false|false|false|NNP
+in	others	in|b.s.|electr|false|false|false|false|false|false|false|false|false|IN
+Electrical	others	electr|in|engin|true|false|false|false|false|false|false|false|false|JJ
+Engineering	others	engin|electr|in|true|false|false|false|false|false|false|false|false|NNP
+in	others	in|engin|1964|false|false|false|false|false|false|false|false|false|IN
+1964	others	1964|in|he|false|false|false|false|false|false|false|false|true|CD
+He	others	he|1964|receiv|true|false|false|false|false|false|false|false|false|PRP
+received	others	receiv|he|he|false|false|false|false|false|false|false|false|false|VBD
+his	others	he|receiv|_end_|false|false|false|false|false|false|false|false|false|PRP$
+
+M.S.	others	m.s.|_start_|in|false|false|false|false|false|true|false|false|false|NNP
+in	others	in|m.s.|electr|false|false|false|false|false|false|false|false|false|IN
+Electrical	others	electr|in|engin|true|false|false|false|false|false|false|false|false|JJ
+Engineering	others	engin|electr|from|true|false|false|false|false|false|false|false|false|NNP
+from	others	from|engin|northeastern|false|false|false|false|false|false|false|false|false|IN
+Northeastern	others	northeastern|from|univers|true|false|false|false|false|false|false|false|false|NNP
+University	others	univers|northeastern|in|true|false|false|false|false|false|false|false|false|NNP
+in	others	in|univers|1969|false|false|false|false|false|false|false|false|false|IN
+1969	others	1969|in|he|false|false|false|false|false|false|false|false|true|CD
+He	others	he|1969|be|true|false|false|false|false|false|false|false|false|PRP
+is	others	be|he|_end_|false|false|false|false|false|false|false|false|false|VBZ
+
+a	others	a|_start_|member|false|false|false|false|false|false|false|false|false|DT
+member	others	member|a|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|member|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|of|institut|false|false|false|false|false|false|false|false|false|DT
+Institute	others	institut|the|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|institut|electr|false|false|false|false|false|false|false|false|false|IN
+Electrical	others	electr|of|and|true|false|false|false|false|false|false|false|false|JJ
+and	others	and|electr|electron|false|false|false|false|false|false|false|false|false|CC
+Electronic	others	electron|and|engin|true|false|false|false|false|false|false|false|false|JJ
+Engineers	others	engin|electron|_end_|true|false|false|false|false|false|false|false|false|NNS
+

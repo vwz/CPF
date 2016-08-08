@@ -1,0 +1,122 @@
+Type	others	type|_start_|cmu|true|false|false|false|false|false|false|false|false|NN
+cmu	others	cmu|type|c|false|false|false|false|false|false|false|false|false|NN
+cs	others	c|cmu|proj|false|false|false|false|false|false|false|false|false|NNS
+proj	others	proj|c|cimd|false|false|false|false|false|false|false|false|false|NN
+cimds	others	cimd|proj|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+Who	others	who|_start_|arvind|true|false|false|false|false|false|false|false|false|WP
+Arvind	speaker	arvind|who|sathi|true|false|false|false|false|true|false|false|false|NNP
+Sathi	speaker	sathi|arvind|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+Topic	others	topic|_start_|knowledg|true|false|false|false|false|false|false|false|false|NN
+Knowledge	others	knowledg|topic|represent|true|false|false|false|false|false|false|false|false|NNP
+Representation	others	represent|knowledg|in|true|false|false|false|false|false|false|false|false|NNP
+in	others	in|represent|callisto|false|false|false|false|false|false|false|false|false|IN
+Callisto	others	callisto|in|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Dates	others	date|_start_|22-feb-9|true|false|false|false|false|false|false|false|false|NNS
+22-Feb-9	others	22-feb-9|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|11:30|true|false|false|false|false|false|false|false|false|NNP
+11:30	stime	11:30|time|1:00|false|false|false|false|false|false|true|false|false|CD
+1:00	etime	1:00|11:30|_end_|false|false|false|false|false|false|false|true|false|CD
+
+PostedBy	others	postedbi|_start_|on|false|false|false|false|true|false|false|false|false|NNP
+on	others	on|postedbi|21-feb-84|false|false|false|false|false|false|false|false|false|IN
+21-Feb-84	others	21-feb-84|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|21-feb-84|09:17|false|false|false|false|false|false|false|false|false|IN
+09:17	others	09:17|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|09:17|_end_|false|false|false|false|false|false|false|false|false|IN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+ISL	others	isl|_start_|seminar|false|true|false|true|false|false|false|false|false|NNP
+SEMINAR	others	seminar|isl|wed|false|true|false|true|false|false|false|false|false|NNP
+WED	others	wed|seminar|feb|false|true|false|true|false|false|false|false|true|VBD
+FEB	others	feb|wed|22|false|true|false|true|false|false|false|false|true|NN
+22	others	22|feb|11:30|false|false|false|false|false|false|false|false|true|CD
+11:30	stime	11:30|22|1:00|false|false|false|false|false|false|true|false|false|CD
+1:00	etime	1:00|11:30|422|false|false|false|false|false|false|false|true|false|CD
+422	location	422|1:00|scaif|false|false|false|false|false|false|false|false|false|CD
+SCAIFE	location	scaif|422|_end_|false|true|false|true|false|false|false|false|false|NN
+
+Topic	others	topic|_start_|knowledg|true|false|false|false|false|false|false|false|false|NN
+Knowledge	others	knowledg|topic|represent|true|false|false|false|false|false|false|false|false|NNP
+Representation	others	represent|knowledg|in|true|false|false|false|false|false|false|false|false|NNP
+in	others	in|represent|callisto|false|false|false|false|false|false|false|false|false|IN
+Callisto	others	callisto|in|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Speaker	others	speaker|_start_|arvind|true|false|false|false|false|false|false|false|false|NNP
+Arvind	speaker	arvind|speaker|sathi|true|false|false|false|false|true|false|false|false|NNP
+Sathi	speaker	sathi|arvind|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+Abstract	others	abstract|_start_|thi|true|false|false|false|false|false|false|false|false|NNP
+This	others	thi|abstract|talk|true|false|false|false|false|false|false|false|false|DT
+talk	others	talk|thi|present|false|false|false|false|false|false|false|false|false|NN
+presents	others	present|talk|we|false|false|false|false|false|false|false|false|false|VBZ
+our	others	we|present|development|false|false|false|false|false|false|false|false|false|PRP$
+developmental	others	development|we|effort|false|false|false|false|false|false|false|false|false|JJ
+efforts	others	effort|development|toward|false|false|false|false|false|false|false|false|false|NNS
+towards	others	toward|effort|knowledg|false|false|false|false|false|false|false|false|false|IN
+knowledge	others	knowledg|toward|_end_|false|false|false|false|false|false|false|false|false|NN
+
+representation	others	represent|_start_|in|false|false|false|false|false|false|false|false|false|NN
+in	others	in|represent|callisto|false|false|false|false|false|false|false|false|false|IN
+Callisto	others	callisto|in|-lrb-|true|false|false|false|false|false|false|false|false|NNP
+-LRB-	others	-lrb-|callisto|a|false|false|false|false|false|false|false|false|false|-LRB-
+an	others	a|-lrb-|intellig|false|false|false|false|false|false|false|false|false|DT
+Intelligent	others	intellig|a|project|true|false|false|false|false|false|false|false|false|NNP
+Project	others	project|intellig|manag|true|false|false|false|false|false|false|false|false|NNP
+Management	others	manag|project|system|true|false|false|false|false|false|false|false|false|NNP
+System	others	system|manag|-rrb-|true|false|false|false|false|false|false|false|false|NNP
+-RRB-	others	-rrb-|system|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+I	others	i|_start_|will|false|false|true|true|false|false|false|false|false|CD
+will	others	will|i|be|false|false|false|false|false|false|false|false|false|MD
+be	others	be|will|present|false|false|false|false|false|false|false|false|false|VB
+presenting	others	present|be|model|false|false|false|false|false|false|false|false|false|VBG
+models	others	model|present|for|false|false|false|false|false|false|false|false|false|NNS
+for	others	for|model|activ|false|false|false|false|false|false|false|false|false|IN
+activities	others	activ|for|constraint|false|false|false|false|false|false|false|false|false|NNS
+constraints	others	constraint|activ|project|false|false|false|false|false|false|false|false|false|NNS
+project	others	project|constraint|_end_|false|false|false|false|false|false|false|false|false|NN
+
+environment	others	environ|_start_|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|environ|product|false|false|false|false|false|false|false|false|false|CC
+product	others	product|and|configur|false|false|false|false|false|false|false|false|false|NN
+configurations	others	configur|product|in|false|false|false|false|false|false|false|false|false|NNS
+in	others	in|configur|callisto|false|false|false|false|false|false|false|false|false|IN
+Callisto	others	callisto|in|these|true|false|false|false|false|false|false|false|false|NNP
+These	others	these|callisto|model|true|false|false|false|false|false|false|false|false|DT
+models	others	model|these|be|false|false|false|false|false|false|false|false|false|NNS
+are	others	be|model|_end_|false|false|false|false|false|false|false|false|false|VBP
+
+being	others	be|_start_|develop|false|false|false|false|false|false|false|false|false|VBG
+developed	others	develop|be|and|false|false|false|false|false|false|false|false|false|VBN
+and	others	and|develop|implement|false|false|false|false|false|false|false|false|false|CC
+implemented	others	implement|and|for|false|false|false|false|false|false|false|false|false|VBN
+for	others	for|implement|project|false|false|false|false|false|false|false|false|false|IN
+project	others	project|for|manag|false|false|false|false|false|false|false|false|false|NN
+management	others	manag|project|applic|false|false|false|false|false|false|false|false|false|NN
+applications	others	applic|manag|in|false|false|false|false|false|false|false|false|false|NNS
+in	others	in|applic|_end_|false|false|false|false|false|false|false|false|false|IN
+
+large	others	larg|_start_|engin|false|false|false|false|false|false|false|false|false|JJ
+engineering	others	engin|larg|project|false|false|false|false|false|false|false|false|false|NN
+projects	others	project|engin|though|false|false|false|false|false|false|false|false|false|NNS
+though	others	though|project|some|false|false|false|false|false|false|false|false|false|IN
+some	others	some|though|of|false|false|false|false|false|false|false|false|false|DT
+of	others	of|some|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|of|concept|false|false|false|false|false|false|false|false|false|DT
+concepts	others	concept|the|be|false|false|false|false|false|false|false|false|false|NNS
+are	others	be|concept|extend|false|false|false|false|false|false|false|false|false|VBP
+extendable	others	extend|be|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+to	others	to|_start_|other|false|false|false|false|false|false|false|false|false|TO
+other	others	other|to|domain|false|false|false|false|false|false|false|false|false|JJ
+domains	others	domain|other|in|false|false|false|false|false|false|false|false|false|NNS
+in	others	in|domain|busi|false|false|false|false|false|false|false|false|false|IN
+business	others	busi|in|manag|false|false|false|false|false|false|false|false|false|NN
+management	others	manag|busi|problem|false|false|false|false|false|false|false|false|false|NN
+problems	others	problem|manag|_end_|false|false|false|false|false|false|false|false|false|NNS
+

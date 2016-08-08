@@ -1,0 +1,115 @@
+Type	others	type|_start_|cmu|true|false|false|false|false|false|false|false|false|NN
+cmu	others	cmu|type|c|false|false|false|false|false|false|false|false|false|NN
+cs	others	c|cmu|robot|false|false|false|false|false|false|false|false|false|NNS
+robotics	others	robot|c|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+Who	others	who|_start_|professor|true|false|false|false|false|false|false|false|false|WP
+Professor	speaker	professor|who|franz|true|false|false|false|false|true|false|false|false|NNP
+Franz	speaker	franz|professor|leberl|true|false|false|false|false|true|false|false|false|NNP
+Leberl	speaker	leberl|franz|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+Department	others	depart|_start_|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|depart|photogrammetri|false|false|false|false|false|false|false|false|false|IN
+Photogrammetry	others	photogrammetri|of|and|true|false|false|false|false|false|false|false|false|NNP
+and	others	and|photogrammetri|comput|false|false|false|false|false|false|false|false|false|CC
+Computer	others	comput|and|graphic|true|false|false|false|false|false|false|false|false|NNP
+Graphics	others	graphic|comput|_end_|true|false|false|false|false|false|false|false|false|NNPS
+
+Technical	others	technic|_start_|univers|true|false|false|false|false|false|false|false|false|NNP
+University	others	univers|technic|graz|true|false|false|false|false|false|false|false|false|NNP
+Graz	others	graz|univers|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Austria	others	austria|_start_|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Topic	others	topic|_start_|radargrammetr|true|false|false|false|false|false|false|false|false|NN
+Radargrammetric	others	radargrammetr|topic|process|true|false|false|false|false|false|false|false|false|NNP
+Processing	others	process|radargrammetr|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|process|magellan|false|false|false|false|false|false|false|false|false|IN
+Magellan	others	magellan|of|imag|true|false|false|false|false|false|false|false|false|NNP
+Images	others	imag|magellan|of|true|false|false|false|false|false|false|false|false|NNPS
+of	others	of|imag|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|of|planet|false|false|false|false|false|false|false|false|false|DT
+Planet	others	planet|the|venu|true|false|false|false|false|false|false|false|false|NN
+Venus	others	venu|planet|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Dates	others	date|_start_|10-nov-92|true|false|false|false|false|false|false|false|false|NNS
+10-Nov-92	others	10-nov-92|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|3:30|true|false|false|false|false|false|false|false|false|NNP
+3:30	stime	3:30|time|5:00|false|false|false|false|false|false|true|false|false|CD
+5:00	etime	5:00|3:30|pm|false|false|false|false|false|false|false|true|false|CD
+PM	etime	pm|5:00|_end_|false|true|false|true|false|false|false|false|false|NN
+
+Place	others	place|_start_|wean|true|false|false|false|false|false|false|false|false|NN
+Wean	location	wean|place|hall|true|false|false|false|false|false|false|false|false|VB
+Hall	location	hall|wean|4625|true|false|false|false|false|false|false|false|false|NNP
+4625	location	4625|hall|_end_|false|false|false|false|false|false|false|false|false|CD
+
+PostedBy	others	postedbi|_start_|dmm|false|false|false|false|true|false|false|false|false|NNP
+dmm	others	dmm|postedbi|on|false|false|false|false|false|false|false|false|false|NN
+on	others	on|dmm|10-nov-92|false|false|false|false|false|false|false|false|false|IN
+10-Nov-92	others	10-nov-92|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|10-nov-92|13:28|false|false|false|false|false|false|false|false|false|IN
+13:28	others	13:28|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|13:28|maps.cs.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+MAPS.CS.CMU.EDU	others	maps.cs.cmu.edu|from|-lrb-|false|false|false|false|false|false|false|false|false|NN
+-LRB-	others	-lrb-|maps.cs.cmu.edu|dave|false|false|false|false|false|false|false|false|false|-LRB-
+Dave	others	dave|-lrb-|mckeown|true|false|false|false|false|true|false|false|false|NNP
+McKeown	others	mckeown|dave|-rrb-|false|false|false|false|false|true|false|false|false|NNP
+-RRB-	others	-rrb-|mckeown|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+Special	others	special|_start_|seminar|true|false|false|false|false|false|false|false|false|JJ
+Seminar	others	seminar|special|in|true|false|false|false|false|false|false|false|false|NN
+in	others	in|seminar|digit|false|false|false|false|false|false|false|false|false|IN
+Digital	others	digit|in|map|true|false|false|false|false|false|false|false|false|NNP
+Mapping	others	map|digit|and|true|false|false|false|false|false|false|false|false|NN
+and	others	and|map|comput|false|false|false|false|false|false|false|false|false|CC
+Computer	others	comput|and|vision|true|false|false|false|false|false|false|false|false|NN
+Vision	others	vision|comput|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Speaker	others	speaker|_start_|professor|true|false|false|false|false|false|false|false|false|NNP
+Professor	speaker	professor|speaker|franz|true|false|false|false|false|true|false|false|false|NNP
+Franz	speaker	franz|professor|leberl|true|false|false|false|false|true|false|false|false|NNP
+Leberl	speaker	leberl|franz|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+Department	others	depart|_start_|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|depart|photogrammetri|false|false|false|false|false|false|false|false|false|IN
+Photogrammetry	others	photogrammetri|of|and|true|false|false|false|false|false|false|false|false|NNP
+and	others	and|photogrammetri|comput|false|false|false|false|false|false|false|false|false|CC
+Computer	others	comput|and|graphic|true|false|false|false|false|false|false|false|false|NNP
+Graphics	others	graphic|comput|_end_|true|false|false|false|false|false|false|false|false|NNPS
+
+Technical	others	technic|_start_|univers|true|false|false|false|false|false|false|false|false|NNP
+University	others	univers|technic|graz|true|false|false|false|false|false|false|false|false|NNP
+Graz	others	graz|univers|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Austria	others	austria|_start_|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Date	others	date|_start_|tuesdai|true|false|false|false|false|false|false|false|false|NN
+Tuesday	others	tuesdai|date|novemb|true|false|false|false|false|false|false|false|true|NNP
+November	others	novemb|tuesdai|10|true|false|false|false|false|false|false|false|true|NNP
+10	others	10|novemb|_end_|false|false|false|false|false|false|false|false|true|CD
+
+Time	others	time|_start_|3:30|true|false|false|false|false|false|false|false|false|NNP
+3:30	stime	3:30|time|5:00|false|false|false|false|false|false|true|false|false|CD
+5:00	etime	5:00|3:30|pm|false|false|false|false|false|false|false|true|false|CD
+pm	etime	pm|5:00|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Place	others	place|_start_|wean|true|false|false|false|false|false|false|false|false|NN
+Wean	location	wean|place|hall|true|false|false|false|false|false|false|false|false|VB
+Hall	location	hall|wean|4625|true|false|false|false|false|false|false|false|false|NNP
+4625	location	4625|hall|_end_|false|false|false|false|false|false|false|false|false|CD
+
+Title	others	titl|_start_|radargrammetr|true|false|false|false|false|false|false|false|false|NN
+Radargrammetric	others	radargrammetr|titl|process|true|false|false|false|false|false|false|false|false|NNP
+Processing	others	process|radargrammetr|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|process|magellan|false|false|false|false|false|false|false|false|false|IN
+Magellan	others	magellan|of|imag|true|false|false|false|false|false|false|false|false|NNP
+Images	others	imag|magellan|of|true|false|false|false|false|false|false|false|false|NNPS
+of	others	of|imag|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|of|planet|false|false|false|false|false|false|false|false|false|DT
+Planet	others	planet|the|venu|true|false|false|false|false|false|false|false|false|NN
+Venus	others	venu|planet|_end_|true|false|false|false|false|false|false|false|false|NNP
+

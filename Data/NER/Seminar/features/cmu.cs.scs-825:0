@@ -1,0 +1,236 @@
+Type	others	type|_start_|cmu|true|false|false|false|false|false|false|false|false|NN
+cmu	others	cmu|type|c|false|false|false|false|false|false|false|false|false|NN
+cs	others	c|cmu|sc|false|false|false|false|false|false|false|false|false|NNS
+scs	others	sc|c|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+Who	others	who|_start_|lesli|true|false|false|false|false|false|false|false|false|WP
+Leslie	speaker	lesli|who|lamport|true|false|false|false|false|true|false|false|false|NNP
+Lamport	speaker	lamport|lesli|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+Digital	others	digit|_start_|equip|true|false|false|false|false|false|false|false|false|NNP
+Equipment	others	equip|digit|corpor|true|false|false|false|false|false|false|false|false|NNP
+Corporation	others	corpor|equip|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Systems	others	system|_start_|research|true|false|false|false|false|false|false|false|false|NNP
+Research	others	research|system|center|true|false|false|false|false|false|false|false|false|NNP
+Center	others	center|research|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Topic	others	topic|_start_|the|true|false|false|false|false|false|false|false|false|NN
+The	others	the|topic|tempor|true|false|false|false|false|false|false|false|false|DT
+Temporal	others	tempor|the|logic|true|false|false|false|false|false|false|false|false|JJ
+Logic	others	logic|tempor|of|true|false|false|false|false|false|false|false|false|NN
+of	others	of|logic|action|false|false|false|false|false|false|false|false|false|IN
+Actions	others	action|of|_end_|true|false|false|false|false|false|false|false|false|NNS
+
+Dates	others	date|_start_|28-apr-92|true|false|false|false|false|false|false|false|false|NNS
+28-Apr-92	others	28-apr-92|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|3:30|true|false|false|false|false|false|false|false|false|NNP
+3:30	stime	3:30|time|pm|false|false|false|false|false|false|false|false|false|CD
+PM	stime	pm|3:30|_end_|false|true|false|true|false|false|false|false|false|NN
+
+Place	others	place|_start_|wean|true|false|false|false|false|false|false|false|false|NN
+Wean	location	wean|place|hall|true|false|false|false|false|false|false|false|false|VB
+Hall	location	hall|wean|4623|true|false|false|false|false|false|false|false|false|NNP
+4623	location	4623|hall|_end_|false|false|false|false|false|false|false|false|false|CD
+
+PostedBy	others	postedbi|_start_|lydium|false|false|false|false|true|false|false|false|false|NNP
+lydia	others	lydium|postedbi|on|false|false|false|false|false|false|false|false|false|NN
+on	others	on|lydium|21-apr-92|false|false|false|false|false|false|false|false|false|IN
+21-Apr-92	others	21-apr-92|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|21-apr-92|11:15|false|false|false|false|false|false|false|false|false|IN
+11:15	others	11:15|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|11:15|proof.ergo.cs.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+PROOF.ERGO.CS.CMU.EDU	others	proof.ergo.cs.cmu.edu|from|-lrb-|false|false|false|false|false|false|false|false|false|NN
+-LRB-	others	-lrb-|proof.ergo.cs.cmu.edu|lydia|false|false|false|false|false|false|false|false|false|-LRB-
+Lydia	others	lydia|-lrb-|defilippo|true|false|false|false|false|true|false|false|false|NNP
+Defilippo	others	defilippo|lydia|-rrb-|true|false|false|false|false|true|false|false|false|NNP
+-RRB-	others	-rrb-|defilippo|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+SPECIAL	others	special|_start_|seminar|false|true|false|true|false|false|false|false|false|JJ
+SEMINAR	others	seminar|special|_end_|false|true|false|true|false|false|false|false|false|NN
+
+Speaker	others	speaker|_start_|lesli|true|false|false|false|false|false|false|false|false|NNP
+Leslie	speaker	lesli|speaker|lamport|true|false|false|false|false|true|false|false|false|NNP
+Lamport	speaker	lamport|lesli|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+Digital	others	digit|_start_|equip|true|false|false|false|false|false|false|false|false|NNP
+Equipment	others	equip|digit|corpor|true|false|false|false|false|false|false|false|false|NNP
+Corporation	others	corpor|equip|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Systems	others	system|_start_|research|true|false|false|false|false|false|false|false|false|NNP
+Research	others	research|system|center|true|false|false|false|false|false|false|false|false|NNP
+Center	others	center|research|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Date	others	date|_start_|tuesdai|true|false|false|false|false|false|false|false|false|NN
+Tuesday	others	tuesdai|date|april|true|false|false|false|false|false|false|false|true|NNP
+April	others	april|tuesdai|28|true|false|false|false|false|false|false|false|true|NNP
+28	others	28|april|_end_|false|false|false|false|false|false|false|false|true|CD
+
+Time	others	time|_start_|3:30|true|false|false|false|false|false|false|false|false|NNP
+3:30	stime	3:30|time|pm|false|false|false|false|false|false|false|false|false|CD
+pm	stime	pm|3:30|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Place	others	place|_start_|wean|true|false|false|false|false|false|false|false|false|NN
+Wean	location	wean|place|hall|true|false|false|false|false|false|false|false|false|VB
+Hall	location	hall|wean|4623|true|false|false|false|false|false|false|false|false|NNP
+4623	location	4623|hall|_end_|false|false|false|false|false|false|false|false|false|CD
+
+Topic	others	topic|_start_|the|true|false|false|false|false|false|false|false|false|NN
+The	others	the|topic|tempor|true|false|false|false|false|false|false|false|false|DT
+Temporal	others	tempor|the|logic|true|false|false|false|false|false|false|false|false|JJ
+Logic	others	logic|tempor|of|true|false|false|false|false|false|false|false|false|NN
+of	others	of|logic|action|false|false|false|false|false|false|false|false|false|IN
+Actions	others	action|of|_end_|true|false|false|false|false|false|false|false|false|NNS
+
+Traditional	others	tradit|_start_|verif|true|false|false|false|false|false|false|false|false|JJ
+verification	others	verif|tradit|emploi|false|false|false|false|false|false|false|false|false|NN
+employs	others	emploi|verif|a|false|false|false|false|false|false|false|false|false|VBZ
+a	others	a|emploi|program|false|false|false|false|false|false|false|false|false|DT
+programming	others	program|a|languag|false|false|false|false|false|false|false|false|false|NN
+language	others	languag|program|for|false|false|false|false|false|false|false|false|false|NN
+for	others	for|languag|write|false|false|false|false|false|false|false|false|false|IN
+writing	others	write|for|the|false|false|false|false|false|false|false|false|false|VBG
+the	others	the|write|_end_|false|false|false|false|false|false|false|false|false|DT
+
+program	others	program|_start_|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|program|a|false|false|false|false|false|false|false|false|false|CC
+a	others	a|and|logic|false|false|false|false|false|false|false|false|false|DT
+logic	others	logic|a|for|false|false|false|false|false|false|false|false|false|NN
+for	others	for|logic|express|false|false|false|false|false|false|false|false|false|IN
+expressing	others	express|for|it|false|false|false|false|false|false|false|false|false|VBG
+its	others	it|express|properti|false|false|false|false|false|false|false|false|false|PRP$
+properties	others	properti|it|when|false|false|false|false|false|false|false|false|false|NNS
+When	others	when|properti|verifi|true|false|false|false|false|false|false|false|false|WRB
+verifying	others	verifi|when|_end_|false|false|false|false|false|false|false|false|false|VBG
+
+concurrent	others	concurr|_start_|program|false|false|false|false|false|false|false|false|false|JJ
+programs	others	program|concurr|we|false|false|false|false|false|false|false|false|false|NNS
+we	others	we|program|reason|false|false|false|false|false|false|false|false|false|PRP
+reason	others	reason|we|about|false|false|false|false|false|false|false|false|false|VBP
+about	others	about|reason|a|false|false|false|false|false|false|false|false|false|IN
+an	others	a|about|abstract|false|false|false|false|false|false|false|false|false|DT
+abstract	others	abstract|a|program|false|false|false|false|false|false|false|false|false|JJ
+program	others	program|abstract|that|false|false|false|false|false|false|false|false|false|NN
+that	others	that|program|be|false|false|false|false|false|false|false|false|false|WDT
+is	others	be|that|not|false|false|false|false|false|false|false|false|false|VBZ
+not	others	not|be|mean|false|false|false|false|false|false|false|false|false|RB
+meant	others	mean|not|_end_|false|false|false|false|false|false|false|false|false|VBN
+
+to	others	to|_start_|be|false|false|false|false|false|false|false|false|false|TO
+be	others	be|to|directli|false|false|false|false|false|false|false|false|false|VB
+directly	others	directli|be|compil|false|false|false|false|false|false|false|false|false|RB
+compiled	others	compil|directli|and|false|false|false|false|false|false|false|false|false|VBN
+and	others	and|compil|execut|false|false|false|false|false|false|false|false|false|CC
+executed	others	execut|and|so|false|false|false|false|false|false|false|false|false|VBN
+so	others	so|execut|we|false|false|false|false|false|false|false|false|false|IN
+we	others	we|so|do|false|false|false|false|false|false|false|false|false|PRP
+do	others	do|we|not|false|false|false|false|false|false|false|false|false|VBP
+n't	others	not|do|have|false|false|false|false|false|false|false|false|false|RB
+have	others	have|not|to|false|false|false|false|false|false|false|false|false|VB
+to	others	to|have|us|false|false|false|false|false|false|false|false|false|TO
+use	others	us|to|a|false|false|false|false|false|false|false|false|false|VB
+a	others	a|us|program|false|false|false|false|false|false|false|false|false|DT
+programming	others	program|a|_end_|false|false|false|false|false|false|false|false|false|NN
+
+language	others	languag|_start_|contrari|false|false|false|false|false|false|false|false|false|NN
+Contrary	others	contrari|languag|to|true|false|false|false|false|false|false|false|false|JJ
+to	others	to|contrari|what|false|false|false|false|false|false|false|false|false|TO
+what	others	what|to|on|false|false|false|false|false|false|false|false|false|WP
+one	others	on|what|might|false|false|false|false|false|false|false|false|false|PRP
+might	others	might|on|conclud|false|false|false|false|false|false|false|false|false|MD
+conclude	others	conclud|might|from|false|false|false|false|false|false|false|false|false|VB
+from	others	from|conclud|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|from|literatur|false|false|false|false|false|false|false|false|false|DT
+literature	others	literatur|the|logic|false|false|false|false|false|false|false|false|false|NN
+logic	others	logic|literatur|_end_|false|false|false|false|false|false|false|false|false|NN
+
+can	others	can|_start_|be|false|false|false|false|false|false|false|false|false|MD
+be	others	be|can|simpler|false|false|false|false|false|false|false|false|false|VB
+simpler	others	simpler|be|than|false|false|false|false|false|false|false|false|false|JJR
+than	others	than|simpler|program|false|false|false|false|false|false|false|false|false|IN
+programming	others	program|than|languag|false|false|false|false|false|false|false|false|false|NN
+languages	others	languag|program|with|false|false|false|false|false|false|false|false|false|NNS
+With	others	with|languag|the|true|false|false|false|false|false|false|false|false|IN
+the	others	the|with|right|false|false|false|false|false|false|false|false|false|DT
+right	others	right|the|logic|false|false|false|false|false|false|false|false|false|JJ
+logic	others	logic|right|it|false|false|false|false|false|false|false|false|false|NN
+it	others	it|logic|be|false|false|false|false|false|false|false|false|false|PRP
+is	others	be|it|_end_|false|false|false|false|false|false|false|false|false|VBZ
+
+easy	others	easi|_start_|to|false|false|false|false|false|false|false|false|false|JJ
+to	others	to|easi|express|false|false|false|false|false|false|false|false|false|TO
+express	others	express|to|a|false|false|false|false|false|false|false|false|false|VB
+a	others	a|express|program|false|false|false|false|false|false|false|false|false|DT
+program	others	program|a|as|false|false|false|false|false|false|false|false|false|NN
+as	others	as|program|a|false|false|false|false|false|false|false|false|false|IN
+a	others	a|as|logic|false|false|false|false|false|false|false|false|false|DT
+logical	others	logic|a|formulum|false|false|false|false|false|false|false|false|false|JJ
+formula	others	formulum|logic|the|false|false|false|false|false|false|false|false|false|NN
+The	others	the|formulum|distinct|true|false|false|false|false|false|false|false|false|DT
+distinction	others	distinct|the|between|false|false|false|false|false|false|false|false|false|NN
+between	others	between|distinct|_end_|false|false|false|false|false|false|false|false|false|IN
+
+properties	others	properti|_start_|and|false|false|false|false|false|false|false|false|false|NNS
+and	others	and|properti|program|false|false|false|false|false|false|false|false|false|CC
+programs	others	program|and|then|false|false|false|false|false|false|false|false|false|NNS
+then	others	then|program|vanish|false|false|false|false|false|false|false|false|false|RB
+vanishes	others	vanish|then|and|false|false|false|false|false|false|false|false|false|VBZ
+and	others	and|vanish|specif|false|false|false|false|false|false|false|false|false|CC
+specifications	others	specif|and|can|false|false|false|false|false|false|false|false|false|NNS
+can	others	can|specif|be|false|false|false|false|false|false|false|false|false|MD
+be	others	be|can|write|false|false|false|false|false|false|false|false|false|VB
+written	others	write|be|_end_|false|false|false|false|false|false|false|false|false|VBN
+
+as	others	as|_start_|simpl|false|false|false|false|false|false|false|false|false|IN
+simple	others	simpl|as|program|false|false|false|false|false|false|false|false|false|JJ
+programs	others	program|simpl|prove|false|false|false|false|false|false|false|false|false|NNS
+Proving	others	prove|program|that|true|false|false|false|false|false|false|false|false|VBG
+that	others	that|prove|on|false|false|false|false|false|false|false|false|false|IN
+one	others	on|that|program|false|false|false|false|false|false|false|false|false|CD
+program	others	program|on|implement|false|false|false|false|false|false|false|false|false|NN
+implements	others	implement|program|anoth|false|false|false|false|false|false|false|false|false|VBZ
+another	others	anoth|implement|be|false|false|false|false|false|false|false|false|false|DT
+is	others	be|anoth|no|false|false|false|false|false|false|false|false|false|VBZ
+no	others	no|be|_end_|false|false|false|false|false|false|false|false|false|DT
+
+different	others	differ|_start_|from|false|false|false|false|false|false|false|false|false|JJ
+from	others	from|differ|prove|false|false|false|false|false|false|false|false|false|IN
+proving	others	prove|from|that|false|false|false|false|false|false|false|false|false|VBG
+that	others	that|prove|a|false|false|false|false|false|false|false|false|false|IN
+a	others	a|that|program|false|false|false|false|false|false|false|false|false|DT
+program	others	program|a|satisfi|false|false|false|false|false|false|false|false|false|NN
+satisfies	others	satisfi|program|a|false|false|false|false|false|false|false|false|false|VBZ
+a	others	a|satisfi|properti|false|false|false|false|false|false|false|false|false|DT
+property	others	properti|a|_end_|false|false|false|false|false|false|false|false|false|NN
+
+The	others	the|_start_|tempor|true|false|false|false|false|false|false|false|false|DT
+temporal	others	tempor|the|logic|false|false|false|false|false|false|false|false|false|JJ
+logic	others	logic|tempor|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|logic|action|false|false|false|false|false|false|false|false|false|IN
+actions	others	action|of|be|false|false|false|false|false|false|false|false|false|NNS
+is	others	be|action|the|false|false|false|false|false|false|false|false|false|VBZ
+the	others	the|be|right|false|false|false|false|false|false|false|false|false|DT
+right	others	right|the|logic|false|false|false|false|false|false|false|false|false|JJ
+logic	others	logic|right|it|false|false|false|false|false|false|false|false|false|NN
+It	others	it|logic|provid|true|false|false|false|false|false|false|false|false|PRP
+provides	others	provid|it|a|false|false|false|false|false|false|false|false|false|VBZ
+a	others	a|provid|tool|false|false|false|false|false|false|false|false|false|DT
+tool	others	tool|a|that|false|false|false|false|false|false|false|false|false|NN
+that	others	that|tool|_end_|false|false|false|false|false|false|false|false|false|WDT
+
+can	others	can|_start_|help|false|false|false|false|false|false|false|false|false|MD
+help	others	help|can|we|false|false|false|false|false|false|false|false|false|VB
+us	others	we|help|cope|false|false|false|false|false|false|false|false|false|PRP
+cope	others	cope|we|with|false|false|false|false|false|false|false|false|false|VB
+with	others	with|cope|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|with|complex|false|false|false|false|false|false|false|false|false|DT
+complexity	others	complex|the|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|complex|verifi|false|false|false|false|false|false|false|false|false|IN
+verifying	others	verifi|of|real|false|false|false|false|false|false|false|false|false|VBG
+real	others	real|verifi|concurr|false|false|false|false|false|false|false|false|false|JJ
+concurrent	others	concurr|real|algorithm|false|false|false|false|false|false|false|false|false|JJ
+algorithms	others	algorithm|concurr|_end_|false|false|false|false|false|false|false|false|false|NNS
+

@@ -1,0 +1,250 @@
+Type	others	type|_start_|cmu|true|false|false|false|false|false|false|false|false|NN
+cmu	others	cmu|type|c|false|false|false|false|false|false|false|false|false|NN
+cs	others	c|cmu|sc|false|false|false|false|false|false|false|false|false|NNS
+scs	others	sc|c|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+Topic	others	topic|_start_|theori|true|false|false|false|false|false|false|false|false|NN
+THEORY	others	theori|topic|seminar|false|true|false|true|false|false|false|false|false|NN
+SEMINAR	others	seminar|theori|_end_|false|true|false|true|false|false|false|false|false|NN
+
+Dates	others	date|_start_|10-feb-95|true|false|false|false|false|false|false|false|false|NNS
+10-Feb-95	others	10-feb-95|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|3:30|true|false|false|false|false|false|false|false|false|NNP
+3:30	stime	3:30|time|5:00|false|false|false|false|false|false|true|false|false|CD
+5:00	etime	5:00|3:30|_end_|false|false|false|false|false|false|false|true|false|CD
+
+Host	others	host|_start_|avrim|true|false|false|false|false|false|false|false|false|NN
+Avrim	others	avrim|host|blum|true|false|false|false|false|true|false|false|false|NNP
+Blum	others	blum|avrim|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+PostedBy	others	postedbi|_start_|daz|false|false|false|false|true|false|false|false|false|NNP
+daz	others	daz|postedbi|on|false|false|false|false|false|false|false|false|false|NN
+on	others	on|daz|7-feb-95|false|false|false|false|false|false|false|false|false|IN
+7-Feb-95	others	7-feb-95|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|7-feb-95|09:55|false|false|false|false|false|false|false|false|false|IN
+09:55	others	09:55|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|09:55|amm.adm.cs.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+AMM.ADM.CS.CMU.EDU	others	amm.adm.cs.cmu.edu|from|-lrb-|false|false|false|false|false|false|false|false|false|NNP
+-LRB-	others	-lrb-|amm.adm.cs.cmu.edu|dorothi|false|false|false|false|false|false|false|false|false|-LRB-
+Dorothy	others	dorothi|-lrb-|a|true|false|false|false|false|false|false|false|false|NNP
+A	others	a|dorothi|zaborowski|false|false|true|true|false|false|false|false|false|NNP
+Zaborowski	others	zaborowski|a|-rrb-|true|false|false|false|false|false|false|false|false|NNP
+-RRB-	others	-rrb-|zaborowski|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+Friday	others	fridai|_start_|februari|true|false|false|false|false|false|false|false|true|NNP
+February	others	februari|fridai|10|true|false|false|false|false|false|false|false|true|NNP
+10	others	10|februari|1995|false|false|false|false|false|false|false|false|true|CD
+1995	others	1995|10|_end_|false|false|false|false|false|false|false|false|true|CD
+
+Size-Estimation	others	size-estim|_start_|framework|false|false|false|false|false|false|false|false|false|NNP
+Framework	others	framework|size-estim|with|true|false|false|false|false|false|false|false|false|NN
+with	others	with|framework|applic|false|false|false|false|false|false|false|false|false|IN
+Applications	others	applic|with|_end_|true|false|false|false|false|false|false|false|false|NNS
+
+to	others	to|_start_|transit|false|false|false|false|false|false|false|false|false|TO
+Transitive	others	transit|to|closur|true|false|false|false|false|false|false|false|false|JJ
+Closure	others	closur|transit|and|true|false|false|false|false|false|false|false|false|NN
+and	others	and|closur|reachabl|false|false|false|false|false|false|false|false|false|CC
+Reachability	others	reachabl|and|_end_|true|false|false|false|false|false|false|false|false|NN
+
+AT	others	at|_start_|t|false|true|false|true|false|false|false|false|false|IN
+T	others	t|at|bell|false|false|true|true|false|false|false|false|false|NN
+Bell	others	bell|t|laboratori|true|false|false|false|false|false|false|false|false|NNP
+Laboratories	others	laboratori|bell|_end_|true|false|false|false|false|false|false|false|false|NNPS
+
+Computing	others	comput|_start_|transit|true|false|false|false|false|false|false|false|false|NNP
+transitive	others	transit|comput|closur|false|false|false|false|false|false|false|false|false|JJ
+closure	others	closur|transit|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|closur|reachabl|false|false|false|false|false|false|false|false|false|CC
+reachability	others	reachabl|and|inform|false|false|false|false|false|false|false|false|false|NN
+information	others	inform|reachabl|in|false|false|false|false|false|false|false|false|false|NN
+in	others	in|inform|direct|false|false|false|false|false|false|false|false|false|IN
+directed	others	direct|in|_end_|false|false|false|false|false|false|false|false|false|VBN
+
+graphs	others	graph|_start_|be|false|false|false|false|false|false|false|false|false|NNS
+is	others	be|graph|a|false|false|false|false|false|false|false|false|false|VBZ
+a	others	a|be|fundament|false|false|false|false|false|false|false|false|false|DT
+fundamental	others	fundament|a|graph|false|false|false|false|false|false|false|false|false|JJ
+graph	others	graph|fundament|problem|false|false|false|false|false|false|false|false|false|NN
+problem	others	problem|graph|with|false|false|false|false|false|false|false|false|false|NN
+with	others	with|problem|mani|false|false|false|false|false|false|false|false|false|IN
+many	others	mani|with|applic|false|false|false|false|false|false|false|false|false|JJ
+applications	others	applic|mani|the|false|false|false|false|false|false|false|false|false|NNS
+The	others	the|applic|_end_|true|false|false|false|false|false|false|false|false|DT
+
+fastest	others	fastest|_start_|know|false|false|false|false|false|false|false|false|false|JJS
+known	others	know|fastest|algorithm|false|false|false|false|false|false|false|false|false|VBN
+algorithms	others	algorithm|know|run|false|false|false|false|false|false|false|false|false|NNS
+run	others	run|algorithm|in|false|false|false|false|false|false|false|false|false|VBP
+in	others	in|run|o|false|false|false|false|false|false|false|false|false|IN
+O	others	o|in|-lrb-|false|false|true|true|false|false|false|false|false|CD
+-LRB-	others	-lrb-|o|min|false|false|false|false|false|false|false|false|false|-LRB-
+min	others	min|-lrb-|-lrb-|false|false|false|false|false|false|false|false|false|NN
+-LRB-	others	-lrb-|min|mn|false|false|false|false|false|false|false|false|false|-LRB-
+mn	others	mn|-lrb-|n|false|false|false|false|false|false|false|false|false|NN
+n	others	n|mn|-lcb-|false|false|false|false|false|false|false|false|false|NN
+-LCB-	others	-lcb-|n|2.38|false|false|false|false|false|false|false|false|false|-LRB-
+2.38	others	2.38|-lcb-|-rcb-|false|false|false|false|false|false|false|false|false|CD
+-RCB-	others	-rcb-|2.38|-rrb-|false|false|false|false|false|false|false|false|false|-RRB-
+-RRB-	others	-rrb-|-rcb-|time|false|false|false|false|false|false|false|false|false|-RRB-
+time	others	time|-rrb-|where|false|false|false|false|false|false|false|false|false|NN
+where	others	where|time|n|false|false|false|false|false|false|false|false|false|WRB
+n	others	n|where|_end_|false|false|false|false|false|false|false|false|false|NN
+
+is	others	be|_start_|the|false|false|false|false|false|false|false|false|false|VBZ
+the	others	the|be|number|false|false|false|false|false|false|false|false|false|DT
+number	others	number|the|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|number|node|false|false|false|false|false|false|false|false|false|IN
+nodes	others	node|of|and|false|false|false|false|false|false|false|false|false|NNS
+and	others	and|node|m|false|false|false|false|false|false|false|false|false|CC
+m	others	m|and|the|false|false|false|false|false|false|false|false|false|NN
+the	others	the|m|number|false|false|false|false|false|false|false|false|false|DT
+number	others	number|the|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|number|edg|false|false|false|false|false|false|false|false|false|IN
+edges	others	edg|of|in|false|false|false|false|false|false|false|false|false|NNS
+in	others	in|edg|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|in|graph|false|false|false|false|false|false|false|false|false|DT
+graph	others	graph|the|it|false|false|false|false|false|false|false|false|false|NN
+It	others	it|graph|_end_|true|false|false|false|false|false|false|false|false|PRP
+
+is	others	be|_start_|often|false|false|false|false|false|false|false|false|false|VBZ
+often	others	often|be|the|false|false|false|false|false|false|false|false|false|RB
+the	others	the|often|case|false|false|false|false|false|false|false|false|false|DT
+case	others	case|the|that|false|false|false|false|false|false|false|false|false|NN
+that	others	that|case|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|that|aim|false|false|false|false|false|false|false|false|false|DT
+aim	others	aim|the|be|false|false|false|false|false|false|false|false|false|NN
+is	others	be|aim|to|false|false|false|false|false|false|false|false|false|VBZ
+to	others	to|be|comput|false|false|false|false|false|false|false|false|false|TO
+compute	others	comput|to|the|false|false|false|false|false|false|false|false|false|VB
+the	others	the|comput|size|false|false|false|false|false|false|false|false|false|DT
+size	others	size|the|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|size|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|of|_end_|false|false|false|false|false|false|false|false|false|DT
+
+transitive	others	transit|_start_|closur|false|false|false|false|false|false|false|false|false|JJ
+closure	others	closur|transit|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|closur|the|false|false|false|false|false|false|false|false|false|CC
+the	others	the|and|number|false|false|false|false|false|false|false|false|false|DT
+number	others	number|the|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|number|node|false|false|false|false|false|false|false|false|false|IN
+nodes	others	node|of|reachabl|false|false|false|false|false|false|false|false|false|NNS
+reachable	others	reachabl|node|from|false|false|false|false|false|false|false|false|false|JJ
+from	others	from|reachabl|certain|false|false|false|false|false|false|false|false|false|IN
+certain	others	certain|from|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+nodes	others	node|_start_|rather|false|false|false|false|false|false|false|false|false|NNS
+rather	others	rather|node|than|false|false|false|false|false|false|false|false|false|RB
+than	others	than|rather|comput|false|false|false|false|false|false|false|false|false|IN
+computing	others	comput|than|thei|false|false|false|false|false|false|false|false|false|VBG
+them	others	thei|comput|explicitli|false|false|false|false|false|false|false|false|false|PRP
+explicitly	others	explicitli|thei|exampl|false|false|false|false|false|false|false|false|false|RB
+Examples	others	exampl|explicitli|of|true|false|false|false|false|false|false|false|false|NNS
+of	others	of|exampl|potenti|false|false|false|false|false|false|false|false|false|IN
+potential	others	potenti|of|_end_|false|false|false|false|false|false|false|false|false|NN
+
+applications	others	applic|_start_|be|false|false|false|false|false|false|false|false|false|NNS
+are	others	be|applic|databas|false|false|false|false|false|false|false|false|false|VBP
+database	others	databas|be|queri|false|false|false|false|false|false|false|false|false|NN
+query	others	queri|databas|optim|false|false|false|false|false|false|false|false|false|NN
+optimization	others	optim|queri|or|false|false|false|false|false|false|false|false|false|NN
+or	others	or|optim|optim|false|false|false|false|false|false|false|false|false|CC
+optimizing	others	optim|or|_end_|false|false|false|false|false|false|false|false|false|VBG
+
+multiplications	others	multipl|_start_|of|false|false|false|false|false|false|false|false|false|NNS
+of	others	of|multipl|larg|false|false|false|false|false|false|false|false|false|IN
+large	others	larg|of|real-valu|false|false|false|false|false|false|false|false|false|JJ
+real-valued	others	real-valu|larg|matrix|false|false|false|false|false|false|false|false|false|JJ
+matrices	others	matrix|real-valu|we|false|false|false|false|false|false|false|false|false|NNS
+We	others	we|matrix|present|true|false|false|false|false|false|false|false|false|PRP
+present	others	present|we|a|false|false|false|false|false|false|false|false|false|VBP
+an	others	a|present|o|false|false|false|false|false|false|false|false|false|DT
+O	others	o|a|-lrb-|false|false|true|true|false|false|false|false|false|CD
+-LRB-	others	-lrb-|o|m|false|false|false|false|false|false|false|false|false|-LRB-
+m	others	m|-lrb-|-rrb-|false|false|false|false|false|false|false|false|false|NN
+-RRB-	others	-rrb-|m|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+time	others	time|_start_|random|false|false|false|false|false|false|false|false|false|NN
+randomized	others	random|time|algorithm|false|false|false|false|false|false|false|false|false|VBD
+algorithm	others	algorithm|random|that|false|false|false|false|false|false|false|false|false|NN
+that	others	that|algorithm|estim|false|false|false|false|false|false|false|false|false|IN
+estimates	others	estim|that|the|false|false|false|false|false|false|false|false|false|VBZ
+the	others	the|estim|number|false|false|false|false|false|false|false|false|false|DT
+number	others	number|the|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|number|node|false|false|false|false|false|false|false|false|false|IN
+nodes	others	node|of|reachabl|false|false|false|false|false|false|false|false|false|NNS
+reachable	others	reachabl|node|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+from	others	from|_start_|everi|false|false|false|false|false|false|false|false|false|IN
+every	others	everi|from|node|false|false|false|false|false|false|false|false|false|DT
+node	others	node|everi|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|node|the|false|false|false|false|false|false|false|false|false|CC
+the	others	the|and|size|false|false|false|false|false|false|false|false|false|DT
+size	others	size|the|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|size|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|of|transit|false|false|false|false|false|false|false|false|false|DT
+transitive	others	transit|the|closur|false|false|false|false|false|false|false|false|false|JJ
+closure	others	closur|transit|anoth|false|false|false|false|false|false|false|false|false|NN
+Another	others	anoth|closur|_end_|true|false|false|false|false|false|false|false|false|DT
+
+ramification	others	ramif|_start_|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|ramif|we|false|false|false|false|false|false|false|false|false|IN
+our	others	we|of|estim|false|false|false|false|false|false|false|false|false|PRP$
+estimation	others	estim|we|scheme|false|false|false|false|false|false|false|false|false|NN
+scheme	others	scheme|estim|be|false|false|false|false|false|false|false|false|false|NN
+is	others	be|scheme|a|false|false|false|false|false|false|false|false|false|VBZ
+a	others	a|be|tild|false|false|false|false|false|false|false|false|false|DT
+tilde	others	tild|a|-lcb-|false|false|false|false|false|false|false|false|false|NN
+-LCB-	others	-lcb-|tild|o|false|false|false|false|false|false|false|false|false|-LRB-
+O	others	o|-lcb-|-rcb-|false|false|true|true|false|false|false|false|false|NN
+-RCB-	others	-rcb-|o|-lrb-|false|false|false|false|false|false|false|false|false|-RRB-
+-LRB-	others	-lrb-|-rcb-|m|false|false|false|false|false|false|false|false|false|-LRB-
+m	others	m|-lrb-|-rrb-|false|false|false|false|false|false|false|false|false|NN
+-RRB-	others	-rrb-|m|time|false|false|false|false|false|false|false|false|false|-RRB-
+time	others	time|-rrb-|_end_|false|false|false|false|false|false|false|false|false|NN
+
+algorithm	others	algorithm|_start_|for|false|false|false|false|false|false|false|false|false|NN
+for	others	for|algorithm|estim|false|false|false|false|false|false|false|false|false|IN
+estimating	others	estim|for|size|false|false|false|false|false|false|false|false|false|VBG
+sizes	others	size|estim|of|false|false|false|false|false|false|false|false|false|NNS
+of	others	of|size|neighborhood|false|false|false|false|false|false|false|false|false|IN
+neighborhoods	others	neighborhood|of|in|false|false|false|false|false|false|false|false|false|NNS
+in	others	in|neighborhood|direct|false|false|false|false|false|false|false|false|false|IN
+directed	others	direct|in|graph|false|false|false|false|false|false|false|false|false|VBN
+graphs	others	graph|direct|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+with	others	with|_start_|nonneg|false|false|false|false|false|false|false|false|false|IN
+nonnegative	others	nonneg|with|weight|false|false|false|false|false|false|false|false|false|JJ
+weights	others	weight|nonneg|we|false|false|false|false|false|false|false|false|false|NNS
+Our	others	we|weight|size-estim|true|false|false|false|false|false|false|false|false|PRP$
+size-estimation	others	size-estim|we|algorithm|false|false|false|false|false|false|false|false|false|NN
+algorithms	others	algorithm|size-estim|be|false|false|false|false|false|false|false|false|false|NNS
+are	others	be|algorithm|much|false|false|false|false|false|false|false|false|false|VBP
+much	others	much|be|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+faster	others	faster|_start_|than|false|false|false|false|false|false|false|false|false|JJR
+than	others	than|faster|perform|false|false|false|false|false|false|false|false|false|IN
+performing	others	perform|than|the|false|false|false|false|false|false|false|false|false|VBG
+the	others	the|perform|respect|false|false|false|false|false|false|false|false|false|DT
+respective	others	respect|the|explicit|false|false|false|false|false|false|false|false|false|JJ
+explicit	others	explicit|respect|comput|false|false|false|false|false|false|false|false|false|JJ
+computations	others	comput|explicit|and|false|false|false|false|false|false|false|false|false|NNS
+and	others	and|comput|_end_|false|false|false|false|false|false|false|false|false|CC
+
+improve	others	improv|_start_|significantli|false|false|false|false|false|false|false|false|false|VB
+significantly	others	significantli|improv|over|false|false|false|false|false|false|false|false|false|RB
+over	others	over|significantli|previou|false|false|false|false|false|false|false|false|false|IN
+previous	others	previou|over|estim|false|false|false|false|false|false|false|false|false|JJ
+estimation	others	estim|previou|method|false|false|false|false|false|false|false|false|false|NN
+methods	others	method|estim|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+Host	others	host|_start_|avrim|true|false|false|false|false|false|false|false|false|NN
+Avrim	others	avrim|host|blum|true|false|false|false|false|true|false|false|false|NNP
+Blum	others	blum|avrim|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+Appts	others	appt|_start_|daz@c|true|false|false|false|false|false|false|false|false|NNS
+daz@cs	others	daz@c|appt|_end_|false|false|false|false|false|false|false|false|false|NNS
+

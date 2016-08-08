@@ -1,0 +1,133 @@
+Type	others	type|_start_|cmu.andrew.org|true|false|false|false|false|false|false|false|false|NN
+cmu.andrew.org	others	cmu.andrew.org|type|heinz|false|false|false|false|false|false|false|false|false|NN
+heinz	others	heinz|cmu.andrew.org|defens|false|false|false|false|false|false|false|false|false|NN
+defense	others	defens|heinz|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Topic	others	topic|_start_|re|true|false|false|false|false|false|false|false|false|NN
+Re	others	re|topic|present|true|false|false|false|false|false|false|false|false|NNP
+presentation	others	present|re|on|false|false|false|false|false|false|false|false|false|NN
+on	others	on|present|21|false|false|false|false|false|false|false|false|false|IN
+21	others	21|on|march|false|false|false|false|false|false|false|false|true|CD
+March	others	march|21|_end_|true|false|false|false|false|false|false|false|true|NNP
+
+Dates	others	date|_start_|21-mar-94|true|false|false|false|false|false|false|false|false|NNS
+21-Mar-94	others	21-mar-94|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|3:30|true|false|false|false|false|false|false|false|false|NNP
+3:30	stime	3:30|time|_end_|false|false|false|false|false|false|false|false|false|CD
+
+PostedBy	others	postedbi|_start_|charl|false|false|false|false|true|false|false|false|false|NNP
+Charles	others	charl|postedbi|a|true|false|false|false|false|false|false|false|false|NNP
+A	others	a|charl|bill|false|false|true|true|false|false|false|false|false|NNP
+Billings	others	bill|a|on|true|false|false|false|false|false|false|false|false|NNS
+on	others	on|bill|18-mar-94|false|false|false|false|false|false|false|false|false|IN
+18-Mar-94	others	18-mar-94|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|18-mar-94|15:51|false|false|false|false|false|false|false|false|false|IN
+15:51	others	15:51|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|15:51|andrew.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+andrew.cmu.edu	others	andrew.cmu.edu|from|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+Sabina	others	sabina|_start_|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+The	others	the|_start_|mock|true|false|false|false|false|false|false|false|false|DT
+mock	others	mock|the|present|false|false|false|false|false|false|false|false|false|JJ
+presentation	others	present|mock|will|false|false|false|false|false|false|false|false|false|NN
+will	others	will|present|be|false|false|false|false|false|false|false|false|false|MD
+be	others	be|will|thi|false|false|false|false|false|false|false|false|false|VB
+this	others	thi|be|come|false|false|false|false|false|false|false|false|true|DT
+coming	others	come|thi|mondai|false|false|false|false|false|false|false|false|true|VBG
+Monday	others	mondai|come|march|true|false|false|false|false|false|false|false|true|NNP
+March	others	march|mondai|21st|true|false|false|false|false|false|false|false|true|NNP
+21st	others	21st|march|we|false|false|false|false|false|false|false|false|true|CD
+We	others	we|21st|will|true|false|false|false|false|false|false|false|false|PRP
+will	others	will|we|_end_|false|false|false|false|false|false|false|false|false|MD
+
+use	others	us|_start_|room|false|false|false|false|false|false|false|false|false|NN
+room	location	room|us|2110|false|false|false|false|false|false|false|false|false|NN
+2110	location	2110|room|in|false|false|false|false|false|false|false|false|true|CD
+in	location	in|2110|hamburg|false|false|false|false|false|false|false|false|false|IN
+Hamburg	location	hamburg|in|hall|true|false|false|false|false|false|false|false|false|NNP
+Hall	location	hall|hamburg|-lrb-|true|false|false|false|false|false|false|false|false|NNP
+-LRB-	others	-lrb-|hall|just|false|false|false|false|false|false|false|false|false|-LRB-
+just	others	just|-lrb-|down|false|false|false|false|false|false|false|false|false|RB
+down	others	down|just|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|down|hall|false|false|false|false|false|false|false|false|false|DT
+hall	others	hall|the|from|false|false|false|false|false|false|false|false|false|NN
+from	others	from|hall|ben|false|false|false|false|false|false|false|false|false|IN
+Ben	others	ben|from|and|true|false|false|false|false|true|false|false|false|NNP
+and	others	and|ben|_end_|false|false|false|false|false|false|false|false|false|CC
+
+Maryellen	others	maryellen|_start_|'s|true|false|false|false|false|true|false|false|false|NNP
+'s	others	's|maryellen|offic|false|false|false|false|false|false|false|false|false|POS
+offices	others	offic|'s|-rrb-|false|false|false|false|false|false|false|false|false|NNS
+-RRB-	others	-rrb-|offic|it|false|false|false|false|false|false|false|false|false|-RRB-
+It	others	it|-rrb-|will|true|false|false|false|false|false|false|false|false|PRP
+will	others	will|it|begin|false|false|false|false|false|false|false|false|false|MD
+begin	others	begin|will|at|false|false|false|false|false|false|false|false|false|VB
+at	others	at|begin|3:30|false|false|false|false|false|false|false|false|false|IN
+3:30	stime	3:30|at|and|false|false|false|false|false|false|false|false|false|CD
+and	others	and|3:30|run|false|false|false|false|false|false|false|false|false|CC
+run	others	run|and|until|false|false|false|false|false|false|false|false|false|VB
+until	others	until|run|around|false|false|false|false|false|false|false|false|false|IN
+around	others	around|until|5:00|false|false|false|false|false|false|false|false|false|IN
+5:00	etime	5:00|around|_end_|false|false|false|false|false|false|false|false|false|CD
+
+Our	others	we|_start_|idea|true|false|false|false|false|false|false|false|false|PRP$
+ideas	others	idea|we|be|false|false|false|false|false|false|false|false|false|NNS
+are	others	be|idea|not|false|false|false|false|false|false|false|false|false|VBP
+not	others	not|be|fulli|false|false|false|false|false|false|false|false|false|RB
+fully	others	fulli|not|form|false|false|false|false|false|false|false|false|false|RB
+formed	others	form|fulli|yet|false|false|false|false|false|false|false|false|false|VBN
+yet	others	yet|form|but|false|false|false|false|false|false|false|false|false|RB
+but	others	but|yet|we|false|false|false|false|false|false|false|false|false|CC
+we	others	we|but|will|false|false|false|false|false|false|false|false|false|PRP
+will	others	will|we|present|false|false|false|false|false|false|false|false|false|MD
+present	others	present|will|we|false|false|false|false|false|false|false|false|false|VB
+our	others	we|present|first|false|false|false|false|false|false|false|false|false|PRP$
+first	others	first|we|cut|false|false|false|false|false|false|false|false|false|JJ
+cut	others	cut|first|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|cut|_end_|false|false|false|false|false|false|false|false|false|IN
+
+case	others	case|_start_|studi|false|false|false|false|false|false|false|false|false|NN
+studies	others	studi|case|of|false|false|false|false|false|false|false|false|false|NNS
+of	others	of|studi|trp|false|false|false|false|false|false|false|false|false|IN
+TRPs	others	trp|of|and|false|false|false|false|false|false|false|false|false|NNS
+and	others	and|trp|aggreg|false|false|false|false|false|false|false|false|false|CC
+aggregate	others	aggreg|and|analysi|false|false|false|false|false|false|false|false|false|NN
+analyses	others	analysi|aggreg|we|false|false|false|false|false|false|false|false|false|NNS
+We	others	we|analysi|will|true|false|false|false|false|false|false|false|false|PRP
+will	others	will|we|be|false|false|false|false|false|false|false|false|false|MD
+be	others	be|will|focu|false|false|false|false|false|false|false|false|false|VB
+focusing	others	focu|be|on|false|false|false|false|false|false|false|false|false|VBG
+on	others	on|focu|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|on|_end_|false|false|false|false|false|false|false|false|false|DT
+
+data	others	datum|_start_|and|false|false|false|false|false|false|false|false|false|NNS
+and	others	and|datum|hope|false|false|false|false|false|false|false|false|false|CC
+hoping	others	hope|and|to|false|false|false|false|false|false|false|false|false|VBG
+to	others	to|hope|get|false|false|false|false|false|false|false|false|false|TO
+get	others	get|to|some|false|false|false|false|false|false|false|false|false|VB
+some	others	some|get|input|false|false|false|false|false|false|false|false|false|DT
+input	others	input|some|from|false|false|false|false|false|false|false|false|false|NN
+from	others	from|input|you|false|false|false|false|false|false|false|false|false|IN
+you	others	you|from|on|false|false|false|false|false|false|false|false|false|PRP
+on	others	on|you|ani|false|false|false|false|false|false|false|false|false|IN
+any	others	ani|on|error|false|false|false|false|false|false|false|false|false|DT
+errors	others	error|ani|in|false|false|false|false|false|false|false|false|false|NNS
+in	others	in|error|we|false|false|false|false|false|false|false|false|false|IN
+our	others	we|in|approach|false|false|false|false|false|false|false|false|false|PRP$
+approach	others	approach|we|_end_|false|false|false|false|false|false|false|false|false|NN
+
+or	others	or|_start_|addit|false|false|false|false|false|false|false|false|false|CC
+additional	others	addit|or|analysi|false|false|false|false|false|false|false|false|false|JJ
+analyses	others	analysi|addit|we|false|false|false|false|false|false|false|false|false|NNS
+we	others	we|analysi|might|false|false|false|false|false|false|false|false|false|PRP
+might	others	might|we|want|false|false|false|false|false|false|false|false|false|MD
+want	others	want|might|to|false|false|false|false|false|false|false|false|false|VB
+to	others	to|want|do|false|false|false|false|false|false|false|false|false|TO
+do	others	do|to|_end_|false|false|false|false|false|false|false|false|false|VB
+
+Charlie	others	charli|_start_|_end_|true|false|false|false|false|true|false|false|false|NNP
+

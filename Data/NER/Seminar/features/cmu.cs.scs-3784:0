@@ -1,0 +1,112 @@
+Type	others	type|_start_|cmu|true|false|false|false|false|false|false|false|false|NN
+cmu	others	cmu|type|c|false|false|false|false|false|false|false|false|false|NN
+cs	others	c|cmu|sc|false|false|false|false|false|false|false|false|false|NNS
+scs	others	sc|c|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+Topic	others	topic|_start_|hcu|true|false|false|false|false|false|false|false|false|NN
+HCI	others	hcu|topic|seminar|false|true|false|true|false|false|false|false|false|NN
+seminar	others	seminar|hcu|raj|false|false|false|false|false|false|false|false|false|NN
+Raj	others	raj|seminar|reddi|true|false|false|false|false|true|false|false|false|NNP
+Reddy	others	reddi|raj|3:30|true|false|false|false|false|true|false|false|false|NNP
+3:30	stime	3:30|reddi|fridai|false|false|false|false|false|false|false|false|false|CD
+Friday	others	fridai|3:30|5-5|true|false|false|false|false|false|false|false|true|NNP
+5-5	others	5-5|fridai|wean|false|false|false|false|false|false|false|false|false|CD
+Wean	location	wean|5-5|5409|true|false|false|false|false|false|false|false|false|VB
+5409	location	5409|wean|_end_|false|false|false|false|false|false|false|false|false|CD
+
+Dates	others	date|_start_|5-may-95|true|false|false|false|false|false|false|false|false|NNS
+5-May-95	others	5-may-95|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|3:30|true|false|false|false|false|false|false|false|false|NNP
+3:30	stime	3:30|time|_end_|false|false|false|false|false|false|false|false|false|CD
+
+PostedBy	others	postedbi|_start_|koeding|false|false|false|false|true|false|false|false|false|NNP
+Koedinger	others	koeding|postedbi|on|true|false|false|false|false|false|false|false|false|NN
+on	others	on|koeding|1-may-95|false|false|false|false|false|false|false|false|false|IN
+1-May-95	others	1-may-95|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|1-may-95|19:19|false|false|false|false|false|false|false|false|false|IN
+19:19	others	19:19|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|19:19|cmu.edu|false|false|false|false|false|false|false|false|false|IN
+cmu.edu	others	cmu.edu|from|-lrb-|false|false|false|false|false|false|false|false|false|NN
+-LRB-	others	-lrb-|cmu.edu|ken|false|false|false|false|false|false|false|false|false|-LRB-
+Ken	others	ken|-lrb-|koeding|true|false|false|false|false|false|false|false|false|NNP
+Koedinger	others	koeding|ken|-rrb-|true|false|false|false|false|false|false|false|false|NNP
+-RRB-	others	-rrb-|koeding|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+NOTE	others	note|_start_|differ|false|true|false|true|false|false|false|false|false|VB
+DIFFERENT	others	differ|note|dai|false|true|false|true|false|false|false|false|false|JJ
+DAY	others	dai|differ|and|false|true|false|true|false|false|false|false|false|NN
+AND	others	and|dai|time|false|true|false|true|false|false|false|false|false|CC
+TIME	others	time|and|_end_|false|true|false|true|false|false|false|false|false|NN
+
+3:30	stime	3:30|_start_|fridai|false|false|false|false|false|false|false|false|false|CD
+Friday	others	fridai|3:30|mai|true|false|false|false|false|false|false|false|true|NNP
+May	others	mai|fridai|5|true|false|false|false|false|false|false|false|true|NNP
+5	others	5|mai|_end_|false|false|false|false|false|false|false|false|true|CD
+
+Some	others	some|_start_|necessari|true|false|false|false|false|false|false|false|false|DT
+Necessary	others	necessari|some|condit|true|false|false|false|false|false|false|false|false|JJ
+Conditions	others	condit|necessari|for|true|false|false|false|false|false|false|false|false|NNS
+for	others	for|condit|a|false|false|false|false|false|false|false|false|false|IN
+a	others	a|for|good|false|false|false|false|false|false|false|false|false|DT
+Good	others	good|a|user|true|false|false|false|false|false|false|false|false|JJ
+User	others	user|good|interfac|true|false|false|false|false|false|false|false|false|NN
+Interface	others	interfac|user|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+For	others	for|_start_|we|true|false|false|false|false|false|false|false|false|IN
+our	others	we|for|final|false|false|false|false|false|false|false|false|false|PRP$
+final	others	final|we|human-comput|false|false|false|false|false|false|false|false|false|JJ
+Human-Computer	others	human-comput|final|interact|false|false|false|false|false|false|false|false|false|NNP
+Interaction	others	interact|human-comput|seminar|true|false|false|false|false|false|false|false|false|NN
+seminar	others	seminar|interact|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|seminar|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|of|semest|false|false|false|false|false|false|false|false|false|DT
+semester	others	semest|the|raj|false|false|false|false|false|false|false|false|false|NN
+Raj	others	raj|semest|reddi|true|false|false|false|false|true|false|false|false|NNP
+Reddy	others	reddi|raj|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+will	others	will|_start_|be|false|false|false|false|false|false|false|false|false|MD
+be	others	be|will|present|false|false|false|false|false|false|false|false|false|VB
+presenting	others	present|be|he|false|false|false|false|false|false|false|false|false|VBG
+his	others	he|present|thought|false|false|false|false|false|false|false|false|false|PRP$
+thoughts	others	thought|he|on|false|false|false|false|false|false|false|false|false|NNS
+on	others	on|thought|what|false|false|false|false|false|false|false|false|false|IN
+what	others	what|on|make|false|false|false|false|false|false|false|false|false|WP
+makes	others	make|what|a|false|false|false|false|false|false|false|false|false|VBZ
+a	others	a|make|good|false|false|false|false|false|false|false|false|false|DT
+good	others	good|a|interfac|false|false|false|false|false|false|false|false|false|JJ
+interface	others	interfac|good|good|false|false|false|false|false|false|false|false|false|NN
+good	others	good|interfac|he|false|false|false|false|false|false|false|false|false|JJ
+He	others	he|good|_end_|true|false|false|false|false|false|false|false|false|PRP
+
+hopes	others	hope|_start_|the|false|false|false|false|false|false|false|false|false|VBZ
+the	others	the|hope|discuss|false|false|false|false|false|false|false|false|false|DT
+discussion	others	discuss|the|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|discuss|necessari|false|false|false|false|false|false|false|false|false|IN
+necessary	others	necessari|of|condit|false|false|false|false|false|false|false|false|false|JJ
+conditions	others	condit|necessari|can|false|false|false|false|false|false|false|false|false|NNS
+can	others	can|condit|serv|false|false|false|false|false|false|false|false|false|MD
+serve	others	serv|can|as|false|false|false|false|false|false|false|false|false|VB
+as	others	as|serv|a|false|false|false|false|false|false|false|false|false|IN
+a	others	a|as|sourc|false|false|false|false|false|false|false|false|false|DT
+source	others	sourc|a|for|false|false|false|false|false|false|false|false|false|NN
+for	others	for|sourc|_end_|false|false|false|false|false|false|false|false|false|IN
+
+new	others	new|_start_|hcu|false|false|false|false|false|false|false|false|false|JJ
+HCI	others	hcu|new|research|false|true|false|true|false|false|false|false|false|NN
+research	others	research|hcu|idea|false|false|false|false|false|false|false|false|false|NN
+ideas	others	idea|research|should|false|false|false|false|false|false|false|false|false|NNS
+Should	others	should|idea|be|true|false|false|false|false|false|false|false|false|MD
+be	others	be|should|a|false|false|false|false|false|false|false|false|false|VB
+a	others	a|be|thought-provok|false|false|false|false|false|false|false|false|false|DT
+thought-provoking	others	thought-provok|a|wai|false|false|false|false|false|false|false|false|false|JJ
+way	others	wai|thought-provok|to|false|false|false|false|false|false|false|false|false|NN
+to	others	to|wai|transit|false|false|false|false|false|false|false|false|false|TO
+transition	others	transit|to|to|false|false|false|false|false|false|false|false|false|NN
+to	others	to|transit|_end_|false|false|false|false|false|false|false|false|false|TO
+
+the	others	the|_start_|summer|false|false|false|false|false|false|false|false|false|DT
+summer	others	summer|the|_end_|false|false|false|false|false|false|false|false|true|NN
+

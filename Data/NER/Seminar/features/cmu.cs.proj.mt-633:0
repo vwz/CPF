@@ -1,0 +1,141 @@
+Type	others	type|_start_|cmu|true|false|false|false|false|false|false|false|false|NN
+cmu	others	cmu|type|c|false|false|false|false|false|false|false|false|false|NN
+cs	others	c|cmu|proj|false|false|false|false|false|false|false|false|false|NNS
+proj	others	proj|c|mt|false|false|false|false|false|false|false|false|false|NN
+mt	others	mt|proj|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Topic	others	topic|_start_|job|true|false|false|false|false|false|false|false|false|NN
+Job	others	job|topic|talk|true|false|false|false|false|false|false|false|false|NNP
+Talks	others	talk|job|in|true|false|false|false|false|false|false|false|false|NNS
+in	others	in|talk|modern|false|false|false|false|false|false|false|false|false|IN
+Modern	others	modern|in|languag|true|false|false|false|false|false|false|false|false|NNP
+Languages	others	languag|modern|_end_|true|false|false|false|false|false|false|false|false|NNPS
+
+Dates	others	date|_start_|9-jan-91|true|false|false|false|false|false|false|false|false|NNS
+9-Jan-91	others	9-jan-91|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|1:30|true|false|false|false|false|false|false|false|false|NNP
+1:30	stime	1:30|time|pm|false|false|false|false|false|false|false|false|false|CD
+PM	stime	pm|1:30|_end_|false|true|false|true|false|false|false|false|false|NN
+
+PostedBy	others	postedbi|_start_|barbara|false|false|false|false|true|false|false|false|false|NNP
+Barbara	others	barbara|postedbi|r.|true|false|false|false|false|true|false|false|false|NNP
+R.	others	r.|barbara|moor|false|false|false|false|false|true|false|false|false|NNP
+Moore	others	moor|r.|on|true|false|false|false|false|true|false|false|false|NNP
+on	others	on|moor|8-jan-91|false|false|false|false|false|false|false|false|false|IN
+8-Jan-91	others	8-jan-91|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|8-jan-91|15:37|false|false|false|false|false|false|false|false|false|IN
+15:37	others	15:37|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|15:37|nl.cs.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+NL.CS.CMU.EDU	others	nl.cs.cmu.edu|from|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+During	others	dure|_start_|the|true|false|false|false|false|false|false|false|false|IN
+the	others	the|dure|month|false|false|false|false|false|false|false|false|true|DT
+month	others	month|the|of|false|false|false|false|false|false|false|false|true|NN
+of	others	of|month|januari|false|false|false|false|false|false|false|false|true|IN
+January	others	januari|of|sever|true|false|false|false|false|false|false|false|true|NNP
+several	others	sever|januari|candid|false|false|false|false|false|false|false|false|false|JJ
+candidates	others	candid|sever|for|false|false|false|false|false|false|false|false|false|NNS
+for	others	for|candid|faculti|false|false|false|false|false|false|false|false|false|IN
+faculty	others	faculti|for|posit|false|false|false|false|false|false|false|false|false|NN
+positions	others	posit|faculti|in|false|false|false|false|false|false|false|false|false|NNS
+in	others	in|posit|_end_|false|false|false|false|false|false|false|false|false|IN
+
+Modern	others	modern|_start_|languag|true|false|false|false|false|false|false|false|false|NNP
+Languages	others	languag|modern|will|true|false|false|false|false|false|false|false|false|NNP
+will	others	will|languag|visit|false|false|false|false|false|false|false|false|false|MD
+visit	others	visit|will|campu|false|false|false|false|false|false|false|false|false|VB
+campus	others	campu|visit|all|false|false|false|false|false|false|false|false|false|NN
+All	others	all|campu|candid|true|false|false|false|false|false|false|false|false|DT
+candidates	others	candid|all|will|false|false|false|false|false|false|false|false|false|NNS
+will	others	will|candid|give|false|false|false|false|false|false|false|false|false|MD
+give	others	give|will|a|false|false|false|false|false|false|false|false|false|VB
+an	others	a|give|inform|false|false|false|false|false|false|false|false|false|DT
+informal	others	inform|a|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+seminar	others	seminar|_start_|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|seminar|which|false|false|false|false|false|false|false|false|false|IN
+which	others	which|at|thei|false|false|false|false|false|false|false|false|false|WDT
+they	others	thei|which|will|false|false|false|false|false|false|false|false|false|PRP
+will	others	will|thei|discuss|false|false|false|false|false|false|false|false|false|MD
+discuss	others	discuss|will|thei|false|false|false|false|false|false|false|false|false|VB
+their	others	thei|discuss|current|false|false|false|false|false|false|false|false|false|PRP$
+current	others	current|thei|research|false|false|false|false|false|false|false|false|true|JJ
+research	others	research|current|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|research|futur|false|false|false|false|false|false|false|false|false|CC
+future	others	futur|and|_end_|false|false|false|false|false|false|false|false|false|NN
+
+research	others	research|_start_|interest|false|false|false|false|false|false|false|false|false|NN
+interests	others	interest|research|we|false|false|false|false|false|false|false|false|false|NNS
+We	others	we|interest|would|true|false|false|false|false|false|false|false|false|PRP
+would	others	would|we|be|false|false|false|false|false|false|false|false|false|MD
+be	others	be|would|veri|false|false|false|false|false|false|false|false|false|VB
+very	others	veri|be|pleas|false|false|false|false|false|false|false|false|false|RB
+pleased	others	pleas|veri|to|false|false|false|false|false|false|false|false|false|JJ
+to	others	to|pleas|have|false|false|false|false|false|false|false|false|false|TO
+have	others	have|to|you|false|false|false|false|false|false|false|false|false|VB
+you	others	you|have|attend|false|false|false|false|false|false|false|false|false|PRP
+attend	others	attend|you|ani|false|false|false|false|false|false|false|false|false|VB
+any	others	ani|attend|or|false|false|false|false|false|false|false|false|false|DT
+or	others	or|ani|all|false|false|false|false|false|false|false|false|false|CC
+all	others	all|or|_end_|false|false|false|false|false|false|false|false|false|DT
+
+of	others	of|_start_|these|false|false|false|false|false|false|false|false|false|IN
+these	others	these|of|seminar|false|false|false|false|false|false|false|false|false|DT
+seminars	others	seminar|these|and|false|false|false|false|false|false|false|false|false|NNS
+and	others	and|seminar|particip|false|false|false|false|false|false|false|false|false|CC
+participate	others	particip|and|in|false|false|false|false|false|false|false|false|false|VB
+in	others	in|particip|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|in|discuss|false|false|false|false|false|false|false|false|false|DT
+discussions	others	discuss|the|which|false|false|false|false|false|false|false|false|false|NNS
+which	others	which|discuss|follow|false|false|false|false|false|false|false|false|false|WDT
+follow	others	follow|which|seminar|false|false|false|false|false|false|false|false|false|VBP
+Seminars	others	seminar|follow|_end_|true|false|false|false|false|false|false|false|false|NNS
+
+will	others	will|_start_|take|false|false|false|false|false|false|false|false|false|MD
+take	others	take|will|place|false|false|false|false|false|false|false|false|false|VB
+place	others	place|take|in|false|false|false|false|false|false|false|false|false|NN
+in	others	in|place|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|in|dean|false|false|false|false|false|false|false|false|false|DT
+Dean	location	dean|the|'s|true|false|false|false|false|true|false|false|false|NNP
+'s	location	's|dean|confer|false|false|false|false|false|false|false|false|false|POS
+Conference	location	confer|'s|room|true|false|false|false|false|false|false|false|false|NN
+Room	location	room|confer|baker|true|false|false|false|false|false|false|false|false|NN
+Baker	location	baker|room|hall|true|false|false|false|false|true|false|false|false|NNP
+Hall	location	hall|baker|246a|true|false|false|false|false|true|false|false|false|NNP
+246A	location	246a|hall|the|false|false|false|false|false|false|false|false|false|NN
+The	others	the|246a|_end_|true|false|false|false|false|false|false|false|false|DT
+
+candidates	others	candid|_start_|thei|false|false|false|false|false|false|false|false|false|NNS
+their	others	thei|candid|languag|false|false|false|false|false|false|false|false|false|PRP$
+language	others	languag|thei|speacial|false|false|false|false|false|false|false|false|false|NN
+speacializations	others	speacial|languag|date|false|false|false|false|false|false|false|false|false|NNS
+date	others	date|speacial|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|date|time|false|false|false|false|false|false|false|false|false|CC
+time	others	time|and|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|time|thei|false|false|false|false|false|false|false|false|false|IN
+their	others	thei|of|seminar|false|false|false|false|false|false|false|false|false|PRP$
+seminar	others	seminar|thei|_end_|false|false|false|false|false|false|false|false|false|NN
+
+discussions	others	discuss|_start_|be|false|false|false|false|false|false|false|false|false|NNS
+are	others	be|discuss|as|false|false|false|false|false|false|false|false|false|VBP
+as	others	as|be|follow|false|false|false|false|false|false|false|false|false|IN
+follows	others	follow|as|_end_|false|false|false|false|false|false|false|false|false|VBZ
+
+WED	others	wed|_start_|januari|false|true|false|true|false|false|false|false|true|VBD
+January	others	januari|wed|9|true|false|false|false|false|false|false|false|true|NNP
+9	others	9|januari|1:30|false|false|false|false|false|false|false|false|true|CD
+1:30	stime	1:30|9|p.|false|false|false|false|false|false|false|false|false|CD
+P.	stime	p.|1:30|m|false|false|false|false|false|false|false|false|false|NNP
+M	stime	m|p.|_end_|false|false|true|true|false|false|false|false|false|NN
+
+Robert	speaker	robert|_start_|dekeys|true|false|false|false|false|true|false|false|false|NNP
+DeKeyser	speaker	dekeys|robert|error|false|false|false|false|false|true|false|false|false|NNP
+Error	others	error|dekeys|correct|true|false|false|false|false|false|false|false|false|NNP
+Correction	others	correct|error|and|true|false|false|false|false|false|false|false|false|NNP
+and	others	and|correct|individu|false|false|false|false|false|false|false|false|false|CC
+Individual	others	individu|and|differ|true|false|false|false|false|false|false|false|false|NNP
+Differences	others	differ|individu|_end_|true|false|false|false|false|false|false|false|false|NNS
+

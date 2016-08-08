@@ -1,0 +1,65 @@
+Type	others	type|_start_|cmu.andrew.org|true|false|false|false|false|false|false|false|false|NN
+cmu.andrew.org	others	cmu.andrew.org|type|heinz|false|false|false|false|false|false|false|false|false|NN
+heinz	others	heinz|cmu.andrew.org|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Topic	others	topic|_start_|wqex|true|false|false|false|false|false|false|false|false|NN
+WQEX	others	wqex|topic|system|false|true|false|true|false|false|false|false|false|NNP
+Systems	others	system|wqex|present|true|false|false|false|false|false|false|false|false|NNPS
+Presentation	others	present|system|_end_|true|false|false|false|false|false|false|false|false|NN
+
+Dates	others	date|_start_|26-jan-95|true|false|false|false|false|false|false|false|false|NNS
+26-Jan-95	others	26-jan-95|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|8:30|true|false|false|false|false|false|false|false|false|NNP
+8:30	stime	8:30|time|am|false|false|false|false|false|false|false|false|false|CD
+AM	stime	am|8:30|_end_|false|true|false|true|false|false|false|false|false|NNP
+
+PostedBy	others	postedbi|_start_|lara|false|false|false|false|true|false|false|false|false|NNP
+Lara	others	lara|postedbi|k|true|false|false|false|false|true|false|false|false|NNP
+K	others	k|lara|cullei|false|false|true|true|false|true|false|false|false|NNP
+Culley	others	cullei|k|on|true|false|false|false|false|true|false|false|false|NNP
+on	others	on|cullei|25-jan-95|false|false|false|false|false|false|false|false|false|IN
+25-Jan-95	others	25-jan-95|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|25-jan-95|10:32|false|false|false|false|false|false|false|false|false|IN
+10:32	others	10:32|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|10:32|andrew.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+andrew.cmu.edu	others	andrew.cmu.edu|from|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+The	others	the|_start_|wqex|true|false|false|false|false|false|false|false|false|DT
+WQEX	others	wqex|the|system|false|true|false|true|false|false|false|false|false|NNP
+Systems	others	system|wqex|synthesi|true|false|false|false|false|false|false|false|false|NNPS
+Synthesis	others	synthesi|system|team|true|false|false|false|false|false|false|false|false|NN
+Team	others	team|synthesi|-lrb-|true|false|false|false|false|false|false|false|false|NNP
+-LRB-	others	-lrb-|team|trudi|false|false|false|false|false|false|false|false|false|-LRB-
+Trudi	others	trudi|-lrb-|laurel|true|false|false|false|false|true|false|false|false|NNP
+Laurel	others	laurel|trudi|allison|true|false|false|false|false|false|false|false|false|NNP
+Allison	others	allison|laurel|lisa|true|false|false|false|false|true|false|false|false|NNP
+Lisa	others	lisa|allison|and|true|false|false|false|false|true|false|false|false|NNP
+and	others	and|lisa|_end_|false|false|false|false|false|false|false|false|false|CC
+
+myself	others	myself|_start_|-rrb-|false|false|false|false|false|false|false|false|false|PRP
+-RRB-	others	-rrb-|myself|will|false|false|false|false|false|false|false|false|false|-RRB-
+will	others	will|-rrb-|be|false|false|false|false|false|false|false|false|false|MD
+be	others	be|will|present|false|false|false|false|false|false|false|false|false|VB
+presenting	others	present|be|we|false|false|false|false|false|false|false|false|false|VBG
+our	others	we|present|semest|false|false|false|false|false|false|false|false|false|PRP$
+semester	others	semest|we|project|false|false|false|false|false|false|false|false|false|NN
+project	others	project|semest|thi|false|false|false|false|false|false|false|false|false|NN
+this	others	thi|project|fridai|false|false|false|false|false|false|false|false|true|DT
+Friday	others	fridai|thi|at|true|false|false|false|false|false|false|false|true|NNP
+at	others	at|fridai|8:30|false|false|false|false|false|false|false|false|false|IN
+8:30	stime	8:30|at|a.|false|false|false|false|false|false|false|false|false|CD
+a.	stime	a.|8:30|m|false|false|false|false|false|false|false|false|false|NN
+m	stime	m|a.|_end_|false|false|false|false|false|false|false|false|false|NN
+
+in	others	in|_start_|1001|false|false|false|false|false|false|false|false|false|IN
+1001	location	1001|in|hamburg|false|false|false|false|false|false|false|false|true|CD
+Hamburg	location	hamburg|1001|all|true|false|false|false|false|false|false|false|false|NNP
+All	others	all|hamburg|be|true|false|false|false|false|false|false|false|false|DT
+are	others	be|all|welcom|false|false|false|false|false|false|false|false|false|VBP
+welcome	others	welcom|be|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+Lara	others	lara|_start_|_end_|true|false|false|false|false|false|false|false|false|NNP
+

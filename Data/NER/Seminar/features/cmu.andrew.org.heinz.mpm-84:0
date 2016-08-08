@@ -1,0 +1,281 @@
+Type	others	type|_start_|cmu.andrew.org|true|false|false|false|false|false|false|false|false|NN
+cmu.andrew.org	others	cmu.andrew.org|type|heinz|false|false|false|false|false|false|false|false|false|NN
+heinz	others	heinz|cmu.andrew.org|mpm|false|false|false|false|false|false|false|false|false|NN
+mpm	others	mpm|heinz|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Topic	others	topic|_start_|decu|true|false|false|false|false|false|false|false|false|NN
+DECUS	others	decu|topic|present|false|true|false|true|false|false|false|false|false|NNP
+Presentation	others	present|decu|_end_|true|false|false|false|false|false|false|false|false|NN
+
+Dates	others	date|_start_|2-mar-93|true|false|false|false|false|false|false|false|false|NNS
+2-Mar-93	others	2-mar-93|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|6:30|true|false|false|false|false|false|false|false|false|NNP
+6:30	stime	6:30|time|pm|false|false|false|false|false|false|false|false|false|CD
+PM	stime	pm|6:30|_end_|false|true|false|true|false|false|false|false|false|NN
+
+Place	others	place|_start_|doherti|true|false|false|false|false|false|false|false|false|NN
+Doherty	location	doherti|place|hall|true|false|false|false|false|true|false|false|false|NNP
+Hall	location	hall|doherti|rm|true|false|false|false|false|true|false|false|false|NNP
+Rm	location	rm|hall|dh2315|true|false|false|false|false|false|false|false|false|NN
+DH2315	location	dh2315|rm|_end_|false|false|false|false|false|false|false|false|false|NN
+
+PostedBy	others	postedbi|_start_|kathleen|false|false|false|false|true|false|false|false|false|NNP
+Kathleen	others	kathleen|postedbi|stefani|true|false|false|false|false|true|false|false|false|NNP
+Stefani	others	stefani|kathleen|on|true|false|false|false|false|true|false|false|false|NNP
+on	others	on|stefani|18-feb-93|false|false|false|false|false|false|false|false|false|IN
+18-Feb-93	others	18-feb-93|on|at|false|false|false|false|false|false|false|false|false|NNP
+at	others	at|18-feb-93|20:16|false|false|false|false|false|false|false|false|false|IN
+20:16	others	20:16|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|20:16|andrew.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+andrew.cmu.edu	others	andrew.cmu.edu|from|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+The	others	the|_start_|three|true|false|false|false|false|false|false|false|false|DT
+Three	others	three|the|river|true|false|false|false|false|false|false|false|false|CD
+Rivers	others	river|three|digit|true|false|false|false|false|false|false|false|false|NNP
+Digital	others	digit|river|local|true|false|false|false|false|false|false|false|false|NNP
+Local	others	local|digit|user|true|false|false|false|false|false|false|false|false|NNP
+Users	others	user|local|group|true|false|false|false|false|false|false|false|false|NNP
+Group	others	group|user|announc|true|false|false|false|false|false|false|false|false|NNP
+announces	others	announc|group|bill|false|false|false|false|false|false|false|false|false|VBZ
+Bill	speaker	bill|announc|hancock|true|false|false|false|false|true|false|false|false|NNP
+Hancock	speaker	hancock|bill|as|true|false|false|false|false|true|false|false|false|NNP
+as	others	as|hancock|_end_|false|false|false|false|false|false|false|false|false|IN
+
+guest	others	guest|_start_|speaker|false|false|false|false|false|false|false|false|false|NN
+speaker	others	speaker|guest|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|speaker|thei|false|false|false|false|false|false|false|false|false|IN
+their	others	thei|at|march|false|false|false|false|false|false|false|false|false|PRP$
+March	others	march|thei|meet|true|false|false|false|false|false|false|false|true|NNP
+meeting	others	meet|march|and|false|false|false|false|false|false|false|false|false|NN
+And	others	and|meet|you|true|false|false|false|false|false|false|false|false|CC
+you	others	you|and|be|false|false|false|false|false|false|false|false|false|PRP
+'re	others	be|you|invit|false|false|false|false|false|false|false|false|false|VBP
+invited	others	invit|be|here|false|false|false|false|false|false|false|false|false|VBN
+Here	others	here|invit|be|true|false|false|false|false|false|false|false|false|RB
+are	others	be|here|the|false|false|false|false|false|false|false|false|false|VBP
+the	others	the|be|_end_|false|false|false|false|false|false|false|false|false|DT
+
+details	others	detail|_start_|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+Date	others	date|_start_|tuesdai|true|false|false|false|false|false|false|false|false|NN
+Tuesday	others	tuesdai|date|march|true|false|false|false|false|false|false|false|true|NNP
+March	others	march|tuesdai|2|true|false|false|false|false|false|false|false|true|NNP
+2	others	2|march|1993|false|false|false|false|false|false|false|false|true|CD
+1993	others	1993|2|_end_|false|false|false|false|false|false|false|false|true|CD
+
+Time	others	time|_start_|6:30|true|false|false|false|false|false|false|false|false|NNP
+6:30	stime	6:30|time|pm|false|false|false|false|false|false|false|false|false|CD
+PM	stime	pm|6:30|_end_|false|true|false|true|false|false|false|false|false|NN
+
+Place	others	place|_start_|doherti|true|false|false|false|false|false|false|false|false|NN
+Doherty	location	doherti|place|hall|true|false|false|false|false|true|false|false|false|NNP
+Hall	location	hall|doherti|rm|true|false|false|false|false|true|false|false|false|NNP
+Rm	location	rm|hall|dh2315|true|false|false|false|false|false|false|false|false|NN
+DH2315	location	dh2315|rm|_end_|false|false|false|false|false|false|false|false|false|NN
+
+The	others	the|_start_|titl|true|false|false|false|false|false|false|false|false|DT
+title	others	titl|the|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|titl|mr.|false|false|false|false|false|false|false|false|false|IN
+Mr.	speaker	mr.|of|hancock|false|false|false|false|false|true|false|false|false|NNP
+Hancock	speaker	hancock|mr.|'s|true|false|false|false|false|true|false|false|false|NNP
+'s	others	's|hancock|present|false|false|false|false|false|false|false|false|false|POS
+presentation	others	present|'s|will|false|false|false|false|false|false|false|false|false|NN
+will	others	will|present|be|false|false|false|false|false|false|false|false|false|MD
+be	others	be|will|the|false|false|false|false|false|false|false|false|false|VB
+The	others	the|be|troubl|true|false|false|false|false|false|false|false|false|DT
+Trouble	others	troubl|the|with|true|false|false|false|false|false|false|false|false|NN
+with	others	with|troubl|ethernet|false|false|false|false|false|false|false|false|false|IN
+Ethernet	others	ethernet|with|_end_|true|false|false|false|false|false|false|false|false|NN
+
+It	others	it|_start_|promis|true|false|false|false|false|false|false|false|false|PRP
+promises	others	promis|it|to|false|false|false|false|false|false|false|false|false|VBZ
+to	others	to|promis|be|false|false|false|false|false|false|false|false|false|TO
+be	others	be|to|both|false|false|false|false|false|false|false|false|false|VB
+both	others	both|be|a|false|false|false|false|false|false|false|false|false|CC
+a	others	a|both|practic|false|false|false|false|false|false|false|false|false|DT
+practical	others	practic|a|and|false|false|false|false|false|false|false|false|false|JJ
+and	others	and|practic|humor|false|false|false|false|false|false|false|false|false|CC
+humorous	others	humor|and|look|false|false|false|false|false|false|false|false|false|JJ
+look	others	look|humor|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|look|manag|false|false|false|false|false|false|false|false|false|IN
+managing	others	manag|at|a|false|false|false|false|false|false|false|false|false|VBG
+an	others	a|manag|ethernet|false|false|false|false|false|false|false|false|false|DT
+Ethernet	others	ethernet|a|_end_|true|false|false|false|false|false|false|false|false|NN
+
+Bill	speaker	bill|_start_|hancock|true|false|false|false|false|true|false|false|false|NNP
+Hancock	speaker	hancock|bill|vice|true|false|false|false|false|true|false|false|false|NNP
+Vice	others	vice|hancock|presid|true|false|false|false|false|false|false|false|false|NNP
+President	others	presid|vice|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|presid|network-1|false|false|false|false|false|false|false|false|false|IN
+Network-1	others	network-1|of|inc.|false|false|false|false|false|false|false|false|false|NNP
+Inc.	others	inc.|network-1|be|false|false|false|false|false|false|false|false|false|NNP
+is	others	be|inc.|a|false|false|false|false|false|false|false|false|false|VBZ
+an	others	a|be|internation|false|false|false|false|false|false|false|false|false|DT
+internationally	others	internation|a|_end_|false|false|false|false|false|false|false|false|false|RB
+
+respected	others	respect|_start_|consult|false|false|false|false|false|false|false|false|false|VBN
+consultant	others	consult|respect|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|consult|engin|false|false|false|false|false|false|false|false|false|CC
+engineer	others	engin|and|with|false|false|false|false|false|false|false|false|false|NN
+with	others	with|engin|mani|false|false|false|false|false|false|false|false|false|IN
+many	others	mani|with|year|false|false|false|false|false|false|false|false|false|JJ
+years	others	year|mani|of|false|false|false|false|false|false|false|false|false|NNS
+of	others	of|year|experi|false|false|false|false|false|false|false|false|false|IN
+experience	others	experi|of|in|false|false|false|false|false|false|false|false|false|NN
+in	others	in|experi|_end_|false|false|false|false|false|false|false|false|false|IN
+
+network	others	network|_start_|servic|false|false|false|false|false|false|false|false|false|NN
+services	others	servic|network|to|false|false|false|false|false|false|false|false|false|NNS
+to	others	to|servic|mani|false|false|false|false|false|false|false|false|false|TO
+many	others	mani|to|of|false|false|false|false|false|false|false|false|false|JJ
+of	others	of|mani|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|of|fortun|false|false|false|false|false|false|false|false|false|DT
+Fortune	others	fortun|the|1000|true|false|false|false|false|false|false|false|false|NNP
+1000	others	1000|fortun|a|false|false|false|false|false|false|false|false|true|CD
+An	others	a|1000|ansu|true|false|false|false|false|false|false|false|false|DT
+ANSI	others	ansu|a|and|false|true|false|true|false|false|false|false|false|NN
+and	others	and|ansu|iso|false|false|false|false|false|false|false|false|false|CC
+ISO	others	iso|and|standard|false|true|false|true|false|false|false|false|false|NN
+standards	others	standard|iso|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+committee	others	committe|_start_|member|false|false|false|false|false|false|false|false|false|NN
+member	others	member|committe|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|member|u.s.|false|false|false|false|false|false|false|false|false|CC
+U.S.	others	u.s.|and|network|false|false|false|false|false|false|false|false|false|NNP
+Network	others	network|u.s.|expert|true|false|false|false|false|false|false|false|false|NNP
+Expert	others	expert|network|mr.|true|false|false|false|false|false|false|false|false|NNP
+Mr.	speaker	mr.|expert|hancock|false|false|false|false|false|true|false|false|false|NNP
+Hancock	speaker	hancock|mr.|have|true|false|false|false|false|true|false|false|false|NNP
+has	others	have|hancock|work|false|false|false|false|false|false|false|false|false|VBZ
+worked	others	work|have|on|false|false|false|false|false|false|false|false|false|VBN
+on	others	on|work|mani|false|false|false|false|false|false|false|false|false|IN
+many	others	mani|on|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+international	others	intern|_start_|network|false|false|false|false|false|false|false|false|false|JJ
+network	others	network|intern|standard|false|false|false|false|false|false|false|false|false|NN
+standards	others	standard|network|and|false|false|false|false|false|false|false|false|false|NNS
+and	others	and|standard|have|false|false|false|false|false|false|false|false|false|CC
+has	others	have|and|author|false|false|false|false|false|false|false|false|false|VBZ
+authored	others	author|have|numer|false|false|false|false|false|false|false|false|false|VBN
+numerous	others	numer|author|network|false|false|false|false|false|false|false|false|false|JJ
+network	others	network|numer|_end_|false|false|false|false|false|false|false|false|false|NN
+
+articles	others	articl|_start_|and|false|false|false|false|false|false|false|false|false|NNS
+and	others	and|articl|book|false|false|false|false|false|false|false|false|false|CC
+books	others	book|and|on|false|false|false|false|false|false|false|false|false|NNS
+on	others	on|book|network|false|false|false|false|false|false|false|false|false|IN
+network	others	network|on|technolog|false|false|false|false|false|false|false|false|false|NN
+technologies	others	technolog|network|and|false|false|false|false|false|false|false|false|false|NNS
+and	others	and|technolog|standard|false|false|false|false|false|false|false|false|false|CC
+standards	others	standard|and|mr.|false|false|false|false|false|false|false|false|false|NNS
+Mr.	speaker	mr.|standard|hancock|false|false|false|false|false|true|false|false|false|NNP
+Hancock	speaker	hancock|mr.|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+brings	others	bring|_start_|a|false|false|false|false|false|false|false|false|false|VBZ
+a	others	a|bring|uniqu|false|false|false|false|false|false|false|false|false|DT
+unique	others	uniqu|a|first-hand|false|false|false|false|false|false|false|false|false|JJ
+first-hand	others	first-hand|uniqu|insight|false|false|false|false|false|false|false|false|false|JJ
+insight	others	insight|first-hand|to|false|false|false|false|false|false|false|false|false|NN
+to	others	to|insight|network|false|false|false|false|false|false|false|false|false|TO
+network	others	network|to|manag|false|false|false|false|false|false|false|false|false|NN
+management	others	manag|network|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|manag|_end_|false|false|false|false|false|false|false|false|false|CC
+
+troubleshooting	others	troubleshoot|_start_|techniqu|false|false|false|false|false|false|false|false|false|VBG
+techniques	others	techniqu|troubleshoot|protocol|false|false|false|false|false|false|false|false|false|NNS
+protocol	others	protocol|techniqu|architectur|false|false|false|false|false|false|false|false|false|NN
+architecture	others	architectur|protocol|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|architectur|design|false|false|false|false|false|false|false|false|false|CC
+design	others	design|and|network|false|false|false|false|false|false|false|false|false|NN
+network	others	network|design|_end_|false|false|false|false|false|false|false|false|false|NN
+
+design	others	design|_start_|client-serv|false|false|false|false|false|false|false|false|false|NN
+client-server	others	client-serv|design|applic|false|false|false|false|false|false|false|false|false|JJ
+applications	others	applic|client-serv|perform|false|false|false|false|false|false|false|false|false|NNS
+performance	others	perform|applic|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|perform|tool|false|false|false|false|false|false|false|false|false|CC
+tool	others	tool|and|requir|false|false|false|false|false|false|false|false|false|NN
+requirements	others	requir|tool|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+Mr.	speaker	mr.|_start_|hancock|false|false|false|false|false|true|false|false|false|NNP
+Hancock	speaker	hancock|mr.|be|true|false|false|false|false|true|false|false|false|NNP
+is	others	be|hancock|recogn|false|false|false|false|false|false|false|false|false|VBZ
+recognized	others	recogn|be|in|false|false|false|false|false|false|false|false|false|VBN
+in	others	in|recogn|who|false|false|false|false|false|false|false|false|false|IN
+Who	others	who|in|be|true|false|false|false|false|false|false|false|false|WP
+'s	others	be|who|who|false|false|false|false|false|false|false|false|false|VBZ
+Who	others	who|be|in|true|false|false|false|false|false|false|false|false|WP
+in	others	in|who|scienc|false|false|false|false|false|false|false|false|false|IN
+Science	others	scienc|in|and|true|false|false|false|false|false|false|false|false|NNP
+and	others	and|scienc|engin|false|false|false|false|false|false|false|false|false|CC
+Engineering	others	engin|and|and|true|false|false|false|false|false|false|false|false|NNP
+and	others	and|engin|_end_|false|false|false|false|false|false|false|false|false|CC
+
+Who	others	who|_start_|be|true|false|false|false|false|false|false|false|false|WP
+'s	others	be|who|who|false|false|false|false|false|false|false|false|false|VBZ
+Who	others	who|be|in|true|false|false|false|false|false|false|false|false|WP
+in	others	in|who|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|in|comput|false|false|false|false|false|false|false|false|false|DT
+Computer	others	comput|the|industri|true|false|false|false|false|false|false|false|false|NN
+Industry	others	industri|comput|mr.|true|false|false|false|false|false|false|false|false|NN
+Mr.	speaker	mr.|industri|hancock|false|false|false|false|false|true|false|false|false|NNP
+Hancock	speaker	hancock|mr.|be|true|false|false|false|false|true|false|false|false|NNP
+is	others	be|hancock|also|false|false|false|false|false|false|false|false|false|VBZ
+also	others	also|be|the|false|false|false|false|false|false|false|false|false|RB
+the	others	the|also|recipi|false|false|false|false|false|false|false|false|false|DT
+recipient	others	recipi|the|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+of	others	of|_start_|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|of|decu|false|false|false|false|false|false|false|false|false|DT
+DECUS	others	decu|the|technic|false|true|false|true|false|false|false|false|false|NNP
+Technical	others	technic|decu|excel|true|false|false|false|false|false|false|false|false|NNP
+Excellence	others	excel|technic|award|true|false|false|false|false|false|false|false|false|NNP
+Award	others	award|excel|the|true|false|false|false|false|false|false|false|false|NN
+the	others	the|award|top|false|false|false|false|false|false|false|false|false|DT
+top	others	top|the|achiev|false|false|false|false|false|false|false|false|false|JJ
+achievement	others	achiev|top|award|false|false|false|false|false|false|false|false|false|NN
+award	others	award|achiev|give|false|false|false|false|false|false|false|false|false|NN
+given	others	give|award|_end_|false|false|false|false|false|false|false|false|false|VBN
+
+by	others	by|_start_|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|by|u.s.|false|false|false|false|false|false|false|false|false|DT
+U.S.	others	u.s.|the|chapter|false|false|false|false|false|false|false|false|false|NNP
+Chapter	others	chapter|u.s.|_end_|true|false|false|false|false|false|false|false|false|NN
+
+Anyone	others	anyon|_start_|be|true|false|false|false|false|false|false|false|false|NN
+is	others	be|anyon|welcom|false|false|false|false|false|false|false|false|false|VBZ
+welcome	others	welcom|be|at|false|false|false|false|false|false|false|false|false|JJ
+at	others	at|welcom|decu|false|false|false|false|false|false|false|false|false|IN
+DECUS	others	decu|at|meet|false|true|false|true|false|false|false|false|false|NNP
+meetings	others	meet|decu|there|false|false|false|false|false|false|false|false|false|NNS
+there	others	there|meet|be|false|false|false|false|false|false|false|false|false|EX
+is	others	be|there|no|false|false|false|false|false|false|false|false|false|VBZ
+no	others	no|be|formal|false|false|false|false|false|false|false|false|false|DT
+formal	others	formal|no|membership|false|false|false|false|false|false|false|false|false|JJ
+membership	others	membership|formal|_end_|false|false|false|false|false|false|false|false|false|NN
+
+process	others	process|_start_|nor|false|false|false|false|false|false|false|false|false|NN
+nor	others	nor|process|be|false|false|false|false|false|false|false|false|false|CC
+is	others	be|nor|there|false|false|false|false|false|false|false|false|false|VBZ
+there	others	there|be|a|false|false|false|false|false|false|false|false|false|EX
+a	others	a|there|membership|false|false|false|false|false|false|false|false|false|DT
+membership	others	membership|a|fee|false|false|false|false|false|false|false|false|false|NN
+fee	others	fee|membership|for|false|false|false|false|false|false|false|false|false|NN
+For	others	for|fee|more|true|false|false|false|false|false|false|false|false|IN
+more	others	more|for|inform|false|false|false|false|false|false|false|false|false|JJR
+information	others	inform|more|pleas|false|false|false|false|false|false|false|false|false|NN
+please	others	pleas|inform|_end_|false|false|false|false|false|false|false|false|false|VB
+
+contact	others	contact|_start_|bob|false|false|false|false|false|false|false|false|false|NN
+Bob	others	bob|contact|mcfarland|true|false|false|false|false|true|false|false|false|NNP
+McFarland	others	mcfarland|bob|three|false|false|false|false|false|true|false|false|false|NNP
+Three	others	three|mcfarland|river|true|false|false|false|false|false|false|false|false|CD
+Rivers	others	river|three|lug|true|false|false|false|false|false|false|false|false|NNS
+LUG	others	lug|river|chair|false|true|false|true|false|false|false|false|false|VBP
+Chair	others	chair|lug|at|true|false|false|false|false|false|false|false|false|NN
+at	others	at|chair|412-553-3014|false|false|false|false|false|false|false|false|false|IN
+412-553-3014	others	412-553-3014|at|_end_|false|false|false|false|false|false|false|false|false|CD
+

@@ -1,0 +1,79 @@
+Type	others	type|_start_|cmu.andrew.org|true|false|false|false|false|false|false|false|false|NN
+cmu.andrew.org	others	cmu.andrew.org|type|heinz|false|false|false|false|false|false|false|false|false|NN
+heinz	others	heinz|cmu.andrew.org|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Topic	others	topic|_start_|environment|true|false|false|false|false|false|false|false|false|NN
+Environmental	others	environment|topic|talk|true|false|false|false|false|false|false|false|false|NNP
+Talk	others	talk|environment|in|true|false|false|false|false|false|false|false|false|NN
+in	others	in|talk|2|false|false|false|false|false|false|false|false|false|IN
+2	others	2|in|hr|false|false|false|false|false|false|false|false|false|CD
+hrs	others	hr|2|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+Dates	others	date|_start_|29-oct-92|true|false|false|false|false|false|false|false|false|NNS
+29-Oct-92	others	29-oct-92|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|4:30|true|false|false|false|false|false|false|false|false|NNP
+4:30	stime	4:30|time|pm|false|false|false|false|false|false|false|false|false|CD
+PM	stime	pm|4:30|_end_|false|true|false|true|false|false|false|false|false|NN
+
+PostedBy	others	postedbi|_start_|feichin|false|false|false|false|true|false|false|false|false|NNP
+Feichin	others	feichin|postedbi|tschang|true|false|false|false|false|true|false|false|false|NNP
+Tschang	others	tschang|feichin|on|true|false|false|false|false|true|false|false|false|NNP
+on	others	on|tschang|29-oct-92|false|false|false|false|false|false|false|false|false|IN
+29-Oct-92	others	29-oct-92|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|29-oct-92|14:43|false|false|false|false|false|false|false|false|false|IN
+14:43	others	14:43|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|14:43|andrew.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+andrew.cmu.edu	others	andrew.cmu.edu|from|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+There	others	there|_start_|will|true|false|false|false|false|false|false|false|false|EX
+will	others	will|there|a|false|false|false|false|false|false|false|false|false|MD
+a	others	a|will|talk|false|false|false|false|false|false|false|false|false|DT
+talk	others	talk|a|by|false|false|false|false|false|false|false|false|false|NN
+by	others	by|talk|bill|false|false|false|false|false|false|false|false|false|IN
+Bill	speaker	bill|by|wescott|true|false|false|false|false|true|false|false|false|NNP
+Wescott	speaker	wescott|bill|at|true|false|false|false|false|true|false|false|false|NNP
+at	others	at|wescott|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|at|engin|false|false|false|false|false|false|false|false|false|DT
+Engineering	location	engin|the|and|true|false|false|false|false|false|false|false|false|NNP
+and	location	and|engin|public|false|false|false|false|false|false|false|false|false|CC
+Public	location	public|and|polici|true|false|false|false|false|false|false|false|false|NNP
+Policy	location	polici|public|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+conference	others	confer|_start_|room|false|false|false|false|false|false|false|false|false|NN
+room	others	room|confer|-lrb-|false|false|false|false|false|false|false|false|false|NN
+-LRB-	others	-lrb-|room|baker|false|false|false|false|false|false|false|false|false|-LRB-
+Baker	others	baker|-lrb-|hall|true|false|false|false|false|false|false|false|false|NNP
+Hall	others	hall|baker|129|true|false|false|false|false|false|false|false|false|NNP
+129	others	129|hall|-rrb-|false|false|false|false|false|false|false|false|false|CD
+-RRB-	others	-rrb-|129|at|false|false|false|false|false|false|false|false|false|-RRB-
+at	others	at|-rrb-|4.30|false|false|false|false|false|false|false|false|false|IN
+4.30	stime	4.30|at|pm|false|false|false|false|false|false|false|false|false|CD
+pm	stime	pm|4.30|todai|false|false|false|false|false|false|false|false|false|NN
+TODAY	others	todai|pm|_end_|false|true|false|true|false|false|false|false|true|NN
+
+The	others	the|_start_|talk|true|false|false|false|false|false|false|false|false|DT
+talk	others	talk|the|be|false|false|false|false|false|false|false|false|false|NN
+is	others	be|talk|on|false|false|false|false|false|false|false|false|false|VBZ
+on	others	on|be|he|false|false|false|false|false|false|false|false|false|IN
+his	others	he|on|perspect|false|false|false|false|false|false|false|false|false|PRP$
+perspective	others	perspect|he|as|false|false|false|false|false|false|false|false|false|NN
+as	others	as|perspect|a|false|false|false|false|false|false|false|false|false|IN
+a	others	a|as|deleg|false|false|false|false|false|false|false|false|false|DT
+delegate	others	deleg|a|to|false|false|false|false|false|false|false|false|false|NN
+to	others	to|deleg|the|false|false|false|false|false|false|false|false|false|TO
+the	others	the|to|un|false|false|false|false|false|false|false|false|false|DT
+UN	others	un|the|rio|false|true|false|true|false|false|false|false|false|NNP
+RIO	others	rio|un|confer|false|true|false|true|false|false|false|false|false|NN
+conference	others	confer|rio|on|false|false|false|false|false|false|false|false|false|NN
+on	others	on|confer|_end_|false|false|false|false|false|false|false|false|false|IN
+
+the	others	the|_start_|environ|false|false|false|false|false|false|false|false|false|DT
+environment	others	environ|the|hold|false|false|false|false|false|false|false|false|false|NN
+held	others	hold|environ|thi|false|false|false|false|false|false|false|false|false|VBD
+this	others	thi|hold|past|false|false|false|false|false|false|false|false|true|DT
+past	others	past|thi|summer|false|false|false|false|false|false|false|false|true|JJ
+summer	others	summer|past|_end_|false|false|false|false|false|false|false|false|true|NN
+

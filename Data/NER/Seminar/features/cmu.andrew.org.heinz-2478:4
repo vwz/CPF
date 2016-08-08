@@ -1,0 +1,136 @@
+Type	others	type|_start_|cmu.andrew.org|true|false|false|false|false|false|false|false|false|NN
+cmu.andrew.org	others	cmu.andrew.org|type|heinz|false|false|false|false|false|false|false|false|false|NN
+heinz	others	heinz|cmu.andrew.org|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Topic	others	topic|_start_|graduat|true|false|false|false|false|false|false|false|false|NN
+Graduate	others	graduat|topic|student|true|false|false|false|false|false|false|false|false|NNP
+Student	others	student|graduat|seminar|true|false|false|false|false|false|false|false|false|NNP
+Seminar	others	seminar|student|seri|true|false|false|false|false|false|false|false|false|NNP
+Series	others	seri|seminar|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Dates	others	date|_start_|19-feb-93|true|false|false|false|false|false|false|false|false|NNS
+19-Feb-93	others	19-feb-93|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|12:00|true|false|false|false|false|false|false|false|false|NNP
+12:00	stime	12:00|time|1:30|false|false|false|false|false|false|true|false|false|CD
+1:30	etime	1:30|12:00|_end_|false|false|false|false|false|false|false|true|false|CD
+
+PostedBy	others	postedbi|_start_|phylli|false|false|false|false|true|false|false|false|false|NNP
+Phyllis	others	phylli|postedbi|reuther|true|false|false|false|false|true|false|false|false|NNP
+Reuther	others	reuther|phylli|on|true|false|false|false|false|true|false|false|false|NNP
+on	others	on|reuther|15-sep-92|false|false|false|false|false|false|false|false|false|IN
+15-Sep-92	others	15-sep-92|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|15-sep-92|10:56|false|false|false|false|false|false|false|false|false|IN
+10:56	others	10:56|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|10:56|andrew.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+andrew.cmu.edu	others	andrew.cmu.edu|from|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+1992	others	1992|_start_|1993|false|false|false|false|false|false|false|false|true|CD
+1993	others	1993|1992|graduat|false|false|false|false|false|false|false|false|true|CD
+Graduate	others	graduat|1993|student|true|false|false|false|false|false|false|false|false|NN
+Student	others	student|graduat|seminar|true|false|false|false|false|false|false|false|false|NN
+Seminar	others	seminar|student|seri|true|false|false|false|false|false|false|false|false|NNP
+Series	others	seri|seminar|schedul|true|false|false|false|false|false|false|false|false|NNP
+Schedule	others	schedul|seri|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+This	others	thi|_start_|inform|true|false|false|false|false|false|false|false|false|DT
+informal	others	inform|thi|discuss|false|false|false|false|false|false|false|false|false|JJ
+discussion	others	discuss|inform|seri|false|false|false|false|false|false|false|false|false|NN
+series	others	seri|discuss|be|false|false|false|false|false|false|false|false|false|NN
+is	others	be|seri|you|false|false|false|false|false|false|false|false|false|VBZ
+your	others	you|be|chanc|false|false|false|false|false|false|false|false|false|PRP$
+chance	others	chanc|you|to|false|false|false|false|false|false|false|false|false|NN
+to	others	to|chanc|meet|false|false|false|false|false|false|false|false|false|TO
+meet	others	meet|to|graduat|false|false|false|false|false|false|false|false|false|VB
+graduate	others	graduat|meet|_end_|false|false|false|false|false|false|false|false|false|NN
+
+students	others	student|_start_|and|false|false|false|false|false|false|false|false|false|NNS
+and	others	and|student|distinguish|false|false|false|false|false|false|false|false|false|CC
+distinguished	others	distinguish|and|faculti|false|false|false|false|false|false|false|false|false|VBN
+faculty	others	faculti|distinguish|from|false|false|false|false|false|false|false|false|false|NN
+from	others	from|faculti|across|false|false|false|false|false|false|false|false|false|IN
+across	others	across|from|campu|false|false|false|false|false|false|false|false|false|IN
+campus	others	campu|across|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|campu|get|false|false|false|false|false|false|false|false|false|CC
+get	others	get|and|_end_|false|false|false|false|false|false|false|false|false|VB
+
+a	others	a|_start_|free|false|false|false|false|false|false|false|false|false|DT
+free	others	free|a|lunch|false|false|false|false|false|false|false|false|false|JJ
+lunch	others	lunch|free|space|false|false|false|false|false|false|false|false|false|NN
+Space	others	space|lunch|be|true|false|false|false|false|false|false|false|false|NN
+is	others	be|space|limit|false|false|false|false|false|false|false|false|false|VBZ
+limited	others	limit|be|so|false|false|false|false|false|false|false|false|false|VBN
+so	others	so|limit|register-todai|false|false|false|false|false|false|false|false|false|RB
+register-today	others	register-todai|so|by|false|false|false|false|false|false|false|false|false|JJ
+by	others	by|register-todai|send|false|false|false|false|false|false|false|false|false|IN
+sending	others	send|by|a|false|false|false|false|false|false|false|false|false|VBG
+a	others	a|send|list|false|false|false|false|false|false|false|false|false|DT
+list	others	list|a|_end_|false|false|false|false|false|false|false|false|false|NN
+
+of	others	of|_start_|session|false|false|false|false|false|false|false|false|false|IN
+sessions	others	session|of|you|false|false|false|false|false|false|false|false|false|NNS
+you	others	you|session|wish|false|false|false|false|false|false|false|false|false|PRP
+wish	others	wish|you|to|false|false|false|false|false|false|false|false|false|VBP
+to	others	to|wish|attend|false|false|false|false|false|false|false|false|false|TO
+attend	others	attend|to|to|false|false|false|false|false|false|false|false|false|VB
+to	others	to|attend|john|false|false|false|false|false|false|false|false|false|TO
+John	others	john|to|hinshaw|true|false|false|false|false|true|false|false|false|NNP
+Hinshaw	others	hinshaw|john|hinshaw@andrew|true|false|false|false|false|true|false|false|false|NNP
+hinshaw@andrew	others	hinshaw@andrew|hinshaw|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Name	others	name|_start_|_end_|true|false|false|false|false|false|false|false|false|VB
+
+Address	others	address|_start_|_end_|true|false|false|false|false|false|false|false|false|NN
+
+Phone	others	phone|_start_|number|true|false|false|false|false|false|false|false|false|NN
+Number	others	number|phone|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Email	others	email|_start_|_end_|true|false|false|false|false|false|false|false|false|NN
+
+Dept	others	dept|_start_|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Do	others	do|_start_|you|true|false|false|false|false|false|false|false|false|VBP
+you	others	you|do|prefer|false|false|false|false|false|false|false|false|false|PRP
+prefer	others	prefer|you|a|false|false|false|false|false|false|false|false|false|VBP
+a	others	a|prefer|vegetarian|false|false|false|false|false|false|false|false|false|DT
+vegetarian	others	vegetarian|a|meal|false|false|false|false|false|false|false|false|false|JJ
+meal	others	meal|vegetarian|-lrb-|false|false|false|false|false|false|false|false|false|NN
+-LRB-	others	-lrb-|meal|yes\/no|false|false|false|false|false|false|false|false|false|-LRB-
+yes\/no	others	yes\/no|-lrb-|-rrb-|false|false|false|false|false|false|false|false|false|NN
+-RRB-	others	-rrb-|yes\/no|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+FALL	others	fall|_start_|semest|false|true|false|true|false|false|false|false|true|NN
+SEMESTER	others	semest|fall|session|false|true|false|true|false|false|false|false|false|NNP
+SESSIONS	others	session|semest|_end_|false|true|false|true|false|false|false|false|false|NNP
+
+Choosing	others	choos|_start_|you|true|false|false|false|false|false|false|false|false|VBG
+Your	others	you|choos|battl|true|false|false|false|false|false|false|false|false|PRP$
+Battles	others	battl|you|_end_|true|false|false|false|false|false|false|false|false|NNS
+
+Friday	others	fridai|_start_|februari|true|false|false|false|false|false|false|false|true|NNP
+February	others	februari|fridai|19|true|false|false|false|false|false|false|false|true|NNP
+19	others	19|februari|1993|false|false|false|false|false|false|false|false|true|CD
+1993	others	1993|19|12|false|false|false|false|false|false|false|false|true|CD
+12	stime	12|1993|1:30|false|false|false|false|false|false|false|false|false|CD
+1:30	etime	1:30|12|_end_|false|false|false|false|false|false|false|true|false|CD
+
+Bennett	speaker	bennett|_start_|harrison|true|false|false|false|false|true|false|false|false|NNP
+Harrison	speaker	harrison|bennett|professor|true|false|false|false|false|true|false|false|false|NNP
+Professor	others	professor|harrison|of|true|false|false|false|false|true|false|false|false|NNP
+of	others	of|professor|polit|false|false|false|false|false|false|false|false|false|IN
+Political	others	polit|of|economi|true|false|false|false|false|false|false|false|false|NNP
+Economy	others	economi|polit|heinz|true|false|false|false|false|false|false|false|false|NNP
+Heinz	others	heinz|economi|school|true|false|false|false|false|false|false|false|false|NNP
+School	others	school|heinz|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Lara	speaker	lara|_start_|wolfson|true|false|false|false|false|true|false|false|false|NNP
+Wolfson	speaker	wolfson|lara|phd|true|false|false|false|false|true|false|false|false|NNP
+PhD	others	phd|wolfson|candid|false|false|false|false|false|true|false|false|false|NNP
+Candidate	others	candid|phd|statist|true|false|false|false|false|false|false|false|false|NNP
+Statistics	others	statist|candid|presid|true|false|false|false|false|false|false|false|false|NNPS
+President	others	presid|statist|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|presid|gso|false|false|false|false|false|false|false|false|false|IN
+GSO	others	gso|of|_end_|false|true|false|true|false|false|false|false|false|NNP
+

@@ -1,0 +1,218 @@
+Type	others	type|_start_|cmu|true|false|false|false|false|false|false|false|false|NN
+cmu	others	cmu|type|c|false|false|false|false|false|false|false|false|false|NN
+cs	others	c|cmu|robot|false|false|false|false|false|false|false|false|false|NNS
+robotics	others	robot|c|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+Who	others	who|_start_|alex|true|false|false|false|false|false|false|false|false|WP
+Alex	speaker	alex|who|pentland|true|false|false|false|false|true|false|false|false|NNP
+Pentland	speaker	pentland|alex|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+Perceptual	others	perceptu|_start_|comput|true|false|false|false|false|false|false|false|false|NNP
+Computing	others	comput|perceptu|section|true|false|false|false|false|false|false|false|false|NNP
+Section	others	section|comput|the|true|false|false|false|false|false|false|false|false|NNP
+The	others	the|section|media|true|false|false|false|false|false|false|false|false|DT
+Media	others	media|the|laboratori|true|false|false|false|false|false|false|false|false|NNP
+Laboratory	others	laboratori|media|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Massachusetts	others	massachusett|_start_|institut|true|false|false|false|false|false|false|false|false|NNP
+Institute	others	institut|massachusett|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|institut|technolog|false|false|false|false|false|false|false|false|false|IN
+Technology	others	technolog|of|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Room	others	room|_start_|e15-387|true|false|false|false|false|false|false|false|false|NN
+E15-387	others	e15-387|room|20|false|false|false|false|false|false|false|false|false|NN
+20	others	20|e15-387|am|false|false|false|false|false|false|false|false|false|CD
+Ames	others	am|20|street|true|false|false|false|false|false|false|false|false|NNP
+Street	others	street|am|cambridg|true|false|false|false|false|false|false|false|false|NNP
+Cambridge	others	cambridg|street|ma|true|false|false|false|false|false|false|false|false|NNP
+MA	others	ma|cambridg|02139|false|true|false|true|false|false|false|false|false|NNP
+02139	others	02139|ma|_end_|false|false|false|false|false|false|false|false|true|CD
+
+Topic	others	topic|_start_|multiple-model|true|false|false|false|false|false|false|false|false|NN
+MULTIPLE-MODEL	others	multiple-model|topic|machin|false|false|false|false|false|false|false|false|false|NNP
+MACHINE	others	machin|multiple-model|vision|false|true|false|true|false|false|false|false|false|NNP
+VISION	others	vision|machin|_end_|false|true|false|true|false|false|false|false|false|NN
+
+Dates	others	date|_start_|14-dec-93|true|false|false|false|false|false|false|false|false|NNS
+14-Dec-93	others	14-dec-93|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|2:00|true|false|false|false|false|false|false|false|false|NNP
+2:00	stime	2:00|time|3:30|false|false|false|false|false|false|true|false|false|CD
+3:30	etime	3:30|2:00|pm|false|false|false|false|false|false|false|true|false|CD
+PM	etime	pm|3:30|_end_|false|true|false|true|false|false|false|false|false|NN
+
+Place	others	place|_start_|weh|true|false|false|false|false|false|false|false|false|NN
+WeH	location	weh|place|4601|false|false|false|false|false|false|false|false|false|NN
+4601	location	4601|weh|_end_|false|false|false|false|false|false|false|false|false|CD
+
+PostedBy	others	postedbi|_start_|patti|false|false|false|false|true|false|false|false|false|NNP
+patty	others	patti|postedbi|on|false|false|false|false|false|false|false|false|false|NN
+on	others	on|patti|2-dec-93|false|false|false|false|false|false|false|false|false|IN
+2-Dec-93	others	2-dec-93|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|2-dec-93|14:02|false|false|false|false|false|false|false|false|false|IN
+14:02	others	14:02|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|14:02|ius5|false|false|false|false|false|false|false|false|false|IN
+IUS5	others	ius5|from|ius.cs.cmu.edu|false|false|false|false|false|false|false|false|false|NN
+IUS.CS.CMU.EDU	others	ius.cs.cmu.edu|ius5|-lrb-|false|false|false|false|false|false|false|false|false|NN
+-LRB-	others	-lrb-|ius.cs.cmu.edu|patricia|false|false|false|false|false|false|false|false|false|-LRB-
+Patricia	others	patricia|-lrb-|mackiewicz|true|false|false|false|false|true|false|false|false|NNP
+Mackiewicz	others	mackiewicz|patricia|-rrb-|true|false|false|false|false|true|false|false|false|NNP
+-RRB-	others	-rrb-|mackiewicz|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+Date	others	date|_start_|tuesdai|true|false|false|false|false|false|false|false|false|NN
+Tuesday	others	tuesdai|date|decemb|true|false|false|false|false|false|false|false|true|NNP
+December	others	decemb|tuesdai|14|true|false|false|false|false|false|false|false|true|NNP
+14	others	14|decemb|1993|false|false|false|false|false|false|false|false|true|CD
+1993	others	1993|14|_end_|false|false|false|false|false|false|false|false|true|CD
+
+Time	others	time|_start_|2|true|false|false|false|false|false|false|false|false|NNP
+2	stime	2|time|3:30|false|false|false|false|false|false|false|false|false|CD
+3:30	etime	3:30|2|pm|false|false|false|false|false|false|false|true|false|CD
+pm	etime	pm|3:30|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Place	others	place|_start_|weh|true|false|false|false|false|false|false|false|false|NN
+WeH	location	weh|place|4601|false|false|false|false|false|false|false|false|false|NN
+4601	location	4601|weh|_end_|false|false|false|false|false|false|false|false|false|CD
+
+Speaker	others	speaker|_start_|alex|true|false|false|false|false|false|false|false|false|NNP
+Alex	speaker	alex|speaker|pentland|true|false|false|false|false|true|false|false|false|NNP
+Pentland	speaker	pentland|alex|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+Perceptual	others	perceptu|_start_|comput|true|false|false|false|false|false|false|false|false|NNP
+Computing	others	comput|perceptu|section|true|false|false|false|false|false|false|false|false|NNP
+Section	others	section|comput|the|true|false|false|false|false|false|false|false|false|NNP
+The	others	the|section|media|true|false|false|false|false|false|false|false|false|DT
+Media	others	media|the|laboratori|true|false|false|false|false|false|false|false|false|NNP
+Laboratory	others	laboratori|media|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Massachusetts	others	massachusett|_start_|institut|true|false|false|false|false|false|false|false|false|NNP
+Institute	others	institut|massachusett|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|institut|technolog|false|false|false|false|false|false|false|false|false|IN
+Technology	others	technolog|of|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Room	others	room|_start_|e15-387|true|false|false|false|false|false|false|false|false|NN
+E15-387	others	e15-387|room|20|false|false|false|false|false|false|false|false|false|NN
+20	others	20|e15-387|am|false|false|false|false|false|false|false|false|false|CD
+Ames	others	am|20|street|true|false|false|false|false|false|false|false|false|NNP
+Street	others	street|am|cambridg|true|false|false|false|false|false|false|false|false|NNP
+Cambridge	others	cambridg|street|ma|true|false|false|false|false|false|false|false|false|NNP
+MA	others	ma|cambridg|02139|false|true|false|true|false|false|false|false|false|NNP
+02139	others	02139|ma|_end_|false|false|false|false|false|false|false|false|true|CD
+
+Title	others	titl|_start_|multiple-model|true|false|false|false|false|false|false|false|false|NN
+MULTIPLE-MODEL	others	multiple-model|titl|machin|false|false|false|false|false|false|false|false|false|NNP
+MACHINE	others	machin|multiple-model|vision|false|true|false|true|false|false|false|false|false|NNP
+VISION	others	vision|machin|_end_|false|true|false|true|false|false|false|false|false|NN
+
+Images	others	imag|_start_|be|true|false|false|false|false|false|false|false|false|NNS
+are	others	be|imag|fundament|false|false|false|false|false|false|false|false|false|VBP
+fundamentally	others	fundament|be|inhomogen|false|false|false|false|false|false|false|false|false|RB
+inhomogeneous	others	inhomogen|fundament|yet|false|false|false|false|false|false|false|false|false|JJ
+yet	others	yet|inhomogen|most|false|false|false|false|false|false|false|false|false|RB
+most	others	most|yet|machin|false|false|false|false|false|false|false|false|false|RBS
+machine	others	machin|most|vision|false|false|false|false|false|false|false|false|false|NN
+vision	others	vision|machin|work|false|false|false|false|false|false|false|false|false|NN
+work	others	work|vision|have|false|false|false|false|false|false|false|false|false|NN
+has	others	have|work|_end_|false|false|false|false|false|false|false|false|false|VBZ
+
+been	others	be|_start_|base|false|false|false|false|false|false|false|false|false|VBN
+based	others	base|be|on|false|false|false|false|false|false|false|false|false|VBN
+on	others	on|base|homogen|false|false|false|false|false|false|false|false|false|IN
+homogeneous	others	homogen|on|process|false|false|false|false|false|false|false|false|false|JJ
+processing	others	process|homogen|us|false|false|false|false|false|false|false|false|false|NN
+using	others	us|process|a|false|false|false|false|false|false|false|false|false|VBG
+a	others	a|us|singl|false|false|false|false|false|false|false|false|false|DT
+single	others	singl|a|type|false|false|false|false|false|false|false|false|false|JJ
+type	others	type|singl|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|type|imag|false|false|false|false|false|false|false|false|false|IN
+image	others	imag|of|model|false|false|false|false|false|false|false|false|false|NN
+model	others	model|imag|we|false|false|false|false|false|false|false|false|false|NN
+We	others	we|model|_end_|true|false|false|false|false|false|false|false|false|PRP
+
+have	others	have|_start_|develop|false|false|false|false|false|false|false|false|false|VB
+developed	others	develop|have|a|false|false|false|false|false|false|false|false|false|VBN
+a	others	a|develop|framework|false|false|false|false|false|false|false|false|false|DT
+framework	others	framework|a|for|false|false|false|false|false|false|false|false|false|NN
+for	others	for|framework|inhomogen|false|false|false|false|false|false|false|false|false|IN
+inhomogeneous	others	inhomogen|for|multiple-model|false|false|false|false|false|false|false|false|false|JJ
+multiple-model	others	multiple-model|inhomogen|machin|false|false|false|false|false|false|false|false|false|JJ
+machine	others	machin|multiple-model|vision|false|false|false|false|false|false|false|false|false|NN
+vision	others	vision|machin|_end_|false|false|false|false|false|false|false|false|false|NN
+
+using	others	us|_start_|a|false|false|false|false|false|false|false|false|false|VBG
+a	others	a|us|minimum|false|false|false|false|false|false|false|false|false|DT
+Minimum	others	minimum|a|descript|true|false|false|false|false|false|false|false|false|NNP
+Description	others	descript|minimum|length|true|false|false|false|false|false|false|false|false|NN
+Length	others	length|descript|-lrb-|true|false|false|false|false|false|false|false|false|NN
+-LRB-	others	-lrb-|length|mdl|false|false|false|false|false|false|false|false|false|-LRB-
+MDL	others	mdl|-lrb-|-rrb-|false|true|false|true|false|false|false|false|false|NN
+-RRB-	others	-rrb-|mdl|maximum|false|false|false|false|false|false|false|false|false|-RRB-
+Maximum	others	maximum|-rrb-|a|true|false|false|false|false|false|false|false|false|NNP
+A	others	a|maximum|posteriori|false|false|true|true|false|false|false|false|false|NNP
+Posteriori	others	posteriori|a|-lrb-|true|false|false|false|false|false|false|false|false|NNP
+-LRB-	others	-lrb-|posteriori|map|false|false|false|false|false|false|false|false|false|-LRB-
+MAP	others	map|-lrb-|-rrb-|false|true|false|true|false|false|false|false|false|NN
+-RRB-	others	-rrb-|map|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+selection	others	select|_start_|criterion|false|false|false|false|false|false|false|false|false|NN
+criterion	others	criterion|select|i|false|false|false|false|false|false|false|false|false|NN
+I	others	i|criterion|will|false|false|true|true|false|false|false|false|false|PRP
+will	others	will|i|talk|false|false|false|false|false|false|false|false|false|MD
+talk	others	talk|will|about|false|false|false|false|false|false|false|false|false|VB
+about	others	about|talk|how|false|false|false|false|false|false|false|false|false|IN
+how	others	how|about|we|false|false|false|false|false|false|false|false|false|WRB
+we	others	we|how|have|false|false|false|false|false|false|false|false|false|PRP
+have	others	have|we|appli|false|false|false|false|false|false|false|false|false|VBP
+applied	others	appli|have|thi|false|false|false|false|false|false|false|false|false|VBN
+this	others	thi|appli|framework|false|false|false|false|false|false|false|false|false|DT
+framework	others	framework|thi|_end_|false|false|false|false|false|false|false|false|false|NN
+
+to	others	to|_start_|the|false|false|false|false|false|false|false|false|false|TO
+the	others	the|to|problem|false|false|false|false|false|false|false|false|false|DT
+problem	others	problem|the|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|problem|multiple-object|false|false|false|false|false|false|false|false|false|IN
+multiple-object	others	multiple-object|of|structure\/egomot|false|false|false|false|false|false|false|false|false|JJ
+structure\/egomotion	others	structure\/egomot|multiple-object|from|false|false|false|false|false|false|false|false|false|NN
+from	others	from|structure\/egomot|uncalibr|false|false|false|false|false|false|false|false|false|IN
+uncalibrated	others	uncalibr|from|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+video	others	video|_start_|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|video|the|false|false|false|false|false|false|false|false|false|CC
+the	others	the|and|problem|false|false|false|false|false|false|false|false|false|DT
+problem	others	problem|the|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|problem|object|false|false|false|false|false|false|false|false|false|IN
+object	others	object|of|recognit|false|false|false|false|false|false|false|false|false|NN
+recognition	others	recognit|object|us|false|false|false|false|false|false|false|false|false|NN
+using	others	us|recognit|2-d|false|false|false|false|false|false|false|false|false|VBG
+2-D	others	2-d|us|aspect|false|false|false|false|false|false|false|false|false|NN
+aspect	others	aspect|2-d|model|false|false|false|false|false|false|false|false|false|NN
+models	others	model|aspect|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+
+If	others	if|_start_|you|true|false|false|false|false|false|false|false|false|IN
+you	others	you|if|would|false|false|false|false|false|false|false|false|false|PRP
+would	others	would|you|like|false|false|false|false|false|false|false|false|false|MD
+like	others	like|would|to|false|false|false|false|false|false|false|false|false|VB
+to	others	to|like|make|false|false|false|false|false|false|false|false|false|TO
+make	others	make|to|a|false|false|false|false|false|false|false|false|false|VB
+an	others	a|make|appoint|false|false|false|false|false|false|false|false|false|DT
+appointment	others	appoint|a|with|false|false|false|false|false|false|false|false|false|NN
+with	others	with|appoint|alex|false|false|false|false|false|false|false|false|false|IN
+Alex	others	alex|with|pleas|true|false|false|false|false|true|false|false|false|NNP
+please	others	pleas|alex|feel|false|false|false|false|false|false|false|false|false|VB
+feel	others	feel|pleas|free|false|false|false|false|false|false|false|false|false|VB
+free	others	free|feel|to|false|false|false|false|false|false|false|false|false|JJ
+to	others	to|free|contact|false|false|false|false|false|false|false|false|false|TO
+contact	others	contact|to|_end_|false|false|false|false|false|false|false|false|false|VB
+
+Patty	others	patti|_start_|mackiewicz|true|false|false|false|false|true|false|false|false|NNP
+Mackiewicz	others	mackiewicz|patti|via|true|false|false|false|false|true|false|false|false|NNP
+via	others	via|mackiewicz|email|false|false|false|false|false|false|false|false|false|IN
+email	others	email|via|-lrb-|false|false|false|false|false|false|false|false|false|NN
+-LRB-	others	-lrb-|email|patty@c|false|false|false|false|false|false|false|false|false|-LRB-
+patty@cs	others	patty@c|-lrb-|-rrb-|false|false|false|false|false|false|false|false|false|NNS
+-RRB-	others	-rrb-|patty@c|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+

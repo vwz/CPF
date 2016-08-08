@@ -1,0 +1,272 @@
+Type	others	type|_start_|cmu|true|false|false|false|false|false|false|false|false|NN
+cmu	others	cmu|type|c|false|false|false|false|false|false|false|false|false|NN
+cs	others	c|cmu|proj|false|false|false|false|false|false|false|false|false|NNS
+proj	others	proj|c|warp|false|false|false|false|false|false|false|false|false|NN
+warp	others	warp|proj|iwarp|false|false|false|false|false|false|false|false|false|NN
+iwarp	others	iwarp|warp|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Topic	others	topic|_start_|seminar|true|false|false|false|false|false|false|false|false|NN
+Seminar	others	seminar|topic|_end_|true|false|false|false|false|false|false|false|false|NN
+
+Dates	others	date|_start_|2-jul-92|true|false|false|false|false|false|false|false|false|NNS
+2-Jul-92	others	2-jul-92|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|3:30|true|false|false|false|false|false|false|false|false|NNP
+3:30	stime	3:30|time|pm|false|false|false|false|false|false|false|false|false|CD
+PM	stime	pm|3:30|_end_|false|true|false|true|false|false|false|false|false|NN
+
+PostedBy	others	postedbi|_start_|droh|false|false|false|false|true|false|false|false|false|NNP
+droh	others	droh|postedbi|on|false|false|false|false|false|false|false|false|false|NN
+on	others	on|droh|01-jul-92|false|false|false|false|false|false|false|false|false|IN
+01-Jul-92	others	01-jul-92|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|01-jul-92|17:12|false|false|false|false|false|false|false|false|false|IN
+17:12	others	17:12|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|17:12|n2|false|false|false|false|false|false|false|false|false|IN
+N2	others	n2|from|sp.cs.cmu.edu|false|false|false|false|false|false|false|false|false|NN
+SP.CS.CMU.EDU	others	sp.cs.cmu.edu|n2|-lrb-|false|false|false|false|false|false|false|false|false|NN
+-LRB-	others	-lrb-|sp.cs.cmu.edu|dave|false|false|false|false|false|false|false|false|false|-LRB-
+Dave	others	dave|-lrb-|ohallaron|true|false|false|false|false|false|false|false|false|NNP
+OHallaron	others	ohallaron|dave|-rrb-|false|false|false|false|false|false|false|false|false|NNP
+-RRB-	others	-rrb-|ohallaron|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+Thursday	others	thursdai|_start_|juli|true|false|false|false|false|false|false|false|true|NNP
+July	others	juli|thursdai|2|true|false|false|false|false|false|false|false|true|NNP
+2	others	2|juli|1992|false|false|false|false|false|false|false|false|true|CD
+1992	others	1992|2|_end_|false|false|false|false|false|false|false|false|true|CD
+
+Performance	others	perform|_start_|evalu|true|false|false|false|false|false|false|false|false|NNP
+Evaluation	others	evalu|perform|of|true|false|false|false|false|false|false|false|false|NN
+of	others	of|evalu|latenc|false|false|false|false|false|false|false|false|false|IN
+Latency	others	latenc|of|toler|true|false|false|false|false|false|false|false|false|NN
+Tolerant	others	toler|latenc|architectur|true|false|false|false|false|false|false|false|false|JJ
+Architectures	others	architectur|toler|_end_|true|false|false|false|false|false|false|false|false|NNS
+
+Computer	others	comput|_start_|scienc|true|false|false|false|false|false|false|false|false|NNP
+Science	others	scienc|comput|dept.|true|false|false|false|false|false|false|false|false|NNP
+Dept.	others	dept.|scienc|_end_|false|false|false|false|false|false|false|false|false|NNP
+
+Indian	others	indian|_start_|institut|true|false|false|false|false|false|false|false|false|NNP
+Institute	others	institut|indian|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|institut|scienc|false|false|false|false|false|false|false|false|false|IN
+Science	others	scienc|of|-lrb-|true|false|false|false|false|false|false|false|false|NNP
+-LRB-	others	-lrb-|scienc|iisc|false|false|false|false|false|false|false|false|false|-LRB-
+IISc	others	iisc|-lrb-|-rrb-|false|false|false|false|false|false|false|false|false|NN
+-RRB-	others	-rrb-|iisc|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+Bangalore	others	bangalor|_start_|india|true|false|false|false|false|false|false|false|false|NNP
+INDIA	others	india|bangalor|_end_|false|true|false|true|false|false|false|false|false|NNP
+
+The	others	the|_start_|princip|true|false|false|false|false|false|false|false|false|DT
+principal	others	princip|the|difficulti|false|false|false|false|false|false|false|false|false|JJ
+difficulty	others	difficulti|princip|with|false|false|false|false|false|false|false|false|false|NN
+with	others	with|difficulti|mani|false|false|false|false|false|false|false|false|false|IN
+many	others	mani|with|mimd|false|false|false|false|false|false|false|false|false|JJ
+MIMD	others	mimd|mani|machin|false|true|false|true|false|false|false|false|false|JJ
+machines	others	machin|mimd|be|false|false|false|false|false|false|false|false|false|NNS
+is	others	be|machin|the|false|false|false|false|false|false|false|false|false|VBZ
+the	others	the|be|high|false|false|false|false|false|false|false|false|false|DT
+high	others	high|the|latenc|false|false|false|false|false|false|false|false|false|JJ
+latency	others	latenc|high|associ|false|false|false|false|false|false|false|false|false|NN
+associated	others	associ|latenc|_end_|false|false|false|false|false|false|false|false|false|VBN
+
+with	others	with|_start_|memori|false|false|false|false|false|false|false|false|false|IN
+memory	others	memori|with|access|false|false|false|false|false|false|false|false|false|NN
+accesses	others	access|memori|due|false|false|false|false|false|false|false|false|false|NNS
+due	others	due|access|to|false|false|false|false|false|false|false|false|false|JJ
+to	others	to|due|factor|false|false|false|false|false|false|false|false|false|TO
+factors	others	factor|to|like|false|false|false|false|false|false|false|false|false|NNS
+like	others	like|factor|propag|false|false|false|false|false|false|false|false|false|IN
+propagation	others	propag|like|delai|false|false|false|false|false|false|false|false|false|NN
+delays	others	delai|propag|in|false|false|false|false|false|false|false|false|false|NNS
+in	others	in|delai|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|in|network|false|false|false|false|false|false|false|false|false|DT
+network	others	network|the|_end_|false|false|false|false|false|false|false|false|false|NN
+
+and	others	and|_start_|coherence\/messag|false|false|false|false|false|false|false|false|false|CC
+coherence\/message	others	coherence\/messag|and|overhead|false|false|false|false|false|false|false|false|false|NN
+overheads	others	overhead|coherence\/messag|these|false|false|false|false|false|false|false|false|false|NNS
+These	others	these|overhead|delai|true|false|false|false|false|false|false|false|false|DT
+delays	others	delai|these|can|false|false|false|false|false|false|false|false|false|NNS
+can	others	can|delai|be|false|false|false|false|false|false|false|false|false|MD
+be	others	be|can|as|false|false|false|false|false|false|false|false|false|VB
+as	others	as|be|larg|false|false|false|false|false|false|false|false|false|RB
+large	others	larg|as|as|false|false|false|false|false|false|false|false|false|JJ
+as	others	as|larg|60-100|false|false|false|false|false|false|false|false|false|IN
+60-100	others	60-100|as|cycl|false|false|false|false|false|false|false|false|false|JJ
+cycles	others	cycl|60-100|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+There	others	there|_start_|be|true|false|false|false|false|false|false|false|false|EX
+are	others	be|there|two|false|false|false|false|false|false|false|false|false|VBP
+two	others	two|be|wai|false|false|false|false|false|false|false|false|false|CD
+ways	others	wai|two|of|false|false|false|false|false|false|false|false|false|NNS
+of	others	of|wai|lower|false|false|false|false|false|false|false|false|false|IN
+lowering	others	lower|of|the|false|false|false|false|false|false|false|false|false|VBG
+the	others	the|lower|effect|false|false|false|false|false|false|false|false|false|DT
+effective	others	effect|the|latenc|false|false|false|false|false|false|false|false|false|JJ
+latency	others	latenc|effect|latenc|false|false|false|false|false|false|false|false|false|NN
+latency	others	latenc|latenc|reduct|false|false|false|false|false|false|false|false|false|NN
+reduction	others	reduct|latenc|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|reduct|_end_|false|false|false|false|false|false|false|false|false|CC
+
+latency	others	latenc|_start_|toler|false|false|false|false|false|false|false|false|false|NN
+tolerance	others	toler|latenc|latenc|false|false|false|false|false|false|false|false|false|NN
+Latency	others	latenc|toler|reduct|true|false|false|false|false|false|false|false|false|NN
+reduction	others	reduct|latenc|be|false|false|false|false|false|false|false|false|false|NN
+is	others	be|reduct|accomplish|false|false|false|false|false|false|false|false|false|VBZ
+accomplished	others	accomplish|be|by|false|false|false|false|false|false|false|false|false|VBN
+by	others	by|accomplish|arrang|false|false|false|false|false|false|false|false|false|IN
+arranging	others	arrang|by|the|false|false|false|false|false|false|false|false|false|VBG
+the	others	the|arrang|_end_|false|false|false|false|false|false|false|false|false|DT
+
+processor	others	processor|_start_|'s|false|false|false|false|false|false|false|false|false|NN
+'s	others	's|processor|memori|false|false|false|false|false|false|false|false|false|POS
+memory	others	memori|'s|access|false|false|false|false|false|false|false|false|false|NN
+accesses	others	access|memori|so|false|false|false|false|false|false|false|false|false|VBZ
+so	others	so|access|that|false|false|false|false|false|false|false|false|false|RB
+that	others	that|so|most|false|false|false|false|false|false|false|false|false|IN
+most	others	most|that|of|false|false|false|false|false|false|false|false|false|JJS
+of	others	of|most|thei|false|false|false|false|false|false|false|false|false|IN
+them	others	thei|of|be|false|false|false|false|false|false|false|false|false|PRP
+are	others	be|thei|to|false|false|false|false|false|false|false|false|false|VBP
+to	others	to|be|locat|false|false|false|false|false|false|false|false|false|TO
+locations	others	locat|to|that|false|false|false|false|false|false|false|false|false|NNS
+that	others	that|locat|be|false|false|false|false|false|false|false|false|false|WDT
+are	others	be|that|_end_|false|false|false|false|false|false|false|false|false|VBP
+
+both	others	both|_start_|spatial|false|false|false|false|false|false|false|false|false|DT
+spatially	others	spatial|both|and|false|false|false|false|false|false|false|false|false|RB
+and	others	and|spatial|tempor|false|false|false|false|false|false|false|false|false|CC
+temporally	others	tempor|and|local|false|false|false|false|false|false|false|false|false|RB
+local	others	local|tempor|cach|false|false|false|false|false|false|false|false|false|JJ
+Caches	others	cach|local|be|true|false|false|false|false|false|false|false|false|NNS
+are	others	be|cach|popular|false|false|false|false|false|false|false|false|false|VBP
+popular	others	popular|be|and|false|false|false|false|false|false|false|false|false|JJ
+and	others	and|popular|effect|false|false|false|false|false|false|false|false|false|CC
+effective	others	effect|and|devic|false|false|false|false|false|false|false|false|false|JJ
+devices	others	devic|effect|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+for	others	for|_start_|latenc|false|false|false|false|false|false|false|false|false|IN
+latency	others	latenc|for|reduct|false|false|false|false|false|false|false|false|false|NN
+reduction	others	reduct|latenc|latenc|false|false|false|false|false|false|false|false|false|NN
+Latency	others	latenc|reduct|toler|true|false|false|false|false|false|false|false|false|NN
+tolerance	others	toler|latenc|be|false|false|false|false|false|false|false|false|false|NN
+is	others	be|toler|typic|false|false|false|false|false|false|false|false|false|VBZ
+typically	others	typic|be|effect|false|false|false|false|false|false|false|false|false|RB
+effected	others	effect|typic|by|false|false|false|false|false|false|false|false|false|VBN
+by	others	by|effect|overlap|false|false|false|false|false|false|false|false|false|IN
+overlapping	others	overlap|by|_end_|false|false|false|false|false|false|false|false|false|VBG
+
+communication	others	commun|_start_|latenc|false|false|false|false|false|false|false|false|false|NN
+latency	others	latenc|commun|with|false|false|false|false|false|false|false|false|false|NN
+with	others	with|latenc|us|false|false|false|false|false|false|false|false|false|IN
+useful	others	us|with|comput|false|false|false|false|false|false|false|false|false|JJ
+computation	others	comput|us|in|false|false|false|false|false|false|false|false|false|NN
+in	others	in|comput|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|in|processor|false|false|false|false|false|false|false|false|false|DT
+processor	others	processor|the|introduc|false|false|false|false|false|false|false|false|false|NN
+Introducing	others	introduc|processor|_end_|true|false|false|false|false|false|false|false|false|VBG
+
+virtual	others	virtual|_start_|processor|false|false|false|false|false|false|false|false|false|JJ
+processors	others	processor|virtual|and|false|false|false|false|false|false|false|false|false|NNS
+and	others	and|processor|exploit|false|false|false|false|false|false|false|false|false|CC
+exploiting	others	exploit|and|parallel|false|false|false|false|false|false|false|false|false|VBG
+parallelism	others	parallel|exploit|more|false|false|false|false|false|false|false|false|false|NN
+more	others	more|parallel|effect|false|false|false|false|false|false|false|false|false|RBR
+effectively	others	effect|more|be|false|false|false|false|false|false|false|false|false|RB
+are	others	be|effect|two|false|false|false|false|false|false|false|false|false|VBP
+two	others	two|be|_end_|false|false|false|false|false|false|false|false|false|CD
+
+important	others	import|_start_|approach|false|false|false|false|false|false|false|false|false|JJ
+approaches	others	approach|import|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+In	others	in|_start_|thi|true|false|false|false|false|false|false|false|false|IN
+this	others	thi|in|talk|false|false|false|false|false|false|false|false|false|DT
+talk	others	talk|thi|we|false|false|false|false|false|false|false|false|false|NN
+we	others	we|talk|will|false|false|false|false|false|false|false|false|false|PRP
+will	others	will|we|describ|false|false|false|false|false|false|false|false|false|MD
+describe	others	describ|will|some|false|false|false|false|false|false|false|false|false|VB
+some	others	some|describ|of|false|false|false|false|false|false|false|false|false|DT
+of	others	of|some|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|of|work|false|false|false|false|false|false|false|false|false|DT
+work	others	work|the|that|false|false|false|false|false|false|false|false|false|NN
+that	others	that|work|we|false|false|false|false|false|false|false|false|false|IN
+we	others	we|that|have|false|false|false|false|false|false|false|false|false|PRP
+have	others	have|we|undertak|false|false|false|false|false|false|false|false|false|VBP
+undertaken	others	undertak|have|_end_|false|false|false|false|false|false|false|false|false|VBN
+
+at	others	at|_start_|iisc|false|false|false|false|false|false|false|false|false|IN
+IISc	others	iisc|at|to|false|false|false|false|false|false|false|false|false|NN
+to	others	to|iisc|evalu|false|false|false|false|false|false|false|false|false|TO
+evaluate	others	evalu|to|the|false|false|false|false|false|false|false|false|false|VB
+the	others	the|evalu|perform|false|false|false|false|false|false|false|false|false|DT
+performance	others	perform|the|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|perform|latenc|false|false|false|false|false|false|false|false|false|IN
+latency	others	latenc|of|toler|false|false|false|false|false|false|false|false|false|NN
+tolerant	others	toler|latenc|architectur|false|false|false|false|false|false|false|false|false|JJ
+architectures	others	architectur|toler|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+The	others	the|_start_|primari|true|false|false|false|false|false|false|false|false|DT
+primary	others	primari|the|aim|false|false|false|false|false|false|false|false|false|JJ
+aim	others	aim|primari|be|false|false|false|false|false|false|false|false|false|NN
+is	others	be|aim|to|false|false|false|false|false|false|false|false|false|VBZ
+to	others	to|be|compar|false|false|false|false|false|false|false|false|false|TO
+compare	others	compar|to|the|false|false|false|false|false|false|false|false|false|VB
+the	others	the|compar|perform|false|false|false|false|false|false|false|false|false|DT
+performance	others	perform|the|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|perform|architectur|false|false|false|false|false|false|false|false|false|IN
+architectures	others	architectur|of|like|false|false|false|false|false|false|false|false|false|NNS
+like	others	like|architectur|horizon|false|false|false|false|false|false|false|false|false|IN
+Horizon	others	horizon|like|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+DASH	others	dash|_start_|plu|false|true|false|true|false|false|false|false|false|NN
+PLUS	others	plu|dash|alewif|false|true|false|true|false|false|false|false|false|NN
+Alewife	others	alewif|plu|and|true|false|false|false|false|false|false|false|false|NNP
+and	others	and|alewif|p-risc|false|false|false|false|false|false|false|false|false|CC
+P-RISC	others	p-risc|and|with|false|false|false|false|false|false|false|false|false|NN
+with	others	with|p-risc|respect|false|false|false|false|false|false|false|false|false|IN
+respect	others	respect|with|to|false|false|false|false|false|false|false|false|false|NN
+to	others	to|respect|resourc|false|false|false|false|false|false|false|false|false|TO
+resource	others	resourc|to|endow|false|false|false|false|false|false|false|false|false|NN
+endowment	others	endow|resourc|as|false|false|false|false|false|false|false|false|false|NN
+as	others	as|endow|these|false|false|false|false|false|false|false|false|false|IN
+these	others	these|as|_end_|false|false|false|false|false|false|false|false|false|DT
+
+machines	others	machin|_start_|be|false|false|false|false|false|false|false|false|false|NNS
+are	others	be|machin|wide|false|false|false|false|false|false|false|false|false|VBP
+widely	others	wide|be|differ|false|false|false|false|false|false|false|false|false|RB
+different	others	differ|wide|the|false|false|false|false|false|false|false|false|false|JJ
+The	others	the|differ|perform|true|false|false|false|false|false|false|false|false|DT
+performance	others	perform|the|be|false|false|false|false|false|false|false|false|false|NN
+is	others	be|perform|comput|false|false|false|false|false|false|false|false|false|VBZ
+computed	others	comput|be|by|false|false|false|false|false|false|false|false|false|VBN
+by	others	by|comput|a|false|false|false|false|false|false|false|false|false|IN
+an	others	a|by|analyt|false|false|false|false|false|false|false|false|false|DT
+analytical	others	analyt|a|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+study	others	studi|_start_|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|studi|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|of|behavior|false|false|false|false|false|false|false|false|false|DT
+behavior	others	behavior|the|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|behavior|two|false|false|false|false|false|false|false|false|false|IN
+two	others	two|of|algorithm|false|false|false|false|false|false|false|false|false|CD
+algorithms	others	algorithm|two|wavefront|false|false|false|false|false|false|false|false|false|NNS
+wavefront	others	wavefront|algorithm|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|wavefront|multigrid|false|false|false|false|false|false|false|false|false|CC
+multigrid	others	multigrid|and|the|false|false|false|false|false|false|false|false|false|JJ
+The	others	the|multigrid|resourc|true|false|false|false|false|false|false|false|false|DT
+resource	others	resourc|the|_end_|false|false|false|false|false|false|false|false|false|NN
+
+endowment	others	endow|_start_|be|false|false|false|false|false|false|false|false|false|NN
+is	others	be|endow|comput|false|false|false|false|false|false|false|false|false|VBZ
+computed	others	comput|be|by|false|false|false|false|false|false|false|false|false|VBN
+by	others	by|comput|a|false|false|false|false|false|false|false|false|false|IN
+a	others	a|by|normal|false|false|false|false|false|false|false|false|false|DT
+normalized	others	normal|a|cost|false|false|false|false|false|false|false|false|false|VBN
+costing	others	cost|normal|of|false|false|false|false|false|false|false|false|false|VBG
+of	others	of|cost|variou|false|false|false|false|false|false|false|false|false|IN
+various	others	variou|of|hardwar|false|false|false|false|false|false|false|false|false|JJ
+hardware	others	hardwar|variou|structur|false|false|false|false|false|false|false|false|false|NN
+structures	others	structur|hardwar|_end_|false|false|false|false|false|false|false|false|false|NNS
+

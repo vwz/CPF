@@ -1,0 +1,86 @@
+Type	others	type|_start_|cmu.andrew.org|true|false|false|false|false|false|false|false|false|NN
+cmu.andrew.org	others	cmu.andrew.org|type|heinz|false|false|false|false|false|false|false|false|false|NN
+heinz	others	heinz|cmu.andrew.org|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Topic	others	topic|_start_|system|true|false|false|false|false|false|false|false|false|NN
+Systems	others	system|topic|present|true|false|false|false|false|false|false|false|false|NNP
+Presentation	others	present|system|_end_|true|false|false|false|false|false|false|false|false|NN
+
+Dates	others	date|_start_|25-oct-93|true|false|false|false|false|false|false|false|false|NNS
+25-Oct-93	others	25-oct-93|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|3:30|true|false|false|false|false|false|false|false|false|NNP
+3:30	stime	3:30|time|pm|false|false|false|false|false|false|false|false|false|CD
+PM	stime	pm|3:30|_end_|false|true|false|true|false|false|false|false|false|NN
+
+PostedBy	others	postedbi|_start_|michel|false|false|false|false|true|false|false|false|false|NNP
+Michelle	others	michel|postedbi|lynn|true|false|false|false|false|true|false|false|false|NNP
+Lynn	others	lynn|michel|hanson|true|false|false|false|false|true|false|false|false|NNP
+Hanson	others	hanson|lynn|on|true|false|false|false|false|true|false|false|false|NNP
+on	others	on|hanson|21-oct-93|false|false|false|false|false|false|false|false|false|IN
+21-Oct-93	others	21-oct-93|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|21-oct-93|14:33|false|false|false|false|false|false|false|false|false|IN
+14:33	others	14:33|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|14:33|andrew.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+andrew.cmu.edu	others	andrew.cmu.edu|from|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+All	others	all|_start_|interest|true|false|false|false|false|false|false|false|false|DT
+interested	others	interest|all|student|false|false|false|false|false|false|false|false|false|JJ
+students	others	student|interest|faculti|false|false|false|false|false|false|false|false|false|NNS
+faculty	others	faculti|student|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|faculti|staff|false|false|false|false|false|false|false|false|false|CC
+staff	others	staff|and|be|false|false|false|false|false|false|false|false|false|NN
+are	others	be|staff|invit|false|false|false|false|false|false|false|false|false|VBP
+invited	others	invit|be|to|false|false|false|false|false|false|false|false|false|VBN
+to	others	to|invit|attend|false|false|false|false|false|false|false|false|false|TO
+attend	others	attend|to|_end_|false|false|false|false|false|false|false|false|false|VB
+
+Reshaping	others	reshap|_start_|commun|true|false|false|false|false|false|false|false|false|VBG
+Communities	others	commun|reshap|creat|true|false|false|false|false|false|false|false|false|NNS
+Creating	others	creat|commun|cooper|true|false|false|false|false|false|false|false|false|VBG
+Cooperative	others	cooper|creat|network|true|false|false|false|false|false|false|false|false|NNP
+Networks	others	network|cooper|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+with	others	with|_start_|manufactur|false|false|false|false|false|false|false|false|false|IN
+Manufacturers	others	manufactur|with|_end_|true|false|false|false|false|false|false|false|false|NNS
+
+A	others	a|_start_|system|false|false|true|true|false|false|false|false|false|DT
+Systems	others	system|a|synthesi|true|false|false|false|false|false|false|false|false|NNPS
+Synthesis	others	synthesi|system|project|true|false|false|false|false|false|false|false|false|NN
+Project	others	project|synthesi|present|true|false|false|false|false|false|false|false|false|NN
+Presentation	others	present|project|_end_|true|false|false|false|false|false|false|false|false|NN
+
+Monday	others	mondai|_start_|octob|true|false|false|false|false|false|false|false|true|NNP
+October	others	octob|mondai|25|true|false|false|false|false|false|false|false|true|NNP
+25	others	25|octob|1993|false|false|false|false|false|false|false|false|true|CD
+1993	others	1993|25|_end_|false|false|false|false|false|false|false|false|true|CD
+
+3:30	stime	3:30|_start_|p.|false|false|false|false|false|false|false|false|false|CD
+p.	stime	p.|3:30|m|false|false|false|false|false|false|false|false|false|NN
+m	stime	m|p.|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Group	others	group|_start_|member|true|false|false|false|false|false|false|false|false|NNP
+Members	others	member|group|_end_|true|false|false|false|false|false|false|false|false|NNPS
+
+David	others	david|_start_|cook|true|false|false|false|false|true|false|false|false|NNP
+Cooke	others	cook|david|molli|true|false|false|false|false|true|false|false|false|NNP
+Molly	others	molli|cook|fitzgerald|true|false|false|false|false|true|false|false|false|NNP
+FitzGerald	others	fitzgerald|molli|michel|false|false|false|false|false|true|false|false|false|NNP
+Michelle	others	michel|fitzgerald|hanson|true|false|false|false|false|true|false|false|false|NNP
+Hanson	others	hanson|michel|cori|true|false|false|false|false|true|false|false|false|NNP
+Cory	others	cori|hanson|jacqu|true|false|false|false|false|true|false|false|false|NNP
+Jacques	others	jacqu|cori|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+Alain	others	alain|_start_|noudeh|true|false|false|false|false|true|false|false|false|NNP
+Noudehou	others	noudeh|alain|jerri|true|false|false|false|false|true|false|false|false|NNP
+Jerry	others	jerri|noudeh|okoko|true|false|false|false|false|true|false|false|false|NNP
+Okoko	others	okoko|jerri|barri|true|false|false|false|false|true|false|false|false|NNP
+Barry	others	barri|okoko|o'rourk|true|false|false|false|false|true|false|false|false|NNP
+O'Rourke	others	o'rourk|barri|laura|false|false|false|false|false|true|false|false|false|NNP
+Laura	others	laura|o'rourk|richeson|true|false|false|false|false|true|false|false|false|NNP
+Richeson	others	richeson|laura|cecilia|true|false|false|false|false|true|false|false|false|NNP
+Cecilia	others	cecilia|richeson|wandiga|true|false|false|false|false|true|false|false|false|NNP
+Wandiga	others	wandiga|cecilia|_end_|true|false|false|false|false|true|false|false|false|NNP
+

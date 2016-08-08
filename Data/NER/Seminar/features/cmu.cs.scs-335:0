@@ -1,0 +1,93 @@
+Type	others	type|_start_|cmu|true|false|false|false|false|false|false|false|false|NN
+cmu	others	cmu|type|c|false|false|false|false|false|false|false|false|false|NN
+cs	others	c|cmu|sc|false|false|false|false|false|false|false|false|false|NNS
+scs	others	sc|c|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+Who	others	who|_start_|professor|true|false|false|false|false|false|false|false|false|WP
+Professor	speaker	professor|who|n.g.|true|false|false|false|false|true|false|false|false|NNP
+N.G.	speaker	n.g.|professor|de|false|false|false|false|false|true|false|false|false|NNP
+de	speaker	de|n.g.|bruijn|false|false|false|false|false|true|false|false|false|IN
+Bruijn	speaker	bruijn|de|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+Eindhoven	others	eindhoven|_start_|univers|true|false|false|false|false|false|false|false|false|NNP
+University	others	univers|eindhoven|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|univers|technolog|false|false|false|false|false|false|false|false|false|IN
+Technology	others	technolog|of|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Eindhoven	others	eindhoven|_start_|the|true|false|false|false|false|false|false|false|false|NNP
+The	others	the|eindhoven|netherland|true|false|false|false|false|false|false|false|false|DT
+Netherlands	others	netherland|the|_end_|true|false|false|false|false|false|false|false|false|NNPS
+
+Topic	others	topic|_start_|mathemat|true|false|false|false|false|false|false|false|false|NN
+Mathematical	others	mathemat|topic|theori|true|false|false|false|false|false|false|false|false|JJ
+Theory	others	theori|mathemat|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|theori|quasicryst|false|false|false|false|false|false|false|false|false|IN
+Quasicrystals	others	quasicryst|of|_end_|true|false|false|false|false|false|false|false|false|NNPS
+
+Dates	others	date|_start_|21-nov-9|true|false|false|false|false|false|false|false|false|NNS
+21-Nov-9	others	21-nov-9|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|10:30|true|false|false|false|false|false|false|false|false|NNP
+10:30	stime	10:30|time|am|false|false|false|false|false|false|false|false|false|CD
+AM	stime	am|10:30|_end_|false|true|false|true|false|false|false|false|false|NNP
+
+Place	others	place|_start_|5409|true|false|false|false|false|false|false|false|false|NN
+5409	location	5409|place|wean|false|false|false|false|false|false|false|false|true|CD
+Wean	location	wean|5409|hall|true|false|false|false|false|false|false|false|false|NNP
+Hall	location	hall|wean|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+PostedBy	others	postedbi|_start_|lydium|false|false|false|false|true|false|false|false|false|NNP
+lydia	others	lydium|postedbi|on|false|false|false|false|false|false|false|false|false|NN
+on	others	on|lydium|21-nov-91|false|false|false|false|false|false|false|false|false|IN
+21-Nov-91	others	21-nov-91|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|21-nov-91|08:55|false|false|false|false|false|false|false|false|false|IN
+08:55	others	08:55|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|08:55|proof.ergo.cs.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+PROOF.ERGO.CS.CMU.EDU	others	proof.ergo.cs.cmu.edu|from|-lrb-|false|false|false|false|false|false|false|false|false|NN
+-LRB-	others	-lrb-|proof.ergo.cs.cmu.edu|lydia|false|false|false|false|false|false|false|false|false|-LRB-
+Lydia	others	lydia|-lrb-|defilippo|true|false|false|false|false|true|false|false|false|NNP
+Defilippo	others	defilippo|lydia|-rrb-|true|false|false|false|false|true|false|false|false|NNP
+-RRB-	others	-rrb-|defilippo|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+REMINDER	others	remind|_start_|_end_|false|true|false|true|false|false|false|false|false|NN
+
+MATHEMATICS	others	mathemat|_start_|colloquium|false|true|false|true|false|false|false|false|false|NN
+COLLOQUIUM	others	colloquium|mathemat|_end_|false|true|false|true|false|false|false|false|false|NN
+
+Speaker	others	speaker|_start_|professor|true|false|false|false|false|false|false|false|false|NNP
+Professor	speaker	professor|speaker|n.g.|true|false|false|false|false|true|false|false|false|NNP
+N.G.	speaker	n.g.|professor|de|false|false|false|false|false|true|false|false|false|NNP
+de	speaker	de|n.g.|bruijn|false|false|false|false|false|true|false|false|false|IN
+Bruijn	speaker	bruijn|de|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+Eindhoven	others	eindhoven|_start_|univers|true|false|false|false|false|false|false|false|false|NNP
+University	others	univers|eindhoven|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|univers|technolog|false|false|false|false|false|false|false|false|false|IN
+Technology	others	technolog|of|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Eindhoven	others	eindhoven|_start_|the|true|false|false|false|false|false|false|false|false|NNP
+The	others	the|eindhoven|netherland|true|false|false|false|false|false|false|false|false|DT
+Netherlands	others	netherland|the|_end_|true|false|false|false|false|false|false|false|false|NNPS
+
+Date	others	date|_start_|thursdai|true|false|false|false|false|false|false|false|false|NN
+Thursday	others	thursdai|date|novemb|true|false|false|false|false|false|false|false|true|NNP
+November	others	novemb|thursdai|21|true|false|false|false|false|false|false|false|true|NNP
+21	others	21|novemb|_end_|false|false|false|false|false|false|false|false|true|CD
+
+Time	others	time|_start_|10:30|true|false|false|false|false|false|false|false|false|NNP
+10:30	stime	10:30|time|be|false|false|false|false|false|false|false|false|false|CD
+am	stime	be|10:30|_end_|false|false|false|false|false|false|false|false|false|VBP
+
+Place	others	place|_start_|5409|true|false|false|false|false|false|false|false|false|NN
+5409	location	5409|place|wean|false|false|false|false|false|false|false|false|true|CD
+Wean	location	wean|5409|hall|true|false|false|false|false|false|false|false|false|NNP
+Hall	location	hall|wean|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Topic	others	topic|_start_|mathemat|true|false|false|false|false|false|false|false|false|NN
+Mathematical	others	mathemat|topic|theori|true|false|false|false|false|false|false|false|false|JJ
+Theory	others	theori|mathemat|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|theori|quasicryst|false|false|false|false|false|false|false|false|false|IN
+Quasicrystals	others	quasicryst|of|_end_|true|false|false|false|false|false|false|false|false|NNPS
+

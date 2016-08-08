@@ -1,0 +1,108 @@
+Type	others	type|_start_|cmu.andrew.org|true|false|false|false|false|false|false|false|false|NN
+cmu.andrew.org	others	cmu.andrew.org|type|stc|false|false|false|false|false|false|false|false|false|NN
+stc	others	stc|cmu.andrew.org|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Topic	others	topic|_start_|week|true|false|false|false|false|false|false|false|false|NN
+Week	others	week|topic|of|true|false|false|false|false|false|false|false|true|NN
+of	others	of|week|mai|false|false|false|false|false|false|false|false|true|IN
+May	others	mai|of|8th|true|false|false|false|false|false|false|false|true|NNP
+8th	others	8th|mai|seminar|false|false|false|false|false|false|false|false|true|JJ
+Seminars	others	seminar|8th|etc.|true|false|false|false|false|false|false|false|false|NNS
+etc.	others	etc.|seminar|_end_|false|false|false|false|false|false|false|false|false|FW
+
+Dates	others	date|_start_|8-may-95|true|false|false|false|false|false|false|false|false|NNS
+8-May-95	others	8-may-95|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|11:30|true|false|false|false|false|false|false|false|false|NNP
+11:30	stime	11:30|time|12:00|false|false|false|false|false|false|true|false|false|CD
+12:00	etime	12:00|11:30|_end_|false|false|false|false|false|false|false|true|false|CD
+
+PostedBy	others	postedbi|_start_|dawn|false|false|false|false|true|false|false|false|false|NNP
+Dawn	others	dawn|postedbi|neuhart|true|false|false|false|false|true|false|false|false|NNP
+Neuhart	others	neuhart|dawn|on|true|false|false|false|false|true|false|false|false|NNP
+on	others	on|neuhart|8-may-95|false|false|false|false|false|false|false|false|false|IN
+8-May-95	others	8-may-95|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|8-may-95|09:19|false|false|false|false|false|false|false|false|false|IN
+09:19	others	09:19|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|09:19|andrew.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+andrew.cmu.edu	others	andrew.cmu.edu|from|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+For	others	for|_start_|the|true|false|false|false|false|false|false|false|false|IN
+the	others	the|for|week|false|false|false|false|false|false|false|false|true|DT
+week	others	week|the|of|false|false|false|false|false|false|false|false|true|NN
+of	others	of|week|mai|false|false|false|false|false|false|false|false|true|IN
+May	others	mai|of|8th|true|false|false|false|false|false|false|false|true|NNP
+8th	others	8th|mai|_end_|false|false|false|false|false|false|false|false|true|JJ
+
+MONDAY	others	mondai|_start_|_end_|false|true|false|true|false|false|false|false|true|NN
+
+Commercial	others	commerci|_start_|develop|true|false|false|false|false|false|false|false|false|NNP
+Development	others	develop|commerci|associ|true|false|false|false|false|false|false|false|false|NNP
+Association	others	associ|develop|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|associ|pittsburgh|false|false|false|false|false|false|false|false|false|IN
+Pittsburgh	others	pittsburgh|of|meet|true|false|false|false|false|false|false|false|false|NNP
+meeting	others	meet|pittsburgh|on|false|false|false|false|false|false|false|false|false|NN
+on	others	on|meet|mondai|false|false|false|false|false|false|false|false|false|IN
+Monday	others	mondai|on|mai|true|false|false|false|false|false|false|false|true|NNP
+May	others	mai|mondai|_end_|true|false|false|false|false|false|false|false|true|NNP
+
+8	others	8|_start_|at|false|false|false|false|false|false|false|false|false|CD
+at	others	at|8|11:30|false|false|false|false|false|false|false|false|false|IN
+11:30	stime	11:30|at|-12:00|false|false|false|false|false|false|false|false|false|CD
+-12:00	others	-12:00|11:30|for|false|false|false|false|false|false|false|false|false|CD
+for	others	for|-12:00|network|false|false|false|false|false|false|false|false|false|IN
+Networking	others	network|for|and|true|false|false|false|false|false|false|false|false|NN
+and	others	and|network|12:00|false|false|false|false|false|false|false|false|false|CC
+12:00	others	12:00|and|-2:00|false|false|false|false|false|false|false|false|false|CD
+-2:00	others	-2:00|12:00|for|false|false|false|false|false|false|false|false|false|CD
+for	others	for|-2:00|lunch|false|false|false|false|false|false|false|false|false|IN
+Lunch	others	lunch|for|and|true|false|false|false|false|false|false|false|false|NNP
+and	others	and|lunch|the|false|false|false|false|false|false|false|false|false|CC
+the	others	the|and|_end_|false|false|false|false|false|false|false|false|false|DT
+
+Program	others	program|_start_|in|true|false|false|false|false|false|false|false|false|NN
+in	others	in|program|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|in|engin|false|false|false|false|false|false|false|false|false|DT
+Engineer	location	engin|the|'s|true|false|false|false|false|false|false|false|false|NNP
+'s	location	's|engin|club|false|false|false|false|false|false|false|false|false|POS
+Club	location	club|'s|337|true|false|false|false|false|false|false|false|false|NNP
+337	location	337|club|4th|false|false|false|false|false|false|false|false|false|CD
+4th	location	4th|337|avenu|false|false|false|false|false|false|false|false|false|JJ
+Avenue	location	avenu|4th|will|true|false|false|false|false|false|false|false|false|NNP
+Will	others	will|avenu|featur|true|false|false|false|false|false|false|false|false|MD
+feature	others	featur|will|karen|false|false|false|false|false|false|false|false|false|VB
+Karen	speaker	karen|featur|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+Levine	others	levin|_start_|director|true|false|false|false|false|true|false|false|false|NNP
+Director	others	director|levin|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|director|commun|false|false|false|false|false|false|false|false|false|IN
+Communications	others	commun|of|for|true|false|false|false|false|false|false|false|false|NNPS
+for	others	for|commun|adam|false|false|false|false|false|false|false|false|false|IN
+Adam	others	adam|for|filippo|true|false|false|false|false|false|false|false|false|NNP
+Filippo	others	filippo|adam|associ|true|false|false|false|false|false|false|false|false|NNP
+Associates	others	associ|filippo|who|true|false|false|false|false|false|false|false|false|NNP
+who	others	who|associ|_end_|false|false|false|false|false|false|false|false|false|WP
+
+will	others	will|_start_|discuss|false|false|false|false|false|false|false|false|false|MD
+discuss	others	discuss|will|commun|false|false|false|false|false|false|false|false|false|VB
+Communicating	others	commun|discuss|the|true|false|false|false|false|false|false|false|false|VBG
+the	others	the|commun|new|false|false|false|false|false|false|false|false|false|DT
+New	others	new|the|product|true|false|false|false|false|false|false|false|false|NNP
+Product	others	product|new|messag|true|false|false|false|false|false|false|false|false|NNP
+Message	others	messag|product|-lrb-|true|false|false|false|false|false|false|false|false|NN
+-LRB-	others	-lrb-|messag|must|false|false|false|false|false|false|false|false|false|-LRB-
+Must	others	must|-lrb-|have|true|false|false|false|false|false|false|false|false|MD
+have	others	have|must|_end_|false|false|false|false|false|false|false|false|false|VB
+
+confirmed	others	confirm|_start_|reserv|false|false|false|false|false|false|false|false|false|VBN
+reservation	others	reserv|confirm|by|false|false|false|false|false|false|false|false|false|NN
+by	others	by|reserv|fridai|false|false|false|false|false|false|false|false|false|IN
+Friday	others	fridai|by|mai|true|false|false|false|false|false|false|false|true|NNP
+May	others	mai|fridai|5th|true|false|false|false|false|false|false|false|true|NNP
+5th	others	5th|mai|at|false|false|false|false|false|false|false|false|true|NN
+at	others	at|5th|261-4300|false|false|false|false|false|false|false|false|false|IN
+261-4300	others	261-4300|at|-rrb-|false|false|false|false|false|false|false|false|false|CD
+-RRB-	others	-rrb-|261-4300|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+

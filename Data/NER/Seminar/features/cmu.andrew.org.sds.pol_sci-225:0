@@ -1,0 +1,107 @@
+Type	others	type|_start_|cmu.andrew.org|true|false|false|false|false|false|false|false|false|NN
+cmu.andrew.org	others	cmu.andrew.org|type|sd|false|false|false|false|false|false|false|false|false|NN
+sds	others	sd|cmu.andrew.org|pol_sci|false|false|false|false|false|false|false|false|false|NNS
+pol_sci	others	pol_sci|sd|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+Topic	others	topic|_start_|environment|true|false|false|false|false|false|false|false|false|NN
+Environmental	others	environment|topic|lectur|true|false|false|false|false|false|false|false|false|NNP
+Lecture	others	lectur|environment|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Dates	others	date|_start_|1-dec-94|true|false|false|false|false|false|false|false|false|NNS
+1-Dec-94	others	1-dec-94|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|4:30|true|false|false|false|false|false|false|false|false|NNP
+4:30	stime	4:30|time|pm|false|false|false|false|false|false|false|false|false|CD
+PM	stime	pm|4:30|_end_|false|true|false|true|false|false|false|false|false|NN
+
+PostedBy	others	postedbi|_start_|marjori|false|false|false|false|true|false|false|false|false|NNP
+Marjorie	others	marjori|postedbi|melenyz|true|false|false|false|false|true|false|false|false|NNP
+Melenyzer	others	melenyz|marjori|on|true|false|false|false|false|true|false|false|false|NNP
+on	others	on|melenyz|22-nov-94|false|false|false|false|false|false|false|false|false|IN
+22-Nov-94	others	22-nov-94|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|22-nov-94|16:13|false|false|false|false|false|false|false|false|false|IN
+16:13	others	16:13|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|16:13|andrew.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+andrew.cmu.edu	others	andrew.cmu.edu|from|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+Katarzyna	speaker	katarzyna|_start_|klich|true|false|false|false|false|true|false|false|false|NNP
+Klich	speaker	klich|katarzyna|a|true|false|false|false|false|true|false|false|false|NNP
+an	others	a|klich|environment|false|false|false|false|false|false|false|false|false|DT
+environmental	others	environment|a|activist|false|false|false|false|false|false|false|false|false|JJ
+activist	others	activist|environment|from|false|false|false|false|false|false|false|false|false|NN
+from	others	from|activist|poland|false|false|false|false|false|false|false|false|false|IN
+Poland	others	poland|from|will|true|false|false|false|false|false|false|false|false|NNP
+will	others	will|poland|be|false|false|false|false|false|false|false|false|false|MD
+be	others	be|will|give|false|false|false|false|false|false|false|false|false|VB
+giving	others	give|be|a|false|false|false|false|false|false|false|false|false|VBG
+a	others	a|give|_end_|false|false|false|false|false|false|false|false|false|DT
+
+talk	others	talk|_start_|on|false|false|false|false|false|false|false|false|false|NN
+on	others	on|talk|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|on|environment|false|false|false|false|false|false|false|false|false|DT
+environmental	others	environment|the|situat|false|false|false|false|false|false|false|false|false|JJ
+situation	others	situat|environment|in|false|false|false|false|false|false|false|false|false|NN
+in	others	in|situat|poland|false|false|false|false|false|false|false|false|false|IN
+Poland	others	poland|in|she|true|false|false|false|false|false|false|false|false|NNP
+She	others	she|poland|be|true|false|false|false|false|false|false|false|false|PRP
+is	others	be|she|involv|false|false|false|false|false|false|false|false|false|VBZ
+involved	others	involv|be|in|false|false|false|false|false|false|false|false|false|VBN
+in	others	in|involv|_end_|false|false|false|false|false|false|false|false|false|IN
+
+organizing	others	organ|_start_|environment|false|false|false|false|false|false|false|false|false|VBG
+environmental	others	environment|organ|group|false|false|false|false|false|false|false|false|false|JJ
+groups	others	group|environment|and|false|false|false|false|false|false|false|false|false|NNS
+and	others	and|group|will|false|false|false|false|false|false|false|false|false|CC
+will	others	will|and|talk|false|false|false|false|false|false|false|false|false|MD
+talk	others	talk|will|about|false|false|false|false|false|false|false|false|false|VB
+about	others	about|talk|that|false|false|false|false|false|false|false|false|false|IN
+that	others	that|about|as|false|false|false|false|false|false|false|false|false|DT
+as	others	as|that|well|false|false|false|false|false|false|false|false|false|RB
+well	others	well|as|_end_|false|false|false|false|false|false|false|false|false|RB
+
+The	others	the|_start_|talk|true|false|false|false|false|false|false|false|false|DT
+talk	others	talk|the|be|false|false|false|false|false|false|false|false|false|NN
+is	others	be|talk|sponsor|false|false|false|false|false|false|false|false|false|VBZ
+sponsored	others	sponsor|be|by|false|false|false|false|false|false|false|false|false|VBN
+by	others	by|sponsor|student|false|false|false|false|false|false|false|false|false|IN
+Student	others	student|by|pugwash|true|false|false|false|false|false|false|false|false|NN
+Pugwash	others	pugwash|student|the|true|false|false|false|false|false|false|false|false|NN
+The	others	the|pugwash|environment|true|false|false|false|false|false|false|false|false|DT
+Environmental	others	environment|the|institut|true|false|false|false|false|false|false|false|false|NNP
+Institute	others	institut|environment|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+SEAC	others	seac|_start_|and|false|true|false|true|false|false|false|false|false|NN
+and	others	and|seac|envirolink|false|false|false|false|false|false|false|false|false|CC
+EnviroLink	others	envirolink|and|it|false|false|false|false|false|false|false|false|false|NNP
+It	others	it|envirolink|will|true|false|false|false|false|false|false|false|false|PRP
+will	others	will|it|be|false|false|false|false|false|false|false|false|false|MD
+be	others	be|will|on|false|false|false|false|false|false|false|false|false|VB
+on	others	on|be|thursdai|false|false|false|false|false|false|false|false|false|IN
+Thursday	others	thursdai|on|decemb|true|false|false|false|false|false|false|false|true|NNP
+December	others	decemb|thursdai|1|true|false|false|false|false|false|false|false|true|NNP
+1	others	1|decemb|at|false|false|false|false|false|false|false|false|true|CD
+at	others	at|1|4:30|false|false|false|false|false|false|false|false|false|IN
+4:30	stime	4:30|at|pm|false|false|false|false|false|false|false|false|false|CD
+pm	stime	pm|4:30|in|false|false|false|false|false|false|false|false|false|NN
+in	others	in|pm|_end_|false|false|false|false|false|false|false|false|false|IN
+
+the	others	the|_start_|adamson|false|false|false|false|false|false|false|false|false|DT
+Adamson	location	adamson|the|wing|true|false|false|false|false|false|false|false|false|NNP
+Wing	location	wing|adamson|_end_|true|false|false|false|false|false|false|false|false|NN
+
+Hope	others	hope|_start_|you|true|false|false|false|false|false|false|false|false|NNP
+you	others	you|hope|can|false|false|false|false|false|false|false|false|false|PRP
+can	others	can|you|attend|false|false|false|false|false|false|false|false|false|MD
+attend	others	attend|can|we|false|false|false|false|false|false|false|false|false|VB
+We	others	we|attend|be|true|false|false|false|false|false|false|false|false|PRP
+are	others	be|we|thank|false|false|false|false|false|false|false|false|false|VBP
+thankful	others	thank|be|to|false|false|false|false|false|false|false|false|false|JJ
+to	others	to|thank|baruch|false|false|false|false|false|false|false|false|false|TO
+Baruch	others	baruch|to|fischhoff|true|false|false|false|false|true|false|false|false|NNP
+Fischhoff	others	fischhoff|baruch|for|true|false|false|false|false|true|false|false|false|NNP
+for	others	for|fischhoff|thi|false|false|false|false|false|false|false|false|false|IN
+this	others	thi|for|opportun|false|false|false|false|false|false|false|false|false|DT
+opportunity	others	opportun|thi|_end_|false|false|false|false|false|false|false|false|false|NN
+

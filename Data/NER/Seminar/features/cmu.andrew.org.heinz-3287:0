@@ -1,0 +1,132 @@
+Type	others	type|_start_|cmu.andrew.org|true|false|false|false|false|false|false|false|false|NN
+cmu.andrew.org	others	cmu.andrew.org|type|heinz|false|false|false|false|false|false|false|false|false|NN
+heinz	others	heinz|cmu.andrew.org|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Topic	others	topic|_start_|seminar|true|false|false|false|false|false|false|false|false|NN
+Seminar	others	seminar|topic|on|true|false|false|false|false|false|false|false|false|NN
+on	others	on|seminar|mondai|false|false|false|false|false|false|false|false|false|IN
+Monday	others	mondai|on|_end_|true|false|false|false|false|false|false|false|true|NNP
+
+Dates	others	date|_start_|18-jan-93|true|false|false|false|false|false|false|false|false|NNS
+18-Jan-93	others	18-jan-93|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|12:30|true|false|false|false|false|false|false|false|false|NNP
+12:30	stime	12:30|time|pm|false|false|false|false|false|false|false|false|false|CD
+PM	stime	pm|12:30|2:00|false|true|false|true|false|false|true|false|false|NN
+2:00	etime	2:00|pm|pm|false|false|false|false|false|false|false|true|false|CD
+PM	etime	pm|2:00|_end_|false|true|false|true|false|false|false|false|false|NN
+
+PostedBy	others	postedbi|_start_|dean|false|false|false|false|true|false|false|false|false|NNP
+Dean	others	dean|postedbi|callowai|true|false|false|false|false|true|false|false|false|NNP
+Calloway	others	callowai|dean|on|true|false|false|false|false|true|false|false|false|NNP
+on	others	on|callowai|15-jan-93|false|false|false|false|false|false|false|false|false|IN
+15-Jan-93	others	15-jan-93|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|15-jan-93|14:37|false|false|false|false|false|false|false|false|false|IN
+14:37	others	14:37|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|14:37|andrew.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+andrew.cmu.edu	others	andrew.cmu.edu|from|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+Carnegie	others	carnegi|_start_|mellon|true|false|false|false|false|false|false|false|false|NNP
+Mellon	others	mellon|carnegi|'s|true|false|false|false|false|false|false|false|false|NNP
+'s	others	's|mellon|h.|false|false|false|false|false|false|false|false|false|POS
+H.	others	h.|'s|john|false|false|false|false|false|false|false|false|false|NNP
+John	others	john|h.|heinz|true|false|false|false|false|false|false|false|false|NNP
+Heinz	others	heinz|john|iii|true|false|false|false|false|false|false|false|false|NNP
+III	others	iii|heinz|school|false|true|false|true|false|false|false|false|false|NNP
+School	others	school|iii|present|true|false|false|false|false|false|false|false|false|NNP
+presents	others	present|school|a|false|false|false|false|false|false|false|false|false|VBZ
+a	others	a|present|student|false|false|false|false|false|false|false|false|false|DT
+student	others	student|a|discuss|false|false|false|false|false|false|false|false|false|NN
+discussion	others	discuss|student|_end_|false|false|false|false|false|false|false|false|false|NN
+
+seminar	others	seminar|_start_|in|false|false|false|false|false|false|false|false|false|NN
+in	others	in|seminar|honor|false|false|false|false|false|false|false|false|false|IN
+honor	others	honor|in|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|honor|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|of|birthdai|false|false|false|false|false|false|false|false|false|DT
+birthday	others	birthdai|the|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|birthdai|dr.|false|false|false|false|false|false|false|false|false|IN
+Dr.	others	dr.|of|martin|false|false|false|false|false|true|false|false|false|NNP
+Martin	others	martin|dr.|luther|true|false|false|false|false|true|false|false|false|NNP
+Luther	others	luther|martin|king|true|false|false|false|false|true|false|false|false|NNP
+King	others	king|luther|jr|true|false|false|false|false|true|false|false|false|NNP
+Jr	others	jr|king|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Developing	others	develop|_start_|a|true|false|false|false|false|false|false|false|false|VBG
+a	others	a|develop|new|false|false|false|false|false|false|false|false|false|DT
+New	others	new|a|agenda|true|false|false|false|false|false|false|false|false|NNP
+Agenda	others	agenda|new|for|true|false|false|false|false|false|false|false|false|NNP
+for	others	for|agenda|social|false|false|false|false|false|false|false|false|false|IN
+Social	others	social|for|justic|true|false|false|false|false|false|false|false|false|NNP
+Justice	others	justic|social|in|true|false|false|false|false|false|false|false|false|NNP
+in	others	in|justic|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|in|90|false|false|false|false|false|false|false|false|false|DT
+90	others	90|the|'s|false|false|false|false|false|false|false|false|false|CD
+'s	others	's|90|the|false|false|false|false|false|false|false|false|false|POS
+The	others	the|'s|reshap|true|false|false|false|false|false|false|false|false|DT
+Reshaping	others	reshap|the|_end_|true|false|false|false|false|false|false|false|false|VBG
+
+of	others	of|_start_|urban|false|false|false|false|false|false|false|false|false|IN
+Urban	others	urban|of|commun|true|false|false|false|false|false|false|false|false|NNP
+Communities	others	commun|urban|thei|true|false|false|false|false|false|false|false|false|NNP
+Their	others	thei|commun|right|true|false|false|false|false|false|false|false|false|PRP$
+Rights	others	right|thei|and|true|false|false|false|false|false|false|false|false|NNS
+and	others	and|right|thei|false|false|false|false|false|false|false|false|false|CC
+Their	others	thei|and|respons|true|false|false|false|false|false|false|false|false|PRP$
+Responsibilities	others	respons|thei|_end_|true|false|false|false|false|false|false|false|false|NNS
+
+with	others	with|_start_|a|false|false|false|false|false|false|false|false|false|IN
+an	others	a|with|introduct|false|false|false|false|false|false|false|false|false|DT
+introduction	others	introduct|a|by|false|false|false|false|false|false|false|false|false|NN
+by	others	by|introduct|dean|false|false|false|false|false|false|false|false|false|IN
+Dean	others	dean|by|al|true|false|false|false|false|true|false|false|false|NNP
+Al	others	al|dean|blumstein|true|false|false|false|false|true|false|false|false|NNP
+Blumstein	others	blumstein|al|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+As	others	as|_start_|america|true|false|false|false|false|false|false|false|false|IN
+America	others	america|as|enter|true|false|false|false|false|false|false|false|false|NNP
+enters	others	enter|america|the|false|false|false|false|false|false|false|false|false|VBZ
+the	others	the|enter|nineti|false|false|false|false|false|false|false|false|true|DT
+Nineties	others	nineti|the|the|true|false|false|false|false|false|false|false|true|NNPS
+the	others	the|nineti|condit|false|false|false|false|false|false|false|false|false|DT
+conditions	others	condit|the|in|false|false|false|false|false|false|false|false|false|NNS
+in	others	in|condit|mani|false|false|false|false|false|false|false|false|false|IN
+many	others	mani|in|urab|false|false|false|false|false|false|false|false|false|JJ
+urab	others	urab|mani|area|false|false|false|false|false|false|false|false|false|JJ
+areas	others	area|urab|be|false|false|false|false|false|false|false|false|false|NNS
+are	others	be|area|_end_|false|false|false|false|false|false|false|false|false|VBP
+
+steadily	others	steadili|_start_|deterior|false|false|false|false|false|false|false|false|false|RB
+deteriorating	others	deterior|steadili|in|false|false|false|false|false|false|false|false|false|VBG
+In	others	in|deterior|order|true|false|false|false|false|false|false|false|false|IN
+order	others	order|in|to|false|false|false|false|false|false|false|false|false|NN
+to	others	to|order|revers|false|false|false|false|false|false|false|false|false|TO
+reverse	others	revers|to|thi|false|false|false|false|false|false|false|false|false|VB
+this	others	thi|revers|trend|false|false|false|false|false|false|false|false|false|DT
+trend	others	trend|thi|a|false|false|false|false|false|false|false|false|false|NN
+a	others	a|trend|new|false|false|false|false|false|false|false|false|false|DT
+new	others	new|a|agenda|false|false|false|false|false|false|false|false|false|JJ
+agenda	others	agenda|new|_end_|false|false|false|false|false|false|false|false|false|NN
+
+for	others	for|_start_|deal|false|false|false|false|false|false|false|false|false|IN
+dealing	others	deal|for|with|false|false|false|false|false|false|false|false|false|VBG
+with	others	with|deal|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|with|problem|false|false|false|false|false|false|false|false|false|DT
+problems	others	problem|the|plagu|false|false|false|false|false|false|false|false|false|NNS
+plaguing	others	plagu|problem|inner-c|false|false|false|false|false|false|false|false|false|VBG
+inner-city	others	inner-c|plagu|commun|false|false|false|false|false|false|false|false|false|JJ
+communities	others	commun|inner-c|will|false|false|false|false|false|false|false|false|false|NNS
+will	others	will|commun|need|false|false|false|false|false|false|false|false|false|MD
+need	others	need|will|_end_|false|false|false|false|false|false|false|false|false|VB
+
+to	others	to|_start_|be|false|false|false|false|false|false|false|false|false|TO
+be	others	be|to|develop|false|false|false|false|false|false|false|false|false|VB
+developed	others	develop|be|_end_|false|false|false|false|false|false|false|false|false|VBN
+
+Monday	others	mondai|_start_|januari|true|false|false|false|false|false|false|false|true|NNP
+January	others	januari|mondai|18th|true|false|false|false|false|false|false|false|true|NNP
+18th	others	18th|januari|1993|false|false|false|false|false|false|false|false|true|JJ
+1993	others	1993|18th|_end_|false|false|false|false|false|false|false|false|true|CD
+

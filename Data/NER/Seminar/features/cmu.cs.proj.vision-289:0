@@ -1,0 +1,59 @@
+Type	others	type|_start_|cmu|true|false|false|false|false|false|false|false|false|NN
+cmu	others	cmu|type|c|false|false|false|false|false|false|false|false|false|NN
+cs	others	c|cmu|proj|false|false|false|false|false|false|false|false|false|NNS
+proj	others	proj|c|vision|false|false|false|false|false|false|false|false|false|NN
+vision	others	vision|proj|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Topic	others	topic|_start_|stuart|true|false|false|false|false|false|false|false|false|NN
+Stuart	speaker	stuart|topic|friedberg|true|false|false|false|false|true|false|false|false|NNP
+Friedberg	speaker	friedberg|stuart|talk|true|false|false|false|false|true|false|false|false|NNP
+talking	others	talk|friedberg|fridai|false|false|false|false|false|false|false|false|false|VBG
+Friday	others	fridai|talk|_end_|true|false|false|false|false|false|false|false|true|NNP
+
+Dates	others	date|_start_|6-jul-84|true|false|false|false|false|false|false|false|false|NNS
+6-Jul-84	others	6-jul-84|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|2:00|true|false|false|false|false|false|false|false|false|NNP
+2:00	stime	2:00|time|_end_|false|false|false|false|false|false|false|false|false|CD
+
+PostedBy	others	postedbi|_start_|on|false|false|false|false|true|false|false|false|false|NNP
+on	others	on|postedbi|05-jul-84|false|false|false|false|false|false|false|false|false|IN
+05-Jul-84	others	05-jul-84|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|05-jul-84|12:09|false|false|false|false|false|false|false|false|false|IN
+12:09	others	12:09|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|12:09|_end_|false|false|false|false|false|false|false|false|false|IN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+This	others	thi|_start_|be|true|false|false|false|false|false|false|false|false|DT
+is	others	be|thi|a|false|false|false|false|false|false|false|false|false|VBZ
+a	others	a|be|remind|false|false|false|false|false|false|false|false|false|DT
+reminder	others	remind|a|that|false|false|false|false|false|false|false|false|false|NN
+that	others	that|remind|stuart|false|false|false|false|false|false|false|false|false|IN
+Stuart	speaker	stuart|that|friedberg|true|false|false|false|false|true|false|false|false|NNP
+Friedberg	speaker	friedberg|stuart|from|true|false|false|false|false|true|false|false|false|NNP
+from	others	from|friedberg|u.|false|false|false|false|false|false|false|false|false|IN
+U.	others	u.|from|rochest|false|false|false|false|false|false|false|false|false|NNP
+Rochester	others	rochest|u.|be|true|false|false|false|false|false|false|false|false|NNP
+is	others	be|rochest|_end_|false|false|false|false|false|false|false|false|false|VBZ
+
+talking	others	talk|_start_|tomorrow|false|false|false|false|false|false|false|false|false|VBG
+tomorrow	others	tomorrow|talk|-lrb-|false|false|false|false|false|false|false|false|true|NN
+-LRB-	others	-lrb-|tomorrow|fridai|false|false|false|false|false|false|false|false|false|-LRB-
+Friday	others	fridai|-lrb-|-rrb-|true|false|false|false|false|false|false|false|true|NNP
+-RRB-	others	-rrb-|fridai|at|false|false|false|false|false|false|false|false|false|-RRB-
+at	others	at|-rrb-|2:00|false|false|false|false|false|false|false|false|false|IN
+2:00	stime	2:00|at|in|false|false|false|false|false|false|false|false|false|CD
+in	others	in|2:00|8220|false|false|false|false|false|false|false|false|false|IN
+8220	location	8220|in|he|false|false|false|false|false|false|false|false|false|CD
+He	others	he|8220|be|true|false|false|false|false|false|false|false|false|PRP
+'s	others	be|he|talk|false|false|false|false|false|false|false|false|false|VBZ
+talking	others	talk|be|about|false|false|false|false|false|false|false|false|false|VBG
+about	others	about|talk|_end_|false|false|false|false|false|false|false|false|false|IN
+
+Finding	others	find|_start_|ax|true|false|false|false|false|false|false|false|false|NNP
+Axes	others	ax|find|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|ax|skew|false|false|false|false|false|false|false|false|false|IN
+Skewed	others	skew|of|symmetri|true|false|false|false|false|false|false|false|false|NNP
+Symmetry	others	symmetri|skew|_end_|true|false|false|false|false|false|false|false|false|NNP
+

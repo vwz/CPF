@@ -1,0 +1,122 @@
+Type	others	type|_start_|cmu.andrew.org|true|false|false|false|false|false|false|false|false|NN
+cmu.andrew.org	others	cmu.andrew.org|type|heinz|false|false|false|false|false|false|false|false|false|NN
+heinz	others	heinz|cmu.andrew.org|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Who	others	who|_start_|arjun|true|false|false|false|false|false|false|false|false|WP
+Arjun	speaker	arjun|who|makhijani|true|false|false|false|false|true|false|false|false|NNP
+Makhijani	speaker	makhijani|arjun|phd|true|false|false|false|false|true|false|false|false|NNP
+PhD	speaker	phd|makhijani|_end_|false|false|false|false|false|true|false|false|false|NN
+
+Nuclear	others	nuclear|_start_|engin|true|false|false|false|false|false|false|false|false|JJ
+Engineer	others	engin|nuclear|and|true|false|false|false|false|false|false|false|false|NN
+and	others	and|engin|_end_|false|false|false|false|false|false|false|false|false|CC
+
+President	others	presid|_start_|institut|true|false|false|false|false|false|false|false|false|NNP
+Institute	others	institut|presid|for|true|false|false|false|false|false|false|false|false|NNP
+for	others	for|institut|energi|false|false|false|false|false|false|false|false|false|IN
+Energy	others	energi|for|and|true|false|false|false|false|false|false|false|false|NNP
+and	others	and|energi|environment|false|false|false|false|false|false|false|false|false|CC
+Environmental	others	environment|and|research|true|false|false|false|false|false|false|false|false|NNP
+Research	others	research|environment|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Topic	others	topic|_start_|lectur|true|false|false|false|false|false|false|false|false|NN
+Lecture	others	lectur|topic|radioact|true|false|false|false|false|false|false|false|false|NN
+RADIOACTIVE	others	radioact|lectur|heaven|false|true|false|true|false|false|false|false|false|NN
+HEAVEN	others	heaven|radioact|and|false|true|false|true|false|false|false|false|false|NN
+AND	others	and|heaven|earth|false|true|false|true|false|false|false|false|false|CC
+EARTH	others	earth|and|_end_|false|true|false|true|false|false|false|false|false|NN
+
+Dates	others	date|_start_|12-mar-92|true|false|false|false|false|false|false|false|false|NNS
+12-Mar-92	others	12-mar-92|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|7:30|true|false|false|false|false|false|false|false|false|NNP
+7:30	stime	7:30|time|pm|false|false|false|false|false|false|false|false|false|CD
+PM	stime	pm|7:30|_end_|false|true|false|true|false|false|false|false|false|NN
+
+PostedBy	others	postedbi|_start_|edith|false|false|false|false|true|false|false|false|false|NNP
+Edith	others	edith|postedbi|elig|true|false|false|false|false|true|false|false|false|NNP
+Eligator	others	elig|edith|on|true|false|false|false|false|true|false|false|false|NNP
+on	others	on|elig|29-feb-92|false|false|false|false|false|false|false|false|false|IN
+29-Feb-92	others	29-feb-92|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|29-feb-92|11:21|false|false|false|false|false|false|false|false|false|IN
+11:21	others	11:21|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|11:21|andrew.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+andrew.cmu.edu	others	andrew.cmu.edu|from|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+RADIOACTIVE	others	radioact|_start_|heaven|false|true|false|true|false|false|false|false|false|JJ
+HEAVEN	others	heaven|radioact|and|false|true|false|true|false|false|false|false|false|NN
+AND	others	and|heaven|earth|false|true|false|true|false|false|false|false|false|CC
+EARTH	others	earth|and|_end_|false|true|false|true|false|false|false|false|false|NN
+
+
+The	others	the|_start_|environment|true|false|false|false|false|false|false|false|false|DT
+Environmental	others	environment|the|and|true|false|false|false|false|false|false|false|false|NNP
+and	others	and|environment|health|false|false|false|false|false|false|false|false|false|CC
+Health	others	health|and|cost|true|false|false|false|false|false|false|false|false|NNP
+Costs	others	cost|health|of|true|false|false|false|false|false|false|false|false|NNS
+of	others	of|cost|nuclear|false|false|false|false|false|false|false|false|false|IN
+Nuclear	others	nuclear|of|weapon|true|false|false|false|false|false|false|false|false|JJ
+Weapons	others	weapon|nuclear|product|true|false|false|false|false|false|false|false|false|NNP
+Production	others	product|weapon|_end_|true|false|false|false|false|false|false|false|false|NN
+
+and	others	and|_start_|test|false|false|false|false|false|false|false|false|false|CC
+Testing	others	test|and|and|true|false|false|false|false|false|false|false|false|NNP
+and	others	and|test|nuclear|false|false|false|false|false|false|false|false|false|CC
+Nuclear	others	nuclear|and|wast|true|false|false|false|false|false|false|false|false|NNP
+Waste	others	wast|nuclear|dispos|true|false|false|false|false|false|false|false|false|NNP
+Disposal	others	dispos|wast|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Speaker	others	speaker|_start_|arjun|true|false|false|false|false|false|false|false|false|NNP
+Arjun	speaker	arjun|speaker|makhijani|true|false|false|false|false|true|false|false|false|NNP
+Makhijani	speaker	makhijani|arjun|phd|true|false|false|false|false|true|false|false|false|NNP
+PhD	speaker	phd|makhijani|_end_|false|false|false|false|false|true|false|false|false|NN
+
+Nuclear	others	nuclear|_start_|engin|true|false|false|false|false|false|false|false|false|JJ
+Engineer	others	engin|nuclear|and|true|false|false|false|false|false|false|false|false|NN
+and	others	and|engin|_end_|false|false|false|false|false|false|false|false|false|CC
+
+President	others	presid|_start_|institut|true|false|false|false|false|false|false|false|false|NNP
+Institute	others	institut|presid|for|true|false|false|false|false|false|false|false|false|NNP
+for	others	for|institut|energi|false|false|false|false|false|false|false|false|false|IN
+Energy	others	energi|for|and|true|false|false|false|false|false|false|false|false|NNP
+and	others	and|energi|environment|false|false|false|false|false|false|false|false|false|CC
+Environmental	others	environment|and|research|true|false|false|false|false|false|false|false|false|NNP
+Research	others	research|environment|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Thursday	others	thursdai|_start_|march|true|false|false|false|false|false|false|false|true|NNP
+March	others	march|thursdai|12|true|false|false|false|false|false|false|false|true|NNP
+12	others	12|march|1992|false|false|false|false|false|false|false|false|true|CD
+1992	others	1992|12|at|false|false|false|false|false|false|false|false|true|CD
+at	others	at|1992|7:30|false|false|false|false|false|false|false|false|false|IN
+7:30	stime	7:30|at|pm|false|false|false|false|false|false|false|false|false|CD
+pm	stime	pm|7:30|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Sponsored	others	sponsor|_start_|by|true|false|false|false|false|false|false|false|false|VBN
+by	others	by|sponsor|physician|false|false|false|false|false|false|false|false|false|IN
+Physicians	others	physician|by|for|true|false|false|false|false|false|false|false|false|NNP
+for	others	for|physician|social|false|false|false|false|false|false|false|false|false|IN
+Social	others	social|for|respons|true|false|false|false|false|false|false|false|false|NNP
+Responsibility	others	respons|social|sierra|true|false|false|false|false|false|false|false|false|NNP
+Sierra	others	sierra|respons|club|true|false|false|false|false|false|false|false|false|NNP
+Club	others	club|sierra|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+GreenPeace	others	greenpeac|_start_|action|false|false|false|false|false|false|false|false|false|NNP
+Action	others	action|greenpeac|clean|true|false|false|false|false|false|false|false|false|NNP
+Clean	others	clean|action|water|true|false|false|false|false|false|false|false|false|NNP
+Water	others	water|clean|action|true|false|false|false|false|false|false|false|false|NNP
+Action	others	action|water|citizen|true|false|false|false|false|false|false|false|false|NNP
+Citizen	others	citizen|action|action|true|false|false|false|false|false|false|false|false|NNP
+Action	others	action|citizen|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+World	others	world|_start_|federalist|true|false|false|false|false|false|false|false|false|NNP
+Federalists	others	federalist|world|assn|true|false|false|false|false|false|false|false|false|NNPS
+Assn	others	assn|federalist|cmu|true|false|false|false|false|false|false|false|false|NNP
+CMU	others	cmu|assn|student|false|true|false|true|false|false|false|false|false|NNP
+Student	others	student|cmu|pugwash|true|false|false|false|false|false|false|false|false|NNP
+Pugwash	others	pugwash|student|and|true|false|false|false|false|false|false|false|false|NNP
+and	others	and|pugwash|peac|false|false|false|false|false|false|false|false|false|CC
+Peace	others	peac|and|link|true|false|false|false|false|false|false|false|false|NNP
+Links	others	link|peac|_end_|true|false|false|false|false|false|false|false|false|NNP
+

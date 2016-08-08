@@ -1,0 +1,97 @@
+Type	others	type|_start_|cmu|true|false|false|false|false|false|false|false|false|NN
+cmu	others	cmu|type|c|false|false|false|false|false|false|false|false|false|NN
+cs	others	c|cmu|proj|false|false|false|false|false|false|false|false|false|NNS
+proj	others	proj|c|vision|false|false|false|false|false|false|false|false|false|NN
+vision	others	vision|proj|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Topic	others	topic|_start_|iu|true|false|false|false|false|false|false|false|false|NN
+IUS	others	iu|topic|seminar|false|true|false|true|false|false|false|false|false|NNS
+seminar	others	seminar|iu|june|false|false|false|false|false|false|false|false|false|NN
+June	others	june|seminar|4|true|false|false|false|false|false|false|false|true|NNP
+4	others	4|june|_end_|false|false|false|false|false|false|false|false|true|CD
+
+Dates	others	date|_start_|4-jun-84|true|false|false|false|false|false|false|false|false|NNS
+4-Jun-84	others	4-jun-84|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|3:30|true|false|false|false|false|false|false|false|false|NNP
+3:30	stime	3:30|time|_end_|false|false|false|false|false|false|false|false|false|CD
+
+PostedBy	others	postedbi|_start_|on|false|false|false|false|true|false|false|false|false|NNP
+on	others	on|postedbi|03-jun-84|false|false|false|false|false|false|false|false|false|IN
+03-Jun-84	others	03-jun-84|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|03-jun-84|17:29|false|false|false|false|false|false|false|false|false|IN
+17:29	others	17:29|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|17:29|_end_|false|false|false|false|false|false|false|false|false|IN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+This	others	thi|_start_|mondai|true|false|false|false|false|false|false|false|true|DT
+Monday	others	mondai|thi|i|true|false|false|false|false|false|false|false|true|NNP
+I	others	i|mondai|'ll|false|false|true|true|false|false|false|false|false|PRP
+'ll	others	'll|i|be|false|false|false|false|false|false|false|false|false|MD
+be	others	be|'ll|talk|false|false|false|false|false|false|false|false|false|VB
+talking	others	talk|be|about|false|false|false|false|false|false|false|false|false|VBG
+about	others	about|talk|a|false|false|false|false|false|false|false|false|false|IN
+a	others	a|about|few|false|false|false|false|false|false|false|false|false|DT
+few	others	few|a|machin|false|false|false|false|false|false|false|false|false|JJ
+machine	others	machin|few|architectur|false|false|false|false|false|false|false|false|false|NN
+architectures	others	architectur|machin|for|false|false|false|false|false|false|false|false|false|NNS
+for	others	for|architectur|vision|false|false|false|false|false|false|false|false|false|IN
+vision	others	vision|for|_end_|false|false|false|false|false|false|false|false|false|NN
+
+I	others	i|_start_|'ll|false|false|true|true|false|false|false|false|false|CD
+'ll	others	'll|i|be|false|false|false|false|false|false|false|false|false|MD
+be	others	be|'ll|discuss|false|false|false|false|false|false|false|false|false|VB
+discussing	others	discuss|be|clip4|false|false|false|false|false|false|false|false|false|VBG
+CLIP4	others	clip4|discuss|mpp|false|false|false|false|false|false|false|false|false|NN
+MPP	others	mpp|clip4|and|false|true|false|true|false|false|false|false|false|NN
+and	others	and|mpp|warp|false|false|false|false|false|false|false|false|false|CC
+Warp	others	warp|and|clip4|true|false|false|false|false|false|false|false|false|NNP
+CLIP4	others	clip4|warp|be|false|false|false|false|false|false|false|false|false|NN
+was	others	be|clip4|develop|false|false|false|false|false|false|false|false|false|VBD
+developed	others	develop|be|at|false|false|false|false|false|false|false|false|false|VBN
+at	others	at|develop|univers|false|false|false|false|false|false|false|false|false|IN
+University	others	univers|at|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+College	others	colleg|_start_|london|true|false|false|false|false|false|false|false|false|NNP
+London	others	london|colleg|mpp|true|false|false|false|false|false|false|false|false|NNP
+MPP	others	mpp|london|be|false|true|false|true|false|false|false|false|false|NN
+is	others	be|mpp|a|false|false|false|false|false|false|false|false|false|VBZ
+a	others	a|be|nasa|false|false|false|false|false|false|false|false|false|DT
+NASA	others	nasa|a|machin|false|true|false|true|false|false|false|false|false|NNP
+machine	others	machin|nasa|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|machin|warp|false|false|false|false|false|false|false|false|false|CC
+Warp	others	warp|and|be|true|false|false|false|false|false|false|false|false|NNP
+is	others	be|warp|a|false|false|false|false|false|false|false|false|false|VBZ
+a	others	a|be|machin|false|false|false|false|false|false|false|false|false|DT
+machine	others	machin|a|be|false|false|false|false|false|false|false|false|false|NN
+being	others	be|machin|_end_|false|false|false|false|false|false|false|false|false|VBG
+
+constructed	others	construct|_start_|here|false|false|false|false|false|false|false|false|false|VBN
+here	others	here|construct|at|false|false|false|false|false|false|false|false|false|RB
+at	others	at|here|cmu|false|false|false|false|false|false|false|false|false|IN
+CMU	others	cmu|at|i|false|true|false|true|false|false|false|false|false|NNP
+I	others	i|cmu|'ll|false|false|true|true|false|false|false|false|false|PRP
+'ll	others	'll|i|be|false|false|false|false|false|false|false|false|false|MD
+be	others	be|'ll|discuss|false|false|false|false|false|false|false|false|false|VB
+discussing	others	discuss|be|the|false|false|false|false|false|false|false|false|false|VBG
+the	others	the|discuss|architectur|false|false|false|false|false|false|false|false|false|DT
+architecture	others	architectur|the|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|architectur|each|false|false|false|false|false|false|false|false|false|IN
+each	others	each|of|_end_|false|false|false|false|false|false|false|false|false|DT
+
+machine	others	machin|_start_|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|machin|will|false|false|false|false|false|false|false|false|false|CC
+will	others	will|and|try|false|false|false|false|false|false|false|false|false|MD
+try	others	try|will|to|false|false|false|false|false|false|false|false|false|VB
+to	others	to|try|describ|false|false|false|false|false|false|false|false|false|TO
+describe	others	describ|to|the|false|false|false|false|false|false|false|false|false|VB
+the	others	the|describ|sort|false|false|false|false|false|false|false|false|false|DT
+sorts	others	sort|the|of|false|false|false|false|false|false|false|false|false|NNS
+of	others	of|sort|thing|false|false|false|false|false|false|false|false|false|IN
+things	others	thing|of|each|false|false|false|false|false|false|false|false|false|NNS
+each	others	each|thing|be|false|false|false|false|false|false|false|false|false|DT
+is	others	be|each|good|false|false|false|false|false|false|false|false|false|VBZ
+good	others	good|be|for|false|false|false|false|false|false|false|false|false|JJ
+for	others	for|good|_end_|false|false|false|false|false|false|false|false|false|IN
+

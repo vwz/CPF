@@ -1,0 +1,235 @@
+Type	others	type|_start_|cmu|true|false|false|false|false|false|false|false|false|NN
+cmu	others	cmu|type|c|false|false|false|false|false|false|false|false|false|NN
+cs	others	c|cmu|sc|false|false|false|false|false|false|false|false|false|NNS
+scs	others	sc|c|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+Topic	others	topic|_start_|graphic|true|false|false|false|false|false|false|false|false|NN
+GRAPHICS	others	graphic|topic|seminar|false|true|false|true|false|false|false|false|false|NN
+SEMINAR	others	seminar|graphic|nov.|false|true|false|true|false|false|false|false|false|NN
+Nov.	others	nov.|seminar|11|false|false|false|false|false|false|false|false|true|NNP
+11	others	11|nov.|comput|false|false|false|false|false|false|false|false|true|CD
+Computer	others	comput|11|graphic|true|false|false|false|false|false|false|false|false|NNP
+Graphics	others	graphic|comput|snack|true|false|false|false|false|false|false|false|false|NNP
+Snacks	others	snack|graphic|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Dates	others	date|_start_|11-nov-92|true|false|false|false|false|false|false|false|false|NNS
+11-Nov-92	others	11-nov-92|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|2:40|true|false|false|false|false|false|false|false|false|NNP
+2:40	stime	2:40|time|_end_|false|false|false|false|false|false|false|false|false|CD
+
+Host	others	host|_start_|paul|true|false|false|false|false|false|false|false|false|NN
+Paul	others	paul|host|heckbert|true|false|false|false|false|true|false|false|false|NNP
+Heckbert	others	heckbert|paul|ph@cs.cmu.edu,|true|false|false|false|false|true|false|false|false|NNP
+ph@cs.cmu.edu,	others	ph@cs.cmu.edu,|heckbert|268-7899|false|false|false|false|false|false|false|false|false|NN
+268-7899	others	268-7899|ph@cs.cmu.edu,|_end_|false|false|false|false|false|false|false|false|false|CD
+
+PostedBy	others	postedbi|_start_|ph|false|false|false|false|true|false|false|false|false|NNP
+ph	others	ph|postedbi|on|false|false|false|false|false|false|false|false|false|NN
+on	others	on|ph|3-nov-92|false|false|false|false|false|false|false|false|false|IN
+3-Nov-92	others	3-nov-92|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|3-nov-92|13:07|false|false|false|false|false|false|false|false|false|IN
+13:07	others	13:07|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|13:07|cs.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+cs.cmu.edu	others	cs.cmu.edu|from|-lrb-|false|false|false|false|false|false|false|false|false|NN
+-LRB-	others	-lrb-|cs.cmu.edu|paul|false|false|false|false|false|false|false|false|false|-LRB-
+Paul	others	paul|-lrb-|heckbert|true|false|false|false|false|true|false|false|false|NNP
+Heckbert	others	heckbert|paul|-rrb-|true|false|false|false|false|true|false|false|false|NNP
+-RRB-	others	-rrb-|heckbert|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+GRAPHICS	others	graphic|_start_|seminar|false|true|false|true|false|false|false|false|false|NN
+SEMINAR	others	seminar|graphic|_end_|false|true|false|true|false|false|false|false|false|NN
+
+Wednesday	others	wednesdai|_start_|novemb|true|false|false|false|false|false|false|false|true|NNP
+November	others	novemb|wednesdai|11|true|false|false|false|false|false|false|false|true|NNP
+11	others	11|novemb|_end_|false|false|false|false|false|false|false|false|true|CD
+
+Reception	others	recept|_start_|2:40|true|false|false|false|false|false|false|false|false|NN
+2:40	stime	2:40|recept|talk|false|false|false|false|false|false|false|false|false|CD
+Talk	others	talk|2:40|3:00|true|false|false|false|false|false|false|false|false|NN
+3:00	others	3:00|talk|4:00|false|false|false|false|false|false|true|false|false|CD
+4:00	etime	4:00|3:00|_end_|false|false|false|false|false|false|false|true|false|CD
+
+Computer	others	comput|_start_|graphic|true|false|false|false|false|false|false|false|false|NNP
+Graphics	others	graphic|comput|snack|true|false|false|false|false|false|false|false|false|NNP
+Snacks	others	snack|graphic|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Silicon	others	silicon|_start_|graphic|true|false|false|false|false|false|false|false|false|NNP
+Graphics	others	graphic|silicon|inc|true|false|false|false|false|false|false|false|false|NNP
+Inc	others	inc|graphic|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Leep	others	leep|_start_|project|true|false|false|false|false|false|false|false|false|NNP
+Projection	others	project|leep|cheezi|true|false|false|false|false|false|false|false|false|NNP
+Cheezy	others	cheezi|project|stereo|true|false|false|false|false|false|false|false|false|NNP
+Stereo	others	stereo|cheezi|reflect|true|false|false|false|false|false|false|false|false|NNP
+Reflection	others	reflect|stereo|map|true|false|false|false|false|false|false|false|false|NNP
+Maps	others	map|reflect|six|true|false|false|false|false|false|false|false|false|NNPS
+Six	others	six|map|point|true|false|false|false|false|false|false|false|false|CD
+Point	others	point|six|perspect|true|false|false|false|false|false|false|false|false|NN
+Perspective	others	perspect|point|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Abstract	others	abstract|_start_|represent|true|false|false|false|false|false|false|false|false|JJ
+Representations	others	represent|abstract|font|true|false|false|false|false|false|false|false|false|NNPS
+Font	others	font|represent|paint|true|false|false|false|false|false|false|false|false|NNP
+Painting	others	paint|font|mesh|true|false|false|false|false|false|false|false|false|NNP
+Mesh	others	mesh|paint|warp|true|false|false|false|false|false|false|false|false|NNP
+Warping	others	warp|mesh|imag|true|false|false|false|false|false|false|false|false|NNP
+Image	others	imag|warp|clone|true|false|false|false|false|false|false|false|false|NN
+Cloning	others	clone|imag|_end_|true|false|false|false|false|false|false|false|false|NN
+
+Mutation	others	mutat|_start_|select|true|false|false|false|false|false|false|false|false|NN
+Selection	others	select|mutat|parametr|true|false|false|false|false|false|false|false|false|NN
+Parametric	others	parametr|select|design|true|false|false|false|false|false|false|false|false|NNP
+Design	others	design|parametr|tini|true|false|false|false|false|false|false|false|false|NNP
+Tiny	others	tini|design|pix|true|false|false|false|false|false|false|false|false|NNP
+Pix	others	pix|tini|x-rai|true|false|false|false|false|false|false|false|false|NNP
+X-Ray	others	x-rai|pix|view|false|false|false|false|false|false|false|false|false|NNP
+Views	others	view|x-rai|_end_|true|false|false|false|false|false|false|false|false|NNS
+
+Marbled	others	marbl|_start_|paper|true|false|false|false|false|false|false|false|false|NNP
+Paper	others	paper|marbl|digit|true|false|false|false|false|false|false|false|false|NNP
+Digital	others	digit|paper|light|true|false|false|false|false|false|false|false|false|NNP
+Lighting	others	light|digit|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+As	others	as|_start_|a|true|false|false|false|false|false|false|false|false|IN
+an	others	a|as|altern|false|false|false|false|false|false|false|false|false|DT
+alternative	others	altern|a|to|false|false|false|false|false|false|false|false|false|NN
+to	others	to|altern|complex|false|false|false|false|false|false|false|false|false|TO
+complex	others	complex|to|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|complex|fatten|false|false|false|false|false|false|false|false|false|CC
+fattening	others	fatten|and|topic|false|false|false|false|false|false|false|false|false|NN
+topics	others	topic|fatten|in|false|false|false|false|false|false|false|false|false|NNS
+in	others	in|topic|_end_|false|false|false|false|false|false|false|false|false|IN
+
+computer	others	comput|_start_|graphic|false|false|false|false|false|false|false|false|false|NN
+graphics	others	graphic|comput|i|false|false|false|false|false|false|false|false|false|NNS
+I	others	i|graphic|'ll|false|false|true|true|false|false|false|false|false|PRP
+'ll	others	'll|i|show|false|false|false|false|false|false|false|false|false|MD
+show	others	show|'ll|and|false|false|false|false|false|false|false|false|false|VB
+and	others	and|show|talk|false|false|false|false|false|false|false|false|false|CC
+talk	others	talk|and|about|false|false|false|false|false|false|false|false|false|VB
+about	others	about|talk|sever|false|false|false|false|false|false|false|false|false|IN
+several	others	sever|about|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+little	others	littl|_start_|project|false|false|false|false|false|false|false|false|false|JJ
+projects	others	project|littl|i|false|false|false|false|false|false|false|false|false|NNS
+I	others	i|project|have|false|false|true|true|false|false|false|false|false|PRP
+'ve	others	have|i|be|false|false|false|false|false|false|false|false|false|VBP
+been	others	be|have|explor|false|false|false|false|false|false|false|false|false|VBN
+exploring	others	explor|be|over|false|false|false|false|false|false|false|false|false|VBG
+over	others	over|explor|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|over|last|false|false|false|false|false|false|false|false|false|DT
+last	others	last|the|few|false|false|false|false|false|false|false|false|false|JJ
+few	others	few|last|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+years	others	year|_start_|we|false|false|false|false|false|false|false|false|false|NNS
+We	others	we|year|'ll|true|false|false|false|false|false|false|false|false|PRP
+'ll	others	'll|we|look|false|false|false|false|false|false|false|false|false|MD
+look	others	look|'ll|at|false|false|false|false|false|false|false|false|false|VB
+at	others	at|look|techniqu|false|false|false|false|false|false|false|false|false|IN
+techniques	others	techniqu|at|for|false|false|false|false|false|false|false|false|false|NNS
+for	others	for|techniqu|make|false|false|false|false|false|false|false|false|false|IN
+making	others	make|for|hide|false|false|false|false|false|false|false|false|false|VBG
+hidden	others	hide|make|_end_|false|false|false|false|false|false|false|false|false|VBN
+
+line	others	line|_start_|draw|false|false|false|false|false|false|false|false|false|NN
+drawings	others	draw|line|of|false|false|false|false|false|false|false|false|false|NNS
+of	others	of|draw|geometr|false|false|false|false|false|false|false|false|false|IN
+geometric	others	geometr|of|object|false|false|false|false|false|false|false|false|false|JJ
+objects	others	object|geometr|i|false|false|false|false|false|false|false|false|false|NNS
+I	others	i|object|'ll|false|false|true|true|false|false|false|false|false|PRP
+'ll	others	'll|i|talk|false|false|false|false|false|false|false|false|false|MD
+talk	others	talk|'ll|about|false|false|false|false|false|false|false|false|false|VB
+about	others	about|talk|_end_|false|false|false|false|false|false|false|false|false|IN
+
+making	others	make|_start_|and|false|false|false|false|false|false|false|false|false|VBG
+and	others	and|make|us|false|false|false|false|false|false|false|false|false|CC
+using	others	us|and|reflect|false|false|false|false|false|false|false|false|false|VBG
+reflection	others	reflect|us|map|false|false|false|false|false|false|false|false|false|NN
+maps	others	map|reflect|a|false|false|false|false|false|false|false|false|false|NNS
+a	others	a|map|simpl|false|false|false|false|false|false|false|false|false|DT
+simple	others	simpl|a|paint|false|false|false|false|false|false|false|false|false|JJ
+paint	others	paint|simpl|_end_|false|false|false|false|false|false|false|false|false|NN
+
+program	others	program|_start_|for|false|false|false|false|false|false|false|false|false|NN
+for	others	for|program|typefac|false|false|false|false|false|false|false|false|false|IN
+typeface	others	typefac|for|design|false|false|false|false|false|false|false|false|false|NN
+design	others	design|typefac|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|design|variou|false|false|false|false|false|false|false|false|false|CC
+various	others	variou|and|imag|false|false|false|false|false|false|false|false|false|JJ
+image	others	imag|variou|warp|false|false|false|false|false|false|false|false|false|NN
+warping	others	warp|imag|_end_|false|false|false|false|false|false|false|false|false|NN
+
+and	others	and|_start_|imag|false|false|false|false|false|false|false|false|false|CC
+image	others	imag|and|enhanc|false|false|false|false|false|false|false|false|false|NN
+enhancement	others	enhanc|imag|hack|false|false|false|false|false|false|false|false|false|NN
+hacks	others	hack|enhanc|i|false|false|false|false|false|false|false|false|false|NNS
+I	others	i|hack|'ll|false|false|true|true|false|false|false|false|false|PRP
+'ll	others	'll|i|also|false|false|false|false|false|false|false|false|false|MD
+also	others	also|'ll|show|false|false|false|false|false|false|false|false|false|RB
+show	others	show|also|how|false|false|false|false|false|false|false|false|false|VB
+how	others	how|show|simpl|false|false|false|false|false|false|false|false|false|WRB
+simple	others	simpl|how|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+filtering	others	filter|_start_|of|false|false|false|false|false|false|false|false|false|VBG
+of	others	of|filter|mous|false|false|false|false|false|false|false|false|false|IN
+mouse	others	mous|of|posit|false|false|false|false|false|false|false|false|false|NN
+positions	others	posit|mous|can|false|false|false|false|false|false|false|false|false|NNS
+can	others	can|posit|help|false|false|false|false|false|false|false|false|false|MD
+help	others	help|can|make|false|false|false|false|false|false|false|false|false|VB
+make	others	make|help|the|false|false|false|false|false|false|false|false|false|VB
+the	others	the|make|mous|false|false|false|false|false|false|false|false|false|DT
+mouse	others	mous|the|_end_|false|false|false|false|false|false|false|false|false|NN
+
+more	others	more|_start_|useabl|false|false|false|false|false|false|false|false|false|RBR
+useable	others	useabl|more|and|false|false|false|false|false|false|false|false|false|JJ
+and	others	and|useabl|fun|false|false|false|false|false|false|false|false|false|CC
+fun	others	fun|and|as|false|false|false|false|false|false|false|false|false|NN
+as	others	as|fun|a|false|false|false|false|false|false|false|false|false|IN
+an	others	a|as|input|false|false|false|false|false|false|false|false|false|DT
+input	others	input|a|devic|false|false|false|false|false|false|false|false|false|NN
+device	others	devic|input|techniqu|false|false|false|false|false|false|false|false|false|NN
+techniques	others	techniqu|devic|for|false|false|false|false|false|false|false|false|false|NNS
+for	others	for|techniqu|_end_|false|false|false|false|false|false|false|false|false|IN
+
+creating	others	creat|_start_|pictur|false|false|false|false|false|false|false|false|false|VBG
+pictures	others	pictur|creat|with|false|false|false|false|false|false|false|false|false|NNS
+with	others	with|pictur|6|false|false|false|false|false|false|false|false|false|IN
+6	others	6|with|point|false|false|false|false|false|false|false|false|false|CD
+point	others	point|6|perspect|false|false|false|false|false|false|false|false|false|NN
+perspective	others	perspect|point|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|perspect|a|false|false|false|false|false|false|false|false|false|CC
+a	others	a|and|bunch|false|false|false|false|false|false|false|false|false|DT
+bunch	others	bunch|a|_end_|false|false|false|false|false|false|false|false|false|NN
+
+of	others	of|_start_|other|false|false|false|false|false|false|false|false|false|IN
+other	others	other|of|half-bak|false|false|false|false|false|false|false|false|false|JJ
+half-baked	others	half-bak|other|stuff|false|false|false|false|false|false|false|false|false|JJ
+stuff	others	stuff|half-bak|_end_|false|false|false|false|false|false|false|false|false|NN
+
+host	others	host|_start_|paul|false|false|false|false|false|false|false|false|false|NN
+Paul	others	paul|host|heckbert|true|false|false|false|false|true|false|false|false|NNP
+Heckbert	others	heckbert|paul|ph@cs.cmu.edu,|true|false|false|false|false|true|false|false|false|NNP
+ph@cs.cmu.edu,	others	ph@cs.cmu.edu,|heckbert|268-7899|false|false|false|false|false|false|false|false|false|NN
+268-7899	others	268-7899|ph@cs.cmu.edu,|_end_|false|false|false|false|false|false|false|false|false|CD
+
+For	others	for|_start_|appoint|true|false|false|false|false|false|false|false|false|IN
+appointments	others	appoint|for|with|false|false|false|false|false|false|false|false|false|NNS
+with	others	with|appoint|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|with|speaker|false|false|false|false|false|false|false|false|false|DT
+speaker	others	speaker|the|on|false|false|false|false|false|false|false|false|false|NN
+on	others	on|speaker|thursdai|false|false|false|false|false|false|false|false|false|IN
+Thursday	others	thursdai|on|nov.|true|false|false|false|false|false|false|false|true|NNP
+Nov.	others	nov.|thursdai|12|false|false|false|false|false|false|false|false|true|NNP
+12	others	12|nov.|email|false|false|false|false|false|false|false|false|true|CD
+email	others	email|12|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Phyllis.Pomerantz@cs.cmu.edu	others	phyllis.pomerantz@cs.cmu.edu|_start_|or|false|false|false|false|false|false|false|false|false|NN
+or	others	or|phyllis.pomerantz@cs.cmu.edu|call|false|false|false|false|false|false|false|false|false|CC
+call	others	call|or|she|false|false|false|false|false|false|false|false|false|VB
+her	others	she|call|at|false|false|false|false|false|false|false|false|false|PRP$
+at	others	at|she|268-7897|false|false|false|false|false|false|false|false|false|IN
+268-7897	others	268-7897|at|_end_|false|false|false|false|false|false|false|false|false|CD
+

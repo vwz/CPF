@@ -1,0 +1,240 @@
+Type	others	type|_start_|cmu|true|false|false|false|false|false|false|false|false|NN
+cmu	others	cmu|type|c|false|false|false|false|false|false|false|false|false|NN
+cs	others	c|cmu|proj|false|false|false|false|false|false|false|false|false|NNS
+proj	others	proj|c|vision|false|false|false|false|false|false|false|false|false|NN
+vision	others	vision|proj|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Topic	others	topic|_start_|au|true|false|false|false|false|false|false|false|false|NN
+AI	others	au|topic|talk|false|true|false|true|false|false|false|false|false|NN
+talk	others	talk|au|in|false|false|false|false|false|false|false|false|false|NN
+in	others	in|talk|remot|false|false|false|false|false|false|false|false|false|IN
+Remote	others	remot|in|sens|true|false|false|false|false|false|false|false|false|NNP
+Sensing	others	sens|remot|_end_|true|false|false|false|false|false|false|false|false|VBG
+
+Dates	others	date|_start_|3-apr-90|true|false|false|false|false|false|false|false|false|NNS
+3-Apr-90	others	3-apr-90|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|3:30|true|false|false|false|false|false|false|false|false|NNP
+3:30	stime	3:30|time|5:00|false|false|false|false|false|false|true|false|false|CD
+5:00	etime	5:00|3:30|_end_|false|false|false|false|false|false|false|true|false|CD
+
+Host	others	host|_start_|dave|true|false|false|false|false|false|false|false|false|NN
+Dave	others	dave|host|mckeown|true|false|false|false|false|true|false|false|false|NNP
+McKeown	others	mckeown|dave|appoint|false|false|false|false|false|true|false|false|false|NNP
+Appointments	others	appoint|mckeown|lydia|true|false|false|false|false|false|false|false|false|NNP
+Lydia	others	lydia|appoint|defilippo|true|false|false|false|false|true|false|false|false|NNP
+Defilippo	others	defilippo|lydia|x3063|true|false|false|false|false|true|false|false|false|NNP
+x3063	others	x3063|defilippo|_end_|false|false|false|false|false|false|false|false|false|NN
+
+PostedBy	others	postedbi|_start_|dave|false|false|false|false|true|false|false|false|false|NNP
+Dave	others	dave|postedbi|mckeown|true|false|false|false|false|true|false|false|false|NNP
+McKeown	others	mckeown|dave|on|false|false|false|false|false|true|false|false|false|NNP
+on	others	on|mckeown|02-apr-90|false|false|false|false|false|false|false|false|false|IN
+02-Apr-90	others	02-apr-90|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|02-apr-90|09:29|false|false|false|false|false|false|false|false|false|IN
+09:29	others	09:29|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|09:29|maps.cs.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+MAPS.CS.CMU.EDU	others	maps.cs.cmu.edu|from|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+SCS	others	sc|_start_|ai|false|true|false|true|false|false|false|false|false|NNP
+AI	others	ai|sc|seminar|false|true|false|true|false|false|false|false|false|NNP
+Seminar	others	seminar|ai|announc|true|false|false|false|false|false|false|false|false|NNP
+Announcement	others	announc|seminar|_end_|true|false|false|false|false|false|false|false|false|NN
+
+Chief	others	chief|_start_|research|true|false|false|false|false|false|false|false|false|NNP
+Research	others	research|chief|scientist|true|false|false|false|false|false|false|false|false|NNP
+Scientist	others	scientist|research|and|true|false|false|false|false|false|false|false|false|NNP
+and	others	and|scientist|head|false|false|false|false|false|false|false|false|false|CC
+Head	others	head|and|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|head|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|of|methodolog|false|false|false|false|false|false|false|false|false|DT
+Methodology	others	methodolog|the|section|true|false|false|false|false|false|false|false|false|NNP
+Section	others	section|methodolog|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Canada	others	canada|_start_|centr|true|false|false|false|false|false|false|false|false|NNP
+Centre	others	centr|canada|for|true|false|false|false|false|false|false|false|false|NNP
+for	others	for|centr|remot|false|false|false|false|false|false|false|false|false|IN
+Remote	others	remot|for|sens|true|false|false|false|false|false|false|false|false|NNP
+Sensing	others	sens|remot|ottawa|true|false|false|false|false|false|false|false|false|NNP
+Ottawa	others	ottawa|sens|ontario|true|false|false|false|false|false|false|false|false|NNP
+Ontario	others	ontario|ottawa|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+KNOWLEDGE-BASED	others	knowledge-bas|_start_|forest|false|false|false|false|false|false|false|false|false|NNP
+FOREST	others	forest|knowledge-bas|map|false|true|false|true|false|false|false|false|false|NNP
+MAPPING	others	map|forest|with|false|true|false|true|false|false|false|false|false|VBG
+WITH	others	with|map|remot|false|true|false|true|false|false|false|false|false|IN
+REMOTE	others	remot|with|sens|false|true|false|true|false|false|false|false|false|JJ
+SENSING	others	sens|remot|_end_|false|true|false|true|false|false|false|false|false|VBG
+
+Tuesday	others	tuesdai|_start_|3|true|false|false|false|false|false|false|false|true|NNP
+3	others	3|tuesdai|april|false|false|false|false|false|false|false|false|true|CD
+April	others	april|3|1990|true|false|false|false|false|false|false|false|true|NNP
+1990	others	1990|april|_end_|false|false|false|false|false|false|false|false|true|CD
+
+By	others	by|_start_|the|true|false|false|false|false|false|false|false|false|IN
+the	others	the|by|late|false|false|false|false|false|false|false|false|true|DT
+late	others	late|the|1990|false|false|false|false|false|false|false|false|true|JJ
+1990s	others	1990|late|nasa|false|false|false|false|false|false|false|false|true|CD
+NASA	others	nasa|1990|and|false|true|false|true|false|false|false|false|false|NNP
+and	others	and|nasa|ccr|false|false|false|false|false|false|false|false|false|CC
+CCRS	others	ccr|and|will|false|true|false|true|false|false|false|false|false|NNP
+will	others	will|ccr|be|false|false|false|false|false|false|false|false|false|MD
+be	others	be|will|receiv|false|false|false|false|false|false|false|false|false|VB
+receiving	others	receiv|be|10|false|false|false|false|false|false|false|false|false|VBG
+10	others	10|receiv|12|false|false|false|false|false|false|false|false|false|CD
+12	others	12|10|byte|false|false|false|false|false|false|false|false|false|CD
+bytes	others	byte|12|of|false|false|false|false|false|false|false|false|false|NNS
+of	others	of|byte|datum|false|false|false|false|false|false|false|false|false|IN
+data	others	datum|of|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+per	others	per|_start_|dai|false|false|false|false|false|false|false|false|false|IN
+day	others	dai|per|from|false|false|false|false|false|false|false|false|false|NN
+from	others	from|dai|satellit|false|false|false|false|false|false|false|false|false|IN
+satellite	others	satellit|from|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|satellit|airborn|false|false|false|false|false|false|false|false|false|CC
+airborne	others	airborn|and|platform|false|false|false|false|false|false|false|false|false|JJ
+platforms	others	platform|airborn|for|false|false|false|false|false|false|false|false|false|NNS
+For	others	for|platform|forest|true|false|false|false|false|false|false|false|false|IN
+foresters	others	forest|for|interest|false|false|false|false|false|false|false|false|false|NNS
+interested	others	interest|forest|in|false|false|false|false|false|false|false|false|false|JJ
+in	others	in|interest|_end_|false|false|false|false|false|false|false|false|false|IN
+
+making	others	make|_start_|inventori|false|false|false|false|false|false|false|false|false|VBG
+inventories	others	inventori|make|of|false|false|false|false|false|false|false|false|false|NNS
+of	others	of|inventori|thei|false|false|false|false|false|false|false|false|false|IN
+their	others	thei|of|forest|false|false|false|false|false|false|false|false|false|PRP$
+forest	others	forest|thei|resourc|false|false|false|false|false|false|false|false|false|NN
+resources	others	resourc|forest|on|false|false|false|false|false|false|false|false|false|NNS
+on	others	on|resourc|state|false|false|false|false|false|false|false|false|false|IN
+state	others	state|on|provinci|false|false|false|false|false|false|false|false|false|NN
+provincial	others	provinci|state|and|false|false|false|false|false|false|false|false|false|JJ
+and	others	and|provinci|_end_|false|false|false|false|false|false|false|false|false|CC
+
+national	others	nation|_start_|scale|false|false|false|false|false|false|false|false|false|JJ
+scales	others	scale|nation|remot|false|false|false|false|false|false|false|false|false|NNS
+remote	others	remot|scale|sens|false|false|false|false|false|false|false|false|false|JJ
+sensing	others	sens|remot|be|false|false|false|false|false|false|false|false|false|VBG
+is	others	be|sens|becom|false|false|false|false|false|false|false|false|false|VBZ
+becoming	others	becom|be|a|false|false|false|false|false|false|false|false|false|VBG
+a	others	a|becom|critic|false|false|false|false|false|false|false|false|false|DT
+critical	others	critic|a|tool|false|false|false|false|false|false|false|false|false|JJ
+tool	others	tool|critic|in|false|false|false|false|false|false|false|false|false|NN
+in	others	in|tool|obtain|false|false|false|false|false|false|false|false|false|IN
+obtaining	others	obtain|in|_end_|false|false|false|false|false|false|false|false|false|VBG
+
+the	others	the|_start_|desir|false|false|false|false|false|false|false|false|false|DT
+desired	others	desir|the|tree|false|false|false|false|false|false|false|false|false|VBN
+tree	others	tree|desir|speci|false|false|false|false|false|false|false|false|false|NN
+species	others	speci|tree|and|false|false|false|false|false|false|false|false|false|NNS
+and	others	and|speci|condit|false|false|false|false|false|false|false|false|false|CC
+condition	others	condit|and|inform|false|false|false|false|false|false|false|false|false|NN
+information	others	inform|condit|comput|false|false|false|false|false|false|false|false|false|NN
+Computer	others	comput|inform|vision|true|false|false|false|false|false|false|false|false|NN
+vision	others	vision|comput|_end_|false|false|false|false|false|false|false|false|false|NN
+
+systems	others	system|_start_|and|false|false|false|false|false|false|false|false|false|NNS
+and	others	and|system|geograph|false|false|false|false|false|false|false|false|false|CC
+geographic	others	geograph|and|inform|false|false|false|false|false|false|false|false|false|JJ
+information	others	inform|geograph|system|false|false|false|false|false|false|false|false|false|NN
+systems	others	system|inform|-lrb-|false|false|false|false|false|false|false|false|false|NNS
+-LRB-	others	-lrb-|system|gi|false|false|false|false|false|false|false|false|false|-LRB-
+GIS	others	gi|-lrb-|-rrb-|false|true|false|true|false|false|false|false|false|NNS
+-RRB-	others	-rrb-|gi|be|false|false|false|false|false|false|false|false|false|-RRB-
+are	others	be|-rrb-|both|false|false|false|false|false|false|false|false|false|VBP
+both	others	both|be|complex|false|false|false|false|false|false|false|false|false|DT
+complex	others	complex|both|thu|false|false|false|false|false|false|false|false|false|JJ
+Thus	others	thu|complex|_end_|true|false|false|false|false|false|false|false|false|RB
+
+given	others	give|_start_|a|false|false|false|false|false|false|false|false|false|VBN
+a	others	a|give|complex|false|false|false|false|false|false|false|false|false|DT
+complex	others	complex|a|comput|false|false|false|false|false|false|false|false|false|JJ
+computational	others	comput|complex|environ|false|false|false|false|false|false|false|false|false|JJ
+environment	others	environ|comput|with|false|false|false|false|false|false|false|false|false|NN
+with	others	with|environ|a|false|false|false|false|false|false|false|false|false|IN
+an	others	a|with|excess|false|false|false|false|false|false|false|false|false|DT
+excessive	others	excess|a|datum|false|false|false|false|false|false|false|false|false|JJ
+data	others	datum|excess|volum|false|false|false|false|false|false|false|false|false|NNS
+volume	others	volum|datum|it|false|false|false|false|false|false|false|false|false|NN
+it	others	it|volum|_end_|false|false|false|false|false|false|false|false|false|PRP
+
+is	others	be|_start_|essenti|false|false|false|false|false|false|false|false|false|VBZ
+essential	others	essenti|be|to|false|false|false|false|false|false|false|false|false|JJ
+to	others	to|essenti|creat|false|false|false|false|false|false|false|false|false|TO
+create	others	creat|to|system|false|false|false|false|false|false|false|false|false|VB
+systems	others	system|creat|that|false|false|false|false|false|false|false|false|false|NNS
+that	others	that|system|requir|false|false|false|false|false|false|false|false|false|WDT
+require	others	requir|that|less|false|false|false|false|false|false|false|false|false|VBP
+less	others	less|requir|human|false|false|false|false|false|false|false|false|false|JJR
+human	others	human|less|intervent|false|false|false|false|false|false|false|false|false|JJ
+intervention	others	intervent|human|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|intervent|_end_|false|false|false|false|false|false|false|false|false|CC
+
+more	others	more|_start_|automat|false|false|false|false|false|false|false|false|false|RBR
+automatic	others	automat|more|decis|false|false|false|false|false|false|false|false|false|JJ
+decision	others	decis|automat|make|false|false|false|false|false|false|false|false|false|NN
+making	others	make|decis|thi|false|false|false|false|false|false|false|false|false|VBG
+This	others	thi|make|present|true|false|false|false|false|false|false|false|false|DT
+presentation	others	present|thi|will|false|false|false|false|false|false|false|false|false|NN
+will	others	will|present|describ|false|false|false|false|false|false|false|false|false|MD
+describe	others	describ|will|a|false|false|false|false|false|false|false|false|false|VB
+a	others	a|describ|system|false|false|false|false|false|false|false|false|false|DT
+System	others	system|a|_end_|true|false|false|false|false|false|false|false|false|NN
+
+of	others	of|_start_|hierarch|false|false|false|false|false|false|false|false|false|IN
+Hierarchical	others	hierarch|of|expert|true|false|false|false|false|false|false|false|false|JJ
+Experts	others	expert|hierarch|for|true|false|false|false|false|false|false|false|false|NNS
+for	others	for|expert|resourc|false|false|false|false|false|false|false|false|false|IN
+Resource	others	resourc|for|inventori|true|false|false|false|false|false|false|false|false|NNP
+Inventories	others	inventori|resourc|-lrb-|true|false|false|false|false|false|false|false|false|NNS
+-LRB-	others	-lrb-|inventori|sheri|false|false|false|false|false|false|false|false|false|-LRB-
+SHERI	others	sheri|-lrb-|-rrb-|false|true|false|true|false|false|false|false|false|NNP
+-RRB-	others	-rrb-|sheri|sheri|false|false|false|false|false|false|false|false|false|-RRB-
+SHERI	others	sheri|-rrb-|involv|false|true|false|true|false|true|false|false|false|NNP
+involves	others	involv|sheri|_end_|false|false|false|false|false|false|false|false|false|VBZ
+
+multiple	others	multipl|_start_|expert|false|false|false|false|false|false|false|false|false|JJ
+expert	others	expert|multipl|system|false|false|false|false|false|false|false|false|false|NN
+systems	others	system|expert|execut|false|false|false|false|false|false|false|false|false|NNS
+executing	others	execut|system|in|false|false|false|false|false|false|false|false|false|VBG
+in	others	in|execut|a|false|false|false|false|false|false|false|false|false|IN
+a	others	a|in|distribut|false|false|false|false|false|false|false|false|false|DT
+distributed	others	distribut|a|environ|false|false|false|false|false|false|false|false|false|VBN
+environment	others	environ|distribut|act|false|false|false|false|false|false|false|false|false|NN
+acting	others	act|environ|to|false|false|false|false|false|false|false|false|false|VBG
+to	others	to|act|_end_|false|false|false|false|false|false|false|false|false|TO
+
+give	others	give|_start_|a|false|false|false|false|false|false|false|false|false|VB
+a	others	a|give|forest|false|false|false|false|false|false|false|false|false|DT
+forester	others	forest|a|the|false|false|false|false|false|false|false|false|false|NN
+the	others	the|forest|abil|false|false|false|false|false|false|false|false|false|DT
+ability	others	abil|the|to|false|false|false|false|false|false|false|false|false|NN
+to	others	to|abil|updat|false|false|false|false|false|false|false|false|false|TO
+update	others	updat|to|a|false|false|false|false|false|false|false|false|false|VB
+a	others	a|updat|forest|false|false|false|false|false|false|false|false|false|DT
+forest	others	forest|a|inventori|false|false|false|false|false|false|false|false|false|NN
+inventory	others	inventori|forest|with|false|false|false|false|false|false|false|false|false|NN
+with	others	with|inventori|autom|false|false|false|false|false|false|false|false|false|IN
+automated	others	autom|with|_end_|false|false|false|false|false|false|false|false|false|VBN
+
+interpretation	others	interpret|_start_|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|interpret|landsat|false|false|false|false|false|false|false|false|false|IN
+LANDSAT	others	landsat|of|themat|false|true|false|true|false|false|false|false|false|NNP
+Thematic	others	themat|landsat|mapper|true|false|false|false|false|false|false|false|false|NNP
+Mapper	others	mapper|themat|and|true|false|false|false|false|false|false|false|false|NNP
+and	others	and|mapper|spot|false|false|false|false|false|false|false|false|false|CC
+SPOT	others	spot|and|hrv|false|true|false|true|false|false|false|false|false|NNP
+HRV	others	hrv|spot|imageri|false|true|false|true|false|false|false|false|false|NNP
+imagery	others	imageri|hrv|_end_|false|false|false|false|false|false|false|false|false|NN
+
+
+Host	others	host|_start_|dave|true|false|false|false|false|false|false|false|false|NN
+Dave	others	dave|host|mckeown|true|false|false|false|false|true|false|false|false|NNP
+McKeown	others	mckeown|dave|appoint|false|false|false|false|false|true|false|false|false|NNP
+Appointments	others	appoint|mckeown|lydia|true|false|false|false|false|false|false|false|false|NNP
+Lydia	others	lydia|appoint|defilippo|true|false|false|false|false|true|false|false|false|NNP
+Defilippo	others	defilippo|lydia|x3063|true|false|false|false|false|true|false|false|false|NNP
+x3063	others	x3063|defilippo|_end_|false|false|false|false|false|false|false|false|false|NN
+
+

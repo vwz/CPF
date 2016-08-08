@@ -1,0 +1,397 @@
+Type	others	type|_start_|cmu.andrew.org|true|false|false|false|false|false|false|false|false|NN
+cmu.andrew.org	others	cmu.andrew.org|type|epp|false|false|false|false|false|false|false|false|false|NN
+epp	others	epp|cmu.andrew.org|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Topic	others	topic|_start_|edi|true|false|false|false|false|false|false|false|false|NN
+EDI	others	edi|topic|seminar|false|true|false|true|false|false|false|false|false|NNP
+Seminar	others	seminar|edi|avi|true|false|false|false|false|false|false|false|false|NNP
+Avi	speaker	avi|seminar|seidmann|true|false|false|false|false|true|false|false|false|NNP
+Seidmann	speaker	seidmann|avi|mai|true|false|false|false|false|true|false|false|false|NNP
+May	others	mai|seidmann|10th|true|false|false|false|false|false|false|false|true|NNP
+10th	others	10th|mai|_end_|false|false|false|false|false|false|false|false|true|JJ
+
+Dates	others	date|_start_|10-may-95|true|false|false|false|false|false|false|false|false|NNS
+10-May-95	others	10-may-95|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|10:30|true|false|false|false|false|false|false|false|false|NNP
+10:30	stime	10:30|time|12:00|false|false|false|false|false|false|true|false|false|CD
+12:00	etime	12:00|10:30|_end_|false|false|false|false|false|false|false|true|false|CD
+
+PostedBy	others	postedbi|_start_|chri|false|false|false|false|true|false|false|false|false|NNP
+Chris	others	chri|postedbi|deephous|true|false|false|false|false|true|false|false|false|NNP
+Deephouse	others	deephous|chri|on|true|false|false|false|false|true|false|false|false|NNP
+on	others	on|deephous|25-apr-95|false|false|false|false|false|false|false|false|false|IN
+25-Apr-95	others	25-apr-95|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|25-apr-95|16:01|false|false|false|false|false|false|false|false|false|IN
+16:01	others	16:01|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|16:01|andrew.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+andrew.cmu.edu	others	andrew.cmu.edu|from|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+Electronic	others	electron|_start_|data|true|false|false|false|false|false|false|false|false|NNP
+Data	others	data|electron|interchang|true|false|false|false|false|false|false|false|false|NNP
+Interchange	others	interchang|data|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Competitive	others	competit|_start_|extern|true|false|false|false|false|false|false|false|false|JJ
+Externalities	others	extern|competit|and|true|false|false|false|false|false|false|false|false|NNS
+and	others	and|extern|strateg|false|false|false|false|false|false|false|false|false|CC
+Strategic	others	strateg|and|implement|true|false|false|false|false|false|false|false|false|JJ
+Implementation	others	implement|strateg|polici|true|false|false|false|false|false|false|false|false|NN
+Policies	others	polici|implement|_end_|true|false|false|false|false|false|false|false|false|NNS
+
+May	others	mai|_start_|10|true|false|false|false|false|false|false|false|true|NNP
+10	others	10|mai|1995|false|false|false|false|false|false|false|false|true|CD
+1995	others	1995|10|_end_|false|false|false|false|false|false|false|false|true|CD
+
+Refreshments	others	refresh|_start_|serv|true|false|false|false|false|false|false|false|false|NNS
+served	others	serv|refresh|at|false|false|false|false|false|false|false|false|false|VBD
+at	others	at|serv|10:00|false|false|false|false|false|false|false|false|false|IN
+10:00	others	10:00|at|_end_|false|false|false|false|false|false|false|false|false|CD
+
+Xerox	others	xerox|_start_|professor|true|false|false|false|false|false|false|false|false|NNP
+Professor	others	professor|xerox|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+William	others	william|_start_|e.|true|false|false|false|false|false|false|false|false|NNP
+E.	others	e.|william|simon|false|false|false|false|false|false|false|false|false|NNP
+Simon	others	simon|e.|graduat|true|false|false|false|false|false|false|false|false|NNP
+Graduate	others	graduat|simon|school|true|false|false|false|false|false|false|false|false|NNP
+School	others	school|graduat|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|school|busi|false|false|false|false|false|false|false|false|false|IN
+Business	others	busi|of|administr|true|false|false|false|false|false|false|false|false|NNP
+Administration	others	administr|busi|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+University	others	univers|_start_|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|univers|rochest|false|false|false|false|false|false|false|false|false|IN
+Rochester	others	rochest|of|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Rochester	others	rochest|_start_|new|true|false|false|false|false|false|false|false|false|NNP
+New	others	new|rochest|york|true|false|false|false|false|false|false|false|false|NNP
+York	others	york|new|14627|true|false|false|false|false|false|false|false|false|NNP
+14627	others	14627|york|_end_|false|false|false|false|false|false|false|false|false|CD
+
+Tel	others	tel|_start_|-lrb-716-rrb- 275-5694|true|false|false|false|false|false|false|false|false|NNP
+-LRB-716-RRB- 275-5694	others	-lrb-716-rrb- 275-5694|tel|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Electronic	others	electron|_start_|data|true|false|false|false|false|false|false|false|false|NNP
+Data	others	data|electron|interchang|true|false|false|false|false|false|false|false|false|NNP
+Interchange	others	interchang|data|-lrb-|true|false|false|false|false|false|false|false|false|NNP
+-LRB-	others	-lrb-|interchang|edi|false|false|false|false|false|false|false|false|false|-LRB-
+EDI	others	edi|-lrb-|-rrb-|false|true|false|true|false|false|false|false|false|NNP
+-RRB-	others	-rrb-|edi|be|false|false|false|false|false|false|false|false|false|-RRB-
+is	others	be|-rrb-|a|false|false|false|false|false|false|false|false|false|VBZ
+an	others	a|be|emerg|false|false|false|false|false|false|false|false|false|DT
+emerging	others	emerg|a|type|false|false|false|false|false|false|false|false|false|VBG
+type	others	type|emerg|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|type|standard|false|false|false|false|false|false|false|false|false|IN
+standardized	others	standard|of|inter|false|false|false|false|false|false|false|false|false|JJ
+inter	others	inter|standard|_end_|false|false|false|false|false|false|false|false|false|NN
+
+organizational	others	organiz|_start_|inform|false|false|false|false|false|false|false|false|false|JJ
+information	others	inform|organiz|system|false|false|false|false|false|false|false|false|false|NN
+system	others	system|inform|in|false|false|false|false|false|false|false|false|false|NN
+In	others	in|system|we|true|false|false|false|false|false|false|false|false|IN
+our	others	we|in|seminar|false|false|false|false|false|false|false|false|false|PRP$
+seminar	others	seminar|we|we|false|false|false|false|false|false|false|false|false|NN
+we	others	we|seminar|discuss|false|false|false|false|false|false|false|false|false|PRP
+discuss	others	discuss|we|we|false|false|false|false|false|false|false|false|false|VBP
+our	others	we|discuss|current|false|false|false|false|false|false|false|false|false|PRP$
+current	others	current|we|_end_|false|false|false|false|false|false|false|false|true|JJ
+
+field	others	field|_start_|work|false|false|false|false|false|false|false|false|false|NN
+work	others	work|field|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|work|then|false|false|false|false|false|false|false|false|false|CC
+then	others	then|and|analyz|false|false|false|false|false|false|false|false|false|RB
+analyze	others	analyz|then|the|false|false|false|false|false|false|false|false|false|VB
+the	others	the|analyz|strateg|false|false|false|false|false|false|false|false|false|DT
+strategic	others	strateg|the|impact|false|false|false|false|false|false|false|false|false|JJ
+impact	others	impact|strateg|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|impact|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|of|edu|false|false|false|false|false|false|false|false|false|DT
+EDI	others	edu|the|technolog|false|true|false|true|false|false|false|false|false|NN
+technology	others	technolog|edu|on|false|false|false|false|false|false|false|false|false|NN
+on	others	on|technolog|_end_|false|false|false|false|false|false|false|false|false|IN
+
+the	others	the|_start_|upstream|false|false|false|false|false|false|false|false|false|DT
+upstream	others	upstream|the|supplier|false|false|false|false|false|false|false|false|false|JJ
+suppliers	others	supplier|upstream|competit|false|false|false|false|false|false|false|false|false|NNS
+competitive	others	competit|supplier|posit|false|false|false|false|false|false|false|false|false|JJ
+position	others	posit|competit|in|false|false|false|false|false|false|false|false|false|NN
+in	others	in|posit|a|false|false|false|false|false|false|false|false|false|IN
+a	others	a|in|hierarch|false|false|false|false|false|false|false|false|false|DT
+hierarchical	others	hierarch|a|market|false|false|false|false|false|false|false|false|false|JJ
+market	others	market|hierarch|_end_|false|false|false|false|false|false|false|false|false|NN
+
+structure	others	structur|_start_|with|false|false|false|false|false|false|false|false|false|NN
+with	others	with|structur|compet|false|false|false|false|false|false|false|false|false|IN
+competing	others	compet|with|heterogen|false|false|false|false|false|false|false|false|false|VBG
+heterogeneous	others	heterogen|compet|manufactur|false|false|false|false|false|false|false|false|false|JJ
+manufacturers	others	manufactur|heterogen|we|false|false|false|false|false|false|false|false|false|NNS
+We	others	we|manufactur|show|true|false|false|false|false|false|false|false|false|PRP
+show	others	show|we|that|false|false|false|false|false|false|false|false|false|VBP
+that	others	that|show|a|false|false|false|false|false|false|false|false|false|IN
+a	others	a|that|_end_|false|false|false|false|false|false|false|false|false|DT
+
+supplier	others	supplier|_start_|'s|false|false|false|false|false|false|false|false|false|NN
+'s	others	's|supplier|adopt|false|false|false|false|false|false|false|false|false|POS
+adoption	others	adopt|'s|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|adopt|edu|false|false|false|false|false|false|false|false|false|IN
+EDI	others	edu|of|can|false|true|false|true|false|false|false|false|false|NN
+can	others	can|edu|gener|false|false|false|false|false|false|false|false|false|MD
+generate	others	gener|can|posit|false|false|false|false|false|false|false|false|false|VB
+positive	others	posit|gener|extern|false|false|false|false|false|false|false|false|false|JJ
+externalities	others	extern|posit|for|false|false|false|false|false|false|false|false|false|NNS
+for	others	for|extern|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|for|buyer|false|false|false|false|false|false|false|false|false|DT
+buyer	others	buyer|the|_end_|false|false|false|false|false|false|false|false|false|NN
+
+and	others	and|_start_|neg|false|false|false|false|false|false|false|false|false|CC
+negative	others	neg|and|-lrb-|false|false|false|false|false|false|false|false|false|JJ
+-LRB-	others	-lrb-|neg|or|false|false|false|false|false|false|false|false|false|-LRB-
+or	others	or|-lrb-|competit|false|false|false|false|false|false|false|false|false|CC
+competitive	others	competit|or|-rrb-|false|false|false|false|false|false|false|false|false|JJ
+-RRB-	others	-rrb-|competit|extern|false|false|false|false|false|false|false|false|false|-RRB-
+externalities	others	extern|-rrb-|for|false|false|false|false|false|false|false|false|false|NNS
+for	others	for|extern|other|false|false|false|false|false|false|false|false|false|IN
+other	others	other|for|supplier|false|false|false|false|false|false|false|false|false|JJ
+suppliers	others	supplier|other|as|false|false|false|false|false|false|false|false|false|NNS
+As	others	as|supplier|a|true|false|false|false|false|false|false|false|false|IN
+a	others	a|as|_end_|false|false|false|false|false|false|false|false|false|DT
+
+result	others	result|_start_|the|false|false|false|false|false|false|false|false|false|NN
+the	others	the|result|buyer|false|false|false|false|false|false|false|false|false|DT
+buyer	others	buyer|the|provid|false|false|false|false|false|false|false|false|false|NN
+provides	others	provid|buyer|a|false|false|false|false|false|false|false|false|false|VBZ
+a	others	a|provid|price|false|false|false|false|false|false|false|false|false|DT
+price	others	price|a|premium|false|false|false|false|false|false|false|false|false|NN
+premium	others	premium|price|to|false|false|false|false|false|false|false|false|false|NN
+to	others	to|premium|those|false|false|false|false|false|false|false|false|false|TO
+those	others	those|to|supplier|false|false|false|false|false|false|false|false|false|DT
+suppliers	others	supplier|those|who|false|false|false|false|false|false|false|false|false|NNS
+who	others	who|supplier|adopt|false|false|false|false|false|false|false|false|false|WP
+adopt	others	adopt|who|edu|false|false|false|false|false|false|false|false|false|VBP
+EDI	others	edu|adopt|_end_|false|true|false|true|false|false|false|false|false|NN
+
+and	others	and|_start_|increas|false|false|false|false|false|false|false|false|false|CC
+increases	others	increas|and|thei|false|false|false|false|false|false|false|false|false|VBZ
+their	others	thei|increas|sale|false|false|false|false|false|false|false|false|false|PRP$
+sales	others	sale|thei|volum|false|false|false|false|false|false|false|false|false|NNS
+volume	others	volum|sale|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|volum|market|false|false|false|false|false|false|false|false|false|CC
+market	others	market|and|share|false|false|false|false|false|false|false|false|false|NN
+share	others	share|market|moreov|false|false|false|false|false|false|false|false|false|NN
+Moreover	others	moreov|share|when|true|false|false|false|false|false|false|false|false|RB
+when	others	when|moreov|the|false|false|false|false|false|false|false|false|false|WRB
+the	others	the|when|_end_|false|false|false|false|false|false|false|false|false|DT
+
+benefits	others	benefit|_start_|that|false|false|false|false|false|false|false|false|false|NNS
+that	others	that|benefit|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|that|buyer|false|false|false|false|false|false|false|false|false|DT
+buyer	others	buyer|the|can|false|false|false|false|false|false|false|false|false|NN
+can	others	can|buyer|deriv|false|false|false|false|false|false|false|false|false|MD
+derive	others	deriv|can|from|false|false|false|false|false|false|false|false|false|VB
+from	others	from|deriv|implement|false|false|false|false|false|false|false|false|false|IN
+implementing	others	implement|from|edi|false|false|false|false|false|false|false|false|false|VBG
+EDI	others	edi|implement|be|false|true|false|true|false|false|false|false|false|NNP
+are	others	be|edi|_end_|false|false|false|false|false|false|false|false|false|VBP
+
+substantial	others	substanti|_start_|and|false|false|false|false|false|false|false|false|false|JJ
+and	others	and|substanti|the|false|false|false|false|false|false|false|false|false|CC
+the	others	the|and|supplier|false|false|false|false|false|false|false|false|false|DT
+suppliers	others	supplier|the|edu|false|false|false|false|false|false|false|false|false|NNS
+EDI	others	edu|supplier|adopt|false|true|false|true|false|false|false|false|false|NN
+adoption	others	adopt|edu|cost|false|false|false|false|false|false|false|false|false|NN
+costs	others	cost|adopt|be|false|false|false|false|false|false|false|false|false|NNS
+are	others	be|cost|high|false|false|false|false|false|false|false|false|false|VBP
+high	others	high|be|it|false|false|false|false|false|false|false|false|false|JJ
+it	others	it|high|mai|false|false|false|false|false|false|false|false|false|PRP
+may	others	mai|it|be|false|false|false|false|false|false|false|false|false|MD
+be	others	be|mai|_end_|false|false|false|false|false|false|false|false|false|VB
+
+in	others	in|_start_|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|in|buyer|false|false|false|false|false|false|false|false|false|DT
+buyers	others	buyer|the|best|false|false|false|false|false|false|false|false|false|NNS
+best	others	best|buyer|interest|false|false|false|false|false|false|false|false|false|JJS
+interest	others	interest|best|to|false|false|false|false|false|false|false|false|false|NN
+to	others	to|interest|subsid|false|false|false|false|false|false|false|false|false|TO
+subsidize	others	subsid|to|the|false|false|false|false|false|false|false|false|false|VB
+the	others	the|subsid|supplier|false|false|false|false|false|false|false|false|false|DT
+suppliers	others	supplier|the|so|false|false|false|false|false|false|false|false|false|NNS
+so	others	so|supplier|as|false|false|false|false|false|false|false|false|false|RB
+as	others	as|so|to|false|false|false|false|false|false|false|false|false|IN
+to	others	to|as|_end_|false|false|false|false|false|false|false|false|false|TO
+
+encourage	others	encourag|_start_|thei|false|false|false|false|false|false|false|false|false|VB
+them	others	thei|encourag|to|false|false|false|false|false|false|false|false|false|PRP
+to	others	to|thei|adopt|false|false|false|false|false|false|false|false|false|TO
+adopt	others	adopt|to|edi|false|false|false|false|false|false|false|false|false|VB
+EDI	others	edi|adopt|instead|false|true|false|true|false|false|false|false|false|NNP
+instead	others	instead|edi|of|false|false|false|false|false|false|false|false|false|RB
+of	others	of|instead|mandat|false|false|false|false|false|false|false|false|false|IN
+mandating	others	mandat|of|thei|false|false|false|false|false|false|false|false|false|VBG
+them	others	thei|mandat|to|false|false|false|false|false|false|false|false|false|PRP
+to	others	to|thei|do|false|false|false|false|false|false|false|false|false|TO
+do	others	do|to|so|false|false|false|false|false|false|false|false|false|VB
+so	others	so|do|_end_|false|false|false|false|false|false|false|false|false|RB
+
+Regardless	others	regardless|_start_|of|true|false|false|false|false|false|false|false|false|RB
+of	others	of|regardless|whether|false|false|false|false|false|false|false|false|false|IN
+whether	others	whether|of|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|whether|buyer|false|false|false|false|false|false|false|false|false|DT
+buyer	others	buyer|the|emploi|false|false|false|false|false|false|false|false|false|NN
+employs	others	emploi|buyer|_end_|false|false|false|false|false|false|false|false|false|VBZ
+
+a	others	a|_start_|mandatori|false|false|false|false|false|false|false|false|false|DT
+mandatory	others	mandatori|a|or|false|false|false|false|false|false|false|false|false|JJ
+or	others	or|mandatori|a|false|false|false|false|false|false|false|false|false|CC
+a	others	a|or|subsid|false|false|false|false|false|false|false|false|false|DT
+subsidizing	others	subsid|a|polici|false|false|false|false|false|false|false|false|false|VBG
+policy	others	polici|subsid|the|false|false|false|false|false|false|false|false|false|NN
+the	others	the|polici|buyer|false|false|false|false|false|false|false|false|false|DT
+buyer	others	buyer|the|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|buyer|the|false|false|false|false|false|false|false|false|false|CC
+the	others	the|and|end|false|false|false|false|false|false|false|false|false|DT
+end	others	end|the|consum|false|false|false|false|false|false|false|false|false|NN
+consumers	others	consum|end|mai|false|false|false|false|false|false|false|false|false|NNS
+may	others	mai|consum|_end_|false|false|false|false|false|false|false|false|false|MD
+
+be	others	be|_start_|the|false|false|false|false|false|false|false|false|false|VB
+the	others	the|be|onli|false|false|false|false|false|false|false|false|false|DT
+only	others	onli|the|on|false|false|false|false|false|false|false|false|false|JJ
+ones	others	on|onli|who|false|false|false|false|false|false|false|false|false|NNS
+who	others	who|on|gain|false|false|false|false|false|false|false|false|false|WP
+gain	others	gain|who|from|false|false|false|false|false|false|false|false|false|VB
+from	others	from|gain|thi|false|false|false|false|false|false|false|false|false|IN
+this	others	thi|from|new|false|false|false|false|false|false|false|false|false|DT
+new	others	new|thi|technolog|false|false|false|false|false|false|false|false|false|JJ
+technology	others	technolog|new|consequ|false|false|false|false|false|false|false|false|false|NN
+Consequently	others	consequ|technolog|a|true|false|false|false|false|false|false|false|false|RB
+a	others	a|consequ|partial|false|false|false|false|false|false|false|false|false|DT
+partial	others	partial|a|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+adoption	others	adopt|_start_|by|false|false|false|false|false|false|false|false|false|NN
+by	others	by|adopt|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|by|supplier|false|false|false|false|false|false|false|false|false|DT
+supplier	others	supplier|the|base|false|false|false|false|false|false|false|false|false|NN
+base	others	base|supplier|mai|false|false|false|false|false|false|false|false|false|NN
+may	others	mai|base|be|false|false|false|false|false|false|false|false|false|MD
+be	others	be|mai|optim|false|false|false|false|false|false|false|false|false|VB
+optimal	others	optim|be|for|false|false|false|false|false|false|false|false|false|JJ
+for	others	for|optim|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|for|buyer|false|false|false|false|false|false|false|false|false|DT
+buyer	others	buyer|the|when|false|false|false|false|false|false|false|false|false|NN
+when	others	when|buyer|the|false|false|false|false|false|false|false|false|false|WRB
+the	others	the|when|_end_|false|false|false|false|false|false|false|false|false|DT
+
+suppliers	others	supplier|_start_|adopt|false|false|false|false|false|false|false|false|false|NNS
+adoption	others	adopt|supplier|cost|false|false|false|false|false|false|false|false|false|NN
+costs	others	cost|adopt|be|false|false|false|false|false|false|false|false|false|NNS
+are	others	be|cost|suffici|false|false|false|false|false|false|false|false|false|VBP
+sufficiently	others	suffici|be|high|false|false|false|false|false|false|false|false|false|RB
+high	others	high|suffici|we|false|false|false|false|false|false|false|false|false|JJ
+We	others	we|high|also|true|false|false|false|false|false|false|false|false|PRP
+also	others	also|we|show|false|false|false|false|false|false|false|false|false|RB
+show	others	show|also|that|false|false|false|false|false|false|false|false|false|VBP
+that	others	that|show|while|false|false|false|false|false|false|false|false|false|IN
+while	others	while|that|_end_|false|false|false|false|false|false|false|false|false|IN
+
+EDI	others	edu|_start_|reduc|false|true|false|true|false|false|false|false|false|NN
+reduces	others	reduc|edu|the|false|false|false|false|false|false|false|false|false|VBZ
+the	others	the|reduc|transact|false|false|false|false|false|false|false|false|false|DT
+transaction	others	transact|the|cost|false|false|false|false|false|false|false|false|false|NN
+costs	others	cost|transact|of|false|false|false|false|false|false|false|false|false|NNS
+of	others	of|cost|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|of|buyer|false|false|false|false|false|false|false|false|false|DT
+buyer	others	buyer|the|the|false|false|false|false|false|false|false|false|false|NN
+the	others	the|buyer|upstream|false|false|false|false|false|false|false|false|false|DT
+upstream	others	upstream|the|market|false|false|false|false|false|false|false|false|false|JJ
+market	others	market|upstream|tend|false|false|false|false|false|false|false|false|false|NN
+tends	others	tend|market|to|false|false|false|false|false|false|false|false|false|VBZ
+to	others	to|tend|_end_|false|false|false|false|false|false|false|false|false|TO
+
+become	others	becom|_start_|more|false|false|false|false|false|false|false|false|false|VB
+more	others	more|becom|concentr|false|false|false|false|false|false|false|false|false|RBR
+concentrated	others	concentr|more|as|false|false|false|false|false|false|false|false|false|JJ
+as	others	as|concentr|a|false|false|false|false|false|false|false|false|false|IN
+a	others	a|as|result|false|false|false|false|false|false|false|false|false|DT
+result	others	result|a|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|result|increas|false|false|false|false|false|false|false|false|false|IN
+increased	others	increas|of|cost|false|false|false|false|false|false|false|false|false|VBN
+cost	others	cost|increas|differenti|false|false|false|false|false|false|false|false|false|NN
+differentials	others	differenti|cost|these|false|false|false|false|false|false|false|false|false|NNS
+These	others	these|differenti|_end_|true|false|false|false|false|false|false|false|false|DT
+
+results	others	result|_start_|provid|false|false|false|false|false|false|false|false|false|NNS
+provide	others	provid|result|on|false|false|false|false|false|false|false|false|false|VBP
+one	others	on|provid|econom|false|false|false|false|false|false|false|false|false|CD
+economic	others	econom|on|explan|false|false|false|false|false|false|false|false|false|JJ
+explanation	others	explan|econom|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|explan|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|of|fact|false|false|false|false|false|false|false|false|false|DT
+fact	others	fact|the|that|false|false|false|false|false|false|false|false|false|NN
+that	others	that|fact|mani|false|false|false|false|false|false|false|false|false|IN
+many	others	mani|that|manufactur|false|false|false|false|false|false|false|false|false|JJ
+manufacturers	others	manufactur|mani|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+have	others	have|_start_|actual|false|false|false|false|false|false|false|false|false|VB
+actually	others	actual|have|reduc|false|false|false|false|false|false|false|false|false|RB
+reduced	others	reduc|actual|thei|false|false|false|false|false|false|false|false|false|VBN
+their	others	thei|reduc|compon|false|false|false|false|false|false|false|false|false|PRP$
+component	others	compon|thei|supplier|false|false|false|false|false|false|false|false|false|NN
+suppliers	others	supplier|compon|base|false|false|false|false|false|false|false|false|false|NNS
+base	others	base|supplier|after|false|false|false|false|false|false|false|false|false|NN
+after	others	after|base|implement|false|false|false|false|false|false|false|false|false|IN
+implementing	others	implement|after|_end_|false|false|false|false|false|false|false|false|false|VBG
+
+EDI	others	edi|_start_|despit|false|true|false|true|false|false|false|false|false|NNP
+despite	others	despit|edi|a|false|false|false|false|false|false|false|false|false|IN
+a	others	a|despit|signific|false|false|false|false|false|false|false|false|false|DT
+significant	others	signific|a|reduct|false|false|false|false|false|false|false|false|false|JJ
+reduction	others	reduct|signific|in|false|false|false|false|false|false|false|false|false|NN
+in	others	in|reduct|thei|false|false|false|false|false|false|false|false|false|IN
+their	others	thei|in|market|false|false|false|false|false|false|false|false|false|PRP$
+market	others	market|thei|transact|false|false|false|false|false|false|false|false|false|NN
+transaction	others	transact|market|cost|false|false|false|false|false|false|false|false|false|NN
+costs	others	cost|transact|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+
+
+Christopher	others	christoph|_start_|deephous|true|false|false|false|false|true|false|false|false|NNP
+Deephouse	others	deephous|christoph|best|true|false|false|false|false|true|false|false|false|NNP
+Best	others	best|deephous|wai|true|false|false|false|false|false|false|false|false|JJS
+ways	others	wai|best|to|false|false|false|false|false|false|false|false|false|NNS
+to	others	to|wai|contact|false|false|false|false|false|false|false|false|false|TO
+contact	others	contact|to|i|false|false|false|false|false|false|false|false|false|VB
+me	others	i|contact|_end_|false|false|false|false|false|false|false|false|false|PRP
+
+Graduate	others	graduat|_start_|school|true|false|false|false|false|false|false|false|false|NNP
+School	others	school|graduat|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|school|industri|false|false|false|false|false|false|false|false|false|IN
+Industrial	others	industri|of|administr|true|false|false|false|false|false|false|false|false|NNP
+Administration	others	administr|industri|email|true|false|false|false|false|false|false|false|false|NNP
+Email	others	email|administr|cdeephouse+@cmu.edu|true|false|false|false|false|false|false|false|false|NNP
+cdeephouse+@cmu.edu	others	cdeephouse+@cmu.edu|email|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Carnegie	others	carnegi|_start_|mellon|true|false|false|false|false|false|false|false|false|NNP
+Mellon	others	mellon|carnegi|univers|true|false|false|false|false|false|false|false|false|NNP
+University	others	univers|mellon|phone|true|false|false|false|false|false|false|false|false|NNP
+Phone	others	phone|univers|1-412-621-8033|true|false|false|false|false|false|false|false|false|NNP
+1-412-621-8033	others	1-412-621-8033|phone|-lrb-|false|false|false|false|false|false|false|false|false|CD
+-LRB-	others	-lrb-|1-412-621-8033|home|false|false|false|false|false|false|false|false|false|-LRB-
+home	others	home|-lrb-|-rrb-|false|false|false|false|false|false|false|false|false|NN
+-RRB-	others	-rrb-|home|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+5000	others	5000|_start_|forb|false|false|false|false|false|false|false|false|false|CD
+Forbes	others	forb|5000|avenu|true|false|false|false|false|false|false|false|false|NNP
+Avenue	others	avenu|forb|call|true|false|false|false|false|false|false|false|false|NNP
+call	others	call|avenu|morn|false|false|false|false|false|false|false|false|false|VB
+mornings	others	morn|call|or|false|false|false|false|false|false|false|false|false|NNS
+or	others	or|morn|even|false|false|false|false|false|false|false|false|false|CC
+evenings	others	even|or|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+Pittsburgh	others	pittsburgh|_start_|pa|true|false|false|false|false|false|false|false|false|NNP
+PA	others	pa|pittsburgh|15213|false|true|false|true|false|false|false|false|false|NN
+15213	others	15213|pa|_end_|false|false|false|false|false|false|false|false|false|CD
+
+
+

@@ -1,0 +1,201 @@
+Type	others	type|_start_|cs|true|false|false|false|false|false|false|false|false|NN
+CS	others	cs|type|seminar|false|true|false|true|false|false|false|false|false|NNP
+Seminar	others	seminar|cs|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Who	others	who|_start_|rick|true|false|false|false|false|false|false|false|false|WP
+Rick	speaker	rick|who|steven|true|false|false|false|false|true|false|false|false|NNP
+Stevens	speaker	steven|rick|argonn|true|false|false|false|false|true|false|false|false|NNP
+Argonne	others	argonn|steven|nation|true|false|false|false|false|false|false|false|false|NNP
+National	others	nation|argonn|laboratori|true|false|false|false|false|false|false|false|false|NNP
+Laboratory	others	laboratori|nation|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Topic	others	topic|_start_|cs|true|false|false|false|false|false|false|false|false|NN
+CS	others	cs|topic|seminar|false|true|false|true|false|false|false|false|false|NNP
+Seminar	others	seminar|cs|12\/2|true|false|false|false|false|false|false|false|false|NNP
+12\/2	others	12\/2|seminar|rick|false|false|false|false|false|false|false|false|false|CD
+Rick	others	rick|12\/2|steven|true|false|false|false|false|true|false|false|false|NNP
+Stevens	others	steven|rick|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+Dates	others	date|_start_|2-dec-94|true|false|false|false|false|false|false|false|false|NNS
+2-Dec-94	others	2-dec-94|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|4:00|true|false|false|false|false|false|false|false|false|NNP
+4:00	stime	4:00|time|pm|false|false|false|false|false|false|false|false|false|CD
+PM	stime	pm|4:00|_end_|false|true|false|true|false|false|false|false|false|NN
+
+Place	others	place|_start_|5409|true|false|false|false|false|false|false|false|false|NN
+5409	location	5409|place|wean|false|false|false|false|false|false|false|false|true|CD
+Wean	location	wean|5409|hall|true|false|false|false|false|false|false|false|false|NNP
+Hall	location	hall|wean|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Duration	others	durat|_start_|1.5|true|false|false|false|false|false|false|false|false|NN
+1.5	others	1.5|durat|hour|false|false|false|false|false|false|false|false|false|CD
+hours	others	hour|1.5|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+Host	others	host|_start_|peter|true|false|false|false|false|false|false|false|false|NN
+Peter	others	peter|host|steenkist|true|false|false|false|false|true|false|false|false|NNP
+Steenkiste	others	steenkist|peter|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+PostedBy	others	postedbi|_start_|pr|false|false|false|false|true|false|false|false|false|NNP
+prs	others	pr|postedbi|on|false|false|false|false|false|false|false|false|false|NNS
+on	others	on|pr|30-nov-94|false|false|false|false|false|false|false|false|false|IN
+30-Nov-94	others	30-nov-94|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|30-nov-94|11:41|false|false|false|false|false|false|false|false|false|IN
+11:41	others	11:41|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|11:41|n2|false|false|false|false|false|false|false|false|false|IN
+N2	others	n2|from|sp.cs.cmu.edu|false|false|false|false|false|false|false|false|false|NN
+SP.CS.CMU.EDU	others	sp.cs.cmu.edu|n2|-lrb-|false|false|false|false|false|false|false|false|false|NN
+-LRB-	others	-lrb-|sp.cs.cmu.edu|peter|false|false|false|false|false|false|false|false|false|-LRB-
+peter	others	peter|-lrb-|steenkist|false|false|false|false|false|false|false|false|false|NN
+steenkiste	others	steenkist|peter|-rrb-|false|false|false|false|false|false|false|false|false|NN
+-RRB-	others	-rrb-|steenkist|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+Type	others	type|_start_|cs|true|false|false|false|false|false|false|false|false|NN
+CS	others	cs|type|seminar|false|true|false|true|false|false|false|false|false|NNP
+Seminar	others	seminar|cs|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Who	others	who|_start_|rick|true|false|false|false|false|false|false|false|false|WP
+Rick	speaker	rick|who|steven|true|false|false|false|false|true|false|false|false|NNP
+Stevens	speaker	steven|rick|argonn|true|false|false|false|false|true|false|false|false|NNP
+Argonne	others	argonn|steven|nation|true|false|false|false|false|false|false|false|false|NNP
+National	others	nation|argonn|laboratori|true|false|false|false|false|false|false|false|false|NNP
+Laboratory	others	laboratori|nation|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Dates	others	date|_start_|2-dec-94|true|false|false|false|false|false|false|false|false|NNS
+2-Dec-94	others	2-dec-94|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|4:00|true|false|false|false|false|false|false|false|false|NNP
+4:00	stime	4:00|time|pm|false|false|false|false|false|false|false|false|false|CD
+pm	stime	pm|4:00|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Place	others	place|_start_|5409|true|false|false|false|false|false|false|false|false|NN
+5409	location	5409|place|wean|false|false|false|false|false|false|false|false|true|CD
+Wean	location	wean|5409|hall|true|false|false|false|false|false|false|false|false|NNP
+Hall	location	hall|wean|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Duration	others	durat|_start_|1.5|true|false|false|false|false|false|false|false|false|NN
+1.5	others	1.5|durat|hour|false|false|false|false|false|false|false|false|false|CD
+hours	others	hour|1.5|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+Host	others	host|_start_|peter|true|false|false|false|false|false|false|false|false|NN
+Peter	others	peter|host|steenkist|true|false|false|false|false|true|false|false|false|NNP
+Steenkiste	others	steenkist|peter|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+LabSpace	others	labspac|_start_|develop|false|false|false|false|false|false|false|false|false|NNP
+Developing	others	develop|labspac|the|true|false|false|false|false|false|false|false|false|VBG
+the	others	the|develop|nation|false|false|false|false|false|false|false|false|false|DT
+National	others	nation|the|electron|true|false|false|false|false|false|false|false|false|NNP
+Electronic	others	electron|nation|laboratori|true|false|false|false|false|false|false|false|false|NNP
+Laboratory	others	laboratori|electron|infrastructur|true|false|false|false|false|false|false|false|false|NNP
+Infrastructure	others	infrastructur|laboratori|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+The	others	the|_start_|labspac|true|false|false|false|false|false|false|false|false|DT
+LabSpace	others	labspac|the|project|false|false|false|false|false|false|false|false|false|NN
+project	others	project|labspac|integr|false|false|false|false|false|false|false|false|false|NN
+integrates	others	integr|project|emerg|false|false|false|false|false|false|false|false|false|VBZ
+emerging	others	emerg|integr|multius|false|false|false|false|false|false|false|false|false|VBG
+multiuser	others	multius|emerg|virtual|false|false|false|false|false|false|false|false|false|JJ
+virtual	others	virtual|multius|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+environment	others	environ|_start_|technolog|false|false|false|false|false|false|false|false|false|NN
+technology	others	technolog|environ|with|false|false|false|false|false|false|false|false|false|NN
+with	others	with|technolog|state|false|false|false|false|false|false|false|false|false|IN
+state	others	state|with|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|state|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|of|art|false|false|false|false|false|false|false|false|false|DT
+art	others	art|the|multimedia|false|false|false|false|false|false|false|false|false|NN
+multimedia	others	multimedia|art|interfac|false|false|false|false|false|false|false|false|false|NNS
+interfaces	others	interfac|multimedia|in|false|false|false|false|false|false|false|false|false|NNS
+in	others	in|interfac|_end_|false|false|false|false|false|false|false|false|false|IN
+
+order	others	order|_start_|to|false|false|false|false|false|false|false|false|false|NN
+to	others	to|order|support|false|false|false|false|false|false|false|false|false|TO
+support	others	support|to|scientif|false|false|false|false|false|false|false|false|false|VB
+scientific	others	scientif|support|collabor|false|false|false|false|false|false|false|false|false|JJ
+collaboration	others	collabor|scientif|the|false|false|false|false|false|false|false|false|false|NN
+The	others	the|collabor|result|true|false|false|false|false|false|false|false|false|DT
+resulting	others	result|the|network|false|false|false|false|false|false|false|false|false|VBG
+networked	others	network|result|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+environment	others	environ|_start_|compos|false|false|false|false|false|false|false|false|false|NN
+composed	others	compos|environ|of|false|false|false|false|false|false|false|false|false|VBN
+of	others	of|compos|a|false|false|false|false|false|false|false|false|false|IN
+a	others	a|of|persist|false|false|false|false|false|false|false|false|false|DT
+persistent	others	persist|a|collect|false|false|false|false|false|false|false|false|false|JJ
+collection	others	collect|persist|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|collect|object|false|false|false|false|false|false|false|false|false|IN
+objects	others	object|of|and|false|false|false|false|false|false|false|false|false|NNS
+and	others	and|object|a|false|false|false|false|false|false|false|false|false|CC
+a	others	a|and|_end_|false|false|false|false|false|false|false|false|false|DT
+
+flexible	others	flexibl|_start_|histori|false|false|false|false|false|false|false|false|false|JJ
+history	others	histori|flexibl|mechan|false|false|false|false|false|false|false|false|false|NN
+mechanism	others	mechan|histori|allow|false|false|false|false|false|false|false|false|false|NN
+allows	others	allow|mechan|the|false|false|false|false|false|false|false|false|false|VBZ
+the	others	the|allow|creation|false|false|false|false|false|false|false|false|false|DT
+creation	others	creation|the|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|creation|electron|false|false|false|false|false|false|false|false|false|IN
+electronic	others	electron|of|virtual|false|false|false|false|false|false|false|false|false|JJ
+virtual	others	virtual|electron|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+laboratories	others	laboratori|_start_|these|false|false|false|false|false|false|false|false|false|NNS
+These	others	these|laboratori|virtual|true|false|false|false|false|false|false|false|false|DT
+virtual	others	virtual|these|laboratori|false|false|false|false|false|false|false|false|false|JJ
+laboratories	others	laboratori|virtual|will|false|false|false|false|false|false|false|false|false|NNS
+will	others	will|laboratori|be|false|false|false|false|false|false|false|false|false|MD
+be	others	be|will|network|false|false|false|false|false|false|false|false|false|VB
+networked	others	network|be|locat|false|false|false|false|false|false|false|false|false|JJ
+locations	others	locat|network|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+where	others	where|_start_|scientist|false|false|false|false|false|false|false|false|false|WRB
+scientists	others	scientist|where|will|false|false|false|false|false|false|false|false|false|NNS
+will	others	will|scientist|interact|false|false|false|false|false|false|false|false|false|MD
+interact	others	interact|will|with|false|false|false|false|false|false|false|false|false|VB
+with	others	with|interact|analyt|false|false|false|false|false|false|false|false|false|IN
+analytical	others	analyt|with|electron|false|false|false|false|false|false|false|false|false|JJ
+electron	others	electron|analyt|microscop|false|false|false|false|false|false|false|false|false|NN
+microscopes	others	microscop|electron|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+high	others	high|_start_|energi|false|false|false|false|false|false|false|false|false|JJ
+energy	others	energi|high|physic|false|false|false|false|false|false|false|false|false|NN
+physics	others	physic|energi|experi|false|false|false|false|false|false|false|false|false|NN
+experiments	others	experi|physic|and|false|false|false|false|false|false|false|false|false|NNS
+and	others	and|experi|datum|false|false|false|false|false|false|false|false|false|CC
+data	others	datum|and|and|false|false|false|false|false|false|false|false|false|NNS
+and	others	and|datum|most|false|false|false|false|false|false|false|false|false|CC
+most	others	most|and|importantli|false|false|false|false|false|false|false|false|false|RBS
+importantly	others	importantli|most|each|false|false|false|false|false|false|false|false|false|RB
+each	others	each|importantli|_end_|false|false|false|false|false|false|false|false|false|DT
+
+other	others	other|_start_|the|false|false|false|false|false|false|false|false|false|JJ
+The	others	the|other|labspac|true|false|false|false|false|false|false|false|false|DT
+LabSpace	others	labspac|the|project|false|false|false|false|false|false|false|false|false|NN
+project	others	project|labspac|will|false|false|false|false|false|false|false|false|false|NN
+will	others	will|project|develop|false|false|false|false|false|false|false|false|false|MD
+develop	others	develop|will|the|false|false|false|false|false|false|false|false|false|VB
+the	others	the|develop|tool|false|false|false|false|false|false|false|false|false|DT
+tools	others	tool|the|to|false|false|false|false|false|false|false|false|false|NNS
+to	others	to|tool|creat|false|false|false|false|false|false|false|false|false|TO
+create	others	creat|to|these|false|false|false|false|false|false|false|false|false|VB
+these	others	these|creat|_end_|false|false|false|false|false|false|false|false|false|DT
+
+virtual	others	virtual|_start_|laboratori|false|false|false|false|false|false|false|false|false|JJ
+laboratories	others	laboratori|virtual|and|false|false|false|false|false|false|false|false|false|NNS
+and	others	and|laboratori|the|false|false|false|false|false|false|false|false|false|CC
+the	others	the|and|scientist|false|false|false|false|false|false|false|false|false|DT
+scientists	others	scientist|the|interfac|false|false|false|false|false|false|false|false|false|NNS
+interfaces	others	interfac|scientist|and|false|false|false|false|false|false|false|false|false|NNS
+and	others	and|interfac|will|false|false|false|false|false|false|false|false|false|CC
+will	others	will|and|_end_|false|false|false|false|false|false|false|false|false|MD
+
+validate	others	valid|_start_|these|false|false|false|false|false|false|false|false|false|VB
+these	others	these|valid|integr|false|false|false|false|false|false|false|false|false|DT
+integrated	others	integr|these|tool|false|false|false|false|false|false|false|false|false|VBN
+tools	others	tool|integr|in|false|false|false|false|false|false|false|false|false|NNS
+in	others	in|tool|two|false|false|false|false|false|false|false|false|false|IN
+two	others	two|in|end-us|false|false|false|false|false|false|false|false|false|CD
+end-user	others	end-us|two|testb|false|false|false|false|false|false|false|false|false|JJ
+testbeds	others	testb|end-us|_end_|false|false|false|false|false|false|false|false|false|NNS
+

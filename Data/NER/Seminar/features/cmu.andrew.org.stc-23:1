@@ -1,0 +1,86 @@
+Type	others	type|_start_|cmu.andrew.org|true|false|false|false|false|false|false|false|false|NN
+cmu.andrew.org	others	cmu.andrew.org|type|stc|false|false|false|false|false|false|false|false|false|NN
+stc	others	stc|cmu.andrew.org|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Topic	others	topic|_start_|june|true|false|false|false|false|false|false|false|false|NN
+June	others	june|topic|19|true|false|false|false|false|false|false|false|true|NNP
+19	others	19|june|weekli|false|false|false|false|false|false|false|false|true|CD
+Weekly	others	weekli|19|seminar|true|false|false|false|false|false|false|false|false|NNP
+Seminars	others	seminar|weekli|_end_|true|false|false|false|false|false|false|false|false|NNPS
+
+Dates	others	date|_start_|21-jun-95|true|false|false|false|false|false|false|false|false|NNS
+21-Jun-95	others	21-jun-95|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|4:00|true|false|false|false|false|false|false|false|false|NNP
+4:00	stime	4:00|time|pm|false|false|false|false|false|false|false|false|false|CD
+PM	stime	pm|4:00|_end_|false|true|false|true|false|false|false|false|false|NN
+
+PostedBy	others	postedbi|_start_|sandra|false|false|false|false|true|false|false|false|false|NNP
+Sandra	others	sandra|postedbi|m|true|false|false|false|false|true|false|false|false|NNP
+M	others	m|sandra|sherman|false|false|true|true|false|true|false|false|false|NNP
+Sherman	others	sherman|m|on|true|false|false|false|false|true|false|false|false|NNP
+on	others	on|sherman|19-jun-95|false|false|false|false|false|false|false|false|false|IN
+19-Jun-95	others	19-jun-95|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|19-jun-95|08:37|false|false|false|false|false|false|false|false|false|IN
+08:37	others	08:37|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|08:37|andrew.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+andrew.cmu.edu	others	andrew.cmu.edu|from|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+There	others	there|_start_|will|true|false|false|false|false|false|false|false|false|EX
+will	others	will|there|be|false|false|false|false|false|false|false|false|false|MD
+be	others	be|will|no|false|false|false|false|false|false|false|false|false|VB
+no	others	no|be|aim|false|false|false|false|false|false|false|false|false|DT
+AIM	others	aim|no|seminar|false|true|false|true|false|false|false|false|false|NN
+Seminar	others	seminar|aim|thi|true|false|false|false|false|false|false|false|false|NN
+this	others	thi|seminar|week|false|false|false|false|false|false|false|false|true|DT
+week	others	week|thi|_end_|false|false|false|false|false|false|false|false|true|NN
+
+WEDNESDAY	others	wednesdai|_start_|june|false|true|false|true|false|false|false|false|true|NNP
+JUNE	others	june|wednesdai|21|false|true|false|true|false|false|false|false|true|NNP
+21	others	21|june|_end_|false|false|false|false|false|false|false|false|true|CD
+
+PATHOLOGY	others	patholog|_start_|seminar|false|true|false|true|false|false|false|false|false|NN
+SEMINAR	others	seminar|patholog|seri|false|true|false|true|false|false|false|false|false|NN
+SERIES	others	seri|seminar|diagnost|false|true|false|true|false|false|false|false|false|NN
+Diagnostic	others	diagnost|seri|immunocytochemistri|true|false|false|false|false|false|false|false|false|JJ
+immunocytochemistry	others	immunocytochemistri|diagnost|a|false|false|false|false|false|false|false|false|false|NN
+a	others	a|immunocytochemistri|25-year|false|false|false|false|false|false|false|false|false|DT
+25-year	others	25-year|a|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+perspective	others	perspect|_start_|ricardo|false|false|false|false|false|false|false|false|false|NN
+Ricardo	speaker	ricardo|perspect|mesa-tejada|true|false|false|false|false|true|false|false|false|NNP
+Mesa-Tejada	speaker	mesa-tejada|ricardo|md|false|false|false|false|false|true|false|false|false|NNP
+MD	speaker	md|mesa-tejada|director|false|true|false|true|false|false|false|false|false|NNP
+Director	others	director|md|research|true|false|false|false|false|false|false|false|false|NNP
+Research	others	research|director|and|true|false|false|false|false|false|false|false|false|NNP
+and	others	and|research|molecular|false|false|false|false|false|false|false|false|false|CC
+Molecular	others	molecular|and|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+Tissue	others	tissu|_start_|patholog|true|false|false|false|false|false|false|false|false|NN
+Pathology	others	patholog|tissu|depart|true|false|false|false|false|false|false|false|false|NN
+Department	others	depart|patholog|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|depart|anatom|false|false|false|false|false|false|false|false|false|IN
+Anatomic	others	anatom|of|patholog|true|false|false|false|false|false|false|false|false|NNP
+Pathology	others	patholog|anatom|corn|true|false|false|false|false|false|false|false|false|NNP
+Corning	others	corn|patholog|metpath|true|false|false|false|false|false|false|false|false|NNP
+MetPath	others	metpath|corn|_end_|false|false|false|false|false|false|false|false|false|NNP
+
+Clinical	others	clinic|_start_|laboratori|true|false|false|false|false|false|false|false|false|JJ
+Laboratories	others	laboratori|clinic|teterboro|true|false|false|false|false|false|false|false|false|NNPS
+Teterboro	others	teterboro|laboratori|nj|true|false|false|false|false|false|false|false|false|NNP
+NJ	others	nj|teterboro|4:00|false|true|false|true|false|false|false|false|false|NNP
+4:00	stime	4:00|nj|p.|false|false|false|false|false|false|false|false|false|CD
+p.	stime	p.|4:00|m|false|false|false|false|false|false|false|false|false|NN
+m	stime	m|p.|scaif|false|false|false|false|false|false|false|false|false|NN
+Scaife	location	scaif|m|hall|true|false|false|false|false|false|false|false|false|NNP
+Hall	location	hall|scaif|room|true|false|false|false|false|false|false|false|false|NNP
+Room	location	room|hall|618|true|false|false|false|false|false|false|false|false|NNP
+618	location	618|room|_end_|false|false|false|false|false|false|false|false|false|CD
+
+3:45	others	3:45|_start_|refres|false|false|false|false|false|false|false|false|false|CD
+refresments	others	refres|3:45|in|false|false|false|false|false|false|false|false|false|NNS
+in	others	in|refres|lobbi|false|false|false|false|false|false|false|false|false|IN
+lobby	others	lobbi|in|_end_|false|false|false|false|false|false|false|false|false|NN
+

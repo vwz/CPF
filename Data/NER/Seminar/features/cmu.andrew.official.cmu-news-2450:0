@@ -1,0 +1,156 @@
+Type	others	type|_start_|cmu.andrew.official.cmu-new|true|false|false|false|false|false|false|false|false|NN
+cmu.andrew.official.cmu-news	others	cmu.andrew.official.cmu-new|type|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+Topic	others	topic|_start_|ceda|true|false|false|false|false|false|false|false|false|NN
+CEDA	others	ceda|topic|spring|false|true|false|true|false|false|false|false|false|NNP
+Spring	others	spring|ceda|lectur|true|false|false|false|false|false|false|false|true|NNP
+Lecture	others	lectur|spring|seri|true|false|false|false|false|false|false|false|false|NNP
+Series	others	seri|lectur|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Dates	others	date|_start_|13-feb-95|true|false|false|false|false|false|false|false|false|NNS
+13-Feb-95	others	13-feb-95|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|3:30|true|false|false|false|false|false|false|false|false|NNP
+3:30	stime	3:30|time|pm|false|false|false|false|false|false|false|false|false|CD
+PM	stime	pm|3:30|_end_|false|true|false|true|false|false|false|false|false|NN
+
+PostedBy	others	postedbi|_start_|edmund|false|false|false|false|true|false|false|false|false|NNP
+Edmund	others	edmund|postedbi|j.|true|false|false|false|false|true|false|false|false|NNP
+J.	others	j.|edmund|delanei|false|false|false|false|false|true|false|false|false|NNP
+Delaney	others	delanei|j.|on|true|false|false|false|false|true|false|false|false|NNP
+on	others	on|delanei|9-feb-95|false|false|false|false|false|false|false|false|false|IN
+9-Feb-95	others	9-feb-95|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|9-feb-95|10:18|false|false|false|false|false|false|false|false|false|IN
+10:18	others	10:18|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|10:18|andrew.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+andrew.cmu.edu	others	andrew.cmu.edu|from|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+CENTER	others	center|_start_|for|false|true|false|true|false|false|false|false|false|NN
+FOR	others	for|center|electron|false|true|false|true|false|false|false|false|false|IN
+ELECTRONIC	others	electron|for|design|false|true|false|true|false|false|false|false|false|NNP
+DESIGN	others	design|electron|autom|false|true|false|true|false|false|false|false|false|NN
+AUTOMATION	others	autom|design|spring|false|true|false|true|false|false|false|false|false|NN
+SPRING	others	spring|autom|lectur|false|true|false|true|false|false|false|false|false|VBG
+LECTURE	others	lectur|spring|seri|false|true|false|true|false|false|false|false|false|NN
+SERIES	others	seri|lectur|_end_|false|true|false|true|false|false|false|false|false|NN
+
+The	others	the|_start_|center|true|false|false|false|false|false|false|false|false|DT
+Center	others	center|the|for|true|false|false|false|false|false|false|false|false|NNP
+for	others	for|center|electron|false|false|false|false|false|false|false|false|false|IN
+Electronic	others	electron|for|design|true|false|false|false|false|false|false|false|false|NNP
+Design	others	design|electron|autom|true|false|false|false|false|false|false|false|false|NNP
+Automation	others	autom|design|ceda|true|false|false|false|false|false|false|false|false|NNP
+CEDA	others	ceda|autom|in|false|true|false|true|false|false|false|false|false|NNP
+in	others	in|ceda|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|in|depart|false|false|false|false|false|false|false|false|false|DT
+department	others	depart|the|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|depart|_end_|false|false|false|false|false|false|false|false|false|IN
+
+Electrical	others	electr|_start_|and|true|false|false|false|false|false|false|false|false|JJ
+and	others	and|electr|comput|false|false|false|false|false|false|false|false|false|CC
+Computer	others	comput|and|engin|true|false|false|false|false|false|false|false|false|NNP
+Engineering	others	engin|comput|will|true|false|false|false|false|false|false|false|false|NNP
+will	others	will|engin|offer|false|false|false|false|false|false|false|false|false|MD
+offer	others	offer|will|it|false|false|false|false|false|false|false|false|false|VB
+its	others	it|offer|first|false|false|false|false|false|false|false|false|false|PRP$
+first	others	first|it|lectur|false|false|false|false|false|false|false|false|false|JJ
+lecture	others	lectur|first|_end_|false|false|false|false|false|false|false|false|false|NN
+
+in	others	in|_start_|it|false|false|false|false|false|false|false|false|false|IN
+its	others	it|in|spring|false|false|false|false|false|false|false|false|false|PRP$
+Spring	others	spring|it|lectur|true|false|false|false|false|false|false|false|true|NN
+lecture	others	lectur|spring|seri|false|false|false|false|false|false|false|false|false|NN
+series	others	seri|lectur|on|false|false|false|false|false|false|false|false|false|NN
+on	others	on|seri|februari|false|false|false|false|false|false|false|false|false|IN
+February	others	februari|on|13|true|false|false|false|false|false|false|false|true|NNP
+13	others	13|februari|in|false|false|false|false|false|false|false|false|true|CD
+in	others	in|13|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|in|adamson|false|false|false|false|false|false|false|false|false|DT
+Adamson	location	adamson|the|wing|true|false|false|false|false|false|false|false|false|NNP
+Wing	location	wing|adamson|baker|true|false|false|false|false|false|false|false|false|NNP
+Baker	location	baker|wing|hall|true|false|false|false|false|false|false|false|false|NNP
+Hall	location	hall|baker|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+The	others	the|_start_|lectur|true|false|false|false|false|false|false|false|false|DT
+lecture	others	lectur|the|begin|false|false|false|false|false|false|false|false|false|NN
+begins	others	begin|lectur|at|false|false|false|false|false|false|false|false|false|VBZ
+at	others	at|begin|3:30|false|false|false|false|false|false|false|false|false|IN
+3:30	stime	3:30|at|p.|false|false|false|false|false|false|false|false|false|CD
+p.	stime	p.|3:30|m|false|false|false|false|false|false|false|false|false|NN
+m	stime	m|p.|follow|false|false|false|false|false|false|false|false|false|NN
+followed	others	follow|m|by|false|false|false|false|false|false|false|false|false|VBN
+by	others	by|follow|a|false|false|false|false|false|false|false|false|false|IN
+a	others	a|by|recept|false|false|false|false|false|false|false|false|false|DT
+reception	others	recept|a|in|false|false|false|false|false|false|false|false|false|NN
+in	others	in|recept|hamerschlag|false|false|false|false|false|false|false|false|false|IN
+Hamerschlag	location	hamerschlag|in|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+Hall	others	hall|_start_|room|true|false|false|false|false|false|false|false|false|NNP
+Room	others	room|hall|1112|true|false|false|false|false|false|false|false|false|NNP
+1112	others	1112|room|professor|false|false|false|false|false|false|false|false|true|CD
+Professors	speaker	professor|1112|rob|true|false|false|false|false|false|false|false|false|NNP
+Rob	speaker	rob|professor|a.|true|false|false|false|false|true|false|false|false|NNP
+A.	speaker	a.|rob|rutenbar|false|false|false|false|false|true|false|false|false|NN
+Rutenbar	speaker	rutenbar|a.|and|true|false|false|false|false|true|false|false|false|NNP
+and	others	and|rutenbar|wojciech|false|false|false|false|false|false|false|false|false|CC
+Wojciech	speaker	wojciech|and|mali|true|false|false|false|false|true|false|false|false|NNP
+Maly	speaker	mali|wojciech|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+will	others	will|_start_|speak|false|false|false|false|false|false|false|false|false|MD
+speak	others	speak|will|on|false|false|false|false|false|false|false|false|false|VB
+on	others	on|speak|the|false|false|false|false|false|false|false|false|false|IN
+The	others	the|on|state|true|false|false|false|false|false|false|false|false|DT
+State	others	state|the|of|true|false|false|false|false|false|false|false|false|NN
+of	others	of|state|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|of|center|false|false|false|false|false|false|false|false|false|DT
+Center	others	center|the|for|true|false|false|false|false|false|false|false|false|NNP
+for	others	for|center|electron|false|false|false|false|false|false|false|false|false|IN
+Electronic	others	electron|for|design|true|false|false|false|false|false|false|false|false|NNP
+Design	others	design|electron|autom|true|false|false|false|false|false|false|false|false|NNP
+Automation	others	autom|design|_end_|true|false|false|false|false|false|false|false|false|NN
+
+Funded	others	fund|_start_|in|true|false|false|false|false|false|false|false|false|VBN
+in	others	in|fund|part|false|false|false|false|false|false|false|false|false|IN
+part	others	part|in|by|false|false|false|false|false|false|false|false|false|NN
+by	others	by|part|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|by|semiconductor|false|false|false|false|false|false|false|false|false|DT
+Semiconductor	others	semiconductor|the|research|true|false|false|false|false|false|false|false|false|NNP
+Research	others	research|semiconductor|corpor|true|false|false|false|false|false|false|false|false|NNP
+Corporation	others	corpor|research|sematech|true|false|false|false|false|false|false|false|false|NNP
+SEMATECH	others	sematech|corpor|_end_|false|true|false|true|false|false|false|false|false|NNP
+
+NSF	others	nsf|_start_|and|false|true|false|true|false|false|false|false|false|NNP
+and	others	and|nsf|by|false|false|false|false|false|false|false|false|false|CC
+by	others	by|and|u.s.|false|false|false|false|false|false|false|false|false|IN
+U.S.	others	u.s.|by|and|false|false|false|false|false|false|false|false|false|NNP
+and	others	and|u.s.|intern|false|false|false|false|false|false|false|false|false|CC
+international	others	intern|and|semiconductor|false|false|false|false|false|false|false|false|false|JJ
+semiconductor	others	semiconductor|intern|compani|false|false|false|false|false|false|false|false|false|NN
+companies	others	compani|semiconductor|ceda|false|false|false|false|false|false|false|false|false|NNS
+CEDA	others	ceda|compani|involv|false|true|false|true|false|false|false|false|false|NN
+involves	others	involv|ceda|_end_|false|false|false|false|false|false|false|false|false|VBZ
+
+12	others	12|_start_|faculti|false|false|false|false|false|false|false|false|false|CD
+faculty	others	faculti|12|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|faculti|60|false|false|false|false|false|false|false|false|false|CC
+60	others	60|and|graduat|false|false|false|false|false|false|false|false|false|CD
+graduate	others	graduat|60|student|false|false|false|false|false|false|false|false|false|JJ
+students	others	student|graduat|work|false|false|false|false|false|false|false|false|false|NNS
+working	others	work|student|on|false|false|false|false|false|false|false|false|false|VBG
+on	others	on|work|softwar|false|false|false|false|false|false|false|false|false|IN
+software	others	softwar|on|tool|false|false|false|false|false|false|false|false|false|NN
+tools	others	tool|softwar|to|false|false|false|false|false|false|false|false|false|NNS
+to	others	to|tool|design|false|false|false|false|false|false|false|false|false|TO
+design	others	design|to|_end_|false|false|false|false|false|false|false|false|false|VB
+
+verify	others	verifi|_start_|and|false|false|false|false|false|false|false|false|false|VB
+and	others	and|verifi|fabric|false|false|false|false|false|false|false|false|false|CC
+fabricate	others	fabric|and|next-gener|false|false|false|false|false|false|false|false|false|VB
+next-generation	others	next-gener|fabric|integr|false|false|false|false|false|false|false|false|false|JJ
+integrated	others	integr|next-gener|circuit|false|false|false|false|false|false|false|false|false|VBN
+circuits	others	circuit|integr|and|false|false|false|false|false|false|false|false|false|NNS
+and	others	and|circuit|system|false|false|false|false|false|false|false|false|false|CC
+systems	others	system|and|_end_|false|false|false|false|false|false|false|false|false|NNS
+

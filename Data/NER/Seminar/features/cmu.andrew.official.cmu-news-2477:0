@@ -1,0 +1,74 @@
+Type	others	type|_start_|cmu.andrew.official.cmu-new|true|false|false|false|false|false|false|false|false|NN
+cmu.andrew.official.cmu-news	others	cmu.andrew.official.cmu-new|type|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+Topic	others	topic|_start_|chemic|true|false|false|false|false|false|false|false|false|NN
+Chemical	others	chemic|topic|engin|true|false|false|false|false|false|false|false|false|NNP
+Engineering	others	engin|chemic|seminar|true|false|false|false|false|false|false|false|false|NNP
+Seminar	others	seminar|engin|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Dates	others	date|_start_|21-feb-95|true|false|false|false|false|false|false|false|false|NNS
+21-Feb-95	others	21-feb-95|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|10:45|true|false|false|false|false|false|false|false|false|NNP
+10:45	stime	10:45|time|am|false|false|false|false|false|false|false|false|false|CD
+AM	stime	am|10:45|_end_|false|true|false|true|false|false|false|false|false|NNP
+
+PostedBy	others	postedbi|_start_|bruce|false|false|false|false|true|false|false|false|false|NNP
+Bruce	others	bruce|postedbi|gerson|true|false|false|false|false|true|false|false|false|NNP
+Gerson	others	gerson|bruce|on|true|false|false|false|false|true|false|false|false|NNP
+on	others	on|gerson|15-feb-95|false|false|false|false|false|false|false|false|false|IN
+15-Feb-95	others	15-feb-95|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|15-feb-95|15:42|false|false|false|false|false|false|false|false|false|IN
+15:42	others	15:42|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|15:42|andrew.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+andrew.cmu.edu	others	andrew.cmu.edu|from|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+A	others	a|_start_|seminar|false|false|true|true|false|false|false|false|false|NN
+seminar	others	seminar|a|entitl|false|false|false|false|false|false|false|false|false|NN
+entitled	others	entitl|seminar|graft|false|false|false|false|false|false|false|false|false|VBN
+Graft	others	graft|entitl|modif|true|false|false|false|false|false|false|false|false|NNP
+Modification	others	modif|graft|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|modif|polym|false|false|false|false|false|false|false|false|false|IN
+Polymers	others	polym|of|in|true|false|false|false|false|false|false|false|false|NNPS
+in	others	in|polym|twin|false|false|false|false|false|false|false|false|false|IN
+Twin	others	twin|in|screw|true|false|false|false|false|false|false|false|false|NNP
+Screw	others	screw|twin|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Extruders	others	extrud|_start_|will|true|false|false|false|false|false|false|false|false|NNS
+will	others	will|extrud|be|false|false|false|false|false|false|false|false|false|MD
+be	others	be|will|give|false|false|false|false|false|false|false|false|false|VB
+given	others	give|be|at|false|false|false|false|false|false|false|false|false|VBN
+at	others	at|give|10:45|false|false|false|false|false|false|false|false|false|IN
+10:45	stime	10:45|at|a.|false|false|false|false|false|false|false|false|false|CD
+a.	stime	a.|10:45|m|false|false|false|false|false|false|false|false|false|NN
+m	stime	m|a.|tuesdai|false|false|false|false|false|false|false|false|false|NN
+Tuesday	others	tuesdai|m|feb.|true|false|false|false|false|false|false|false|true|NNP
+Feb.	others	feb.|tuesdai|21|false|false|false|false|false|false|false|false|true|NNP
+21	others	21|feb.|in|false|false|false|false|false|false|false|false|true|CD
+in	others	in|21|doherti|false|false|false|false|false|false|false|false|false|IN
+Doherty	location	doherti|in|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Hall	others	hall|_start_|1112|true|false|false|false|false|false|false|false|false|NNP
+1112	others	1112|hall|professor|false|false|false|false|false|false|false|false|true|CD
+Professor	speaker	professor|1112|warren|true|false|false|false|false|true|false|false|false|NNP
+Warren	speaker	warren|professor|baker|true|false|false|false|false|true|false|false|false|NNP
+Baker	speaker	baker|warren|from|true|false|false|false|false|true|false|false|false|NNP
+from	others	from|baker|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|from|depart|false|false|false|false|false|false|false|false|false|DT
+Department	others	depart|the|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|depart|chemistri|false|false|false|false|false|false|false|false|false|IN
+Chemistry	others	chemistri|of|at|true|false|false|false|false|false|false|false|false|NNP
+at	others	at|chemistri|_end_|false|false|false|false|false|false|false|false|false|IN
+
+Queen	others	queen|_start_|'s|true|false|false|false|false|false|false|false|false|NNP
+'s	others	's|queen|univers|false|false|false|false|false|false|false|false|false|POS
+University	others	univers|'s|kingston|true|false|false|false|false|false|false|false|false|NNP
+Kingston	others	kingston|univers|canada|true|false|false|false|false|false|false|false|false|NNP
+Canada	others	canada|kingston|will|true|false|false|false|false|false|false|false|false|NNP
+will	others	will|canada|conduct|false|false|false|false|false|false|false|false|false|MD
+conduct	others	conduct|will|the|false|false|false|false|false|false|false|false|false|VB
+the	others	the|conduct|seminar|false|false|false|false|false|false|false|false|false|DT
+seminar	others	seminar|the|_end_|false|false|false|false|false|false|false|false|false|NN
+

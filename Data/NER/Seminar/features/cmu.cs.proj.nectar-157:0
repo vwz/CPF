@@ -1,0 +1,94 @@
+Type	others	type|_start_|cmu|true|false|false|false|false|false|false|false|false|NN
+cmu	others	cmu|type|c|false|false|false|false|false|false|false|false|false|NN
+cs	others	c|cmu|proj|false|false|false|false|false|false|false|false|false|NNS
+proj	others	proj|c|nectar|false|false|false|false|false|false|false|false|false|NN
+nectar	others	nectar|proj|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Topic	others	topic|_start_|talk|true|false|false|false|false|false|false|false|false|NN
+Talk	others	talk|topic|on|true|false|false|false|false|false|false|false|false|NN
+on	others	on|talk|product|false|false|false|false|false|false|false|false|false|IN
+production	others	product|on|system|false|false|false|false|false|false|false|false|false|NN
+system	others	system|product|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Dates	others	date|_start_|10-dec-90|true|false|false|false|false|false|false|false|false|NNS
+10-Dec-90	others	10-dec-90|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|11:00|true|false|false|false|false|false|false|false|false|NNP
+11:00	stime	11:00|time|am|false|false|false|false|false|false|false|false|false|CD
+AM	stime	am|11:00|_end_|false|true|false|true|false|false|false|false|false|NNP
+
+PostedBy	others	postedbi|_start_|peter|false|false|false|false|true|false|false|false|false|NNP
+peter	others	peter|postedbi|steenkist|false|false|false|false|false|false|false|false|false|NN
+steenkiste	others	steenkist|peter|on|false|false|false|false|false|false|false|false|false|NN
+on	others	on|steenkist|6-dec-90|false|false|false|false|false|false|false|false|false|IN
+6-Dec-90	others	6-dec-90|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|6-dec-90|11:10|false|false|false|false|false|false|false|false|false|IN
+11:10	others	11:10|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|11:10|ius3|false|false|false|false|false|false|false|false|false|IN
+IUS3	others	ius3|from|ius.cs.cmu.edu|false|false|false|false|false|false|false|false|false|NN
+IUS.CS.CMU.EDU	others	ius.cs.cmu.edu|ius3|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+Next	others	next|_start_|mondai|true|false|false|false|false|false|false|false|true|JJ
+Monday	others	mondai|next|-lrb-|true|false|false|false|false|false|false|false|true|NNP
+-LRB-	others	-lrb-|mondai|12\/10|false|false|false|false|false|false|false|false|false|-LRB-
+12\/10	others	12\/10|-lrb-|-rrb-|false|false|false|false|false|false|false|false|false|CD
+-RRB-	others	-rrb-|12\/10|at|false|false|false|false|false|false|false|false|false|-RRB-
+at	others	at|-rrb-|11am|false|false|false|false|false|false|false|false|false|IN
+11am	stime	11am|at|in|false|false|false|false|false|false|false|false|false|JJ
+in	others	in|11am|wh7220|false|false|false|false|false|false|false|false|false|IN
+WH7220	location	wh7220|in|fred|false|false|false|false|false|false|false|false|false|NN
+Fred	speaker	fred|wh7220|christianson|true|false|false|false|false|true|false|false|false|NNP
+Christianson	speaker	christianson|fred|will|true|false|false|false|false|true|false|false|false|NNP
+will	others	will|christianson|talk|false|false|false|false|false|false|false|false|false|MD
+talk	others	talk|will|about|false|false|false|false|false|false|false|false|false|VB
+about	others	about|talk|_end_|false|false|false|false|false|false|false|false|false|IN
+
+some	others	some|_start_|major|false|false|false|false|false|false|false|false|false|DT
+major	others	major|some|chang|false|false|false|false|false|false|false|false|false|JJ
+changes	others	chang|major|that|false|false|false|false|false|false|false|false|false|NNS
+that	others	that|chang|be|false|false|false|false|false|false|false|false|false|WDT
+were	others	be|that|make|false|false|false|false|false|false|false|false|false|VBD
+made	others	make|be|to|false|false|false|false|false|false|false|false|false|VBN
+to	others	to|make|the|false|false|false|false|false|false|false|false|false|TO
+the	others	the|to|nectar|false|false|false|false|false|false|false|false|false|DT
+Nectar	others	nectar|the|softwar|true|false|false|false|false|false|false|false|false|NNP
+software	others	softwar|nectar|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|softwar|how|false|false|false|false|false|false|false|false|false|CC
+how	others	how|and|these|false|false|false|false|false|false|false|false|false|WRB
+these	others	these|how|_end_|false|false|false|false|false|false|false|false|false|DT
+
+changes	others	chang|_start_|influenc|false|false|false|false|false|false|false|false|false|NNS
+influence	others	influenc|chang|how|false|false|false|false|false|false|false|false|false|VBP
+how	others	how|influenc|nectar|false|false|false|false|false|false|false|false|false|WRB
+Nectar	others	nectar|how|be|true|false|false|false|false|false|false|false|false|NNP
+is	others	be|nectar|us|false|false|false|false|false|false|false|false|false|VBZ
+used	others	us|be|by|false|false|false|false|false|false|false|false|false|VBN
+by	others	by|us|applic|false|false|false|false|false|false|false|false|false|IN
+applications	others	applic|by|thi|false|false|false|false|false|false|false|false|false|NNS
+This	others	thi|applic|be|true|false|false|false|false|false|false|false|false|DT
+is	others	be|thi|you|false|false|false|false|false|false|false|false|false|VBZ
+your	others	you|be|chanc|false|false|false|false|false|false|false|false|false|PRP$
+chance	others	chanc|you|_end_|false|false|false|false|false|false|false|false|false|NN
+
+to	others	to|_start_|learn|false|false|false|false|false|false|false|false|false|TO
+learn	others	learn|to|about|false|false|false|false|false|false|false|false|false|VB
+about	others	about|learn|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|about|product|false|false|false|false|false|false|false|false|false|DT
+production	others	product|the|system|false|false|false|false|false|false|false|false|false|NN
+system	others	system|product|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|system|to|false|false|false|false|false|false|false|false|false|CC
+to	others	to|and|make|false|false|false|false|false|false|false|false|false|TO
+make	others	make|to|suggest|false|false|false|false|false|false|false|false|false|VB
+suggestions	others	suggest|make|for|false|false|false|false|false|false|false|false|false|NNS
+for	others	for|suggest|_end_|false|false|false|false|false|false|false|false|false|IN
+
+further	others	further|_start_|improv|false|false|false|false|false|false|false|false|false|RB
+improvements	others	improv|further|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+See	others	see|_start_|you|true|false|false|false|false|false|false|false|false|VB
+you	others	you|see|there|false|false|false|false|false|false|false|false|false|PRP
+there	others	there|you|peter|false|false|false|false|false|false|false|false|false|EX
+Peter	others	peter|there|_end_|true|false|false|false|false|true|false|false|false|NNP
+

@@ -1,0 +1,180 @@
+Type	others	type|_start_|cmu.andrew.org|true|false|false|false|false|false|false|false|false|NN
+cmu.andrew.org	others	cmu.andrew.org|type|heinz|false|false|false|false|false|false|false|false|false|NN
+heinz	others	heinz|cmu.andrew.org|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Topic	others	topic|_start_|grad|true|false|false|false|false|false|false|false|false|NN
+Grad	others	grad|topic|student|true|false|false|false|false|false|false|false|false|NNP
+Student	others	student|grad|seminar|true|false|false|false|false|false|false|false|false|NNP
+Seminar	others	seminar|student|seri|true|false|false|false|false|false|false|false|false|NNP
+Series	others	seri|seminar|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Dates	others	date|_start_|13-oct-93|true|false|false|false|false|false|false|false|false|NNS
+13-Oct-93	others	13-oct-93|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|4:30|true|false|false|false|false|false|false|false|false|NNP
+4:30	stime	4:30|time|_end_|false|false|false|false|false|false|false|false|false|CD
+
+PostedBy	others	postedbi|_start_|edmund|false|false|false|false|true|false|false|false|false|NNP
+Edmund	others	edmund|postedbi|j.|true|false|false|false|false|true|false|false|false|NNP
+J.	others	j.|edmund|delanei|false|false|false|false|false|true|false|false|false|NNP
+Delaney	others	delanei|j.|on|true|false|false|false|false|true|false|false|false|NNP
+on	others	on|delanei|9-sep-93|false|false|false|false|false|false|false|false|false|IN
+9-Sep-93	others	9-sep-93|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|9-sep-93|17:12|false|false|false|false|false|false|false|false|false|IN
+17:12	others	17:12|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|17:12|andrew.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+andrew.cmu.edu	others	andrew.cmu.edu|from|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+The	others	the|_start_|offic|true|false|false|false|false|false|false|false|false|DT
+office	others	offic|the|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|offic|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|of|associ|false|false|false|false|false|false|false|false|false|DT
+Associate	others	associ|the|provost|true|false|false|false|false|false|false|false|false|NNP
+Provost	others	provost|associ|for|true|false|false|false|false|false|false|false|false|NNP
+for	others	for|provost|academ|false|false|false|false|false|false|false|false|false|IN
+Academic	others	academ|for|project|true|false|false|false|false|false|false|false|false|NNP
+Projects	others	project|academ|run|true|false|false|false|false|false|false|false|false|NNPS
+runs	others	run|project|a|false|false|false|false|false|false|false|false|false|VBZ
+a	others	a|run|number|false|false|false|false|false|false|false|false|false|DT
+number	others	number|a|_end_|false|false|false|false|false|false|false|false|false|NN
+
+of	others	of|_start_|special|false|false|false|false|false|false|false|false|false|IN
+special	others	special|of|academ|false|false|false|false|false|false|false|false|false|JJ
+academic	others	academ|special|develop|false|false|false|false|false|false|false|false|false|JJ
+development	others	develop|academ|support|false|false|false|false|false|false|false|false|false|NN
+support	others	support|develop|program|false|false|false|false|false|false|false|false|false|NN
+programs	others	program|support|for|false|false|false|false|false|false|false|false|false|NNS
+for	others	for|program|graduat|false|false|false|false|false|false|false|false|false|IN
+graduate	others	graduat|for|student|false|false|false|false|false|false|false|false|false|JJ
+students	others	student|graduat|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+which	others	which|_start_|compliment|false|false|false|false|false|false|false|false|false|WDT
+compliment	others	compliment|which|the|false|false|false|false|false|false|false|false|false|NN
+the	others	the|compliment|depart|false|false|false|false|false|false|false|false|false|DT
+departments	others	depart|the|and|false|false|false|false|false|false|false|false|false|NNS
+and	others	and|depart|graduat|false|false|false|false|false|false|false|false|false|CC
+graduate	others	graduat|and|student|false|false|false|false|false|false|false|false|false|JJ
+student	others	student|graduat|organ|false|false|false|false|false|false|false|false|false|NN
+organizations	others	organ|student|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+programs	others	program|_start_|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+Graduate	others	graduat|_start_|student|true|false|false|false|false|false|false|false|false|NNP
+Student	others	student|graduat|seminar|true|false|false|false|false|false|false|false|false|NNP
+Seminar	others	seminar|student|seri|true|false|false|false|false|false|false|false|false|NNP
+Series	others	seri|seminar|a|true|false|false|false|false|false|false|false|false|NNP
+A	others	a|seri|seri|false|false|true|true|false|false|false|false|false|DT
+series	others	seri|a|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|seri|luncheon|false|false|false|false|false|false|false|false|false|IN
+luncheon	others	luncheon|of|talk|false|false|false|false|false|false|false|false|false|NN
+talks	others	talk|luncheon|by|false|false|false|false|false|false|false|false|false|NNS
+by	others	by|talk|graduat|false|false|false|false|false|false|false|false|false|IN
+graduate	others	graduat|by|_end_|false|false|false|false|false|false|false|false|false|NN
+
+students	others	student|_start_|and|false|false|false|false|false|false|false|false|false|NNS
+and	others	and|student|faculti|false|false|false|false|false|false|false|false|false|CC
+faculty	others	faculti|and|on|false|false|false|false|false|false|false|false|false|NN
+on	others	on|faculti|common|false|false|false|false|false|false|false|false|false|IN
+common	others	common|on|issu|false|false|false|false|false|false|false|false|false|JJ
+issues	others	issu|common|effect|false|false|false|false|false|false|false|false|false|NNS
+effecting	others	effect|issu|graduat|false|false|false|false|false|false|false|false|false|VBG
+graduate	others	graduat|effect|student|false|false|false|false|false|false|false|false|false|JJ
+students	others	student|graduat|to|false|false|false|false|false|false|false|false|false|NNS
+To	others	to|student|_end_|true|false|false|false|false|false|false|false|false|TO
+
+register	others	regist|_start_|for|false|false|false|false|false|false|false|false|false|NN
+for	others	for|regist|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|for|gsss|false|false|false|false|false|false|false|false|false|DT
+GSSS	others	gsss|the|contact|false|true|false|true|false|false|false|false|false|NN
+contact	others	contact|gsss|kathleen|false|false|false|false|false|false|false|false|false|NN
+Kathleen	others	kathleen|contact|minadeo|true|false|false|false|false|true|false|false|false|NNP
+Minadeo	others	minadeo|kathleen|johnson|true|false|false|false|false|true|false|false|false|NNP
+Johnson	others	johnson|minadeo|x8-7970|true|false|false|false|false|true|false|false|false|NNP
+x8-7970	others	x8-7970|johnson|or|false|false|false|false|false|false|false|false|false|NN
+or	others	or|x8-7970|_end_|false|false|false|false|false|false|false|false|false|CC
+
+kj26@andrew	others	kj26@andrew|_start_|_end_|false|false|false|false|false|false|false|false|false|NN
+
+October	others	octob|_start_|13|true|false|false|false|false|false|false|false|true|NNP
+13	others	13|octob|louis|false|false|false|false|false|false|false|false|true|CD
+Louise	speaker	louis|13|fitzgerald|true|false|false|false|false|true|false|false|false|NNP
+Fitzgerald	speaker	fitzgerald|louis|associ|true|false|false|false|false|true|false|false|false|NNP
+Associate	others	associ|fitzgerald|professor|true|false|false|false|false|false|false|false|false|NNP
+Professor	others	professor|associ|univers|true|false|false|false|false|true|false|false|false|NNP
+University	others	univers|professor|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|univers|_end_|false|false|false|false|false|false|false|false|false|IN
+
+Illinois	others	illinoi|_start_|at|true|false|false|false|false|false|false|false|false|NNP
+at	others	at|illinoi|urbana-champaign|false|false|false|false|false|false|false|false|false|IN
+Urbana-Champaign	others	urbana-champaign|at|the|false|false|false|false|false|false|false|false|false|NNP
+The	others	the|urbana-champaign|last|true|false|false|false|false|false|false|false|false|DT
+Last	others	last|the|great|true|false|false|false|false|false|false|false|false|JJ
+Great	others	great|last|open|true|false|false|false|false|false|false|false|false|JJ
+Open	others	open|great|secret|true|false|false|false|false|false|false|false|false|NNP
+Secret	others	secret|open|sexual|true|false|false|false|false|false|false|false|false|NNP
+Sexual	others	sexual|secret|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Harassment	others	harass|_start_|in|true|false|false|false|false|false|false|false|false|NN
+in	others	in|harass|univers|false|false|false|false|false|false|false|false|false|IN
+Universities	others	univers|in|scaif|true|false|false|false|false|false|false|false|false|NNS
+Scaife	location	scaif|univers|hall|true|false|false|false|false|false|false|false|false|NNP
+Hall	location	hall|scaif|auditorium|true|false|false|false|false|false|false|false|false|NNP
+Auditorium	location	auditorium|hall|4:30|true|false|false|false|false|false|false|false|false|NNP
+4:30	stime	4:30|auditorium|_end_|false|false|false|false|false|false|false|false|false|CD
+
+Women	others	women|_start_|'s|true|false|false|false|false|false|false|false|false|NNP
+'s	others	's|women|speaker|false|false|false|false|false|false|false|false|false|POS
+Speaker	others	speaker|'s|seri|true|false|false|false|false|false|false|false|false|NNP
+Series	others	seri|speaker|thi|true|false|false|false|false|false|false|false|false|NNP
+This	others	thi|seri|year|true|false|false|false|false|false|false|false|true|DT
+year	others	year|thi|a|false|false|false|false|false|false|false|false|true|NN
+a	others	a|year|women|false|false|false|false|false|false|false|false|false|DT
+Women	others	women|a|'s|true|false|false|false|false|false|false|false|false|NNP
+'s	others	's|women|speaker|false|false|false|false|false|false|false|false|false|POS
+Speaker	others	speaker|'s|seri|true|false|false|false|false|false|false|false|false|NNP
+Series	others	seri|speaker|will|true|false|false|false|false|false|false|false|false|NNP
+will	others	will|seri|be|false|false|false|false|false|false|false|false|false|MD
+be	others	be|will|_end_|false|false|false|false|false|false|false|false|false|VB
+
+co-sponsored	others	co-sponsor|_start_|by|false|false|false|false|false|false|false|false|false|VBN
+by	others	by|co-sponsor|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|by|associ|false|false|false|false|false|false|false|false|false|DT
+Associate	others	associ|the|provost|true|false|false|false|false|false|false|false|false|NNP
+Provost	others	provost|associ|for|true|false|false|false|false|false|false|false|false|NNP
+for	others	for|provost|academ|false|false|false|false|false|false|false|false|false|IN
+Academic	others	academ|for|project|true|false|false|false|false|false|false|false|false|NNP
+Projects	others	project|academ|and|true|false|false|false|false|false|false|false|false|NNPS
+and	others	and|project|the|false|false|false|false|false|false|false|false|false|CC
+the	others	the|and|dean|false|false|false|false|false|false|false|false|false|DT
+Dean	others	dean|the|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+of	others	of|_start_|graduat|false|false|false|false|false|false|false|false|false|IN
+Graduate	others	graduat|of|studi|true|false|false|false|false|false|false|false|false|NN
+Studies	others	studi|graduat|for|true|false|false|false|false|false|false|false|false|NNS
+for	others	for|studi|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|for|faculti|false|false|false|false|false|false|false|false|false|DT
+Faculty	others	faculti|the|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|faculti|art|false|false|false|false|false|false|false|false|false|IN
+Arts	others	art|of|and|true|false|false|false|false|false|false|false|false|NNS
+and	others	and|art|scienc|false|false|false|false|false|false|false|false|false|CC
+Sciences	others	scienc|and|at|true|false|false|false|false|false|false|false|false|NNPS
+at	others	at|scienc|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|at|_end_|false|false|false|false|false|false|false|false|false|DT
+
+University	others	univers|_start_|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|univers|pittsburgh|false|false|false|false|false|false|false|false|false|IN
+Pittsburgh	others	pittsburgh|of|for|true|false|false|false|false|false|false|false|false|NNP
+For	others	for|pittsburgh|further|true|false|false|false|false|false|false|false|false|IN
+further	others	further|for|inform|false|false|false|false|false|false|false|false|false|JJ
+information	others	inform|further|contact|false|false|false|false|false|false|false|false|false|NN
+contact	others	contact|inform|kathleen|false|false|false|false|false|false|false|false|false|NN
+Kathleen	others	kathleen|contact|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+Minadeo	others	minadeo|_start_|johnson|true|false|false|false|false|true|false|false|false|NNP
+Johnson	others	johnson|minadeo|x8-7970|true|false|false|false|false|true|false|false|false|NNP
+x8-7970	others	x8-7970|johnson|or|false|false|false|false|false|false|false|false|false|NN
+or	others	or|x8-7970|kj26@andrew|false|false|false|false|false|false|false|false|false|CC
+kj26@andrew	others	kj26@andrew|or|_end_|false|false|false|false|false|false|false|false|false|NN
+

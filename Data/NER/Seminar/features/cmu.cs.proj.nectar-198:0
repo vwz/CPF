@@ -1,0 +1,141 @@
+Type	others	type|_start_|cmu|true|false|false|false|false|false|false|false|false|NN
+cmu	others	cmu|type|c|false|false|false|false|false|false|false|false|false|NN
+cs	others	c|cmu|proj|false|false|false|false|false|false|false|false|false|NNS
+proj	others	proj|c|nectar|false|false|false|false|false|false|false|false|false|NN
+nectar	others	nectar|proj|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Topic	others	topic|_start_|itc|true|false|false|false|false|false|false|false|false|NN
+ITC	others	itc|topic|seminar|false|true|false|true|false|false|false|false|false|NNP
+Seminar	others	seminar|itc|on|true|false|false|false|false|false|false|false|false|NNP
+on	others	on|seminar|mon.|false|false|false|false|false|false|false|false|false|IN
+Mon.	others	mon.|on|4\/22|false|false|false|false|false|false|false|false|false|NNP
+4\/22	others	4\/22|mon.|_end_|false|false|false|false|false|false|false|false|false|CD
+
+Dates	others	date|_start_|22-apr-91|true|false|false|false|false|false|false|false|false|NNS
+22-Apr-91	others	22-apr-91|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|11:00|true|false|false|false|false|false|false|false|false|NNP
+11:00	stime	11:00|time|am|false|false|false|false|false|false|false|false|false|CD
+AM	stime	am|11:00|_end_|false|true|false|true|false|false|false|false|false|NNP
+
+PostedBy	others	postedbi|_start_|i-chen|false|false|false|false|true|false|false|false|false|NNP
+I-Chen	others	i-chen|postedbi|wu|false|false|false|false|false|false|false|false|false|NN
+Wu	others	wu|i-chen|on|true|false|false|false|false|true|false|false|false|NNP
+on	others	on|wu|21-apr-91|false|false|false|false|false|false|false|false|false|IN
+21-Apr-91	others	21-apr-91|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|21-apr-91|20:01|false|false|false|false|false|false|false|false|false|IN
+20:01	others	20:01|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|20:01|sam.cs.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+SAM.CS.CMU.EDU	others	sam.cs.cmu.edu|from|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+Monday	others	mondai|_start_|april|true|false|false|false|false|false|false|false|true|NNP
+April	others	april|mondai|22nd|true|false|false|false|false|false|false|false|true|NNP
+22nd	others	22nd|april|at|false|false|false|false|false|false|false|false|true|CD
+at	others	at|22nd|11:00|false|false|false|false|false|false|false|false|false|IN
+11:00	stime	11:00|at|am|false|false|false|false|false|false|false|false|false|CD
+AM	stime	am|11:00|in|false|true|false|true|false|false|false|false|false|NNP
+in	others	in|am|itc|false|false|false|false|false|false|false|false|false|IN
+ITC	location	itc|in|lectur|false|true|false|true|false|false|false|false|false|NNP
+Lecture	location	lectur|itc|room|true|false|false|false|false|false|false|false|false|NNP
+Room	location	room|lectur|-lrb-|true|false|false|false|false|false|false|false|false|NNP
+-LRB-	location	-lrb-|room|rm|false|false|false|false|false|false|false|false|false|-LRB-
+Rm	location	rm|-lrb-|279|true|false|false|false|false|false|false|false|false|NN
+279	location	279|rm|-rrb-|false|false|false|false|false|false|false|false|false|CD
+-RRB-	location	-rrb-|279|ucc|false|false|false|false|false|false|false|false|false|-RRB-
+UCC	location	ucc|-rrb-|_end_|false|true|false|true|false|false|false|false|false|NN
+
+Fast	others	fast|_start_|and|true|false|false|false|false|false|false|false|false|JJ
+and	others	and|fast|flexibl|false|false|false|false|false|false|false|false|false|CC
+Flexible	others	flexibl|and|switch|true|false|false|false|false|false|false|false|false|JJ
+Switches	others	switch|flexibl|for|true|false|false|false|false|false|false|false|false|NNS
+for	others	for|switch|gigabit|false|false|false|false|false|false|false|false|false|IN
+Gigabit	others	gigabit|for|lan|true|false|false|false|false|false|false|false|false|NNP
+LANs	others	lan|gigabit|from|false|false|false|false|false|false|false|false|false|NNP
+From	others	from|lan|the|true|false|false|false|false|false|false|false|false|IN
+the	others	the|from|first|false|false|false|false|false|false|false|false|false|DT
+First	others	first|the|principl|true|false|false|false|false|false|false|false|false|NNP
+Principles	others	principl|first|_end_|true|false|false|false|false|false|false|false|false|NNS
+
+School	others	school|_start_|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|school|comput|false|false|false|false|false|false|false|false|false|IN
+Computer	others	comput|of|scienc|true|false|false|false|false|false|false|false|false|NNP
+Science	others	scienc|comput|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Carnegie	others	carnegi|_start_|mellon|true|false|false|false|false|false|false|false|false|NNP
+Mellon	others	mellon|carnegi|univers|true|false|false|false|false|false|false|false|false|NNP
+University	others	univers|mellon|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Very	others	veri|_start_|high-spe|true|false|false|false|false|false|false|false|false|RB
+high-speed	others	high-spe|veri|lan|false|false|false|false|false|false|false|false|false|JJ
+LANs	others	lan|high-spe|oper|false|false|false|false|false|false|false|false|false|NNS
+operating	others	oper|lan|at|false|false|false|false|false|false|false|false|false|VBG
+at	others	at|oper|gigabit|false|false|false|false|false|false|false|false|false|IN
+gigabits	others	gigabit|at|per|false|false|false|false|false|false|false|false|false|NNS
+per	others	per|gigabit|second|false|false|false|false|false|false|false|false|false|IN
+second	others	second|per|rate|false|false|false|false|false|false|false|false|false|JJ
+rates	others	rate|second|will|false|false|false|false|false|false|false|false|false|NNS
+will	others	will|rate|like|false|false|false|false|false|false|false|false|false|MD
+likely	others	like|will|us|false|false|false|false|false|false|false|false|false|RB
+use	others	us|like|_end_|false|false|false|false|false|false|false|false|false|VB
+
+switches	others	switch|_start_|instead|false|false|false|false|false|false|false|false|false|NNS
+instead	others	instead|switch|of|false|false|false|false|false|false|false|false|false|RB
+of	others	of|instead|share|false|false|false|false|false|false|false|false|false|IN
+shared	others	share|of|media|false|false|false|false|false|false|false|false|false|VBN
+media	others	media|share|design|false|false|false|false|false|false|false|false|false|NNS
+Designing	others	design|media|such|true|false|false|false|false|false|false|false|false|NNP
+such	others	such|design|switch|false|false|false|false|false|false|false|false|false|JJ
+switches	others	switch|such|requir|false|false|false|false|false|false|false|false|false|NNS
+require	others	requir|switch|care|false|false|false|false|false|false|false|false|false|VBP
+careful	others	care|requir|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+considerations	others	consider|_start_|in|false|false|false|false|false|false|false|false|false|NNS
+in	others	in|consider|connect|false|false|false|false|false|false|false|false|false|IN
+connection	others	connect|in|setup|false|false|false|false|false|false|false|false|false|NN
+setup	others	setup|connect|flow|false|false|false|false|false|false|false|false|false|NN
+flow	others	flow|setup|control|false|false|false|false|false|false|false|false|false|NN
+control	others	control|flow|virtual|false|false|false|false|false|false|false|false|false|NN
+virtual	others	virtual|control|connect|false|false|false|false|false|false|false|false|false|JJ
+connection	others	connect|virtual|_end_|false|false|false|false|false|false|false|false|false|NN
+
+interface	others	interfac|_start_|to|false|false|false|false|false|false|false|false|false|NN
+to	others	to|interfac|telecommun|false|false|false|false|false|false|false|false|false|TO
+telecommunication	others	telecommun|to|network|false|false|false|false|false|false|false|false|false|NN
+networks	others	network|telecommun|etc|false|false|false|false|false|false|false|false|false|NNS
+etc	others	etc|network|start|false|false|false|false|false|false|false|false|false|FW
+Starting	others	start|etc|from|true|false|false|false|false|false|false|false|false|VBG
+from	others	from|start|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|from|first|false|false|false|false|false|false|false|false|false|DT
+first	others	first|the|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+principles	others	principl|_start_|thi|false|false|false|false|false|false|false|false|false|NNS
+this	others	thi|principl|talk|false|false|false|false|false|false|false|false|false|DT
+talk	others	talk|thi|will|false|false|false|false|false|false|false|false|false|NN
+will	others	will|talk|address|false|false|false|false|false|false|false|false|false|MD
+address	others	address|will|mani|false|false|false|false|false|false|false|false|false|VB
+many	others	mani|address|of|false|false|false|false|false|false|false|false|false|JJ
+of	others	of|mani|these|false|false|false|false|false|false|false|false|false|IN
+these	others	these|of|issu|false|false|false|false|false|false|false|false|false|DT
+issues	others	issu|these|a|false|false|false|false|false|false|false|false|false|NNS
+An	others	a|issu|ideal|true|false|false|false|false|false|false|false|false|DT
+ideal	others	ideal|a|switch|false|false|false|false|false|false|false|false|false|JJ
+switch	others	switch|ideal|_end_|false|false|false|false|false|false|false|false|false|NN
+
+architecture	others	architectur|_start_|will|false|false|false|false|false|false|false|false|false|NN
+will	others	will|architectur|be|false|false|false|false|false|false|false|false|false|MD
+be	others	be|will|propos|false|false|false|false|false|false|false|false|false|VB
+proposed	others	propos|be|base|false|false|false|false|false|false|false|false|false|VBN
+based	others	base|propos|on|false|false|false|false|false|false|false|false|false|VBN
+on	others	on|base|experi|false|false|false|false|false|false|false|false|false|IN
+experiences	others	experi|on|from|false|false|false|false|false|false|false|false|false|NNS
+from	others	from|experi|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|from|nectar|false|false|false|false|false|false|false|false|false|DT
+Nectar	others	nectar|the|project|true|false|false|false|false|false|false|false|false|NNP
+project	others	project|nectar|_end_|false|false|false|false|false|false|false|false|false|NN
+
+and	others	and|_start_|relat|false|false|false|false|false|false|false|false|false|CC
+related	others	relat|and|work|false|false|false|false|false|false|false|false|false|JJ
+work	others	work|relat|_end_|false|false|false|false|false|false|false|false|false|NN
+

@@ -1,0 +1,111 @@
+Type	others	type|_start_|cmu|true|false|false|false|false|false|false|false|false|NN
+cmu	others	cmu|type|c|false|false|false|false|false|false|false|false|false|NN
+cs	others	c|cmu|robot|false|false|false|false|false|false|false|false|false|NNS
+robotics	others	robot|c|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+Who	others	who|_start_|ramesh|true|false|false|false|false|false|false|false|false|WP
+Ramesh	speaker	ramesh|who|bollapragada|true|false|false|false|false|true|false|false|false|NNP
+Bollapragada	speaker	bollapragada|ramesh|graduat|true|false|false|false|false|true|false|false|false|NNP
+Graduate	others	graduat|bollapragada|student|true|false|false|false|false|false|false|false|false|NNP
+student	others	student|graduat|gsia\/robot|false|false|false|false|false|false|false|false|false|NN
+GSIA\/Robotics	others	gsia\/robot|student|program|false|false|false|false|false|false|false|false|false|NNP
+Program	others	program|gsia\/robot|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Topic	others	topic|_start_|a|true|false|false|false|false|false|false|false|false|NN
+AN	others	a|topic|asynchron|false|true|false|true|false|false|false|false|false|DT
+ASYNCHRONOUS	others	asynchron|a|team|false|true|false|true|false|false|false|false|false|NNP
+TEAM	others	team|asynchron|solut|false|true|false|true|false|false|false|false|false|NNP
+SOLUTION	others	solut|team|to|false|true|false|true|false|false|false|false|false|NNP
+TO	others	to|solut|schedul|false|true|false|true|false|false|false|false|false|TO
+SCHEDULING	others	schedul|to|steel|false|true|false|true|false|false|false|false|false|NNP
+STEEL	others	steel|schedul|plant|false|true|false|true|false|false|false|false|false|NNP
+PLANTS	others	plant|steel|_end_|false|true|false|true|false|false|false|false|false|NNS
+
+IN	others	in|_start_|direct|false|true|false|true|false|false|false|false|false|IN
+DIRECT	others	direct|in|hot|false|true|false|true|false|false|false|false|false|NNP
+HOT	others	hot|direct|charg|false|true|false|true|false|false|false|false|false|NNP
+CHARGE	others	charg|hot|mode|false|true|false|true|false|false|false|false|false|NNP
+MODE	others	mode|charg|_end_|false|true|false|true|false|false|false|false|false|NN
+
+Dates	others	date|_start_|7-oct-94|true|false|false|false|false|false|false|false|false|NNS
+7-Oct-94	others	7-oct-94|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|1:00|true|false|false|false|false|false|false|false|false|NNP
+1:00	stime	1:00|time|pm|false|false|false|false|false|false|false|false|false|CD
+PM	stime	pm|1:00|_end_|false|true|false|true|false|false|false|false|false|NN
+
+Place	others	place|_start_|4623|true|false|false|false|false|false|false|false|false|NN
+4623	location	4623|place|wean|false|false|false|false|false|false|false|false|false|CD
+WEAN	location	wean|4623|hall|false|true|false|true|false|false|false|false|false|NNP
+HALL	location	hall|wean|_end_|false|true|false|true|false|false|false|false|false|NN
+
+Host	others	host|_start_|norman|true|false|false|false|false|false|false|false|false|NN
+Norman	others	norman|host|sadeh|true|false|false|false|false|true|false|false|false|NNP
+Sadeh	others	sadeh|norman|cimd|true|false|false|false|false|true|false|false|false|NNP
+CIMDS	others	cimd|sadeh|robot|false|true|false|true|false|false|false|false|false|NNP
+Robotics	others	robot|cimd|institut|true|false|false|false|false|false|false|false|false|NNP
+Institute	others	institut|robot|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+PostedBy	others	postedbi|_start_|maa|false|false|false|false|true|false|false|false|false|NNP
+maa	others	maa|postedbi|on|false|false|false|false|false|false|false|false|false|NN
+on	others	on|maa|6-oct-94|false|false|false|false|false|false|false|false|false|IN
+6-Oct-94	others	6-oct-94|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|6-oct-94|16:54|false|false|false|false|false|false|false|false|false|IN
+16:54	others	16:54|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|16:54|isl1|false|false|false|false|false|false|false|false|false|IN
+ISL1	others	isl1|from|ri.cmu.edu|false|false|false|false|false|false|false|false|false|NN
+RI.CMU.EDU	others	ri.cmu.edu|isl1|-lrb-|false|false|false|false|false|false|false|false|false|NN
+-LRB-	others	-lrb-|ri.cmu.edu|michel|false|false|false|false|false|false|false|false|false|-LRB-
+Michelle	others	michel|-lrb-|agi|true|false|false|false|false|false|false|false|false|NNP
+Agie	others	agi|michel|-rrb-|true|false|false|false|false|false|false|false|false|NNP
+-RRB-	others	-rrb-|agi|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+CIMDS	others	cimd|_start_|seminar|false|true|false|true|false|false|false|false|false|NN
+SEMINAR	others	seminar|cimd|_end_|false|true|false|true|false|false|false|false|false|NN
+
+WHO	others	who|_start_|ramesh|false|true|false|true|false|false|false|false|false|WP
+Ramesh	speaker	ramesh|who|bollapragada|true|false|false|false|false|true|false|false|false|NNP
+Bollapragada	speaker	bollapragada|ramesh|graduat|true|false|false|false|false|true|false|false|false|NNP
+Graduate	others	graduat|bollapragada|student|true|false|false|false|false|false|false|false|false|NNP
+student	others	student|graduat|gsia\/robot|false|false|false|false|false|false|false|false|false|NN
+GSIA\/Robotics	others	gsia\/robot|student|program|false|false|false|false|false|false|false|false|false|NNP
+Program	others	program|gsia\/robot|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+WHERE	others	where|_start_|4623|false|true|false|true|false|false|false|false|false|NN
+4623	location	4623|where|wean|false|false|false|false|false|false|false|false|false|CD
+WEAN	location	wean|4623|hall|false|true|false|true|false|false|false|false|false|NNP
+HALL	location	hall|wean|_end_|false|true|false|true|false|false|false|false|false|NN
+
+WHEN	others	when|_start_|fridai|false|true|false|true|false|false|false|false|false|WRB
+Friday	others	fridai|when|oct|true|false|false|false|false|false|false|false|true|NNP
+Oct	others	oct|fridai|7|true|false|false|false|false|false|false|false|true|NNP
+7	others	7|oct|at|false|false|false|false|false|false|false|false|true|CD
+at	others	at|7|1pm|false|false|false|false|false|false|false|false|false|IN
+1pm	stime	1pm|at|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+TITLE	others	titl|_start_|a|false|true|false|true|false|false|false|false|false|NN
+AN	others	a|titl|asynchron|false|true|false|true|false|false|false|false|false|DT
+ASYNCHRONOUS	others	asynchron|a|team|false|true|false|true|false|false|false|false|false|NNP
+TEAM	others	team|asynchron|solut|false|true|false|true|false|false|false|false|false|NNP
+SOLUTION	others	solut|team|to|false|true|false|true|false|false|false|false|false|NNP
+TO	others	to|solut|schedul|false|true|false|true|false|false|false|false|false|TO
+SCHEDULING	others	schedul|to|steel|false|true|false|true|false|false|false|false|false|NNP
+STEEL	others	steel|schedul|plant|false|true|false|true|false|false|false|false|false|NNP
+PLANTS	others	plant|steel|_end_|false|true|false|true|false|false|false|false|false|NNS
+
+IN	others	in|_start_|direct|false|true|false|true|false|false|false|false|false|IN
+DIRECT	others	direct|in|hot|false|true|false|true|false|false|false|false|false|NNP
+HOT	others	hot|direct|charg|false|true|false|true|false|false|false|false|false|NNP
+CHARGE	others	charg|hot|mode|false|true|false|true|false|false|false|false|false|NNP
+MODE	others	mode|charg|_end_|false|true|false|true|false|false|false|false|false|NN
+
+HOST	others	host|_start_|norman|false|true|false|true|false|false|false|false|false|NN
+Norman	others	norman|host|sadeh|true|false|false|false|false|true|false|false|false|NNP
+Sadeh	others	sadeh|norman|cimd|true|false|false|false|false|true|false|false|false|NNP
+CIMDS	others	cimd|sadeh|robot|false|true|false|true|false|false|false|false|false|NNP
+Robotics	others	robot|cimd|institut|true|false|false|false|false|false|false|false|false|NNP
+Institute	others	institut|robot|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+

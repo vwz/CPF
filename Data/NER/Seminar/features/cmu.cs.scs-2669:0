@@ -1,0 +1,392 @@
+Type	others	type|_start_|ai|true|false|false|false|false|false|false|false|false|NN
+AI	others	ai|type|seminar|false|true|false|true|false|false|false|false|false|NNP
+Seminar	others	seminar|ai|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Who	others	who|_start_|eugen|true|false|false|false|false|false|false|false|false|WP
+Eugene	speaker	eugen|who|charniak|true|false|false|false|false|true|false|false|false|NNP
+Charniak	speaker	charniak|eugen|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+Topic	others	topic|_start_|improv|true|false|false|false|false|false|false|false|false|NN
+Improved	others	improv|topic|statist|true|false|false|false|false|false|false|false|false|VBN
+Statistical	others	statist|improv|languag|true|false|false|false|false|false|false|false|false|JJ
+Language	others	languag|statist|model|true|false|false|false|false|false|false|false|false|NN
+Models	others	model|languag|from|true|false|false|false|false|false|false|false|false|NNS
+from	others	from|model|syntact|false|false|false|false|false|false|false|false|false|IN
+Syntactic	others	syntact|from|pars|true|false|false|false|false|false|false|false|false|NNP
+Parsing	others	pars|syntact|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Dates	others	date|_start_|22-feb-94|true|false|false|false|false|false|false|false|false|NNS
+22-Feb-94	others	22-feb-94|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|3:30|true|false|false|false|false|false|false|false|false|NNP
+3:30	stime	3:30|time|pm|false|false|false|false|false|false|false|false|false|CD
+PM	stime	pm|3:30|_end_|false|true|false|true|false|false|false|false|false|NN
+
+Place	others	place|_start_|5409|true|false|false|false|false|false|false|false|false|NN
+5409	location	5409|place|wean|false|false|false|false|false|false|false|false|true|CD
+Wean	location	wean|5409|hall|true|false|false|false|false|false|false|false|false|NNP
+Hall	location	hall|wean|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Host	others	host|_start_|danni|true|false|false|false|false|false|false|false|false|NN
+Danny	others	danni|host|sleator|true|false|false|false|false|true|false|false|false|NNP
+Sleator	others	sleator|danni|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+PostedBy	others	postedbi|_start_|plp|false|false|false|false|true|false|false|false|false|NNP
+plp	others	plp|postedbi|on|false|false|false|false|false|false|false|false|false|NN
+on	others	on|plp|18-feb-94|false|false|false|false|false|false|false|false|false|IN
+18-Feb-94	others	18-feb-94|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|18-feb-94|16:54|false|false|false|false|false|false|false|false|false|IN
+16:54	others	16:54|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|16:54|phyllis.adm.cs.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+PHYLLIS.ADM.CS.CMU.EDU	others	phyllis.adm.cs.cmu.edu|from|-lrb-|false|false|false|false|false|false|false|false|false|NN
+-LRB-	others	-lrb-|phyllis.adm.cs.cmu.edu|phylli|false|false|false|false|false|false|false|false|false|-LRB-
+Phyllis	others	phylli|-lrb-|pomerantz|true|false|false|false|false|true|false|false|false|NNP
+Pomerantz	others	pomerantz|phylli|-rrb-|true|false|false|false|false|true|false|false|false|NNP
+-RRB-	others	-rrb-|pomerantz|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+Type	others	type|_start_|ai|true|false|false|false|false|false|false|false|false|NN
+AI	others	ai|type|seminar|false|true|false|true|false|false|false|false|false|NNP
+Seminar	others	seminar|ai|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Who	others	who|_start_|eugen|true|false|false|false|false|false|false|false|false|WP
+Eugene	speaker	eugen|who|charniak|true|false|false|false|false|true|false|false|false|NNP
+Charniak	speaker	charniak|eugen|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+Topic	others	topic|_start_|improv|true|false|false|false|false|false|false|false|false|NN
+Improved	others	improv|topic|statist|true|false|false|false|false|false|false|false|false|VBN
+Statistical	others	statist|improv|languag|true|false|false|false|false|false|false|false|false|JJ
+Language	others	languag|statist|model|true|false|false|false|false|false|false|false|false|NN
+Models	others	model|languag|from|true|false|false|false|false|false|false|false|false|NNS
+from	others	from|model|syntact|false|false|false|false|false|false|false|false|false|IN
+Syntactic	others	syntact|from|pars|true|false|false|false|false|false|false|false|false|NNP
+Parsing	others	pars|syntact|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Dates	others	date|_start_|22-feb-94|true|false|false|false|false|false|false|false|false|NNS
+22-Feb-94	others	22-feb-94|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|3:30|true|false|false|false|false|false|false|false|false|NNP
+3:30	stime	3:30|time|p.|false|false|false|false|false|false|false|false|false|CD
+p.	stime	p.|3:30|m|false|false|false|false|false|false|false|false|false|NN
+m	stime	m|p.|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Place	others	place|_start_|5409|true|false|false|false|false|false|false|false|false|NN
+5409	location	5409|place|wean|false|false|false|false|false|false|false|false|true|CD
+Wean	location	wean|5409|hall|true|false|false|false|false|false|false|false|false|NNP
+Hall	location	hall|wean|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Host	others	host|_start_|danni|true|false|false|false|false|false|false|false|false|NN
+Danny	others	danni|host|sleator|true|false|false|false|false|true|false|false|false|NNP
+Sleator	others	sleator|danni|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+Improved	others	improv|_start_|statist|true|false|false|false|false|false|false|false|false|VBN
+Statistical	others	statist|improv|languag|true|false|false|false|false|false|false|false|false|JJ
+Language	others	languag|statist|model|true|false|false|false|false|false|false|false|false|NN
+Models	others	model|languag|from|true|false|false|false|false|false|false|false|false|NNS
+from	others	from|model|syntact|false|false|false|false|false|false|false|false|false|IN
+Syntactic	others	syntact|from|pars|true|false|false|false|false|false|false|false|false|NNP
+Parsing	others	pars|syntact|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Brown	others	brown|_start_|univers|true|false|false|false|false|false|false|false|false|NNP
+University	others	univers|brown|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+A	others	a|_start_|statist|false|false|true|true|false|false|false|false|false|NN
+statistical	others	statist|a|languag|false|false|false|false|false|false|false|false|false|JJ
+language	others	languag|statist|model|false|false|false|false|false|false|false|false|false|NN
+model	others	model|languag|assign|false|false|false|false|false|false|false|false|false|NN
+assigns	others	assign|model|a|false|false|false|false|false|false|false|false|false|VBZ
+a	others	a|assign|probabl|false|false|false|false|false|false|false|false|false|DT
+probability	others	probabl|a|to|false|false|false|false|false|false|false|false|false|NN
+to	others	to|probabl|everi|false|false|false|false|false|false|false|false|false|TO
+every	others	everi|to|sequenc|false|false|false|false|false|false|false|false|false|DT
+sequence	others	sequenc|everi|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|sequenc|_end_|false|false|false|false|false|false|false|false|false|IN
+
+words	others	word|_start_|such|false|false|false|false|false|false|false|false|false|NNS
+such	others	such|word|that|false|false|false|false|false|false|false|false|false|JJ
+that	others	that|such|common|false|false|false|false|false|false|false|false|false|IN
+common	others	common|that|sequenc|false|false|false|false|false|false|false|false|false|JJ
+sequences	others	sequenc|common|in|false|false|false|false|false|false|false|false|false|NNS
+in	others	in|sequenc|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|in|languag|false|false|false|false|false|false|false|false|false|DT
+language	others	languag|the|-lrb-|false|false|false|false|false|false|false|false|false|NN
+-LRB-	others	-lrb-|languag|i|false|false|false|false|false|false|false|false|false|-LRB-
+I	others	i|-lrb-|have|false|false|true|true|false|false|false|false|false|PRP
+have	others	have|i|a|false|false|false|false|false|false|false|false|false|VBP
+a	others	a|have|headach|false|false|false|false|false|false|false|false|false|DT
+headache	others	headach|a|-rrb-|false|false|false|false|false|false|false|false|false|NN
+-RRB-	others	-rrb-|headach|have|false|false|false|false|false|false|false|false|false|-RRB-
+have	others	have|-rrb-|_end_|false|false|false|false|false|false|false|false|false|VBP
+
+high	others	high|_start_|probabl|false|false|false|false|false|false|false|false|false|JJ
+probability	others	probabl|high|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|probabl|uncommon|false|false|false|false|false|false|false|false|false|CC
+uncommon	others	uncommon|and|on|false|false|false|false|false|false|false|false|false|JJ
+ones	others	on|uncommon|-lrb-|false|false|false|false|false|false|false|false|false|NNS
+-LRB-	others	-lrb-|on|headach|false|false|false|false|false|false|false|false|false|-LRB-
+Headache	others	headach|-lrb-|a|true|false|false|false|false|false|false|false|false|NNP
+a	others	a|headach|have|false|false|false|false|false|false|false|false|false|DT
+have	others	have|a|i|false|false|false|false|false|false|false|false|false|VBP
+I	others	i|have|-rrb-|false|false|true|true|false|false|false|false|false|PRP
+-RRB-	others	-rrb-|i|have|false|false|false|false|false|false|false|false|false|-RRB-
+have	others	have|-rrb-|low|false|false|false|false|false|false|false|false|false|VBP
+low	others	low|have|such|false|false|false|false|false|false|false|false|false|JJ
+Such	others	such|low|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+models	others	model|_start_|be|false|false|false|false|false|false|false|false|false|NNS
+are	others	be|model|of|false|false|false|false|false|false|false|false|false|VBP
+of	others	of|be|most|false|false|false|false|false|false|false|false|false|IN
+most	others	most|of|obviou|false|false|false|false|false|false|false|false|false|JJS
+obvious	others	obviou|most|us|false|false|false|false|false|false|false|false|false|JJ
+use	others	us|obviou|in|false|false|false|false|false|false|false|false|false|NN
+in	others	in|us|speech|false|false|false|false|false|false|false|false|false|IN
+speech	others	speech|in|recognit|false|false|false|false|false|false|false|false|false|NN
+recognition	others	recognit|speech|but|false|false|false|false|false|false|false|false|false|NN
+but	others	but|recognit|thei|false|false|false|false|false|false|false|false|false|CC
+they	others	thei|but|have|false|false|false|false|false|false|false|false|false|PRP
+have	others	have|thei|mani|false|false|false|false|false|false|false|false|false|VBP
+many	others	mani|have|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+other	others	other|_start_|us|false|false|false|false|false|false|false|false|false|JJ
+uses	others	us|other|as|false|false|false|false|false|false|false|false|false|NNS
+as	others	as|us|well|false|false|false|false|false|false|false|false|false|RB
+well	others	well|as|the|false|false|false|false|false|false|false|false|false|RB
+The	others	the|well|current|true|false|false|false|false|false|false|false|false|DT
+current	others	current|the|gold|false|false|false|false|false|false|false|false|true|JJ
+gold	others	gold|current|standard|false|false|false|false|false|false|false|false|false|JJ
+standard	others	standard|gold|in|false|false|false|false|false|false|false|false|false|NN
+in	others	in|standard|statist|false|false|false|false|false|false|false|false|false|IN
+statistical	others	statist|in|languag|false|false|false|false|false|false|false|false|false|JJ
+language	others	languag|statist|_end_|false|false|false|false|false|false|false|false|false|NN
+
+models	others	model|_start_|be|false|false|false|false|false|false|false|false|false|NNS
+is	others	be|model|the|false|false|false|false|false|false|false|false|false|VBZ
+the	others	the|be|trigram|false|false|false|false|false|false|false|false|false|DT
+trigram	others	trigram|the|model|false|false|false|false|false|false|false|false|false|NN
+model	others	model|trigram|which|false|false|false|false|false|false|false|false|false|NN
+which	others	which|model|estim|false|false|false|false|false|false|false|false|false|WDT
+estimates	others	estim|which|the|false|false|false|false|false|false|false|false|false|VBZ
+the	others	the|estim|probabl|false|false|false|false|false|false|false|false|false|DT
+probability	others	probabl|the|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|probabl|each|false|false|false|false|false|false|false|false|false|IN
+each	others	each|of|_end_|false|false|false|false|false|false|false|false|false|DT
+
+successive	others	success|_start_|word|false|false|false|false|false|false|false|false|false|JJ
+word	others	word|success|us|false|false|false|false|false|false|false|false|false|NN
+using	others	us|word|statist|false|false|false|false|false|false|false|false|false|VBG
+statistics	others	statist|us|gather|false|false|false|false|false|false|false|false|false|NNS
+gathered	others	gather|statist|on|false|false|false|false|false|false|false|false|false|VBN
+on	others	on|gather|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|on|probabl|false|false|false|false|false|false|false|false|false|DT
+probability	others	probabl|the|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|probabl|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|of|word|false|false|false|false|false|false|false|false|false|DT
+word	others	word|the|_end_|false|false|false|false|false|false|false|false|false|NN
+
+given	others	give|_start_|the|false|false|false|false|false|false|false|false|false|VBN
+the	others	the|give|last|false|false|false|false|false|false|false|false|false|DT
+last	others	last|the|two|false|false|false|false|false|false|false|false|false|JJ
+two	others	two|last|word|false|false|false|false|false|false|false|false|false|CD
+words	others	word|two|thi|false|false|false|false|false|false|false|false|false|NNS
+This	others	thi|word|be|true|false|false|false|false|false|false|false|false|DT
+is	others	be|thi|veri|false|false|false|false|false|false|false|false|false|VBZ
+very	others	veri|be|dumb|false|false|false|false|false|false|false|false|false|RB
+dumb	others	dumb|veri|but|false|false|false|false|false|false|false|false|false|JJ
+but	others	but|dumb|remark|false|false|false|false|false|false|false|false|false|CC
+remarkably	others	remark|but|success|false|false|false|false|false|false|false|false|false|RB
+successful	others	success|remark|we|false|false|false|false|false|false|false|false|false|JJ
+We	others	we|success|_end_|true|false|false|false|false|false|false|false|false|PRP
+
+hope	others	hope|_start_|to|false|false|false|false|false|false|false|false|false|NN
+to	others	to|hope|creat|false|false|false|false|false|false|false|false|false|TO
+create	others	creat|to|better|false|false|false|false|false|false|false|false|false|VB
+better	others	better|creat|model|false|false|false|false|false|false|false|false|false|JJR
+models	others	model|better|us|false|false|false|false|false|false|false|false|false|NNS
+using	others	us|model|more|false|false|false|false|false|false|false|false|false|VBG
+more	others	more|us|standard|false|false|false|false|false|false|false|false|false|RBR
+standard	others	standard|more|nlu|false|false|false|false|false|false|false|false|false|JJ
+NLU	others	nlu|standard|techniqu|false|true|false|true|false|false|false|false|false|NN
+techniques	others	techniqu|nlu|we|false|false|false|false|false|false|false|false|false|NNS
+We	others	we|techniqu|hope|true|false|false|false|false|false|false|false|false|PRP
+hope	others	hope|we|to|false|false|false|false|false|false|false|false|false|VBP
+to	others	to|hope|_end_|false|false|false|false|false|false|false|false|false|TO
+
+model	others	model|_start_|the|false|false|false|false|false|false|false|false|false|NN
+the	others	the|model|languag|false|false|false|false|false|false|false|false|false|DT
+language	others	languag|the|by|false|false|false|false|false|false|false|false|false|NN
+by	others	by|languag|first|false|false|false|false|false|false|false|false|false|IN
+first	others	first|by|pars|false|false|false|false|false|false|false|false|false|JJ
+parsing	others	pars|first|the|false|false|false|false|false|false|false|false|false|VBG
+the	others	the|pars|sentenc|false|false|false|false|false|false|false|false|false|DT
+sentence	others	sentenc|the|then|false|false|false|false|false|false|false|false|false|NN
+then	others	then|sentenc|collect|false|false|false|false|false|false|false|false|false|RB
+collecting	others	collect|then|statist|false|false|false|false|false|false|false|false|false|VBG
+statistics	others	statist|collect|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+based	others	base|_start_|upon|false|false|false|false|false|false|false|false|false|VBN
+upon	others	upon|base|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|upon|pars|false|false|false|false|false|false|false|false|false|DT
+parse	others	pars|the|-lrb-|false|false|false|false|false|false|false|false|false|NN
+-LRB-	others	-lrb-|pars|not|false|false|false|false|false|false|false|false|false|-LRB-
+not	others	not|-lrb-|just|false|false|false|false|false|false|false|false|false|RB
+just	others	just|not|the|false|false|false|false|false|false|false|false|false|RB
+the	others	the|just|last|false|false|false|false|false|false|false|false|false|DT
+last	others	last|the|few|false|false|false|false|false|false|false|false|false|JJ
+few	others	few|last|word|false|false|false|false|false|false|false|false|false|JJ
+words	others	word|few|-rrb-|false|false|false|false|false|false|false|false|false|NNS
+-RRB-	others	-rrb-|word|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+In	others	in|_start_|thi|true|false|false|false|false|false|false|false|false|IN
+this	others	thi|in|talk|false|false|false|false|false|false|false|false|false|DT
+talk	others	talk|thi|we|false|false|false|false|false|false|false|false|false|NN
+we	others	we|talk|concentr|false|false|false|false|false|false|false|false|false|PRP
+concentrate	others	concentr|we|on|false|false|false|false|false|false|false|false|false|VBP
+on	others	on|concentr|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|on|first|false|false|false|false|false|false|false|false|false|DT
+first	others	first|the|of|false|false|false|false|false|false|false|false|false|JJ
+of	others	of|first|these|false|false|false|false|false|false|false|false|false|IN
+these	others	these|of|step|false|false|false|false|false|false|false|false|false|DT
+steps	others	step|these|and|false|false|false|false|false|false|false|false|false|NNS
+and	others	and|step|look|false|false|false|false|false|false|false|false|false|CC
+look	others	look|and|in|false|false|false|false|false|false|false|false|false|VB
+in	others	in|look|_end_|false|false|false|false|false|false|false|false|false|IN
+
+particular	others	particular|_start_|at|false|false|false|false|false|false|false|false|false|JJ
+at	others	at|particular|probabilist|false|false|false|false|false|false|false|false|false|IN
+probabilistic	others	probabilist|at|context-fre|false|false|false|false|false|false|false|false|false|JJ
+context-free	others	context-fre|probabilist|grammar|false|false|false|false|false|false|false|false|false|JJ
+grammar	others	grammar|context-fre|learn|false|false|false|false|false|false|false|false|false|NN
+learning	others	learn|grammar|we|false|false|false|false|false|false|false|false|false|VBG
+Our	others	we|learn|scheme|true|false|false|false|false|false|false|false|false|PRP$
+scheme	others	scheme|we|_end_|false|false|false|false|false|false|false|false|false|NN
+
+starts	others	start|_start_|with|false|false|false|false|false|false|false|false|false|NNS
+with	others	with|start|a|false|false|false|false|false|false|false|false|false|IN
+a	others	a|with|restrict|false|false|false|false|false|false|false|false|false|DT
+restricted	others	restrict|a|form|false|false|false|false|false|false|false|false|false|JJ
+form	others	form|restrict|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|form|context-fre|false|false|false|false|false|false|false|false|false|IN
+context-free	others	context-fre|of|grammar|false|false|false|false|false|false|false|false|false|JJ
+grammar	others	grammar|context-fre|such|false|false|false|false|false|false|false|false|false|NN
+such	others	such|grammar|that|false|false|false|false|false|false|false|false|false|JJ
+that	others	that|such|onli|false|false|false|false|false|false|false|false|false|IN
+only	others	onli|that|a|false|false|false|false|false|false|false|false|false|RB
+a	others	a|onli|_end_|false|false|false|false|false|false|false|false|false|DT
+
+finite	others	finit|_start_|number|false|false|false|false|false|false|false|false|false|JJ
+number	others	number|finit|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|number|rule|false|false|false|false|false|false|false|false|false|IN
+rules	others	rule|of|appli|false|false|false|false|false|false|false|false|false|NNS
+apply	others	appli|rule|to|false|false|false|false|false|false|false|false|false|VBP
+to	others	to|appli|ani|false|false|false|false|false|false|false|false|false|TO
+any	others	ani|to|give|false|false|false|false|false|false|false|false|false|DT
+given	others	give|ani|sentenc|false|false|false|false|false|false|false|false|false|VBN
+sentence	others	sentenc|give|start|false|false|false|false|false|false|false|false|false|NN
+Starting	others	start|sentenc|with|true|false|false|false|false|false|false|false|false|VBG
+with	others	with|start|these|false|false|false|false|false|false|false|false|false|IN
+these	others	these|with|_end_|false|false|false|false|false|false|false|false|false|DT
+
+rules	others	rule|_start_|we|false|false|false|false|false|false|false|false|false|NNS
+we	others	we|rule|then|false|false|false|false|false|false|false|false|false|PRP
+then	others	then|we|remov|false|false|false|false|false|false|false|false|false|RB
+remove	others	remov|then|excess|false|false|false|false|false|false|false|false|false|VB
+excess	others	excess|remov|rule|false|false|false|false|false|false|false|false|false|JJ
+rules	others	rule|excess|us|false|false|false|false|false|false|false|false|false|NNS
+using	others	us|rule|the|false|false|false|false|false|false|false|false|false|VBG
+the	others	the|us|inside-outsid|false|false|false|false|false|false|false|false|false|DT
+inside-outside	others	inside-outsid|the|algorithm|false|false|false|false|false|false|false|false|false|JJ
+algorithm	others	algorithm|inside-outsid|_end_|false|false|false|false|false|false|false|false|false|NN
+
+We	others	we|_start_|concentr|true|false|false|false|false|false|false|false|false|PRP
+concentrate	others	concentr|we|on|false|false|false|false|false|false|false|false|false|VBP
+on	others	on|concentr|two|false|false|false|false|false|false|false|false|false|IN
+two	others	two|on|interest|false|false|false|false|false|false|false|false|false|CD
+interesting	others	interest|two|modif|false|false|false|false|false|false|false|false|false|JJ
+modifications	others	modif|interest|of|false|false|false|false|false|false|false|false|false|NNS
+of	others	of|modif|thi|false|false|false|false|false|false|false|false|false|IN
+this	others	thi|of|scheme|false|false|false|false|false|false|false|false|false|DT
+scheme	others	scheme|thi|in|false|false|false|false|false|false|false|false|false|NN
+In	others	in|scheme|the|true|false|false|false|false|false|false|false|false|IN
+the	others	the|in|_end_|false|false|false|false|false|false|false|false|false|DT
+
+first	others	first|_start_|we|false|false|false|false|false|false|false|false|false|RB
+we	others	we|first|creat|false|false|false|false|false|false|false|false|false|PRP
+create	others	creat|we|sever|false|false|false|false|false|false|false|false|false|VBP
+several	others	sever|creat|differ|false|false|false|false|false|false|false|false|false|JJ
+different	others	differ|sever|grammar|false|false|false|false|false|false|false|false|false|JJ
+grammars	others	grammar|differ|for|false|false|false|false|false|false|false|false|false|NNS
+for	others	for|grammar|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|for|languag|false|false|false|false|false|false|false|false|false|DT
+language	others	languag|the|us|false|false|false|false|false|false|false|false|false|NN
+using	others	us|languag|differ|false|false|false|false|false|false|false|false|false|VBG
+different	others	differ|us|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+subsets	others	subset|_start_|of|false|false|false|false|false|false|false|false|false|NNS
+of	others	of|subset|we|false|false|false|false|false|false|false|false|false|IN
+our	others	we|of|train|false|false|false|false|false|false|false|false|false|PRP$
+training	others	train|we|datum|false|false|false|false|false|false|false|false|false|NN
+data	others	datum|train|and|false|false|false|false|false|false|false|false|false|NNS
+and	others	and|datum|then|false|false|false|false|false|false|false|false|false|CC
+then	others	then|and|merg|false|false|false|false|false|false|false|false|false|RB
+merge	others	merg|then|thei|false|false|false|false|false|false|false|false|false|VBP
+them	others	thei|merg|interestingli|false|false|false|false|false|false|false|false|false|PRP
+Interestingly	others	interestingli|thei|thi|true|false|false|false|false|false|false|false|false|RB
+this	others	thi|interestingli|_end_|false|false|false|false|false|false|false|false|false|DT
+
+significantly	others	significantli|_start_|improv|false|false|false|false|false|false|false|false|false|RB
+improves	others	improv|significantli|the|false|false|false|false|false|false|false|false|false|VBZ
+the	others	the|improv|qualiti|false|false|false|false|false|false|false|false|false|DT
+quality	others	qualiti|the|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|qualiti|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|of|learn|false|false|false|false|false|false|false|false|false|DT
+learned	others	learn|the|grammar|false|false|false|false|false|false|false|false|false|VBN
+grammar	others	grammar|learn|in|false|false|false|false|false|false|false|false|false|NN
+In	others	in|grammar|the|true|false|false|false|false|false|false|false|false|IN
+the	others	the|in|second|false|false|false|false|false|false|false|false|false|DT
+second	others	second|the|we|false|false|false|false|false|false|false|false|false|JJ
+we	others	we|second|_end_|false|false|false|false|false|false|false|false|false|PRP
+
+learn	others	learn|_start_|a|false|false|false|false|false|false|false|false|false|VB
+a	others	a|learn|pseudo-context-sensit|false|false|false|false|false|false|false|false|false|DT
+pseudo-context-sensitive	others	pseudo-context-sensit|a|grammar|false|false|false|false|false|false|false|false|false|JJ
+grammar	others	grammar|pseudo-context-sensit|by|false|false|false|false|false|false|false|false|false|NN
+by	others	by|grammar|collect|false|false|false|false|false|false|false|false|false|IN
+collecting	others	collect|by|extra|false|false|false|false|false|false|false|false|false|VBG
+extra	others	extra|collect|statist|false|false|false|false|false|false|false|false|false|JJ
+statistics	others	statist|extra|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+on	others	on|_start_|rule|false|false|false|false|false|false|false|false|false|IN
+rule	others	rule|on|applic|false|false|false|false|false|false|false|false|false|NN
+application	others	applic|rule|-lrb-|false|false|false|false|false|false|false|false|false|NN
+-LRB-	others	-lrb-|applic|pseudo|false|false|false|false|false|false|false|false|false|-LRB-
+pseudo	others	pseudo|-lrb-|becaus|false|false|false|false|false|false|false|false|false|NN
+because	others	becaus|pseudo|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|becaus|result|false|false|false|false|false|false|false|false|false|DT
+resulting	others	result|the|formal|false|false|false|false|false|false|false|false|false|VBG
+formalism	others	formal|result|could|false|false|false|false|false|false|false|false|false|NN
+could	others	could|formal|be|false|false|false|false|false|false|false|false|false|MD
+be	others	be|could|put|false|false|false|false|false|false|false|false|false|VB
+put	others	put|be|_end_|false|false|false|false|false|false|false|false|false|VBN
+
+back	others	back|_start_|into|false|false|false|false|false|false|false|false|false|RB
+into	others	into|back|context-fre|false|false|false|false|false|false|false|false|false|IN
+context-free	others	context-fre|into|form|false|false|false|false|false|false|false|false|false|JJ
+form	others	form|context-fre|by|false|false|false|false|false|false|false|false|false|NN
+by	others	by|form|multipli|false|false|false|false|false|false|false|false|false|IN
+multiplying	others	multipli|by|out|false|false|false|false|false|false|false|false|false|VBG
+out	others	out|multipli|the|false|false|false|false|false|false|false|false|false|RP
+the	others	the|out|non-termin|false|false|false|false|false|false|false|false|false|DT
+non-terminals	others	non-termin|the|of|false|false|false|false|false|false|false|false|false|NNS
+of	others	of|non-termin|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|of|_end_|false|false|false|false|false|false|false|false|false|DT
+
+language	others	languag|_start_|-rrb-|false|false|false|false|false|false|false|false|false|NN
+-RRB-	others	-rrb-|languag|thi|false|false|false|false|false|false|false|false|false|-RRB-
+This	others	thi|-rrb-|too|true|false|false|false|false|false|false|false|false|DT
+too	others	too|thi|lead|false|false|false|false|false|false|false|false|false|RB
+leads	others	lead|too|to|false|false|false|false|false|false|false|false|false|VBZ
+to	others	to|lead|signific|false|false|false|false|false|false|false|false|false|TO
+significant	others	signific|to|improv|false|false|false|false|false|false|false|false|false|JJ
+improvements	others	improv|signific|_end_|false|false|false|false|false|false|false|false|false|NNS
+

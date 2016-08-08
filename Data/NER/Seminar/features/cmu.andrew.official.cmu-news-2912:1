@@ -1,0 +1,66 @@
+Type	others	type|_start_|cmu.andrew.official.cmu-new|true|false|false|false|false|false|false|false|false|NN
+cmu.andrew.official.cmu-news	others	cmu.andrew.official.cmu-new|type|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+Topic	others	topic|_start_|coursewar|true|false|false|false|false|false|false|false|false|NN
+Courseware	others	coursewar|topic|present|true|false|false|false|false|false|false|false|false|NNP
+Presentations	others	present|coursewar|_end_|true|false|false|false|false|false|false|false|false|NNS
+
+Dates	others	date|_start_|1-aug-95|true|false|false|false|false|false|false|false|false|NNS
+1-Aug-95	others	1-aug-95|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|10:00|true|false|false|false|false|false|false|false|false|NNP
+10:00	stime	10:00|time|am|false|false|false|false|false|false|false|false|false|CD
+AM	stime	am|10:00|12:00|false|true|false|true|false|false|true|false|false|NNP
+12:00	etime	12:00|am|pm|false|false|false|false|false|false|false|true|false|CD
+PM	etime	pm|12:00|_end_|false|true|false|true|false|false|false|false|false|NN
+
+PostedBy	others	postedbi|_start_|edmund|false|false|false|false|true|false|false|false|false|NNP
+Edmund	others	edmund|postedbi|j.|true|false|false|false|false|true|false|false|false|NNP
+J.	others	j.|edmund|delanei|false|false|false|false|false|true|false|false|false|NNP
+Delaney	others	delanei|j.|on|true|false|false|false|false|true|false|false|false|NNP
+on	others	on|delanei|24-jul-95|false|false|false|false|false|false|false|false|false|IN
+24-Jul-95	others	24-jul-95|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|24-jul-95|12:25|false|false|false|false|false|false|false|false|false|IN
+12:25	others	12:25|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|12:25|andrew.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+andrew.cmu.edu	others	andrew.cmu.edu|from|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+An	others	a|_start_|announc|true|false|false|false|false|false|false|false|false|DT
+announcement	others	announc|a|from|false|false|false|false|false|false|false|false|false|NN
+from	others	from|announc|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|from|coursewar|false|false|false|false|false|false|false|false|false|DT
+Courseware	others	coursewar|the|committe|true|false|false|false|false|false|false|false|false|NNP
+Committee	others	committe|coursewar|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+This	others	thi|_start_|week|true|false|false|false|false|false|false|false|true|DT
+Week	others	week|thi|'s|true|false|false|false|false|false|false|false|true|NN
+'s	others	's|week|coursewar|false|false|false|false|false|false|false|false|false|POS
+Courseware	others	coursewar|'s|activ|true|false|false|false|false|false|false|false|false|NNP
+Activities	others	activ|coursewar|_end_|true|false|false|false|false|false|false|false|false|NNPS
+
+The	others	the|_start_|grand|true|false|false|false|false|false|false|false|false|DT
+grand	others	grand|the|final|false|false|false|false|false|false|false|false|false|JJ
+finale	others	final|grand|session|false|false|false|false|false|false|false|false|false|NN
+session	others	session|final|will|false|false|false|false|false|false|false|false|false|NN
+will	others	will|session|be|false|false|false|false|false|false|false|false|false|MD
+be	others	be|will|hold|false|false|false|false|false|false|false|false|false|VB
+held	others	hold|be|on|false|false|false|false|false|false|false|false|false|VBN
+on	others	on|hold|tuesdai|false|false|false|false|false|false|false|false|false|IN
+Tuesday	others	tuesdai|on|august|true|false|false|false|false|false|false|false|true|NNP
+August	others	august|tuesdai|1|true|false|false|false|false|false|false|false|true|NNP
+1	others	1|august|from|false|false|false|false|false|false|false|false|true|CD
+from	others	from|1|10am|false|false|false|false|false|false|false|false|false|IN
+10am	stime	10am|from|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+12pm	others	12pm|_start_|in|false|false|false|false|false|false|false|false|false|NN
+in	others	in|12pm|hamburg|false|false|false|false|false|false|false|false|false|IN
+Hamburg	location	hamburg|in|hall|true|false|false|false|false|false|false|false|false|NNP
+Hall	location	hall|hamburg|1000|true|false|false|false|false|false|false|false|false|NNP
+1000	location	1000|hall|a|false|false|false|false|false|false|false|false|true|CD
+A	others	a|1000|recept|false|false|true|true|false|false|false|false|false|DT
+reception	others	recept|a|will|false|false|false|false|false|false|false|false|false|NN
+will	others	will|recept|follow|false|false|false|false|false|false|false|false|false|MD
+follow	others	follow|will|_end_|false|false|false|false|false|false|false|false|false|VB
+

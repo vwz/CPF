@@ -1,0 +1,238 @@
+Type	others	type|_start_|cmu|true|false|false|false|false|false|false|false|false|NN
+cmu	others	cmu|type|c|false|false|false|false|false|false|false|false|false|NN
+cs	others	c|cmu|robot|false|false|false|false|false|false|false|false|false|NNS
+robotics	others	robot|c|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+Who	others	who|_start_|gregori|true|false|false|false|false|false|false|false|false|WP
+Gregory	speaker	gregori|who|d.|true|false|false|false|false|true|false|false|false|NNP
+D.	speaker	d.|gregori|hager|false|false|false|false|false|true|false|false|false|NNP
+Hager	speaker	hager|d.|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+Department	others	depart|_start_|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|depart|comput|false|false|false|false|false|false|false|false|false|IN
+Computer	others	comput|of|scienc|true|false|false|false|false|false|false|false|false|NNP
+Science	others	scienc|comput|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Yale	others	yale|_start_|univers|true|false|false|false|false|false|false|false|false|NNP
+University	others	univers|yale|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Topic	others	topic|_start_|techniqu|true|false|false|false|false|false|false|false|false|NN
+Techniques	others	techniqu|topic|for|true|false|false|false|false|false|false|false|false|NNS
+for	others	for|techniqu|task-direct|false|false|false|false|false|false|false|false|false|IN
+Task-Directed	others	task-direct|for|sensor|false|false|false|false|false|false|false|false|false|NNP
+Sensor	others	sensor|task-direct|data|true|false|false|false|false|false|false|false|false|NNP
+Data	others	data|sensor|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Fusion	others	fusion|_start_|and|true|false|false|false|false|false|false|false|false|NN
+and	others	and|fusion|sensor|false|false|false|false|false|false|false|false|false|CC
+Sensor	others	sensor|and|plan|true|false|false|false|false|false|false|false|false|NN
+Planning	others	plan|sensor|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Dates	others	date|_start_|16-oct-92|true|false|false|false|false|false|false|false|false|NNS
+16-Oct-92	others	16-oct-92|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|3:30|true|false|false|false|false|false|false|false|false|NNP
+3:30	stime	3:30|time|5:00|false|false|false|false|false|false|true|false|false|CD
+5:00	etime	5:00|3:30|pm|false|false|false|false|false|false|false|true|false|CD
+PM	etime	pm|5:00|_end_|false|true|false|true|false|false|false|false|false|NN
+
+Place	others	place|_start_|doherti|true|false|false|false|false|false|false|false|false|NN
+DOHERTY	location	doherti|place|hall|false|true|false|true|false|true|false|false|false|NNP
+HALL	location	hall|doherti|2315|false|true|false|true|false|false|false|false|false|NNP
+2315	location	2315|hall|-lrb-|false|false|false|false|false|false|false|false|true|CD
+-LRB-	others	-lrb-|2315|note|false|false|false|false|false|false|false|false|false|-LRB-
+NOTE	others	note|-lrb-|room|false|true|false|true|false|false|false|false|false|VB
+ROOM	others	room|note|-rrb-|false|true|false|true|false|false|false|false|false|NN
+-RRB-	others	-rrb-|room|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+PostedBy	others	postedbi|_start_|tmeadow|false|false|false|false|true|false|false|false|false|NNP
+tmeadows	others	tmeadow|postedbi|on|false|false|false|false|false|false|false|false|false|NNS
+on	others	on|tmeadow|13-oct-92|false|false|false|false|false|false|false|false|false|IN
+13-Oct-92	others	13-oct-92|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|13-oct-92|16:41|false|false|false|false|false|false|false|false|false|IN
+16:41	others	16:41|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|16:41|resumix.portal.com|false|false|false|false|false|false|false|false|false|IN
+resumix.portal.com	others	resumix.portal.com|from|-lrb-|false|false|false|false|false|false|false|false|false|NNP
+-LRB-	others	-lrb-|resumix.portal.com|tim|false|false|false|false|false|false|false|false|false|-LRB-
+Tim	others	tim|-lrb-|meadow|true|false|false|false|false|false|false|false|false|NNP
+Meadows	others	meadow|tim|-rrb-|true|false|false|false|false|false|false|false|false|NNP
+-RRB-	others	-rrb-|meadow|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+RI	others	ru|_start_|seminar|false|true|false|true|false|false|false|false|false|NN
+SEMINAR	others	seminar|ru|_end_|false|true|false|true|false|false|false|false|false|NN
+
+WHEN	others	when|_start_|fridai|false|true|false|true|false|false|false|false|false|WRB
+Friday	others	fridai|when|16|true|false|false|false|false|false|false|false|true|NNP
+16	others	16|fridai|ocotob|false|false|false|false|false|false|false|false|false|CD
+Ocotober	others	ocotob|16|1992|true|false|false|false|false|false|false|false|true|NNP
+1992	others	1992|ocotob|3:30|false|false|false|false|false|false|false|false|true|CD
+3:30	stime	3:30|1992|5:00|false|false|false|false|false|false|true|false|false|CD
+5:00	etime	5:00|3:30|pm|false|false|false|false|false|false|false|true|false|CD
+pm	etime	pm|5:00|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Refreshments	others	refresh|_start_|to|true|false|false|false|false|false|false|false|false|NNS
+to	others	to|refresh|be|false|false|false|false|false|false|false|false|false|TO
+be	others	be|to|serv|false|false|false|false|false|false|false|false|false|VB
+served	others	serv|be|by|false|false|false|false|false|false|false|false|false|VBN
+by	others	by|serv|3:15|false|false|false|false|false|false|false|false|false|IN
+3:15	others	3:15|by|pm|false|false|false|false|false|false|false|false|false|CD
+pm	others	pm|3:15|_end_|false|false|false|false|false|false|false|false|false|NN
+
+WHERE	others	where|_start_|doherti|false|true|false|true|false|false|false|false|false|NN
+DOHERTY	location	doherti|where|hall|false|true|false|true|false|true|false|false|false|NNP
+HALL	location	hall|doherti|2315|false|true|false|true|false|false|false|false|false|NNP
+2315	location	2315|hall|-lrb-|false|false|false|false|false|false|false|false|true|CD
+-LRB-	others	-lrb-|2315|note|false|false|false|false|false|false|false|false|false|-LRB-
+NOTE	others	note|-lrb-|room|false|true|false|true|false|false|false|false|false|VB
+ROOM	others	room|note|-rrb-|false|true|false|true|false|false|false|false|false|NN
+-RRB-	others	-rrb-|room|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+SPEAKER	others	speaker|_start_|gregori|false|true|false|true|false|false|false|false|false|NN
+Gregory	speaker	gregori|speaker|d.|true|false|false|false|false|true|false|false|false|NNP
+D.	speaker	d.|gregori|hager|false|false|false|false|false|true|false|false|false|NNP
+Hager	speaker	hager|d.|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+Department	others	depart|_start_|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|depart|comput|false|false|false|false|false|false|false|false|false|IN
+Computer	others	comput|of|scienc|true|false|false|false|false|false|false|false|false|NNP
+Science	others	scienc|comput|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Yale	others	yale|_start_|univers|true|false|false|false|false|false|false|false|false|NNP
+University	others	univers|yale|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+TITLE	others	titl|_start_|techniqu|false|true|false|true|false|false|false|false|false|NN
+Techniques	others	techniqu|titl|for|true|false|false|false|false|false|false|false|false|NNS
+for	others	for|techniqu|task-direct|false|false|false|false|false|false|false|false|false|IN
+Task-Directed	others	task-direct|for|sensor|false|false|false|false|false|false|false|false|false|NNP
+Sensor	others	sensor|task-direct|data|true|false|false|false|false|false|false|false|false|NNP
+Data	others	data|sensor|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Fusion	others	fusion|_start_|and|true|false|false|false|false|false|false|false|false|NN
+and	others	and|fusion|sensor|false|false|false|false|false|false|false|false|false|CC
+Sensor	others	sensor|and|plan|true|false|false|false|false|false|false|false|false|NN
+Planning	others	plan|sensor|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+The	others	the|_start_|second|true|false|false|false|false|false|false|false|false|DT
+second	others	second|the|approach|false|false|false|false|false|false|false|false|false|JJ
+approach	others	approach|second|emploi|false|false|false|false|false|false|false|false|false|NN
+employs	others	emploi|approach|a|false|false|false|false|false|false|false|false|false|VBZ
+a	others	a|emploi|set-bas|false|false|false|false|false|false|false|false|false|DT
+set-based	others	set-bas|a|represent|false|false|false|false|false|false|false|false|false|JJ
+representation	others	represent|set-bas|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|represent|uncertainti|false|false|false|false|false|false|false|false|false|IN
+uncertainty	others	uncertainti|of|rather|false|false|false|false|false|false|false|false|false|NN
+Rather	others	rather|uncertainti|than|true|false|false|false|false|false|false|false|false|RB
+than	others	than|rather|optim|false|false|false|false|false|false|false|false|false|IN
+optimizing	others	optim|than|a|false|false|false|false|false|false|false|false|false|VBG
+a	others	a|optim|statist|false|false|false|false|false|false|false|false|false|DT
+statistical	others	statist|a|criterion|false|false|false|false|false|false|false|false|false|JJ
+criterion	others	criterion|statist|the|false|false|false|false|false|false|false|false|false|NN
+the	others	the|criterion|goal|false|false|false|false|false|false|false|false|false|DT
+goal	others	goal|the|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|goal|thi|false|false|false|false|false|false|false|false|false|IN
+this	others	thi|of|method|false|false|false|false|false|false|false|false|false|DT
+method	others	method|thi|be|false|false|false|false|false|false|false|false|false|NN
+is	others	be|method|to|false|false|false|false|false|false|false|false|false|VBZ
+to	others	to|be|satisfi|false|false|false|false|false|false|false|false|false|TO
+satisfy	others	satisfi|to|a|false|false|false|false|false|false|false|false|false|VB
+a	others	a|satisfi|system|false|false|false|false|false|false|false|false|false|DT
+system	others	system|a|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|system|inequ|false|false|false|false|false|false|false|false|false|IN
+inequality	others	inequ|of|constraint|false|false|false|false|false|false|false|false|false|NN
+constraints	others	constraint|inequ|that|false|false|false|false|false|false|false|false|false|NNS
+that	others	that|constraint|repres|false|false|false|false|false|false|false|false|false|WDT
+represent	others	repres|that|both|false|false|false|false|false|false|false|false|false|VBP
+both	others	both|repres|sensor|false|false|false|false|false|false|false|false|false|DT
+sensor	others	sensor|both|inform|false|false|false|false|false|false|false|false|false|NN
+information	others	inform|sensor|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|inform|task-specif|false|false|false|false|false|false|false|false|false|CC
+task-specific	others	task-specif|and|decis|false|false|false|false|false|false|false|false|false|JJ
+decision	others	decis|task-specif|criterion|false|false|false|false|false|false|false|false|false|NN
+criteria	others	criterion|decis|while|false|false|false|false|false|false|false|false|false|NNS
+While	others	while|criterion|do|true|false|false|false|false|false|false|false|false|IN
+doing	others	do|while|so|false|false|false|false|false|false|false|false|false|VBG
+so	others	so|do|the|false|false|false|false|false|false|false|false|false|RB
+the	others	the|so|system|false|false|false|false|false|false|false|false|false|DT
+system	others	system|the|adapt|false|false|false|false|false|false|false|false|false|NN
+adapts	others	adapt|system|it|false|false|false|false|false|false|false|false|false|VBZ
+its	others	it|adapt|datum|false|false|false|false|false|false|false|false|false|PRP$
+data	others	datum|it|process|false|false|false|false|false|false|false|false|false|NN
+processing	others	process|datum|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|process|datum|false|false|false|false|false|false|false|false|false|CC
+data	others	datum|and|represent|false|false|false|false|false|false|false|false|false|NNS
+representation	others	represent|datum|to|false|false|false|false|false|false|false|false|false|NN
+to	others	to|represent|the|false|false|false|false|false|false|false|false|false|TO
+the	others	the|to|avail|false|false|false|false|false|false|false|false|false|DT
+available	others	avail|the|sensor|false|false|false|false|false|false|false|false|false|JJ
+sensor	others	sensor|avail|datum|false|false|false|false|false|false|false|false|false|NN
+data	others	datum|sensor|and|false|false|false|false|false|false|false|false|false|NNS
+and	others	and|datum|decis|false|false|false|false|false|false|false|false|false|CC
+decision	others	decis|and|criterion|false|false|false|false|false|false|false|false|false|NN
+criteria	others	criterion|decis|i|false|false|false|false|false|false|false|false|false|NNS
+I	others	i|criterion|show|false|false|true|true|false|false|false|false|false|PRP
+show	others	show|i|sever|false|false|false|false|false|false|false|false|false|VBP
+several	others	sever|show|exampl|false|false|false|false|false|false|false|false|false|JJ
+examples	others	exampl|sever|take|false|false|false|false|false|false|false|false|false|NNS
+taken	others	take|exampl|from|false|false|false|false|false|false|false|false|false|VBN
+from	others	from|take|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|from|manipul|false|false|false|false|false|false|false|false|false|DT
+manipulation	others	manipul|the|domain|false|false|false|false|false|false|false|false|false|NN
+domain	others	domain|manipul|where|false|false|false|false|false|false|false|false|false|NN
+where	others	where|domain|add|false|false|false|false|false|false|false|false|false|WRB
+adding	others	add|where|task|false|false|false|false|false|false|false|false|false|VBG
+task	others	task|add|constraint|false|false|false|false|false|false|false|false|false|NN
+constraints	others	constraint|task|to|false|false|false|false|false|false|false|false|false|NNS
+to	others	to|constraint|the|false|false|false|false|false|false|false|false|false|TO
+the	others	the|to|sens|false|false|false|false|false|false|false|false|false|DT
+sensing	others	sens|the|probl|false|false|false|false|false|false|false|false|false|VBG
+probl	others	probl|sens|_end_|false|false|false|false|false|false|false|false|false|NN
+
+em	others	em|_start_|significantli|false|false|false|false|false|false|false|false|false|NN
+significantly	others	significantli|em|improv|false|false|false|false|false|false|false|false|false|RB
+improves	others	improv|significantli|process|false|false|false|false|false|false|false|false|false|VBZ
+processing	others	process|improv|perform|false|false|false|false|false|false|false|false|false|NN
+performance	others	perform|process|in|false|false|false|false|false|false|false|false|false|NN
+In	others	in|perform|situat|true|false|false|false|false|false|false|false|false|IN
+situations	others	situat|in|where|false|false|false|false|false|false|false|false|false|NNS
+where	others	where|situat|multipl|false|false|false|false|false|false|false|false|false|WRB
+multiple	others	multipl|where|object|false|false|false|false|false|false|false|false|false|JJ
+objects	others	object|multipl|be|false|false|false|false|false|false|false|false|false|NNS
+are	others	be|object|present|false|false|false|false|false|false|false|false|false|VBP
+present	others	present|be|thi|false|false|false|false|false|false|false|false|false|JJ
+this	others	thi|present|adapt|false|false|false|false|false|false|false|false|false|DT
+adaptation	others	adapt|thi|lead|false|false|false|false|false|false|false|false|false|NN
+leads	others	lead|adapt|to|false|false|false|false|false|false|false|false|false|VBZ
+to	others	to|lead|a|false|false|false|false|false|false|false|false|false|TO
+a	others	a|to|natur|false|false|false|false|false|false|false|false|false|DT
+natural	others	natur|a|task-direct|false|false|false|false|false|false|false|false|false|JJ
+task-directed	others	task-direct|natur|focus-of-attent|false|false|false|false|false|false|false|false|false|JJ
+focus-of-attention	others	focus-of-attent|task-direct|mechan|false|false|false|false|false|false|false|false|false|JJ
+mechanism	others	mechan|focus-of-attent|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Hosted	others	host|_start_|by|true|false|false|false|false|false|false|false|false|VBN
+By	others	by|host|hagen|true|false|false|false|false|false|false|false|false|IN
+Hagen	others	hagen|by|schempf|true|false|false|false|false|true|false|false|false|NNP
+Schempf	others	schempf|hagen|x6884|true|false|false|false|false|true|false|false|false|NNP
+x6884	others	x6884|schempf|_end_|false|false|false|false|false|false|false|false|false|NN
+
+
+
+Tim	others	tim|_start_|meadow|true|false|false|false|false|false|false|false|false|NNP
+Meadows	others	meadow|tim|field|true|false|false|false|false|false|false|false|false|NNP
+Field	others	field|meadow|robot|true|false|false|false|false|false|false|false|false|NNP
+Robotics	others	robot|field|center|true|false|false|false|false|false|false|false|false|NNP
+Center	others	center|robot|carnegi|true|false|false|false|false|false|false|false|false|NNP
+Carnegie	others	carnegi|center|mellon|true|false|false|false|false|false|false|false|false|NNP
+Mellon	others	mellon|carnegi|univ.|true|false|false|false|false|false|false|false|false|NNP
+Univ.	others	univ.|mellon|_end_|false|false|false|false|false|false|false|false|false|NNP
+
+
+412-268-7085	others	412-268-7085|_start_|fax|false|false|false|false|false|false|false|false|false|CD
+Fax	others	fax|412-268-7085|412-682-1793|true|false|false|false|false|false|false|false|false|NN
+412-682-1793	others	412-682-1793|fax|tmeadows@frc.ri.cmu.edu|false|false|false|false|false|false|false|false|false|CD
+tmeadows@frc.ri.cmu.edu	others	tmeadows@frc.ri.cmu.edu|412-682-1793|_end_|false|false|false|false|false|false|false|false|false|NN
+
+
+

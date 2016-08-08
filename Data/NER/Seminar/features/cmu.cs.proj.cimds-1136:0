@@ -1,0 +1,155 @@
+Type	others	type|_start_|cmu|true|false|false|false|false|false|false|false|false|NN
+cmu	others	cmu|type|c|false|false|false|false|false|false|false|false|false|NN
+cs	others	c|cmu|proj|false|false|false|false|false|false|false|false|false|NNS
+proj	others	proj|c|cimd|false|false|false|false|false|false|false|false|false|NN
+cimds	others	cimd|proj|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+Who	others	who|_start_|eric|true|false|false|false|false|false|false|false|false|WP
+Eric	speaker	eric|who|svaan|true|false|false|false|false|true|false|false|false|NNP
+Svaan	speaker	svaan|eric|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+Ph.	others	ph.|_start_|d|false|false|false|false|false|false|false|false|false|NNP
+D	others	d|ph.|candid|false|false|true|true|false|false|false|false|false|NNP
+Candidate	others	candid|d|gsia|true|false|false|false|false|false|false|false|false|NNP
+GSIA	others	gsia|candid|_end_|false|true|false|true|false|false|false|false|false|NNP
+
+Topic	others	topic|_start_|drive|true|false|false|false|false|false|false|false|false|NN
+Driving	others	drive|topic|the|true|false|false|false|false|false|false|false|false|VBG
+the	others	the|drive|learn|false|false|false|false|false|false|false|false|false|DT
+Learning	others	learn|the|machin|true|false|false|false|false|false|false|false|false|NNP
+Machine	others	machin|learn|lesson|true|false|false|false|false|false|false|false|false|NN
+Lessons	others	lesson|machin|from|true|false|false|false|false|false|false|false|false|NNS
+from	others	from|lesson|_end_|false|false|false|false|false|false|false|false|false|IN
+
+Manufacturing	others	manufactur|_start_|cell|true|false|false|false|false|false|false|false|false|NNP
+Cells	others	cell|manufactur|_end_|true|false|false|false|false|false|false|false|false|NNS
+
+Dates	others	date|_start_|20-jun-90|true|false|false|false|false|false|false|false|false|NNS
+20-Jun-90	others	20-jun-90|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|2:00|true|false|false|false|false|false|false|false|false|NNP
+2:00	stime	2:00|time|3:30|false|false|false|false|false|false|true|false|false|CD
+3:30	etime	3:30|2:00|pm|false|false|false|false|false|false|false|true|false|CD
+PM	etime	pm|3:30|_end_|false|true|false|true|false|false|false|false|false|NN
+
+PostedBy	others	postedbi|_start_|ravi|false|false|false|false|true|false|false|false|false|NNP
+Ravi	others	ravi|postedbi|anupindi|true|false|false|false|false|true|false|false|false|NNP
+Anupindi	others	anupindi|ravi|on|true|false|false|false|false|true|false|false|false|NNP
+on	others	on|anupindi|18-jun-90|false|false|false|false|false|false|false|false|false|IN
+18-Jun-90	others	18-jun-90|on|at|false|false|false|false|false|false|false|false|false|NNP
+at	others	at|18-jun-90|14:30|false|false|false|false|false|false|false|false|false|IN
+14:30	others	14:30|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|14:30|isl1|false|false|false|false|false|false|false|false|false|IN
+ISL1	others	isl1|from|ri.cmu.edu|false|false|false|false|false|false|false|false|false|NN
+RI.CMU.EDU	others	ri.cmu.edu|isl1|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+ADVANCED	others	advanc|_start_|om|false|true|false|true|false|false|false|false|false|VBN
+OM	others	om|advanc|seminar|false|true|false|true|false|false|false|false|false|NN
+SEMINAR	others	seminar|om|_end_|false|true|false|true|false|false|false|false|false|NN
+
+Wednesday	others	wednesdai|_start_|june|true|false|false|false|false|false|false|false|true|NNP
+June	others	june|wednesdai|20|true|false|false|false|false|false|false|false|true|NNP
+20	others	20|june|1990|false|false|false|false|false|false|false|false|true|CD
+1990	others	1990|20|_end_|false|false|false|false|false|false|false|false|true|CD
+
+TITLE	others	titl|_start_|drive|false|true|false|true|false|false|false|false|false|NN
+Driving	others	drive|titl|the|true|false|false|false|false|false|false|false|false|VBG
+the	others	the|drive|learn|false|false|false|false|false|false|false|false|false|DT
+Learning	others	learn|the|machin|true|false|false|false|false|false|false|false|false|NNP
+Machine	others	machin|learn|lesson|true|false|false|false|false|false|false|false|false|NN
+Lessons	others	lesson|machin|from|true|false|false|false|false|false|false|false|false|NNS
+from	others	from|lesson|_end_|false|false|false|false|false|false|false|false|false|IN
+
+Manufacturing	others	manufactur|_start_|cell|true|false|false|false|false|false|false|false|false|NNP
+Cells	others	cell|manufactur|_end_|true|false|false|false|false|false|false|false|false|NNS
+
+AUTHOR	others	author|_start_|eric|false|true|false|true|false|false|false|false|false|NN
+Eric	speaker	eric|author|svaan|true|false|false|false|false|true|false|false|false|NNP
+Svaan	speaker	svaan|eric|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+Ph.	others	ph.|_start_|d|false|false|false|false|false|false|false|false|false|NNP
+D	others	d|ph.|candid|false|false|true|true|false|false|false|false|false|NNP
+Candidate	others	candid|d|gsia|true|false|false|false|false|false|false|false|false|NNP
+GSIA	others	gsia|candid|_end_|false|true|false|true|false|false|false|false|false|NNP
+
+To	others	to|_start_|manag|true|false|false|false|false|false|false|false|false|TO
+manage	others	manag|to|and|false|false|false|false|false|false|false|false|false|VB
+and	others	and|manag|compet|false|false|false|false|false|false|false|false|false|CC
+compete	others	compet|and|in|false|false|false|false|false|false|false|false|false|VB
+in	others	in|compet|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|in|nineti|false|false|false|false|false|false|false|false|true|DT
+nineties	others	nineti|the|will|false|false|false|false|false|false|false|false|true|NNS
+will	others	will|nineti|requir|false|false|false|false|false|false|false|false|false|MD
+require	others	requir|will|american|false|false|false|false|false|false|false|false|false|VB
+American	others	american|requir|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+manufacturing	others	manufactur|_start_|firm|false|false|false|false|false|false|false|false|false|VBG
+firms	others	firm|manufactur|to|false|false|false|false|false|false|false|false|false|NNS
+to	others	to|firm|identifi|false|false|false|false|false|false|false|false|false|TO
+identify	others	identifi|to|the|false|false|false|false|false|false|false|false|false|VB
+the	others	the|identifi|driver|false|false|false|false|false|false|false|false|false|DT
+drivers	others	driver|the|of|false|false|false|false|false|false|false|false|false|NNS
+of	others	of|driver|product|false|false|false|false|false|false|false|false|false|IN
+product	others	product|of|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|product|_end_|false|false|false|false|false|false|false|false|false|CC
+
+process	others	process|_start_|improv|false|false|false|false|false|false|false|false|false|NN
+improvements	others	improv|process|we|false|false|false|false|false|false|false|false|false|NNS
+We	others	we|improv|report|true|false|false|false|false|false|false|false|false|PRP
+report	others	report|we|we|false|false|false|false|false|false|false|false|false|VBP
+our	others	we|report|field|false|false|false|false|false|false|false|false|false|PRP$
+field	others	field|we|studi|false|false|false|false|false|false|false|false|false|NN
+studies	others	studi|field|of|false|false|false|false|false|false|false|false|false|NNS
+of	others	of|studi|_end_|false|false|false|false|false|false|false|false|false|IN
+
+Learning	others	learn|_start_|to|true|false|false|false|false|false|false|false|false|VBG
+to	others	to|learn|improv|false|false|false|false|false|false|false|false|false|TO
+improve	others	improv|to|yield|false|false|false|false|false|false|false|false|false|VB
+yields	others	yield|improv|and|false|false|false|false|false|false|false|false|false|NNS
+and	others	and|yield|develop|false|false|false|false|false|false|false|false|false|CC
+develop	others	develop|and|a|false|false|false|false|false|false|false|false|false|VB
+a	others	a|develop|new|false|false|false|false|false|false|false|false|false|DT
+new	others	new|a|learn|false|false|false|false|false|false|false|false|false|JJ
+learning	others	learn|new|model|false|false|false|false|false|false|false|false|false|NN
+model	others	model|learn|_end_|false|false|false|false|false|false|false|false|false|NN
+
+that	others	that|_start_|captur|false|false|false|false|false|false|false|false|false|IN
+captures	others	captur|that|the|false|false|false|false|false|false|false|false|false|VBZ
+the	others	the|captur|impact|false|false|false|false|false|false|false|false|false|DT
+impacts	others	impact|the|of|false|false|false|false|false|false|false|false|false|NNS
+of	others	of|impact|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|of|kei|false|false|false|false|false|false|false|false|false|DT
+key	others	kei|the|featur|false|false|false|false|false|false|false|false|false|JJ
+features	others	featur|kei|of|false|false|false|false|false|false|false|false|false|NNS
+of	others	of|featur|a|false|false|false|false|false|false|false|false|false|IN
+a	others	a|of|_end_|false|false|false|false|false|false|false|false|false|DT
+
+manufacturing	others	manufactur|_start_|socio-techn|false|false|false|false|false|false|false|false|false|VBG
+socio-technical	others	socio-techn|manufactur|system|false|false|false|false|false|false|false|false|false|JJ
+system	others	system|socio-techn|the|false|false|false|false|false|false|false|false|false|NN
+The	others	the|system|critic|true|false|false|false|false|false|false|false|false|DT
+critical	others	critic|the|import|false|false|false|false|false|false|false|false|false|JJ
+importance	others	import|critic|_end_|false|false|false|false|false|false|false|false|false|NN
+
+of	others	of|_start_|time|false|false|false|false|false|false|false|false|false|IN
+time	others	time|of|product|false|false|false|false|false|false|false|false|false|NN
+product	others	product|time|featur|false|false|false|false|false|false|false|false|false|NN
+features	others	featur|product|process|false|false|false|false|false|false|false|false|false|NNS
+process	others	process|featur|featur|false|false|false|false|false|false|false|false|false|NN
+features	others	featur|process|and|false|false|false|false|false|false|false|false|false|NNS
+and	others	and|featur|work|false|false|false|false|false|false|false|false|false|CC
+work	others	work|and|design|false|false|false|false|false|false|false|false|false|NN
+design	others	design|work|_end_|false|false|false|false|false|false|false|false|false|NN
+
+are	others	be|_start_|highlight|false|false|false|false|false|false|false|false|false|VBP
+highlighted	others	highlight|be|in|false|false|false|false|false|false|false|false|false|VBN
+in	others	in|highlight|contrast|false|false|false|false|false|false|false|false|false|IN
+contrast	others	contrast|in|to|false|false|false|false|false|false|false|false|false|NN
+to	others	to|contrast|convent|false|false|false|false|false|false|false|false|false|TO
+conventional	others	convent|to|volume-bas|false|false|false|false|false|false|false|false|false|JJ
+volume-based	others	volume-bas|convent|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+model	others	model|_start_|_end_|false|false|false|false|false|false|false|false|false|NN
+

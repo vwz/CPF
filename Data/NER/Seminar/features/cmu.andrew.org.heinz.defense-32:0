@@ -1,0 +1,34 @@
+Type	others	type|_start_|cmu.andrew.org|true|false|false|false|false|false|false|false|false|NN
+cmu.andrew.org	others	cmu.andrew.org|type|heinz|false|false|false|false|false|false|false|false|false|NN
+heinz	others	heinz|cmu.andrew.org|defens|false|false|false|false|false|false|false|false|false|NN
+defense	others	defens|heinz|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Topic	others	topic|_start_|present|true|false|false|false|false|false|false|false|false|NN
+presentation	others	present|topic|time|false|false|false|false|false|false|false|false|false|NN
+time	others	time|present|place|false|false|false|false|false|false|false|false|false|NN
+place	others	place|time|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Dates	others	date|_start_|22-oct-93|true|false|false|false|false|false|false|false|false|NNS
+22-Oct-93	others	22-oct-93|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|2:00|true|false|false|false|false|false|false|false|false|NNP
+2:00	stime	2:00|time|pm|false|false|false|false|false|false|false|false|false|CD
+PM	stime	pm|2:00|4:00|false|true|false|true|false|false|true|false|false|NN
+4:00	etime	4:00|pm|pm|false|false|false|false|false|false|false|true|false|CD
+PM	etime	pm|4:00|_end_|false|true|false|true|false|false|false|false|false|NN
+
+PostedBy	others	postedbi|_start_|laura|false|false|false|false|true|false|false|false|false|NNP
+Laura	others	laura|postedbi|m|true|false|false|false|false|true|false|false|false|NNP
+M	others	m|laura|o'rourk|false|false|true|true|false|true|false|false|false|NNP
+O'Rourke	others	o'rourk|m|on|false|false|false|false|false|true|false|false|false|NNP
+on	others	on|o'rourk|12-oct-93|false|false|false|false|false|false|false|false|false|IN
+12-Oct-93	others	12-oct-93|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|12-oct-93|18:36|false|false|false|false|false|false|false|false|false|IN
+18:36	others	18:36|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|18:36|andrew.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+andrew.cmu.edu	others	andrew.cmu.edu|from|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+FYI	others	fyi|_start_|_end_|false|true|false|true|false|false|false|false|false|NNP
+

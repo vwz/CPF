@@ -1,0 +1,140 @@
+Type	others	type|_start_|ai|true|false|false|false|false|false|false|false|false|NN
+AI	others	ai|type|seminar|false|true|false|true|false|false|false|false|false|NNP
+Seminar	others	seminar|ai|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Who	others	who|_start_|dan|true|false|false|false|false|false|false|false|false|WP
+Dan	speaker	dan|who|weld|true|false|false|false|false|true|false|false|false|NNP
+Weld	speaker	weld|dan|univers|true|false|false|false|false|true|false|false|false|NNP
+University	others	univers|weld|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|univers|washington|false|false|false|false|false|false|false|false|false|IN
+Washington	others	washington|of|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Topic	others	topic|_start_|plan|true|false|false|false|false|false|false|false|false|NN
+Planning	others	plan|topic|recent|true|false|false|false|false|false|false|false|false|NNP
+Recent	others	recent|plan|result|true|false|false|false|false|false|false|false|false|JJ
+Results	others	result|recent|_end_|true|false|false|false|false|false|false|false|false|NNS
+
+Dates	others	date|_start_|8-feb-94|true|false|false|false|false|false|false|false|false|NNS
+8-Feb-94	others	8-feb-94|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|3:30|true|false|false|false|false|false|false|false|false|NNP
+3:30	stime	3:30|time|pm|false|false|false|false|false|false|false|false|false|CD
+PM	stime	pm|3:30|_end_|false|true|false|true|false|false|false|false|false|NN
+
+Place	others	place|_start_|5409|true|false|false|false|false|false|false|false|false|NN
+5409	location	5409|place|wean|false|false|false|false|false|false|false|false|true|CD
+Wean	location	wean|5409|hall|true|false|false|false|false|false|false|false|false|NNP
+Hall	location	hall|wean|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Host	others	host|_start_|michael|true|false|false|false|false|false|false|false|false|NN
+Michael	others	michael|host|erdmann|true|false|false|false|false|true|false|false|false|NNP
+Erdmann	others	erdmann|michael|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+PostedBy	others	postedbi|_start_|plp|false|false|false|false|true|false|false|false|false|NNP
+plp	others	plp|postedbi|on|false|false|false|false|false|false|false|false|false|NN
+on	others	on|plp|28-jan-94|false|false|false|false|false|false|false|false|false|IN
+28-Jan-94	others	28-jan-94|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|28-jan-94|10:19|false|false|false|false|false|false|false|false|false|IN
+10:19	others	10:19|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|10:19|phyllis.adm.cs.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+PHYLLIS.ADM.CS.CMU.EDU	others	phyllis.adm.cs.cmu.edu|from|-lrb-|false|false|false|false|false|false|false|false|false|NN
+-LRB-	others	-lrb-|phyllis.adm.cs.cmu.edu|phylli|false|false|false|false|false|false|false|false|false|-LRB-
+Phyllis	others	phylli|-lrb-|pomerantz|true|false|false|false|false|true|false|false|false|NNP
+Pomerantz	others	pomerantz|phylli|-rrb-|true|false|false|false|false|true|false|false|false|NNP
+-RRB-	others	-rrb-|pomerantz|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+Type	others	type|_start_|ai|true|false|false|false|false|false|false|false|false|NN
+AI	others	ai|type|seminar|false|true|false|true|false|false|false|false|false|NNP
+Seminar	others	seminar|ai|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Who	others	who|_start_|dan|true|false|false|false|false|false|false|false|false|WP
+Dan	speaker	dan|who|weld|true|false|false|false|false|true|false|false|false|NNP
+Weld	speaker	weld|dan|univers|true|false|false|false|false|true|false|false|false|NNP
+University	others	univers|weld|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|univers|washington|false|false|false|false|false|false|false|false|false|IN
+Washington	others	washington|of|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Topic	others	topic|_start_|plan|true|false|false|false|false|false|false|false|false|NN
+Planning	others	plan|topic|recent|true|false|false|false|false|false|false|false|false|NNP
+Recent	others	recent|plan|result|true|false|false|false|false|false|false|false|false|JJ
+Results	others	result|recent|_end_|true|false|false|false|false|false|false|false|false|NNS
+
+Dates	others	date|_start_|8-feb-94|true|false|false|false|false|false|false|false|false|NNS
+8-Feb-94	others	8-feb-94|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|3:30|true|false|false|false|false|false|false|false|false|NNP
+3:30	stime	3:30|time|p.|false|false|false|false|false|false|false|false|false|CD
+p.	stime	p.|3:30|m|false|false|false|false|false|false|false|false|false|NN
+m	stime	m|p.|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Place	others	place|_start_|5409|true|false|false|false|false|false|false|false|false|NN
+5409	location	5409|place|wean|false|false|false|false|false|false|false|false|true|CD
+Wean	location	wean|5409|hall|true|false|false|false|false|false|false|false|false|NNP
+Hall	location	hall|wean|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Host	others	host|_start_|michael|true|false|false|false|false|false|false|false|false|NN
+Michael	others	michael|host|erdmann|true|false|false|false|false|true|false|false|false|NNP
+Erdmann	others	erdmann|michael|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+-LRB-	others	-lrb-|_start_|not|false|false|false|false|false|false|false|false|false|-LRB-
+not	others	not|-lrb-|avail|false|false|false|false|false|false|false|false|false|RB
+available	others	avail|not|as|false|false|false|false|false|false|false|false|false|JJ
+as	others	as|avail|yet|false|false|false|false|false|false|false|false|false|IN
+yet	others	yet|as|-rrb-|false|false|false|false|false|false|false|false|false|RB
+-RRB-	others	-rrb-|yet|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+FurtherDetails	others	furtherdetail|_start_|for|false|false|false|false|false|false|false|false|false|NNP
+For	others	for|furtherdetail|appoint|true|false|false|false|false|false|false|false|false|IN
+appointments	others	appoint|for|phylli|false|false|false|false|false|false|false|false|false|NNS
+Phyllis	others	phylli|appoint|pomerantz|true|false|false|false|false|true|false|false|false|NNP
+Pomerantz	others	pomerantz|phylli|-lrb-|true|false|false|false|false|true|false|false|false|NNP
+-LRB-	others	-lrb-|pomerantz|plp@c|false|false|false|false|false|false|false|false|false|-LRB-
+plp@cs	others	plp@c|-lrb-|-rrb-|false|false|false|false|false|false|false|false|false|NNS
+-RRB-	others	-rrb-|plp@c|or|false|false|false|false|false|false|false|false|false|-RRB-
+or	others	or|-rrb-|-lrb-|false|false|false|false|false|false|false|false|false|CC
+-LRB-	others	-lrb-|or|x8-7897|false|false|false|false|false|false|false|false|false|-LRB-
+X8-7897	others	x8-7897|-lrb-|-rrb-|false|false|false|false|false|false|false|false|false|NN
+-RRB-	others	-rrb-|x8-7897|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+Dan	speaker	dan|_start_|weld|true|false|false|false|false|true|false|false|false|NNP
+Weld	speaker	weld|dan|will|true|false|false|false|false|true|false|false|false|NNP
+will	others	will|weld|arriv|false|false|false|false|false|false|false|false|false|MD
+arrive	others	arriv|will|on|false|false|false|false|false|false|false|false|false|VB
+on	others	on|arriv|mondai|false|false|false|false|false|false|false|false|false|IN
+Monday	others	mondai|on|feb.|true|false|false|false|false|false|false|false|true|NNP
+Feb.	others	feb.|mondai|7|false|false|false|false|false|false|false|false|true|NNP
+7	others	7|feb.|and|false|false|false|false|false|false|false|false|true|CD
+and	others	and|7|will|false|false|false|false|false|false|false|false|false|CC
+will	others	will|and|be|false|false|false|false|false|false|false|false|false|MD
+be	others	be|will|schedul|false|false|false|false|false|false|false|false|false|VB
+scheduling	others	schedul|be|appoint|false|false|false|false|false|false|false|false|false|VBG
+appointments	others	appoint|schedul|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+from	others	from|_start_|2:30|false|false|false|false|false|false|false|false|false|IN
+2:30	others	2:30|from|p.m.|false|false|false|false|false|false|false|false|false|CD
+p.m.	others	p.m.|2:30|on|false|false|false|false|false|false|false|false|false|NN
+on	others	on|p.m.|into|false|false|false|false|false|false|false|false|false|IN
+into	others	into|on|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|into|even|false|false|false|false|false|false|false|false|false|DT
+evening	others	even|the|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|even|all|false|false|false|false|false|false|false|false|false|CC
+all	others	all|and|dai|false|false|false|false|false|false|false|false|false|DT
+day	others	dai|all|on|false|false|false|false|false|false|false|false|true|NN
+on	others	on|dai|tuesdai|false|false|false|false|false|false|false|false|true|IN
+Tuesday	others	tuesdai|on|_end_|true|false|false|false|false|false|false|false|true|NNP
+
+FurtherDetails	others	furtherdetail|_start_|for|false|false|false|false|false|false|false|false|false|NNP
+For	others	for|furtherdetail|appoint|true|false|false|false|false|false|false|false|false|IN
+appointments	others	appoint|for|phylli|false|false|false|false|false|false|false|false|false|NNS
+Phyllis	others	phylli|appoint|pomerantz|true|false|false|false|false|true|false|false|false|NNP
+Pomerantz	others	pomerantz|phylli|-lrb-|true|false|false|false|false|true|false|false|false|NNP
+-LRB-	others	-lrb-|pomerantz|plp@c|false|false|false|false|false|false|false|false|false|-LRB-
+plp@cs	others	plp@c|-lrb-|-rrb-|false|false|false|false|false|false|false|false|false|NNS
+-RRB-	others	-rrb-|plp@c|or|false|false|false|false|false|false|false|false|false|-RRB-
+or	others	or|-rrb-|-lrb-|false|false|false|false|false|false|false|false|false|CC
+-LRB-	others	-lrb-|or|x8-7897|false|false|false|false|false|false|false|false|false|-LRB-
+X8-7897	others	x8-7897|-lrb-|-rrb-|false|false|false|false|false|false|false|false|false|NN
+-RRB-	others	-rrb-|x8-7897|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+

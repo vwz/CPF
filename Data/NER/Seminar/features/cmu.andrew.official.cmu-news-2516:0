@@ -1,0 +1,67 @@
+Type	others	type|_start_|cmu.andrew.official.cmu-new|true|false|false|false|false|false|false|false|false|NN
+cmu.andrew.official.cmu-news	others	cmu.andrew.official.cmu-new|type|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+Topic	others	topic|_start_|physic|true|false|false|false|false|false|false|false|false|NN
+Physics	others	physic|topic|colloquium|true|false|false|false|false|false|false|false|false|NN
+Colloquium	others	colloquium|physic|feb.|true|false|false|false|false|false|false|false|false|NN
+Feb.	others	feb.|colloquium|27|false|false|false|false|false|false|false|false|true|NNP
+27	others	27|feb.|_end_|false|false|false|false|false|false|false|false|true|CD
+
+Dates	others	date|_start_|27-feb-95|true|false|false|false|false|false|false|false|false|NNS
+27-Feb-95	others	27-feb-95|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|4:30|true|false|false|false|false|false|false|false|false|NNP
+4:30	stime	4:30|time|pm|false|false|false|false|false|false|false|false|false|CD
+PM	stime	pm|4:30|_end_|false|true|false|true|false|false|false|false|false|NN
+
+PostedBy	others	postedbi|_start_|edmund|false|false|false|false|true|false|false|false|false|NNP
+Edmund	others	edmund|postedbi|j.|true|false|false|false|false|true|false|false|false|NNP
+J.	others	j.|edmund|delanei|false|false|false|false|false|true|false|false|false|NNP
+Delaney	others	delanei|j.|on|true|false|false|false|false|true|false|false|false|NNP
+on	others	on|delanei|22-feb-95|false|false|false|false|false|false|false|false|false|IN
+22-Feb-95	others	22-feb-95|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|22-feb-95|09:47|false|false|false|false|false|false|false|false|false|IN
+09:47	others	09:47|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|09:47|andrew.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+andrew.cmu.edu	others	andrew.cmu.edu|from|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+Physic	others	physic|_start_|colloquium|true|false|false|false|false|false|false|false|false|NNP
+Colloquium	others	colloquium|physic|mondai|true|false|false|false|false|false|false|false|false|NNP
+Monday	others	mondai|colloquium|feb.|true|false|false|false|false|false|false|false|true|NNP
+Feb.	others	feb.|mondai|27|false|false|false|false|false|false|false|false|true|NNP
+27	others	27|feb.|steve|false|false|false|false|false|false|false|false|true|CD
+Steve	speaker	steve|27|granick|true|false|false|false|false|true|false|false|false|NNP
+Granick	speaker	granick|steve|univers|true|false|false|false|false|true|false|false|false|NNP
+University	others	univers|granick|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|univers|_end_|false|false|false|false|false|false|false|false|false|IN
+
+Illinois	others	illinoi|_start_|urbana|true|false|false|false|false|false|false|false|false|NNP
+Urbana	others	urbana|illinoi|soft|true|false|false|false|false|false|false|false|false|NNP
+Soft	others	soft|urbana|matter|true|false|false|false|false|false|false|false|false|JJ
+matter	others	matter|soft|in|false|false|false|false|false|false|false|false|false|NN
+in	others	in|matter|a|false|false|false|false|false|false|false|false|false|IN
+a	others	a|in|tight|false|false|false|false|false|false|false|false|false|DT
+tight	others	tight|a|spot|false|false|false|false|false|false|false|false|false|JJ
+spot	others	spot|tight|nano-rheolog|false|false|false|false|false|false|false|false|false|NN
+nano-rheology	others	nano-rheolog|spot|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|nano-rheolog|_end_|false|false|false|false|false|false|false|false|false|IN
+
+polymers	others	polym|_start_|and|false|false|false|false|false|false|false|false|false|NNS
+and	others	and|polym|complex|false|false|false|false|false|false|false|false|false|CC
+complex	others	complex|and|fluid|false|false|false|false|false|false|false|false|false|JJ
+fluids	others	fluid|complex|4:30|false|false|false|false|false|false|false|false|false|NNS
+4:30	stime	4:30|fluid|p.|false|false|false|false|false|false|false|false|false|CD
+p.	stime	p.|4:30|m|false|false|false|false|false|false|false|false|false|NN
+m	stime	m|p.|7500|false|false|false|false|false|false|false|false|false|NN
+7500	location	7500|m|wean|false|false|false|false|false|false|false|false|false|CD
+Wean	location	wean|7500|hall|true|false|false|false|false|false|false|false|false|NNP
+Hall	location	hall|wean|coffe|true|false|false|false|false|false|false|false|false|NNP
+Coffee	others	coffe|hall|at|true|false|false|false|false|false|false|false|false|NNP
+at	others	at|coffe|4:15|false|false|false|false|false|false|false|false|false|IN
+4:15	others	4:15|at|_end_|false|false|false|false|false|false|false|false|false|CD
+
+p.	others	p.|_start_|m|false|false|false|false|false|false|false|false|false|NN
+m	others	m|p.|_end_|false|false|false|false|false|false|false|false|false|NN
+

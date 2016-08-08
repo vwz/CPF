@@ -1,0 +1,203 @@
+Type	others	type|_start_|cmu.andrew.org|true|false|false|false|false|false|false|false|false|NN
+cmu.andrew.org	others	cmu.andrew.org|type|epp|false|false|false|false|false|false|false|false|false|NN
+epp	others	epp|cmu.andrew.org|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Topic	others	topic|_start_|fwd|true|false|false|false|false|false|false|false|false|NN
+Fwd	others	fwd|topic|seminar|true|false|false|false|false|false|false|false|false|NN
+SEMINAR	others	seminar|fwd|remind|false|true|false|true|false|false|false|false|false|NN
+REMINDER	others	remind|seminar|_end_|false|true|false|true|false|false|false|false|false|NN
+
+Dates	others	date|_start_|3-dec-93|true|false|false|false|false|false|false|false|false|NNS
+3-Dec-93	others	3-dec-93|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|3:30|true|false|false|false|false|false|false|false|false|NNP
+3:30	stime	3:30|time|pm|false|false|false|false|false|false|false|false|false|CD
+PM	stime	pm|3:30|_end_|false|true|false|true|false|false|false|false|false|NN
+
+Place	others	place|_start_|baker|true|false|false|false|false|false|false|false|false|NN
+Baker	location	baker|place|hall|true|false|false|false|false|false|false|false|false|NNP
+Hall	location	hall|baker|355|true|false|false|false|false|false|false|false|false|NNP
+355	location	355|hall|_end_|false|false|false|false|false|false|false|false|false|CD
+
+PostedBy	others	postedbi|_start_|sandra|false|false|false|false|true|false|false|false|false|NNP
+Sandra	others	sandra|postedbi|mcbride|true|false|false|false|false|true|false|false|false|NNP
+McBride	others	mcbride|sandra|on|false|false|false|false|false|true|false|false|false|NNP
+on	others	on|mcbride|2-dec-93|false|false|false|false|false|false|false|false|false|IN
+2-Dec-93	others	2-dec-93|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|2-dec-93|09:41|false|false|false|false|false|false|false|false|false|IN
+09:41	others	09:41|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|09:41|andrew.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+andrew.cmu.edu	others	andrew.cmu.edu|from|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+
+CIVIL	others	civil|_start_|engin|false|true|false|true|false|false|false|false|false|JJ
+ENGINEERING	others	engin|civil|graduat|false|true|false|true|false|false|false|false|false|NN
+GRADUATE	others	graduat|engin|seminar|false|true|false|true|false|false|false|false|false|NN
+SEMINAR	others	seminar|graduat|_end_|false|true|false|true|false|false|false|false|false|NN
+
+3:30	stime	3:30|_start_|pm|false|false|false|false|false|false|false|false|false|CD
+pm	stime	pm|3:30|fridai|false|false|false|false|false|false|false|false|false|NN
+Friday	others	fridai|pm|decemb|true|false|false|false|false|false|false|false|true|NNP
+December	others	decemb|fridai|3|true|false|false|false|false|false|false|false|true|NNP
+3	others	3|decemb|1993|false|false|false|false|false|false|false|false|true|CD
+1993	others	1993|3|_end_|false|false|false|false|false|false|false|false|true|CD
+
+Location	others	locat|_start_|baker|true|false|false|false|false|false|false|false|false|NNP
+Baker	location	baker|locat|hall|true|false|false|false|false|false|false|false|false|NNP
+Hall	location	hall|baker|355|true|false|false|false|false|false|false|false|false|NNP
+355	location	355|hall|_end_|false|false|false|false|false|false|false|false|false|CD
+
+
+The	others	the|_start_|on-tim|true|false|false|false|false|false|false|false|false|DT
+On-Time	others	on-tim|the|machin|false|false|false|false|false|false|false|false|false|NNP
+Machines	others	machin|on-tim|some|true|false|false|false|false|false|false|false|false|NNPS
+Some	others	some|machin|analysi|true|false|false|false|false|false|false|false|false|DT
+Analyses	others	analysi|some|of|true|false|false|false|false|false|false|false|false|NNS
+of	others	of|analysi|airlin|false|false|false|false|false|false|false|false|false|IN
+Airline	others	airlin|of|punctual|true|false|false|false|false|false|false|false|false|NNP
+Punctuality	others	punctual|airlin|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Jonathan	speaker	jonathan|_start_|caulkin|true|false|false|false|false|true|false|false|false|NNP
+Caulkins	speaker	caulkin|jonathan|-lrb-|true|false|false|false|false|true|false|false|false|NNP
+-LRB-	others	-lrb-|caulkin|-rrb-|false|false|false|false|false|false|false|false|false|-LRB-
+-RRB-	others	-rrb-|-lrb-|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+Heinz	others	heinz|_start_|school|true|false|false|false|false|false|false|false|false|NNP
+School	others	school|heinz|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Carnegie	others	carnegi|_start_|mellon|true|false|false|false|false|false|false|false|false|NNP
+Mellon	others	mellon|carnegi|univers|true|false|false|false|false|false|false|false|false|NNP
+University	others	univers|mellon|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+The	others	the|_start_|depart|true|false|false|false|false|false|false|false|false|NNP
+Department	others	depart|the|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|depart|transport|false|false|false|false|false|false|false|false|false|IN
+Transportation	others	transport|of|-lrb-|true|false|false|false|false|false|false|false|false|NNP
+-LRB-	others	-lrb-|transport|d.o.t.|false|false|false|false|false|false|false|false|false|-LRB-
+D.O.T.	others	d.o.t.|-lrb-|-rrb-|false|false|false|false|false|false|false|false|false|NNP
+-RRB-	others	-rrb-|d.o.t.|rate|false|false|false|false|false|false|false|false|false|-RRB-
+rates	others	rate|-rrb-|commerci|false|false|false|false|false|false|false|false|false|NNS
+commercial	others	commerci|rate|airlin|false|false|false|false|false|false|false|false|false|JJ
+airlines	others	airlin|commerci|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+on-time	others	on-tim|_start_|perform|false|false|false|false|false|false|false|false|false|JJ
+performance	others	perform|on-tim|everi|false|false|false|false|false|false|false|false|false|NN
+every	others	everi|perform|month|false|false|false|false|false|false|false|false|false|DT
+month	others	month|everi|but|false|false|false|false|false|false|false|false|false|NN
+but	others	but|month|it|false|false|false|false|false|false|false|false|false|CC
+its	others	it|but|rate|false|false|false|false|false|false|false|false|false|PRP$
+ratings	others	rate|it|mai|false|false|false|false|false|false|false|false|false|NNS
+may	others	mai|rate|unfairli|false|false|false|false|false|false|false|false|false|MD
+unfairly	others	unfairli|mai|penal|false|false|false|false|false|false|false|false|false|RB
+penalize	others	penal|unfairli|_end_|false|false|false|false|false|false|false|false|false|VB
+
+airlines	others	airlin|_start_|that|false|false|false|false|false|false|false|false|false|NNS
+that	others	that|airlin|fly|false|false|false|false|false|false|false|false|false|WDT
+fly	others	fly|that|disproportion|false|false|false|false|false|false|false|false|false|VBP
+disproportionately	others	disproportion|fly|into|false|false|false|false|false|false|false|false|false|RB
+into	others	into|disproportion|airport|false|false|false|false|false|false|false|false|false|IN
+airports	others	airport|into|at|false|false|false|false|false|false|false|false|false|NNS
+at	others	at|airport|which|false|false|false|false|false|false|false|false|false|IN
+which	others	which|at|it|false|false|false|false|false|false|false|false|false|WDT
+it	others	it|which|be|false|false|false|false|false|false|false|false|false|PRP
+is	others	be|it|_end_|false|false|false|false|false|false|false|false|false|VBZ
+
+inherently	others	inher|_start_|more|false|false|false|false|false|false|false|false|false|RB
+more	others	more|inher|difficult|false|false|false|false|false|false|false|false|false|RBR
+difficult	others	difficult|more|to|false|false|false|false|false|false|false|false|false|JJ
+to	others	to|difficult|land|false|false|false|false|false|false|false|false|false|TO
+land	others	land|to|in|false|false|false|false|false|false|false|false|false|VB
+in	others	in|land|on-tim|false|false|false|false|false|false|false|false|false|IN
+on-time	others	on-tim|in|we|false|false|false|false|false|false|false|false|false|JJ
+We	others	we|on-tim|propos|true|false|false|false|false|false|false|false|false|PRP
+propose	others	propos|we|sever|false|false|false|false|false|false|false|false|false|VBP
+several	others	sever|propos|rate|false|false|false|false|false|false|false|false|false|JJ
+rating	others	rate|sever|_end_|false|false|false|false|false|false|false|false|false|NN
+
+methods	others	method|_start_|that|false|false|false|false|false|false|false|false|false|NNS
+that	others	that|method|we|false|false|false|false|false|false|false|false|false|IN
+we	others	we|that|consid|false|false|false|false|false|false|false|false|false|PRP
+consider	others	consid|we|more|false|false|false|false|false|false|false|false|false|VBP
+more	others	more|consid|equit|false|false|false|false|false|false|false|false|false|RBR
+equitable	others	equit|more|and|false|false|false|false|false|false|false|false|false|JJ
+and	others	and|equit|appli|false|false|false|false|false|false|false|false|false|CC
+apply	others	appli|and|thei|false|false|false|false|false|false|false|false|false|VB
+them	others	thei|appli|to|false|false|false|false|false|false|false|false|false|PRP
+to	others	to|thei|36|false|false|false|false|false|false|false|false|false|TO
+36	others	36|to|month|false|false|false|false|false|false|false|false|false|CD
+months	others	month|36|of|false|false|false|false|false|false|false|false|false|NNS
+of	others	of|month|_end_|false|false|false|false|false|false|false|false|false|IN
+
+D.O.T.	others	d.o.t.|_start_|datum|false|false|false|false|false|false|false|false|false|NNP
+data	others	datum|d.o.t.|rate|false|false|false|false|false|false|false|false|false|NNS
+Rating	others	rate|datum|airlin|true|false|false|false|false|false|false|false|false|NNP
+airlines	others	airlin|rate|prompt|false|false|false|false|false|false|false|false|false|NNS
+promptness	others	prompt|airlin|be|false|false|false|false|false|false|false|false|false|NN
+is	others	be|prompt|a|false|false|false|false|false|false|false|false|false|VBZ
+an	others	a|be|exampl|false|false|false|false|false|false|false|false|false|DT
+example	others	exampl|a|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|exampl|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|of|more|false|false|false|false|false|false|false|false|false|DT
+more	others	more|the|_end_|false|false|false|false|false|false|false|false|false|RBR
+
+general	others	gener|_start_|problem|false|false|false|false|false|false|false|false|false|JJ
+problem	others	problem|gener|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|problem|evalu|false|false|false|false|false|false|false|false|false|IN
+evaluating	others	evalu|of|player|false|false|false|false|false|false|false|false|false|VBG
+players	others	player|evalu|who|false|false|false|false|false|false|false|false|false|NNS
+who	others	who|player|compet|false|false|false|false|false|false|false|false|false|WP
+compete	others	compet|who|in|false|false|false|false|false|false|false|false|false|VBP
+in	others	in|compet|overlap|false|false|false|false|false|false|false|false|false|IN
+overlapping	others	overlap|in|but|false|false|false|false|false|false|false|false|false|VBG
+but	others	but|overlap|not|false|false|false|false|false|false|false|false|false|CC
+not	others	not|but|_end_|false|false|false|false|false|false|false|false|false|RB
+
+identical	others	ident|_start_|set|false|false|false|false|false|false|false|false|false|JJ
+sets	others	set|ident|of|false|false|false|false|false|false|false|false|false|NNS
+of	others	of|set|tournament|false|false|false|false|false|false|false|false|false|IN
+tournaments	others	tournament|of|where|false|false|false|false|false|false|false|false|false|NNS
+where	others	where|tournament|there|false|false|false|false|false|false|false|false|false|WRB
+there	others	there|where|be|false|false|false|false|false|false|false|false|false|EX
+is	others	be|there|no|false|false|false|false|false|false|false|false|false|VBZ
+no	others	no|be|exogen|false|false|false|false|false|false|false|false|false|DT
+exogenous	others	exogen|no|knowledg|false|false|false|false|false|false|false|false|false|JJ
+knowledge	others	knowledg|exogen|_end_|false|false|false|false|false|false|false|false|false|NN
+
+about	others	about|_start_|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|about|qualiti|false|false|false|false|false|false|false|false|false|DT
+quality	others	qualiti|the|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|qualiti|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|of|player|false|false|false|false|false|false|false|false|false|DT
+players	others	player|the|or|false|false|false|false|false|false|false|false|false|NNS
+or	others	or|player|the|false|false|false|false|false|false|false|false|false|CC
+the	others	the|or|difficulti|false|false|false|false|false|false|false|false|false|DT
+difficulty	others	difficulti|the|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|difficulti|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|of|tournament|false|false|false|false|false|false|false|false|false|DT
+tournaments	others	tournament|the|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+-LRB-	others	-lrb-|_start_|-rrb-|false|false|false|false|false|false|false|false|false|-LRB-
+-RRB-	others	-rrb-|-lrb-|base|false|false|false|false|false|false|false|false|false|-RRB-
+Based	others	base|-rrb-|on|true|false|false|false|false|false|false|false|false|VBN
+on	others	on|base|a|false|false|false|false|false|false|false|false|false|IN
+a	others	a|on|paper|false|false|false|false|false|false|false|false|false|DT
+paper	others	paper|a|author|false|false|false|false|false|false|false|false|false|NN
+authored	others	author|paper|by|false|false|false|false|false|false|false|false|false|VBN
+by	others	by|author|jonathan|false|false|false|false|false|false|false|false|false|IN
+Jonathan	others	jonathan|by|p.|true|false|false|false|false|true|false|false|false|NNP
+P.	others	p.|jonathan|caulkin|false|false|false|false|false|true|false|false|false|NNP
+Caulkins	others	caulkin|p.|arnold|true|false|false|false|false|true|false|false|false|NNP
+Arnold	others	arnold|caulkin|barnet|true|false|false|false|false|false|false|false|false|NNP
+Barnet	others	barnet|arnold|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Patrick	others	patrick|_start_|d.|true|false|false|false|false|true|false|false|false|NNP
+D.	others	d.|patrick|larkei|false|false|false|false|false|true|false|false|false|NNP
+Larkey	others	larkei|d.|yuehong|true|false|false|false|false|true|false|false|false|NNP
+Yuehong	others	yuehong|larkei|yuan|true|false|false|false|false|false|false|false|false|NNP
+Yuan	others	yuan|yuehong|and|true|false|false|false|false|false|false|false|false|NNP
+and	others	and|yuan|jess|false|false|false|false|false|false|false|false|false|CC
+Jesse	others	jess|and|goranson|true|false|false|false|false|true|false|false|false|NNP
+Goranson	others	goranson|jess|_end_|true|false|false|false|false|true|false|false|false|NNP
+

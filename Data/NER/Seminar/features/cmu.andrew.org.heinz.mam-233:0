@@ -1,0 +1,69 @@
+Type	others	type|_start_|cmu.andrew.org|true|false|false|false|false|false|false|false|false|NN
+cmu.andrew.org	others	cmu.andrew.org|type|heinz|false|false|false|false|false|false|false|false|false|NN
+heinz	others	heinz|cmu.andrew.org|mam|false|false|false|false|false|false|false|false|false|NN
+mam	others	mam|heinz|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Topic	others	topic|_start_|art|true|false|false|false|false|false|false|false|false|NN
+Arts	others	art|topic|manag|true|false|false|false|false|false|false|false|false|NNP
+Management	others	manag|art|seminar|true|false|false|false|false|false|false|false|false|NNP
+Seminars	others	seminar|manag|_end_|true|false|false|false|false|false|false|false|false|NNPS
+
+Dates	others	date|_start_|2-may-91|true|false|false|false|false|false|false|false|false|NNS
+2-May-91	others	2-may-91|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|12:30|true|false|false|false|false|false|false|false|false|NNP
+12:30	stime	12:30|time|_end_|false|false|false|false|false|false|false|false|false|CD
+
+PostedBy	others	postedbi|_start_|deborah|false|false|false|false|true|false|false|false|false|NNP
+Deborah	others	deborah|postedbi|harku|true|false|false|false|false|true|false|false|false|NNP
+Harkus	others	harku|deborah|on|true|false|false|false|false|true|false|false|false|NNP
+on	others	on|harku|25-apr-91|false|false|false|false|false|false|false|false|false|IN
+25-Apr-91	others	25-apr-91|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|25-apr-91|09:29|false|false|false|false|false|false|false|false|false|IN
+09:29	others	09:29|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|09:29|andrew.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+andrew.cmu.edu	others	andrew.cmu.edu|from|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+The	others	the|_start_|date|true|false|false|false|false|false|false|false|false|DT
+date	others	date|the|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|date|time|false|false|false|false|false|false|false|false|false|CC
+times	others	time|and|of|false|false|false|false|false|false|false|false|false|NNS
+of	others	of|time|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|of|seminar|false|false|false|false|false|false|false|false|false|DT
+Seminars	others	seminar|the|that|true|false|false|false|false|false|false|false|false|NNS
+that	others	that|seminar|steve|false|false|false|false|false|false|false|false|false|WDT
+Steve	speaker	steve|that|appold|true|false|false|false|false|true|false|false|false|NNP
+Appold	speaker	appold|steve|will|true|false|false|false|false|true|false|false|false|NNP
+will	others	will|appold|be|false|false|false|false|false|false|false|false|false|MD
+be	others	be|will|lectur|false|false|false|false|false|false|false|false|false|VB
+lecturing	others	lectur|be|_end_|false|false|false|false|false|false|false|false|false|VBG
+
+are	others	be|_start_|as|false|false|false|false|false|false|false|false|false|VBP
+as	others	as|be|follow|false|false|false|false|false|false|false|false|false|IN
+follows	others	follow|as|_end_|false|false|false|false|false|false|false|false|false|VBZ
+
+1	others	1|_start_|-rrb-|false|false|false|false|false|false|false|false|false|LS
+-RRB-	others	-rrb-|1|the|false|false|false|false|false|false|false|false|false|-RRB-
+The	others	the|-rrb-|social|true|false|false|false|false|false|false|false|false|DT
+Social	others	social|the|role|true|false|false|false|false|false|false|false|false|NNP
+Role	others	role|social|of|true|false|false|false|false|false|false|false|false|NN
+of	others	of|role|art|false|false|false|false|false|false|false|false|false|IN
+Art	others	art|of|and|true|false|false|false|false|false|false|false|false|NNP
+and	others	and|art|the|false|false|false|false|false|false|false|false|false|CC
+the	others	the|and|characterist|false|false|false|false|false|false|false|false|false|DT
+Characteristics	others	characterist|the|of|true|false|false|false|false|false|false|false|false|NNS
+of	others	of|characterist|art|false|false|false|false|false|false|false|false|false|IN
+Arts	others	art|of|consum|true|false|false|false|false|false|false|false|false|NNS
+Consumers	others	consum|art|_end_|true|false|false|false|false|false|false|false|false|NNS
+
+Thursday	others	thursdai|_start_|mai|true|false|false|false|false|false|false|false|true|NNP
+May	others	mai|thursdai|2|true|false|false|false|false|false|false|false|true|NNP
+2	others	2|mai|at|false|false|false|false|false|false|false|false|true|CD
+at	others	at|2|12:30|false|false|false|false|false|false|false|false|false|IN
+12:30	stime	12:30|at|in|false|false|false|false|false|false|false|false|false|CD
+in	others	in|12:30|hbh|false|false|false|false|false|false|false|false|false|IN
+HBH	location	hbh|in|1004|false|true|false|true|false|false|false|false|false|NN
+1004	location	1004|hbh|_end_|false|false|false|false|false|false|false|false|true|CD
+

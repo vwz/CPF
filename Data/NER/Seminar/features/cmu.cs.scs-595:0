@@ -1,0 +1,300 @@
+Type	others	type|_start_|cmu|true|false|false|false|false|false|false|false|false|NN
+cmu	others	cmu|type|c|false|false|false|false|false|false|false|false|false|NN
+cs	others	c|cmu|sc|false|false|false|false|false|false|false|false|false|NNS
+scs	others	sc|c|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+Topic	others	topic|_start_|psc\/c|true|false|false|false|false|false|false|false|false|NN
+PSC\/CS	others	psc\/c|topic|seminar|false|false|false|false|false|false|false|false|false|NN
+Seminar	others	seminar|psc\/c|2\/28|true|false|false|false|false|false|false|false|false|NN
+2\/28	others	2\/28|seminar|4:00|false|false|false|false|false|false|false|false|false|CD
+4:00	others	4:00|2\/28|seu|false|false|false|false|false|false|false|false|false|CD
+SEI	others	seu|4:00|_end_|false|true|false|true|false|false|false|false|false|NN
+
+Dates	others	date|_start_|28-feb-92|true|false|false|false|false|false|false|false|false|NNS
+28-Feb-92	others	28-feb-92|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|4:00|true|false|false|false|false|false|false|false|false|NNP
+4:00	stime	4:00|time|_end_|false|false|false|false|false|false|false|false|false|CD
+
+PostedBy	others	postedbi|_start_|trg|false|false|false|false|true|false|false|false|false|NNP
+trg	others	trg|postedbi|on|false|false|false|false|false|false|false|false|false|NN
+on	others	on|trg|20-feb-92|false|false|false|false|false|false|false|false|false|IN
+20-Feb-92	others	20-feb-92|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|20-feb-92|11:16|false|false|false|false|false|false|false|false|false|IN
+11:16	others	11:16|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|11:16|n2|false|false|false|false|false|false|false|false|false|IN
+N2	others	n2|from|sp.cs.cmu.edu|false|false|false|false|false|false|false|false|false|NN
+SP.CS.CMU.EDU	others	sp.cs.cmu.edu|n2|-lrb-|false|false|false|false|false|false|false|false|false|NN
+-LRB-	others	-lrb-|sp.cs.cmu.edu|thoma|false|false|false|false|false|false|false|false|false|-LRB-
+Thomas	others	thoma|-lrb-|gross|true|false|false|false|false|false|false|false|false|NNP
+Gross	others	gross|thoma|-rrb-|true|false|false|false|false|false|false|false|false|NNP
+-RRB-	others	-rrb-|gross|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+Approaching	others	approach|_start_|mpp|true|false|false|false|false|false|false|false|false|VBG
+MPP	others	mpp|approach|for|false|true|false|true|false|false|false|false|false|NN
+for	others	for|mpp|molecular|false|false|false|false|false|false|false|false|false|IN
+Molecular	others	molecular|for|dynam|true|false|false|false|false|false|false|false|false|JJ
+Dynamics	others	dynam|molecular|and|true|false|false|false|false|false|false|false|false|NNPS
+and	others	and|dynam|mechan|false|false|false|false|false|false|false|false|false|CC
+Mechanics	others	mechan|and|of|true|false|false|false|false|false|false|false|false|NNPS
+of	others	of|mechan|biomolecul|false|false|false|false|false|false|false|false|false|IN
+Biomolecules	others	biomolecul|of|_end_|true|false|false|false|false|false|false|false|false|NNPS
+
+Chemistry	others	chemistri|_start_|depart|true|false|false|false|false|false|false|false|false|NNP
+Department	others	depart|chemistri|carnegi|true|false|false|false|false|false|false|false|false|NNP
+Carnegie	others	carnegi|depart|mellon|true|false|false|false|false|false|false|false|false|NNP
+Mellon	others	mellon|carnegi|univers|true|false|false|false|false|false|false|false|false|NNP
+University	others	univers|mellon|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Feb	others	feb|_start_|28|true|false|false|false|false|false|false|false|true|NNP
+28	others	28|feb|1992|false|false|false|false|false|false|false|false|true|CD
+1992	others	1992|28|4:00|false|false|false|false|false|false|false|false|true|CD
+4:00	stime	4:00|1992|p.|false|false|false|false|false|false|false|false|false|CD
+p.	stime	p.|4:00|m|false|false|false|false|false|false|false|false|false|NN
+m	stime	m|p.|_end_|false|false|false|false|false|false|false|false|false|NN
+
+The	others	the|_start_|anticip|true|false|false|false|false|false|false|false|false|DT
+anticipation	others	anticip|the|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|anticip|perform|false|false|false|false|false|false|false|false|false|IN
+performing	others	perform|of|large-scal|false|false|false|false|false|false|false|false|false|VBG
+large-scale	others	large-scal|perform|simul|false|false|false|false|false|false|false|false|false|JJ
+simulations	others	simul|large-scal|to|false|false|false|false|false|false|false|false|false|NNS
+to	others	to|simul|address|false|false|false|false|false|false|false|false|false|TO
+address	others	address|to|crucial|false|false|false|false|false|false|false|false|false|VB
+crucial	others	crucial|address|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+questions	others	question|_start_|in|false|false|false|false|false|false|false|false|false|NNS
+in	others	in|question|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|in|area|false|false|false|false|false|false|false|false|false|DT
+area	others	area|the|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|area|biomolecul|false|false|false|false|false|false|false|false|false|IN
+biomolecule	others	biomolecul|of|structur|false|false|false|false|false|false|false|false|false|NN
+structure	others	structur|biomolecul|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|structur|dynam|false|false|false|false|false|false|false|false|false|CC
+dynamics	others	dynam|and|-lrb-|false|false|false|false|false|false|false|false|false|NNS
+-LRB-	others	-lrb-|dynam|for|false|false|false|false|false|false|false|false|false|-LRB-
+for	others	for|-lrb-|exampl|false|false|false|false|false|false|false|false|false|IN
+example	others	exampl|for|_end_|false|false|false|false|false|false|false|false|false|NN
+
+protein	others	protein|_start_|fold|false|false|false|false|false|false|false|false|false|NN
+folding	others	fold|protein|drug|false|false|false|false|false|false|false|false|false|JJ
+drug	others	drug|fold|discoveri|false|false|false|false|false|false|false|false|false|NN
+discovery	others	discoveri|drug|enzym|false|false|false|false|false|false|false|false|false|NN
+enzyme	others	enzym|discoveri|catalysi|false|false|false|false|false|false|false|false|false|NN
+catalysis	others	catalysi|enzym|-rrb-|false|false|false|false|false|false|false|false|false|NN
+-RRB-	others	-rrb-|catalysi|be|false|false|false|false|false|false|false|false|false|-RRB-
+is	others	be|-rrb-|fuel|false|false|false|false|false|false|false|false|false|VBZ
+fueled	others	fuel|be|by|false|false|false|false|false|false|false|false|false|VBN
+by	others	by|fuel|advanc|false|false|false|false|false|false|false|false|false|IN
+advances	others	advanc|by|in|false|false|false|false|false|false|false|false|false|NNS
+in	others	in|advanc|_end_|false|false|false|false|false|false|false|false|false|IN
+
+the	others	the|_start_|develop|false|false|false|false|false|false|false|false|false|DT
+development	others	develop|the|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|develop|massiv|false|false|false|false|false|false|false|false|false|IN
+massively	others	massiv|of|parallel|false|false|false|false|false|false|false|false|false|RB
+parallel	others	parallel|massiv|hardwar|false|false|false|false|false|false|false|false|false|JJ
+hardware	others	hardwar|parallel|howev|false|false|false|false|false|false|false|false|false|NN
+However	others	howev|hardwar|realiz|true|false|false|false|false|false|false|false|false|RB
+realization	others	realiz|howev|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|realiz|_end_|false|false|false|false|false|false|false|false|false|IN
+
+this	others	thi|_start_|goal|false|false|false|false|false|false|false|false|false|DT
+goal	others	goal|thi|requir|false|false|false|false|false|false|false|false|false|NN
+requires	others	requir|goal|not|false|false|false|false|false|false|false|false|false|VBZ
+not	others	not|requir|onli|false|false|false|false|false|false|false|false|false|RB
+only	others	onli|not|the|false|false|false|false|false|false|false|false|false|RB
+the	others	the|onli|hardwar|false|false|false|false|false|false|false|false|false|DT
+hardware	others	hardwar|the|develop|false|false|false|false|false|false|false|false|false|NN
+developments	others	develop|hardwar|but|false|false|false|false|false|false|false|false|false|NNS
+but	others	but|develop|also|false|false|false|false|false|false|false|false|false|CC
+also	others	also|but|a|false|false|false|false|false|false|false|false|false|RB
+a	others	a|also|_end_|false|false|false|false|false|false|false|false|false|DT
+
+substantial	others	substanti|_start_|invest|false|false|false|false|false|false|false|false|false|JJ
+investment	others	invest|substanti|in|false|false|false|false|false|false|false|false|false|NN
+in	others	in|invest|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|in|develop|false|false|false|false|false|false|false|false|false|DT
+development	others	develop|the|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|develop|implement|false|false|false|false|false|false|false|false|false|CC
+implementation	others	implement|and|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|implement|scalabl|false|false|false|false|false|false|false|false|false|IN
+scalable	others	scalabl|of|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+algorithms	others	algorithm|_start_|to|false|false|false|false|false|false|false|false|false|NNS
+to	others	to|algorithm|carri|false|false|false|false|false|false|false|false|false|TO
+carry	others	carri|to|out|false|false|false|false|false|false|false|false|false|VB
+out	others	out|carri|simul|false|false|false|false|false|false|false|false|false|RP
+simulations	others	simul|out|of|false|false|false|false|false|false|false|false|false|NNS
+of	others	of|simul|biomolecul|false|false|false|false|false|false|false|false|false|IN
+biomolecules	others	biomolecul|of|in|false|false|false|false|false|false|false|false|false|NNS
+In	others	in|biomolecul|thi|true|false|false|false|false|false|false|false|false|IN
+this	others	thi|in|seminar|false|false|false|false|false|false|false|false|false|DT
+seminar	others	seminar|thi|i|false|false|false|false|false|false|false|false|false|NN
+I	others	i|seminar|_end_|false|false|true|true|false|false|false|false|false|PRP
+
+will	others	will|_start_|discuss|false|false|false|false|false|false|false|false|false|MD
+discuss	others	discuss|will|some|false|false|false|false|false|false|false|false|false|VB
+some	others	some|discuss|of|false|false|false|false|false|false|false|false|false|DT
+of	others	of|some|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|of|grand|false|false|false|false|false|false|false|false|false|DT
+grand	others	grand|the|challeng|false|false|false|false|false|false|false|false|false|JJ
+challenge	others	challeng|grand|problem|false|false|false|false|false|false|false|false|false|NN
+problems	others	problem|challeng|which|false|false|false|false|false|false|false|false|false|NNS
+which	others	which|problem|motiv|false|false|false|false|false|false|false|false|false|WDT
+motivate	others	motiv|which|work|false|false|false|false|false|false|false|false|false|VBP
+work	others	work|motiv|on|false|false|false|false|false|false|false|false|false|NN
+on	others	on|work|_end_|false|false|false|false|false|false|false|false|false|IN
+
+the	others	the|_start_|softwar|false|false|false|false|false|false|false|false|false|DT
+software	others	softwar|the|side|false|false|false|false|false|false|false|false|false|NN
+side	others	side|softwar|with|false|false|false|false|false|false|false|false|false|NN
+with	others	with|side|a|false|false|false|false|false|false|false|false|false|IN
+a	others	a|with|particular|false|false|false|false|false|false|false|false|false|DT
+particular	others	particular|a|focu|false|false|false|false|false|false|false|false|false|JJ
+focus	others	focu|particular|to|false|false|false|false|false|false|false|false|false|NN
+to	others	to|focu|problem|false|false|false|false|false|false|false|false|false|TO
+problems	others	problem|to|be|false|false|false|false|false|false|false|false|false|NNS
+being	others	be|problem|address|false|false|false|false|false|false|false|false|false|VBG
+addressed	others	address|be|in|false|false|false|false|false|false|false|false|false|VBN
+in	others	in|address|_end_|false|false|false|false|false|false|false|false|false|IN
+
+our	others	we|_start_|research|false|false|false|false|false|false|false|false|false|PRP$
+research	others	research|we|group|false|false|false|false|false|false|false|false|false|NN
+group	others	group|research|i|false|false|false|false|false|false|false|false|false|NN
+I	others	i|group|will|false|false|true|true|false|false|false|false|false|PRP
+will	others	will|i|then|false|false|false|false|false|false|false|false|false|MD
+then	others	then|will|describ|false|false|false|false|false|false|false|false|false|RB
+describe	others	describ|then|effort|false|false|false|false|false|false|false|false|false|VB
+efforts	others	effort|describ|underwai|false|false|false|false|false|false|false|false|false|NNS
+underway	others	underwai|effort|in|false|false|false|false|false|false|false|false|false|NN
+in	others	in|underwai|we|false|false|false|false|false|false|false|false|false|IN
+our	others	we|in|laboratori|false|false|false|false|false|false|false|false|false|PRP$
+laboratory	others	laboratori|we|_end_|false|false|false|false|false|false|false|false|false|NN
+
+to	others	to|_start_|address|false|false|false|false|false|false|false|false|false|TO
+address	others	address|to|the|false|false|false|false|false|false|false|false|false|VB
+the	others	the|address|algorithmic\/softwar|false|false|false|false|false|false|false|false|false|DT
+algorithmic\/software	others	algorithmic\/softwar|the|question|false|false|false|false|false|false|false|false|false|NN
+questions	others	question|algorithmic\/softwar|for|false|false|false|false|false|false|false|false|false|NNS
+for	others	for|question|biomolecul|false|false|false|false|false|false|false|false|false|IN
+biomolecule	others	biomolecul|for|dynam|false|false|false|false|false|false|false|false|false|NN
+dynamics	others	dynam|biomolecul|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+Emphasis	others	emphasi|_start_|will|true|false|false|false|false|false|false|false|false|NN
+will	others	will|emphasi|be|false|false|false|false|false|false|false|false|false|MD
+be	others	be|will|lai|false|false|false|false|false|false|false|false|false|VB
+laid	others	lai|be|upon|false|false|false|false|false|false|false|false|false|VBN
+upon	others	upon|lai|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|upon|descript|false|false|false|false|false|false|false|false|false|DT
+description	others	descript|the|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|descript|two|false|false|false|false|false|false|false|false|false|IN
+two	others	two|of|strategi|false|false|false|false|false|false|false|false|false|CD
+strategies	others	strategi|two|we|false|false|false|false|false|false|false|false|false|NNS
+we	others	we|strategi|have|false|false|false|false|false|false|false|false|false|PRP
+have	others	have|we|_end_|false|false|false|false|false|false|false|false|false|VBP
+
+experimented	others	experi|_start_|with|false|false|false|false|false|false|false|false|false|VBN
+with	others	with|experi|for|false|false|false|false|false|false|false|false|false|IN
+for	others	for|with|molecular|false|false|false|false|false|false|false|false|false|IN
+molecular	others	molecular|for|dynam|false|false|false|false|false|false|false|false|false|JJ
+dynamics	others	dynam|molecular|on|false|false|false|false|false|false|false|false|false|NNS
+on	others	on|dynam|parallel|false|false|false|false|false|false|false|false|false|IN
+parallel	others	parallel|on|architectur|false|false|false|false|false|false|false|false|false|JJ
+architecture	others	architectur|parallel|machin|false|false|false|false|false|false|false|false|false|NN
+machine	others	machin|architectur|_end_|false|false|false|false|false|false|false|false|false|NN
+
+First	others	first|_start_|i|true|false|false|false|false|false|false|false|false|NNP
+I	others	i|first|will|false|false|true|true|false|false|false|false|false|PRP
+will	others	will|i|describ|false|false|false|false|false|false|false|false|false|MD
+describe	others	describ|will|the|false|false|false|false|false|false|false|false|false|VB
+the	others	the|describ|implement|false|false|false|false|false|false|false|false|false|DT
+implementation	others	implement|the|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|implement|a|false|false|false|false|false|false|false|false|false|IN
+a	others	a|of|molecular|false|false|false|false|false|false|false|false|false|DT
+molecular	others	molecular|a|dynam|false|false|false|false|false|false|false|false|false|JJ
+dynamics	others	dynam|molecular|kernel|false|false|false|false|false|false|false|false|false|NNS
+kernel	others	kernel|dynam|for|false|false|false|false|false|false|false|false|false|NN
+for	others	for|kernel|_end_|false|false|false|false|false|false|false|false|false|IN
+
+studies	others	studi|_start_|of|false|false|false|false|false|false|false|false|false|NNS
+of	others	of|studi|solut|false|false|false|false|false|false|false|false|false|IN
+solutions	others	solut|of|of|false|false|false|false|false|false|false|false|false|NNS
+of	others	of|solut|small|false|false|false|false|false|false|false|false|false|IN
+small	others	small|of|molecul|false|false|false|false|false|false|false|false|false|JJ
+molecules	others	molecul|small|on|false|false|false|false|false|false|false|false|false|NNS
+on	others	on|molecul|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|on|cm-2|false|false|false|false|false|false|false|false|false|DT
+CM-2	others	cm-2|the|crai|false|false|false|false|false|false|false|false|false|NN
+Cray	others	crai|cm-2|and|true|false|false|false|false|false|false|false|false|NNP
+and	others	and|crai|cm-5|false|false|false|false|false|false|false|false|false|CC
+CM-5	others	cm-5|and|next|false|false|false|false|false|false|false|false|false|NNP
+Next	others	next|cm-5|i|true|false|false|false|false|false|false|false|false|NNP
+I	others	i|next|_end_|false|false|true|true|false|false|false|false|false|PRP
+
+will	others	will|_start_|describ|false|false|false|false|false|false|false|false|false|MD
+describe	others	describ|will|preliminari|false|false|false|false|false|false|false|false|false|VB
+preliminary	others	preliminari|describ|work|false|false|false|false|false|false|false|false|false|JJ
+work	others	work|preliminari|on|false|false|false|false|false|false|false|false|false|NN
+on	others	on|work|util|false|false|false|false|false|false|false|false|false|IN
+utilizing	others	util|on|a|false|false|false|false|false|false|false|false|false|VBG
+a	others	a|util|tightli|false|false|false|false|false|false|false|false|false|DT
+tightly	others	tightli|a|coupl|false|false|false|false|false|false|false|false|false|RB
+coupled	others	coupl|tightli|heterogen|false|false|false|false|false|false|false|false|false|VBN
+heterogeneous	others	heterogen|coupl|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+computing	others	comput|_start_|environ|false|false|false|false|false|false|false|false|false|VBG
+environment	others	environ|comput|-lrb-|false|false|false|false|false|false|false|false|false|NN
+-LRB-	others	-lrb-|environ|the|false|false|false|false|false|false|false|false|false|-LRB-
+the	others	the|-lrb-|crai|false|false|false|false|false|false|false|false|false|DT
+Cray	others	crai|the|ymp|true|false|false|false|false|false|false|false|false|NNP
+YMP	others	ymp|crai|and|false|true|false|true|false|false|false|false|false|NNP
+and	others	and|ymp|cm-2|false|false|false|false|false|false|false|false|false|CC
+CM-2	others	cm-2|and|connect|false|false|false|false|false|false|false|false|false|NN
+connected	others	connect|cm-2|via|false|false|false|false|false|false|false|false|false|VBN
+via	others	via|connect|a|false|false|false|false|false|false|false|false|false|IN
+a	others	a|via|hippu|false|false|false|false|false|false|false|false|false|DT
+HiPPI	others	hippu|a|-rrb-|false|false|false|false|false|false|false|false|false|NN
+-RRB-	others	-rrb-|hippu|to|false|false|false|false|false|false|false|false|false|-RRB-
+to	others	to|-rrb-|carri|false|false|false|false|false|false|false|false|false|TO
+carry	others	carri|to|_end_|false|false|false|false|false|false|false|false|false|VB
+
+out	others	out|_start_|calcul|false|false|false|false|false|false|false|false|false|IN
+calculations	others	calcul|out|on|false|false|false|false|false|false|false|false|false|NNS
+on	others	on|calcul|solvat|false|false|false|false|false|false|false|false|false|IN
+solvated	others	solvat|on|protein|false|false|false|false|false|false|false|false|false|JJ
+protein	others	protein|solvat|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|protein|peptid|false|false|false|false|false|false|false|false|false|CC
+peptide	others	peptid|and|molecul|false|false|false|false|false|false|false|false|false|NN
+molecules	others	molecul|peptid|i|false|false|false|false|false|false|false|false|false|NNS
+I	others	i|molecul|will|false|false|true|true|false|false|false|false|false|PRP
+will	others	will|i|_end_|false|false|false|false|false|false|false|false|false|MD
+
+summarize	others	summar|_start_|with|false|false|false|false|false|false|false|false|false|VB
+with	others	with|summar|a|false|false|false|false|false|false|false|false|false|IN
+a	others	a|with|discuss|false|false|false|false|false|false|false|false|false|DT
+discussion	others	discuss|a|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|discuss|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|of|futur|false|false|false|false|false|false|false|false|true|DT
+future	others	futur|the|prospect|false|false|false|false|false|false|false|false|true|JJ
+prospects	others	prospect|futur|for|false|false|false|false|false|false|false|false|false|NNS
+for	others	for|prospect|us|false|false|false|false|false|false|false|false|false|IN
+using	others	us|for|mpp|false|false|false|false|false|false|false|false|false|VBG
+MPP	others	mpp|us|_end_|false|true|false|true|false|false|false|false|false|NN
+
+architectures	others	architectur|_start_|with|false|false|false|false|false|false|false|false|false|NNS
+with	others	with|architectur|peak|false|false|false|false|false|false|false|false|false|IN
+peak	others	peak|with|comput|false|false|false|false|false|false|false|false|false|JJ
+computational	others	comput|peak|rate|false|false|false|false|false|false|false|false|false|JJ
+rates	others	rate|comput|in|false|false|false|false|false|false|false|false|false|NNS
+in	others	in|rate|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|in|teraflop|false|false|false|false|false|false|false|false|false|DT
+teraflop	others	teraflop|the|rang|false|false|false|false|false|false|false|false|false|NN
+range	others	rang|teraflop|for|false|false|false|false|false|false|false|false|false|NN
+for	others	for|rang|_end_|false|false|false|false|false|false|false|false|false|IN
+
+biomolecule	others	biomolecul|_start_|dynam|false|false|false|false|false|false|false|false|false|NN
+dynamics	others	dynam|biomolecul|_end_|false|false|false|false|false|false|false|false|false|NNS
+

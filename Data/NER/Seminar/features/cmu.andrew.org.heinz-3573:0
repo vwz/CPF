@@ -1,0 +1,78 @@
+Type	others	type|_start_|cmu.andrew.org|true|false|false|false|false|false|false|false|false|NN
+cmu.andrew.org	others	cmu.andrew.org|type|heinz|false|false|false|false|false|false|false|false|false|NN
+heinz	others	heinz|cmu.andrew.org|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Topic	others	topic|_start_|soup|true|false|false|false|false|false|false|false|false|NN
+Soup	others	soup|topic|substanc|true|false|false|false|false|false|false|false|false|NNP
+Substance	others	substanc|soup|lectur|true|false|false|false|false|false|false|false|false|NNP
+Lecture	others	lectur|substanc|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Dates	others	date|_start_|23-feb-93|true|false|false|false|false|false|false|false|false|NNS
+23-Feb-93	others	23-feb-93|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|12:00|true|false|false|false|false|false|false|false|false|NNP
+12:00	stime	12:00|time|pm|false|false|false|false|false|false|false|false|false|CD
+PM	stime	pm|12:00|1:00|false|true|false|true|false|false|true|false|false|NN
+1:00	etime	1:00|pm|pm|false|false|false|false|false|false|false|true|false|CD
+PM	etime	pm|1:00|_end_|false|true|false|true|false|false|false|false|false|NN
+
+PostedBy	others	postedbi|_start_|edmund|false|false|false|false|true|false|false|false|false|NNP
+Edmund	others	edmund|postedbi|j.|true|false|false|false|false|true|false|false|false|NNP
+J.	others	j.|edmund|delanei|false|false|false|false|false|true|false|false|false|NNP
+Delaney	others	delanei|j.|on|true|false|false|false|false|true|false|false|false|NNP
+on	others	on|delanei|22-feb-93|false|false|false|false|false|false|false|false|false|IN
+22-Feb-93	others	22-feb-93|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|22-feb-93|07:15|false|false|false|false|false|false|false|false|false|IN
+07:15	others	07:15|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|07:15|andrew.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+andrew.cmu.edu	others	andrew.cmu.edu|from|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+Reminder	others	remind|_start_|_end_|true|false|false|false|false|false|false|false|false|NN
+
+Feb.	others	feb.|_start_|23|false|false|false|false|false|false|false|false|true|NNP
+23	others	23|feb.|-lrb-|false|false|false|false|false|false|false|false|true|CD
+-LRB-	others	-lrb-|23|tuesdai|false|false|false|false|false|false|false|false|false|-LRB-
+Tuesday	others	tuesdai|-lrb-|-rrb-|true|false|false|false|false|false|false|false|true|NNP
+-RRB-	others	-rrb-|tuesdai|soup|false|false|false|false|false|false|false|false|false|-RRB-
+Soup	others	soup|-rrb-|substanc|true|false|false|false|false|false|false|false|false|NNP
+Substance	others	substanc|soup|seri|true|false|false|false|false|false|false|false|false|NNP
+Series	others	seri|substanc|the|true|false|false|false|false|false|false|false|false|NNP
+The	others	the|seri|futur|true|false|false|false|false|false|false|false|true|DT
+Future	others	futur|the|of|true|false|false|false|false|false|false|false|true|NNP
+of	others	of|futur|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|of|clinton|false|false|false|false|false|false|false|false|false|DT
+Clinton	others	clinton|the|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+Presidency	others	presid|_start_|erik|true|false|false|false|false|false|false|false|false|NNP
+Erik	speaker	erik|presid|devereux|true|false|false|false|false|true|false|false|false|NNP
+Devereux	speaker	devereux|erik|assist|true|false|false|false|false|true|false|false|false|NNP
+assistant	others	assist|devereux|professor|false|false|false|false|false|true|false|false|false|JJ
+professor	others	professor|assist|the|false|false|false|false|false|true|false|false|false|NN
+The	others	the|professor|heinz|true|false|false|false|false|false|false|false|false|DT
+Heinz	others	heinz|the|school|true|false|false|false|false|false|false|false|false|NNP
+School	others	school|heinz|mark|true|false|false|false|false|false|false|false|false|NNP
+Mark	others	mark|school|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+Kamlet	others	kamlet|_start_|professor|true|false|false|false|false|true|false|false|false|NNP
+professor	others	professor|kamlet|and|false|false|false|false|false|true|false|false|false|NN
+and	others	and|professor|depart|false|false|false|false|false|false|false|false|false|CC
+department	others	depart|and|head|false|false|false|false|false|false|false|false|false|NN
+head	others	head|depart|sd|false|false|false|false|false|false|false|false|false|NN
+SDS	others	sd|head|richard|false|true|false|true|false|false|false|false|false|NN
+Richard	speaker	richard|sd|smith|true|false|false|false|false|true|false|false|false|NNP
+Smith	speaker	smith|richard|associ|true|false|false|false|false|true|false|false|false|NNP
+associate	others	associ|smith|_end_|false|false|false|false|false|false|false|false|false|NN
+
+dean	others	dean|_start_|h&ss|false|false|false|false|false|false|false|false|false|NN
+H&SS	others	h&ss|dean|patrick|false|false|false|false|false|false|false|false|false|NN
+Patrick	speaker	patrick|h&ss|stroh|true|false|false|false|false|true|false|false|false|NNP
+Stroh	speaker	stroh|patrick|assist|true|false|false|false|false|true|false|false|false|NNP
+assistant	others	assist|stroh|professor|false|false|false|false|false|true|false|false|false|JJ
+professor	others	professor|assist|sd|false|false|false|false|false|true|false|false|false|NN
+SDS	others	sd|professor|noon|false|true|false|true|false|false|false|false|false|NN
+Noon	stime	noon|sd|1|true|false|false|false|false|false|true|false|false|NN
+1	etime	1|noon|p.m.|false|false|false|false|false|false|false|true|false|CD
+p.m.	etime	p.m.|1|_end_|false|false|false|false|false|false|false|false|false|NN
+

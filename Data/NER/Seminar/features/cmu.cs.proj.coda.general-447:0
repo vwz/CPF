@@ -1,0 +1,89 @@
+Type	others	type|_start_|cmu|true|false|false|false|false|false|false|false|false|NN
+cmu	others	cmu|type|c|false|false|false|false|false|false|false|false|false|NN
+cs	others	c|cmu|proj|false|false|false|false|false|false|false|false|false|NNS
+proj	others	proj|c|coda|false|false|false|false|false|false|false|false|false|NN
+coda	others	coda|proj|gener|false|false|false|false|false|false|false|false|false|NN
+general	others	gener|coda|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+Topic	others	topic|_start_|practic|true|false|false|false|false|false|false|false|false|NN
+Practice	others	practic|topic|talk|true|false|false|false|false|false|false|false|false|NN
+talk	others	talk|practic|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Dates	others	date|_start_|1-dec-94|true|false|false|false|false|false|false|false|false|NNS
+1-Dec-94	others	1-dec-94|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|2:00|true|false|false|false|false|false|false|false|false|NNP
+2:00	stime	2:00|time|pm|false|false|false|false|false|false|false|false|false|CD
+PM	stime	pm|2:00|_end_|false|true|false|true|false|false|false|false|false|NN
+
+PostedBy	others	postedbi|_start_|lili|false|false|false|false|true|false|false|false|false|NNP
+lily	others	lili|postedbi|on|false|false|false|false|false|false|false|false|false|NN
+on	others	on|lili|28-nov-94|false|false|false|false|false|false|false|false|false|IN
+28-Nov-94	others	28-nov-94|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|28-nov-94|18:03|false|false|false|false|false|false|false|false|false|IN
+18:03	others	18:03|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|18:03|cs.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+cs.cmu.edu	others	cs.cmu.edu|from|-lrb-|false|false|false|false|false|false|false|false|false|NN
+-LRB-	others	-lrb-|cs.cmu.edu|lili|false|false|false|false|false|false|false|false|false|-LRB-
+Lily	others	lili|-lrb-|mummert|true|false|false|false|false|true|false|false|false|NNP
+Mummert	others	mummert|lili|-rrb-|true|false|false|false|false|true|false|false|false|NNP
+-RRB-	others	-rrb-|mummert|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+I	others	i|_start_|be|false|false|true|true|false|false|false|false|false|PRP
+'m	others	be|i|give|false|false|false|false|false|false|false|false|false|VBP
+giving	others	give|be|a|false|false|false|false|false|false|false|false|false|VBG
+a	others	a|give|practic|false|false|false|false|false|false|false|false|false|DT
+practice	others	practic|a|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|practic|my|false|false|false|false|false|false|false|false|false|IN
+my	others	my|of|talk|false|false|false|false|false|false|false|false|false|PRP$
+talk	others	talk|my|for|false|false|false|false|false|false|false|false|false|NN
+for	others	for|talk|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|for|workshop|false|false|false|false|false|false|false|false|false|DT
+workshop	others	workshop|the|on|false|false|false|false|false|false|false|false|false|NN
+on	others	on|workshop|mobil|false|false|false|false|false|false|false|false|false|IN
+mobile	others	mobil|on|comput|false|false|false|false|false|false|false|false|false|JJ
+computing	others	comput|mobil|_end_|false|false|false|false|false|false|false|false|false|NN
+
+systems	others	system|_start_|and|false|false|false|false|false|false|false|false|false|NNS
+and	others	and|system|applic|false|false|false|false|false|false|false|false|false|CC
+applications	others	applic|and|thi|false|false|false|false|false|false|false|false|false|NNS
+this	others	thi|applic|thursdai|false|false|false|false|false|false|false|false|true|DT
+Thursday	others	thursdai|thi|decemb|true|false|false|false|false|false|false|false|true|NNP
+December	others	decemb|thursdai|1|true|false|false|false|false|false|false|false|true|NNP
+1	others	1|decemb|in|false|false|false|false|false|false|false|false|true|CD
+in	others	in|1|weh|false|false|false|false|false|false|false|false|false|IN
+WeH	location	weh|in|7220|false|false|false|false|false|false|false|false|false|NN
+7220	location	7220|weh|at|false|false|false|false|false|false|false|false|false|CD
+at	others	at|7220|_end_|false|false|false|false|false|false|false|false|false|IN
+
+2pm	stime	2pm|_start_|the|false|false|false|false|false|false|false|false|false|JJ
+The	others	the|2pm|talk|true|false|false|false|false|false|false|false|false|DT
+talk	others	talk|the|be|false|false|false|false|false|false|false|false|false|NN
+is	others	be|talk|suppos|false|false|false|false|false|false|false|false|false|VBZ
+supposed	others	suppos|be|to|false|false|false|false|false|false|false|false|false|VBN
+to	others	to|suppos|last|false|false|false|false|false|false|false|false|false|TO
+last	others	last|to|15|false|false|false|false|false|false|false|false|false|JJ
+15	others	15|last|minut|false|false|false|false|false|false|false|false|false|CD
+minutes	others	minut|15|i|false|false|false|false|false|false|false|false|false|NNS
+I	others	i|minut|have|false|false|true|true|false|false|false|false|false|PRP
+have	others	have|i|the|false|false|false|false|false|false|false|false|false|VBP
+the	others	the|have|room|false|false|false|false|false|false|false|false|false|DT
+room	others	room|the|for|false|false|false|false|false|false|false|false|false|NN
+for	others	for|room|on|false|false|false|false|false|false|false|false|false|IN
+one	others	on|for|_end_|false|false|false|false|false|false|false|false|false|CD
+
+hour	others	hour|_start_|i|false|false|false|false|false|false|false|false|false|NN
+I	others	i|hour|would|false|false|true|true|false|false|false|false|false|PRP
+'d	others	would|i|appreci|false|false|false|false|false|false|false|false|false|MD
+appreciate	others	appreci|would|it|false|false|false|false|false|false|false|false|false|VB
+it	others	it|appreci|if|false|false|false|false|false|false|false|false|false|PRP
+if	others	if|it|you|false|false|false|false|false|false|false|false|false|IN
+you	others	you|if|would|false|false|false|false|false|false|false|false|false|PRP
+would	others	would|you|come|false|false|false|false|false|false|false|false|false|MD
+come	others	come|would|and|false|false|false|false|false|false|false|false|false|VB
+and	others	and|come|poke|false|false|false|false|false|false|false|false|false|CC
+poke	others	poke|and|hole|false|false|false|false|false|false|false|false|false|VB
+holes	others	hole|poke|_end_|false|false|false|false|false|false|false|false|false|NNS
+

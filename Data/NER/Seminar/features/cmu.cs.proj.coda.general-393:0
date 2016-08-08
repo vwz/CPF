@@ -1,0 +1,223 @@
+Type	others	type|_start_|cmu|true|false|false|false|false|false|false|false|false|NN
+cmu	others	cmu|type|c|false|false|false|false|false|false|false|false|false|NN
+cs	others	c|cmu|proj|false|false|false|false|false|false|false|false|false|NNS
+proj	others	proj|c|coda|false|false|false|false|false|false|false|false|false|NN
+coda	others	coda|proj|gener|false|false|false|false|false|false|false|false|false|NN
+general	others	gener|coda|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+Topic	others	topic|_start_|inform|true|false|false|false|false|false|false|false|false|NN
+INFORMAL	others	inform|topic|talk|false|true|false|true|false|false|false|false|false|NNP
+TALK	others	talk|inform|_end_|false|true|false|true|false|false|false|false|false|NNP
+
+Dates	others	date|_start_|8-jun-94|true|false|false|false|false|false|false|false|false|NNS
+8-Jun-94	others	8-jun-94|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|1:30|true|false|false|false|false|false|false|false|false|NNP
+1:30	stime	1:30|time|pm|false|false|false|false|false|false|false|false|false|CD
+PM	stime	pm|1:30|3:00|false|true|false|true|false|false|true|false|false|NN
+3:00	etime	3:00|pm|pm|false|false|false|false|false|false|false|true|false|CD
+PM	etime	pm|3:00|_end_|false|true|false|true|false|false|false|false|false|NN
+
+PostedBy	others	postedbi|_start_|mp3r|false|false|false|false|true|false|false|false|false|NNP
+mp3r	others	mp3r|postedbi|on|false|false|false|false|false|false|false|false|false|NN
+on	others	on|mp3r|31-may-94|false|false|false|false|false|false|false|false|false|IN
+31-May-94	others	31-may-94|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|31-may-94|09:21|false|false|false|false|false|false|false|false|false|IN
+09:21	others	09:21|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|09:21|marge.adm.cs.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+MARGE.ADM.CS.CMU.EDU	others	marge.adm.cs.cmu.edu|from|-lrb-|false|false|false|false|false|false|false|false|false|NN
+-LRB-	others	-lrb-|marge.adm.cs.cmu.edu|margaret|false|false|false|false|false|false|false|false|false|-LRB-
+Margaret	others	margaret|-lrb-|profeta|true|false|false|false|false|true|false|false|false|NNP
+Profeta	others	profeta|margaret|-rrb-|true|false|false|false|false|true|false|false|false|NNP
+-RRB-	others	-rrb-|profeta|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+JETFILE	others	jetfil|_start_|a|false|true|false|true|false|false|false|false|false|NNP
+A	others	a|jetfil|distribut|false|false|true|true|false|false|false|false|false|NNP
+DISTRIBUTED	others	distribut|a|file|false|true|false|true|false|false|false|false|false|NNP
+FILE	others	file|distribut|system|false|true|false|true|false|false|false|false|false|NNP
+SYSTEM	others	system|file|for|false|true|false|true|false|false|false|false|false|NNP
+FOR	others	for|system|big|false|true|false|true|false|false|false|false|false|IN
+BIG	others	big|for|memori|false|true|false|true|false|false|false|false|false|NNP
+MEMORY	others	memori|big|desktop|false|true|false|true|false|false|false|false|false|NNP
+DESKTOPS	others	desktop|memori|_end_|false|true|false|true|false|false|false|false|false|NNPS
+
+ATTACHED	others	attach|_start_|to|false|true|false|true|false|false|false|false|false|VBN
+TO	others	to|attach|high|false|true|false|true|false|false|false|false|false|TO
+HIGH	others	high|to|speed|false|true|false|true|false|false|false|false|false|NNP
+SPEED	others	speed|high|network|false|true|false|true|false|false|false|false|false|NNP
+NETWORKS	others	network|speed|_end_|false|true|false|true|false|false|false|false|false|NNS
+
+SWEDISH	others	swedish|_start_|institut|false|true|false|true|false|false|false|false|false|JJ
+INSTITUTE	others	institut|swedish|of|false|true|false|true|false|false|false|false|false|NNP
+OF	others	of|institut|technolog|false|true|false|true|false|false|false|false|false|IN
+TECHNOLOGY	others	technolog|of|_end_|false|true|false|true|false|false|false|false|false|NNP
+
+WEDNESDAY	others	wednesdai|_start_|june|false|true|false|true|false|false|false|false|true|NNP
+JUNE	others	june|wednesdai|8|false|true|false|true|false|false|false|false|true|NNP
+8	others	8|june|1994|false|false|false|false|false|false|false|false|true|CD
+1994	others	1994|8|_end_|false|false|false|false|false|false|false|false|true|CD
+
+This	others	thi|_start_|talk|true|false|false|false|false|false|false|false|false|DT
+talk	others	talk|thi|present|false|false|false|false|false|false|false|false|false|NN
+presents	others	present|talk|some|false|false|false|false|false|false|false|false|false|VBZ
+some	others	some|present|idea|false|false|false|false|false|false|false|false|false|DT
+ideas	others	idea|some|on|false|false|false|false|false|false|false|false|false|NNS
+on	others	on|idea|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|on|design|false|false|false|false|false|false|false|false|false|DT
+design	others	design|the|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|design|jetfil|false|false|false|false|false|false|false|false|false|IN
+JetFile	others	jetfil|of|a|false|false|false|false|false|false|false|false|false|NNP
+a	others	a|jetfil|_end_|false|false|false|false|false|false|false|false|false|DT
+
+distributed	others	distribut|_start_|file|false|false|false|false|false|false|false|false|false|VBN
+file	others	file|distribut|system|false|false|false|false|false|false|false|false|false|NN
+system	others	system|file|for|false|false|false|false|false|false|false|false|false|NN
+for	others	for|system|comput|false|false|false|false|false|false|false|false|false|IN
+computers	others	comput|for|that|false|false|false|false|false|false|false|false|false|NNS
+that	others	that|comput|have|false|false|false|false|false|false|false|false|false|WDT
+have	others	have|that|big|false|false|false|false|false|false|false|false|false|VBP
+big	others	big|have|memori|false|false|false|false|false|false|false|false|false|JJ
+memories	others	memori|big|and|false|false|false|false|false|false|false|false|false|NNS
+and	others	and|memori|_end_|false|false|false|false|false|false|false|false|false|CC
+
+are	others	be|_start_|attach|false|false|false|false|false|false|false|false|false|VBP
+attached	others	attach|be|to|false|false|false|false|false|false|false|false|false|VBN
+to	others	to|attach|high|false|false|false|false|false|false|false|false|false|TO
+high	others	high|to|speed|false|false|false|false|false|false|false|false|false|JJ
+speed	others	speed|high|network|false|false|false|false|false|false|false|false|false|NN
+networks	others	network|speed|jetfil|false|false|false|false|false|false|false|false|false|NNS
+JetFile	others	jetfil|network|be|false|false|false|false|false|false|false|false|false|NN
+is	others	be|jetfil|design|false|false|false|false|false|false|false|false|false|VBZ
+designed	others	design|be|for|false|false|false|false|false|false|false|false|false|VBN
+for	others	for|design|_end_|false|false|false|false|false|false|false|false|false|IN
+
+workstations	others	workstat|_start_|that|false|false|false|false|false|false|false|false|false|NNS
+that	others	that|workstat|have|false|false|false|false|false|false|false|false|false|WDT
+have	others	have|that|hundr|false|false|false|false|false|false|false|false|false|VBP
+hundreds	others	hundr|have|of|false|false|false|false|false|false|false|false|false|NNS
+of	others	of|hundr|megabyt|false|false|false|false|false|false|false|false|false|IN
+megabytes	others	megabyt|of|of|false|false|false|false|false|false|false|false|false|NNS
+of	others	of|megabyt|main|false|false|false|false|false|false|false|false|false|IN
+main	others	main|of|memori|false|false|false|false|false|false|false|false|false|JJ
+memory	others	memori|main|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|memori|_end_|false|false|false|false|false|false|false|false|false|CC
+
+communicate	others	commun|_start_|with|false|false|false|false|false|false|false|false|false|VB
+with	others	with|commun|thei|false|false|false|false|false|false|false|false|false|IN
+their	others	thei|with|server|false|false|false|false|false|false|false|false|false|PRP$
+servers	others	server|thei|on|false|false|false|false|false|false|false|false|false|NNS
+on	others	on|server|network|false|false|false|false|false|false|false|false|false|IN
+networks	others	network|on|where|false|false|false|false|false|false|false|false|false|NNS
+where	others	where|network|user-to-us|false|false|false|false|false|false|false|false|false|WRB
+user-to-user	others	user-to-us|where|_end_|false|false|false|false|false|false|false|false|false|NN
+
+bandwidth	others	bandwidth|_start_|be|false|false|false|false|false|false|false|false|false|NN
+is	others	be|bandwidth|avail|false|false|false|false|false|false|false|false|false|VBZ
+available	others	avail|be|at|false|false|false|false|false|false|false|false|false|JJ
+at	others	at|avail|speed|false|false|false|false|false|false|false|false|false|IN
+speeds	others	speed|at|approach|false|false|false|false|false|false|false|false|false|NNS
+approaching	others	approach|speed|on|false|false|false|false|false|false|false|false|false|VBG
+one	others	on|approach|gigabit|false|false|false|false|false|false|false|false|false|CD
+gigabit	others	gigabit|on|per|false|false|false|false|false|false|false|false|false|NN
+per	others	per|gigabit|_end_|false|false|false|false|false|false|false|false|false|IN
+
+second	others	second|_start_|jetfil|false|false|false|false|false|false|false|false|false|JJ
+JetFile	others	jetfil|second|cach|false|false|false|false|false|false|false|false|false|NN
+caches	others	cach|jetfil|whole|false|false|false|false|false|false|false|false|false|NNS
+whole	others	whole|cach|directori|false|false|false|false|false|false|false|false|false|JJ
+directories	others	directori|whole|on|false|false|false|false|false|false|false|false|false|NNS
+on	others	on|directori|refer|false|false|false|false|false|false|false|false|false|IN
+reference	others	refer|on|to|false|false|false|false|false|false|false|false|false|NN
+to	others	to|refer|prevent|false|false|false|false|false|false|false|false|false|TO
+prevent	others	prevent|to|_end_|false|false|false|false|false|false|false|false|false|VB
+
+costly	others	costli|_start_|round|false|false|false|false|false|false|false|false|false|JJ
+round	others	round|costli|trip|false|false|false|false|false|false|false|false|false|NN
+trip	others	trip|round|time|false|false|false|false|false|false|false|false|false|NN
+times	others	time|trip|while|false|false|false|false|false|false|false|false|false|NNS
+while	others	while|time|it|false|false|false|false|false|false|false|false|false|IN
+it	others	it|while|share|false|false|false|false|false|false|false|false|false|PRP
+shares	others	share|it|main|false|false|false|false|false|false|false|false|false|VBZ
+main	others	main|share|memori|false|false|false|false|false|false|false|false|false|JJ
+memory	others	memori|main|with|false|false|false|false|false|false|false|false|false|NN
+with	others	with|memori|user|false|false|false|false|false|false|false|false|false|IN
+user	others	user|with|_end_|false|false|false|false|false|false|false|false|false|NN
+
+programs	others	program|_start_|jetfil|false|false|false|false|false|false|false|false|false|NNS
+JetFile	others	jetfil|program|us|false|false|false|false|false|false|false|false|false|NNP
+uses	others	us|jetfil|multicast|false|false|false|false|false|false|false|false|false|VBZ
+multicast	others	multicast|us|to|false|false|false|false|false|false|false|false|false|NNS
+to	others	to|multicast|support|false|false|false|false|false|false|false|false|false|TO
+support	others	support|to|server|false|false|false|false|false|false|false|false|false|VB
+server	others	server|support|replic|false|false|false|false|false|false|false|false|false|NN
+replication	others	replic|server|_end_|false|false|false|false|false|false|false|false|false|NN
+
+and	others	and|_start_|us|false|false|false|false|false|false|false|false|false|CC
+uses	others	us|and|multicast|false|false|false|false|false|false|false|false|false|VBZ
+multicast	others	multicast|us|to|false|false|false|false|false|false|false|false|false|NNS
+to	others	to|multicast|provid|false|false|false|false|false|false|false|false|false|TO
+provide	others	provid|to|the|false|false|false|false|false|false|false|false|false|VB
+the	others	the|provid|basi|false|false|false|false|false|false|false|false|false|DT
+basis	others	basi|the|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|basi|consist|false|false|false|false|false|false|false|false|false|IN
+consistency	others	consist|of|_end_|false|false|false|false|false|false|false|false|false|NN
+
+guarantees	others	guarante|_start_|as|false|false|false|false|false|false|false|false|false|NNS
+as	others	as|guarante|server|false|false|false|false|false|false|false|false|false|IN
+servers	others	server|as|updat|false|false|false|false|false|false|false|false|false|NNS
+update	others	updat|server|group|false|false|false|false|false|false|false|false|false|VBP
+groups	others	group|updat|of|false|false|false|false|false|false|false|false|false|NNS
+of	others	of|group|client|false|false|false|false|false|false|false|false|false|IN
+clients	others	client|of|with|false|false|false|false|false|false|false|false|false|NNS
+with	others	with|client|new|false|false|false|false|false|false|false|false|false|IN
+new	others	new|with|file|false|false|false|false|false|false|false|false|false|JJ
+file	others	file|new|_end_|false|false|false|false|false|false|false|false|false|NN
+
+versions	others	version|_start_|jetfil|false|false|false|false|false|false|false|false|false|NNS
+JetFile	others	jetfil|version|be|false|false|false|false|false|false|false|false|false|NN
+is	others	be|jetfil|be|false|false|false|false|false|false|false|false|false|VBZ
+being	others	be|be|design|false|false|false|false|false|false|false|false|false|VBG
+designed	others	design|be|for|false|false|false|false|false|false|false|false|false|VBN
+for	others	for|design|us|false|false|false|false|false|false|false|false|false|IN
+use	others	us|for|in|false|false|false|false|false|false|false|false|false|NN
+in	others	in|us|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|in|swedish|false|false|false|false|false|false|false|false|false|DT
+Swedish	others	swedish|the|high|true|false|false|false|false|false|false|false|false|NNP
+High	others	high|swedish|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Performance	others	perform|_start_|comput|true|false|false|false|false|false|false|false|false|NNP
+Computer	others	comput|perform|network|true|false|false|false|false|false|false|false|false|NNP
+Network	others	network|comput|a|true|false|false|false|false|false|false|false|false|NNP
+a	others	a|network|fiber-opt|false|false|false|false|false|false|false|false|false|DT
+fiber-optic	others	fiber-opt|a|network|false|false|false|false|false|false|false|false|false|JJ
+network	others	network|fiber-opt|that|false|false|false|false|false|false|false|false|false|NN
+that	others	that|network|span|false|false|false|false|false|false|false|false|false|WDT
+spans	others	span|that|_end_|false|false|false|false|false|false|false|false|false|VBZ
+
+the	others	the|_start_|length|false|false|false|false|false|false|false|false|false|DT
+length	others	length|the|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|length|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|of|countri|false|false|false|false|false|false|false|false|false|DT
+country	others	countri|the|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Note	others	note|_start_|thi|true|false|false|false|false|false|false|false|false|NN
+This	others	thi|note|inform|true|false|false|false|false|false|false|false|false|DT
+informal	others	inform|thi|talk|false|false|false|false|false|false|false|false|false|JJ
+talk	others	talk|inform|describ|false|false|false|false|false|false|false|false|false|NN
+describes	others	describ|talk|a|false|false|false|false|false|false|false|false|false|VBZ
+a	others	a|describ|piec|false|false|false|false|false|false|false|false|false|DT
+piece	others	piec|a|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|piec|work|false|false|false|false|false|false|false|false|false|IN
+work	others	work|of|in|false|false|false|false|false|false|false|false|false|NN
+in	others	in|work|it|false|false|false|false|false|false|false|false|false|IN
+its	others	it|in|earli|false|false|false|false|false|false|false|false|false|PRP$
+early	others	earli|it|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+stages	others	stage|_start_|feedback|false|false|false|false|false|false|false|false|false|NNS
+Feedback	others	feedback|stage|will|true|false|false|false|false|false|false|false|false|NN
+will	others	will|feedback|be|false|false|false|false|false|false|false|false|false|MD
+be	others	be|will|appreci|false|false|false|false|false|false|false|false|false|VB
+appreciated	others	appreci|be|_end_|false|false|false|false|false|false|false|false|false|VBN
+

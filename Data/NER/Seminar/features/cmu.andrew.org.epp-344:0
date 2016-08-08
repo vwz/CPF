@@ -1,0 +1,246 @@
+Type	others	type|_start_|cmu.andrew.org|true|false|false|false|false|false|false|false|false|NN
+cmu.andrew.org	others	cmu.andrew.org|type|epp|false|false|false|false|false|false|false|false|false|NN
+epp	others	epp|cmu.andrew.org|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Topic	others	topic|_start_|rayman|true|false|false|false|false|false|false|false|false|NN
+Rayman	speaker	rayman|topic|talk|true|false|false|false|false|true|false|false|false|NN
+talk	others	talk|rayman|competit|false|false|false|false|false|false|false|false|false|NN
+Competition	others	competit|talk|vs.|true|false|false|false|false|false|false|false|false|NN
+vs.	others	vs.|competit|commun|false|false|false|false|false|false|false|false|false|CC
+Community	others	commun|vs.|11\/10\/93|true|false|false|false|false|false|false|false|false|NN
+11\/10\/93	others	11\/10\/93|commun|4:30|false|false|false|false|false|false|false|false|true|CD
+4:30	stime	4:30|11\/10\/93|benedum|false|false|false|false|false|false|false|false|false|CD
+Benedum	location	benedum|4:30|hall|true|false|false|false|false|false|false|false|false|NNP
+Hall	location	hall|benedum|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Dates	others	date|_start_|09-nov-93|true|false|false|false|false|false|false|false|false|NNS
+09-Nov-93	others	09-nov-93|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|4:30|true|false|false|false|false|false|false|false|false|NNP
+4:30	stime	4:30|time|_end_|false|false|false|false|false|false|false|false|false|CD
+
+PostedBy	others	postedbi|_start_|mark|false|false|false|false|true|false|false|false|false|NNP
+Mark	others	mark|postedbi|kantrowitz|true|false|false|false|false|true|false|false|false|NNP
+Kantrowitz	others	kantrowitz|mark|on|true|false|false|false|false|true|false|false|false|NNP
+on	others	on|kantrowitz|09-nov-93|false|false|false|false|false|false|false|false|false|IN
+09-Nov-93	others	09-nov-93|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|09-nov-93|22:01|false|false|false|false|false|false|false|false|false|IN
+22:01	others	22:01|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|22:01|glinda.oz.cs.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+GLINDA.OZ.CS.CMU.EDU	others	glinda.oz.cs.cmu.edu|from|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+Blind-Carbon-Copy	others	blind-carbon-copi|_start_|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+To	others	to|_start_|gso+@andrew.cmu.edu|true|false|false|false|false|false|false|false|false|TO
+gso+@ANDREW.CMU.EDU	others	gso+@andrew.cmu.edu|to|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Subject	others	subject|_start_|rayman|true|false|false|false|false|false|false|false|false|NNP
+Rayman	speaker	rayman|subject|talk|true|false|false|false|false|true|false|false|false|NNP
+talk	others	talk|rayman|competit|false|false|false|false|false|false|false|false|false|NN
+Competition	others	competit|talk|vs.|true|false|false|false|false|false|false|false|false|NN
+vs.	others	vs.|competit|commun|false|false|false|false|false|false|false|false|false|CC
+Community	others	commun|vs.|11\/10\/93|true|false|false|false|false|false|false|false|false|NN
+11\/10\/93	others	11\/10\/93|commun|4:30|false|false|false|false|false|false|false|false|true|CD
+4:30	stime	4:30|11\/10\/93|benedum|false|false|false|false|false|false|false|false|false|CD
+Benedum	location	benedum|4:30|hall|true|false|false|false|false|false|false|false|false|NNP
+Hall	location	hall|benedum|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Date	others	date|_start_|tue|true|false|false|false|false|false|false|false|false|NN
+Tue	others	tue|date|09|true|false|false|false|false|false|false|false|false|NN
+09	others	09|tue|nov|false|false|false|false|false|false|false|false|false|CD
+Nov	others	nov|09|93|true|false|false|false|false|false|false|false|false|NNP
+93	others	93|nov|22:01:32|false|false|false|false|false|false|false|false|false|CD
+22:01:32	others	22:01:32|93|est|false|false|false|false|false|false|false|false|false|CD
+EST	others	est|22:01:32|_end_|false|true|false|true|false|false|false|false|false|NN
+
+Message-ID	others	message-id|_start_|-lrb-|false|false|false|false|false|false|false|false|false|NNP
+-LRB-	others	-lrb-|message-id|6738.752900492@glinda.oz.cs.cmu.edu|false|false|false|false|false|false|false|false|false|-LRB-
+6738.752900492@GLINDA.OZ.CS.CMU.EDU	others	6738.752900492@glinda.oz.cs.cmu.edu|-lrb-|-rrb-|false|false|false|false|false|false|false|false|false|NN
+-RRB-	others	-rrb-|6738.752900492@glinda.oz.cs.cmu.edu|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+From	others	from|_start_|mark|true|false|false|false|false|false|false|false|false|IN
+Mark	others	mark|from|kantrowitz|true|false|false|false|false|true|false|false|false|NNP
+Kantrowitz	others	kantrowitz|mark|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+On	others	on|_start_|wednesdai|true|false|false|false|false|false|false|false|false|IN
+Wednesday	others	wednesdai|on|novemb|true|false|false|false|false|false|false|false|true|NNP
+November	others	novemb|wednesdai|10|true|false|false|false|false|false|false|false|true|NNP
+10	others	10|novemb|at|false|false|false|false|false|false|false|false|true|CD
+at	others	at|10|4:30|false|false|false|false|false|false|false|false|false|IN
+4:30	stime	4:30|at|p.|false|false|false|false|false|false|false|false|false|CD
+p.	stime	p.|4:30|m|false|false|false|false|false|false|false|false|false|NN
+m	stime	m|p.|paula|false|false|false|false|false|false|false|false|false|NN
+Paula	speaker	paula|m|rayman|true|false|false|false|false|true|false|false|false|NNP
+Rayman	speaker	rayman|paula|associ|true|false|false|false|false|true|false|false|false|NNP
+Associate	others	associ|rayman|professor|true|false|false|false|false|false|false|false|false|NNP
+Professor	others	professor|associ|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+of	others	of|_start_|sociolog|false|false|false|false|false|false|false|false|false|IN
+Sociology	others	sociolog|of|and|true|false|false|false|false|false|false|false|false|NNP
+and	others	and|sociolog|director|false|false|false|false|false|false|false|false|false|CC
+Director	others	director|and|pathwai|true|false|false|false|false|false|false|false|false|NNP
+Pathways	others	pathwai|director|for|true|false|false|false|false|false|false|false|false|NNP
+for	others	for|pathwai|women|false|false|false|false|false|false|false|false|false|IN
+Women	others	women|for|in|true|false|false|false|false|false|false|false|false|NNP
+in	others	in|women|scienc|false|false|false|false|false|false|false|false|false|IN
+Science	others	scienc|in|project|true|false|false|false|false|false|false|false|false|NNP
+Project	others	project|scienc|at|true|false|false|false|false|false|false|false|false|NNP
+at	others	at|project|_end_|false|false|false|false|false|false|false|false|false|IN
+
+Wellesley	others	welleslei|_start_|colleg|true|false|false|false|false|false|false|false|false|NNP
+College	others	colleg|welleslei|will|true|false|false|false|false|false|false|false|false|NNP
+will	others	will|colleg|speak|false|false|false|false|false|false|false|false|false|MD
+speak	others	speak|will|at|false|false|false|false|false|false|false|false|false|VB
+at	others	at|speak|1175|false|false|false|false|false|false|false|false|false|IN
+1175	location	1175|at|benedum|false|false|false|false|false|false|false|false|true|CD
+Benedum	location	benedum|1175|hall|true|false|false|false|false|false|false|false|false|NNP
+Hall	location	hall|benedum|univers|true|false|false|false|false|false|false|false|false|NNP
+University	location	univers|hall|of|true|false|false|false|false|false|false|false|false|NNP
+of	location	of|univers|_end_|false|false|false|false|false|false|false|false|false|IN
+
+Pittsburgh	others	pittsburgh|_start_|she|true|false|false|false|false|false|false|false|false|NNP
+Her	others	she|pittsburgh|topic|true|false|false|false|false|false|false|false|false|PRP$
+topic	others	topic|she|will|false|false|false|false|false|false|false|false|false|NN
+will	others	will|topic|be|false|false|false|false|false|false|false|false|false|MD
+be	others	be|will|competit|false|false|false|false|false|false|false|false|false|VB
+Competition	others	competit|be|vs.|true|false|false|false|false|false|false|false|false|NN
+Vs.	others	vs.|competit|commun|false|false|false|false|false|false|false|false|false|NNP
+Community	others	commun|vs.|build|true|false|false|false|false|false|false|false|false|NNP
+Building	others	build|commun|_end_|true|false|false|false|false|false|false|false|false|NN
+
+Equity	others	equiti|_start_|in|true|false|false|false|false|false|false|false|false|NN
+in	others	in|equiti|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|in|scienc|false|false|false|false|false|false|false|false|false|DT
+Sciences	others	scienc|the|math|true|false|false|false|false|false|false|false|false|NNPS
+Math	others	math|scienc|engin|true|false|false|false|false|false|false|false|false|NNP
+Engineering	others	engin|math|thi|true|false|false|false|false|false|false|false|false|NNP
+This	others	thi|engin|be|true|false|false|false|false|false|false|false|false|DT
+is	others	be|thi|the|false|false|false|false|false|false|false|false|false|VBZ
+the	others	the|be|third|false|false|false|false|false|false|false|false|false|DT
+third	others	third|the|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+event	others	event|_start_|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|event|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|of|cmu\/pitt|false|false|false|false|false|false|false|false|false|DT
+CMU\/Pitt	others	cmu\/pitt|the|women|false|false|false|false|false|false|false|false|false|NNP
+Women	others	women|cmu\/pitt|'s|true|false|false|false|false|false|false|false|false|NNP
+'s	others	's|women|speaker|false|false|false|false|false|false|false|false|false|POS
+Speakers	others	speaker|'s|seri|true|false|false|false|false|false|false|false|false|NNS
+Series	others	seri|speaker|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Benedum	others	benedum|_start_|hall|true|false|false|false|false|false|false|false|false|NNP
+Hall	others	hall|benedum|be|true|false|false|false|false|false|false|false|false|NNP
+is	others	be|hall|locat|false|false|false|false|false|false|false|false|false|VBZ
+located	others	locat|be|on|false|false|false|false|false|false|false|false|false|VBN
+on	others	on|locat|o'hara|false|false|false|false|false|false|false|false|false|IN
+O'Hara	others	o'hara|on|street|false|false|false|false|false|false|false|false|false|NNP
+Street	others	street|o'hara|off|true|false|false|false|false|false|false|false|false|NNP
+off	others	off|street|of|false|false|false|false|false|false|false|false|false|IN
+of	others	of|off|bouquet|false|false|false|false|false|false|false|false|false|IN
+Bouquet	others	bouquet|of|near|true|false|false|false|false|false|false|false|false|NNP
+near	others	near|bouquet|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|near|pitt|false|false|false|false|false|false|false|false|false|DT
+Pitt	others	pitt|the|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Stadium	others	stadium|_start_|take|true|false|false|false|false|false|false|false|false|NN
+Take	others	take|stadium|forb|true|false|false|false|false|false|false|false|false|VB
+Forbes	others	forb|take|to|true|false|false|false|false|false|false|false|false|NNP
+to	others	to|forb|bouquet|false|false|false|false|false|false|false|false|false|TO
+Bouquet	others	bouquet|to|turn|true|false|false|false|false|false|false|false|false|NNP
+turn	others	turn|bouquet|right|false|false|false|false|false|false|false|false|false|VB
+right	others	right|turn|and|false|false|false|false|false|false|false|false|false|JJ
+and	others	and|right|walk|false|false|false|false|false|false|false|false|false|CC
+walk	others	walk|and|up|false|false|false|false|false|false|false|false|false|VB
+up	others	up|walk|the|false|false|false|false|false|false|false|false|false|RP
+the	others	the|up|hill|false|false|false|false|false|false|false|false|false|DT
+hill	others	hill|the|to|false|false|false|false|false|false|false|false|false|NN
+to	others	to|hill|_end_|false|false|false|false|false|false|false|false|false|TO
+
+O'Hare	others	o'har|_start_|_end_|false|false|false|false|false|false|false|false|false|NNP
+
+Pathways	others	pathwai|_start_|be|true|false|false|false|false|false|false|false|false|NNPS
+is	others	be|pathwai|a|false|false|false|false|false|false|false|false|false|VBZ
+a	others	a|be|longitudin|false|false|false|false|false|false|false|false|false|DT
+longitudinal	others	longitudin|a|studi|false|false|false|false|false|false|false|false|false|JJ
+study	others	studi|longitudin|about|false|false|false|false|false|false|false|false|false|NN
+about	others	about|studi|woman|false|false|false|false|false|false|false|false|false|IN
+women	others	woman|about|in|false|false|false|false|false|false|false|false|false|NNS
+in	others	in|woman|scienc|false|false|false|false|false|false|false|false|false|IN
+science	others	scienc|in|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|scienc|math|false|false|false|false|false|false|false|false|false|CC
+math	others	math|and|what|false|false|false|false|false|false|false|false|false|NN
+what	others	what|math|_end_|false|false|false|false|false|false|false|false|false|WP
+
+attracts	others	attract|_start_|thei|false|false|false|false|false|false|false|false|false|VBZ
+them	others	thei|attract|and|false|false|false|false|false|false|false|false|false|PRP
+and	others	and|thei|keep|false|false|false|false|false|false|false|false|false|CC
+keeps	others	keep|and|thei|false|false|false|false|false|false|false|false|false|VBZ
+them	others	thei|keep|in|false|false|false|false|false|false|false|false|false|PRP
+in	others	in|thei|these|false|false|false|false|false|false|false|false|false|IN
+these	others	these|in|field|false|false|false|false|false|false|false|false|false|DT
+fields	others	field|these|at|false|false|false|false|false|false|false|false|false|NNS
+at	others	at|field|critic|false|false|false|false|false|false|false|false|false|IN
+critical	others	critic|at|stage|false|false|false|false|false|false|false|false|false|JJ
+stages	others	stage|critic|in|false|false|false|false|false|false|false|false|false|NNS
+in	others	in|stage|thei|false|false|false|false|false|false|false|false|false|IN
+their	others	thei|in|_end_|false|false|false|false|false|false|false|false|false|PRP$
+
+lives	others	life|_start_|accord|false|false|false|false|false|false|false|false|false|NNS
+According	others	accord|life|to|true|false|false|false|false|false|false|false|false|VBG
+to	others	to|accord|rayman|false|false|false|false|false|false|false|false|false|TO
+Rayman	speaker	rayman|to|four|true|false|false|false|false|true|false|false|false|NNP
+four	others	four|rayman|factor|false|false|false|false|false|false|false|false|false|CD
+factors	others	factor|four|keep|false|false|false|false|false|false|false|false|false|NNS
+keep	others	keep|factor|undergradu|false|false|false|false|false|false|false|false|false|VBP
+undergraduates	others	undergradu|keep|engag|false|false|false|false|false|false|false|false|false|NNS
+engaged	others	engag|undergradu|in|false|false|false|false|false|false|false|false|false|VBN
+in	others	in|engag|_end_|false|false|false|false|false|false|false|false|false|IN
+
+science	others	scienc|_start_|parent|false|false|false|false|false|false|false|false|false|NN
+parents	others	parent|scienc|mentor|false|false|false|false|false|false|false|false|false|NNS
+mentors	others	mentor|parent|hands-on|false|false|false|false|false|false|false|false|false|NNS
+hands-on	others	hands-on|mentor|experi|false|false|false|false|false|false|false|false|false|JJ
+experience	others	experi|hands-on|research|false|false|false|false|false|false|false|false|false|NN
+research	others	research|experi|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|research|career|false|false|false|false|false|false|false|false|false|CC
+career	others	career|and|_end_|false|false|false|false|false|false|false|false|false|NN
+
+advice	others	advic|_start_|in|false|false|false|false|false|false|false|false|false|NN
+In	others	in|advic|graduat|true|false|false|false|false|false|false|false|false|IN
+graduate	others	graduat|in|school|false|false|false|false|false|false|false|false|false|JJ
+school	others	school|graduat|the|false|false|false|false|false|false|false|false|false|NN
+the	others	the|school|import|false|false|false|false|false|false|false|false|false|DT
+importance	others	import|the|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|import|mentor|false|false|false|false|false|false|false|false|false|IN
+mentors	others	mentor|of|make|false|false|false|false|false|false|false|false|false|NNS
+makes	others	make|mentor|the|false|false|false|false|false|false|false|false|false|VBZ
+the	others	the|make|_end_|false|false|false|false|false|false|false|false|false|DT
+
+difference	others	differ|_start_|_end_|false|false|false|false|false|false|false|false|false|NN
+
+For	others	for|_start_|further|true|false|false|false|false|false|false|false|false|IN
+further	others	further|for|inform|false|false|false|false|false|false|false|false|false|JJ
+information	others	inform|further|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|inform|to|false|false|false|false|false|false|false|false|false|CC
+to	others	to|and|rsvp|false|false|false|false|false|false|false|false|false|TO
+RSVP	others	rsvp|to|contact|false|true|false|true|false|false|false|false|false|NN
+contact	others	contact|rsvp|kathleen|false|false|false|false|false|false|false|false|false|NN
+Kathleen	others	kathleen|contact|minadeo|true|false|false|false|false|true|false|false|false|NNP
+Minadeo	others	minadeo|kathleen|johnson|true|false|false|false|false|true|false|false|false|NNP
+Johnson	others	johnson|minadeo|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+x8-7970	others	x8-7970|_start_|or|false|false|false|false|false|false|false|false|false|NN
+or	others	or|x8-7970|kj26|false|false|false|false|false|false|false|false|false|CC
+kj26	others	kj26|or|_end_|false|false|false|false|false|false|false|false|false|NN
+
+End	others	end|_start_|of|true|false|false|false|false|false|false|false|false|NN
+of	others	of|end|forward|false|false|false|false|false|false|false|false|false|IN
+Forwarded	others	forward|of|messag|true|false|false|false|false|false|false|false|false|NNP
+Message	others	messag|forward|_end_|true|false|false|false|false|false|false|false|false|NN
+
+End	others	end|_start_|of|true|false|false|false|false|false|false|false|false|NN
+of	others	of|end|blind-carbon-copi|false|false|false|false|false|false|false|false|false|IN
+Blind-Carbon-Copy	others	blind-carbon-copi|of|_end_|false|false|false|false|false|false|false|false|false|NNP
+

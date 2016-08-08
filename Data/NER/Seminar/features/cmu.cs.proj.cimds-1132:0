@@ -1,0 +1,118 @@
+Type	others	type|_start_|cmu|true|false|false|false|false|false|false|false|false|NN
+cmu	others	cmu|type|c|false|false|false|false|false|false|false|false|false|NN
+cs	others	c|cmu|proj|false|false|false|false|false|false|false|false|false|NNS
+proj	others	proj|c|cimd|false|false|false|false|false|false|false|false|false|NN
+cimds	others	cimd|proj|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+Topic	others	topic|_start_|advanc|true|false|false|false|false|false|false|false|false|NN
+ADVANCED	others	advanc|topic|om|false|true|false|true|false|false|false|false|false|VBN
+OM	others	om|advanc|seminar|false|true|false|true|false|false|false|false|false|NN
+SEMINAR	others	seminar|om|seri|false|true|false|true|false|false|false|false|false|NN
+SERIES	others	seri|seminar|_end_|false|true|false|true|false|false|false|false|false|NN
+
+Dates	others	date|_start_|30-may-90|true|false|false|false|false|false|false|false|false|NNS
+30-May-90	others	30-may-90|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|2:00|true|false|false|false|false|false|false|false|false|NNP
+2:00	stime	2:00|time|3:30|false|false|false|false|false|false|true|false|false|CD
+3:30	etime	3:30|2:00|pm|false|false|false|false|false|false|false|true|false|CD
+PM	etime	pm|3:30|_end_|false|true|false|true|false|false|false|false|false|NN
+
+PostedBy	others	postedbi|_start_|ravi|false|false|false|false|true|false|false|false|false|NNP
+Ravi	others	ravi|postedbi|anupindi|true|false|false|false|false|true|false|false|false|NNP
+Anupindi	others	anupindi|ravi|on|true|false|false|false|false|true|false|false|false|NNP
+on	others	on|anupindi|29-may-90|false|false|false|false|false|false|false|false|false|IN
+29-May-90	others	29-may-90|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|29-may-90|14:28|false|false|false|false|false|false|false|false|false|IN
+14:28	others	14:28|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|14:28|isl1|false|false|false|false|false|false|false|false|false|IN
+ISL1	others	isl1|from|ri.cmu.edu|false|false|false|false|false|false|false|false|false|NN
+RI.CMU.EDU	others	ri.cmu.edu|isl1|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+Advanced	others	advanc|_start_|oper|true|false|false|false|false|false|false|false|false|NNP
+Operations	others	oper|advanc|manag|true|false|false|false|false|false|false|false|false|NNP
+Management	others	manag|oper|seminar|true|false|false|false|false|false|false|false|false|NNP
+Seminar	others	seminar|manag|be|true|false|false|false|false|false|false|false|false|NNP
+is	others	be|seminar|a|false|false|false|false|false|false|false|false|false|VBZ
+a	others	a|be|regular|false|false|false|false|false|false|false|false|false|DT
+regular	others	regular|a|weekli|false|false|false|false|false|false|false|false|false|JJ
+weekly	others	weekli|regular|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+seminar	others	seminar|_start_|conduct|false|false|false|false|false|false|false|false|false|NN
+conducted	others	conduct|seminar|at|false|false|false|false|false|false|false|false|false|VBN
+at	others	at|conduct|gsium|false|false|false|false|false|false|false|false|false|IN
+GSIA	others	gsium|at|usual|false|true|false|true|false|false|false|false|false|NN
+Usually	others	usual|gsium|we|true|false|false|false|false|false|false|false|false|RB
+we	others	we|usual|cover|false|false|false|false|false|false|false|false|false|PRP
+cover	others	cover|we|paper|false|false|false|false|false|false|false|false|false|VBP
+papers	others	paper|cover|by|false|false|false|false|false|false|false|false|false|NNS
+by	others	by|paper|other|false|false|false|false|false|false|false|false|false|IN
+other	others	other|by|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+authors	others	author|_start_|-lrb-|false|false|false|false|false|false|false|false|false|NNS
+-LRB-	others	-lrb-|author|un|false|false|false|false|false|false|false|false|false|-LRB-
+un	others	un|-lrb-|-rrb-|false|false|false|false|false|false|false|false|false|NN
+-RRB-	others	-rrb-|un|publish|false|false|false|false|false|false|false|false|false|-RRB-
+published	others	publish|-rrb-|the|false|false|false|false|false|false|false|false|false|VBN
+The	others	the|publish|purpos|true|false|false|false|false|false|false|false|false|DT
+purpose	others	purpos|the|be|false|false|false|false|false|false|false|false|false|NN
+is	others	be|purpos|to|false|false|false|false|false|false|false|false|false|VBZ
+to	others	to|be|get|false|false|false|false|false|false|false|false|false|TO
+get	others	get|to|a|false|false|false|false|false|false|false|false|false|VB
+a	others	a|get|broad|false|false|false|false|false|false|false|false|false|DT
+broad	others	broad|a|exposur|false|false|false|false|false|false|false|false|false|JJ
+exposure	others	exposur|broad|_end_|false|false|false|false|false|false|false|false|false|NN
+
+to	others	to|_start_|the|false|false|false|false|false|false|false|false|false|TO
+the	others	the|to|state-of-the-art|false|false|false|false|false|false|false|false|false|DT
+state-of-the-art	others	state-of-the-art|the|in|false|false|false|false|false|false|false|false|false|JJ
+in	others	in|state-of-the-art|oper|false|false|false|false|false|false|false|false|false|IN
+Operations	others	oper|in|manag|true|false|false|false|false|false|false|false|false|NNP
+Management	others	manag|oper|area|true|false|false|false|false|false|false|false|false|NNP
+area	others	area|manag|howev|false|false|false|false|false|false|false|false|false|NN
+However	others	howev|area|_end_|true|false|false|false|false|false|false|false|false|RB
+
+students	others	student|_start_|and|false|false|false|false|false|false|false|false|false|NNS
+and	others	and|student|faculti|false|false|false|false|false|false|false|false|false|CC
+faculty	others	faculti|and|be|false|false|false|false|false|false|false|false|false|NN
+are	others	be|faculti|most|false|false|false|false|false|false|false|false|false|VBP
+most	others	most|be|welcom|false|false|false|false|false|false|false|false|false|RBS
+welcome	others	welcom|most|to|false|false|false|false|false|false|false|false|false|JJ
+to	others	to|welcom|present|false|false|false|false|false|false|false|false|false|TO
+present	others	present|to|thei|false|false|false|false|false|false|false|false|false|VB
+their	others	thei|present|origin|false|false|false|false|false|false|false|false|false|PRP$
+original	others	origin|thei|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+work	others	work|_start_|the|false|false|false|false|false|false|false|false|false|NN
+The	others	the|work|seminar|true|false|false|false|false|false|false|false|false|DT
+seminar	others	seminar|the|be|false|false|false|false|false|false|false|false|false|NN
+is	others	be|seminar|conduct|false|false|false|false|false|false|false|false|false|VBZ
+conducted	others	conduct|be|everi|false|false|false|false|false|false|false|false|false|VBN
+every	others	everi|conduct|wednesdai|false|false|false|false|false|false|false|false|false|DT
+Wednesday	others	wednesdai|everi|the|true|false|false|false|false|false|false|false|true|NNP
+The	others	the|wednesdai|time|true|false|false|false|false|false|false|false|false|DT
+time	others	time|the|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|time|venu|false|false|false|false|false|false|false|false|false|CC
+venue	others	venu|and|_end_|false|false|false|false|false|false|false|false|false|NN
+
+for	others	for|_start_|thi|false|false|false|false|false|false|false|false|false|IN
+this	others	thi|for|summer|false|false|false|false|false|false|false|false|true|DT
+summer	others	summer|thi|-lrb-|false|false|false|false|false|false|false|false|true|NN
+-LRB-	others	-lrb-|summer|until|false|false|false|false|false|false|false|false|false|-LRB-
+until	others	until|-lrb-|aug.|false|false|false|false|false|false|false|false|false|IN
+Aug.	others	aug.|until|90|false|false|false|false|false|false|false|false|true|NNP
+90	others	90|aug.|-rrb-|false|false|false|false|false|false|false|false|true|CD
+-RRB-	others	-rrb-|90|be|false|false|false|false|false|false|false|false|false|-RRB-
+is	others	be|-rrb-|2:00|false|false|false|false|false|false|false|false|false|VBZ
+2:00	stime	2:00|be|3:30|false|false|false|false|false|false|true|false|false|CD
+3:30	etime	3:30|2:00|pm|false|false|false|false|false|false|false|true|false|CD
+pm	etime	pm|3:30|in|false|false|false|false|false|false|false|false|false|NN
+in	others	in|pm|room|false|false|false|false|false|false|false|false|false|IN
+room	location	room|in|318|false|false|false|false|false|false|false|false|false|NN
+318	location	318|room|-lrb-|false|false|false|false|false|false|false|false|false|CD
+-LRB-	location	-lrb-|318|gsium|false|false|false|false|false|false|false|false|false|-LRB-
+GSIA	location	gsium|-lrb-|-rrb-|false|true|false|true|false|false|false|false|false|NN
+-RRB-	others	-rrb-|gsium|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+

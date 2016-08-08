@@ -1,0 +1,62 @@
+Type	others	type|_start_|cmu|true|false|false|false|false|false|false|false|false|NN
+cmu	others	cmu|type|c|false|false|false|false|false|false|false|false|false|NN
+cs	others	c|cmu|proj|false|false|false|false|false|false|false|false|false|NNS
+proj	others	proj|c|speech|false|false|false|false|false|false|false|false|false|NN
+speech	others	speech|proj|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Topic	others	topic|_start_|speech|true|false|false|false|false|false|false|false|false|NN
+speech	others	speech|topic|recog|false|false|false|false|false|false|false|false|false|NN
+recog	others	recog|speech|talk|false|false|false|false|false|false|false|false|false|NN
+talk	others	talk|recog|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Dates	others	date|_start_|10-sep-85|true|false|false|false|false|false|false|false|false|NNS
+10-Sep-85	others	10-sep-85|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|3:00|true|false|false|false|false|false|false|false|false|NNP
+3:00	stime	3:00|time|pm|false|false|false|false|false|false|false|false|false|CD
+PM	stime	pm|3:00|_end_|false|true|false|true|false|false|false|false|false|NN
+
+PostedBy	others	postedbi|_start_|roberto|false|false|false|false|true|false|false|false|false|NNP
+Roberto	others	roberto|postedbi|bisiani|true|false|false|false|false|true|false|false|false|NNP
+Bisiani	others	bisiani|roberto|on|true|false|false|false|false|true|false|false|false|NNP
+on	others	on|bisiani|09-sep-85|false|false|false|false|false|false|false|false|false|IN
+09-Sep-85	others	09-sep-85|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|09-sep-85|09:07|false|false|false|false|false|false|false|false|false|IN
+09:07	others	09:07|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|09:07|cmu-cs-vlsu|false|false|false|false|false|false|false|false|false|IN
+CMU-CS-VLSI	others	cmu-cs-vlsu|from|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+Tue	others	tue|_start_|sept.|true|false|false|false|false|false|false|false|false|NNP
+Sept.	others	sept.|tue|10|false|false|false|false|false|false|false|false|true|NNP
+10	others	10|sept.|at|false|false|false|false|false|false|false|false|true|CD
+at	others	at|10|3pm|false|false|false|false|false|false|false|false|false|IN
+3pm	stime	3pm|at|in|false|false|false|false|false|false|false|false|false|JJ
+in	others	in|3pm|weh8220|false|false|false|false|false|false|false|false|false|IN
+WeH8220	location	weh8220|in|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Hans-Werner	speaker	hans-wern|_start_|hein|false|false|false|false|false|true|false|false|false|NNP
+Hein	speaker	hein|hans-wern|from|true|false|false|false|false|true|false|false|false|NNP
+from	others	from|hein|gesellschaft|false|false|false|false|false|false|false|false|false|IN
+Gesellschaft	others	gesellschaft|from|fur|true|false|false|false|false|false|false|false|false|NNP
+fur	others	fur|gesellschaft|mathematik|false|false|false|false|false|false|false|false|false|NN
+Mathematik	others	mathematik|fur|and|true|false|false|false|false|false|false|false|false|NNP
+and	others	and|mathematik|datenverarbeitung|false|false|false|false|false|false|false|false|false|CC
+Datenverarbeitung	others	datenverarbeitung|and|mbh|true|false|false|false|false|false|false|false|false|NNP
+mbH	others	mbh|datenverarbeitung|_end_|false|false|false|false|false|false|false|false|false|NN
+
+-LRB-	others	-lrb-|_start_|gmd|false|false|false|false|false|false|false|false|false|-LRB-
+GMD	others	gmd|-lrb-|-rrb-|false|true|false|true|false|false|false|false|false|NN
+-RRB-	others	-rrb-|gmd|will|false|false|false|false|false|false|false|false|false|-RRB-
+will	others	will|-rrb-|talk|false|false|false|false|false|false|false|false|false|MD
+talk	others	talk|will|on|false|false|false|false|false|false|false|false|false|VB
+on	others	on|talk|_end_|false|false|false|false|false|false|false|false|false|IN
+
+The	others	the|_start_|erlangen|true|false|false|false|false|false|false|false|false|DT
+Erlangen	others	erlangen|the|speech|true|false|false|false|false|false|false|false|false|NNP
+Speech	others	speech|erlangen|recognit|true|false|false|false|false|false|false|false|false|NNP
+Recognition	others	recognit|speech|system|true|false|false|false|false|false|false|false|false|NN
+System	others	system|recognit|_end_|true|false|false|false|false|false|false|false|false|NN
+
+

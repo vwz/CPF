@@ -1,0 +1,147 @@
+Type	others	type|_start_|cmu.andrew.org|true|false|false|false|false|false|false|false|false|NN
+cmu.andrew.org	others	cmu.andrew.org|type|heinz|false|false|false|false|false|false|false|false|false|NN
+heinz	others	heinz|cmu.andrew.org|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Who	others	who|_start_|brian|true|false|false|false|false|false|false|false|false|WP
+Brian	speaker	brian|who|mccall|true|false|false|false|false|true|false|false|false|NNP
+McCall	speaker	mccall|brian|univers|false|false|false|false|false|true|false|false|false|NNP
+University	others	univers|mccall|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|univers|minnesota|false|false|false|false|false|false|false|false|false|IN
+Minnesota	others	minnesota|of|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Topic	others	topic|_start_|unemploy|true|false|false|false|false|false|false|false|false|NN
+Unemployment	others	unemploy|topic|insur|true|false|false|false|false|false|false|false|false|NN
+Insurance	others	insur|unemploy|rule|true|false|false|false|false|false|false|false|false|NN
+Rules	others	rule|insur|jobless|true|false|false|false|false|false|false|false|false|NNS
+Joblessness	others	jobless|rule|and|true|false|false|false|false|false|false|false|false|NN
+and	others	and|jobless|_end_|false|false|false|false|false|false|false|false|false|CC
+
+Part-Time	others	part-tim|_start_|work|false|false|false|false|false|false|false|false|false|JJ
+Work	others	work|part-tim|_end_|true|false|false|false|false|false|false|false|false|NN
+
+Dates	others	date|_start_|6-may-93|true|false|false|false|false|false|false|false|false|NNS
+6-May-93	others	6-may-93|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|3:30|true|false|false|false|false|false|false|false|false|NNP
+3:30	stime	3:30|time|pm|false|false|false|false|false|false|false|false|false|CD
+PM	stime	pm|3:30|_end_|false|true|false|true|false|false|false|false|false|NN
+
+Place	others	place|_start_|univers|true|false|false|false|false|false|false|false|false|NN
+University	location	univers|place|of|true|false|false|false|false|false|false|false|false|NNP
+of	location	of|univers|pittsburgh|false|false|false|false|false|false|false|false|false|IN
+Pittsburgh	location	pittsburgh|of|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Department	others	depart|_start_|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|depart|econom|false|false|false|false|false|false|false|false|false|IN
+Economics	others	econom|of|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+4P56	others	4p56|_start_|forb|false|false|false|false|false|false|false|false|false|CD
+Forbes	others	forb|4p56|quadrangl|true|false|false|false|false|false|false|false|false|NNP
+Quadrangle	others	quadrangl|forb|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+PostedBy	others	postedbi|_start_|coral|false|false|false|false|true|false|false|false|false|NNP
+Coral	others	coral|postedbi|davi|true|false|false|false|false|true|false|false|false|NNP
+Davis	others	davi|coral|on|true|false|false|false|false|true|false|false|false|NNP
+on	others	on|davi|5-may-93|false|false|false|false|false|false|false|false|false|IN
+5-May-93	others	5-may-93|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|5-may-93|09:05|false|false|false|false|false|false|false|false|false|IN
+09:05	others	09:05|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|09:05|andrew.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+andrew.cmu.edu	others	andrew.cmu.edu|from|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+University	others	univers|_start_|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|univers|pittsburgh|false|false|false|false|false|false|false|false|false|IN
+Pittsburgh	others	pittsburgh|of|and|true|false|false|false|false|false|false|false|false|NNP
+and	others	and|pittsburgh|carnegi|false|false|false|false|false|false|false|false|false|CC
+Carnegie	others	carnegi|and|mellon|true|false|false|false|false|false|false|false|false|NNP
+Mellon	others	mellon|carnegi|univers|true|false|false|false|false|false|false|false|false|NNP
+University	others	univers|mellon|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Applied	others	appli|_start_|microeconom|true|false|false|false|false|false|false|false|false|NNP
+Microeconomics	others	microeconom|appli|workship|true|false|false|false|false|false|false|false|false|NNP
+Workship	others	workship|microeconom|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Presents	others	present|_start_|_end_|true|false|false|false|false|false|false|false|false|VBZ
+
+SPEAKER	others	speaker|_start_|brian|false|true|false|true|false|false|false|false|false|NN
+Brian	speaker	brian|speaker|mccall|true|false|false|false|false|true|false|false|false|NNP
+McCall	speaker	mccall|brian|univers|false|false|false|false|false|true|false|false|false|NNP
+University	others	univers|mccall|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|univers|minnesota|false|false|false|false|false|false|false|false|false|IN
+Minnesota	others	minnesota|of|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+TOPIC	others	topic|_start_|unemploy|false|true|false|true|false|false|false|false|false|NN
+Unemployment	others	unemploy|topic|insur|true|false|false|false|false|false|false|false|false|NN
+Insurance	others	insur|unemploy|rule|true|false|false|false|false|false|false|false|false|NN
+Rules	others	rule|insur|jobless|true|false|false|false|false|false|false|false|false|NNS
+Joblessness	others	jobless|rule|and|true|false|false|false|false|false|false|false|false|NN
+and	others	and|jobless|_end_|false|false|false|false|false|false|false|false|false|CC
+
+Part-Time	others	part-tim|_start_|work|false|false|false|false|false|false|false|false|false|JJ
+Work	others	work|part-tim|_end_|true|false|false|false|false|false|false|false|false|NN
+
+DATE	others	date|_start_|_end_|false|true|false|true|false|false|false|false|false|NNP
+
+TIME	others	time|_start_|thursdai|false|true|false|true|false|false|false|false|false|NN
+Thursday	others	thursdai|time|mai|true|false|false|false|false|false|false|false|true|NNP
+May	others	mai|thursdai|6|true|false|false|false|false|false|false|false|true|NNP
+6	others	6|mai|1993|false|false|false|false|false|false|false|false|true|CD
+1993	others	1993|6|_end_|false|false|false|false|false|false|false|false|true|CD
+
+3:30	stime	3:30|_start_|p.|false|false|false|false|false|false|false|false|false|CD
+p.	stime	p.|3:30|m|false|false|false|false|false|false|false|false|false|NN
+m	stime	m|p.|_end_|false|false|false|false|false|false|false|false|false|NN
+
+LOCATION	others	locat|_start_|univers|false|true|false|true|false|false|false|false|false|NN
+University	location	univers|locat|of|true|false|false|false|false|false|false|false|false|NNP
+of	location	of|univers|pittsburgh|false|false|false|false|false|false|false|false|false|IN
+Pittsburgh	location	pittsburgh|of|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Department	others	depart|_start_|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|depart|econom|false|false|false|false|false|false|false|false|false|IN
+Economics	others	econom|of|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+4P56	others	4p56|_start_|forb|false|false|false|false|false|false|false|false|false|CD
+Forbes	others	forb|4p56|quadrangl|true|false|false|false|false|false|false|false|false|NNP
+Quadrangle	others	quadrangl|forb|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Light	others	light|_start_|refresh|true|false|false|false|false|false|false|false|false|NN
+refreshments	others	refresh|light|will|false|false|false|false|false|false|false|false|false|NNS
+will	others	will|refresh|be|false|false|false|false|false|false|false|false|false|MD
+be	others	be|will|serv|false|false|false|false|false|false|false|false|false|VB
+served	others	serv|be|in|false|false|false|false|false|false|false|false|false|VBN
+in	others	in|serv|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|in|econom|false|false|false|false|false|false|false|false|false|DT
+Economics	others	econom|the|depart|true|false|false|false|false|false|false|false|false|NNP
+Department	others	depart|econom|follow|true|false|false|false|false|false|false|false|false|NNP
+following	others	follow|depart|the|false|false|false|false|false|false|false|false|false|VBG
+the	others	the|follow|_end_|false|false|false|false|false|false|false|false|false|DT
+
+seminar	others	seminar|_start_|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Copies	others	copi|_start_|of|true|false|false|false|false|false|false|false|false|NNS
+of	others	of|copi|paper|false|false|false|false|false|false|false|false|false|IN
+paper	others	paper|of|avail|false|false|false|false|false|false|false|false|false|NN
+available	others	avail|paper|from|false|false|false|false|false|false|false|false|false|JJ
+from	others	from|avail|_end_|false|false|false|false|false|false|false|false|false|IN
+
+Coral	others	coral|_start_|davi|true|false|false|false|false|true|false|false|false|NNP
+Davis	others	davi|coral|the|true|false|false|false|false|true|false|false|false|NNP
+The	others	the|davi|heinz|true|false|false|false|false|false|false|false|false|DT
+Heinz	others	heinz|the|school|true|false|false|false|false|false|false|false|false|NNP
+School	others	school|heinz|x6078|true|false|false|false|false|false|false|false|false|NNP
+x6078	others	x6078|school|cd2h|false|false|false|false|false|false|false|false|false|NN
+cd2h	others	cd2h|x6078|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Debbie	others	debbi|_start_|ziolkowski|true|false|false|false|false|true|false|false|false|NNP
+Ziolkowski	others	ziolkowski|debbi|univers|true|false|false|false|false|true|false|false|false|NNP
+University	others	univers|ziolkowski|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|univers|pittsburgh|false|false|false|false|false|false|false|false|false|IN
+Pittsburgh	others	pittsburgh|of|dept.|true|false|false|false|false|false|false|false|false|NNP
+Dept.	others	dept.|pittsburgh|of|false|false|false|false|false|false|false|false|false|NNP
+of	others	of|dept.|econom|false|false|false|false|false|false|false|false|false|IN
+Economics	others	econom|of|648-1734|true|false|false|false|false|false|false|false|false|NNP
+648-1734	others	648-1734|econom|_end_|false|false|false|false|false|false|false|false|false|CD
+

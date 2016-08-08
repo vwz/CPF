@@ -1,0 +1,237 @@
+Type	others	type|_start_|cmu.andrew.org|true|false|false|false|false|false|false|false|false|NN
+cmu.andrew.org	others	cmu.andrew.org|type|epp|false|false|false|false|false|false|false|false|false|NN
+epp	others	epp|cmu.andrew.org|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Topic	others	topic|_start_|ini|true|false|false|false|false|false|false|false|false|NN
+INI	others	ini|topic|special|false|true|false|true|false|false|false|false|false|NNP
+SPECIAL	others	special|ini|seminar|false|true|false|true|false|false|false|false|false|NNP
+SEMINAR	others	seminar|special|_end_|false|true|false|true|false|false|false|false|false|NN
+
+Dates	others	date|_start_|17-feb-93|true|false|false|false|false|false|false|false|false|NNS
+17-Feb-93	others	17-feb-93|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|5:00|true|false|false|false|false|false|false|false|false|NNP
+5:00	stime	5:00|time|pm|false|false|false|false|false|false|false|false|false|CD
+PM	stime	pm|5:00|_end_|false|true|false|true|false|false|false|false|false|NNP
+
+PostedBy	others	postedbi|_start_|andrea|false|false|false|false|true|false|false|false|false|NNP
+Andrea	others	andrea|postedbi|b.|true|false|false|false|false|true|false|false|false|NNP
+B.	others	b.|andrea|gansley-ortiz|false|false|false|false|false|true|false|false|false|NNP
+Gansley-Ortiz	others	gansley-ortiz|b.|on|false|false|false|false|false|true|false|false|false|NNP
+on	others	on|gansley-ortiz|17-feb-93|false|false|false|false|false|false|false|false|false|IN
+17-Feb-93	others	17-feb-93|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|17-feb-93|13:05|false|false|false|false|false|false|false|false|false|IN
+13:05	others	13:05|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|13:05|andrew.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+andrew.cmu.edu	others	andrew.cmu.edu|from|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+GUEST	others	guest|_start_|lectur|false|true|false|true|false|false|false|false|false|NN
+LECTURER	others	lectur|guest|_end_|false|true|false|true|false|false|false|false|false|NN
+
+Commissioner	others	commission|_start_|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Federal	others	feder|_start_|commun|true|false|false|false|false|false|false|false|false|NNP
+Communications	others	commun|feder|commiss|true|false|false|false|false|false|false|false|false|NNP
+Commission	others	commiss|commun|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+February	others	februari|_start_|17|true|false|false|false|false|false|false|false|true|NNP
+17	others	17|februari|1993|false|false|false|false|false|false|false|false|true|CD
+1993	others	1993|17|_end_|false|false|false|false|false|false|false|false|true|CD
+
+Scaife	location	scaif|_start_|auditorium|true|false|false|false|false|false|false|false|false|NNP
+Auditorium	location	auditorium|scaif|-lrb-|true|false|false|false|false|false|false|false|false|NNP
+-LRB-	location	-lrb-|auditorium|room|false|false|false|false|false|false|false|false|false|-LRB-
+Room	location	room|-lrb-|125|true|false|false|false|false|false|false|false|false|NNP
+125	location	125|room|-rrb-|false|false|false|false|false|false|false|false|false|CD
+-RRB-	others	-rrb-|125|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+Andrew	speaker	andrew|_start_|c.|true|false|false|false|false|true|false|false|false|NNP
+C.	speaker	c.|andrew|barrett|false|false|false|false|false|true|false|false|false|NNP
+Barrett	speaker	barrett|c.|be|true|false|false|false|false|true|false|false|false|NNP
+was	others	be|barrett|confirm|false|false|false|false|false|false|false|false|false|VBD
+confirmed	others	confirm|be|by|false|false|false|false|false|false|false|false|false|VBN
+by	others	by|confirm|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|by|senat|false|false|false|false|false|false|false|false|false|DT
+Senate	others	senat|the|on|true|false|false|false|false|false|false|false|false|NNP
+on	others	on|senat|mai|false|false|false|false|false|false|false|false|false|IN
+May	others	mai|on|23|true|false|false|false|false|false|false|false|true|NNP
+23	others	23|mai|1990|false|false|false|false|false|false|false|false|true|CD
+1990	others	1990|23|for|false|false|false|false|false|false|false|false|true|CD
+for	others	for|1990|a|false|false|false|false|false|false|false|false|false|IN
+a	others	a|for|full|false|false|false|false|false|false|false|false|false|DT
+full	others	full|a|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+five-year	others	five-year|_start_|term|false|false|false|false|false|false|false|false|false|JJ
+term	others	term|five-year|to|false|false|false|false|false|false|false|false|false|NN
+to	others	to|term|expir|false|false|false|false|false|false|false|false|false|TO
+expire	others	expir|to|june|false|false|false|false|false|false|false|false|false|VB
+June	others	june|expir|30|true|false|false|false|false|false|false|false|true|NNP
+30	others	30|june|1995|false|false|false|false|false|false|false|false|true|CD
+1995	others	1995|30|he|false|false|false|false|false|false|false|false|true|CD
+He	others	he|1995|have|true|false|false|false|false|false|false|false|false|PRP
+has	others	have|he|serv|false|false|false|false|false|false|false|false|false|VBZ
+served	others	serv|have|as|false|false|false|false|false|false|false|false|false|VBN
+as	others	as|serv|a|false|false|false|false|false|false|false|false|false|IN
+an	others	a|as|fcc|false|false|false|false|false|false|false|false|false|DT
+FCC	others	fcc|a|_end_|false|true|false|true|false|false|false|false|false|NNP
+
+Commissioner	others	commission|_start_|sinc|true|false|false|false|false|false|false|false|false|NNP
+since	others	sinc|commission|septemb|false|false|false|false|false|false|false|false|false|IN
+September	others	septemb|sinc|8|true|false|false|false|false|false|false|false|true|NNP
+8	others	8|septemb|1989|false|false|false|false|false|false|false|false|true|CD
+1989	others	1989|8|dure|false|false|false|false|false|false|false|false|true|CD
+during	others	dure|1989|which|false|false|false|false|false|false|false|false|false|IN
+which	others	which|dure|time|false|false|false|false|false|false|false|false|false|WDT
+time	others	time|which|he|false|false|false|false|false|false|false|false|false|NN
+he	others	he|time|be|false|false|false|false|false|false|false|false|false|PRP
+was	others	be|he|fill|false|false|false|false|false|false|false|false|false|VBD
+filling	others	fill|be|_end_|false|false|false|false|false|false|false|false|false|VBG
+
+the	others	the|_start_|final|false|false|false|false|false|false|false|false|false|DT
+final	others	final|the|year|false|false|false|false|false|false|false|false|false|JJ
+year	others	year|final|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|year|a|false|false|false|false|false|false|false|false|false|IN
+a	others	a|of|term|false|false|false|false|false|false|false|false|false|DT
+term	others	term|a|which|false|false|false|false|false|false|false|false|false|NN
+which	others	which|term|expir|false|false|false|false|false|false|false|false|false|WDT
+expired	others	expir|which|on|false|false|false|false|false|false|false|false|false|VBD
+on	others	on|expir|june|false|false|false|false|false|false|false|false|false|IN
+June	others	june|on|30|true|false|false|false|false|false|false|false|true|NNP
+30	others	30|june|1990|false|false|false|false|false|false|false|false|true|CD
+1990	others	1990|30|on|false|false|false|false|false|false|false|false|true|CD
+On	others	on|1990|thursdai|true|false|false|false|false|false|false|false|false|IN
+Thursday	others	thursdai|on|_end_|true|false|false|false|false|false|false|false|true|NNP
+
+June	others	june|_start_|21|true|false|false|false|false|false|false|false|true|NNP
+21	others	21|june|1990|false|false|false|false|false|false|false|false|true|CD
+1990	others	1990|21|barrett|false|false|false|false|false|false|false|false|true|CD
+Barrett	speaker	barrett|1990|be|true|false|false|false|false|true|false|false|false|NNP
+was	others	be|barrett|swear|false|false|false|false|false|false|false|false|false|VBD
+sworn	others	swear|be|in|false|false|false|false|false|false|false|false|false|VBN
+in	others	in|swear|by|false|false|false|false|false|false|false|false|false|IN
+by	others	by|in|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|by|vice|false|false|false|false|false|false|false|false|false|DT
+Vice	others	vice|the|presid|true|false|false|false|false|false|false|false|false|NNP
+President	others	presid|vice|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Before	others	befor|_start_|come|true|false|false|false|false|false|false|false|false|IN
+coming	others	come|befor|to|false|false|false|false|false|false|false|false|false|VBG
+to	others	to|come|the|false|false|false|false|false|false|false|false|false|TO
+the	others	the|to|fcc|false|false|false|false|false|false|false|false|false|DT
+FCC	others	fcc|the|barrett|false|true|false|true|false|false|false|false|false|NNP
+Barrett	speaker	barrett|fcc|serv|true|false|false|false|false|true|false|false|false|NNP
+served	others	serv|barrett|sinc|false|false|false|false|false|false|false|false|false|VBD
+since	others	sinc|serv|1980|false|false|false|false|false|false|false|false|false|IN
+1980	others	1980|sinc|as|false|false|false|false|false|false|false|false|true|CD
+as	others	as|1980|a|false|false|false|false|false|false|false|false|false|IN
+a	others	a|as|commission|false|false|false|false|false|false|false|false|false|DT
+Commissioner	others	commission|a|on|true|false|false|false|false|false|false|false|false|NNP
+on	others	on|commission|_end_|false|false|false|false|false|false|false|false|false|IN
+
+the	others	the|_start_|illinoi|false|false|false|false|false|false|false|false|false|DT
+Illinois	others	illinoi|the|commerc|true|false|false|false|false|false|false|false|false|NNP
+Commerce	others	commerc|illinoi|commiss|true|false|false|false|false|false|false|false|false|NNP
+Commission	others	commiss|commerc|-lrb-|true|false|false|false|false|false|false|false|false|NNP
+-LRB-	others	-lrb-|commiss|icc|false|false|false|false|false|false|false|false|false|-LRB-
+ICC	others	icc|-lrb-|-rrb-|false|true|false|true|false|false|false|false|false|NN
+-RRB-	others	-rrb-|icc|which|false|false|false|false|false|false|false|false|false|-RRB-
+which	others	which|-rrb-|be|false|false|false|false|false|false|false|false|false|WDT
+is	others	be|which|respons|false|false|false|false|false|false|false|false|false|VBZ
+responsible	others	respons|be|for|false|false|false|false|false|false|false|false|false|JJ
+for	others	for|respons|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|for|_end_|false|false|false|false|false|false|false|false|false|DT
+
+regulation	others	regul|_start_|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|regul|telephon|false|false|false|false|false|false|false|false|false|IN
+telephone	others	telephon|of|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|telephon|other|false|false|false|false|false|false|false|false|false|CC
+other	others	other|and|util|false|false|false|false|false|false|false|false|false|JJ
+utilities	others	util|other|within|false|false|false|false|false|false|false|false|false|NNS
+within	others	within|util|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|within|state|false|false|false|false|false|false|false|false|false|DT
+state	others	state|the|_end_|false|false|false|false|false|false|false|false|false|NN
+
+In	others	in|_start_|order|true|false|false|false|false|false|false|false|false|IN
+order	others	order|in|for|false|false|false|false|false|false|false|false|false|NN
+for	others	for|order|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|for|telecommun|false|false|false|false|false|false|false|false|false|DT
+telecommunications	others	telecommun|the|compani|false|false|false|false|false|false|false|false|false|NN
+companies	others	compani|telecommun|to|false|false|false|false|false|false|false|false|false|NNS
+to	others	to|compani|successfulli|false|false|false|false|false|false|false|false|false|TO
+successfully	others	successfulli|to|function|false|false|false|false|false|false|false|false|false|RB
+function	others	function|successfulli|_end_|false|false|false|false|false|false|false|false|false|VB
+
+in	others	in|_start_|a|false|false|false|false|false|false|false|false|false|IN
+a	others	a|in|new|false|false|false|false|false|false|false|false|false|DT
+new	others	new|a|world|false|false|false|false|false|false|false|false|false|JJ
+world	others	world|new|becom|false|false|false|false|false|false|false|false|false|NN
+become	others	becom|world|more|false|false|false|false|false|false|false|false|false|VB
+more	others	more|becom|market|false|false|false|false|false|false|false|false|false|RBR
+market	others	market|more|focu|false|false|false|false|false|false|false|false|false|NN
+focused	others	focu|market|and|false|false|false|false|false|false|false|false|false|VBD
+and	others	and|focu|competit|false|false|false|false|false|false|false|false|false|CC
+competitive	others	competit|and|compani|false|false|false|false|false|false|false|false|false|JJ
+companies	others	compani|competit|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+must	others	must|_start_|be|false|false|false|false|false|false|false|false|false|MD
+be	others	be|must|abl|false|false|false|false|false|false|false|false|false|VB
+able	others	abl|be|to|false|false|false|false|false|false|false|false|false|JJ
+to	others	to|abl|creativ|false|false|false|false|false|false|false|false|false|TO
+creatively	others	creativ|to|construct|false|false|false|false|false|false|false|false|false|RB
+construct	others	construct|creativ|relationship|false|false|false|false|false|false|false|false|false|VB
+relationships	others	relationship|construct|and|false|false|false|false|false|false|false|false|false|NNS
+and	others	and|relationship|interact|false|false|false|false|false|false|false|false|false|CC
+interact	others	interact|and|with|false|false|false|false|false|false|false|false|false|VBP
+with	others	with|interact|_end_|false|false|false|false|false|false|false|false|false|IN
+
+other	others	other|_start_|compani|false|false|false|false|false|false|false|false|false|JJ
+companies	others	compani|other|as|false|false|false|false|false|false|false|false|false|NNS
+as	others	as|compani|both|false|false|false|false|false|false|false|false|false|IN
+both	others	both|as|competitor|false|false|false|false|false|false|false|false|false|DT
+competitors	others	competitor|both|and|false|false|false|false|false|false|false|false|false|NNS
+and	others	and|competitor|partner|false|false|false|false|false|false|false|false|false|CC
+partners	others	partner|and|regul|false|false|false|false|false|false|false|false|false|NNS
+Regulators	others	regul|partner|will|true|false|false|false|false|false|false|false|false|NNS
+will	others	will|regul|have|false|false|false|false|false|false|false|false|false|MD
+have	others	have|will|_end_|false|false|false|false|false|false|false|false|false|VB
+
+to	others	to|_start_|transit|false|false|false|false|false|false|false|false|false|TO
+transition	others	transit|to|thei|false|false|false|false|false|false|false|false|false|NN
+their	others	thei|transit|role|false|false|false|false|false|false|false|false|false|PRP$
+role	others	role|thei|from|false|false|false|false|false|false|false|false|false|NN
+from	others	from|role|on|false|false|false|false|false|false|false|false|false|IN
+one	others	on|from|of|false|false|false|false|false|false|false|false|false|CD
+of	others	of|on|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|of|monitor|false|false|false|false|false|false|false|false|false|DT
+monitoring	others	monitor|the|the|false|false|false|false|false|false|false|false|false|VBG
+the	others	the|monitor|cost|false|false|false|false|false|false|false|false|false|DT
+costing	others	cost|the|and|false|false|false|false|false|false|false|false|false|VBG
+and	others	and|cost|_end_|false|false|false|false|false|false|false|false|false|CC
+
+pricing	others	price|_start_|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|price|carrier|false|false|false|false|false|false|false|false|false|IN
+carriers	others	carrier|of|to|false|false|false|false|false|false|false|false|false|NNS
+to	others	to|carrier|monitor|false|false|false|false|false|false|false|false|false|TO
+monitoring	others	monitor|to|competit|false|false|false|false|false|false|false|false|false|VBG
+competitive	others	competit|monitor|entri|false|false|false|false|false|false|false|false|false|JJ
+entry	others	entri|competit|condit|false|false|false|false|false|false|false|false|false|NN
+conditions	others	condit|entri|servic|false|false|false|false|false|false|false|false|false|NNS
+service	others	servic|condit|_end_|false|false|false|false|false|false|false|false|false|NN
+
+quality	others	qualiti|_start_|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|qualiti|administ|false|false|false|false|false|false|false|false|false|CC
+administer	others	administ|and|program|false|false|false|false|false|false|false|false|false|VB
+programs	others	program|administ|to|false|false|false|false|false|false|false|false|false|NNS
+to	others	to|program|help|false|false|false|false|false|false|false|false|false|TO
+help	others	help|to|those|false|false|false|false|false|false|false|false|false|VB
+those	others	those|help|who|false|false|false|false|false|false|false|false|false|DT
+who	others	who|those|might|false|false|false|false|false|false|false|false|false|WP
+might	others	might|who|otherwis|false|false|false|false|false|false|false|false|false|MD
+otherwise	others	otherwis|might|be|false|false|false|false|false|false|false|false|false|RB
+be	others	be|otherwis|_end_|false|false|false|false|false|false|false|false|false|VB
+
+left	others	left|_start_|behind|false|false|false|false|false|false|false|false|false|RB
+behind	others	behind|left|_end_|false|false|false|false|false|false|false|false|false|IN
+

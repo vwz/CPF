@@ -1,0 +1,99 @@
+Type	others	type|_start_|cmu.andrew.org|true|false|false|false|false|false|false|false|false|NN
+cmu.andrew.org	others	cmu.andrew.org|type|heinz|false|false|false|false|false|false|false|false|false|NN
+heinz	others	heinz|cmu.andrew.org|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Topic	others	topic|_start_|mari|true|false|false|false|false|false|false|false|false|NN
+Mary	speaker	mari|topic|jane|true|false|false|false|false|true|false|false|false|NNP
+Jane	speaker	jane|mari|jacob|true|false|false|false|false|true|false|false|false|NNP
+Jacob	speaker	jacob|jane|lectur|true|false|false|false|false|true|false|false|false|NNP
+Lecture	others	lectur|jacob|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Dates	others	date|_start_|17-nov-92|true|false|false|false|false|false|false|false|false|NNS
+17-Nov-92	others	17-nov-92|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|5:00|true|false|false|false|false|false|false|false|false|NNP
+5:00	stime	5:00|time|pm|false|false|false|false|false|false|false|false|false|CD
+PM	stime	pm|5:00|_end_|false|true|false|true|false|false|false|false|false|NNP
+
+PostedBy	others	postedbi|_start_|saul|false|false|false|false|true|false|false|false|false|NNP
+Saul	others	saul|postedbi|markowitz|true|false|false|false|false|true|false|false|false|NNP
+Markowitz	others	markowitz|saul|on|true|false|false|false|false|true|false|false|false|NNP
+on	others	on|markowitz|16-nov-92|false|false|false|false|false|false|false|false|false|IN
+16-Nov-92	others	16-nov-92|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|16-nov-92|10:35|false|false|false|false|false|false|false|false|false|IN
+10:35	others	10:35|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|10:35|andrew.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+andrew.cmu.edu	others	andrew.cmu.edu|from|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+Do	others	do|_start_|not|true|false|false|false|false|false|false|false|false|VBP
+n't	others	not|do|miss|false|false|false|false|false|false|false|false|false|RB
+miss	others	miss|not|thi|false|false|false|false|false|true|false|false|false|VB
+this	others	thi|miss|great|false|false|false|false|false|false|false|false|false|DT
+great	others	great|thi|lectur|false|false|false|false|false|false|false|false|false|JJ
+lecture	others	lectur|great|bring|false|false|false|false|false|false|false|false|false|NN
+brought	others	bring|lectur|to|false|false|false|false|false|false|false|false|false|VBD
+to	others	to|bring|you|false|false|false|false|false|false|false|false|false|TO
+you	others	you|to|by|false|false|false|false|false|false|false|false|false|PRP
+by	others	by|you|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|by|same|false|false|false|false|false|false|false|false|false|DT
+same	others	same|the|peopl|false|false|false|false|false|false|false|false|false|JJ
+people	others	peopl|same|who|false|false|false|false|false|false|false|false|false|NNS
+who	others	who|peopl|_end_|false|false|false|false|false|false|false|false|false|WP
+
+brought	others	bring|_start_|you|false|false|false|false|false|false|false|false|false|VBN
+you	others	you|bring|spald|false|false|false|false|false|false|false|false|false|PRP
+Spalding	others	spald|you|grai|true|false|false|false|false|false|false|false|false|NNP
+Gray	others	grai|spald|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+The	others	the|_start_|depart|true|false|false|false|false|false|false|false|false|NNP
+Department	others	depart|the|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|depart|art|false|false|false|false|false|false|false|false|false|IN
+Art	others	art|of|present|true|false|false|false|false|false|false|false|false|NNP
+presents	others	present|art|mari|false|false|false|false|false|false|false|false|false|VBZ
+Mary	speaker	mari|present|jane|true|false|false|false|false|true|false|false|false|NNP
+Jane	speaker	jane|mari|jacob|true|false|false|false|false|true|false|false|false|NNP
+Jacob	speaker	jacob|jane|independ|true|false|false|false|false|true|false|false|false|NNP
+Independent	others	independ|jacob|curat|true|false|false|false|false|false|false|false|false|NNP
+Curator	others	curat|independ|from|true|false|false|false|false|false|false|false|false|NNP
+from	others	from|curat|_end_|false|false|false|false|false|false|false|false|false|IN
+
+Chicago	others	chicago|_start_|tomorrow|true|false|false|false|false|false|false|false|false|NNP
+tomorrow	others	tomorrow|chicago|night|false|false|false|false|false|false|false|false|true|NN
+night	others	night|tomorrow|novemb|false|false|false|false|false|false|false|false|true|NN
+November	others	novemb|night|17th|true|false|false|false|false|false|false|false|true|NNP
+17th	others	17th|novemb|at|false|false|false|false|false|false|false|false|true|JJ
+at	others	at|17th|5|false|false|false|false|false|false|false|false|false|IN
+5	stime	5|at|pm|false|false|false|false|false|false|false|false|false|CD
+PM	stime	pm|5|in|false|true|false|true|false|false|false|false|false|NN
+in	others	in|pm|doherti|false|false|false|false|false|false|false|false|false|IN
+Doherty	location	doherti|in|hall|true|false|false|false|false|true|false|false|false|NNP
+Hall	location	hall|doherti|room|true|false|false|false|false|true|false|false|false|NNP
+Room	location	room|hall|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+2315	others	2315|_start_|the|false|false|false|false|false|false|false|false|true|CD
+The	others	the|2315|last|true|false|false|false|false|false|false|false|false|DT
+last	others	last|the|in|false|false|false|false|false|false|false|false|false|JJ
+in	others	in|last|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|in|art|false|false|false|false|false|false|false|false|false|DT
+Art	others	art|the|depart|true|false|false|false|false|false|false|false|false|NNP
+Department	others	depart|art|fall|true|false|false|false|false|false|false|false|false|NNP
+Fall	others	fall|depart|lectur|true|false|false|false|false|false|false|false|true|NN
+Lecture	others	lectur|fall|seri|true|false|false|false|false|false|false|false|false|NNP
+Series	others	seri|lectur|the|true|false|false|false|false|false|false|false|false|NNP
+the	others	the|seri|speech|false|false|false|false|false|false|false|false|false|DT
+speech	others	speech|the|be|false|false|false|false|false|false|false|false|false|NN
+is	others	be|speech|_end_|false|false|false|false|false|false|false|false|false|VBZ
+
+entitled	others	entitl|_start_|after|false|false|false|false|false|false|false|false|false|VBN
+After	others	after|entitl|monument|true|false|false|false|false|false|false|false|false|IN
+Monuments	others	monument|after|a|true|false|false|false|false|false|false|false|false|NNS
+A	others	a|monument|new|false|false|true|true|false|false|false|false|false|DT
+New	others	new|a|public|true|false|false|false|false|false|false|false|false|NNP
+Public	others	public|new|art|true|false|false|false|false|false|false|false|false|NNP
+Art	others	art|public|for|true|false|false|false|false|false|false|false|false|NNP
+for	others	for|art|american|false|false|false|false|false|false|false|false|false|IN
+American	others	american|for|citi|true|false|false|false|false|false|false|false|false|NNP
+Cities	others	citi|american|_end_|true|false|false|false|false|false|false|false|false|NNPS
+

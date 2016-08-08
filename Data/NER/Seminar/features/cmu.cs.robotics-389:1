@@ -1,0 +1,193 @@
+Type	others	type|_start_|cmu|true|false|false|false|false|false|false|false|false|NN
+cmu	others	cmu|type|c|false|false|false|false|false|false|false|false|false|NN
+cs	others	c|cmu|robot|false|false|false|false|false|false|false|false|false|NNS
+robotics	others	robot|c|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+Topic	others	topic|_start_|theori|true|false|false|false|false|false|false|false|false|NN
+Theory	others	theori|topic|seminar|true|false|false|false|false|false|false|false|false|NNP
+Seminar	others	seminar|theori|feb.|true|false|false|false|false|false|false|false|false|NNP
+Feb.	others	feb.|seminar|14|false|false|false|false|false|false|false|false|true|NNP
+14	others	14|feb.|1992|false|false|false|false|false|false|false|false|true|CD
+1992	others	1992|14|_end_|false|false|false|false|false|false|false|false|true|CD
+
+Dates	others	date|_start_|14-feb-92|true|false|false|false|false|false|false|false|false|NNS
+14-Feb-92	others	14-feb-92|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|3:30|true|false|false|false|false|false|false|false|false|NNP
+3:30	stime	3:30|time|pm|false|false|false|false|false|false|false|false|false|CD
+PM	stime	pm|3:30|_end_|false|true|false|true|false|false|false|false|false|NN
+
+PostedBy	others	postedbi|_start_|tmeadow|false|false|false|false|true|false|false|false|false|NNP
+tmeadows	others	tmeadow|postedbi|on|false|false|false|false|false|false|false|false|false|NNS
+on	others	on|tmeadow|11-feb-92|false|false|false|false|false|false|false|false|false|IN
+11-Feb-92	others	11-feb-92|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|11-feb-92|16:00|false|false|false|false|false|false|false|false|false|IN
+16:00	others	16:00|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|16:00|frc2|false|false|false|false|false|false|false|false|false|IN
+frc2	others	frc2|from|frc.ri.cmu.edu|false|false|false|false|false|false|false|false|false|NN
+frc.ri.cmu.edu	others	frc.ri.cmu.edu|frc2|-lrb-|false|false|false|false|false|false|false|false|false|NN
+-LRB-	others	-lrb-|frc.ri.cmu.edu|tim|false|false|false|false|false|false|false|false|false|-LRB-
+Tim	others	tim|-lrb-|meadow|true|false|false|false|false|true|false|false|false|NNP
+Meadows	others	meadow|tim|-rrb-|true|false|false|false|false|true|false|false|false|NNP
+-RRB-	others	-rrb-|meadow|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+February	others	februari|_start_|14|true|false|false|false|false|false|false|false|true|NNP
+14	others	14|februari|1992|false|false|false|false|false|false|false|false|true|CD
+1992	others	1992|14|_end_|false|false|false|false|false|false|false|false|true|CD
+
+In	others	in|_start_|mani|true|false|false|false|false|false|false|false|false|IN
+many	others	mani|in|applic|false|false|false|false|false|false|false|false|false|JJ
+applications	others	applic|mani|such|false|false|false|false|false|false|false|false|false|NNS
+such	others	such|applic|as|false|false|false|false|false|false|false|false|false|JJ
+as	others	as|such|geometr|false|false|false|false|false|false|false|false|false|IN
+geometric	others	geometr|as|model|false|false|false|false|false|false|false|false|false|JJ
+modeling	others	model|geometr|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|model|datum|false|false|false|false|false|false|false|false|false|CC
+data	others	datum|and|compress|false|false|false|false|false|false|false|false|false|NNS
+compression	others	compress|datum|_end_|false|false|false|false|false|false|false|false|false|NN
+
+there	others	there|_start_|aris|false|false|false|false|false|false|false|false|false|RB
+arises	others	aris|there|the|false|false|false|false|false|false|false|false|false|VBZ
+the	others	the|aris|need|false|false|false|false|false|false|false|false|false|DT
+need	others	need|the|to|false|false|false|false|false|false|false|false|false|NN
+to	others	to|need|construct|false|false|false|false|false|false|false|false|false|TO
+construct	others	construct|to|spars|false|false|false|false|false|false|false|false|false|VB
+sparse	others	spars|construct|approxim|false|false|false|false|false|false|false|false|false|JJ
+approximations	others	approxim|spars|to|false|false|false|false|false|false|false|false|false|NNS
+to	others	to|approxim|discret|false|false|false|false|false|false|false|false|false|TO
+discrete	others	discret|to|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+or	others	or|_start_|piecewis|false|false|false|false|false|false|false|false|false|CC
+piecewise	others	piecewis|or|linear|false|false|false|false|false|false|false|false|false|JJ
+linear	others	linear|piecewis|curv|false|false|false|false|false|false|false|false|false|JJ
+curves	others	curv|linear|and|false|false|false|false|false|false|false|false|false|NNS
+and	others	and|curv|function|false|false|false|false|false|false|false|false|false|CC
+functions	others	function|and|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+We	others	we|_start_|consid|true|false|false|false|false|false|false|false|false|PRP
+consider	others	consid|we|such|false|false|false|false|false|false|false|false|false|VBP
+such	others	such|consid|approxim|false|false|false|false|false|false|false|false|false|JJ
+approximations	others	approxim|such|with|false|false|false|false|false|false|false|false|false|NNS
+with	others	with|approxim|respect|false|false|false|false|false|false|false|false|false|IN
+respect	others	respect|with|to|false|false|false|false|false|false|false|false|false|NN
+to	others	to|respect|sever|false|false|false|false|false|false|false|false|false|TO
+several	others	sever|to|distanc|false|false|false|false|false|false|false|false|false|JJ
+distance	others	distanc|sever|measur|false|false|false|false|false|false|false|false|false|NN
+measures	others	measur|distanc|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+the	others	the|_start_|chebyshev|false|false|false|false|false|false|false|false|false|DT
+Chebyshev	others	chebyshev|the|distanc|true|false|false|false|false|true|false|false|false|NNP
+distance	others	distanc|chebyshev|for|false|false|false|false|false|false|false|false|false|NN
+for	others	for|distanc|function|false|false|false|false|false|false|false|false|false|IN
+functions	others	function|for|and|false|false|false|false|false|false|false|false|false|NNS
+and	others	and|function|the|false|false|false|false|false|false|false|false|false|CC
+the	others	the|and|hausdorff|false|false|false|false|false|false|false|false|false|DT
+Hausdorff	others	hausdorff|the|distanc|true|false|false|false|false|true|false|false|false|NNP
+distance	others	distanc|hausdorff|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|distanc|_end_|false|false|false|false|false|false|false|false|false|CC
+
+parametric	others	parametr|_start_|distanc|false|false|false|false|false|false|false|false|false|JJ
+distance	others	distanc|parametr|for|false|false|false|false|false|false|false|false|false|NN
+for	others	for|distanc|curv|false|false|false|false|false|false|false|false|false|IN
+curves	others	curv|for|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+The	others	the|_start_|parametr|true|false|false|false|false|false|false|false|false|DT
+parametric	others	parametr|the|distanc|false|false|false|false|false|false|false|false|false|JJ
+distance	others	distanc|parametr|aim|false|false|false|false|false|false|false|false|false|NN
+aims	others	aim|distanc|to|false|false|false|false|false|false|false|false|false|VBZ
+to	others	to|aim|elimin|false|false|false|false|false|false|false|false|false|TO
+eliminate	others	elimin|to|the|false|false|false|false|false|false|false|false|false|VB
+the	others	the|elimin|unintuit|false|false|false|false|false|false|false|false|false|DT
+unintuitive	others	unintuit|the|consequ|false|false|false|false|false|false|false|false|false|JJ
+consequences	others	consequ|unintuit|of|false|false|false|false|false|false|false|false|false|NNS
+of	others	of|consequ|_end_|false|false|false|false|false|false|false|false|false|IN
+
+the	others	the|_start_|hausdorff|false|false|false|false|false|false|false|false|false|DT
+Hausdorff	others	hausdorff|the|distanc|true|false|false|false|false|true|false|false|false|NNP
+distance	others	distanc|hausdorff|aris|false|false|false|false|false|false|false|false|false|NN
+arising	others	aris|distanc|from|false|false|false|false|false|false|false|false|false|VBG
+from	others	from|aris|it|false|false|false|false|false|false|false|false|false|IN
+its	others	it|from|treatment|false|false|false|false|false|false|false|false|false|PRP$
+treatment	others	treatment|it|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|treatment|a|false|false|false|false|false|false|false|false|false|IN
+a	others	a|of|curv|false|false|false|false|false|false|false|false|false|DT
+curve	others	curv|a|as|false|false|false|false|false|false|false|false|false|NN
+as	others	as|curv|a|false|false|false|false|false|false|false|false|false|IN
+a	others	a|as|set|false|false|false|false|false|false|false|false|false|DT
+set	others	set|a|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|set|_end_|false|false|false|false|false|false|false|false|false|IN
+
+points	others	point|_start_|rather|false|false|false|false|false|false|false|false|false|NNS
+rather	others	rather|point|than|false|false|false|false|false|false|false|false|false|RB
+than	others	than|rather|as|false|false|false|false|false|false|false|false|false|IN
+as	others	as|than|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|as|locu|false|false|false|false|false|false|false|false|false|DT
+locus	others	locu|the|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|locu|a|false|false|false|false|false|false|false|false|false|IN
+a	others	a|of|point|false|false|false|false|false|false|false|false|false|DT
+point	others	point|a|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Intuitively	others	intuit|_start_|the|true|false|false|false|false|false|false|false|false|RB
+the	others	the|intuit|parametr|false|false|false|false|false|false|false|false|false|DT
+parametric	others	parametr|the|distanc|false|false|false|false|false|false|false|false|false|JJ
+distance	others	distanc|parametr|p|false|false|false|false|false|false|false|false|false|NN
+P	others	p|distanc|-lrb-|false|false|true|true|false|false|false|false|false|NN
+-LRB-	others	-lrb-|p|a|false|false|false|false|false|false|false|false|false|-LRB-
+A	others	a|-lrb-|b|false|false|true|true|false|false|false|false|false|NN
+B	others	b|a|-rrb-|false|false|true|true|false|false|false|false|false|NN
+-RRB-	others	-rrb-|b|between|false|false|false|false|false|false|false|false|false|-RRB-
+between	others	between|-rrb-|two|false|false|false|false|false|false|false|false|false|IN
+two	others	two|between|curv|false|false|false|false|false|false|false|false|false|CD
+curves	others	curv|two|a|false|false|false|false|false|false|false|false|false|NNS
+A	others	a|curv|and|false|false|true|true|false|false|false|false|false|DT
+and	others	and|a|b|false|false|false|false|false|false|false|false|false|CC
+B	others	b|and|_end_|false|false|true|true|false|false|false|false|false|NN
+
+is	others	be|_start_|the|false|false|false|false|false|false|false|false|false|VBZ
+the	others	the|be|length|false|false|false|false|false|false|false|false|false|DT
+length	others	length|the|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|length|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|of|shortest|false|false|false|false|false|false|false|false|false|DT
+shortest	others	shortest|the|leash|false|false|false|false|false|false|false|false|false|JJS
+leash	others	leash|shortest|requir|false|false|false|false|false|false|false|false|false|NN
+required	others	requir|leash|if|false|false|false|false|false|false|false|false|false|VBN
+if	others	if|requir|you|false|false|false|false|false|false|false|false|false|IN
+you	others	you|if|be|false|false|false|false|false|false|false|false|false|PRP
+were	others	be|you|to|false|false|false|false|false|false|false|false|false|VBD
+to	others	to|be|_end_|false|false|false|false|false|false|false|false|false|TO
+
+walk	others	walk|_start_|along|false|false|false|false|false|false|false|false|false|NN
+along	others	along|walk|curv|false|false|false|false|false|false|false|false|false|IN
+curve	others	curv|along|a|false|false|false|false|false|false|false|false|false|NN
+A	others	a|curv|and|false|false|true|true|false|false|false|false|false|NN
+and	others	and|a|you|false|false|false|false|false|false|false|false|false|CC
+your	others	you|and|dog|false|false|false|false|false|false|false|false|false|PRP$
+dog	others	dog|you|walk|false|false|false|false|false|false|false|false|false|NN
+walked	others	walk|dog|along|false|false|false|false|false|false|false|false|false|VBD
+along	others	along|walk|curv|false|false|false|false|false|false|false|false|false|IN
+curve	others	curv|along|b|false|false|false|false|false|false|false|false|false|NN
+B	others	b|curv|without|false|false|true|true|false|false|false|false|false|NN
+without	others	without|b|back|false|false|false|false|false|false|false|false|false|IN
+backing	others	back|without|up|false|false|false|false|false|false|false|false|false|VBG
+up	others	up|back|_end_|false|false|false|false|false|false|false|false|false|RP
+
+We	others	we|_start_|present|true|false|false|false|false|false|false|false|false|PRP
+present	others	present|we|effici|false|false|false|false|false|false|false|false|false|VBP
+efficient	others	effici|present|algorithm|false|false|false|false|false|false|false|false|false|JJ
+algorithms	others	algorithm|effici|for|false|false|false|false|false|false|false|false|false|NNS
+for	others	for|algorithm|sever|false|false|false|false|false|false|false|false|false|IN
+several	others	sever|for|problem|false|false|false|false|false|false|false|false|false|JJ
+problems	others	problem|sever|in|false|false|false|false|false|false|false|false|false|NNS
+in	others	in|problem|thi|false|false|false|false|false|false|false|false|false|IN
+this	others	thi|in|context|false|false|false|false|false|false|false|false|false|DT
+context	others	context|thi|_end_|false|false|false|false|false|false|false|false|false|NN
+
+and	others	and|_start_|state|false|false|false|false|false|false|false|false|false|CC
+state	others	state|and|some|false|false|false|false|false|false|false|false|false|NN
+some	others	some|state|open|false|false|false|false|false|false|false|false|false|DT
+open	others	open|some|problem|false|false|false|false|false|false|false|false|false|JJ
+problems	others	problem|open|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+

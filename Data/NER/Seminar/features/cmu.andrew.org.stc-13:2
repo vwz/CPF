@@ -1,0 +1,77 @@
+Type	others	type|_start_|cmu.andrew.org|true|false|false|false|false|false|false|false|false|NN
+cmu.andrew.org	others	cmu.andrew.org|type|stc|false|false|false|false|false|false|false|false|false|NN
+stc	others	stc|cmu.andrew.org|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Topic	others	topic|_start_|week|true|false|false|false|false|false|false|false|false|NN
+Week	others	week|topic|of|true|false|false|false|false|false|false|false|true|NN
+of	others	of|week|mai|false|false|false|false|false|false|false|false|true|IN
+May	others	mai|of|15th|true|false|false|false|false|false|false|false|true|NNP
+15th	others	15th|mai|seminar|false|false|false|false|false|false|false|false|true|CD
+Seminars	others	seminar|15th|etc.|true|false|false|false|false|false|false|false|false|NNS
+etc.	others	etc.|seminar|_end_|false|false|false|false|false|false|false|false|false|FW
+
+Dates	others	date|_start_|18-may-95|true|false|false|false|false|false|false|false|false|NNS
+18-May-95	others	18-may-95|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|3:30|true|false|false|false|false|false|false|false|false|NNP
+3:30	stime	3:30|time|pm|false|false|false|false|false|false|false|false|false|CD
+PM	stime	pm|3:30|_end_|false|true|false|true|false|false|false|false|false|NN
+
+PostedBy	others	postedbi|_start_|dawn|false|false|false|false|true|false|false|false|false|NNP
+Dawn	others	dawn|postedbi|neuhart|true|false|false|false|false|true|false|false|false|NNP
+Neuhart	others	neuhart|dawn|on|true|false|false|false|false|true|false|false|false|NNP
+on	others	on|neuhart|12-may-95|false|false|false|false|false|false|false|false|false|IN
+12-May-95	others	12-may-95|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|12-may-95|16:12|false|false|false|false|false|false|false|false|false|IN
+16:12	others	16:12|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|16:12|andrew.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+andrew.cmu.edu	others	andrew.cmu.edu|from|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+Seminars	others	seminar|_start_|meet|true|false|false|false|false|false|false|false|false|NNPS
+Meetings	others	meet|seminar|etc.|true|false|false|false|false|false|false|false|false|NNS
+etc.	others	etc.|meet|for|false|false|false|false|false|false|false|false|false|FW
+for	others	for|etc.|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|for|week|false|false|false|false|false|false|false|false|true|DT
+Week	others	week|the|of|true|false|false|false|false|false|false|false|true|NN
+of	others	of|week|mai|false|false|false|false|false|false|false|false|true|IN
+May	others	mai|of|15th|true|false|false|false|false|false|false|false|true|NNP
+15th	others	15th|mai|be|false|false|false|false|false|false|false|false|true|CD
+are	others	be|15th|as|false|false|false|false|false|false|false|false|false|VBP
+as	others	as|be|follow|false|false|false|false|false|false|false|false|false|IN
+follows	others	follow|as|_end_|false|false|false|false|false|false|false|false|false|VBZ
+
+THURSDAY	others	thursdai|_start_|mai|false|true|false|true|false|false|false|false|true|NNP
+MAY	others	mai|thursdai|18th|false|true|false|true|false|false|false|false|true|NNP
+18th	others	18th|mai|_end_|false|false|false|false|false|false|false|false|true|JJ
+
+Sonic	others	sonic|_start_|hedgehog|true|false|false|false|false|false|false|false|false|NNP
+Hedgehog	others	hedgehog|sonic|and|true|false|false|false|false|false|false|false|false|NNP
+and	others	and|hedgehog|the|false|false|false|false|false|false|false|false|false|CC
+the	others	the|and|establish|false|false|false|false|false|false|false|false|false|DT
+Establishment	others	establish|the|of|true|false|false|false|false|false|false|false|false|NN
+of	others	of|establish|embryon|false|false|false|false|false|false|false|false|false|IN
+Embryonic	others	embryon|of|pattern|true|false|false|false|false|false|false|false|false|JJ
+Pattern	others	pattern|embryon|dr.|true|false|false|false|false|false|false|false|false|NN
+Dr.	speaker	dr.|pattern|_end_|false|false|false|false|false|true|false|false|false|NNP
+
+Clifford	others	clifford|_start_|j.|true|false|false|false|false|true|false|false|false|NNP
+J.	others	j.|clifford|tabin|false|false|false|false|false|true|false|false|false|NNP
+Tabin	others	tabin|j.|depart|true|false|false|false|false|true|false|false|false|NNP
+Department	others	depart|tabin|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|depart|genet|false|false|false|false|false|false|false|false|false|IN
+Genetics	others	genet|of|harvard|true|false|false|false|false|false|false|false|false|NNP
+Harvard	others	harvard|genet|medic|true|false|false|false|false|false|false|false|false|NNP
+Medical	others	medic|harvard|school|true|false|false|false|false|false|false|false|false|NNP
+School	others	school|medic|3:30|true|false|false|false|false|false|false|false|false|NNP
+3:30	stime	3:30|school|_end_|false|false|false|false|false|false|false|false|false|CD
+
+p.	others	p.|_start_|m|false|false|false|false|false|false|false|false|false|NN
+m	others	m|p.|1295|false|false|false|false|false|false|false|false|false|NN
+1295	location	1295|m|biomed|false|false|false|false|false|false|false|false|true|CD
+Biomedical	location	biomed|1295|scienc|true|false|false|false|false|false|false|false|false|NNP
+Science	location	scienc|biomed|tower|true|false|false|false|false|false|false|false|false|NNP
+Tower	location	tower|scienc|pitt|true|false|false|false|false|false|false|false|false|NNP
+Pitt	location	pitt|tower|_end_|true|false|false|false|false|true|false|false|false|NNP
+

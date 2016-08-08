@@ -1,0 +1,159 @@
+Type	others	type|_start_|cmu.andrew.org|true|false|false|false|false|false|false|false|false|NN
+cmu.andrew.org	others	cmu.andrew.org|type|epp|false|false|false|false|false|false|false|false|false|NN
+epp	others	epp|cmu.andrew.org|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Who	others	who|_start_|dr.|true|false|false|false|false|false|false|false|false|WP
+Dr.	speaker	dr.|who|randal|false|false|false|false|false|true|false|false|false|NNP
+Randall	speaker	randal|dr.|curle|true|false|false|false|false|true|false|false|false|NNP
+Curlee	speaker	curle|randal|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+Oak	others	oak|_start_|ridg|true|false|false|false|false|false|false|false|false|NNP
+Ridge	others	ridg|oak|nation|true|false|false|false|false|false|false|false|false|NNP
+National	others	nation|ridg|laboratori|true|false|false|false|false|false|false|false|false|NNP
+Laboratories	others	laboratori|nation|_end_|true|false|false|false|false|false|false|false|false|NNPS
+
+Topic	others	topic|_start_|seminar|true|false|false|false|false|false|false|false|false|NN
+Seminar	others	seminar|topic|auto|true|false|false|false|false|false|false|false|false|NN
+Auto	others	auto|seminar|recycl|true|false|false|false|false|false|false|false|false|NN
+Recycling	others	recycl|auto|_end_|true|false|false|false|false|false|false|false|false|NN
+
+Dates	others	date|_start_|15-mar-94|true|false|false|false|false|false|false|false|false|NNS
+15-Mar-94	others	15-mar-94|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|1:30|true|false|false|false|false|false|false|false|false|NNP
+1:30	stime	1:30|time|pm|false|false|false|false|false|false|false|false|false|CD
+PM	stime	pm|1:30|_end_|false|true|false|true|false|false|false|false|false|NN
+
+PostedBy	others	postedbi|_start_|tara|false|false|false|false|true|false|false|false|false|NNP
+Tara	others	tara|postedbi|l.|true|false|false|false|false|true|false|false|false|NNP
+L.	others	l.|tara|taylor|false|false|false|false|false|true|false|false|false|NNP
+Taylor	others	taylor|l.|on|true|false|false|false|false|true|false|false|false|NNP
+on	others	on|taylor|11-mar-94|false|false|false|false|false|false|false|false|false|IN
+11-Mar-94	others	11-mar-94|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|11-mar-94|18:02|false|false|false|false|false|false|false|false|false|IN
+18:02	others	18:02|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|18:02|andrew.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+andrew.cmu.edu	others	andrew.cmu.edu|from|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+Special	others	special|_start_|seminar|true|false|false|false|false|false|false|false|false|JJ
+Seminar	others	seminar|special|_end_|true|false|false|false|false|false|false|false|false|NN
+
+Tuesday	others	tuesdai|_start_|march|true|false|false|false|false|false|false|false|true|NNP
+March	others	march|tuesdai|15|true|false|false|false|false|false|false|false|true|NNP
+15	others	15|march|_end_|false|false|false|false|false|false|false|false|true|CD
+
+Automobile	others	automobil|_start_|recycl|true|false|false|false|false|false|false|false|false|NNP
+Recycling	others	recycl|automobil|trend|true|false|false|false|false|false|false|false|false|NNP
+Trends	others	trend|recycl|and|true|false|false|false|false|false|false|false|false|NNS
+and	others	and|trend|polici|false|false|false|false|false|false|false|false|false|CC
+Policy	others	polici|and|issu|true|false|false|false|false|false|false|false|false|NNP
+Issues	others	issu|polici|_end_|true|false|false|false|false|false|false|false|false|NNS
+
+Featuring	others	featur|_start_|_end_|true|false|false|false|false|false|false|false|false|NN
+
+Oak	others	oak|_start_|ridg|true|false|false|false|false|false|false|false|false|NNP
+Ridge	others	ridg|oak|nation|true|false|false|false|false|false|false|false|false|NNP
+National	others	nation|ridg|laboratori|true|false|false|false|false|false|false|false|false|NNP
+Laboratories	others	laboratori|nation|_end_|true|false|false|false|false|false|false|false|false|NNPS
+
+In	others	in|_start_|thi|true|false|false|false|false|false|false|false|false|IN
+this	others	thi|in|present|false|false|false|false|false|false|false|false|false|DT
+presentation	others	present|thi|dr.|false|false|false|false|false|false|false|false|false|NN
+Dr.	speaker	dr.|present|curle|false|false|false|false|false|true|false|false|false|NNP
+Curlee	speaker	curle|dr.|will|true|false|false|false|false|true|false|false|false|NNP
+will	others	will|curle|give|false|false|false|false|false|false|false|false|false|MD
+give	others	give|will|a|false|false|false|false|false|false|false|false|false|VB
+an	others	a|give|overview|false|false|false|false|false|false|false|false|false|DT
+overview	others	overview|a|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|overview|a|false|false|false|false|false|false|false|false|false|IN
+a	others	a|of|recent|false|false|false|false|false|false|false|false|false|DT
+recent	others	recent|a|doe|false|false|false|false|false|false|false|false|false|JJ
+DOE	others	doe|recent|_end_|false|true|false|true|false|false|false|false|false|NNP
+
+project	others	project|_start_|that|false|false|false|false|false|false|false|false|false|NN
+that	others	that|project|address|false|false|false|false|false|false|false|false|false|WDT
+addressed	others	address|that|the|false|false|false|false|false|false|false|false|false|VBD
+the	others	the|address|current|false|false|false|false|false|false|false|false|false|DT
+current	others	current|the|and|false|false|false|false|false|false|false|false|true|JJ
+and	others	and|current|futur|false|false|false|false|false|false|false|false|false|CC
+future	others	futur|and|viabil|false|false|false|false|false|false|false|false|false|JJ
+viability	others	viabil|futur|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|viabil|automobil|false|false|false|false|false|false|false|false|false|IN
+automobile	others	automobil|of|_end_|false|false|false|false|false|false|false|false|false|NN
+
+recycling	others	recycl|_start_|in|false|false|false|false|false|false|false|false|false|VBG
+in	others	in|recycl|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|in|unit|false|false|false|false|false|false|false|false|false|DT
+United	others	unit|the|state|true|false|false|false|false|false|false|false|false|NNP
+States	others	state|unit|more|true|false|false|false|false|false|false|false|false|NNPS
+More	others	more|state|specif|true|false|false|false|false|false|false|false|false|RBR
+specifically	others	specif|more|the|false|false|false|false|false|false|false|false|false|RB
+the	others	the|specif|present|false|false|false|false|false|false|false|false|false|DT
+presentation	others	present|the|will|false|false|false|false|false|false|false|false|false|NN
+will	others	will|present|_end_|false|false|false|false|false|false|false|false|false|MD
+
+focus	others	focu|_start_|on|false|false|false|false|false|false|false|false|false|NN
+on	others	on|focu|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|on|energi|false|false|false|false|false|false|false|false|false|DT
+energy	others	energi|the|econom|false|false|false|false|false|false|false|false|false|NN
+economic	others	econom|energi|and|false|false|false|false|false|false|false|false|false|JJ
+and	others	and|econom|waste-quant|false|false|false|false|false|false|false|false|false|CC
+waste-quantity	others	waste-quant|and|implic|false|false|false|false|false|false|false|false|false|NN
+implications	others	implic|waste-quant|of|false|false|false|false|false|false|false|false|false|NNS
+of	others	of|implic|_end_|false|false|false|false|false|false|false|false|false|IN
+
+maintaining	others	maintain|_start_|the|false|false|false|false|false|false|false|false|false|VBG
+the	others	the|maintain|recycl|false|false|false|false|false|false|false|false|false|DT
+recycle	others	recycl|the|status-quo|false|false|false|false|false|false|false|false|false|VB
+status-quo	others	status-quo|recycl|as|false|false|false|false|false|false|false|false|false|JJ
+as	others	as|status-quo|well|false|false|false|false|false|false|false|false|false|RB
+well	others	well|as|as|false|false|false|false|false|false|false|false|false|RB
+as	others	as|well|potenti|false|false|false|false|false|false|false|false|false|IN
+potential	others	potenti|as|move|false|false|false|false|false|false|false|false|false|JJ
+moves	others	move|potenti|to|false|false|false|false|false|false|false|false|false|NNS
+to	others	to|move|_end_|false|false|false|false|false|false|false|false|false|TO
+
+alternative	others	altern|_start_|technolog|false|false|false|false|false|false|false|false|false|JJ
+technologies	others	technolog|altern|and|false|false|false|false|false|false|false|false|false|NNS
+and	others	and|technolog|approach|false|false|false|false|false|false|false|false|false|CC
+approaches	others	approach|and|to|false|false|false|false|false|false|false|false|false|NNS
+to	others	to|approach|recycl|false|false|false|false|false|false|false|false|false|TO
+recycle	others	recycl|to|automobil|false|false|false|false|false|false|false|false|false|VB
+automobiles	others	automobil|recycl|the|false|false|false|false|false|false|false|false|false|NNS
+The	others	the|automobil|_end_|true|false|false|false|false|false|false|false|false|DT
+
+presentation	others	present|_start_|also|false|false|false|false|false|false|false|false|false|NN
+also	others	also|present|will|false|false|false|false|false|false|false|false|false|RB
+will	others	will|also|summar|false|false|false|false|false|false|false|false|false|MD
+summarize	others	summar|will|recent|false|false|false|false|false|false|false|false|false|VB
+recent	others	recent|summar|trend|false|false|false|false|false|false|false|false|false|JJ
+trends	others	trend|recent|in|false|false|false|false|false|false|false|false|false|NNS
+in	others	in|trend|automobil|false|false|false|false|false|false|false|false|false|IN
+automobile	others	automobil|in|recycl|false|false|false|false|false|false|false|false|false|NN
+recycling	others	recycl|automobil|in|false|false|false|false|false|false|false|false|false|NN
+in	others	in|recycl|_end_|false|false|false|false|false|false|false|false|false|IN
+
+Europe	others	europ|_start_|and|true|false|false|false|false|false|false|false|false|NNP
+and	others	and|europ|japan|false|false|false|false|false|false|false|false|false|CC
+Japan	others	japan|and|and|true|false|false|false|false|false|false|false|false|NNP
+and	others	and|japan|will|false|false|false|false|false|false|false|false|false|CC
+will	others	will|and|discuss|false|false|false|false|false|false|false|false|false|MD
+discuss	others	discuss|will|kei|false|false|false|false|false|false|false|false|false|VB
+key	others	kei|discuss|polici|false|false|false|false|false|false|false|false|false|JJ
+policy	others	polici|kei|issu|false|false|false|false|false|false|false|false|false|NN
+issues	others	issu|polici|that|false|false|false|false|false|false|false|false|false|NNS
+that	others	that|issu|be|false|false|false|false|false|false|false|false|false|WDT
+are	others	be|that|like|false|false|false|false|false|false|false|false|false|VBP
+likely	others	like|be|to|false|false|false|false|false|false|false|false|false|JJ
+to	others	to|like|take|false|false|false|false|false|false|false|false|false|TO
+take	others	take|to|_end_|false|false|false|false|false|false|false|false|false|VB
+
+center	others	center|_start_|stage|false|false|false|false|false|false|false|false|false|NN
+stage	others	stage|center|in|false|false|false|false|false|false|false|false|false|NN
+in	others	in|stage|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|in|come|false|false|false|false|false|false|false|false|false|DT
+coming	others	come|the|decad|false|false|false|false|false|false|false|false|false|VBG
+decade	others	decad|come|_end_|false|false|false|false|false|false|false|false|false|NN
+

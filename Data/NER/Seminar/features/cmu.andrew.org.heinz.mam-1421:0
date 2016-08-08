@@ -1,0 +1,240 @@
+Type	others	type|_start_|cmu.andrew.org|true|false|false|false|false|false|false|false|false|NN
+cmu.andrew.org	others	cmu.andrew.org|type|heinz|false|false|false|false|false|false|false|false|false|NN
+heinz	others	heinz|cmu.andrew.org|mam|false|false|false|false|false|false|false|false|false|NN
+mam	others	mam|heinz|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Topic	others	topic|_start_|march|true|false|false|false|false|false|false|false|false|NN
+March	others	march|topic|18th|true|false|false|false|false|false|false|false|true|NNP
+18th	others	18th|march|speaker|false|false|false|false|false|false|false|false|true|JJ
+Speakers	others	speaker|18th|_end_|true|false|false|false|false|false|false|false|false|NNS
+
+Dates	others	date|_start_|18-mar-9|true|false|false|false|false|false|false|false|false|NNS
+18-Mar-9	others	18-mar-9|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|12:30|true|false|false|false|false|false|false|false|false|NNP
+12:30	stime	12:30|time|_end_|false|false|false|false|false|false|false|false|false|CD
+
+PostedBy	others	postedbi|_start_|laura|false|false|false|false|true|false|false|false|false|NNP
+Laura	others	laura|postedbi|j|true|false|false|false|false|true|false|false|false|NNP
+J	others	j|laura|dugan|false|false|true|true|false|true|false|false|false|NNP
+Dugan	others	dugan|j|on|true|false|false|false|false|true|false|false|false|NNP
+on	others	on|dugan|15-mar-94|false|false|false|false|false|false|false|false|false|IN
+15-Mar-94	others	15-mar-94|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|15-mar-94|17:22|false|false|false|false|false|false|false|false|false|IN
+17:22	others	17:22|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|17:22|andrew.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+andrew.cmu.edu	others	andrew.cmu.edu|from|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+HEINZ	others	heinz|_start_|career|false|true|false|true|false|false|false|false|false|JJ
+CAREER	others	career|heinz|seri|false|true|false|true|false|false|false|false|false|NN
+SERIES	others	seri|career|_end_|false|true|false|true|false|false|false|false|false|NN
+
+MARCH	others	march|_start_|18|false|true|false|true|false|false|false|false|true|NN
+18	others	18|march|12:30|false|false|false|false|false|false|false|false|true|CD
+12:30	stime	12:30|18|200pm|false|false|false|false|false|false|true|false|false|CD
+200PM	etime	200pm|12:30|_end_|false|false|false|false|false|false|false|false|false|NN
+
+A	others	a|_start_|panel|false|false|true|true|false|false|false|false|false|NN
+panel	others	panel|a|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|panel|not-for-profit|false|false|false|false|false|false|false|false|false|IN
+not-for-profit	others	not-for-profit|of|and|false|false|false|false|false|false|false|false|false|JJ
+and	others	and|not-for-profit|financi|false|false|false|false|false|false|false|false|false|CC
+financial	others	financi|and|manag|false|false|false|false|false|false|false|false|false|JJ
+management	others	manag|financi|practicion|false|false|false|false|false|false|false|false|false|NN
+practicioners	others	practicion|manag|will|false|false|false|false|false|false|false|false|false|NNS
+will	others	will|practicion|be|false|false|false|false|false|false|false|false|false|MD
+be	others	be|will|_end_|false|false|false|false|false|false|false|false|false|VB
+
+visiting	others	visit|_start_|the|false|false|false|false|false|false|false|false|false|VBG
+the	others	the|visit|heinz|false|false|false|false|false|false|false|false|false|DT
+Heinz	others	heinz|the|school|true|false|false|false|false|false|false|false|false|NNP
+School	others	school|heinz|to|true|false|false|false|false|false|false|false|false|NNP
+to	others	to|school|discuss|false|false|false|false|false|false|false|false|false|TO
+discuss	others	discuss|to|career|false|false|false|false|false|false|false|false|false|VB
+career	others	career|discuss|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|career|employ|false|false|false|false|false|false|false|false|false|CC
+employment	others	employ|and|_end_|false|false|false|false|false|false|false|false|false|NN
+
+opportunities	others	opportun|_start_|do|false|false|false|false|false|false|false|false|false|NNS
+Do	others	do|opportun|not|true|false|false|false|false|false|false|false|false|VBP
+n't	others	not|do|miss|false|false|false|false|false|false|false|false|false|RB
+miss	others	miss|not|thi|false|false|false|false|false|true|false|false|false|VB
+this	others	thi|miss|chanc|false|false|false|false|false|false|false|false|false|DT
+chance	others	chanc|thi|to|false|false|false|false|false|false|false|false|false|NN
+to	others	to|chanc|meet|false|false|false|false|false|false|false|false|false|TO
+meet	others	meet|to|and|false|false|false|false|false|false|false|false|false|VB
+and	others	and|meet|talk|false|false|false|false|false|false|false|false|false|CC
+talk	others	talk|and|with|false|false|false|false|false|false|false|false|false|VB
+with	others	with|talk|leader|false|false|false|false|false|false|false|false|false|IN
+leaders	others	leader|with|in|false|false|false|false|false|false|false|false|false|NNS
+in	others	in|leader|_end_|false|false|false|false|false|false|false|false|false|IN
+
+these	others	these|_start_|field|false|false|false|false|false|false|false|false|false|DT
+fields	others	field|these|there|false|false|false|false|false|false|false|false|false|NNS
+There	others	there|field|will|true|false|false|false|false|false|false|false|false|EX
+will	others	will|there|be|false|false|false|false|false|false|false|false|false|MD
+be	others	be|will|two|false|false|false|false|false|false|false|false|false|VB
+two	others	two|be|concurr|false|false|false|false|false|false|false|false|false|CD
+concurrent	others	concurr|two|panel|false|false|false|false|false|false|false|false|false|JJ
+panel	others	panel|concurr|discuss|false|false|false|false|false|false|false|false|false|NN
+discussions	others	discuss|panel|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+CAREERS	others	career|_start_|in|false|true|false|true|false|false|false|false|false|NNS
+IN	others	in|career|not-for|false|true|false|true|false|false|false|false|false|IN
+NOT-FOR	others	not-for|in|profit|false|false|false|false|false|false|false|false|false|NN
+PROFIT	others	profit|not-for|manag|false|true|false|true|false|false|false|false|false|NNP
+MANAGEMENT	others	manag|profit|1004hbh|false|true|false|true|false|false|false|false|false|NNP
+1004HBH	location	1004hbh|manag|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Karen	others	karen|_start_|feinstein|true|false|false|false|false|true|false|false|false|NNP
+Feinstein	others	feinstein|karen|presid|true|false|false|false|false|true|false|false|false|NNP
+President	others	presid|feinstein|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Jewish	others	jewish|_start_|healthcar|true|false|false|false|false|false|false|false|false|JJ
+Healthcare	others	healthcar|jewish|foundat|true|false|false|false|false|false|false|false|false|NNP
+Foundation	others	foundat|healthcar|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Mary	others	mari|_start_|ellen|true|false|false|false|false|true|false|false|false|NNP
+Ellen	others	ellen|mari|keller|true|false|false|false|false|true|false|false|false|NNP
+Kellers	others	keller|ellen|program|true|false|false|false|false|true|false|false|false|NNP
+Program	others	program|keller|manag|true|false|false|false|false|false|false|false|false|NNP
+Manager	others	manag|program|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+East	others	east|_start_|liberti|true|false|false|false|false|false|false|false|false|NNP
+Liberty	others	liberti|east|develop|true|false|false|false|false|false|false|false|false|NNP
+Development	others	develop|liberti|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Robert	others	robert|_start_|pitt|true|false|false|false|false|true|false|false|false|NNP
+Pitts	others	pitt|robert|act|true|false|false|false|false|true|false|false|false|NNP
+Acting	others	act|pitt|director|true|false|false|false|false|false|false|false|false|NNP
+Director	others	director|act|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Urban	others	urban|_start_|leagu|true|false|false|false|false|false|false|false|false|NNP
+League	others	leagu|urban|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|leagu|pittsburgh|false|false|false|false|false|false|false|false|false|IN
+Pittsburgh	others	pittsburgh|of|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Lilia	others	lilia|_start_|hugulei|true|false|false|false|false|true|false|false|false|NNP
+Huguley	others	hugulei|lilia|director|true|false|false|false|false|true|false|false|false|NNP
+Director	others	director|hugulei|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Campaign	others	campaign|_start_|_end_|true|false|false|false|false|false|false|false|false|NN
+
+United	others	unit|_start_|wai|true|false|false|false|false|false|false|false|false|NNP
+Way	others	wai|unit|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|wai|allegheni|false|false|false|false|false|false|false|false|false|IN
+Allegheny	others	allegheni|of|counti|true|false|false|false|false|false|false|false|false|NNP
+County	others	counti|allegheni|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+CAREERS	others	career|_start_|in|false|true|false|true|false|false|false|false|false|NNS
+IN	others	in|career|financi|false|true|false|true|false|false|false|false|false|IN
+FINANCIAL	others	financi|in|manag|false|true|false|true|false|false|false|false|false|NNP
+MANAGEMENT	others	manag|financi|analysi|false|true|false|true|false|false|false|false|false|NNP
+ANALYSIS	others	analysi|manag|1001hbh|false|true|false|true|false|false|false|false|false|NNP
+1001HBH	location	1001hbh|analysi|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Mark	others	mark|_start_|l.|true|false|false|false|false|true|false|false|false|NNP
+L.	others	l.|mark|dolan|false|false|false|false|false|true|false|false|false|NNP
+Dolan	others	dolan|l.|director|true|false|false|false|false|true|false|false|false|NNP
+Director	others	director|dolan|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Finance	others	financ|_start_|and|true|false|false|false|false|false|false|false|false|NNP
+and	others	and|financ|administr|false|false|false|false|false|false|false|false|false|CC
+Administration	others	administr|and|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Erie	others	eri|_start_|citi|true|false|false|false|false|false|false|false|false|NNP
+City	others	citi|eri|water|true|false|false|false|false|false|false|false|false|NNP
+Water	others	water|citi|author|true|false|false|false|false|false|false|false|false|NNP
+Authority	others	author|water|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Deborah	others	deborah|_start_|ann|true|false|false|false|false|true|false|false|false|NNP
+Ann	others	ann|deborah|mose|true|false|false|false|false|true|false|false|false|NNP
+Moses	others	mose|ann|vice|true|false|false|false|false|true|false|false|false|NNP
+Vice	others	vice|mose|president\/portfolio|true|false|false|false|false|false|false|false|false|NNP
+President\/Portfolio	others	president\/portfolio|vice|manag|false|false|false|false|false|false|false|false|false|NNP
+Manager	others	manag|president\/portfolio|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Investment	others	invest|_start_|manag|true|false|false|false|false|false|false|false|false|NNP
+Management	others	manag|invest|and|true|false|false|false|false|false|false|false|false|NNP
+and	others	and|manag|trust|false|false|false|false|false|false|false|false|false|CC
+Trust	others	trust|and|divis|true|false|false|false|false|false|false|false|false|NNP
+Division	others	divis|trust|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+PNC	others	pnc|_start_|bank|false|true|false|true|false|false|false|false|false|NNP
+Bank	others	bank|pnc|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Michael	others	michael|_start_|collin|true|false|false|false|false|true|false|false|false|NNP
+Collins	others	collin|michael|vice|true|false|false|false|false|true|false|false|false|NNP
+Vice	others	vice|collin|presid|true|false|false|false|false|false|false|false|false|NNP
+President	others	presid|vice|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+CES	others	ce|_start_|r|false|true|false|true|false|false|false|false|false|NNP
+R	others	r|ce|_end_|false|false|true|true|false|false|false|false|false|NNP
+
+Federal	others	feder|_start_|reserv|true|false|false|false|false|false|false|false|false|NNP
+Reserve	others	reserv|feder|bank|true|false|false|false|false|false|false|false|false|NNP
+Bank	others	bank|reserv|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|bank|philadelphia|false|false|false|false|false|false|false|false|false|IN
+Philadelphia	others	philadelphia|of|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Michael	others	michael|_start_|martin|true|false|false|false|false|true|false|false|false|NNP
+Martin	others	martin|michael|vice|true|false|false|false|false|true|false|false|false|NNP
+Vice	others	vice|martin|presid|true|false|false|false|false|false|false|false|false|NNP
+President	others	presid|vice|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Allegheny	others	allegheni|_start_|health|true|false|false|false|false|false|false|false|false|NNP
+Health	others	health|allegheni|foundat|true|false|false|false|false|false|false|false|false|NNP
+Foundation	others	foundat|health|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Following	others	follow|_start_|the|true|false|false|false|false|false|false|false|false|VBG
+the	others	the|follow|panel|false|false|false|false|false|false|false|false|false|DT
+panel	others	panel|the|discuss|false|false|false|false|false|false|false|false|false|NN
+discussions	others	discuss|panel|a|false|false|false|false|false|false|false|false|false|NNS
+a	others	a|discuss|recept|false|false|false|false|false|false|false|false|false|DT
+reception	others	recept|a|will|false|false|false|false|false|false|false|false|false|NN
+will	others	will|recept|be|false|false|false|false|false|false|false|false|false|MD
+be	others	be|will|hold|false|false|false|false|false|false|false|false|false|VB
+held	others	hold|be|in|false|false|false|false|false|false|false|false|false|VBN
+in	others	in|hold|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|in|student|false|false|false|false|false|false|false|false|false|DT
+Student	others	student|the|_end_|true|false|false|false|false|false|false|false|false|NN
+
+Lounge	others	loung|_start_|pleas|true|false|false|false|false|false|false|false|false|NN
+Please	others	pleas|loung|join|true|false|false|false|false|false|false|false|false|VB
+join	others	join|pleas|we|false|false|false|false|false|false|false|false|false|VB
+us	others	we|join|for|false|false|false|false|false|false|false|false|false|PRP
+for	others	for|we|a|false|false|false|false|false|false|false|false|false|IN
+an	others	a|for|inform|false|false|false|false|false|false|false|false|false|DT
+informative	others	inform|a|afternoon|false|false|false|false|false|false|false|false|false|JJ
+afternoon	others	afternoon|inform|to|false|false|false|false|false|false|false|false|false|NN
+to	others	to|afternoon|learn|false|false|false|false|false|false|false|false|false|TO
+learn	others	learn|to|more|false|false|false|false|false|false|false|false|false|VB
+more	others	more|learn|about|false|false|false|false|false|false|false|false|false|JJR
+about	others	about|more|_end_|false|false|false|false|false|false|false|false|false|IN
+
+job	others	job|_start_|internship|false|false|false|false|false|false|false|false|false|NN
+internship	others	internship|job|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|internship|career|false|false|false|false|false|false|false|false|false|CC
+career	others	career|and|trend|false|false|false|false|false|false|false|false|false|NN
+trends	others	trend|career|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+You	others	you|_start_|mai|true|false|false|false|false|false|false|false|false|PRP
+may	others	mai|you|confirm|false|false|false|false|false|false|false|false|false|MD
+confirm	others	confirm|mai|you|false|false|false|false|false|false|false|false|false|VB
+your	others	you|confirm|attend|false|false|false|false|false|false|false|false|false|PRP$
+attendance	others	attend|you|by|false|false|false|false|false|false|false|false|false|NN
+by	others	by|attend|sign|false|false|false|false|false|false|false|false|false|IN
+signing	others	sign|by|up|false|false|false|false|false|false|false|false|false|VBG
+up	others	up|sign|in|false|false|false|false|false|false|false|false|false|RP
+in	others	in|up|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|in|offic|false|false|false|false|false|false|false|false|false|DT
+Office	others	offic|the|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|offic|career|false|false|false|false|false|false|false|false|false|IN
+Career	others	career|of|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Services	others	servic|_start_|thank|true|false|false|false|false|false|false|false|false|NNP
+Thank	others	thank|servic|you|true|false|false|false|false|false|false|false|false|VB
+you	others	you|thank|_end_|false|false|false|false|false|false|false|false|false|PRP
+

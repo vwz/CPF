@@ -1,0 +1,130 @@
+Type	others	type|_start_|cmu|true|false|false|false|false|false|false|false|false|NN
+cmu	others	cmu|type|c|false|false|false|false|false|false|false|false|false|NN
+cs	others	c|cmu|robot|false|false|false|false|false|false|false|false|false|NNS
+robotics	others	robot|c|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+Who	others	who|_start_|charl|true|false|false|false|false|false|false|false|false|WP
+Charles	speaker	charl|who|r.|true|false|false|false|false|true|false|false|false|NNP
+R.	speaker	r.|charl|price|false|false|false|false|false|true|false|false|false|NNP
+Price	speaker	price|r.|nasa|true|false|false|false|false|true|false|false|false|NNP
+NASA	others	nasa|price|johnson|false|true|false|true|false|false|false|false|false|NNP
+Johnson	others	johnson|nasa|space|true|false|false|false|false|true|false|false|false|NNP
+Space	others	space|johnson|center|true|false|false|false|false|false|false|false|false|NNP
+Center	others	center|space|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Topic	others	topic|_start_|space|true|false|false|false|false|false|false|false|false|NN
+Space	others	space|topic|robot|true|false|false|false|false|false|false|false|false|NNP
+Robotics	others	robot|space|activ|true|false|false|false|false|false|false|false|false|NNP
+Activities	others	activ|robot|at|true|false|false|false|false|false|false|false|false|NNS
+at	others	at|activ|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|at|johnson|false|false|false|false|false|false|false|false|false|DT
+Johnson	others	johnson|the|space|true|false|false|false|false|false|false|false|false|NNP
+Space	others	space|johnson|center|true|false|false|false|false|false|false|false|false|NNP
+Center	others	center|space|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Dates	others	date|_start_|13-nov-92|true|false|false|false|false|false|false|false|false|NNS
+13-Nov-92	others	13-nov-92|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|3:30|true|false|false|false|false|false|false|false|false|NNP
+3:30	stime	3:30|time|pm|false|false|false|false|false|false|false|false|false|CD
+PM	stime	pm|3:30|_end_|false|true|false|true|false|false|false|false|false|NN
+
+Place	others	place|_start_|baker|true|false|false|false|false|false|false|false|false|NN
+Baker	location	baker|place|hall|true|false|false|false|false|false|false|false|false|NNP
+Hall	location	hall|baker|adamson|true|false|false|false|false|false|false|false|false|NNP
+Adamson	location	adamson|hall|wing|true|false|false|false|false|false|false|false|false|NNP
+Wing	location	wing|adamson|_end_|true|false|false|false|false|false|false|false|false|NN
+
+Host	others	host|_start_|hagen|true|false|false|false|false|false|false|false|false|NN
+Hagen	others	hagen|host|schempf|true|false|false|false|false|true|false|false|false|NNP
+Schempf	others	schempf|hagen|x6884|true|false|false|false|false|true|false|false|false|NNP
+x6884	others	x6884|schempf|_end_|false|false|false|false|false|false|false|false|false|NN
+
+PostedBy	others	postedbi|_start_|tmeadow|false|false|false|false|true|false|false|false|false|NNP
+tmeadows	others	tmeadow|postedbi|on|false|false|false|false|false|false|false|false|false|NNS
+on	others	on|tmeadow|13-nov-92|false|false|false|false|false|false|false|false|false|IN
+13-Nov-92	others	13-nov-92|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|13-nov-92|09:00|false|false|false|false|false|false|false|false|false|IN
+09:00	others	09:00|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|09:00|resumix.portal.com|false|false|false|false|false|false|false|false|false|IN
+resumix.portal.com	others	resumix.portal.com|from|-lrb-|false|false|false|false|false|false|false|false|false|NNP
+-LRB-	others	-lrb-|resumix.portal.com|tim|false|false|false|false|false|false|false|false|false|-LRB-
+Tim	others	tim|-lrb-|meadow|true|false|false|false|false|false|false|false|false|NNP
+Meadows	others	meadow|tim|-rrb-|true|false|false|false|false|false|false|false|false|NNP
+-RRB-	others	-rrb-|meadow|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+RI	others	ru|_start_|seminar|false|true|false|true|false|false|false|false|false|NN
+SEMINAR	others	seminar|ru|_end_|false|true|false|true|false|false|false|false|false|NN
+
+WHEN	others	when|_start_|fridai|false|true|false|true|false|false|false|false|false|WRB
+Friday	others	fridai|when|novemb|true|false|false|false|false|false|false|false|true|NNP
+November	others	novemb|fridai|13|true|false|false|false|false|false|false|false|true|NNP
+13	others	13|novemb|1992|false|false|false|false|false|false|false|false|true|CD
+1992	others	1992|13|3:30|false|false|false|false|false|false|false|false|true|CD
+3:30	stime	3:30|1992|pm|false|false|false|false|false|false|false|false|false|CD
+PM	stime	pm|3:30|_end_|false|true|false|true|false|false|false|false|false|NN
+
+Refreshments	others	refresh|_start_|to|true|false|false|false|false|false|false|false|false|NNS
+to	others	to|refresh|be|false|false|false|false|false|false|false|false|false|TO
+be	others	be|to|serv|false|false|false|false|false|false|false|false|false|VB
+served	others	serv|be|by|false|false|false|false|false|false|false|false|false|VBN
+by	others	by|serv|3:15|false|false|false|false|false|false|false|false|false|IN
+3:15	others	3:15|by|pm|false|false|false|false|false|false|false|false|false|CD
+PM	others	pm|3:15|_end_|false|true|false|true|false|false|false|false|false|NN
+
+WHERE	others	where|_start_|baker|false|true|false|true|false|false|false|false|false|NN
+Baker	location	baker|where|hall|true|false|false|false|false|false|false|false|false|NNP
+Hall	location	hall|baker|adamson|true|false|false|false|false|false|false|false|false|NNP
+Adamson	location	adamson|hall|wing|true|false|false|false|false|false|false|false|false|NNP
+Wing	location	wing|adamson|_end_|true|false|false|false|false|false|false|false|false|NN
+
+SPEAKER	others	speaker|_start_|charl|false|true|false|true|false|false|false|false|false|NN
+Charles	speaker	charl|speaker|r.|true|false|false|false|false|true|false|false|false|NNP
+R.	speaker	r.|charl|price|false|false|false|false|false|true|false|false|false|NNP
+Price	speaker	price|r.|nasa|true|false|false|false|false|true|false|false|false|NNP
+NASA	others	nasa|price|johnson|false|true|false|true|false|false|false|false|false|NNP
+Johnson	others	johnson|nasa|space|true|false|false|false|false|true|false|false|false|NNP
+Space	others	space|johnson|center|true|false|false|false|false|false|false|false|false|NNP
+Center	others	center|space|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+TITLE	others	titl|_start_|space|false|true|false|true|false|false|false|false|false|NN
+Space	others	space|titl|robot|true|false|false|false|false|false|false|false|false|NNP
+Robotics	others	robot|space|activ|true|false|false|false|false|false|false|false|false|NNP
+Activities	others	activ|robot|at|true|false|false|false|false|false|false|false|false|NNS
+at	others	at|activ|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|at|johnson|false|false|false|false|false|false|false|false|false|DT
+Johnson	others	johnson|the|space|true|false|false|false|false|false|false|false|false|NNP
+Space	others	space|johnson|center|true|false|false|false|false|false|false|false|false|NNP
+Center	others	center|space|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Abstract	others	abstract|_start_|previous|true|false|false|false|false|false|false|false|false|JJ
+Previously	others	previous|abstract|post|true|false|false|false|false|false|false|false|false|RB
+Posted	others	post|previous|_end_|true|false|false|false|false|false|false|false|false|VBN
+
+HOST	others	host|_start_|hagen|false|true|false|true|false|false|false|false|false|NN
+Hagen	others	hagen|host|schempf|true|false|false|false|false|true|false|false|false|NNP
+Schempf	others	schempf|hagen|x6884|true|false|false|false|false|true|false|false|false|NNP
+x6884	others	x6884|schempf|_end_|false|false|false|false|false|false|false|false|false|NN
+
+
+
+
+Tim	others	tim|_start_|meadow|true|false|false|false|false|false|false|false|false|NNP
+Meadows	others	meadow|tim|field|true|false|false|false|false|false|false|false|false|NNP
+Field	others	field|meadow|robot|true|false|false|false|false|false|false|false|false|NNP
+Robotics	others	robot|field|center|true|false|false|false|false|false|false|false|false|NNP
+Center	others	center|robot|carnegi|true|false|false|false|false|false|false|false|false|NNP
+Carnegie	others	carnegi|center|mellon|true|false|false|false|false|false|false|false|false|NNP
+Mellon	others	mellon|carnegi|univ.|true|false|false|false|false|false|false|false|false|NNP
+Univ.	others	univ.|mellon|_end_|false|false|false|false|false|false|false|false|false|NNP
+
+
+412-268-7085	others	412-268-7085|_start_|fax|false|false|false|false|false|false|false|false|false|CD
+Fax	others	fax|412-268-7085|412-682-1793|true|false|false|false|false|false|false|false|false|NN
+412-682-1793	others	412-682-1793|fax|tmeadows@frc.ri.cmu.edu|false|false|false|false|false|false|false|false|false|CD
+tmeadows@frc.ri.cmu.edu	others	tmeadows@frc.ri.cmu.edu|412-682-1793|_end_|false|false|false|false|false|false|false|false|false|NN
+
+
+

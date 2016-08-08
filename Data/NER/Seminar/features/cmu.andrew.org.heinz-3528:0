@@ -1,0 +1,120 @@
+Type	others	type|_start_|cmu.andrew.org|true|false|false|false|false|false|false|false|false|NN
+cmu.andrew.org	others	cmu.andrew.org|type|heinz|false|false|false|false|false|false|false|false|false|NN
+heinz	others	heinz|cmu.andrew.org|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Topic	others	topic|_start_|fwd|true|false|false|false|false|false|false|false|false|NN
+Fwd	others	fwd|topic|tax|true|false|false|false|false|false|false|false|false|NN
+tax	others	tax|fwd|seminar|false|false|false|false|false|false|false|false|false|NN
+seminars	others	seminar|tax|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+Dates	others	date|_start_|25-feb-93|true|false|false|false|false|false|false|false|false|NNS
+25-Feb-93	others	25-feb-93|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|7:00|true|false|false|false|false|false|false|false|false|NNP
+7:00	stime	7:00|time|pm|false|false|false|false|false|false|false|false|false|CD
+PM	stime	pm|7:00|_end_|false|true|false|true|false|false|false|false|false|NN
+
+PostedBy	others	postedbi|_start_|paula|false|false|false|false|true|false|false|false|false|NNP
+Paula	others	paula|postedbi|k.|true|false|false|false|false|true|false|false|false|NNP
+K.	others	k.|paula|davi|false|false|false|false|false|true|false|false|false|NNP
+Davis	others	davi|k.|on|true|false|false|false|false|true|false|false|false|NNP
+on	others	on|davi|16-feb-93|false|false|false|false|false|false|false|false|false|IN
+16-Feb-93	others	16-feb-93|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|16-feb-93|09:29|false|false|false|false|false|false|false|false|false|IN
+09:29	others	09:29|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|09:29|andrew.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+andrew.cmu.edu	others	andrew.cmu.edu|from|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+TAX	others	tax|_start_|seminar|false|true|false|true|false|false|false|false|false|NN
+SEMINARS	others	seminar|tax|_end_|false|true|false|true|false|false|false|false|false|NNS
+
+On	others	on|_start_|februari|true|false|false|false|false|false|false|false|false|IN
+February	others	februari|on|25|true|false|false|false|false|false|false|false|true|NNP
+25	others	25|februari|at|false|false|false|false|false|false|false|false|true|CD
+at	others	at|25|7|false|false|false|false|false|false|false|false|false|IN
+7	stime	7|at|pm|false|false|false|false|false|false|false|false|false|CD
+pm	stime	pm|7|in|false|false|false|false|false|false|false|false|false|NN
+in	others	in|pm|room|false|false|false|false|false|false|false|false|false|IN
+Room	location	room|in|2315|true|false|false|false|false|false|false|false|false|NN
+2315	location	2315|room|doherti|false|false|false|false|false|false|false|false|true|CD
+Doherty	location	doherti|2315|hall|true|false|false|false|false|true|false|false|false|NNP
+Hall	location	hall|doherti|a|true|false|false|false|false|true|false|false|false|NNP
+a	others	a|hall|repres|false|false|false|false|false|false|false|false|false|DT
+representative	others	repres|a|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|repres|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|of|_end_|false|false|false|false|false|false|false|false|false|DT
+
+Internal	others	intern|_start_|revenu|true|false|false|false|false|false|false|false|false|NNP
+Revenue	others	revenu|intern|servic|true|false|false|false|false|false|false|false|false|NNP
+Service	others	servic|revenu|-lrb-|true|false|false|false|false|false|false|false|false|NNP
+-LRB-	others	-lrb-|servic|ir|false|false|false|false|false|false|false|false|false|-LRB-
+IRS	others	ir|-lrb-|-rrb-|false|true|false|true|false|false|false|false|false|NNP
+-RRB-	others	-rrb-|ir|will|false|false|false|false|false|false|false|false|false|-RRB-
+will	others	will|-rrb-|present|false|false|false|false|false|false|false|false|false|MD
+present	others	present|will|a|false|false|false|false|false|false|false|false|false|VB
+a	others	a|present|seminar|false|false|false|false|false|false|false|false|false|DT
+seminar	others	seminar|a|on|false|false|false|false|false|false|false|false|false|NN
+on	others	on|seminar|complet|false|false|false|false|false|false|false|false|false|IN
+completing	others	complet|on|the|false|false|false|false|false|false|false|false|false|VBG
+the	others	the|complet|_end_|false|false|false|false|false|false|false|false|false|DT
+
+1040NR	others	1040nr|_start_|the|false|false|false|false|false|false|false|false|false|NN
+the	others	the|1040nr|feder|false|false|false|false|false|false|false|false|false|DT
+federal	others	feder|the|incom|false|false|false|false|false|false|false|false|false|JJ
+income	others	incom|feder|tax|false|false|false|false|false|false|false|false|false|NN
+tax	others	tax|incom|form|false|false|false|false|false|false|false|false|false|NN
+form	others	form|tax|for|false|false|false|false|false|false|false|false|false|NN
+for	others	for|form|non-resid|false|false|false|false|false|false|false|false|false|IN
+non-residents	others	non-resid|for|jim|false|false|false|false|false|false|false|false|false|NNS
+Jim	speaker	jim|non-resid|boshear|true|false|false|false|false|true|false|false|false|NNP
+Boshears	speaker	boshear|jim|of|true|false|false|false|false|true|false|false|false|NNP
+of	others	of|boshear|_end_|false|false|false|false|false|false|false|false|false|IN
+
+CMU	others	cmu|_start_|payrol|false|true|false|true|false|false|false|false|false|NNP
+Payroll	others	payrol|cmu|servic|true|false|false|false|false|false|false|false|false|NNP
+Services	others	servic|payrol|will|true|false|false|false|false|false|false|false|false|NNP
+will	others	will|servic|also|false|false|false|false|false|false|false|false|false|MD
+also	others	also|will|talk|false|false|false|false|false|false|false|false|false|RB
+talk	others	talk|also|about|false|false|false|false|false|false|false|false|false|VB
+about	others	about|talk|withhold|false|false|false|false|false|false|false|false|false|IN
+withholding	others	withhold|about|procedur|false|false|false|false|false|false|false|false|false|VBG
+procedures	others	procedur|withhold|for|false|false|false|false|false|false|false|false|false|NNS
+for	others	for|procedur|_end_|false|false|false|false|false|false|false|false|false|IN
+
+non-residents	others	non-resid|_start_|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+1040NR	others	1040nr|_start_|form|false|false|false|false|false|false|false|false|false|NN
+forms	others	form|1040nr|and|false|false|false|false|false|false|false|false|false|NNS
+and	others	and|form|instruct|false|false|false|false|false|false|false|false|false|CC
+instructions	others	instruct|and|be|false|false|false|false|false|false|false|false|false|NNS
+are	others	be|instruct|avail|false|false|false|false|false|false|false|false|false|VBP
+available	others	avail|be|at|false|false|false|false|false|false|false|false|false|JJ
+at	others	at|avail|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|at|offic|false|false|false|false|false|false|false|false|false|DT
+Office	others	offic|the|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|offic|_end_|false|false|false|false|false|false|false|false|false|IN
+
+International	others	intern|_start_|educ|true|false|false|false|false|false|false|false|false|NNP
+Education	others	educ|intern|219|true|false|false|false|false|false|false|false|false|NNP
+219	others	219|educ|smith|false|false|false|false|false|false|false|false|false|CD
+Smith	others	smith|219|hall|true|false|false|false|false|false|false|false|false|NNP
+Hall	others	hall|smith|howev|true|false|false|false|false|false|false|false|false|NNP
+However	others	howev|hall|oie|true|false|false|false|false|false|false|false|false|RB
+OIE	others	oie|howev|can|false|true|false|true|false|false|false|false|false|NN
+can	others	can|oie|not|false|false|false|false|false|false|false|false|false|MD
+not	others	not|can|provid|false|false|false|false|false|false|false|false|false|RB
+provide	others	provid|not|_end_|false|false|false|false|false|false|false|false|false|VB
+
+tax	others	tax|_start_|advis|false|false|false|false|false|false|false|false|false|NN
+advise	others	advis|tax|so|false|false|false|false|false|false|false|false|false|VB
+so	others	so|advis|pleas|false|false|false|false|false|false|false|false|false|RB
+please	others	pleas|so|be|false|false|false|false|false|false|false|false|false|VB
+be	others	be|pleas|sure|false|false|false|false|false|false|false|false|false|VB
+sure	others	sure|be|to|false|false|false|false|false|false|false|false|false|JJ
+to	others	to|sure|attend|false|false|false|false|false|false|false|false|false|TO
+attend	others	attend|to|the|false|false|false|false|false|false|false|false|false|VB
+the	others	the|attend|seminar|false|false|false|false|false|false|false|false|false|DT
+seminar	others	seminar|the|_end_|false|false|false|false|false|false|false|false|false|NN
+

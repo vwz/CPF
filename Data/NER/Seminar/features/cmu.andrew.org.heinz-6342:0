@@ -1,0 +1,116 @@
+Type	others	type|_start_|cmu.andrew.org|true|false|false|false|false|false|false|false|false|NN
+cmu.andrew.org	others	cmu.andrew.org|type|heinz|false|false|false|false|false|false|false|false|false|NN
+heinz	others	heinz|cmu.andrew.org|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Topic	others	topic|_start_|open|true|false|false|false|false|false|false|false|false|NN
+open	others	open|topic|system|false|false|false|false|false|false|false|false|false|JJ
+Systems	others	system|open|present|true|false|false|false|false|false|false|false|false|NNPS
+presentation	others	present|system|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Dates	others	date|_start_|18-apr-94|true|false|false|false|false|false|false|false|false|NNS
+18-Apr-94	others	18-apr-94|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|5:30|true|false|false|false|false|false|false|false|false|NNP
+5:30	stime	5:30|time|pm|false|false|false|false|false|false|false|false|false|CD
+PM	stime	pm|5:30|_end_|false|true|false|true|false|false|false|false|false|NN
+
+PostedBy	others	postedbi|_start_|laura|false|false|false|false|true|false|false|false|false|NNP
+Laura	others	laura|postedbi|m|true|false|false|false|false|true|false|false|false|NNP
+M	others	m|laura|o'rourk|false|false|true|true|false|true|false|false|false|NNP
+O'Rourke	others	o'rourk|m|on|false|false|false|false|false|true|false|false|false|NNP
+on	others	on|o'rourk|14-apr-94|false|false|false|false|false|false|false|false|false|IN
+14-Apr-94	others	14-apr-94|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|14-apr-94|15:43|false|false|false|false|false|false|false|false|false|IN
+15:43	others	15:43|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|15:43|andrew.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+andrew.cmu.edu	others	andrew.cmu.edu|from|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+Hi	others	hu|_start_|all|true|false|false|false|false|false|false|false|false|NN
+all	others	all|hu|_end_|false|false|false|false|false|false|false|false|false|RB
+
+If	others	if|_start_|anyon|true|false|false|false|false|false|false|false|false|IN
+anyone	others	anyon|if|be|false|false|false|false|false|false|false|false|false|NN
+is	others	be|anyon|interest|false|false|false|false|false|false|false|false|false|VBZ
+interested	others	interest|be|in|false|false|false|false|false|false|false|false|false|JJ
+in	others	in|interest|drop|false|false|false|false|false|false|false|false|false|IN
+dropping	others	drop|in|by|false|false|false|false|false|false|false|false|false|VBG
+by	others	by|drop|we|false|false|false|false|false|false|false|false|false|IN
+we	others	we|by|be|false|false|false|false|false|false|false|false|false|PRP
+are	others	be|we|have|false|false|false|false|false|false|false|false|false|VBP
+having	others	have|be|a|false|false|false|false|false|false|false|false|false|VBG
+an	others	a|have|open|false|false|false|false|false|false|false|false|false|DT
+open	others	open|a|final|false|false|false|false|false|false|false|false|false|JJ
+FINAL	others	final|open|_end_|false|true|false|true|false|false|false|false|false|NN
+
+systems	others	system|_start_|present|false|false|false|false|false|false|false|false|false|NNS
+presentation	others	present|system|on|false|false|false|false|false|false|false|false|false|NN
+on	others	on|present|defens|false|false|false|false|false|false|false|false|false|IN
+defense	others	defens|on|convers|false|false|false|false|false|false|false|false|false|NN
+conversion	others	convers|defens|polici|false|false|false|false|false|false|false|false|false|NN
+policy	others	polici|convers|on|false|false|false|false|false|false|false|false|false|NN
+on	others	on|polici|mondai|false|false|false|false|false|false|false|false|false|IN
+Monday	others	mondai|on|april|true|false|false|false|false|false|false|false|true|NNP
+April	others	april|mondai|_end_|true|false|false|false|false|false|false|false|true|NNP
+
+18th	others	18th|_start_|at|false|false|false|false|false|false|false|false|false|JJ
+at	others	at|18th|5:30|false|false|false|false|false|false|false|false|false|IN
+5:30	stime	5:30|at|pm|false|false|false|false|false|false|false|false|false|CD
+pm	stime	pm|5:30|in|false|false|false|false|false|false|false|false|false|NN
+in	others	in|pm|room|false|false|false|false|false|false|false|false|false|IN
+Room	location	room|in|2224|true|false|false|false|false|false|false|false|false|NNP
+2224	location	2224|room|of|false|false|false|false|false|false|false|false|true|CD
+of	location	of|2224|edrc|false|false|false|false|false|false|false|false|false|IN
+EDRC	location	edrc|of|-lrb-|false|true|false|true|false|false|false|false|false|NN
+-LRB-	others	-lrb-|edrc|go|false|false|false|false|false|false|false|false|false|-LRB-
+go	others	go|-lrb-|to|false|false|false|false|false|false|false|false|false|VB
+to	others	to|go|the|false|false|false|false|false|false|false|false|false|TO
+the	others	the|to|second|false|false|false|false|false|false|false|false|false|DT
+second	others	second|the|floor|false|false|false|false|false|false|false|false|false|JJ
+floor	others	floor|second|then|false|false|false|false|false|false|false|false|false|NN
+then	others	then|floor|walk|false|false|false|false|false|false|false|false|false|RB
+walk	others	walk|then|_end_|false|false|false|false|false|false|false|false|false|VBP
+
+over	others	over|_start_|to|false|false|false|false|false|false|false|false|false|IN
+to	others	to|over|the|false|false|false|false|false|false|false|false|false|TO
+the	others	the|to|other|false|false|false|false|false|false|false|false|false|DT
+other	others	other|the|side|false|false|false|false|false|false|false|false|false|JJ
+side	others	side|other|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|side|hamberg|false|false|false|false|false|false|false|false|false|IN
+Hamberg	others	hamberg|of|hall|true|false|false|false|false|true|false|false|false|NNP
+Hall	others	hall|hamberg|abov|true|false|false|false|false|true|false|false|false|NNP
+above	others	abov|hall|rotc|false|false|false|false|false|false|false|false|false|IN
+ROTC	others	rotc|abov|wing|false|true|false|true|false|false|false|false|false|NNP
+wing	others	wing|rotc|-rrb-|false|false|false|false|false|false|false|false|false|NN
+-RRB-	others	-rrb-|wing|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+Anyone	others	anyon|_start_|who|true|false|false|false|false|false|false|false|false|NN
+who	others	who|anyon|be|false|false|false|false|false|false|false|false|false|WP
+is	others	be|who|interest|false|false|false|false|false|false|false|false|false|VBZ
+interested	others	interest|be|or|false|false|false|false|false|false|false|false|false|JJ
+or	others	or|interest|just|false|false|false|false|false|false|false|false|false|CC
+just	others	just|or|curiou|false|false|false|false|false|false|false|false|false|RB
+curious	others	curiou|just|be|false|false|false|false|false|false|false|false|false|JJ
+is	others	be|curiou|welcom|false|false|false|false|false|false|false|false|false|VBZ
+welcome	others	welcom|be|to|false|false|false|false|false|false|false|false|false|JJ
+to	others	to|welcom|stop|false|false|false|false|false|false|false|false|false|TO
+stop	others	stop|to|by|false|false|false|false|false|false|false|false|false|VB
+by	others	by|stop|just|false|false|false|false|false|false|false|false|false|IN
+Just	others	just|by|_end_|true|false|false|false|false|false|false|false|false|RB
+
+do	others	do|_start_|not|false|false|false|false|false|false|false|false|false|VBP
+n't	others	not|do|eat|false|false|false|false|false|false|false|false|false|RB
+eat	others	eat|not|all|false|false|false|false|false|false|false|false|false|VB
+all	others	all|eat|the|false|false|false|false|false|false|false|false|false|PDT
+the	others	the|all|food|false|false|false|false|false|false|false|false|false|DT
+food	others	food|the|or|false|false|false|false|false|false|false|false|false|NN
+or	others	or|food|make|false|false|false|false|false|false|false|false|false|CC
+make	others	make|or|fun|false|false|false|false|false|false|false|false|false|VB
+fun	others	fun|make|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|fun|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|of|guest|false|false|false|false|false|false|false|false|false|DT
+guests	others	guest|the|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+Lo	others	lo|_start_|_end_|true|false|false|false|false|false|false|false|false|NNP
+

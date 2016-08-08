@@ -1,0 +1,110 @@
+Type	others	type|_start_|cmu|true|false|false|false|false|false|false|false|false|NN
+cmu	others	cmu|type|c|false|false|false|false|false|false|false|false|false|NN
+cs	others	c|cmu|sc|false|false|false|false|false|false|false|false|false|NNS
+scs	others	sc|c|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+Topic	others	topic|_start_|calendar|true|false|false|false|false|false|false|false|false|NN
+Calendar	others	calendar|topic|joint|true|false|false|false|false|false|false|false|false|NN
+joint	others	joint|calendar|cs-psc|false|false|false|false|false|false|false|false|false|JJ
+CS-PSC	others	cs-psc|joint|seminar|false|false|false|false|false|false|false|false|false|NN
+seminar	others	seminar|cs-psc|seri|false|false|false|false|false|false|false|false|false|NN
+series	others	seri|seminar|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Dates	others	date|_start_|21-oct-94|true|false|false|false|false|false|false|false|false|NNS
+21-Oct-94	others	21-oct-94|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|4:00|true|false|false|false|false|false|false|false|false|NNP
+4:00	stime	4:00|time|pm|false|false|false|false|false|false|false|false|false|CD
+PM	stime	pm|4:00|_end_|false|true|false|true|false|false|false|false|false|NN
+
+PostedBy	others	postedbi|_start_|pr|false|false|false|false|true|false|false|false|false|NNP
+prs	others	pr|postedbi|on|false|false|false|false|false|false|false|false|false|NNS
+on	others	on|pr|16-sep-94|false|false|false|false|false|false|false|false|false|IN
+16-Sep-94	others	16-sep-94|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|16-sep-94|14:14|false|false|false|false|false|false|false|false|false|IN
+14:14	others	14:14|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|14:14|n2|false|false|false|false|false|false|false|false|false|IN
+N2	others	n2|from|sp.cs.cmu.edu|false|false|false|false|false|false|false|false|false|NN
+SP.CS.CMU.EDU	others	sp.cs.cmu.edu|n2|-lrb-|false|false|false|false|false|false|false|false|false|NN
+-LRB-	others	-lrb-|sp.cs.cmu.edu|peter|false|false|false|false|false|false|false|false|false|-LRB-
+peter	others	peter|-lrb-|steenkist|false|false|false|false|false|false|false|false|false|NN
+steenkiste	others	steenkist|peter|-rrb-|false|false|false|false|false|false|false|false|false|NN
+-RRB-	others	-rrb-|steenkist|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+Appended	others	append|_start_|be|true|false|false|false|false|false|false|false|false|VBN
+is	others	be|append|the|false|false|false|false|false|false|false|false|false|VBZ
+the	others	the|be|calendar|false|false|false|false|false|false|false|false|false|DT
+calendar	others	calendar|the|for|false|false|false|false|false|false|false|false|false|NN
+for	others	for|calendar|fall|false|false|false|false|false|false|false|false|false|IN
+Fall	others	fall|for|joint|true|false|false|false|false|false|false|false|true|NN
+joint	others	joint|fall|cs-psc|false|false|false|false|false|false|false|false|false|JJ
+CS-PSC	others	cs-psc|joint|seminar|false|false|false|false|false|false|false|false|false|NN
+seminar	others	seminar|cs-psc|seri|false|false|false|false|false|false|false|false|false|NN
+series	others	seri|seminar|_end_|false|false|false|false|false|false|false|false|false|NN
+
+All	others	all|_start_|seminar|true|false|false|false|false|false|false|false|false|DT
+seminars	others	seminar|all|be|false|false|false|false|false|false|false|false|false|NNS
+are	others	be|seminar|on|false|false|false|false|false|false|false|false|false|VBP
+on	others	on|be|fridai|false|false|false|false|false|false|false|false|false|IN
+Friday	others	fridai|on|at|true|false|false|false|false|false|false|false|true|NNP
+at	others	at|fridai|4|false|false|false|false|false|false|false|false|false|IN
+4	others	4|at|unless|false|false|false|false|false|false|false|false|false|CD
+unless	others	unless|4|otherwis|false|false|false|false|false|false|false|false|false|IN
+otherwise	others	otherwis|unless|note|false|false|false|false|false|false|false|false|false|RB
+noted	others	note|otherwis|m|false|false|false|false|false|false|false|false|false|VBN
+M	others	m|note|ost|false|false|true|true|false|false|false|false|false|NN
+ost	others	ost|m|_end_|false|false|false|false|false|false|false|false|false|IN
+
+speakers	others	speaker|_start_|spend|false|false|false|false|false|false|false|false|false|NNS
+spend	others	spend|speaker|some|false|false|false|false|false|false|false|false|false|VBP
+some	others	some|spend|time|false|false|false|false|false|false|false|false|false|DT
+time	others	time|some|in|false|false|false|false|false|false|false|false|false|NN
+in	others	in|time|pittsburgh|false|false|false|false|false|false|false|false|false|IN
+Pittsburgh	others	pittsburgh|in|to|true|false|false|false|false|false|false|false|false|NNP
+to	others	to|pittsburgh|find|false|false|false|false|false|false|false|false|false|TO
+find	others	find|to|out|false|false|false|false|false|false|false|false|false|VB
+out	others	out|find|about|false|false|false|false|false|false|false|false|false|RP
+about	others	about|out|ongo|false|false|false|false|false|false|false|false|false|IN
+ongoing	others	ongo|about|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+research	others	research|_start_|pleas|false|false|false|false|false|false|false|false|false|NN
+Please	others	pleas|research|contact|true|false|false|false|false|false|false|false|false|VB
+contact	others	contact|pleas|barbara|false|false|false|false|false|false|false|false|false|VB
+Barbara	others	barbara|contact|sandl|true|false|false|false|false|true|false|false|false|NNP
+Sandling	others	sandl|barbara|if|true|false|false|false|false|true|false|false|false|NNP
+if	others	if|sandl|you|false|false|false|false|false|false|false|false|false|IN
+you	others	you|if|want|false|false|false|false|false|false|false|false|false|PRP
+want	others	want|you|to|false|false|false|false|false|false|false|false|false|VBP
+to	others	to|want|talk|false|false|false|false|false|false|false|false|false|TO
+talk	others	talk|to|to|false|false|false|false|false|false|false|false|false|VB
+to	others	to|talk|_end_|false|false|false|false|false|false|false|false|false|TO
+
+the	others	the|_start_|speaker|false|false|false|false|false|false|false|false|false|DT
+speaker	others	speaker|the|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Peter	others	peter|_start_|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+
+Oct	others	oct|_start_|21|true|false|false|false|false|false|false|false|true|NN
+21	others	21|oct|_end_|false|false|false|false|false|false|false|false|true|CD
+
+Biomechanics	others	biomechan|_start_|_end_|true|false|false|false|false|false|false|false|false|NNS
+
+George	speaker	georg|_start_|lea|true|false|false|false|false|true|false|false|false|NNP
+Lea	speaker	lea|georg|nation|true|false|false|false|false|true|false|false|false|NNP
+National	others	nation|lea|scienc|true|false|false|false|false|false|false|false|false|NNP
+Science	others	scienc|nation|foundat|true|false|false|false|false|false|false|false|false|NNP
+Foundation	others	foundat|scienc|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Mellon	location	mellon|_start_|institut|true|false|false|false|false|false|false|false|false|NNP
+Institute	location	institut|mellon|3rd|true|false|false|false|false|false|false|false|false|NNP
+3rd	location	3rd|institut|floor|false|false|false|false|false|false|false|false|false|JJ
+Floor	location	floor|3rd|confer|true|false|false|false|false|false|false|false|false|NNP
+Conference	location	confer|floor|room|true|false|false|false|false|false|false|false|false|NNP
+Room	location	room|confer|4:00|true|false|false|false|false|false|false|false|false|NNP
+4:00	stime	4:00|room|p.|false|false|false|false|false|false|false|false|false|CD
+p.	stime	p.|4:00|m|false|false|false|false|false|false|false|false|false|NN
+m	stime	m|p.|_end_|false|false|false|false|false|false|false|false|false|NN
+

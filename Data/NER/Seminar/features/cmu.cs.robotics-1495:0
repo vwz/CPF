@@ -1,0 +1,253 @@
+Type	others	type|_start_|cmu|true|false|false|false|false|false|false|false|false|NN
+cmu	others	cmu|type|c|false|false|false|false|false|false|false|false|false|NN
+cs	others	c|cmu|robot|false|false|false|false|false|false|false|false|false|NNS
+robotics	others	robot|c|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+Topic	others	topic|_start_|upcom|true|false|false|false|false|false|false|false|false|NN
+Upcoming	others	upcom|topic|robot|true|false|false|false|false|false|false|false|false|NNP
+Robotics	others	robot|upcom|seminar|true|false|false|false|false|false|false|false|false|NNP
+Seminars	others	seminar|robot|apr|true|false|false|false|false|false|false|false|false|NNPS
+Apr	others	apr|seminar|14|true|false|false|false|false|false|false|false|true|NN
+14	others	14|apr|none|false|false|false|false|false|false|false|false|true|CD
+none	others	none|14|apr|false|false|false|false|false|false|false|false|false|NN
+Apr	others	apr|none|21|true|false|false|false|false|false|false|false|true|NN
+21	others	21|apr|shree|false|false|false|false|false|false|false|false|true|CD
+Shree	others	shree|21|nayar|true|false|false|false|false|true|false|false|false|NNP
+Nayar	others	nayar|shree|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+Dates	others	date|_start_|21-apr-95|true|false|false|false|false|false|false|false|false|NNS
+21-Apr-95	others	21-apr-95|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|3:30|true|false|false|false|false|false|false|false|false|NNP
+3:30	stime	3:30|time|5:00|false|false|false|false|false|false|true|false|false|CD
+5:00	etime	5:00|3:30|_end_|false|false|false|false|false|false|false|true|false|CD
+
+Host	others	host|_start_|katsushi|true|false|false|false|false|false|false|false|false|NN
+Katsushi	others	katsushi|host|ikeuchi|true|false|false|false|false|true|false|false|false|NNP
+Ikeuchi	others	ikeuchi|katsushi|x8-6349|true|false|false|false|false|true|false|false|false|NNP
+x8-6349	others	x8-6349|ikeuchi|_end_|false|false|false|false|false|false|false|false|false|NN
+
+PostedBy	others	postedbi|_start_|i|false|false|false|false|true|false|false|false|false|NNP
+me	others	i|postedbi|on|false|false|false|false|false|false|false|false|false|PRP
+on	others	on|i|13-apr-95|false|false|false|false|false|false|false|false|false|IN
+13-Apr-95	others	13-apr-95|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|13-apr-95|03:24|false|false|false|false|false|false|false|false|false|IN
+03:24	others	03:24|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|03:24|h.gp.cs.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+H.GP.CS.CMU.EDU	others	h.gp.cs.cmu.edu|from|-lrb-|false|false|false|false|false|false|false|false|false|NN
+-LRB-	others	-lrb-|h.gp.cs.cmu.edu|michael|false|false|false|false|false|false|false|false|false|-LRB-
+Michael	others	michael|-lrb-|erdmann|true|false|false|false|false|true|false|false|false|NNP
+Erdmann	others	erdmann|michael|-rrb-|true|false|false|false|false|true|false|false|false|NNP
+-RRB-	others	-rrb-|erdmann|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+There	others	there|_start_|be|true|false|false|false|false|false|false|false|false|EX
+is	others	be|there|no|false|false|false|false|false|false|false|false|false|VBZ
+no	others	no|be|robot|false|false|false|false|false|false|false|false|false|DT
+Robotics	others	robot|no|seminar|true|false|false|false|false|false|false|false|false|NNPS
+Seminar	others	seminar|robot|thi|true|false|false|false|false|false|false|false|false|NNP
+this	others	thi|seminar|fridai|false|false|false|false|false|false|false|false|true|DT
+Friday	others	fridai|thi|_end_|true|false|false|false|false|false|false|false|true|NNP
+
+Next	others	next|_start_|fridai|true|false|false|false|false|false|false|false|true|NNP
+Friday	others	fridai|next|'s|true|false|false|false|false|false|false|false|true|NNP
+'s	others	's|fridai|seminar|false|false|false|false|false|false|false|false|false|POS
+seminar	others	seminar|'s|will|false|false|false|false|false|false|false|false|false|NN
+will	others	will|seminar|be|false|false|false|false|false|false|false|false|false|MD
+be	others	be|will|_end_|false|false|false|false|false|false|false|false|false|VB
+
+
+ROBOTICS	others	robot|_start_|seminar|false|true|false|true|false|false|false|false|false|NN
+SEMINAR	others	seminar|robot|_end_|false|true|false|true|false|false|false|false|false|NN
+
+Friday	others	fridai|_start_|april|true|false|false|false|false|false|false|false|true|NNP
+April	others	april|fridai|21|true|false|false|false|false|false|false|false|true|NNP
+21	others	21|april|3:30|false|false|false|false|false|false|false|false|true|CD
+3:30	stime	3:30|21|5:00|false|false|false|false|false|false|true|false|false|CD
+5:00	etime	5:00|3:30|_end_|false|false|false|false|false|false|false|true|false|CD
+
+Refreshments	others	refresh|_start_|3:15|true|false|false|false|false|false|false|false|false|NNP
+3:15	others	3:15|refresh|_end_|false|false|false|false|false|false|false|false|false|CD
+
+Real-Time	others	real-tim|_start_|focu|false|false|false|false|false|false|false|false|false|JJ
+Focus	others	focu|real-tim|rang|true|false|false|false|false|false|false|false|false|NN
+Range	others	rang|focu|sensor|true|false|false|false|false|false|false|false|false|NNP
+Sensor	others	sensor|rang|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+
+Department	others	depart|_start_|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|depart|comput|false|false|false|false|false|false|false|false|false|IN
+Computer	others	comput|of|scienc|true|false|false|false|false|false|false|false|false|NNP
+Science	others	scienc|comput|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Columbia	others	columbia|_start_|univers|true|false|false|false|false|false|false|false|false|NNP
+University	others	univers|columbia|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+New	others	new|_start_|york|true|false|false|false|false|false|false|false|false|NNP
+York	others	york|new|ny|true|false|false|false|false|false|false|false|false|NNP
+NY	others	ny|york|10027|false|true|false|true|false|false|false|false|false|NNP
+10027	others	10027|ny|_end_|false|false|false|false|false|false|false|false|false|CD
+
+Structures	others	structur|_start_|of|true|false|false|false|false|false|false|false|false|NNS
+of	others	of|structur|dynam|false|false|false|false|false|false|false|false|false|IN
+dynamic	others	dynam|of|scene|false|false|false|false|false|false|false|false|false|JJ
+scenes	others	scene|dynam|can|false|false|false|false|false|false|false|false|false|NNS
+can	others	can|scene|onli|false|false|false|false|false|false|false|false|false|MD
+only	others	onli|can|be|false|false|false|false|false|false|false|false|false|RB
+be	others	be|onli|recov|false|false|false|false|false|false|false|false|false|VB
+recovered	others	recov|be|us|false|false|false|false|false|false|false|false|false|VBN
+using	others	us|recov|a|false|false|false|false|false|false|false|false|false|VBG
+a	others	a|us|real-tim|false|false|false|false|false|false|false|false|false|DT
+real-time	others	real-tim|a|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+range	others	rang|_start_|sensor|false|false|false|false|false|false|false|false|false|NN
+sensor	others	sensor|rang|depth|false|false|false|false|false|false|false|false|false|NN
+Depth	others	depth|sensor|from|true|false|false|false|false|false|false|false|false|NN
+from	others	from|depth|defocu|false|false|false|false|false|false|false|false|false|IN
+defocus	others	defocu|from|offer|false|false|false|false|false|false|false|false|false|NN
+offers	others	offer|defocu|a|false|false|false|false|false|false|false|false|false|VBZ
+an	others	a|offer|eleg|false|false|false|false|false|false|false|false|false|DT
+elegant	others	eleg|a|solut|false|false|false|false|false|false|false|false|false|JJ
+solution	others	solut|eleg|to|false|false|false|false|false|false|false|false|false|NN
+to	others	to|solut|fast|false|false|false|false|false|false|false|false|false|TO
+fast	others	fast|to|_end_|false|false|false|false|false|false|false|false|false|RB
+
+and	others	and|_start_|dens|false|false|false|false|false|false|false|false|false|CC
+dense	others	dens|and|rang|false|false|false|false|false|false|false|false|false|JJ
+range	others	rang|dens|estim|false|false|false|false|false|false|false|false|false|NN
+estimation	others	estim|rang|it|false|false|false|false|false|false|false|false|false|NN
+It	others	it|estim|be|true|false|false|false|false|false|false|false|false|PRP
+is	others	be|it|comput|false|false|false|false|false|false|false|false|false|VBZ
+computational	others	comput|be|effici|false|false|false|false|false|false|false|false|false|JJ
+efficient	others	effici|comput|as|false|false|false|false|false|false|false|false|false|JJ
+as	others	as|effici|it|false|false|false|false|false|false|false|false|false|IN
+it	others	it|as|_end_|false|false|false|false|false|false|false|false|false|PRP
+
+circumvents	others	circumv|_start_|the|false|false|false|false|false|false|false|false|false|VBZ
+the	others	the|circumv|correspond|false|false|false|false|false|false|false|false|false|DT
+correspondence	others	correspond|the|problem|false|false|false|false|false|false|false|false|false|NN
+problem	others	problem|correspond|face|false|false|false|false|false|false|false|false|false|NN
+faced	others	face|problem|by|false|false|false|false|false|false|false|false|false|VBN
+by	others	by|face|stereo|false|false|false|false|false|false|false|false|false|IN
+stereo	others	stereo|by|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|stereo|the|false|false|false|false|false|false|false|false|false|CC
+the	others	the|and|featur|false|false|false|false|false|false|false|false|false|DT
+feature	others	featur|the|_end_|false|false|false|false|false|false|false|false|false|NN
+
+tracking	others	track|_start_|problem|false|false|false|false|false|false|false|false|false|VBG
+problem	others	problem|track|involv|false|false|false|false|false|false|false|false|false|NN
+involved	others	involv|problem|in|false|false|false|false|false|false|false|false|false|VBN
+in	others	in|involv|structur|false|false|false|false|false|false|false|false|false|IN
+structure	others	structur|in|from|false|false|false|false|false|false|false|false|false|NN
+from	others	from|structur|motion|false|false|false|false|false|false|false|false|false|IN
+motion	others	motion|from|howev|false|false|false|false|false|false|false|false|false|NN
+However	others	howev|motion|accur|true|false|false|false|false|false|false|false|false|RB
+accurate	others	accur|howev|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+depth	others	depth|_start_|estim|false|false|false|false|false|false|false|false|false|NN
+estimation	others	estim|depth|requir|false|false|false|false|false|false|false|false|false|NN
+requires	others	requir|estim|theoret|false|false|false|false|false|false|false|false|false|VBZ
+theoretical	others	theoret|requir|and|false|false|false|false|false|false|false|false|false|JJ
+and	others	and|theoret|practic|false|false|false|false|false|false|false|false|false|CC
+practical	others	practic|and|solut|false|false|false|false|false|false|false|false|false|JJ
+solutions	others	solut|practic|to|false|false|false|false|false|false|false|false|false|NNS
+to	others	to|solut|a|false|false|false|false|false|false|false|false|false|TO
+a	others	a|to|_end_|false|false|false|false|false|false|false|false|false|DT
+
+variety	others	varieti|_start_|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|varieti|problem|false|false|false|false|false|false|false|false|false|IN
+problems	others	problem|of|includ|false|false|false|false|false|false|false|false|false|NNS
+including	others	includ|problem|recoveri|false|false|false|false|false|false|false|false|false|VBG
+recovery	others	recoveri|includ|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|recoveri|textureless|false|false|false|false|false|false|false|false|false|IN
+textureless	others	textureless|of|surfac|false|false|false|false|false|false|false|false|false|JJ
+surfaces	others	surfac|textureless|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+blur	others	blur|_start_|estim|false|false|false|false|false|false|false|false|false|NN
+estimation	others	estim|blur|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|estim|magnif|false|false|false|false|false|false|false|false|false|CC
+magnification	others	magnif|and|variat|false|false|false|false|false|false|false|false|false|NN
+variations	others	variat|magnif|caus|false|false|false|false|false|false|false|false|false|NNS
+caused	others	caus|variat|by|false|false|false|false|false|false|false|false|false|VBN
+by	others	by|caus|defocu|false|false|false|false|false|false|false|false|false|IN
+defocusing	others	defocu|by|_end_|false|false|false|false|false|false|false|false|false|VBG
+
+Both	others	both|_start_|textur|true|false|false|false|false|false|false|false|false|CC
+textured	others	textur|both|and|false|false|false|false|false|false|false|false|false|JJ
+and	others	and|textur|textureless|false|false|false|false|false|false|false|false|false|CC
+textureless	others	textureless|and|surfac|false|false|false|false|false|false|false|false|false|JJ
+surfaces	others	surfac|textureless|be|false|false|false|false|false|false|false|false|false|NNS
+are	others	be|surfac|recov|false|false|false|false|false|false|false|false|false|VBP
+recovered	others	recov|be|us|false|false|false|false|false|false|false|false|false|VBN
+using	others	us|recov|a|false|false|false|false|false|false|false|false|false|VBG
+an	others	a|us|_end_|false|false|false|false|false|false|false|false|false|DT
+
+optimized	others	optim|_start_|illumin|false|false|false|false|false|false|false|false|false|VBN
+illumination	others	illumin|optim|pattern|false|false|false|false|false|false|false|false|false|NN
+pattern	others	pattern|illumin|that|false|false|false|false|false|false|false|false|false|NN
+that	others	that|pattern|be|false|false|false|false|false|false|false|false|false|WDT
+is	others	be|that|project|false|false|false|false|false|false|false|false|false|VBZ
+projected	others	project|be|via|false|false|false|false|false|false|false|false|false|VBN
+via	others	via|project|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|via|same|false|false|false|false|false|false|false|false|false|DT
+same	others	same|the|optic|false|false|false|false|false|false|false|false|false|JJ
+optical	others	optic|same|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+path	others	path|_start_|us|false|false|false|false|false|false|false|false|false|NN
+used	others	us|path|to|false|false|false|false|false|false|false|false|false|VBD
+to	others	to|us|acquir|false|false|false|false|false|false|false|false|false|TO
+acquire	others	acquir|to|imag|false|false|false|false|false|false|false|false|false|VB
+images	others	imag|acquir|a|false|false|false|false|false|false|false|false|false|NNS
+A	others	a|imag|prototyp|false|false|true|true|false|false|false|false|false|DT
+prototype	others	prototyp|a|focu|false|false|false|false|false|false|false|false|false|NN
+focus	others	focu|prototyp|rang|false|false|false|false|false|false|false|false|false|NN
+range	others	rang|focu|sensor|false|false|false|false|false|false|false|false|false|NN
+sensor	others	sensor|rang|have|false|false|false|false|false|false|false|false|false|NN
+has	others	have|sensor|be|false|false|false|false|false|false|false|false|false|VBZ
+been	others	be|have|_end_|false|false|false|false|false|false|false|false|false|VBN
+
+developed	others	develop|_start_|that|false|false|false|false|false|false|false|false|false|VBD
+that	others	that|develop|produc|false|false|false|false|false|false|false|false|false|IN
+produces	others	produc|that|up|false|false|false|false|false|false|false|false|false|VBZ
+up	others	up|produc|to|false|false|false|false|false|false|false|false|false|RP
+to	others	to|up|512x480|false|false|false|false|false|false|false|false|false|TO
+512x480	others	512x480|to|depth|false|false|false|false|false|false|false|false|false|VB
+depth	others	depth|512x480|estim|false|false|false|false|false|false|false|false|false|NN
+estimates	others	estim|depth|at|false|false|false|false|false|false|false|false|false|NNS
+at	others	at|estim|30|false|false|false|false|false|false|false|false|false|IN
+30	others	30|at|hz|false|false|false|false|false|false|false|false|false|CD
+Hz	others	hz|30|with|true|false|false|false|false|false|false|false|false|NN
+with	others	with|hz|_end_|false|false|false|false|false|false|false|false|false|IN
+
+an	others	a|_start_|accuraci|false|false|false|false|false|false|false|false|false|DT
+accuracy	others	accuraci|a|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|accuraci|0.3|false|false|false|false|false|false|false|false|false|IN
+0.3	others	0.3|of|_end_|false|false|false|false|false|false|false|false|false|CD
+
+In	others	in|_start_|addit|true|false|false|false|false|false|false|false|false|IN
+addition	others	addit|in|to|false|false|false|false|false|false|false|false|false|NN
+to	others	to|addit|the|false|false|false|false|false|false|false|false|false|TO
+the	others	the|to|abov|false|false|false|false|false|false|false|false|false|DT
+above	others	abov|the|topic|false|false|false|false|false|false|false|false|false|JJ
+topic	others	topic|abov|i|false|false|false|false|false|false|false|false|false|NN
+I	others	i|topic|'ll|false|false|true|true|false|false|false|false|false|PRP
+'ll	others	'll|i|briefli|false|false|false|false|false|false|false|false|false|MD
+briefly	others	briefli|'ll|summar|false|false|false|false|false|false|false|false|false|RB
+summarize	others	summar|briefli|recent|false|false|false|false|false|false|false|false|false|VB
+recent	others	recent|summar|result|false|false|false|false|false|false|false|false|false|JJ
+results	others	result|recent|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+on	others	on|_start_|diffus|false|false|false|false|false|false|false|false|false|IN
+diffuse	others	diffus|on|reflect|false|false|false|false|false|false|false|false|false|JJ
+reflectance	others	reflect|diffus|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|reflect|visual|false|false|false|false|false|false|false|false|false|CC
+visual	others	visual|and|learn|false|false|false|false|false|false|false|false|false|JJ
+learning	others	learn|visual|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Host	others	host|_start_|katsushi|true|false|false|false|false|false|false|false|false|NN
+Katsushi	others	katsushi|host|ikeuchi|true|false|false|false|false|true|false|false|false|NNP
+Ikeuchi	others	ikeuchi|katsushi|x8-6349|true|false|false|false|false|true|false|false|false|NNP
+x8-6349	others	x8-6349|ikeuchi|_end_|false|false|false|false|false|false|false|false|false|NN
+
+

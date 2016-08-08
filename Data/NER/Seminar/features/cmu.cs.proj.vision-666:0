@@ -1,0 +1,142 @@
+Type	others	type|_start_|cmu|true|false|false|false|false|false|false|false|false|NN
+cmu	others	cmu|type|c|false|false|false|false|false|false|false|false|false|NN
+cs	others	c|cmu|proj|false|false|false|false|false|false|false|false|false|NNS
+proj	others	proj|c|vision|false|false|false|false|false|false|false|false|false|NN
+vision	others	vision|proj|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Topic	others	topic|_start_|special|true|false|false|false|false|false|false|false|false|NN
+Special	others	special|topic|seminar|true|false|false|false|false|false|false|false|false|JJ
+Seminar	others	seminar|special|in|true|false|false|false|false|false|false|false|false|NN
+in	others	in|seminar|digit|false|false|false|false|false|false|false|false|false|IN
+Digital	others	digit|in|map|true|false|false|false|false|false|false|false|false|NNP
+Mapping	others	map|digit|_end_|true|false|false|false|false|false|false|false|false|NN
+
+Dates	others	date|_start_|7-apr-89|true|false|false|false|false|false|false|false|false|NNS
+7-Apr-89	others	7-apr-89|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|10:00|true|false|false|false|false|false|false|false|false|NNP
+10:00	stime	10:00|time|11:30|false|false|false|false|false|false|true|false|false|CD
+11:30	etime	11:30|10:00|_end_|false|false|false|false|false|false|false|true|false|CD
+
+PostedBy	others	postedbi|_start_|dave|false|false|false|false|true|false|false|false|false|NNP
+Dave	others	dave|postedbi|mckeown|true|false|false|false|false|true|false|false|false|NNP
+McKeown	others	mckeown|dave|on|false|false|false|false|false|true|false|false|false|NNP
+on	others	on|mckeown|31-mar-89|false|false|false|false|false|false|false|false|false|IN
+31-Mar-89	others	31-mar-89|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|31-mar-89|10:27|false|false|false|false|false|false|false|false|false|IN
+10:27	others	10:27|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|10:27|maps.cs.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+MAPS.CS.CMU.EDU	others	maps.cs.cmu.edu|from|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+Some	others	some|_start_|method|true|false|false|false|false|false|false|false|false|DT
+Methods	others	method|some|for|true|false|false|false|false|false|false|false|false|NNS
+for	others	for|method|intellig|false|false|false|false|false|false|false|false|false|IN
+Intelligent	others	intellig|for|sar|true|false|false|false|false|false|false|false|false|JJ
+SAR	others	sar|intellig|imag|false|true|false|true|false|false|false|false|false|NN
+Image	others	imag|sar|rectif|true|false|false|false|false|false|false|false|false|NN
+Rectification	others	rectif|imag|_end_|true|false|false|false|false|false|false|false|false|NN
+
+Institute	others	institut|_start_|for|true|false|false|false|false|false|false|false|false|NNP
+for	others	for|institut|imag|false|false|false|false|false|false|false|false|false|IN
+Image	others	imag|for|process|true|false|false|false|false|false|false|false|false|NN
+Processing	others	process|imag|and|true|false|false|false|false|false|false|false|false|NN
+and	others	and|process|comput|false|false|false|false|false|false|false|false|false|CC
+Computer	others	comput|and|graphic|true|false|false|false|false|false|false|false|false|NN
+Graphics	others	graphic|comput|_end_|true|false|false|false|false|false|false|false|false|NNS
+
+Graz	others	graz|_start_|austria|true|false|false|false|false|false|false|false|false|NNP
+Austria	others	austria|graz|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+This	others	thi|_start_|talk|true|false|false|false|false|false|false|false|false|DT
+talk	others	talk|thi|summar|false|false|false|false|false|false|false|false|false|NN
+summarizes	others	summar|talk|some|false|false|false|false|false|false|false|false|false|VBZ
+some	others	some|summar|recent|false|false|false|false|false|false|false|false|false|DT
+recently	others	recent|some|develop|false|false|false|false|false|false|false|false|true|RB
+developed	others	develop|recent|method|false|false|false|false|false|false|false|false|false|VBN
+methods	others	method|develop|to|false|false|false|false|false|false|false|false|false|NNS
+to	others	to|method|comput|false|false|false|false|false|false|false|false|false|TO
+compute	others	comput|to|the|false|false|false|false|false|false|false|false|false|VB
+the	others	the|comput|_end_|false|false|false|false|false|false|false|false|false|DT
+
+geometric	others	geometr|_start_|relationship|false|false|false|false|false|false|false|false|false|JJ
+relationship	others	relationship|geometr|between|false|false|false|false|false|false|false|false|false|NN
+between	others	between|relationship|a|false|false|false|false|false|false|false|false|false|IN
+a	others	a|between|synthet|false|false|false|false|false|false|false|false|false|DT
+synthetic	others	synthet|a|apertur|false|false|false|false|false|false|false|false|false|JJ
+aperture	others	apertur|synthet|radar|false|false|false|false|false|false|false|false|false|NN
+radar	others	radar|apertur|-lrb-|false|false|false|false|false|false|false|false|false|NN
+-LRB-	others	-lrb-|radar|sar|false|false|false|false|false|false|false|false|false|-LRB-
+SAR	others	sar|-lrb-|-rrb-|false|true|false|true|false|false|false|false|false|NN
+-RRB-	others	-rrb-|sar|imag|false|false|false|false|false|false|false|false|false|-RRB-
+image	others	imag|-rrb-|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|imag|_end_|false|false|false|false|false|false|false|false|false|CC
+
+the	others	the|_start_|correspond|false|false|false|false|false|false|false|false|false|DT
+corresponding	others	correspond|the|digit|false|false|false|false|false|false|false|false|false|JJ
+digital	others	digit|correspond|elev|false|false|false|false|false|false|false|false|false|JJ
+elevation	others	elev|digit|model|false|false|false|false|false|false|false|false|false|NN
+model	others	model|elev|-lrb-|false|false|false|false|false|false|false|false|false|NN
+-LRB-	others	-lrb-|model|dem|false|false|false|false|false|false|false|false|false|-LRB-
+DEM	others	dem|-lrb-|-rrb-|false|true|false|true|false|false|false|false|false|NN
+-RRB-	others	-rrb-|dem|two|false|false|false|false|false|false|false|false|false|-RRB-
+Two	others	two|-rrb-|aspect|true|false|false|false|false|false|false|false|false|CD
+aspects	others	aspect|two|have|false|false|false|false|false|false|false|false|false|NNS
+have	others	have|aspect|be|false|false|false|false|false|false|false|false|false|VBP
+been	others	be|have|of|false|false|false|false|false|false|false|false|false|VBN
+of	others	of|be|_end_|false|false|false|false|false|false|false|false|false|IN
+
+special	others	special|_start_|interest|false|false|false|false|false|false|false|false|false|JJ
+interest	others	interest|special|the|false|false|false|false|false|false|false|false|false|NN
+the	others	the|interest|intellig|false|false|false|false|false|false|false|false|false|DT
+intelligent	others	intellig|the|supervis|false|false|false|false|false|false|false|false|false|JJ
+supervision	others	supervis|intellig|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|supervis|select|false|false|false|false|false|false|false|false|false|CC
+selection	others	select|and|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|select|appropri|false|false|false|false|false|false|false|false|false|IN
+appropriate	others	appropri|of|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+control	others	control|_start_|point|false|false|false|false|false|false|false|false|false|NN
+points	others	point|control|by|false|false|false|false|false|false|false|false|false|NNS
+by	others	by|point|a|false|false|false|false|false|false|false|false|false|IN
+a	others	a|by|system|false|false|false|false|false|false|false|false|false|DT
+system	others	system|a|call|false|false|false|false|false|false|false|false|false|NN
+called	others	call|system|sherlock|false|false|false|false|false|false|false|false|false|VBN
+SHERLOCK	others	sherlock|call|and|false|true|false|true|false|true|false|false|false|NNP
+and	others	and|sherlock|a|false|false|false|false|false|false|false|false|false|CC
+an	others	a|and|analyt|false|false|false|false|false|false|false|false|false|DT
+analytical	others	analyt|a|sar|false|false|false|false|false|false|false|false|false|JJ
+SAR	others	sar|analyt|map|false|true|false|true|false|false|false|false|false|NN
+mapping	others	map|sar|_end_|false|false|false|false|false|false|false|false|false|NN
+
+model	others	model|_start_|to|false|false|false|false|false|false|false|false|false|NN
+to	others	to|model|predict|false|false|false|false|false|false|false|false|false|TO
+predict	others	predict|to|sar|false|false|false|false|false|false|false|false|false|VB
+SAR	others	sar|predict|layov|false|true|false|true|false|false|false|false|false|NN
+layover	others	layov|sar|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|layov|shadow|false|false|false|false|false|false|false|false|false|CC
+shadows	others	shadow|and|from|false|false|false|false|false|false|false|false|false|NNS
+from	others	from|shadow|a|false|false|false|false|false|false|false|false|false|IN
+a	others	a|from|dem|false|false|false|false|false|false|false|false|false|DT
+DEM	others	dem|a|us|false|true|false|true|false|false|false|false|false|NN
+using	others	us|dem|the|false|false|false|false|false|false|false|false|false|VBG
+the	others	the|us|flight|false|false|false|false|false|false|false|false|false|DT
+flight	others	flight|the|paramet|false|false|false|false|false|false|false|false|false|NN
+parameters	others	paramet|flight|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+Diapositives	others	diaposit|_start_|will|true|false|false|false|false|false|false|false|false|NNS
+will	others	will|diaposit|illustr|false|false|false|false|false|false|false|false|false|MD
+illustrate	others	illustr|will|the|false|false|false|false|false|false|false|false|false|VB
+the	others	the|illustr|result|false|false|false|false|false|false|false|false|false|DT
+results	others	result|the|and|false|false|false|false|false|false|false|false|false|NNS
+and	others	and|result|some|false|false|false|false|false|false|false|false|false|CC
+some	others	some|and|intermedi|false|false|false|false|false|false|false|false|false|DT
+intermediate	others	intermedi|some|steop|false|false|false|false|false|false|false|false|false|JJ
+steops	others	steop|intermedi|of|false|false|false|false|false|false|false|false|false|NNS
+of	others	of|steop|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|of|_end_|false|false|false|false|false|false|false|false|false|DT
+
+two	others	two|_start_|method|false|false|false|false|false|false|false|false|false|CD
+methods	others	method|two|_end_|false|false|false|false|false|false|false|false|false|NNS
+

@@ -1,0 +1,46 @@
+Type	others	type|_start_|cmu|true|false|false|false|false|false|false|false|false|NN
+cmu	others	cmu|type|c|false|false|false|false|false|false|false|false|false|NN
+cs	others	c|cmu|proj|false|false|false|false|false|false|false|false|false|NNS
+proj	others	proj|c|mt|false|false|false|false|false|false|false|false|false|NN
+mt	others	mt|proj|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Topic	others	topic|_start_|nagao|true|false|false|false|false|false|false|false|false|NN
+Nagao	speaker	nagao|topic|talk|true|false|false|false|false|true|false|false|false|NNP
+Talk	others	talk|nagao|_end_|true|false|false|false|false|false|false|false|false|NN
+
+Dates	others	date|_start_|26-apr-93|true|false|false|false|false|false|false|false|false|NNS
+26-Apr-93	others	26-apr-93|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|10:00|true|false|false|false|false|false|false|false|false|NNP
+10:00	stime	10:00|time|11:00|false|false|false|false|false|false|true|false|false|CD
+11:00	etime	11:00|10:00|be|false|false|false|false|false|false|false|true|false|CD
+AM	etime	be|11:00|_end_|false|true|false|true|false|false|false|false|false|VBP
+
+PostedBy	others	postedbi|_start_|jgc|false|false|false|false|true|false|false|false|false|NNP
+jgc	others	jgc|postedbi|on|false|false|false|false|false|false|false|false|false|NN
+on	others	on|jgc|24-apr-93|false|false|false|false|false|false|false|false|false|IN
+24-Apr-93	others	24-apr-93|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|24-apr-93|20:59|false|false|false|false|false|false|false|false|false|IN
+20:59	others	20:59|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|20:59|nl.cs.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+NL.CS.CMU.EDU	others	nl.cs.cmu.edu|from|-lrb-|false|false|false|false|false|false|false|false|false|NN
+-LRB-	others	-lrb-|nl.cs.cmu.edu|jaim|false|false|false|false|false|false|false|false|false|-LRB-
+Jaime	others	jaim|-lrb-|carbonel|true|false|false|false|false|true|false|false|false|NNP
+Carbonell	others	carbonel|jaim|-rrb-|true|false|false|false|false|true|false|false|false|NNP
+-RRB-	others	-rrb-|carbonel|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+This	others	thi|_start_|mondai|true|false|false|false|false|false|false|false|true|DT
+Monday	others	mondai|thi|4\/26|true|false|false|false|false|false|false|false|true|NNP
+4\/26	others	4\/26|mondai|prof.|false|false|false|false|false|false|false|false|false|CD
+Prof.	speaker	prof.|4\/26|makoto|false|false|false|false|false|true|false|false|false|NNP
+Makoto	speaker	makoto|prof.|nagao|true|false|false|false|false|true|false|false|false|NNP
+Nagao	speaker	nagao|makoto|will|true|false|false|false|false|true|false|false|false|NNP
+will	others	will|nagao|give|false|false|false|false|false|false|false|false|false|MD
+give	others	give|will|a|false|false|false|false|false|false|false|false|false|VB
+a	others	a|give|seminar|false|false|false|false|false|false|false|false|false|DT
+seminar	others	seminar|a|in|false|false|false|false|false|false|false|false|false|NN
+in	others	in|seminar|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|in|_end_|false|false|false|false|false|false|false|false|false|DT
+

@@ -1,0 +1,174 @@
+Type	others	type|_start_|cmu.andrew.org|true|false|false|false|false|false|false|false|false|NN
+cmu.andrew.org	others	cmu.andrew.org|type|heinz|false|false|false|false|false|false|false|false|false|NN
+heinz	others	heinz|cmu.andrew.org|mpm|false|false|false|false|false|false|false|false|false|NN
+mpm	others	mpm|heinz|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Topic	others	topic|_start_|hr|true|false|false|false|false|false|false|false|false|NN
+HR	others	hr|topic|manag|false|true|false|true|false|false|false|false|false|NNP
+Management	others	manag|hr|colloquium|true|false|false|false|false|false|false|false|false|NNP
+Colloquium	others	colloquium|manag|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Dates	others	date|_start_|7-dec-92|true|false|false|false|false|false|false|false|false|NNS
+7-Dec-92	others	7-dec-92|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|7:00|true|false|false|false|false|false|false|false|false|NNP
+7:00	stime	7:00|time|pm|false|false|false|false|false|false|false|false|false|CD
+PM	stime	pm|7:00|_end_|false|true|false|true|false|false|false|false|false|NN
+
+PostedBy	others	postedbi|_start_|career|false|false|false|false|true|false|false|false|false|NNP
+Career	others	career|postedbi|servic|true|false|false|false|false|false|false|false|false|NNP
+Services	others	servic|career|on|true|false|false|false|false|false|false|false|false|NNPS
+on	others	on|servic|1-dec-92|false|false|false|false|false|false|false|false|false|IN
+1-Dec-92	others	1-dec-92|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|1-dec-92|10:01|false|false|false|false|false|false|false|false|false|IN
+10:01	others	10:01|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|10:01|andrew.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+andrew.cmu.edu	others	andrew.cmu.edu|from|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+Monday	others	mondai|_start_|dec.|true|false|false|false|false|false|false|false|true|NNP
+Dec.	others	dec.|mondai|7|false|false|false|false|false|false|false|false|true|NNP
+7	others	7|dec.|at|false|false|false|false|false|false|false|false|true|CD
+at	others	at|7|7|false|false|false|false|false|false|false|false|false|IN
+7	stime	7|at|pm|false|false|false|false|false|false|false|false|false|CD
+pm	stime	pm|7|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|pm|la|false|false|false|false|false|false|false|false|false|IN
+La	location	la|at|roch|true|false|false|false|false|false|false|false|false|NNP
+Roche	location	roch|la|colleg|true|false|false|false|false|false|false|false|false|NNP
+College	location	colleg|roch|9000|true|false|false|false|false|false|false|false|false|NNP
+9000	location	9000|colleg|babcock|false|false|false|false|false|false|false|false|true|CD
+Babcock	location	babcock|9000|blvd.|true|false|false|false|false|false|false|false|false|NNP
+Blvd.	location	blvd.|babcock|_end_|false|false|false|false|false|false|false|false|false|NNP
+
+Pittsburgh	others	pittsburgh|_start_|pa|true|false|false|false|false|false|false|false|false|NNP
+PA	others	pa|pittsburgh|_end_|false|true|false|true|false|false|false|false|false|NN
+
+Information	others	inform|_start_|reserv|true|false|false|false|false|false|false|false|false|NNP
+reservations	others	reserv|inform|call|false|false|false|false|false|false|false|false|false|NNS
+call	others	call|reserv|367-9257|false|false|false|false|false|false|false|false|false|VB
+367-9257	others	367-9257|call|the|false|false|false|false|false|false|false|false|false|CD
+The	others	the|367-9257|colloquium|true|false|false|false|false|false|false|false|false|DT
+Colloquium	others	colloquium|the|be|true|false|false|false|false|false|false|false|false|NNP
+is	others	be|colloquium|free|false|false|false|false|false|false|false|false|false|VBZ
+free	others	free|be|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+but	others	but|_start_|pleas|false|false|false|false|false|false|false|false|false|CC
+please	others	pleas|but|call|false|false|false|false|false|false|false|false|false|VB
+call	others	call|pleas|to|false|false|false|false|false|false|false|false|false|NN
+to	others	to|call|reserv|false|false|false|false|false|false|false|false|false|TO
+reserve	others	reserv|to|space|false|false|false|false|false|false|false|false|false|NN
+space	others	space|reserv|by|false|false|false|false|false|false|false|false|false|NN
+by	others	by|space|4|false|false|false|false|false|false|false|false|false|IN
+4	others	4|by|pm|false|false|false|false|false|false|false|false|false|CD
+pm	others	pm|4|on|false|false|false|false|false|false|false|false|false|NN
+on	others	on|pm|dec.|false|false|false|false|false|false|false|false|false|IN
+Dec.	others	dec.|on|4th|false|false|false|false|false|false|false|false|true|NNP
+4th	others	4th|dec.|_end_|false|false|false|false|false|false|false|false|true|JJ
+
+FAMILY	others	famili|_start_|matter|false|true|false|true|false|false|false|false|false|NN
+MATTERS	others	matter|famili|examin|false|true|false|true|false|false|false|false|false|NNS
+Examining	others	examin|matter|organiz|true|false|false|false|false|false|false|false|false|VBG
+Organizational	others	organiz|examin|respons|true|false|false|false|false|false|false|false|false|JJ
+Responsibility	others	respons|organiz|for|true|false|false|false|false|false|false|false|false|NN
+for	others	for|respons|_end_|false|false|false|false|false|false|false|false|false|IN
+
+Dependent	others	depend|_start_|care|true|false|false|false|false|false|false|false|false|NNP
+Care	others	care|depend|full|true|false|false|false|false|false|false|false|false|NNP
+Full	others	full|care|inform|true|false|false|false|false|false|false|false|false|JJ
+information	others	inform|full|be|false|false|false|false|false|false|false|false|false|NN
+is	others	be|inform|post|false|false|false|false|false|false|false|false|false|VBZ
+posted	others	post|be|on|false|false|false|false|false|false|false|false|false|VBN
+on	others	on|post|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|on|bulletin|false|false|false|false|false|false|false|false|false|DT
+bulletin	others	bulletin|the|board|false|false|false|false|false|false|false|false|false|NN
+board	others	board|bulletin|behind|false|false|false|false|false|false|false|false|false|NN
+behind	others	behind|board|_end_|false|false|false|false|false|false|false|false|false|IN
+
+the	others	the|_start_|monitor|false|false|false|false|false|false|false|false|false|DT
+monitor	others	monitor|the|'s|false|false|false|false|false|false|false|false|false|NN
+'s	others	's|monitor|desk|false|false|false|false|false|false|false|false|false|POS
+desk	others	desk|'s|in|false|false|false|false|false|false|false|false|false|NN
+in	others	in|desk|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|in|career|false|false|false|false|false|false|false|false|false|DT
+Career	others	career|the|servic|true|false|false|false|false|false|false|false|false|NNP
+Services	others	servic|career|read|true|false|false|false|false|false|false|false|false|NNPS
+Reading	others	read|servic|room|true|false|false|false|false|false|false|false|false|NNP
+Room	others	room|read|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+While	others	while|_start_|the|true|false|false|false|false|false|false|false|false|IN
+the	others	the|while|workforc|false|false|false|false|false|false|false|false|false|DT
+workforce	others	workforc|the|be|false|false|false|false|false|false|false|false|false|NN
+is	others	be|workforc|more|false|false|false|false|false|false|false|false|false|VBZ
+more	others	more|be|divers|false|false|false|false|false|false|false|false|false|RBR
+diverse	others	divers|more|todai|false|false|false|false|false|false|false|false|false|JJ
+today	others	todai|divers|econom|false|false|false|false|false|false|false|false|true|NN
+economically	others	econom|todai|_end_|false|false|false|false|false|false|false|false|false|RB
+
+businesses	others	busi|_start_|be|false|false|false|false|false|false|false|false|false|NNS
+are	others	be|busi|leaner|false|false|false|false|false|false|false|false|false|VBP
+leaner	others	leaner|be|depend|false|false|false|false|false|false|false|false|false|JJR
+Dependent	others	depend|leaner|care|true|false|false|false|false|false|false|false|false|JJ
+care	others	care|depend|be|false|false|false|false|false|false|false|false|false|NN
+is	others	be|care|costli|false|false|false|false|false|false|false|false|false|VBZ
+costly	others	costli|be|not|false|false|false|false|false|false|false|false|false|JJ
+not	others	not|costli|just|false|false|false|false|false|false|false|false|false|RB
+just	others	just|not|in|false|false|false|false|false|false|false|false|false|RB
+in	others	in|just|term|false|false|false|false|false|false|false|false|false|IN
+terms	others	term|in|of|false|false|false|false|false|false|false|false|false|NNS
+of	others	of|term|_end_|false|false|false|false|false|false|false|false|false|IN
+
+finances	others	financ|_start_|but|false|false|false|false|false|false|false|false|false|NNS
+but	others	but|financ|procedur|false|false|false|false|false|false|false|false|false|CC
+procedurally	others	procedur|but|legal|false|false|false|false|false|false|false|false|false|RB
+legally	others	legal|procedur|and|false|false|false|false|false|false|false|false|false|RB
+and	others	and|legal|emotion|false|false|false|false|false|false|false|false|false|CC
+emotionally	others	emotion|and|human|false|false|false|false|false|false|false|false|false|RB
+Human	others	human|emotion|resourc|true|false|false|false|false|false|false|false|false|JJ
+Resources	others	resourc|human|_end_|true|false|false|false|false|false|false|false|false|NNPS
+
+practitioners	others	practition|_start_|and|false|false|false|false|false|false|false|false|false|NNS
+and	others	and|practition|organiz|false|false|false|false|false|false|false|false|false|CC
+organizational	others	organiz|and|policy-mak|false|false|false|false|false|false|false|false|false|JJ
+policy-makers	others	policy-mak|organiz|face|false|false|false|false|false|false|false|false|false|NNS
+face	others	face|policy-mak|difficult|false|false|false|false|false|false|false|false|false|VBP
+difficult	others	difficult|face|decis|false|false|false|false|false|false|false|false|false|JJ
+decisions	others	decis|difficult|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+today	others	todai|_start_|in|false|false|false|false|false|false|false|false|true|NN
+in	others	in|todai|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|in|wake|false|false|false|false|false|false|false|false|false|DT
+wake	others	wake|the|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|wake|a|false|false|false|false|false|false|false|false|false|IN
+a	others	a|of|new|false|false|false|false|false|false|false|false|false|DT
+new	others	new|a|gener|false|false|false|false|false|false|false|false|false|JJ
+generation	others	gener|new|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|gener|famili|false|false|false|false|false|false|false|false|false|IN
+family	others	famili|of|care|false|false|false|false|false|false|false|false|false|NN
+care	others	care|famili|need|false|false|false|false|false|false|false|false|false|NN
+needs	others	need|care|_end_|false|false|false|false|false|false|false|false|false|VBZ
+
+Understanding	others	understand|_start_|the|true|false|false|false|false|false|false|false|false|VBG
+the	others	the|understand|issu|false|false|false|false|false|false|false|false|false|DT
+issues	others	issu|the|will|false|false|false|false|false|false|false|false|false|NNS
+will	others	will|issu|be|false|false|false|false|false|false|false|false|false|MD
+be	others	be|will|kei|false|false|false|false|false|false|false|false|false|VB
+key	others	kei|be|to|false|false|false|false|false|false|false|false|false|JJ
+to	others	to|kei|organiz|false|false|false|false|false|false|false|false|false|TO
+organizational	others	organiz|to|success|false|false|false|false|false|false|false|false|false|JJ
+success	others	success|organiz|in|false|false|false|false|false|false|false|false|false|NN
+in	others	in|success|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|in|_end_|false|false|false|false|false|false|false|false|false|DT
+
+future	others	futur|_start_|that|false|false|false|false|false|false|false|false|false|JJ
+That	others	that|futur|be|true|false|false|false|false|false|false|false|false|DT
+'s	others	be|that|why|false|false|false|false|false|false|false|false|false|VBZ
+why	others	why|be|la|false|false|false|false|false|false|false|false|false|WRB
+La	others	la|why|roch|true|false|false|false|false|false|false|false|false|NNP
+Roche	others	roch|la|colleg|true|false|false|false|false|false|false|false|false|NNP
+College	others	colleg|roch|be|true|false|false|false|false|false|false|false|false|NNP
+is	others	be|colleg|sponsor|false|false|false|false|false|false|false|false|false|VBZ
+sponsoring	others	sponsor|be|famili|false|false|false|false|false|false|false|false|false|VBG
+Family	others	famili|sponsor|matter|true|false|false|false|false|false|false|false|false|NNP
+Matters	others	matter|famili|_end_|true|false|false|false|false|false|false|false|false|NNS
+

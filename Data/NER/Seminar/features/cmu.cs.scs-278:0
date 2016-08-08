@@ -1,0 +1,94 @@
+Type	others	type|_start_|cmu|true|false|false|false|false|false|false|false|false|NN
+cmu	others	cmu|type|c|false|false|false|false|false|false|false|false|false|NN
+cs	others	c|cmu|sc|false|false|false|false|false|false|false|false|false|NNS
+scs	others	sc|c|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+Topic	others	topic|_start_|mach|true|false|false|false|false|false|false|false|false|NN
+Mach	others	mach|topic|intern|true|false|false|false|false|false|false|false|false|NNP
+Internals	others	intern|mach|seminar|true|false|false|false|false|false|false|false|false|NNP
+Seminar	others	seminar|intern|physic|true|false|false|false|false|false|false|false|false|NNP
+Physical	others	physic|seminar|memori|true|false|false|false|false|false|false|false|false|JJ
+Memory	others	memori|physic|manag|true|false|false|false|false|false|false|false|false|NN
+Management	others	manag|memori|_end_|true|false|false|false|false|false|false|false|false|NN
+
+Dates	others	date|_start_|7-nov-91|true|false|false|false|false|false|false|false|false|NNS
+7-Nov-91	others	7-nov-91|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|1:00|true|false|false|false|false|false|false|false|false|NNP
+1:00	stime	1:00|time|_end_|false|false|false|false|false|false|false|false|false|CD
+
+PostedBy	others	postedbi|_start_|danner|false|false|false|false|true|false|false|false|false|NNP
+danner	others	danner|postedbi|on|false|false|false|false|false|false|false|false|false|NN
+on	others	on|danner|05-nov-91|false|false|false|false|false|false|false|false|false|IN
+05-Nov-91	others	05-nov-91|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|05-nov-91|22:10|false|false|false|false|false|false|false|false|false|IN
+22:10	others	22:10|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|22:10|ernst.mach.cs.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+ERNST.MACH.CS.CMU.EDU	others	ernst.mach.cs.cmu.edu|from|-lrb-|false|false|false|false|false|false|false|false|false|NN
+-LRB-	others	-lrb-|ernst.mach.cs.cmu.edu|daniel|false|false|false|false|false|false|false|false|false|-LRB-
+Daniel	others	daniel|-lrb-|stodolski|true|false|false|false|false|true|false|false|false|NNP
+Stodolsky	others	stodolski|daniel|-rrb-|true|false|false|false|false|true|false|false|false|NNP
+-RRB-	others	-rrb-|stodolski|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+Alessandro	speaker	alessandro|_start_|forin|true|false|false|false|false|true|false|false|false|NNP
+Forin	speaker	forin|alessandro|will|true|false|false|false|false|true|false|false|false|NNP
+will	others	will|forin|be|false|false|false|false|false|false|false|false|false|MD
+be	others	be|will|talk|false|false|false|false|false|false|false|false|false|VB
+talking	others	talk|be|about|false|false|false|false|false|false|false|false|false|VBG
+about	others	about|talk|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|about|intern|false|false|false|false|false|false|false|false|false|DT
+internals	others	intern|the|of|false|false|false|false|false|false|false|false|false|NNS
+of	others	of|intern|physic|false|false|false|false|false|false|false|false|false|IN
+physical	others	physic|of|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+memory	others	memori|_start_|manag|false|false|false|false|false|false|false|false|false|NN
+management	others	manag|memori|system|false|false|false|false|false|false|false|false|false|NN
+system	others	system|manag|in|false|false|false|false|false|false|false|false|false|NN
+in	others	in|system|mach|false|false|false|false|false|false|false|false|false|IN
+Mach	others	mach|in|3.0|true|false|false|false|false|false|false|false|false|NNP
+3.0	others	3.0|mach|at|false|false|false|false|false|false|false|false|false|CD
+at	others	at|3.0|1:00|false|false|false|false|false|false|false|false|false|IN
+1:00	stime	1:00|at|in|false|false|false|false|false|false|false|false|false|CD
+in	others	in|1:00|wean|false|false|false|false|false|false|false|false|false|IN
+Wean	location	wean|in|7500|true|false|false|false|false|false|false|false|false|JJ
+7500	location	7500|wean|on|false|false|false|false|false|false|false|false|false|CD
+on	others	on|7500|thursdai|false|false|false|false|false|false|false|false|false|IN
+Thursday	others	thursdai|on|_end_|true|false|false|false|false|false|false|false|true|NNP
+
+November	others	novemb|_start_|7|true|false|false|false|false|false|false|false|true|NNP
+7	others	7|novemb|1991|false|false|false|false|false|false|false|false|true|CD
+1991	others	1991|7|all|false|false|false|false|false|false|false|false|true|CD
+All	others	all|1991|be|true|false|false|false|false|false|false|false|false|DT
+are	others	be|all|invit|false|false|false|false|false|false|false|false|false|VBP
+invited	others	invit|be|to|false|false|false|false|false|false|false|false|false|VBN
+to	others	to|invit|attend|false|false|false|false|false|false|false|false|false|TO
+attend	others	attend|to|_end_|false|false|false|false|false|false|false|false|false|VB
+
+This	others	thi|_start_|talk|true|false|false|false|false|false|false|false|false|DT
+talk	others	talk|thi|be|false|false|false|false|false|false|false|false|false|NN
+is	others	be|talk|part|false|false|false|false|false|false|false|false|false|VBZ
+part	others	part|be|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|part|a|false|false|false|false|false|false|false|false|false|IN
+an	others	a|of|ongo|false|false|false|false|false|false|false|false|false|DT
+ongoing	others	ongo|a|weekli|false|false|false|false|false|false|false|false|false|JJ
+weekly	others	weekli|ongo|seminar|false|false|false|false|false|false|false|false|false|JJ
+seminar	others	seminar|weekli|seri|false|false|false|false|false|false|false|false|false|NN
+series	others	seri|seminar|on|false|false|false|false|false|false|false|false|false|NN
+on	others	on|seri|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|on|intern|false|false|false|false|false|false|false|false|false|DT
+internals	others	intern|the|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+of	others	of|_start_|mach|false|false|false|false|false|false|false|false|false|IN
+Mach	others	mach|of|3.0|true|false|false|false|false|false|false|false|false|NNP
+3.0	others	3.0|mach|_end_|false|false|false|false|false|false|false|false|false|CD
+
+Daniel	others	daniel|_start_|stodolski|true|false|false|false|false|true|false|false|false|NNP
+Stodolsky	others	stodolski|daniel|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+Mach	others	mach|_start_|intern|true|false|false|false|false|false|false|false|false|NNP
+Internals	others	intern|mach|cours|true|false|false|false|false|false|false|false|false|NNP
+Course	others	cours|intern|coordin|true|false|false|false|false|false|false|false|false|NNP
+Coordinator	others	coordin|cours|_end_|true|false|false|false|false|false|false|false|false|NNP
+

@@ -1,0 +1,339 @@
+Type	others	type|_start_|cmu|true|false|false|false|false|false|false|false|false|NN
+cmu	others	cmu|type|c|false|false|false|false|false|false|false|false|false|NN
+cs	others	c|cmu|sc|false|false|false|false|false|false|false|false|false|NNS
+scs	others	sc|c|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+Who	others	who|_start_|steven|true|false|false|false|false|false|false|false|false|WP
+Steven	speaker	steven|who|skiena|true|false|false|false|false|true|false|false|false|NNP
+Skiena	speaker	skiena|steven|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+Department	others	depart|_start_|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|depart|comput|false|false|false|false|false|false|false|false|false|IN
+Computer	others	comput|of|scienc|true|false|false|false|false|false|false|false|false|NNP
+Science	others	scienc|comput|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+State	others	state|_start_|univers|true|false|false|false|false|false|false|false|false|NNP
+University	others	univers|state|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|univers|new|false|false|false|false|false|false|false|false|false|IN
+New	others	new|of|york|true|false|false|false|false|false|false|false|false|NNP
+York	others	york|new|stoni|true|false|false|false|false|false|false|false|false|NNP
+Stony	others	stoni|york|brook|true|false|false|false|false|false|false|false|false|NNP
+Brook	others	brook|stoni|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Topic	others	topic|_start_|algorithm|true|false|false|false|false|false|false|false|false|NN
+Algorithms	others	algorithm|topic|for|true|false|false|false|false|false|false|false|false|NNS
+for	others	for|algorithm|squar|false|false|false|false|false|false|false|false|false|IN
+Square	others	squar|for|root|true|false|false|false|false|false|false|false|false|NN
+Roots	others	root|squar|of|true|false|false|false|false|false|false|false|false|NNS
+of	others	of|root|graph|false|false|false|false|false|false|false|false|false|IN
+Graphs	others	graph|of|_end_|true|false|false|false|false|false|false|false|false|NNS
+
+Dates	others	date|_start_|14-jan-92|true|false|false|false|false|false|false|false|false|NNS
+14-Jan-92	others	14-jan-92|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|1:30|true|false|false|false|false|false|false|false|false|NNP
+1:30	stime	1:30|time|pm|false|false|false|false|false|false|false|false|false|CD
+PM	stime	pm|1:30|_end_|false|true|false|true|false|false|false|false|false|NN
+
+Place	others	place|_start_|wean|true|false|false|false|false|false|false|false|false|NN
+Wean	location	wean|place|hall|true|false|false|false|false|false|false|false|false|VB
+Hall	location	hall|wean|4634|true|false|false|false|false|false|false|false|false|NNP
+4634	location	4634|hall|_end_|false|false|false|false|false|false|false|false|false|CD
+
+Host	others	host|_start_|dana|true|false|false|false|false|false|false|false|false|NN
+Dana	others	dana|host|scott|true|false|false|false|false|true|false|false|false|NNP
+Scott	others	scott|dana|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+PostedBy	others	postedbi|_start_|lydium|false|false|false|false|true|false|false|false|false|NNP
+lydia	others	lydium|postedbi|on|false|false|false|false|false|false|false|false|false|NN
+on	others	on|lydium|10-jan-92|false|false|false|false|false|false|false|false|false|IN
+10-Jan-92	others	10-jan-92|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|10-jan-92|09:00|false|false|false|false|false|false|false|false|false|IN
+09:00	others	09:00|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|09:00|proof.ergo.cs.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+PROOF.ERGO.CS.CMU.EDU	others	proof.ergo.cs.cmu.edu|from|-lrb-|false|false|false|false|false|false|false|false|false|NN
+-LRB-	others	-lrb-|proof.ergo.cs.cmu.edu|lydia|false|false|false|false|false|false|false|false|false|-LRB-
+Lydia	others	lydia|-lrb-|defilippo|true|false|false|false|false|true|false|false|false|NNP
+Defilippo	others	defilippo|lydia|-rrb-|true|false|false|false|false|true|false|false|false|NNP
+-RRB-	others	-rrb-|defilippo|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+Please	others	pleas|_start_|note|true|false|false|false|false|false|false|false|false|VB
+note	others	note|pleas|that|false|false|false|false|false|false|false|false|false|VB
+that	others	that|note|steven|false|false|false|false|false|false|false|false|false|DT
+Steven	speaker	steven|that|skiena|true|false|false|false|false|true|false|false|false|NNP
+Skiena	speaker	skiena|steven|will|true|false|false|false|false|true|false|false|false|NNP
+will	others	will|skiena|now|false|false|false|false|false|false|false|false|false|MD
+now	others	now|will|speak|false|false|false|false|false|false|false|false|true|RB
+speak	others	speak|now|_end_|false|false|false|false|false|false|false|false|false|VB
+
+at	others	at|_start_|1:30|false|false|false|false|false|false|false|false|false|IN
+1:30	stime	1:30|at|instead|false|false|false|false|false|false|false|false|false|CD
+instead	others	instead|1:30|of|false|false|false|false|false|false|false|false|false|RB
+of	others	of|instead|3:30|false|false|false|false|false|false|false|false|false|IN
+3:30	others	3:30|of|due|false|false|false|false|false|false|false|false|false|CD
+due	others	due|3:30|to|false|false|false|false|false|false|false|false|false|JJ
+to	others	to|due|a|false|false|false|false|false|false|false|false|false|TO
+a	others	a|to|conflict|false|false|false|false|false|false|false|false|false|DT
+conflict	others	conflict|a|in|false|false|false|false|false|false|false|false|false|NN
+in	others	in|conflict|seminar|false|false|false|false|false|false|false|false|false|IN
+seminars	others	seminar|in|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+Speaker	others	speaker|_start_|steven|true|false|false|false|false|false|false|false|false|NNP
+Steven	speaker	steven|speaker|skiena|true|false|false|false|false|true|false|false|false|NNP
+Skiena	speaker	skiena|steven|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+Department	others	depart|_start_|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|depart|comput|false|false|false|false|false|false|false|false|false|IN
+Computer	others	comput|of|scienc|true|false|false|false|false|false|false|false|false|NNP
+Science	others	scienc|comput|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+State	others	state|_start_|univers|true|false|false|false|false|false|false|false|false|NNP
+University	others	univers|state|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|univers|new|false|false|false|false|false|false|false|false|false|IN
+New	others	new|of|york|true|false|false|false|false|false|false|false|false|NNP
+York	others	york|new|stoni|true|false|false|false|false|false|false|false|false|NNP
+Stony	others	stoni|york|brook|true|false|false|false|false|false|false|false|false|NNP
+Brook	others	brook|stoni|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Date	others	date|_start_|tuesdai|true|false|false|false|false|false|false|false|false|NN
+Tuesday	others	tuesdai|date|januari|true|false|false|false|false|false|false|false|true|NNP
+January	others	januari|tuesdai|14|true|false|false|false|false|false|false|false|true|NNP
+14	others	14|januari|_end_|false|false|false|false|false|false|false|false|true|CD
+
+Time	others	time|_start_|1:30|true|false|false|false|false|false|false|false|false|NNP
+1:30	stime	1:30|time|pm|false|false|false|false|false|false|false|false|false|CD
+pm	stime	pm|1:30|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Place	others	place|_start_|wean|true|false|false|false|false|false|false|false|false|NN
+Wean	location	wean|place|hall|true|false|false|false|false|false|false|false|false|VB
+Hall	location	hall|wean|4634|true|false|false|false|false|false|false|false|false|NNP
+4634	location	4634|hall|_end_|false|false|false|false|false|false|false|false|false|CD
+
+Topic	others	topic|_start_|algorithm|true|false|false|false|false|false|false|false|false|NN
+Algorithms	others	algorithm|topic|for|true|false|false|false|false|false|false|false|false|NNS
+for	others	for|algorithm|squar|false|false|false|false|false|false|false|false|false|IN
+Square	others	squar|for|root|true|false|false|false|false|false|false|false|false|NN
+Roots	others	root|squar|of|true|false|false|false|false|false|false|false|false|NNS
+of	others	of|root|graph|false|false|false|false|false|false|false|false|false|IN
+Graphs	others	graph|of|_end_|true|false|false|false|false|false|false|false|false|NNS
+
+The	others	the|_start_|-lcb-|true|false|false|false|false|false|false|false|false|DT
+-LCB-	others	-lcb-|the|em|false|false|false|false|false|false|false|false|false|-LRB-
+em	others	em|-lcb-|kth|false|false|false|false|false|false|false|false|false|NN
+kth	others	kth|em|power|false|false|false|false|false|false|false|false|false|NN
+power	others	power|kth|-rcb-|false|false|false|false|false|false|false|false|false|NN
+-RCB-	others	-rcb-|power|of|false|false|false|false|false|false|false|false|false|-RRB-
+of	others	of|-rcb-|a|false|false|false|false|false|false|false|false|false|IN
+a	others	a|of|graph|false|false|false|false|false|false|false|false|false|DT
+graph	others	graph|a|g|false|false|false|false|false|false|false|false|false|NN
+G	others	g|graph|-lrb-|false|false|true|true|false|false|false|false|false|NN
+-LRB-	others	-lrb-|g|v|false|false|false|false|false|false|false|false|false|-LRB-
+V	others	v|-lrb-|e|false|false|true|true|false|false|false|false|false|NN
+E	others	e|v|-rrb-|false|false|true|true|false|false|false|false|false|NN
+-RRB-	others	-rrb-|e|write|false|false|false|false|false|false|false|false|false|-RRB-
+written	others	write|-rrb-|g|false|false|false|false|false|false|false|false|false|VBN
+G	others	g|write|k|false|false|true|true|false|false|false|false|false|NN
+k	others	k|g|_end_|false|false|false|false|false|false|false|false|false|NN
+
+is	others	be|_start_|defin|false|false|false|false|false|false|false|false|false|VBZ
+defined	others	defin|be|to|false|false|false|false|false|false|false|false|false|VBN
+to	others	to|defin|be|false|false|false|false|false|false|false|false|false|TO
+be	others	be|to|the|false|false|false|false|false|false|false|false|false|VB
+the	others	the|be|graph|false|false|false|false|false|false|false|false|false|DT
+graph	others	graph|the|have|false|false|false|false|false|false|false|false|false|NN
+having	others	have|graph|v|false|false|false|false|false|false|false|false|false|VBG
+V	others	v|have|as|false|false|true|true|false|false|false|false|false|NN
+as	others	as|v|it|false|false|false|false|false|false|false|false|false|IN
+its	others	it|as|vertex|false|false|false|false|false|false|false|false|false|PRP$
+vertex	others	vertex|it|set|false|false|false|false|false|false|false|false|false|NN
+set	others	set|vertex|with|false|false|false|false|false|false|false|false|false|VBN
+with	others	with|set|_end_|false|false|false|false|false|false|false|false|false|IN
+
+vertices	others	vertex|_start_|u|false|false|false|false|false|false|false|false|false|NNS
+u	others	u|vertex|v|false|false|false|false|false|false|false|false|false|VBP
+v	others	v|u|adjac|false|false|false|false|false|false|false|false|false|LS
+adjacent	others	adjac|v|in|false|false|false|false|false|false|false|false|false|JJ
+in	others	in|adjac|g|false|false|false|false|false|false|false|false|false|IN
+G	others	g|in|k|false|false|true|true|false|false|false|false|false|NN
+k	others	k|g|if|false|false|false|false|false|false|false|false|false|NN
+if	others	if|k|and|false|false|false|false|false|false|false|false|false|IN
+and	others	and|if|onli|false|false|false|false|false|false|false|false|false|CC
+only	others	onli|and|if|false|false|false|false|false|false|false|false|false|RB
+if	others	if|onli|_end_|false|false|false|false|false|false|false|false|false|IN
+
+there	others	there|_start_|exist|false|false|false|false|false|false|false|false|false|RB
+exists	others	exist|there|a|false|false|false|false|false|false|false|false|false|VBZ
+a	others	a|exist|path|false|false|false|false|false|false|false|false|false|DT
+path	others	path|a|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|path|length|false|false|false|false|false|false|false|false|false|IN
+length	others	length|of|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|length|most|false|false|false|false|false|false|false|false|false|IN
+most	others	most|at|k|false|false|false|false|false|false|false|false|false|JJS
+k	others	k|most|between|false|false|false|false|false|false|false|false|false|NN
+between	others	between|k|thei|false|false|false|false|false|false|false|false|false|IN
+them	others	thei|between|_end_|false|false|false|false|false|false|false|false|false|PRP
+
+Similarly	others	similarli|_start_|graph|true|false|false|false|false|false|false|false|false|RB
+graph	others	graph|similarli|h|false|false|false|false|false|false|false|false|false|NN
+H	others	h|graph|have|false|false|true|true|false|false|false|false|false|NN
+has	others	have|h|a|false|false|false|false|false|false|false|false|false|VBZ
+a	others	a|have|-lcb-|false|false|false|false|false|false|false|false|false|DT
+-LCB-	others	-lcb-|a|em|false|false|false|false|false|false|false|false|false|-LRB-
+em	others	em|-lcb-|kth|false|false|false|false|false|false|false|false|false|NN
+kth	others	kth|em|root|false|false|false|false|false|false|false|false|false|NN
+root	others	root|kth|-rcb-|false|false|false|false|false|false|false|false|false|NN
+-RCB-	others	-rcb-|root|g|false|false|false|false|false|false|false|false|false|-RRB-
+G	others	g|-rcb-|if|false|false|true|true|false|false|false|false|false|NN
+if	others	if|g|g|false|false|false|false|false|false|false|false|false|IN
+G	others	g|if|k|false|false|true|true|false|false|false|false|false|NN
+k	others	k|g|h|false|false|false|false|false|false|false|false|false|NN
+H	others	h|k|_end_|false|false|true|true|false|false|false|false|false|NN
+
+Powers	others	power|_start_|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|power|graph|false|false|false|false|false|false|false|false|false|IN
+graphs	others	graph|of|have|false|false|false|false|false|false|false|false|false|NNS
+have	others	have|graph|sever|false|false|false|false|false|false|false|false|false|VBP
+several	others	sever|have|interest|false|false|false|false|false|false|false|false|false|JJ
+interesting	others	interest|sever|properti|false|false|false|false|false|false|false|false|false|JJ
+properties	others	properti|interest|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+For	others	for|_start_|exampl|true|false|false|false|false|false|false|false|false|IN
+example	others	exampl|for|the|false|false|false|false|false|false|false|false|false|NN
+the	others	the|exampl|squar|false|false|false|false|false|false|false|false|false|DT
+square	others	squar|the|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|squar|ani|false|false|false|false|false|false|false|false|false|IN
+any	others	ani|of|biconnect|false|false|false|false|false|false|false|false|false|DT
+biconnected	others	biconnect|ani|graph|false|false|false|false|false|false|false|false|false|JJ
+graph	others	graph|biconnect|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|graph|the|false|false|false|false|false|false|false|false|false|CC
+the	others	the|and|_end_|false|false|false|false|false|false|false|false|false|DT
+
+cube	others	cube|_start_|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|cube|ani|false|false|false|false|false|false|false|false|false|IN
+any	others	ani|of|connect|false|false|false|false|false|false|false|false|false|DT
+connected	others	connect|ani|graph|false|false|false|false|false|false|false|false|false|JJ
+graph	others	graph|connect|be|false|false|false|false|false|false|false|false|false|NN
+is	others	be|graph|hamiltonian|false|false|false|false|false|false|false|false|false|VBZ
+hamiltonian	others	hamiltonian|be|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+In	others	in|_start_|thi|true|false|false|false|false|false|false|false|false|IN
+this	others	thi|in|talk|false|false|false|false|false|false|false|false|false|DT
+talk	others	talk|thi|we|false|false|false|false|false|false|false|false|false|NN
+we	others	we|talk|present|false|false|false|false|false|false|false|false|false|PRP
+present	others	present|we|algorithm|false|false|false|false|false|false|false|false|false|VBP
+algorithms	others	algorithm|present|to|false|false|false|false|false|false|false|false|false|NNS
+to	others	to|algorithm|find|false|false|false|false|false|false|false|false|false|TO
+find	others	find|to|a|false|false|false|false|false|false|false|false|false|VB
+a	others	a|find|squar|false|false|false|false|false|false|false|false|false|DT
+square	others	squar|a|_end_|false|false|false|false|false|false|false|false|false|NN
+
+root	others	root|_start_|g|false|false|false|false|false|false|false|false|false|NN
+G	others	g|root|of|false|false|true|true|false|false|false|false|false|NN
+of	others	of|g|a|false|false|false|false|false|false|false|false|false|IN
+a	others	a|of|graph|false|false|false|false|false|false|false|false|false|DT
+graph	others	graph|a|g|false|false|false|false|false|false|false|false|false|NN
+G	others	g|graph|2|false|false|true|true|false|false|false|false|false|NN
+2	others	2|g|for|false|false|false|false|false|false|false|false|false|CD
+for	others	for|2|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|for|follow|false|false|false|false|false|false|false|false|false|DT
+following	others	follow|the|special|false|false|false|false|false|false|false|false|false|VBG
+special	others	special|follow|class|false|false|false|false|false|false|false|false|false|JJ
+classes	others	class|special|of|false|false|false|false|false|false|false|false|false|NNS
+of	others	of|class|graph|false|false|false|false|false|false|false|false|false|IN
+graphs	others	graph|of|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+Find	others	find|_start_|g|true|false|false|false|false|false|false|false|false|VB
+G	others	g|find|give|false|false|true|true|false|false|false|false|false|NN
+given	others	give|g|g|false|false|false|false|false|false|false|false|false|VBN
+G	others	g|give|2|false|false|true|true|false|false|false|false|false|NN
+2	others	2|g|where|false|false|false|false|false|false|false|false|false|CD
+where	others	where|2|g|false|false|false|false|false|false|false|false|false|WRB
+G	others	g|where|be|false|false|true|true|false|false|false|false|false|NN
+is	others	be|g|a|false|false|false|false|false|false|false|false|false|VBZ
+a	others	a|be|tree|false|false|false|false|false|false|false|false|false|DT
+tree	others	tree|a|in|false|false|false|false|false|false|false|false|false|NN
+in	others	in|tree|o|false|false|false|false|false|false|false|false|false|IN
+O	others	o|in|-lrb-|false|false|true|true|false|false|false|false|false|NN
+-LRB-	others	-lrb-|o|m|false|false|false|false|false|false|false|false|false|-LRB-
+m	others	m|-lrb-|-rrb-|false|false|false|false|false|false|false|false|false|NN
+-RRB-	others	-rrb-|m|time|false|false|false|false|false|false|false|false|false|-RRB-
+time	others	time|-rrb-|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Find	others	find|_start_|g|true|false|false|false|false|false|false|false|false|VB
+G	others	g|find|give|false|false|true|true|false|false|false|false|false|NN
+given	others	give|g|g|false|false|false|false|false|false|false|false|false|VBN
+G	others	g|give|2|false|false|true|true|false|false|false|false|false|NN
+2	others	2|g|where|false|false|false|false|false|false|false|false|false|CD
+where	others	where|2|g|false|false|false|false|false|false|false|false|false|WRB
+G	others	g|where|2|false|false|true|true|false|false|false|false|false|NN
+2	others	2|g|be|false|false|false|false|false|false|false|false|false|CD
+is	others	be|2|planar|false|false|false|false|false|false|false|false|false|VBZ
+planar	others	planar|be|in|false|false|false|false|false|false|false|false|false|JJ
+in	others	in|planar|o|false|false|false|false|false|false|false|false|false|IN
+O	others	o|in|-lrb-|false|false|true|true|false|false|false|false|false|NN
+-LRB-	others	-lrb-|o|n|false|false|false|false|false|false|false|false|false|-LRB-
+n	others	n|-lrb-|-rrb-|false|false|false|false|false|false|false|false|false|NN
+-RRB-	others	-rrb-|n|time|false|false|false|false|false|false|false|false|false|-RRB-
+time	others	time|-rrb-|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Find	others	find|_start_|g|true|false|false|false|false|false|false|false|false|VB
+G	others	g|find|give|false|false|true|true|false|false|false|false|false|NN
+given	others	give|g|g|false|false|false|false|false|false|false|false|false|VBN
+G	others	g|give|2|false|false|true|true|false|false|false|false|false|NN
+2	others	2|g|where|false|false|false|false|false|false|false|false|false|CD
+where	others	where|2|g|false|false|false|false|false|false|false|false|false|WRB
+G	others	g|where|be|false|false|true|true|false|false|false|false|false|NN
+is	others	be|g|a|false|false|false|false|false|false|false|false|false|VBZ
+a	others	a|be|subdivid|false|false|false|false|false|false|false|false|false|DT
+subdivided	others	subdivid|a|graph|false|false|false|false|false|false|false|false|false|VBN
+graph	others	graph|subdivid|in|false|false|false|false|false|false|false|false|false|NN
+in	others	in|graph|o|false|false|false|false|false|false|false|false|false|IN
+O	others	o|in|-lrb-|false|false|true|true|false|false|false|false|false|NN
+-LRB-	others	-lrb-|o|m|false|false|false|false|false|false|false|false|false|-LRB-
+m	others	m|-lrb-|n|false|false|false|false|false|false|false|false|false|NN
+n	others	n|m|-rrb-|false|false|false|false|false|false|false|false|false|NN
+-RRB-	others	-rrb-|n|time|false|false|false|false|false|false|false|false|false|-RRB-
+time	others	time|-rrb-|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Finding	others	find|_start_|squar|true|false|false|false|false|false|false|false|false|VBG
+square	others	squar|find|root|false|false|false|false|false|false|false|false|false|JJ
+roots	others	root|squar|of|false|false|false|false|false|false|false|false|false|NNS
+of	others	of|root|subdivid|false|false|false|false|false|false|false|false|false|IN
+subdivided	others	subdivid|of|graph|false|false|false|false|false|false|false|false|false|VBN
+graphs	others	graph|subdivid|be|false|false|false|false|false|false|false|false|false|NNS
+is	others	be|graph|equival|false|false|false|false|false|false|false|false|false|VBZ
+equivalent	others	equival|be|to|false|false|false|false|false|false|false|false|false|JJ
+to	others	to|equival|invert|false|false|false|false|false|false|false|false|false|TO
+inverting	others	invert|to|_end_|false|false|false|false|false|false|false|false|false|VBG
+
+total	others	total|_start_|graph|false|false|false|false|false|false|false|false|false|JJ
+graphs	others	graph|total|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+In	others	in|_start_|addit|true|false|false|false|false|false|false|false|false|IN
+addition	others	addit|in|we|false|false|false|false|false|false|false|false|false|NN
+we	others	we|addit|present|false|false|false|false|false|false|false|false|false|PRP
+present	others	present|we|sever|false|false|false|false|false|false|false|false|false|VBP
+several	others	sever|present|result|false|false|false|false|false|false|false|false|false|JJ
+results	others	result|sever|on|false|false|false|false|false|false|false|false|false|NNS
+on	others	on|result|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|on|complex|false|false|false|false|false|false|false|false|false|DT
+complexity	others	complex|the|_end_|false|false|false|false|false|false|false|false|false|NN
+
+of	others	of|_start_|find|false|false|false|false|false|false|false|false|false|IN
+finding	others	find|of|maximum|false|false|false|false|false|false|false|false|false|VBG
+maximum	others	maximum|find|cliqu|false|false|false|false|false|false|false|false|false|NN
+cliques	others	cliqu|maximum|and|false|false|false|false|false|false|false|false|false|NNS
+and	others	and|cliqu|hamiltonian|false|false|false|false|false|false|false|false|false|CC
+hamiltonian	others	hamiltonian|and|cycl|false|false|false|false|false|false|false|false|false|JJ
+cycles	others	cycl|hamiltonian|in|false|false|false|false|false|false|false|false|false|NNS
+in	others	in|cycl|power|false|false|false|false|false|false|false|false|false|IN
+powers	others	power|in|of|false|false|false|false|false|false|false|false|false|NNS
+of	others	of|power|graph|false|false|false|false|false|false|false|false|false|IN
+graphs	others	graph|of|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+Host	others	host|_start_|dana|true|false|false|false|false|false|false|false|false|NN
+Dana	others	dana|host|scott|true|false|false|false|false|true|false|false|false|NNP
+Scott	others	scott|dana|_end_|true|false|false|false|false|true|false|false|false|NNP
+

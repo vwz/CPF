@@ -1,0 +1,145 @@
+Type	others	type|_start_|cmu.andrew.org|true|false|false|false|false|false|false|false|false|NN
+cmu.andrew.org	others	cmu.andrew.org|type|epp|false|false|false|false|false|false|false|false|false|NN
+epp	others	epp|cmu.andrew.org|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Topic	others	topic|_start_|ini|true|false|false|false|false|false|false|false|false|NN
+INI	others	ini|topic|seminar|false|true|false|true|false|false|false|false|false|NNP
+SEMINAR	others	seminar|ini|seri|false|true|false|true|false|false|false|false|false|NNP
+SERIES	others	seri|seminar|_end_|false|true|false|true|false|false|false|false|false|NNP
+
+Dates	others	date|_start_|12-feb-9|true|false|false|false|false|false|false|false|false|NNS
+12-Feb-9	others	12-feb-9|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|11:00|true|false|false|false|false|false|false|false|false|NNP
+11:00	stime	11:00|time|12:30|false|false|false|false|false|false|true|false|false|CD
+12:30	etime	12:30|11:00|pm|false|false|false|false|false|false|false|true|false|CD
+PM	etime	pm|12:30|_end_|false|true|false|true|false|false|false|false|false|NN
+
+PostedBy	others	postedbi|_start_|andrea|false|false|false|false|true|false|false|false|false|NNP
+Andrea	others	andrea|postedbi|b.|true|false|false|false|false|true|false|false|false|NNP
+B.	others	b.|andrea|gansley-ortiz|false|false|false|false|false|true|false|false|false|NNP
+Gansley-Ortiz	others	gansley-ortiz|b.|on|false|false|false|false|false|true|false|false|false|NNP
+on	others	on|gansley-ortiz|11-feb-93|false|false|false|false|false|false|false|false|false|IN
+11-Feb-93	others	11-feb-93|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|11-feb-93|16:09|false|false|false|false|false|false|false|false|false|IN
+16:09	others	16:09|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|16:09|andrew.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+andrew.cmu.edu	others	andrew.cmu.edu|from|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+The	others	the|_start_|challeng|true|false|false|false|false|false|false|false|false|DT
+Challenge	others	challeng|the|of|true|false|false|false|false|false|false|false|false|NN
+of	others	of|challeng|electron|false|false|false|false|false|false|false|false|false|IN
+Electronic	others	electron|of|market|true|false|false|false|false|false|false|false|false|JJ
+Markets	others	market|electron|_end_|true|false|false|false|false|false|false|false|false|NNS
+
+February	others	februari|_start_|12th|true|false|false|false|false|false|false|false|true|NNP
+12th	others	12th|februari|_end_|false|false|false|false|false|false|false|false|true|JJ
+
+Floor	others	floor|_start_|market|true|false|false|false|false|false|false|false|false|NN
+markets	others	market|floor|such|false|false|false|false|false|false|false|false|false|NNS
+such	others	such|market|as|false|false|false|false|false|false|false|false|false|JJ
+as	others	as|such|new|false|false|false|false|false|false|false|false|false|IN
+New	others	new|as|york|true|false|false|false|false|false|false|false|false|NNP
+York	others	york|new|stock|true|false|false|false|false|false|false|false|false|NNP
+Stock	others	stock|york|exchang|true|false|false|false|false|false|false|false|false|NNP
+Exchange	others	exchang|stock|and|true|false|false|false|false|false|false|false|false|NNP
+and	others	and|exchang|chicago|false|false|false|false|false|false|false|false|false|CC
+Chicago	others	chicago|and|board|true|false|false|false|false|false|false|false|false|NNP
+Board	others	board|chicago|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|board|_end_|false|false|false|false|false|false|false|false|false|IN
+
+Trade	others	trade|_start_|be|true|false|false|false|false|false|false|false|false|NNP
+are	others	be|trade|lose|false|false|false|false|false|false|false|false|false|VBP
+losing	others	lose|be|market|false|false|false|false|false|false|false|false|false|VBG
+market	others	market|lose|share|false|false|false|false|false|false|false|false|false|NN
+share	others	share|market|to|false|false|false|false|false|false|false|false|false|NN
+to	others	to|share|electron|false|false|false|false|false|false|false|false|false|TO
+electronic	others	electron|to|market|false|false|false|false|false|false|false|false|false|JJ
+markets	others	market|electron|such|false|false|false|false|false|false|false|false|false|NNS
+such	others	such|market|as|false|false|false|false|false|false|false|false|false|JJ
+as	others	as|such|london|false|false|false|false|false|false|false|false|false|IN
+London	others	london|as|stock|true|false|false|false|false|false|false|false|false|NNP
+Stock	others	stock|london|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Exchange	others	exchang|_start_|and|true|false|false|false|false|false|false|false|false|NNP
+and	others	and|exchang|instinet|false|false|false|false|false|false|false|false|false|CC
+INSTINET	others	instinet|and|consequ|false|true|false|true|false|false|false|false|false|NNP
+Consequently	others	consequ|instinet|most|true|false|false|false|false|false|false|false|false|RB
+most	others	most|consequ|exchang|false|false|false|false|false|false|false|false|false|JJS
+exchanges	others	exchang|most|have|false|false|false|false|false|false|false|false|false|NNS
+have	others	have|exchang|begin|false|false|false|false|false|false|false|false|false|VBP
+begun	others	begin|have|to|false|false|false|false|false|false|false|false|false|VBN
+to	others	to|begin|_end_|false|false|false|false|false|false|false|false|false|TO
+
+design	others	design|_start_|thei|false|false|false|false|false|false|false|false|false|NN
+their	others	thei|design|own|false|false|false|false|false|false|false|false|false|PRP$
+own	others	own|thei|electron|false|false|false|false|false|false|false|false|false|JJ
+electronic	others	electron|own|trade|false|false|false|false|false|false|false|false|false|JJ
+trading	others	trade|electron|system|false|false|false|false|false|false|false|false|false|NN
+systems	others	system|trade|such|false|false|false|false|false|false|false|false|false|NNS
+Such	others	such|system|system|true|false|false|false|false|false|false|false|false|JJ
+systems	others	system|such|be|false|false|false|false|false|false|false|false|false|NNS
+are	others	be|system|still|false|false|false|false|false|false|false|false|false|VBP
+still	others	still|be|in|false|false|false|false|false|false|false|false|false|RB
+in	others	in|still|_end_|false|false|false|false|false|false|false|false|false|IN
+
+their	others	thei|_start_|infanc|false|false|false|false|false|false|false|false|false|PRP$
+infancy	others	infanc|thei|thei|false|false|false|false|false|false|false|false|false|NN
+They	others	thei|infanc|must|true|false|false|false|false|false|false|false|false|PRP
+must	others	must|thei|meet|false|false|false|false|false|false|false|false|false|MD
+meet	others	meet|must|at|false|false|false|false|false|false|false|false|false|VB
+at	others	at|meet|least|false|false|false|false|false|false|false|false|false|IN
+least	others	least|at|two|false|false|false|false|false|false|false|false|false|JJS
+two	others	two|least|major|false|false|false|false|false|false|false|false|false|CD
+major	others	major|two|conflict|false|false|false|false|false|false|false|false|false|JJ
+conflicting	others	conflict|major|_end_|false|false|false|false|false|false|false|false|false|VBG
+
+requirements	others	requir|_start_|of|false|false|false|false|false|false|false|false|false|NNS
+of	others	of|requir|fair|false|false|false|false|false|false|false|false|false|IN
+fairness	others	fair|of|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|fair|speed|false|false|false|false|false|false|false|false|false|CC
+speed	others	speed|and|have|false|false|false|false|false|false|false|false|false|NN
+Having	others	have|speed|fail|true|false|false|false|false|false|false|false|false|VBG
+failed	others	fail|have|to|false|false|false|false|false|false|false|false|false|VBN
+to	others	to|fail|resolv|false|false|false|false|false|false|false|false|false|TO
+resolved	others	resolv|to|thi|false|false|false|false|false|false|false|false|false|VBN
+this	others	thi|resolv|_end_|false|false|false|false|false|false|false|false|false|DT
+
+problem	others	problem|_start_|all|false|false|false|false|false|false|false|false|false|NN
+all	others	all|problem|electron|false|false|false|false|false|false|false|false|false|DT
+electronic	others	electron|all|system|false|false|false|false|false|false|false|false|false|JJ
+systems	others	system|electron|to-dat|false|false|false|false|false|false|false|false|false|NNS
+to-date	others	to-dat|system|resort|false|false|false|false|false|false|false|false|false|JJ
+resort	others	resort|to-dat|to|false|false|false|false|false|false|false|false|false|NN
+to	others	to|resort|prohibit|false|false|false|false|false|false|false|false|false|TO
+prohibiting	others	prohibit|to|input|false|false|false|false|false|false|false|false|false|VBG
+input	others	input|prohibit|from|false|false|false|false|false|false|false|false|false|NN
+from	others	from|input|_end_|false|false|false|false|false|false|false|false|false|IN
+
+electronic	others	electron|_start_|trader|false|false|false|false|false|false|false|false|false|JJ
+traders	others	trader|electron|into|false|false|false|false|false|false|false|false|false|NNS
+into	others	into|trader|thei|false|false|false|false|false|false|false|false|false|IN
+their	others	thei|into|system|false|false|false|false|false|false|false|false|false|PRP$
+systems	others	system|thei|what|false|false|false|false|false|false|false|false|false|NNS
+What	others	what|system|will|true|false|false|false|false|false|false|false|false|WDT
+will	others	will|what|it|false|false|false|false|false|false|false|false|false|MD
+it	others	it|will|take|false|false|false|false|false|false|false|false|false|PRP
+take	others	take|it|to|false|false|false|false|false|false|false|false|false|VB
+to	others	to|take|creat|false|false|false|false|false|false|false|false|false|TO
+create	others	creat|to|_end_|false|false|false|false|false|false|false|false|false|VB
+
+electronic	others	electron|_start_|market|false|false|false|false|false|false|false|false|false|JJ
+markets	others	market|electron|that|false|false|false|false|false|false|false|false|false|NNS
+that	others	that|market|can|false|false|false|false|false|false|false|false|false|WDT
+can	others	can|that|handl|false|false|false|false|false|false|false|false|false|MD
+handle	others	handl|can|input|false|false|false|false|false|false|false|false|false|VB
+input	others	input|handl|from|false|false|false|false|false|false|false|false|false|NN
+from	others	from|input|electron|false|false|false|false|false|false|false|false|false|IN
+electronic	others	electron|from|trader|false|false|false|false|false|false|false|false|false|JJ
+traders	others	trader|electron|without|false|false|false|false|false|false|false|false|false|NNS
+without	others	without|trader|_end_|false|false|false|false|false|false|false|false|false|IN
+
+disruption	others	disrupt|_start_|_end_|false|false|false|false|false|false|false|false|false|NN
+

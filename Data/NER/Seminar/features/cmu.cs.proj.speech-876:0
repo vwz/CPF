@@ -1,0 +1,106 @@
+Type	others	type|_start_|cmu|true|false|false|false|false|false|false|false|false|NN
+cmu	others	cmu|type|c|false|false|false|false|false|false|false|false|false|NN
+cs	others	c|cmu|proj|false|false|false|false|false|false|false|false|false|NNS
+proj	others	proj|c|speech|false|false|false|false|false|false|false|false|false|NN
+speech	others	speech|proj|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Topic	others	topic|_start_|talk|true|false|false|false|false|false|false|false|false|NN
+Talk	others	talk|topic|_end_|true|false|false|false|false|false|false|false|false|NN
+
+Dates	others	date|_start_|15-jul-88|true|false|false|false|false|false|false|false|false|NNS
+15-Jul-88	others	15-jul-88|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|11:00|true|false|false|false|false|false|false|false|false|NNP
+11:00	stime	11:00|time|am|false|false|false|false|false|false|false|false|false|CD
+AM	stime	am|11:00|_end_|false|true|false|true|false|false|false|false|false|NNP
+
+PostedBy	others	postedbi|_start_|kai-fu|false|false|false|false|true|false|false|false|false|NNP
+Kai-Fu	others	kai-fu|postedbi|lee|false|false|false|false|false|false|false|false|false|NNP
+Lee	others	lee|kai-fu|on|true|false|false|false|false|true|false|false|false|NNP
+on	others	on|lee|14-jul-88|false|false|false|false|false|false|false|false|false|IN
+14-Jul-88	others	14-jul-88|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|14-jul-88|10:56|false|false|false|false|false|false|false|false|false|IN
+10:56	others	10:56|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|10:56|speech2|false|false|false|false|false|false|false|false|false|IN
+SPEECH2	others	speech2|from|cs.cmu.edu|false|false|false|false|false|false|false|false|false|NN
+CS.CMU.EDU	others	cs.cmu.edu|speech2|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+Paul	speaker	paul|_start_|chou|true|false|false|false|false|true|false|false|false|NNP
+Chou	speaker	chou|paul|will|true|false|false|false|false|true|false|false|false|NNP
+will	others	will|chou|be|false|false|false|false|false|false|false|false|false|MD
+be	others	be|will|give|false|false|false|false|false|false|false|false|false|VB
+given	others	give|be|a|false|false|false|false|false|false|false|false|false|VBN
+a	others	a|give|vision|false|false|false|false|false|false|false|false|false|DT
+vision	others	vision|a|talk|false|false|false|false|false|false|false|false|false|NN
+talk	others	talk|vision|fridai|false|false|false|false|false|false|false|false|false|NN
+Friday	others	fridai|talk|at|true|false|false|false|false|false|false|false|true|NNP
+at	others	at|fridai|11:00|false|false|false|false|false|false|false|false|false|IN
+11:00	stime	11:00|at|am|false|false|false|false|false|false|false|false|false|CD
+AM	stime	am|11:00|in|false|true|false|true|false|false|false|false|false|NNP
+in	others	in|am|4605|false|false|false|false|false|false|false|false|false|IN
+4605	location	4605|in|wean|false|false|false|false|false|false|false|false|false|CD
+Wean	location	wean|4605|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+The	others	the|_start_|titl|true|false|false|false|false|false|false|false|false|DT
+title	others	titl|the|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|titl|he|false|false|false|false|false|false|false|false|false|IN
+his	others	he|of|talk|false|false|false|false|false|false|false|false|false|PRP$
+talk	others	talk|he|be|false|false|false|false|false|false|false|false|false|NN
+is	others	be|talk|_end_|false|false|false|false|false|false|false|false|false|VBZ
+
+Probabilistic	others	probabilist|_start_|inform|true|false|false|false|false|false|false|false|false|NNP
+Information	others	inform|probabilist|fusion|true|false|false|false|false|false|false|false|false|NNP
+Fusion	others	fusion|inform|for|true|false|false|false|false|false|false|false|false|NN
+for	others	for|fusion|multi-mod|false|false|false|false|false|false|false|false|false|IN
+Multi-Modal	others	multi-mod|for|imag|false|false|false|false|false|false|false|false|false|JJ
+Image	others	imag|multi-mod|segment|true|false|false|false|false|false|false|false|false|NN
+Segmentation	others	segment|imag|_end_|true|false|false|false|false|false|false|false|false|NN
+
+This	others	thi|_start_|talk|true|false|false|false|false|false|false|false|false|DT
+talk	others	talk|thi|mai|false|false|false|false|false|false|false|false|false|NN
+may	others	mai|talk|be|false|false|false|false|false|false|false|false|false|MD
+be	others	be|mai|of|false|false|false|false|false|false|false|false|false|VB
+of	others	of|be|interest|false|false|false|false|false|false|false|false|false|IN
+interest	others	interest|of|to|false|false|false|false|false|false|false|false|false|NN
+to	others	to|interest|speech|false|false|false|false|false|false|false|false|false|TO
+speech	others	speech|to|research|false|false|false|false|false|false|false|false|false|NN
+researchers	others	research|speech|in|false|false|false|false|false|false|false|false|false|NNS
+in	others	in|research|two|false|false|false|false|false|false|false|false|false|IN
+two	others	two|in|wai|false|false|false|false|false|false|false|false|false|CD
+ways	others	wai|two|-lrb-|false|false|false|false|false|false|false|false|false|NNS
+-LRB-	others	-lrb-|wai|1|false|false|false|false|false|false|false|false|false|-LRB-
+1	others	1|-lrb-|-rrb-|false|false|false|false|false|false|false|false|false|LS
+-RRB-	others	-rrb-|1|paul|false|false|false|false|false|false|false|false|false|-RRB-
+Paul	others	paul|-rrb-|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+is	others	be|_start_|interest|false|false|false|false|false|false|false|false|false|VBZ
+interested	others	interest|be|in|false|false|false|false|false|false|false|false|false|JJ
+in	others	in|interest|join|false|false|false|false|false|false|false|false|false|IN
+joining	others	join|in|we|false|false|false|false|false|false|false|false|false|VBG
+our	others	we|join|speech|false|false|false|false|false|false|false|false|false|PRP$
+speech	others	speech|we|group|false|false|false|false|false|false|false|false|false|NN
+group	others	group|speech|-lrb-|false|false|false|false|false|false|false|false|false|NN
+-LRB-	others	-lrb-|group|2|false|false|false|false|false|false|false|false|false|-LRB-
+2	others	2|-lrb-|-rrb-|false|false|false|false|false|false|false|false|false|LS
+-RRB-	others	-rrb-|2|he|false|false|false|false|false|false|false|false|false|-RRB-
+his	others	he|-rrb-|work|false|false|false|false|false|false|false|false|false|PRP$
+work	others	work|he|on|false|false|false|false|false|false|false|false|false|NN
+on	others	on|work|combin|false|false|false|false|false|false|false|false|false|IN
+combining	others	combin|on|_end_|false|false|false|false|false|false|false|false|false|VBG
+
+knowledge	others	knowledg|_start_|sourc|false|false|false|false|false|false|false|false|false|NN
+sources	others	sourc|knowledg|us|false|false|false|false|false|false|false|false|false|NNS
+using	others	us|sourc|markov|false|false|false|false|false|false|false|false|false|VBG
+Markov	others	markov|us|random|true|false|false|false|false|true|false|false|false|NNP
+Random	others	random|markov|field|true|false|false|false|false|false|false|false|false|NNP
+Fields	others	field|random|mai|true|false|false|false|false|false|false|false|false|NNP
+may	others	mai|field|be|false|false|false|false|false|false|false|false|false|MD
+be	others	be|mai|applic|false|false|false|false|false|false|false|false|false|VB
+applicable	others	applic|be|to|false|false|false|false|false|false|false|false|false|JJ
+to	others	to|applic|speech|false|false|false|false|false|false|false|false|false|TO
+speech	others	speech|to|_end_|false|false|false|false|false|false|false|false|false|NN
+
+recognition	others	recognit|_start_|_end_|false|false|false|false|false|false|false|false|false|NN
+

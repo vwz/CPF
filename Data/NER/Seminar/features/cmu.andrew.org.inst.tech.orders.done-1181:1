@@ -1,0 +1,146 @@
+Type	others	type|_start_|cmu.andrew.org|true|false|false|false|false|false|false|false|false|NN
+cmu.andrew.org	others	cmu.andrew.org|type|inst|false|false|false|false|false|false|false|false|false|NN
+inst	others	inst|cmu.andrew.org|tech|false|false|false|false|false|false|false|false|false|NN
+tech	others	tech|inst|order|false|false|false|false|false|false|false|false|false|NN
+orders	others	order|tech|do|false|false|false|false|false|false|false|false|false|NNS
+done	others	do|order|_end_|false|false|false|false|false|false|false|false|false|VBN
+
+Topic	others	topic|_start_|order|true|false|false|false|false|false|false|false|false|NN
+order	others	order|topic|for|false|false|false|false|false|false|false|false|false|NN
+for	others	for|order|3|false|false|false|false|false|false|false|false|false|IN
+3	others	3|for|lectur|false|false|false|false|false|false|false|false|false|CD
+lectures	others	lectur|3|_end_|false|false|false|false|false|false|false|false|false|VBZ
+
+Dates	others	date|_start_|3-apr-95|true|false|false|false|false|false|false|false|false|NNS
+3-Apr-95	others	3-apr-95|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|4:30|true|false|false|false|false|false|false|false|false|NNP
+4:30	stime	4:30|time|pm|false|false|false|false|false|false|false|false|false|CD
+PM	stime	pm|4:30|_end_|false|true|false|true|false|false|false|false|false|NN
+
+PostedBy	others	postedbi|_start_|david|false|false|false|false|true|false|false|false|false|NNP
+David	others	david|postedbi|adam|true|false|false|false|false|true|false|false|false|NNP
+Adam	others	adam|david|dzombak|true|false|false|false|false|true|false|false|false|NNP
+Dzombak	others	dzombak|adam|on|true|false|false|false|false|true|false|false|false|NNP
+on	others	on|dzombak|3-feb-95|false|false|false|false|false|false|false|false|false|IN
+3-Feb-95	others	3-feb-95|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|3-feb-95|10:12|false|false|false|false|false|false|false|false|false|IN
+10:12	others	10:12|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|10:12|andrew.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+andrew.cmu.edu	others	andrew.cmu.edu|from|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+I	others	i|_start_|would|false|false|true|true|false|false|false|false|false|PRP
+would	others	would|i|like|false|false|false|false|false|false|false|false|false|MD
+like	others	like|would|to|false|false|false|false|false|false|false|false|false|VB
+to	others	to|like|place|false|false|false|false|false|false|false|false|false|TO
+place	others	place|to|a|false|false|false|false|false|false|false|false|false|VB
+an	others	a|place|order|false|false|false|false|false|false|false|false|false|DT
+order	others	order|a|for|false|false|false|false|false|false|false|false|false|NN
+for	others	for|order|three|false|false|false|false|false|false|false|false|false|IN
+three	others	three|for|event|false|false|false|false|false|false|false|false|false|CD
+events	others	event|three|in|false|false|false|false|false|false|false|false|false|NNS
+in	others	in|event|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|in|1995|false|false|false|false|false|false|false|false|false|DT
+1995	others	1995|the|distinguish|false|false|false|false|false|false|false|false|true|CD
+Distinguished	others	distinguish|1995|_end_|true|false|false|false|false|false|false|false|false|VBN
+
+Lecture	others	lectur|_start_|seri|true|false|false|false|false|false|false|false|false|NNP
+Series	others	seri|lectur|in|true|false|false|false|false|false|false|false|false|NNP
+in	others	in|seri|environment|false|false|false|false|false|false|false|false|false|IN
+Environmental	others	environment|in|scienc|true|false|false|false|false|false|false|false|false|NNP
+Science	others	scienc|environment|technolog|true|false|false|false|false|false|false|false|false|NNP
+Technology	others	technolog|scienc|and|true|false|false|false|false|false|false|false|false|NNP
+and	others	and|technolog|polici|false|false|false|false|false|false|false|false|false|CC
+Policy	others	polici|and|all|true|false|false|false|false|false|false|false|false|NN
+All	others	all|polici|_end_|true|false|false|false|false|false|false|false|false|DT
+
+three	others	three|_start_|event|false|false|false|false|false|false|false|false|false|CD
+events	others	event|three|will|false|false|false|false|false|false|false|false|false|NNS
+will	others	will|event|be|false|false|false|false|false|false|false|false|false|MD
+be	others	be|will|hold|false|false|false|false|false|false|false|false|false|VB
+held	others	hold|be|in|false|false|false|false|false|false|false|false|false|VBN
+in	others	in|hold|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|in|adamson|false|false|false|false|false|false|false|false|false|DT
+Adamson	location	adamson|the|wing|true|false|false|false|false|false|false|false|false|NNP
+Wing	location	wing|adamson|auditorium|true|false|false|false|false|false|false|false|false|NNP
+Auditorium	location	auditorium|wing|baker|true|false|false|false|false|false|false|false|false|NNP
+Baker	location	baker|auditorium|hall|true|false|false|false|false|true|false|false|false|NNP
+Hall	location	hall|baker|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+For	others	for|_start_|each|true|false|false|false|false|false|false|false|false|IN
+each	others	each|for|event|false|false|false|false|false|false|false|false|false|DT
+event	others	event|each|we|false|false|false|false|false|false|false|false|false|NN
+we	others	we|event|will|false|false|false|false|false|false|false|false|false|PRP
+will	others	will|we|need|false|false|false|false|false|false|false|false|false|MD
+need	others	need|will|a|false|false|false|false|false|false|false|false|false|VB
+a	others	a|need|slide|false|false|false|false|false|false|false|false|false|DT
+slide	others	slide|a|projector|false|false|false|false|false|false|false|false|false|NN
+projector	others	projector|slide|a|false|false|false|false|false|false|false|false|false|NN
+a	others	a|projector|podium|false|false|false|false|false|false|false|false|false|DT
+podium	others	podium|a|microphon|false|false|false|false|false|false|false|false|false|NN
+microphone	others	microphon|podium|_end_|false|false|false|false|false|false|false|false|false|NN
+
+a	others	a|_start_|remot|false|false|false|false|false|false|false|false|false|DT
+remote	others	remot|a|microphon|false|false|false|false|false|false|false|false|false|JJ
+microphone	others	microphon|remot|-lrb-|false|false|false|false|false|false|false|false|false|NN
+-LRB-	others	-lrb-|microphon|two|false|false|false|false|false|false|false|false|false|-LRB-
+two	others	two|-lrb-|remot|false|false|false|false|false|false|false|false|false|CD
+remote	others	remot|two|microphon|false|false|false|false|false|false|false|false|false|JJ
+microphones	others	microphon|remot|for|false|false|false|false|false|false|false|false|false|NNS
+for	others	for|microphon|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|for|april|false|false|false|false|false|false|false|false|true|DT
+April	others	april|the|3|true|false|false|false|false|false|false|false|true|NNP
+3	others	3|april|event|false|false|false|false|false|false|false|false|true|CD
+event	others	event|3|-rrb-|false|false|false|false|false|false|false|false|false|NN
+-RRB-	others	-rrb-|event|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+two	others	two|_start_|sound|false|false|false|false|false|false|false|false|false|CD
+sound	others	sound|two|speaker|false|false|false|false|false|false|false|false|false|JJ
+speakers	others	speaker|sound|-lrb-|false|false|false|false|false|false|false|false|false|NNS
+-LRB-	others	-lrb-|speaker|on|false|false|false|false|false|false|false|false|false|-LRB-
+one	others	on|-lrb-|for|false|false|false|false|false|false|false|false|false|CD
+for	others	for|on|each|false|false|false|false|false|false|false|false|false|IN
+each	others	each|for|side|false|false|false|false|false|false|false|false|false|DT
+side	others	side|each|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|side|room|false|false|false|false|false|false|false|false|false|IN
+room	others	room|of|-rrb-|false|false|false|false|false|false|false|false|false|NN
+-RRB-	others	-rrb-|room|and|false|false|false|false|false|false|false|false|false|-RRB-
+and	others	and|-rrb-|a|false|false|false|false|false|false|false|false|false|CC
+a	others	a|and|light|false|false|false|false|false|false|false|false|false|DT
+light	others	light|a|pointer|false|false|false|false|false|false|false|false|false|JJ
+pointer	others	pointer|light|_end_|false|false|false|false|false|false|false|false|false|NN
+
+The	others	the|_start_|date|true|false|false|false|false|false|false|false|false|DT
+dates	others	date|the|and|false|false|false|false|false|false|false|false|false|NNS
+and	others	and|date|time|false|false|false|false|false|false|false|false|false|CC
+times	others	time|and|be|false|false|false|false|false|false|false|false|false|NNS
+are	others	be|time|as|false|false|false|false|false|false|false|false|false|VBP
+as	others	as|be|follow|false|false|false|false|false|false|false|false|false|IN
+follows	others	follow|as|_end_|false|false|false|false|false|false|false|false|false|VBZ
+
+Monday	others	mondai|_start_|april|true|false|false|false|false|false|false|false|true|NNP
+April	others	april|mondai|3|true|false|false|false|false|false|false|false|true|NNP
+3	others	3|april|4:30|false|false|false|false|false|false|false|false|true|CD
+4:30	stime	4:30|3|pm|false|false|false|false|false|false|false|false|false|CD
+pm	stime	pm|4:30|-lrb-|false|false|false|false|false|false|false|false|false|NN
+-LRB-	others	-lrb-|pm|set|false|false|false|false|false|false|false|false|false|-LRB-
+set	others	set|-lrb-|up|false|false|false|false|false|false|false|false|false|VBN
+up	others	up|set|should|false|false|false|false|false|false|false|false|false|RP
+should	others	should|up|be|false|false|false|false|false|false|false|false|false|MD
+be	others	be|should|complet|false|false|false|false|false|false|false|false|false|VB
+completed	others	complet|be|by|false|false|false|false|false|false|false|false|false|VBN
+by	others	by|complet|4:15|false|false|false|false|false|false|false|false|false|IN
+4:15	others	4:15|by|pm|false|false|false|false|false|false|false|false|false|CD
+pm	others	pm|4:15|can|false|false|false|false|false|false|false|false|false|NN
+can	others	can|pm|_end_|false|false|false|false|false|false|false|false|false|MD
+
+get	others	get|_start_|into|false|false|false|false|false|false|false|false|false|VB
+into	others	into|get|room|false|false|false|false|false|false|false|false|false|IN
+room	others	room|into|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|room|4:00|false|false|false|false|false|false|false|false|false|IN
+4:00	others	4:00|at|pm|false|false|false|false|false|false|false|false|false|CD
+pm	others	pm|4:00|-rrb-|false|false|false|false|false|false|false|false|false|NN
+-RRB-	others	-rrb-|pm|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+

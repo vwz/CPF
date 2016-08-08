@@ -1,0 +1,60 @@
+Type	others	type|_start_|cmu.andrew.org|true|false|false|false|false|false|false|false|false|NN
+cmu.andrew.org	others	cmu.andrew.org|type|hss|false|false|false|false|false|false|false|false|false|NN
+hss	others	hss|cmu.andrew.org|eng|false|false|false|false|false|false|false|false|false|NN
+eng	others	eng|hss|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Topic	others	topic|_start_|public|true|false|false|false|false|false|false|false|false|NN
+Public	others	public|topic|lectur|true|false|false|false|false|false|false|false|false|NNP
+Lecture	others	lectur|public|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Dates	others	date|_start_|19-jan-94|true|false|false|false|false|false|false|false|false|NNS
+19-Jan-94	others	19-jan-94|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|4:30|true|false|false|false|false|false|false|false|false|NNP
+4:30	stime	4:30|time|_end_|false|false|false|false|false|false|false|false|false|CD
+
+PostedBy	others	postedbi|_start_|barbara|false|false|false|false|true|false|false|false|false|NNP
+Barbara	others	barbara|postedbi|r.|true|false|false|false|false|true|false|false|false|NNP
+R.	others	r.|barbara|moor|false|false|false|false|false|true|false|false|false|NNP
+Moore	others	moor|r.|on|true|false|false|false|false|true|false|false|false|NNP
+on	others	on|moor|17-jan-94|false|false|false|false|false|false|false|false|false|IN
+17-Jan-94	others	17-jan-94|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|17-jan-94|15:46|false|false|false|false|false|false|false|false|false|IN
+15:46	others	15:46|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|15:46|andrew.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+andrew.cmu.edu	others	andrew.cmu.edu|from|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+Public	others	public|_start_|lectur|true|false|false|false|false|false|false|false|false|NNP
+Lecture	others	lectur|public|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Wednesday	others	wednesdai|_start_|jan|true|false|false|false|false|false|false|false|true|NNP
+Jan	others	jan|wednesdai|19|true|false|false|false|false|false|false|false|true|NNP
+19	others	19|jan|at|false|false|false|false|false|false|false|false|true|CD
+at	others	at|19|4:30|false|false|false|false|false|false|false|false|false|IN
+4:30	stime	4:30|at|_end_|false|false|false|false|false|false|false|false|false|CD
+
+Charles	speaker	charl|_start_|pain|true|false|false|false|false|true|false|false|false|NNP
+Paine	speaker	pain|charl|-lrb-|true|false|false|false|false|true|false|false|false|NNP
+-LRB-	others	-lrb-|pain|duke|false|false|false|false|false|false|false|false|false|-LRB-
+Duke	others	duke|-lrb-|univers|true|false|false|false|false|false|false|false|false|NNP
+University	others	univers|duke|-rrb-|true|false|false|false|false|false|false|false|false|NNP
+-RRB-	others	-rrb-|univers|will|false|false|false|false|false|false|false|false|false|-RRB-
+will	others	will|-rrb-|give|false|false|false|false|false|false|false|false|false|MD
+give	others	give|will|a|false|false|false|false|false|false|false|false|false|VB
+a	others	a|give|lectur|false|false|false|false|false|false|false|false|false|DT
+lecture	others	lectur|a|entitl|false|false|false|false|false|false|false|false|false|NN
+entitled	others	entitl|lectur|_end_|false|false|false|false|false|false|false|false|false|VBN
+
+The	others	the|_start_|popular|true|false|false|false|false|false|false|false|false|DT
+Popular	others	popular|the|cultur|true|false|false|false|false|false|false|false|false|NNP
+Culture	others	cultur|popular|of|true|false|false|false|false|false|false|false|false|NN
+of	others	of|cultur|public|false|false|false|false|false|false|false|false|false|IN
+Public	others	public|of|discours|true|false|false|false|false|false|false|false|false|NNP
+Discourse	others	discours|public|and|true|false|false|false|false|false|false|false|false|NNP
+and	others	and|discours|the|false|false|false|false|false|false|false|false|false|CC
+the	others	the|and|composit|false|false|false|false|false|false|false|false|false|DT
+Composition	others	composit|the|classroom|true|false|false|false|false|false|false|false|false|NNP
+Classroom	others	classroom|composit|_end_|true|false|false|false|false|false|false|false|false|NNP
+

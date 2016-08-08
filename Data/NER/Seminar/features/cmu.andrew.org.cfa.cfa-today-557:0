@@ -1,0 +1,86 @@
+Type	others	type|_start_|cmu.andrew.org.cfa.cfa-todai|true|false|false|false|false|false|false|false|false|NN
+cmu.andrew.org.cfa.cfa-today	others	cmu.andrew.org.cfa.cfa-todai|type|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Topic	others	topic|_start_|art|true|false|false|false|false|false|false|false|false|NN
+Art	others	art|topic|dept|true|false|false|false|false|false|false|false|false|NNP
+Dept	others	dept|art|lectur|true|false|false|false|false|false|false|false|false|NNP
+Lecture	others	lectur|dept|seri|true|false|false|false|false|false|false|false|false|NNP
+Series	others	seri|lectur|continu|true|false|false|false|false|false|false|false|false|NNP
+Continues	others	continu|seri|_end_|true|false|false|false|false|false|false|false|false|VBZ
+
+Dates	others	date|_start_|9-feb-95|true|false|false|false|false|false|false|false|false|NNS
+9-Feb-95	others	9-feb-95|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|5:00|true|false|false|false|false|false|false|false|false|NNP
+5:00	stime	5:00|time|pm|false|false|false|false|false|false|false|false|false|CD
+PM	stime	pm|5:00|_end_|false|true|false|true|false|false|false|false|false|NNP
+
+PostedBy	others	postedbi|_start_|tina|false|false|false|false|true|false|false|false|false|NNP
+Tina	others	tina|postedbi|c|true|false|false|false|false|true|false|false|false|NNP
+C	others	c|tina|calabro|false|false|true|true|false|true|false|false|false|NNP
+Calabro	others	calabro|c|on|true|false|false|false|false|true|false|false|false|NNP
+on	others	on|calabro|7-feb-95|false|false|false|false|false|false|false|false|false|IN
+7-Feb-95	others	7-feb-95|on|at|false|false|false|false|false|false|false|false|false|NNP
+at	others	at|7-feb-95|13:21|false|false|false|false|false|false|false|false|false|IN
+13:21	others	13:21|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|13:21|andrew.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+andrew.cmu.edu	others	andrew.cmu.edu|from|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+The	others	the|_start_|cfa|true|false|false|false|false|false|false|false|false|DT
+CFA	others	cfa|the|art|false|true|false|true|false|false|false|false|false|NNP
+Art	others	art|cfa|depart|true|false|false|false|false|false|false|false|false|NNP
+Department	others	depart|art|continu|true|false|false|false|false|false|false|false|false|NNP
+continues	others	continu|depart|it|false|false|false|false|false|false|false|false|false|VBZ
+its	others	it|continu|lectur|false|false|false|false|false|false|false|false|false|PRP$
+lecture	others	lectur|it|seri|false|false|false|false|false|false|false|false|false|NN
+series	others	seri|lectur|with|false|false|false|false|false|false|false|false|false|NN
+with	others	with|seri|a|false|false|false|false|false|false|false|false|false|IN
+a	others	a|with|talk|false|false|false|false|false|false|false|false|false|DT
+talk	others	talk|a|from|false|false|false|false|false|false|false|false|false|NN
+from	others	from|talk|_end_|false|false|false|false|false|false|false|false|false|IN
+
+Steven	speaker	steven|_start_|kurtz|true|false|false|false|false|true|false|false|false|NNP
+Kurtz	speaker	kurtz|steven|mr.|true|false|false|false|false|true|false|false|false|NNP
+Mr.	speaker	mr.|kurtz|kurtz|false|false|false|false|false|true|false|false|false|NNP
+Kurtz	speaker	kurtz|mr.|be|true|false|false|false|false|true|false|false|false|NNP
+is	others	be|kurtz|a|false|false|false|false|false|false|false|false|false|VBZ
+a	others	a|be|new|false|false|false|false|false|false|false|false|false|DT
+new	others	new|a|genr|false|false|false|false|false|false|false|false|false|JJ
+genre	others	genr|new|artist|false|false|false|false|false|false|false|false|false|NN
+artist	others	artist|genr|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|artist|a|false|false|false|false|false|false|false|false|false|CC
+a	others	a|and|found|false|false|false|false|false|false|false|false|false|DT
+founding	others	found|a|member|false|false|false|false|false|false|false|false|false|VBG
+member	others	member|found|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|member|_end_|false|false|false|false|false|false|false|false|false|IN
+
+the	others	the|_start_|art|false|false|false|false|false|false|false|false|false|DT
+art	others	art|the|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|art|theori|false|false|false|false|false|false|false|false|false|CC
+theory	others	theori|and|collect|false|false|false|false|false|false|false|false|false|NN
+collective	others	collect|theori|critic|false|false|false|false|false|false|false|false|false|JJ
+Critical	others	critic|collect|art|true|false|false|false|false|false|false|false|false|JJ
+Art	others	art|critic|ensembl|true|false|false|false|false|false|false|false|false|NNP
+Ensemble	others	ensembl|art|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+The	others	the|_start_|lectur|true|false|false|false|false|false|false|false|false|DT
+lecture	others	lectur|the|will|false|false|false|false|false|false|false|false|false|NN
+will	others	will|lectur|be|false|false|false|false|false|false|false|false|false|MD
+be	others	be|will|thursdai|false|false|false|false|false|false|false|false|false|VB
+Thursday	others	thursdai|be|februari|true|false|false|false|false|false|false|false|true|NNP
+February	others	februari|thursdai|9|true|false|false|false|false|false|false|false|true|NNP
+9	others	9|februari|at|false|false|false|false|false|false|false|false|true|CD
+at	others	at|9|5|false|false|false|false|false|false|false|false|false|IN
+5	stime	5|at|p.|false|false|false|false|false|false|false|false|false|CD
+p.	stime	p.|5|m|false|false|false|false|false|false|false|false|false|NN
+m	stime	m|p.|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|m|dh|false|false|false|false|false|false|false|false|false|IN
+DH	location	dh|at|2315|false|true|false|true|false|false|false|false|false|NN
+2315	location	2315|dh|see|false|false|false|false|false|false|false|false|true|CD
+See	others	see|2315|you|true|false|false|false|false|false|false|false|false|VB
+you	others	you|see|_end_|false|false|false|false|false|false|false|false|false|PRP
+
+there	others	there|_start_|_end_|false|false|false|false|false|false|false|false|false|RB
+

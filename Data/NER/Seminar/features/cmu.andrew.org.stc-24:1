@@ -1,0 +1,77 @@
+Type	others	type|_start_|cmu.andrew.org|true|false|false|false|false|false|false|false|false|NN
+cmu.andrew.org	others	cmu.andrew.org|type|stc|false|false|false|false|false|false|false|false|false|NN
+stc	others	stc|cmu.andrew.org|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Topic	others	topic|_start_|cmu\/pitt|true|false|false|false|false|false|false|false|false|NN
+CMU\/Pitt	others	cmu\/pitt|topic|physic|false|false|false|false|false|false|false|false|false|NNP
+Physics	others	physic|cmu\/pitt|seminar|true|false|false|false|false|false|false|false|false|NN
+Seminars	others	seminar|physic|_end_|true|false|false|false|false|false|false|false|false|NNS
+
+Dates	others	date|_start_|22-jun-95|true|false|false|false|false|false|false|false|false|NNS
+22-Jun-95	others	22-jun-95|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|4:30|true|false|false|false|false|false|false|false|false|NNP
+4:30	stime	4:30|time|pm|false|false|false|false|false|false|false|false|false|CD
+PM	stime	pm|4:30|_end_|false|true|false|true|false|false|false|false|false|NN
+
+PostedBy	others	postedbi|_start_|sandra|false|false|false|false|true|false|false|false|false|NNP
+Sandra	others	sandra|postedbi|m|true|false|false|false|false|true|false|false|false|NNP
+M	others	m|sandra|sherman|false|false|true|true|false|true|false|false|false|NNP
+Sherman	others	sherman|m|on|true|false|false|false|false|true|false|false|false|NNP
+on	others	on|sherman|19-jun-95|false|false|false|false|false|false|false|false|false|IN
+19-Jun-95	others	19-jun-95|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|19-jun-95|15:35|false|false|false|false|false|false|false|false|false|IN
+15:35	others	15:35|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|15:35|andrew.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+andrew.cmu.edu	others	andrew.cmu.edu|from|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+THURSDAY	others	thursdai|_start_|june|false|true|false|true|false|false|false|false|true|NNP
+JUNE	others	june|thursdai|22|false|true|false|true|false|false|false|false|true|NNP
+22	others	22|june|_end_|false|false|false|false|false|false|false|false|true|CD
+
+Joint	others	joint|_start_|intermedi|true|false|false|false|false|false|false|false|false|NNP
+Intermediate	others	intermedi|joint|energi|true|false|false|false|false|false|false|false|false|NNP
+Energy	others	energi|intermedi|seminar|true|false|false|false|false|false|false|false|false|NNP
+Seminar	others	seminar|energi|dr.|true|false|false|false|false|false|false|false|false|NNP
+Dr.	speaker	dr.|seminar|werner|false|false|false|false|false|true|false|false|false|NNP
+Werner	speaker	werner|dr.|koepf|true|false|false|false|false|true|false|false|false|NNP
+Koepf	speaker	koepf|werner|dept.|true|false|false|false|false|true|false|false|false|NNP
+Dept.	others	dept.|koepf|of|false|false|false|false|false|false|false|false|false|NNP
+of	others	of|dept.|nuclear|false|false|false|false|false|false|false|false|false|IN
+Nuclear	others	nuclear|of|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Physics	others	physic|_start_|tel|true|false|false|false|false|false|false|false|false|NN
+Tel	others	tel|physic|aviv|true|false|false|false|false|false|false|false|false|NNP
+Aviv	others	aviv|tel|univers|true|false|false|false|false|false|false|false|false|NNP
+University	others	univers|aviv|quark|true|false|false|false|false|false|false|false|false|NNP
+Quark	others	quark|univers|model|true|false|false|false|false|false|false|false|false|NNP
+Model	others	model|quark|descript|true|false|false|false|false|false|false|false|false|NNP
+Description	others	descript|model|of|true|false|false|false|false|false|false|false|false|NN
+of	others	of|descript|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|of|n-n|false|false|false|false|false|false|false|false|false|DT
+N-N	others	n-n|the|_end_|false|false|false|false|false|false|false|false|false|NN
+
+System	others	system|_start_|4:30|true|false|false|false|false|false|false|false|false|NNP
+4:30	stime	4:30|system|pm|false|false|false|false|false|false|false|false|false|CD
+pm	stime	pm|4:30|106|false|false|false|false|false|false|false|false|false|NN
+106	location	106|pm|allen|false|false|false|false|false|false|false|false|false|CD
+Allen	location	allen|106|hall|true|false|false|false|false|true|false|false|false|NNP
+Hall	location	hall|allen|pitt|true|false|false|false|false|true|false|false|false|NNP
+Pitt	location	pitt|hall|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+Condensed	others	condens|_start_|matter|true|false|false|false|false|false|false|false|false|JJ
+Matter	others	matter|condens|coffe|true|false|false|false|false|false|false|false|false|NNP
+Coffee	others	coffe|matter|hour|true|false|false|false|false|false|false|false|false|NNP
+Hour	others	hour|coffe|4:00|true|false|false|false|false|false|false|false|true|NNP
+4:00	others	4:00|hour|pm|false|false|false|false|false|false|false|false|true|CD
+pm	others	pm|4:00|6327|false|false|false|false|false|false|false|false|true|NN
+6327	location	6327|pm|wean|false|false|false|false|false|false|false|false|false|CD
+Wean	location	wean|6327|hall|true|false|false|false|false|false|false|false|false|NNP
+Hall	location	hall|wean|6th|true|false|false|false|false|false|false|false|false|NNP
+6th	location	6th|hall|floor|false|false|false|false|false|false|false|false|false|JJ
+Floor	location	floor|6th|loung|true|false|false|false|false|false|false|false|false|NNP
+Lounge	location	loung|floor|cmu|true|false|false|false|false|false|false|false|false|NNP
+CMU	others	cmu|loung|_end_|false|true|false|true|false|false|false|false|false|NNP
+

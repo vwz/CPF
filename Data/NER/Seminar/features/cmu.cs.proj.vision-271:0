@@ -1,0 +1,55 @@
+Type	others	type|_start_|cmu|true|false|false|false|false|false|false|false|false|NN
+cmu	others	cmu|type|c|false|false|false|false|false|false|false|false|false|NN
+cs	others	c|cmu|proj|false|false|false|false|false|false|false|false|false|NNS
+proj	others	proj|c|vision|false|false|false|false|false|false|false|false|false|NN
+vision	others	vision|proj|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Topic	others	topic|_start_|iu|true|false|false|false|false|false|false|false|false|NN
+IUS	others	iu|topic|seminar|false|true|false|true|false|false|false|false|false|NNS
+seminar	others	seminar|iu|4\/23|false|false|false|false|false|false|false|false|false|NN
+4\/23	others	4\/23|seminar|_end_|false|false|false|false|false|false|false|false|false|CD
+
+Dates	others	date|_start_|23-apr-84|true|false|false|false|false|false|false|false|false|NNS
+23-Apr-84	others	23-apr-84|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|3:30|true|false|false|false|false|false|false|false|false|NNP
+3:30	stime	3:30|time|_end_|false|false|false|false|false|false|false|false|false|CD
+
+PostedBy	others	postedbi|_start_|on|false|false|false|false|true|false|false|false|false|NNP
+on	others	on|postedbi|22-apr-84|false|false|false|false|false|false|false|false|false|IN
+22-Apr-84	others	22-apr-84|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|22-apr-84|16:06|false|false|false|false|false|false|false|false|false|IN
+16:06	others	16:06|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|16:06|_end_|false|false|false|false|false|false|false|false|false|IN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+Monday	others	mondai|_start_|'s|true|false|false|false|false|false|false|false|true|NNP
+'s	others	's|mondai|iu|false|false|false|false|false|false|false|false|false|POS
+IUS	others	iu|'s|seminar|false|true|false|true|false|false|false|false|false|NN
+seminar	others	seminar|iu|be|false|false|false|false|false|false|false|false|false|NN
+is	others	be|seminar|a|false|false|false|false|false|false|false|false|false|VBZ
+an	others	a|be|iu|false|false|false|false|false|false|false|false|false|DT
+IUS	others	iu|a|busi|false|true|false|true|false|false|false|false|false|NN
+business	others	busi|iu|meet|false|false|false|false|false|false|false|false|false|NN
+meeting	others	meet|busi|to|false|false|false|false|false|false|false|false|false|NN
+to	others	to|meet|discuss|false|false|false|false|false|false|false|false|false|TO
+discuss	others	discuss|to|the|false|false|false|false|false|false|false|false|false|VB
+the	others	the|discuss|alloc|false|false|false|false|false|false|false|false|false|DT
+allocation	others	alloc|the|_end_|false|false|false|false|false|false|false|false|false|NN
+
+of	others	of|_start_|account|false|false|false|false|false|false|false|false|false|IN
+accounts	others	account|of|on|false|false|false|false|false|false|false|false|false|NNS
+on	others	on|account|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|on|new|false|false|false|false|false|false|false|false|false|DT
+new	others	new|the|iu|false|false|false|false|false|false|false|false|false|JJ
+IUS	others	iu|new|vax|false|true|false|true|false|false|false|false|false|NNP
+Vax	others	vax|iu|in|true|false|false|false|false|false|false|false|false|NNP
+In	others	in|vax|8.220|true|false|false|false|false|false|false|false|false|IN
+8.220	location	8.220|in|start|false|false|false|false|false|false|false|false|false|CD
+starting	others	start|8.220|at|false|false|false|false|false|false|false|false|false|VBG
+at	others	at|start|3:30|false|false|false|false|false|false|false|false|false|IN
+3:30	stime	3:30|at|as|false|false|false|false|false|false|false|false|false|CD
+as	others	as|3:30|usual|false|false|false|false|false|false|false|false|false|IN
+usual	others	usual|as|_end_|false|false|false|false|false|false|false|false|false|JJ
+

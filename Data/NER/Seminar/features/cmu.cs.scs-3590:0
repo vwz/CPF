@@ -1,0 +1,255 @@
+Type	others	type|_start_|cmu|true|false|false|false|false|false|false|false|false|NN
+cmu	others	cmu|type|c|false|false|false|false|false|false|false|false|false|NN
+cs	others	c|cmu|sc|false|false|false|false|false|false|false|false|false|NNS
+scs	others	sc|c|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+Topic	others	topic|_start_|psc\/c|true|false|false|false|false|false|false|false|false|NN
+PSC\/CS	others	psc\/c|topic|seminar|false|false|false|false|false|false|false|false|false|NN
+Seminar	others	seminar|psc\/c|2\/24|true|false|false|false|false|false|false|false|false|NN
+2\/24	others	2\/24|seminar|risto|false|false|false|false|false|false|false|false|false|CD
+Risto	speaker	risto|2\/24|miikkulainen|true|false|false|false|false|true|false|false|false|NNP
+Miikkulainen	speaker	miikkulainen|risto|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+Dates	others	date|_start_|24-feb-95|true|false|false|false|false|false|false|false|false|NNS
+24-Feb-95	others	24-feb-95|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|4:00|true|false|false|false|false|false|false|false|false|NNP
+4:00	stime	4:00|time|pm|false|false|false|false|false|false|false|false|false|CD
+PM	stime	pm|4:00|_end_|false|true|false|true|false|false|false|false|false|NN
+
+Place	others	place|_start_|pittsburgh|true|false|false|false|false|false|false|false|false|NN
+Pittsburgh	others	pittsburgh|place|supercomput|true|false|false|false|false|false|false|false|false|NNP
+Supercomputing	others	supercomput|pittsburgh|center|true|false|false|false|false|false|false|false|false|NNP
+Center	others	center|supercomput|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Mellon	location	mellon|_start_|institut|true|false|false|false|false|false|false|false|false|NNP
+Institute	location	institut|mellon|build|true|false|false|false|false|false|false|false|false|NNP
+Building	location	build|institut|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+4400	others	4400|_start_|fifth|false|false|false|false|false|false|false|false|false|CD
+Fifth	others	fifth|4400|avenu|true|false|false|false|false|false|false|false|false|NNP
+Avenue	others	avenu|fifth|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+3rd	others	3rd|_start_|floor|false|false|false|false|false|false|false|false|false|RB
+Floor	others	floor|3rd|confer|true|false|false|false|false|false|false|false|false|NNP
+Conference	others	confer|floor|room|true|false|false|false|false|false|false|false|false|NNP
+Room	others	room|confer|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Pittsburgh	others	pittsburgh|_start_|pa|true|false|false|false|false|false|false|false|false|NNP
+PA	others	pa|pittsburgh|15213|false|true|false|true|false|false|false|false|false|NN
+15213	others	15213|pa|_end_|false|false|false|false|false|false|false|false|false|CD
+
+PostedBy	others	postedbi|_start_|pr|false|false|false|false|true|false|false|false|false|NNP
+prs	others	pr|postedbi|on|false|false|false|false|false|false|false|false|false|NNS
+on	others	on|pr|23-feb-95|false|false|false|false|false|false|false|false|false|IN
+23-Feb-95	others	23-feb-95|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|23-feb-95|13:52|false|false|false|false|false|false|false|false|false|IN
+13:52	others	13:52|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|13:52|n2|false|false|false|false|false|false|false|false|false|IN
+N2	others	n2|from|sp.cs.cmu.edu|false|false|false|false|false|false|false|false|false|NN
+SP.CS.CMU.EDU	others	sp.cs.cmu.edu|n2|-lrb-|false|false|false|false|false|false|false|false|false|NN
+-LRB-	others	-lrb-|sp.cs.cmu.edu|peter|false|false|false|false|false|false|false|false|false|-LRB-
+peter	others	peter|-lrb-|steenkist|false|false|false|false|false|false|false|false|false|NN
+steenkiste	others	steenkist|peter|-rrb-|false|false|false|false|false|false|false|false|false|NN
+-RRB-	others	-rrb-|steenkist|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+Date	others	date|_start_|fridai|true|false|false|false|false|false|false|false|false|NN
+Friday	others	fridai|date|februari|true|false|false|false|false|false|false|false|true|NNP
+February	others	februari|fridai|24|true|false|false|false|false|false|false|false|true|NNP
+24	others	24|februari|1995|false|false|false|false|false|false|false|false|true|CD
+1995	others	1995|24|_end_|false|false|false|false|false|false|false|false|true|CD
+
+Time	others	time|_start_|4|true|false|false|false|false|false|false|false|false|NNP
+4	stime	4|time|p.|false|false|false|false|false|false|false|false|false|CD
+p.	stime	p.|4|m|false|false|false|false|false|false|false|false|false|NN
+m	stime	m|p.|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Place	others	place|_start_|pittsburgh|true|false|false|false|false|false|false|false|false|NN
+Pittsburgh	others	pittsburgh|place|supercomput|true|false|false|false|false|false|false|false|false|NNP
+Supercomputing	others	supercomput|pittsburgh|center|true|false|false|false|false|false|false|false|false|NNP
+Center	others	center|supercomput|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Mellon	location	mellon|_start_|institut|true|false|false|false|false|false|false|false|false|NNP
+Institute	location	institut|mellon|build|true|false|false|false|false|false|false|false|false|NNP
+Building	location	build|institut|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+4400	others	4400|_start_|fifth|false|false|false|false|false|false|false|false|false|CD
+Fifth	others	fifth|4400|avenu|true|false|false|false|false|false|false|false|false|NNP
+Avenue	others	avenu|fifth|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+3rd	others	3rd|_start_|floor|false|false|false|false|false|false|false|false|false|RB
+Floor	others	floor|3rd|confer|true|false|false|false|false|false|false|false|false|NNP
+Conference	others	confer|floor|room|true|false|false|false|false|false|false|false|false|NNP
+Room	others	room|confer|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Pittsburgh	others	pittsburgh|_start_|pa|true|false|false|false|false|false|false|false|false|NNP
+PA	others	pa|pittsburgh|15213|false|true|false|true|false|false|false|false|false|NN
+15213	others	15213|pa|_end_|false|false|false|false|false|false|false|false|false|CD
+
+A	others	a|_start_|self-organ|false|false|true|true|false|false|false|false|false|DT
+Self-Organizing	others	self-organ|a|neural|false|false|false|false|false|false|false|false|false|JJ
+Neural	others	neural|self-organ|network|true|false|false|false|false|false|false|false|false|NNP
+Network	others	network|neural|model|true|false|false|false|false|false|false|false|false|NNP
+Model	others	model|network|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|model|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|of|primari|false|false|false|false|false|false|false|false|false|DT
+Primary	others	primari|the|visual|true|false|false|false|false|false|false|false|false|JJ
+Visual	others	visual|primari|cortex|true|false|false|false|false|false|false|false|false|JJ
+Cortex	others	cortex|visual|_end_|true|false|false|false|false|false|false|false|false|NN
+
+presented	others	present|_start_|by|false|false|false|false|false|false|false|false|false|VBN
+by	others	by|present|_end_|false|false|false|false|false|false|false|false|false|IN
+
+Department	others	depart|_start_|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|depart|comput|false|false|false|false|false|false|false|false|false|IN
+Computer	others	comput|of|scienc|true|false|false|false|false|false|false|false|false|NNP
+Science	others	scienc|comput|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+The	others	the|_start_|univers|true|false|false|false|false|false|false|false|false|DT
+University	others	univers|the|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|univers|texa|false|false|false|false|false|false|false|false|false|IN
+Texas	others	texa|of|at|true|false|false|false|false|false|false|false|false|NNP
+at	others	at|texa|austin|false|false|false|false|false|false|false|false|false|IN
+Austin	others	austin|at|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+A	others	a|_start_|self-organ|false|false|true|true|false|false|false|false|false|NN
+self-organizing	others	self-organ|a|neural|false|false|false|false|false|false|false|false|false|JJ
+neural	others	neural|self-organ|network|false|false|false|false|false|false|false|false|false|JJ
+network	others	network|neural|model|false|false|false|false|false|false|false|false|false|NN
+model	others	model|network|for|false|false|false|false|false|false|false|false|false|NN
+for	others	for|model|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|for|synerget|false|false|false|false|false|false|false|false|false|DT
+synergetic	others	synerget|the|develop|false|false|false|false|false|false|false|false|false|JJ
+development	others	develop|synerget|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|develop|_end_|false|false|false|false|false|false|false|false|false|IN
+
+afferent	others	affer|_start_|and|false|false|false|false|false|false|false|false|false|JJ
+and	others	and|affer|later|false|false|false|false|false|false|false|false|false|CC
+lateral	others	later|and|connect|false|false|false|false|false|false|false|false|false|JJ
+connections	others	connect|later|in|false|false|false|false|false|false|false|false|false|NNS
+in	others	in|connect|cortic|false|false|false|false|false|false|false|false|false|IN
+cortical	others	cortic|in|featur|false|false|false|false|false|false|false|false|false|JJ
+feature	others	featur|cortic|map|false|false|false|false|false|false|false|false|false|NN
+maps	others	map|featur|be|false|false|false|false|false|false|false|false|false|NNS
+was	others	be|map|simul|false|false|false|false|false|false|false|false|false|VBD
+simulated	others	simul|be|on|false|false|false|false|false|false|false|false|false|JJ
+on	others	on|simul|_end_|false|false|false|false|false|false|false|false|false|IN
+
+the	others	the|_start_|pittsburgh|false|false|false|false|false|false|false|false|false|DT
+Pittsburgh	others	pittsburgh|the|supercomput|true|false|false|false|false|false|false|false|false|NNP
+Supercomputing	others	supercomput|pittsburgh|center|true|false|false|false|false|false|false|false|false|NNP
+Center	others	center|supercomput|'s|true|false|false|false|false|false|false|false|false|NNP
+'s	others	's|center|crai|false|false|false|false|false|false|false|false|false|POS
+Cray	others	crai|'s|t3d|true|false|false|false|false|false|false|false|false|NNP
+T3D	others	t3d|crai|the|false|false|false|false|false|false|false|false|false|NN
+The	others	the|t3d|model|true|false|false|false|false|false|false|false|false|DT
+model	others	model|the|call|false|false|false|false|false|false|false|false|false|NN
+called	others	call|model|lissom|false|false|false|false|false|false|false|false|false|VBN
+LISSOM	others	lissom|call|_end_|false|true|false|true|false|false|false|false|false|NNP
+
+shows	others	show|_start_|how|false|false|false|false|false|false|false|false|false|NNS
+how	others	how|show|the|false|false|false|false|false|false|false|false|false|WRB
+the	others	the|how|observ|false|false|false|false|false|false|false|false|false|DT
+observed	others	observ|the|cortic|false|false|false|false|false|false|false|false|false|VBN
+cortical	others	cortic|observ|structur|false|false|false|false|false|false|false|false|false|JJ
+structures	others	structur|cortic|-lrb-|false|false|false|false|false|false|false|false|false|NNS
+-LRB-	others	-lrb-|structur|about|false|false|false|false|false|false|false|false|false|-LRB-
+about	others	about|-lrb-|10mm|false|false|false|false|false|false|false|false|false|IN
+10mm	others	10mm|about|in|false|false|false|false|false|false|false|false|false|CD
+in	others	in|10mm|diamet|false|false|false|false|false|false|false|false|false|IN
+diameter	others	diamet|in|with|false|false|false|false|false|false|false|false|false|NN
+with	others	with|diamet|_end_|false|false|false|false|false|false|false|false|false|IN
+
+36,000	others	36,000|_start_|neuron|false|false|false|false|false|false|false|false|false|CD
+neuronal	others	neuron|36,000|column|false|false|false|false|false|false|false|false|false|JJ
+columns	others	column|neuron|and|false|false|false|false|false|false|false|false|false|NNS
+and	others	and|column|256|false|false|false|false|false|false|false|false|false|CC
+256	others	256|and|million|false|false|false|false|false|false|false|false|false|CD
+million	others	million|256|connect|false|false|false|false|false|false|false|false|false|CD
+connections	others	connect|million|-rrb-|false|false|false|false|false|false|false|false|false|NNS
+-RRB-	others	-rrb-|connect|such|false|false|false|false|false|false|false|false|false|-RRB-
+such	others	such|-rrb-|as|false|false|false|false|false|false|false|false|false|JJ
+as	others	as|such|ocular|false|false|false|false|false|false|false|false|false|IN
+ocular	others	ocular|as|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+dominance	others	domin|_start_|column|false|false|false|false|false|false|false|false|false|NN
+columns	others	column|domin|orient|false|false|false|false|false|false|false|false|false|NNS
+orientation	others	orient|column|column|false|false|false|false|false|false|false|false|false|NN
+columns	others	column|orient|and|false|false|false|false|false|false|false|false|false|NNS
+and	others	and|column|pattern|false|false|false|false|false|false|false|false|false|CC
+patterned	others	pattern|and|later|false|false|false|false|false|false|false|false|false|VBD
+lateral	others	later|pattern|connect|false|false|false|false|false|false|false|false|false|JJ
+connectivity	others	connect|later|_end_|false|false|false|false|false|false|false|false|false|NN
+
+arise	others	aris|_start_|from|false|false|false|false|false|false|false|false|false|VB
+from	others	from|aris|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|from|properti|false|false|false|false|false|false|false|false|false|DT
+properties	others	properti|the|of|false|false|false|false|false|false|false|false|false|NNS
+of	others	of|properti|visual|false|false|false|false|false|false|false|false|false|IN
+visual	others	visual|of|input|false|false|false|false|false|false|false|false|false|JJ
+input	others	input|visual|the|false|false|false|false|false|false|false|false|false|NN
+The	others	the|input|result|true|false|false|false|false|false|false|false|false|DT
+resulting	others	result|the|self-organ|false|false|false|false|false|false|false|false|false|VBG
+self-organized	others	self-organ|result|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+structure	others	structur|_start_|remain|false|false|false|false|false|false|false|false|false|NN
+remains	others	remain|structur|in|false|false|false|false|false|false|false|false|false|VBZ
+in	others	in|remain|a|false|false|false|false|false|false|false|false|false|IN
+a	others	a|in|dynam|false|false|false|false|false|false|false|false|false|DT
+dynamic	others	dynam|a|and|false|false|false|false|false|false|false|false|false|JJ
+and	others	and|dynam|continuously-adapt|false|false|false|false|false|false|false|false|false|CC
+continuously-adapting	others	continuously-adapt|and|equilibrium|false|false|false|false|false|false|false|false|false|JJ
+equilibrium	others	equilibrium|continuously-adapt|with|false|false|false|false|false|false|false|false|false|NN
+with	others	with|equilibrium|_end_|false|false|false|false|false|false|false|false|false|IN
+
+the	others	the|_start_|input|false|false|false|false|false|false|false|false|false|DT
+input	others	input|the|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|input|can|false|false|false|false|false|false|false|false|false|CC
+can	others	can|and|account|false|false|false|false|false|false|false|false|false|MD
+account	others	account|can|for|false|false|false|false|false|false|false|false|false|VB
+for	others	for|account|mani|false|false|false|false|false|false|false|false|false|IN
+many	others	mani|for|of|false|false|false|false|false|false|false|false|false|JJ
+of	others	of|mani|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|of|observ|false|false|false|false|false|false|false|false|false|DT
+observed	others	observ|the|plastic|false|false|false|false|false|false|false|false|false|VBN
+plasticity	others	plastic|observ|effect|false|false|false|false|false|false|false|false|false|NN
+effects	others	effect|plastic|in|false|false|false|false|false|false|false|false|false|NNS
+in	others	in|effect|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|in|_end_|false|false|false|false|false|false|false|false|false|DT
+
+adult	others	adult|_start_|visual|false|false|false|false|false|false|false|false|false|JJ
+visual	others	visual|adult|cortex|false|false|false|false|false|false|false|false|false|JJ
+cortex	others	cortex|visual|the|false|false|false|false|false|false|false|false|false|NN
+The	others	the|cortex|model|true|false|false|false|false|false|false|false|false|DT
+model	others	model|the|also|false|false|false|false|false|false|false|false|false|NN
+also	others	also|model|suggest|false|false|false|false|false|false|false|false|false|RB
+suggests	others	suggest|also|that|false|false|false|false|false|false|false|false|false|VBZ
+that	others	that|suggest|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|that|primari|false|false|false|false|false|false|false|false|false|DT
+primary	others	primari|the|role|false|false|false|false|false|false|false|false|false|JJ
+role	others	role|primari|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|role|_end_|false|false|false|false|false|false|false|false|false|IN
+
+lateral	others	later|_start_|connect|false|false|false|false|false|false|false|false|false|JJ
+connections	others	connect|later|be|false|false|false|false|false|false|false|false|false|NNS
+is	others	be|connect|to|false|false|false|false|false|false|false|false|false|VBZ
+to	others	to|be|remov|false|false|false|false|false|false|false|false|false|TO
+remove	others	remov|to|redund|false|false|false|false|false|false|false|false|false|VB
+redundancies	others	redund|remov|in|false|false|false|false|false|false|false|false|false|NNS
+in	others	in|redund|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|in|cortic|false|false|false|false|false|false|false|false|false|DT
+cortical	others	cortic|the|activ|false|false|false|false|false|false|false|false|false|JJ
+activity	others	activ|cortic|_end_|false|false|false|false|false|false|false|false|false|NN
+
+resulting	others	result|_start_|in|false|false|false|false|false|false|false|false|false|VBG
+in	others	in|result|a|false|false|false|false|false|false|false|false|false|IN
+a	others	a|in|more|false|false|false|false|false|false|false|false|false|DT
+more	others	more|a|effici|false|false|false|false|false|false|false|false|false|RBR
+efficient	others	effici|more|represent|false|false|false|false|false|false|false|false|false|JJ
+representation	others	represent|effici|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|represent|visual|false|false|false|false|false|false|false|false|false|IN
+visual	others	visual|of|inform|false|false|false|false|false|false|false|false|false|JJ
+information	others	inform|visual|_end_|false|false|false|false|false|false|false|false|false|NN
+

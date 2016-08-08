@@ -1,0 +1,149 @@
+Type	others	type|_start_|cmu|true|false|false|false|false|false|false|false|false|NN
+cmu	others	cmu|type|c|false|false|false|false|false|false|false|false|false|NN
+cs	others	c|cmu|proj|false|false|false|false|false|false|false|false|false|NNS
+proj	others	proj|c|vision|false|false|false|false|false|false|false|false|false|NN
+vision	others	vision|proj|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Topic	others	topic|_start_|ec|true|false|false|false|false|false|false|false|false|NN
+ECE	others	ec|topic|seminar|false|true|false|true|false|false|false|false|false|NNP
+Seminar	others	seminar|ec|on|true|false|false|false|false|false|false|false|false|NNP
+on	others	on|seminar|vision|false|false|false|false|false|false|false|false|false|IN
+Vision	others	vision|on|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Dates	others	date|_start_|29-oct-87|true|false|false|false|false|false|false|false|false|NNS
+29-Oct-87	others	29-oct-87|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|3:30|true|false|false|false|false|false|false|false|false|NNP
+3:30	stime	3:30|time|pm|false|false|false|false|false|false|false|false|false|CD
+PM	stime	pm|3:30|_end_|false|true|false|true|false|false|false|false|false|NN
+
+Place	others	place|_start_|scaif|true|false|false|false|false|false|false|false|false|NN
+Scaife	location	scaif|place|hall|true|false|false|false|false|false|false|false|false|NNP
+Hall	location	hall|scaif|auditorium|true|false|false|false|false|false|false|false|false|NNP
+Auditorium	location	auditorium|hall|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+PostedBy	others	postedbi|_start_|steven|false|false|false|false|true|false|false|false|false|NNP
+Steven	others	steven|postedbi|shafer|true|false|false|false|false|true|false|false|false|NNP
+Shafer	others	shafer|steven|on|true|false|false|false|false|true|false|false|false|NNP
+on	others	on|shafer|28-oct-87|false|false|false|false|false|false|false|false|false|IN
+28-Oct-87	others	28-oct-87|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|28-oct-87|12:18|false|false|false|false|false|false|false|false|false|IN
+12:18	others	12:18|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|12:18|ius1|false|false|false|false|false|false|false|false|false|IN
+IUS1	others	ius1|from|cs.cmu.edu|false|false|false|false|false|false|false|false|false|NN
+CS.CMU.EDU	others	cs.cmu.edu|ius1|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+Laboratory	others	laboratori|_start_|for|true|false|false|false|false|false|false|false|false|NN
+for	others	for|laboratori|inform|false|false|false|false|false|false|false|false|false|IN
+Information	others	inform|for|and|true|false|false|false|false|false|false|false|false|NN
+and	others	and|inform|decis|false|false|false|false|false|false|false|false|false|CC
+Decision	others	decis|and|system|true|false|false|false|false|false|false|false|false|NNP
+Systems	others	system|decis|mit|true|false|false|false|false|false|false|false|false|NNPS
+MIT	others	mit|system|_end_|false|true|false|true|false|false|false|false|false|NNP
+
+MARKOV	others	markov|_start_|random|false|true|false|true|false|true|false|false|false|NNP
+RANDOM	others	random|markov|field|false|true|false|true|false|false|false|false|false|NNP
+FIELDS	others	field|random|and|false|true|false|true|false|false|false|false|false|NNPS
+AND	others	and|field|comput|false|true|false|true|false|false|false|false|false|CC
+COMPUTATIONAL	others	comput|and|vision|false|true|false|true|false|false|false|false|false|NNPS
+VISION	others	vision|comput|_end_|false|true|false|true|false|false|false|false|false|NN
+
+Computational	others	comput|_start_|vision|true|false|false|false|false|false|false|false|false|JJ
+vision	others	vision|comput|aim|false|false|false|false|false|false|false|false|false|NN
+aims	others	aim|vision|at|false|false|false|false|false|false|false|false|false|VBZ
+at	others	at|aim|understand|false|false|false|false|false|false|false|false|false|IN
+understanding	others	understand|at|biolog|false|false|false|false|false|false|false|false|false|VBG
+biological	others	biolog|understand|vision|false|false|false|false|false|false|false|false|false|JJ
+vision	others	vision|biolog|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|vision|_end_|false|false|false|false|false|false|false|false|false|CC
+
+at	others	at|_start_|develop|false|false|false|false|false|false|false|false|false|IN
+developing	others	develop|at|imag|false|false|false|false|false|false|false|false|false|VBG
+image	others	imag|develop|understand|false|false|false|false|false|false|false|false|false|NN
+understanding	others	understand|imag|system|false|false|false|false|false|false|false|false|false|NN
+systems	others	system|understand|that|false|false|false|false|false|false|false|false|false|NNS
+that	others	that|system|automat|false|false|false|false|false|false|false|false|false|WDT
+automatically	others	automat|that|provid|false|false|false|false|false|false|false|false|false|RB
+provide	others	provid|automat|_end_|false|false|false|false|false|false|false|false|false|VBP
+
+scene	others	scene|_start_|descript|false|false|false|false|false|false|false|false|false|NN
+descriptions	others	descript|scene|from|false|false|false|false|false|false|false|false|false|NNS
+from	others	from|descript|real|false|false|false|false|false|false|false|false|false|IN
+real	others	real|from|imag|false|false|false|false|false|false|false|false|false|JJ
+images	others	imag|real|we|false|false|false|false|false|false|false|false|false|NNS
+We	others	we|imag|discuss|true|false|false|false|false|false|false|false|false|PRP
+discuss	others	discuss|we|why|false|false|false|false|false|false|false|false|false|VBP
+why	others	why|discuss|markov|false|false|false|false|false|false|false|false|false|WRB
+Markov	others	markov|why|random|true|false|false|false|false|true|false|false|false|NNP
+Random	others	random|markov|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+Fields	others	field|_start_|might|true|false|false|false|false|false|false|false|false|NNP
+might	others	might|field|provid|false|false|false|false|false|false|false|false|false|MD
+provide	others	provid|might|a|false|false|false|false|false|false|false|false|false|VB
+a	others	a|provid|unifi|false|false|false|false|false|false|false|false|false|DT
+unified	others	unifi|a|framework|false|false|false|false|false|false|false|false|false|VBN
+framework	others	framework|unifi|for|false|false|false|false|false|false|false|false|false|NN
+for	others	for|framework|studi|false|false|false|false|false|false|false|false|false|IN
+studying	others	studi|for|problem|false|false|false|false|false|false|false|false|false|VBG
+problems	others	problem|studi|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+such	others	such|_start_|as|false|false|false|false|false|false|false|false|false|JJ
+as	others	as|such|boundari|false|false|false|false|false|false|false|false|false|IN
+boundary	others	boundari|as|detect|false|false|false|false|false|false|false|false|false|NN
+detection	others	detect|boundari|stereo|false|false|false|false|false|false|false|false|false|NN
+stereo	others	stereo|detect|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|stereo|structur|false|false|false|false|false|false|false|false|false|CC
+structure	others	structur|and|from|false|false|false|false|false|false|false|false|false|NN
+from	others	from|structur|motion|false|false|false|false|false|false|false|false|false|IN
+motion	others	motion|from|_end_|false|false|false|false|false|false|false|false|false|NN
+
+The	others	the|_start_|fact|true|false|false|false|false|false|false|false|false|DT
+fact	others	fact|the|that|false|false|false|false|false|false|false|false|false|NN
+that	others	that|fact|probabilist|false|false|false|false|false|false|false|false|false|IN
+probabilistic	others	probabilist|that|algorithm|false|false|false|false|false|false|false|false|false|JJ
+algorithms	others	algorithm|probabilist|can|false|false|false|false|false|false|false|false|false|NNS
+can	others	can|algorithm|be|false|false|false|false|false|false|false|false|false|MD
+be	others	be|can|design|false|false|false|false|false|false|false|false|false|VB
+designed	others	design|be|which|false|false|false|false|false|false|false|false|false|VBN
+which	others	which|design|_end_|false|false|false|false|false|false|false|false|false|WDT
+
+mirror	others	mirror|_start_|the|false|false|false|false|false|false|false|false|false|NN
+the	others	the|mirror|physic|false|false|false|false|false|false|false|false|false|DT
+physics	others	physic|the|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|physic|markov|false|false|false|false|false|false|false|false|false|IN
+Markov	others	markov|of|random|true|false|false|false|false|false|false|false|false|NNP
+Random	others	random|markov|field|true|false|false|false|false|false|false|false|false|NNP
+Fields	others	field|random|provid|true|false|false|false|false|false|false|false|false|NNP
+provides	others	provid|field|addit|false|false|false|false|false|false|false|false|false|VBZ
+additional	others	addit|provid|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+reason	others	reason|_start_|for|false|false|false|false|false|false|false|false|false|NN
+for	others	for|reason|studi|false|false|false|false|false|false|false|false|false|IN
+studying	others	studi|for|thi|false|false|false|false|false|false|false|false|false|VBG
+this	others	thi|studi|class|false|false|false|false|false|false|false|false|false|DT
+class	others	class|thi|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|class|model|false|false|false|false|false|false|false|false|false|IN
+models	others	model|of|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+Date	others	date|_start_|thursdai|true|false|false|false|false|false|false|false|false|NN
+Thursday	others	thursdai|date|octob|true|false|false|false|false|false|false|false|true|NNP
+October	others	octob|thursdai|29|true|false|false|false|false|false|false|false|true|NNP
+29	others	29|octob|1987|false|false|false|false|false|false|false|false|true|CD
+1987	others	1987|29|_end_|false|false|false|false|false|false|false|false|true|CD
+
+Time	others	time|_start_|3:30|true|false|false|false|false|false|false|false|false|NNP
+3:30	stime	3:30|time|pm|false|false|false|false|false|false|false|false|false|CD
+pm	stime	pm|3:30|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Place	others	place|_start_|scaif|true|false|false|false|false|false|false|false|false|NN
+Scaife	location	scaif|place|hall|true|false|false|false|false|false|false|false|false|NNP
+Hall	location	hall|scaif|auditorium|true|false|false|false|false|false|false|false|false|NNP
+Auditorium	location	auditorium|hall|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Refreshments	others	refresh|_start_|at|true|false|false|false|false|false|false|false|false|NNS
+at	others	at|refresh|3:15|false|false|false|false|false|false|false|false|false|IN
+3:15	others	3:15|at|pm|false|false|false|false|false|false|false|false|false|CD
+pm	others	pm|3:15|_end_|false|false|false|false|false|false|false|false|false|NN
+

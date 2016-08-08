@@ -1,0 +1,128 @@
+Type	others	type|_start_|cmu.andrew.org|true|false|false|false|false|false|false|false|false|NN
+cmu.andrew.org	others	cmu.andrew.org|type|epp|false|false|false|false|false|false|false|false|false|NN
+epp	others	epp|cmu.andrew.org|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Topic	others	topic|_start_|remind|true|false|false|false|false|false|false|false|false|NN
+reminder	others	remind|topic|j.|false|false|false|false|false|false|false|false|false|NN
+J.	speaker	j.|remind|morgan|false|false|false|false|false|true|false|false|false|NNP
+Morgan	speaker	morgan|j.|'s|true|false|false|false|false|true|false|false|false|NNP
+'s	others	's|morgan|talk|false|false|false|false|false|false|false|false|false|POS
+talk	others	talk|'s|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Dates	others	date|_start_|13-apr-94|true|false|false|false|false|false|false|false|false|NNS
+13-Apr-94	others	13-apr-94|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|2:00|true|false|false|false|false|false|false|false|false|NNP
+2:00	stime	2:00|time|pm|false|false|false|false|false|false|false|false|false|CD
+PM	stime	pm|2:00|_end_|false|true|false|true|false|false|false|false|false|NN
+
+PostedBy	others	postedbi|_start_|david|false|false|false|false|true|false|false|false|false|NNP
+David	others	david|postedbi|adam|true|false|false|false|false|true|false|false|false|NNP
+Adam	others	adam|david|dzombak|true|false|false|false|false|true|false|false|false|NNP
+Dzombak	others	dzombak|adam|on|true|false|false|false|false|true|false|false|false|NNP
+on	others	on|dzombak|13-apr-94|false|false|false|false|false|false|false|false|false|IN
+13-Apr-94	others	13-apr-94|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|13-apr-94|13:03|false|false|false|false|false|false|false|false|false|IN
+13:03	others	13:03|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|13:03|andrew.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+andrew.cmu.edu	others	andrew.cmu.edu|from|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+Just	others	just|_start_|a|true|false|false|false|false|false|false|false|false|RB
+a	others	a|just|remind|false|false|false|false|false|false|false|false|false|DT
+reminder	others	remind|a|that|false|false|false|false|false|false|false|false|false|NN
+that	others	that|remind|professor|false|false|false|false|false|false|false|false|false|IN
+Professor	speaker	professor|that|jame|true|false|false|false|false|true|false|false|false|NNP
+James	speaker	jame|professor|morgan|true|false|false|false|false|true|false|false|false|NNP
+Morgan	speaker	morgan|jame|from|true|false|false|false|false|true|false|false|false|NNP
+from	others	from|morgan|caltech|false|false|false|false|false|false|false|false|false|IN
+Caltech	others	caltech|from|be|true|false|false|false|false|false|false|false|false|NNP
+is	others	be|caltech|speak|false|false|false|false|false|false|false|false|false|VBZ
+speaking	others	speak|be|_end_|false|false|false|false|false|false|false|false|false|VBG
+
+today	others	todai|_start_|at|false|false|false|false|false|false|false|false|true|NN
+at	others	at|todai|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|at|univers|false|false|false|false|false|false|false|false|false|DT
+University	others	univers|the|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|univers|pittsburgh|false|false|false|false|false|false|false|false|false|IN
+Pittsburgh	others	pittsburgh|of|the|true|false|false|false|false|false|false|false|false|NNP
+The	others	the|pittsburgh|recept|true|false|false|false|false|false|false|false|false|DT
+reception	others	recept|the|for|false|false|false|false|false|false|false|false|false|NN
+for	others	for|recept|he|false|false|false|false|false|false|false|false|false|IN
+him	others	he|for|will|false|false|false|false|false|false|false|false|false|PRP
+will	others	will|he|_end_|false|false|false|false|false|false|false|false|false|MD
+
+begin	others	begin|_start_|befor|false|false|false|false|false|false|false|false|false|VB
+before	others	befor|begin|he|false|false|false|false|false|false|false|false|false|IN
+his	others	he|befor|lectur|false|false|false|false|false|false|false|false|false|PRP$
+lecture	others	lectur|he|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|lectur|2:00|false|false|false|false|false|false|false|false|false|IN
+2:00	stime	2:00|at|pm|false|false|false|false|false|false|false|false|false|CD
+pm	stime	pm|2:00|in|false|false|false|false|false|false|false|false|false|NN
+in	others	in|pm|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|in|recept|false|false|false|false|false|false|false|false|false|DT
+reception	others	recept|the|area|false|false|false|false|false|false|false|false|false|NN
+area	others	area|recept|for|false|false|false|false|false|false|false|false|false|NN
+for	others	for|area|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|for|_end_|false|false|false|false|false|false|false|false|false|DT
+
+Kresge	others	kresg|_start_|auditorium|true|false|false|false|false|false|false|false|false|NNP
+Auditorium	others	auditorium|kresg|1175|true|false|false|false|false|false|false|false|false|NNP
+1175	location	1175|auditorium|benedum|false|false|false|false|false|false|false|false|true|CD
+Benedum	location	benedum|1175|hall|true|false|false|false|false|false|false|false|false|NNP
+Hall	location	hall|benedum|he|true|false|false|false|false|false|false|false|false|NNP
+His	others	he|hall|talk|true|false|false|false|false|false|false|false|false|PRP$
+talk	others	talk|he|will|false|false|false|false|false|false|false|false|false|NN
+will	others	will|talk|begin|false|false|false|false|false|false|false|false|false|MD
+begin	others	begin|will|at|false|false|false|false|false|false|false|false|false|VB
+at	others	at|begin|about|false|false|false|false|false|false|false|false|false|IN
+about	others	about|at|_end_|false|false|false|false|false|false|false|false|false|IN
+
+3:00	stime	3:00|_start_|pm|false|false|false|false|false|false|false|false|false|CD
+pm	stime	pm|3:00|professor|false|false|false|false|false|false|false|false|false|NN
+Professor	speaker	professor|pm|morgan|true|false|false|false|false|true|false|false|false|NNP
+Morgan	speaker	morgan|professor|will|true|false|false|false|false|true|false|false|false|NNP
+will	others	will|morgan|be|false|false|false|false|false|false|false|false|false|MD
+be	others	be|will|speak|false|false|false|false|false|false|false|false|false|VB
+speaking	others	speak|be|on|false|false|false|false|false|false|false|false|false|VBG
+on	others	on|speak|oxidation-reduct|false|false|false|false|false|false|false|false|false|IN
+Oxidation-Reduction	others	oxidation-reduct|on|_end_|false|false|false|false|false|false|false|false|false|NNP
+
+Processes	others	process|_start_|at|true|false|false|false|false|false|false|false|false|NNS
+at	others	at|process|oxid|false|false|false|false|false|false|false|false|false|IN
+Oxide	others	oxid|at|surfac|true|false|false|false|false|false|false|false|false|NNP
+Surfaces	others	surfac|oxid|in|true|false|false|false|false|false|false|false|false|NNPS
+in	others	in|surfac|relat|false|false|false|false|false|false|false|false|false|IN
+Relation	others	relat|in|to|true|false|false|false|false|false|false|false|false|NNP
+to	others	to|relat|water|false|false|false|false|false|false|false|false|false|TO
+Water	others	water|to|qualiti|true|false|false|false|false|false|false|false|false|NNP
+Quality	others	qualiti|water|he|true|false|false|false|false|false|false|false|false|NNP
+He	others	he|qualiti|be|true|false|false|false|false|false|false|false|false|PRP
+is	others	be|he|the|false|false|false|false|false|false|false|false|false|VBZ
+the	others	the|be|_end_|false|false|false|false|false|false|false|false|false|DT
+
+1994	others	1994|_start_|associ|false|false|false|false|false|false|false|false|true|CD
+Association	others	associ|1994|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|associ|environment|false|false|false|false|false|false|false|false|false|IN
+Environmental	others	environment|of|engin|true|false|false|false|false|false|false|false|false|NNP
+Engineering	others	engin|environment|professor|true|false|false|false|false|false|false|false|false|NNP
+Professors	others	professor|engin|distinguish|true|false|false|false|false|false|false|false|false|NNP
+Distinguished	others	distinguish|professor|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Lecture	others	lectur|_start_|and|true|false|false|false|false|false|false|false|false|NN
+and	others	and|lectur|coauthor|false|false|false|false|false|false|false|false|false|CC
+coauthor	others	coauthor|and|-lrb-|false|false|false|false|false|false|false|false|false|NN
+-LRB-	others	-lrb-|coauthor|with|false|false|false|false|false|false|false|false|false|-LRB-
+with	others	with|-lrb-|werner|false|false|false|false|false|false|false|false|false|IN
+Werner	others	werner|with|stumm|true|false|false|false|false|true|false|false|false|NNP
+Stumm	others	stumm|werner|-rrb-|true|false|false|false|false|true|false|false|false|NNP
+-RRB-	others	-rrb-|stumm|of|false|false|false|false|false|false|false|false|false|-RRB-
+of	others	of|-rrb-|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|of|classic|false|false|false|false|false|false|false|false|false|DT
+classic	others	classic|the|book|false|false|false|false|false|false|false|false|false|JJ
+book	others	book|classic|aquat|false|false|false|false|false|false|false|false|false|NN
+Aquatic	others	aquat|book|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+Chemistry	others	chemistri|_start_|_end_|true|false|false|false|false|false|false|false|false|NNP
+

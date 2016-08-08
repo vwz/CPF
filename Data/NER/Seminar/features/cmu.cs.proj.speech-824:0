@@ -1,0 +1,61 @@
+Type	others	type|_start_|cmu|true|false|false|false|false|false|false|false|false|NN
+cmu	others	cmu|type|c|false|false|false|false|false|false|false|false|false|NN
+cs	others	c|cmu|proj|false|false|false|false|false|false|false|false|false|NNS
+proj	others	proj|c|speech|false|false|false|false|false|false|false|false|false|NN
+speech	others	speech|proj|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Topic	others	topic|_start_|correct|true|false|false|false|false|false|false|false|false|NN
+correction	others	correct|topic|on|false|false|false|false|false|false|false|false|false|NN
+on	others	on|correct|henrion|false|false|false|false|false|false|false|false|false|IN
+Henrion	speaker	henrion|on|talk|true|false|false|false|false|false|false|false|false|NN
+talk	others	talk|henrion|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Dates	others	date|_start_|19-feb-88|true|false|false|false|false|false|false|false|false|NNS
+19-Feb-88	others	19-feb-88|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|3:30|true|false|false|false|false|false|false|false|false|NNP
+3:30	stime	3:30|time|_end_|false|false|false|false|false|false|false|false|false|CD
+
+PostedBy	others	postedbi|_start_|richard|false|false|false|false|true|false|false|false|false|NNP
+Richard	others	richard|postedbi|stern|true|false|false|false|false|true|false|false|false|NNP
+Stern	others	stern|richard|on|true|false|false|false|false|true|false|false|false|NNP
+on	others	on|stern|19-feb-88|false|false|false|false|false|false|false|false|false|IN
+19-Feb-88	others	19-feb-88|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|19-feb-88|10:47|false|false|false|false|false|false|false|false|false|IN
+10:47	others	10:47|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|10:47|speech1|false|false|false|false|false|false|false|false|false|IN
+SPEECH1	others	speech1|from|cs.cmu.edu|false|false|false|false|false|false|false|false|false|NN
+CS.CMU.EDU	others	cs.cmu.edu|speech1|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+The	others	the|_start_|talk|true|false|false|false|false|false|false|false|false|DT
+talk	others	talk|the|by|false|false|false|false|false|false|false|false|false|NN
+by	others	by|talk|max|false|false|false|false|false|false|false|false|false|IN
+Max	speaker	max|by|henrion|true|false|false|false|false|true|false|false|false|NNP
+Henrion	speaker	henrion|max|have|true|false|false|false|false|true|false|false|false|NNP
+has	others	have|henrion|be|false|false|false|false|false|false|false|false|false|VBZ
+been	others	be|have|move|false|false|false|false|false|false|false|false|false|VBN
+moved	others	move|be|to|false|false|false|false|false|false|false|false|false|VBN
+to	others	to|move|porter|false|false|false|false|false|false|false|false|false|TO
+Porter	location	porter|to|hall|true|false|false|false|false|true|false|false|false|NNP
+Hall	location	hall|porter|7a|true|false|false|false|false|true|false|false|false|NNP
+7A	location	7a|hall|-lrb-|false|false|false|false|false|false|false|false|false|NN
+-LRB-	others	-lrb-|7a|which|false|false|false|false|false|false|false|false|false|-LRB-
+which	others	which|-lrb-|i|false|false|false|false|false|false|false|false|false|WDT
+I	others	i|which|be|false|false|true|true|false|false|false|false|false|PRP
+'m	others	be|i|tell|false|false|false|false|false|false|false|false|false|VBP
+told	others	tell|be|_end_|false|false|false|false|false|false|false|false|false|VBN
+
+is	others	be|_start_|the|false|false|false|false|false|false|false|false|false|VBZ
+the	others	the|be|civil|false|false|false|false|false|false|false|false|false|DT
+Civil	others	civil|the|engin|true|false|false|false|false|false|false|false|false|JJ
+Engineering	others	engin|civil|confer|true|false|false|false|false|false|false|false|false|NNP
+Conference	others	confer|engin|room|true|false|false|false|false|false|false|false|false|NNP
+Room	others	room|confer|-rrb-|true|false|false|false|false|false|false|false|false|NNP
+-RRB-	others	-rrb-|room|still|false|false|false|false|false|false|false|false|false|-RRB-
+Still	others	still|-rrb-|todai|true|false|false|false|false|false|false|false|false|RB
+today	others	todai|still|at|false|false|false|false|false|false|false|false|true|NN
+at	others	at|todai|3:30|false|false|false|false|false|false|false|false|false|IN
+3:30	stime	3:30|at|_end_|false|false|false|false|false|false|false|false|false|CD
+

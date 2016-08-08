@@ -1,0 +1,184 @@
+Type	others	type|_start_|cmu|true|false|false|false|false|false|false|false|false|NN
+cmu	others	cmu|type|c|false|false|false|false|false|false|false|false|false|NN
+cs	others	c|cmu|sc|false|false|false|false|false|false|false|false|false|NNS
+scs	others	sc|c|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+Who	others	who|_start_|ron|true|false|false|false|false|false|false|false|false|WP
+Ron	speaker	ron|who|p.|true|false|false|false|false|true|false|false|false|NNP
+P.	speaker	p.|ron|loui|false|false|false|false|false|true|false|false|false|NNP
+Loui	speaker	loui|p.|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+Deptartment	others	deptart|_start_|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|deptart|comput|false|false|false|false|false|false|false|false|false|IN
+Computer	others	comput|of|scienc|true|false|false|false|false|false|false|false|false|NNP
+Science	others	scienc|comput|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Washington	others	washington|_start_|univers|true|false|false|false|false|false|false|false|false|NNP
+University	others	univers|washington|st.|true|false|false|false|false|false|false|false|false|NNP
+St.	others	st.|univers|loui|false|false|false|false|false|false|false|false|false|NNP
+Louis	others	loui|st.|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Topic	others	topic|_start_|special|true|false|false|false|false|false|false|false|false|NN
+Special	others	special|topic|ai|true|false|false|false|false|false|false|false|false|JJ
+AI	others	ai|special|seminar|false|true|false|true|false|false|false|false|false|NNP
+Seminar	others	seminar|ai|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Dates	others	date|_start_|21-sep-93|true|false|false|false|false|false|false|false|false|NNS
+21-Sep-93	others	21-sep-93|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|3:30|true|false|false|false|false|false|false|false|false|NNP
+3:30	stime	3:30|time|pm|false|false|false|false|false|false|false|false|false|CD
+PM	stime	pm|3:30|_end_|false|true|false|true|false|false|false|false|false|NN
+
+Host	others	host|_start_|bob|true|false|false|false|false|false|false|false|false|NN
+Bob	others	bob|host|carpent|true|false|false|false|false|true|false|false|false|NNP
+Carpenter	others	carpent|bob|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+PostedBy	others	postedbi|_start_|plp|false|false|false|false|true|false|false|false|false|NNP
+plp	others	plp|postedbi|on|false|false|false|false|false|false|false|false|false|NN
+on	others	on|plp|13-sep-93|false|false|false|false|false|false|false|false|false|IN
+13-Sep-93	others	13-sep-93|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|13-sep-93|13:33|false|false|false|false|false|false|false|false|false|IN
+13:33	others	13:33|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|13:33|phyllis.adm.cs.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+PHYLLIS.ADM.CS.CMU.EDU	others	phyllis.adm.cs.cmu.edu|from|-lrb-|false|false|false|false|false|false|false|false|false|NN
+-LRB-	others	-lrb-|phyllis.adm.cs.cmu.edu|phylli|false|false|false|false|false|false|false|false|false|-LRB-
+Phyllis	others	phylli|-lrb-|pomerantz|true|false|false|false|false|true|false|false|false|NNP
+Pomerantz	others	pomerantz|phylli|-rrb-|true|false|false|false|false|true|false|false|false|NNP
+-RRB-	others	-rrb-|pomerantz|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+Speaker	others	speaker|_start_|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Deptartment	others	deptart|_start_|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|deptart|comput|false|false|false|false|false|false|false|false|false|IN
+Computer	others	comput|of|scienc|true|false|false|false|false|false|false|false|false|NNP
+Science	others	scienc|comput|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Washington	others	washington|_start_|univers|true|false|false|false|false|false|false|false|false|NNP
+University	others	univers|washington|st.|true|false|false|false|false|false|false|false|false|NNP
+St.	others	st.|univers|loui|false|false|false|false|false|false|false|false|false|NNP
+Louis	others	loui|st.|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+September	others	septemb|_start_|21|true|false|false|false|false|false|false|false|true|NNP
+21	others	21|septemb|1993|false|false|false|false|false|false|false|false|true|CD
+1993	others	1993|21|_end_|false|false|false|false|false|false|false|false|true|CD
+
+3:30	stime	3:30|_start_|p.|false|false|false|false|false|false|false|false|false|CD
+p.	stime	p.|3:30|m|false|false|false|false|false|false|false|false|false|NN
+m	stime	m|p.|_end_|false|false|false|false|false|false|false|false|false|NN
+
+ARGUMENT	others	argument|_start_|and|false|true|false|true|false|false|false|false|false|NN
+AND	others	and|argument|arbitr|false|true|false|true|false|false|false|false|false|CC
+ARBITRATION	others	arbitr|and|game|false|true|false|true|false|false|false|false|false|NN
+GAMES	others	game|arbitr|_end_|false|true|false|true|false|false|false|false|false|NNS
+
+We	others	we|_start_|begin|true|false|false|false|false|false|false|false|false|PRP
+begin	others	begin|we|with|false|false|false|false|false|false|false|false|false|VBP
+with	others	with|begin|two|false|false|false|false|false|false|false|false|false|IN
+two	others	two|with|point|false|false|false|false|false|false|false|false|false|CD
+points	others	point|two|about|false|false|false|false|false|false|false|false|false|NNS
+about	others	about|point|model|false|false|false|false|false|false|false|false|false|IN
+modeling	others	model|about|reason|false|false|false|false|false|false|false|false|false|NN
+reasoning	others	reason|model|that|false|false|false|false|false|false|false|false|false|NN
+that	others	that|reason|herbert|false|false|false|false|false|false|false|false|false|WDT
+Herbert	others	herbert|that|simon|true|false|false|false|false|true|false|false|false|NNP
+Simon	others	simon|herbert|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+and	others	and|_start_|nichola|false|false|false|false|false|false|false|false|false|CC
+Nicholas	others	nichola|and|rescher|true|false|false|false|false|true|false|false|false|NNP
+Rescher	others	rescher|nichola|make|true|false|false|false|false|true|false|false|false|NNP
+made	others	make|rescher|well|false|false|false|false|false|false|false|false|false|VBD
+well	others	well|make|but|false|false|false|false|false|false|false|false|false|RB
+but	others	but|well|which|false|false|false|false|false|false|false|false|false|CC
+which	others	which|but|be|false|false|false|false|false|false|false|false|false|WDT
+were	others	be|which|lose|false|false|false|false|false|false|false|false|false|VBD
+lost	others	lose|be|in|false|false|false|false|false|false|false|false|false|VBN
+in	others	in|lose|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|in|au|false|false|false|false|false|false|false|false|false|DT
+AI	others	au|the|shuffl|false|true|false|true|false|false|false|false|false|NN
+shuffle	others	shuffl|au|_end_|false|false|false|false|false|false|false|false|false|NN
+
+1	others	1|_start_|-rrb-|false|false|false|false|false|false|false|false|false|LS
+-RRB-	others	-rrb-|1|ration|false|false|false|false|false|false|false|false|false|-RRB-
+rational	others	ration|-rrb-|belief|false|false|false|false|false|false|false|false|false|JJ
+belief	others	belief|ration|can|false|false|false|false|false|false|false|false|false|NN
+can	others	can|belief|be|false|false|false|false|false|false|false|false|false|MD
+be	others	be|can|construct|false|false|false|false|false|false|false|false|false|VB
+constructed	others	construct|be|by|false|false|false|false|false|false|false|false|false|VBN
+by	others	by|construct|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|by|right|false|false|false|false|false|false|false|false|false|DT
+right	others	right|the|kind|false|false|false|false|false|false|false|false|false|JJ
+kind	others	kind|right|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|kind|_end_|false|false|false|false|false|false|false|false|false|IN
+
+resource-bounded	others	resource-bound|_start_|process|false|false|false|false|false|false|false|false|false|JJ
+process	others	process|resource-bound|2|false|false|false|false|false|false|false|false|false|NN
+2	others	2|process|-rrb-|false|false|false|false|false|false|false|false|false|LS
+-RRB-	others	-rrb-|2|dialect|false|false|false|false|false|false|false|false|false|-RRB-
+dialectic	others	dialect|-rrb-|be|false|false|false|false|false|false|false|false|false|NN
+is	others	be|dialect|on|false|false|false|false|false|false|false|false|false|VBZ
+one	others	on|be|of|false|false|false|false|false|false|false|false|false|CD
+of	others	of|on|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|of|right|false|false|false|false|false|false|false|false|false|DT
+right	others	right|the|kind|false|false|false|false|false|false|false|false|false|JJ
+kinds	others	kind|right|of|false|false|false|false|false|false|false|false|false|NNS
+of	others	of|kind|_end_|false|false|false|false|false|false|false|false|false|IN
+
+process	others	process|_start_|a|false|false|false|false|false|false|false|false|false|NN
+A	others	a|process|protocol|false|false|true|true|false|false|false|false|false|DT
+protocol	others	protocol|a|for|false|false|false|false|false|false|false|false|false|NN
+for	others	for|protocol|disput|false|false|false|false|false|false|false|false|false|IN
+disputation	others	disput|for|be|false|false|false|false|false|false|false|false|false|NN
+is	others	be|disput|essenti|false|false|false|false|false|false|false|false|false|VBZ
+essentially	others	essenti|be|a|false|false|false|false|false|false|false|false|false|RB
+a	others	a|essenti|model|false|false|false|false|false|false|false|false|false|DT
+model	others	model|a|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|model|a|false|false|false|false|false|false|false|false|false|IN
+an	others	a|of|_end_|false|false|false|false|false|false|false|false|false|DT
+
+automated	others	autom|_start_|reason|false|false|false|false|false|false|false|false|false|VBN
+reasoner	others	reason|autom|'s|false|false|false|false|false|false|false|false|false|NN
+'s	others	's|reason|search|false|false|false|false|false|false|false|false|false|POS
+search	others	search|'s|procedur|false|false|false|false|false|false|false|false|false|NN
+procedure	others	procedur|search|_end_|false|false|false|false|false|false|false|false|false|NN
+
+We	others	we|_start_|describ|true|false|false|false|false|false|false|false|false|PRP
+describe	others	describ|we|program|false|false|false|false|false|false|false|false|false|VBP
+programs	others	program|describ|and|false|false|false|false|false|false|false|false|false|NNS
+and	others	and|program|card|false|false|false|false|false|false|false|false|false|CC
+card	others	card|and|game|false|false|false|false|false|false|false|false|false|NN
+games	others	game|card|which|false|false|false|false|false|false|false|false|false|NNS
+which	others	which|game|model|false|false|false|false|false|false|false|false|false|WDT
+model	others	model|which|case-bas|false|false|false|false|false|false|false|false|false|VBP
+case-based	others	case-bas|model|legal|false|false|false|false|false|false|false|false|false|JJ
+legal	others	legal|case-bas|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+argument	others	argument|_start_|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|argument|reason|false|false|false|false|false|false|false|false|false|CC
+reasoned	others	reason|and|settlement|false|false|false|false|false|false|false|false|false|VBD
+settlement	others	settlement|reason|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Host	others	host|_start_|bob|true|false|false|false|false|false|false|false|false|NN
+Bob	others	bob|host|carpent|true|false|false|false|false|true|false|false|false|NNP
+Carpenter	others	carpent|bob|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+For	others	for|_start_|further|true|false|false|false|false|false|false|false|false|IN
+Further	others	further|for|detail|true|false|false|false|false|false|false|false|false|JJ
+Details	others	detail|further|and|true|false|false|false|false|false|false|false|false|NNS
+and	others	and|detail|appoint|false|false|false|false|false|false|false|false|false|CC
+appointments	others	appoint|and|contact|false|false|false|false|false|false|false|false|false|NNS
+contact	others	contact|appoint|-lrb-|false|false|false|false|false|false|false|false|false|NN
+-LRB-	others	-lrb-|contact|carp@lcl.cmu.edu|false|false|false|false|false|false|false|false|false|-LRB-
+carp@lcl.cmu.edu	others	carp@lcl.cmu.edu|-lrb-|-rrb-|false|false|false|false|false|false|false|false|false|NN
+-RRB-	others	-rrb-|carp@lcl.cmu.edu|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+phone	others	phone|_start_|x8-8043|false|false|false|false|false|false|false|false|false|NN
+x8-8043	others	x8-8043|phone|or|false|false|false|false|false|false|false|false|false|NN
+or	others	or|x8-8043|-lrb-|false|false|false|false|false|false|false|false|false|CC
+-LRB-	others	-lrb-|or|fax|false|false|false|false|false|false|false|false|false|-LRB-
+fax	others	fax|-lrb-|268-1440|false|false|false|false|false|false|false|false|false|NN
+268-1440	others	268-1440|fax|-rrb-|false|false|false|false|false|false|false|false|false|CD
+-RRB-	others	-rrb-|268-1440|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+

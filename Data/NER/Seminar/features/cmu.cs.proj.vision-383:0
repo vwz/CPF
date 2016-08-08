@@ -1,0 +1,98 @@
+Type	others	type|_start_|cmu|true|false|false|false|false|false|false|false|false|NN
+cmu	others	cmu|type|c|false|false|false|false|false|false|false|false|false|NN
+cs	others	c|cmu|proj|false|false|false|false|false|false|false|false|false|NNS
+proj	others	proj|c|vision|false|false|false|false|false|false|false|false|false|NN
+vision	others	vision|proj|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Topic	others	topic|_start_|iu|true|false|false|false|false|false|false|false|false|NN
+IUS	others	iu|topic|seminar|false|true|false|true|false|false|false|false|false|NNS
+seminar	others	seminar|iu|todai|false|false|false|false|false|false|false|false|false|NN
+today	others	todai|seminar|_end_|false|false|false|false|false|false|false|false|true|NN
+
+Dates	others	date|_start_|15-jul-85|true|false|false|false|false|false|false|false|false|NNS
+15-Jul-85	others	15-jul-85|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|3:30|true|false|false|false|false|false|false|false|false|NNP
+3:30	stime	3:30|time|pm|false|false|false|false|false|false|false|false|false|CD
+PM	stime	pm|3:30|_end_|false|true|false|true|false|false|false|false|false|NN
+
+PostedBy	others	postedbi|_start_|dave|false|false|false|false|true|false|false|false|false|NNP
+Dave	others	dave|postedbi|mckeown|true|false|false|false|false|true|false|false|false|NNP
+McKeown	others	mckeown|dave|on|false|false|false|false|false|true|false|false|false|NNP
+on	others	on|mckeown|15-jul-85|false|false|false|false|false|false|false|false|false|IN
+15-Jul-85	others	15-jul-85|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|15-jul-85|08:37|false|false|false|false|false|false|false|false|false|IN
+08:37	others	08:37|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|08:37|cmu-cs-iu|false|false|false|false|false|false|false|false|false|IN
+CMU-CS-IUS	others	cmu-cs-iu|from|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+Just	others	just|_start_|a|true|false|false|false|false|false|false|false|false|RB
+a	others	a|just|remind|false|false|false|false|false|false|false|false|false|DT
+reminder	others	remind|a|that|false|false|false|false|false|false|false|false|false|NN
+that	others	that|remind|clif|false|false|false|false|false|false|false|false|false|IN
+Clif	speaker	clif|that|mcvai|true|false|false|false|false|true|false|false|false|NNP
+McVay	speaker	mcvai|clif|will|false|false|false|false|false|true|false|false|false|NNP
+will	others	will|mcvai|talk|false|false|false|false|false|false|false|false|false|MD
+talk	others	talk|will|about|false|false|false|false|false|false|false|false|false|VB
+about	others	about|talk|stereo|false|false|false|false|false|false|false|false|false|IN
+Stereo	others	stereo|about|verif|true|false|false|false|false|false|false|false|false|NNP
+Verification	others	verif|stereo|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+in	others	in|_start_|aerial|false|false|false|false|false|false|false|false|false|IN
+Aerial	others	aerial|in|imageri|true|false|false|false|false|false|false|false|false|NNP
+Imagery	others	imageri|aerial|and|true|false|false|false|false|false|false|false|false|NNP
+and	others	and|imageri|describ|false|false|false|false|false|false|false|false|false|CC
+describe	others	describ|and|a|false|false|false|false|false|false|false|false|false|VBP
+a	others	a|describ|system|false|false|false|false|false|false|false|false|false|DT
+system	others	system|a|he|false|false|false|false|false|false|false|false|false|NN
+he	others	he|system|put|false|false|false|false|false|false|false|false|false|PRP
+put	others	put|he|togeth|false|false|false|false|false|false|false|false|false|VBD
+together	others	togeth|put|that|false|false|false|false|false|false|false|false|false|RB
+that	others	that|togeth|_end_|false|false|false|false|false|false|false|false|false|IN
+
+is	others	be|_start_|us|false|false|false|false|false|false|false|false|false|VBZ
+used	others	us|be|in|false|false|false|false|false|false|false|false|false|VBN
+in	others	in|us|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|in|spam|false|false|false|false|false|false|false|false|false|DT
+SPAM	others	spam|the|airport|false|true|false|true|false|false|false|false|false|NNP
+airport	others	airport|spam|project|false|false|false|false|false|false|false|false|false|NN
+project	others	project|airport|to|false|false|false|false|false|false|false|false|false|NN
+to	others	to|project|evalu|false|false|false|false|false|false|false|false|false|TO
+evaluate	others	evalu|to|hypothesi|false|false|false|false|false|false|false|false|false|VB
+hypotheses	others	hypothesi|evalu|by|false|false|false|false|false|false|false|false|false|NNS
+by	others	by|hypothesi|recov|false|false|false|false|false|false|false|false|false|IN
+recovering	others	recov|by|_end_|false|false|false|false|false|false|false|false|false|VBG
+
+object	others	object|_start_|height|false|false|false|false|false|false|false|false|false|NN
+heights	others	height|object|some|false|false|false|false|false|false|false|false|false|NNS
+Some	others	some|height|interest|true|false|false|false|false|false|false|false|false|DT
+interesting	others	interest|some|issu|false|false|false|false|false|false|false|false|false|JJ
+issues	others	issu|interest|in|false|false|false|false|false|false|false|false|false|NNS
+in	others	in|issu|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|in|interact|false|false|false|false|false|false|false|false|false|DT
+interaction	others	interact|the|between|false|false|false|false|false|false|false|false|false|NN
+between	others	between|interact|_end_|false|false|false|false|false|false|false|false|false|IN
+
+rule	others	rule|_start_|base|false|false|false|false|false|false|false|false|false|NN
+based	others	base|rule|system|false|false|false|false|false|false|false|false|false|VBN
+systems	others	system|base|and|false|false|false|false|false|false|false|false|false|NNS
+and	others	and|system|imag|false|false|false|false|false|false|false|false|false|CC
+image	others	imag|and|analysi|false|false|false|false|false|false|false|false|false|NN
+analysis	others	analysi|imag|compon|false|false|false|false|false|false|false|false|false|NN
+components	others	compon|analysi|will|false|false|false|false|false|false|false|false|false|NNS
+will	others	will|compon|surfac|false|false|false|false|false|false|false|false|false|MD
+surface	others	surfac|will|in|false|false|false|false|false|false|false|false|false|VB
+in	others	in|surfac|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|in|_end_|false|false|false|false|false|false|false|false|false|DT
+
+discussions	others	discuss|_start_|8220|false|false|false|false|false|false|false|false|false|NNS
+8220	location	8220|discuss|3:30|false|false|false|false|false|false|false|false|false|CD
+3:30	stime	3:30|8220|pm|false|false|false|false|false|false|false|false|false|CD
+pm	stime	pm|3:30|todai|false|false|false|false|false|false|false|false|false|NN
+Today	others	todai|pm|-lrb-|true|false|false|false|false|false|false|false|true|NN
+-LRB-	others	-lrb-|todai|mondai|false|false|false|false|false|false|false|false|false|-LRB-
+Monday	others	mondai|-lrb-|-rrb-|true|false|false|false|false|false|false|false|true|NNP
+-RRB-	others	-rrb-|mondai|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+

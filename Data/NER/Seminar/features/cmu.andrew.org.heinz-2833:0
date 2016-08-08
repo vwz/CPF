@@ -1,0 +1,323 @@
+Type	others	type|_start_|cmu.andrew.org|true|false|false|false|false|false|false|false|false|NN
+cmu.andrew.org	others	cmu.andrew.org|type|heinz|false|false|false|false|false|false|false|false|false|NN
+heinz	others	heinz|cmu.andrew.org|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Topic	others	topic|_start_|epp|true|false|false|false|false|false|false|false|false|NN
+EPP	others	epp|topic|grad|false|true|false|true|false|false|false|false|false|NN
+Grad	others	grad|epp|seminar|true|false|false|false|false|false|false|false|false|NN
+Seminar	others	seminar|grad|_end_|true|false|false|false|false|false|false|false|false|NN
+
+Dates	others	date|_start_|23-oct-92|true|false|false|false|false|false|false|false|false|NNS
+23-Oct-92	others	23-oct-92|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|4:30|true|false|false|false|false|false|false|false|false|NNP
+4:30	stime	4:30|time|pm|false|false|false|false|false|false|false|false|false|CD
+PM	stime	pm|4:30|_end_|false|true|false|true|false|false|false|false|false|NN
+
+PostedBy	others	postedbi|_start_|patricia|false|false|false|false|true|false|false|false|false|NNP
+Patricia	others	patricia|postedbi|taylor|true|false|false|false|false|true|false|false|false|NNP
+Taylor	others	taylor|patricia|curri|true|false|false|false|false|true|false|false|false|NNP
+Currie	others	curri|taylor|on|true|false|false|false|false|true|false|false|false|NNP
+on	others	on|curri|20-oct-92|false|false|false|false|false|false|false|false|false|IN
+20-Oct-92	others	20-oct-92|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|20-oct-92|17:07|false|false|false|false|false|false|false|false|false|IN
+17:07	others	17:07|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|17:07|andrew.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+andrew.cmu.edu	others	andrew.cmu.edu|from|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+STOCHASTIC	others	stochast|_start_|model|false|true|false|true|false|false|false|false|false|JJ
+MODELING	others	model|stochast|and|false|true|false|true|false|false|false|false|false|NN
+AND	others	and|model|optim|false|true|false|true|false|false|false|false|false|CC
+OPTIMIZATION	others	optim|and|of|false|true|false|true|false|false|false|false|false|NNS
+OF	others	of|optim|chemic|false|true|false|true|false|false|false|false|false|IN
+CHEMICAL	others	chemic|of|process|false|true|false|true|false|false|false|false|false|NNP
+PROCESSES	others	process|chemic|_end_|false|true|false|true|false|false|false|false|false|NNS
+
+Thursday	others	thursdai|_start_|octob|true|false|false|false|false|false|false|false|true|NNP
+October	others	octob|thursdai|23|true|false|false|false|false|false|false|false|true|NNP
+23	others	23|octob|1992|false|false|false|false|false|false|false|false|true|CD
+1992	others	1992|23|_end_|false|false|false|false|false|false|false|false|true|CD
+
+4:30	stime	4:30|_start_|p.|false|false|false|false|false|false|false|false|false|CD
+p.	stime	p.|4:30|m|false|false|false|false|false|false|false|false|false|NN
+m	stime	m|p.|_end_|false|false|false|false|false|false|false|false|false|NN
+
+129	location	129|_start_|baker|false|false|false|false|false|false|false|false|false|CD
+Baker	location	baker|129|hall|true|false|false|false|false|true|false|false|false|NNP
+hall	location	hall|baker|_end_|false|false|false|false|false|false|false|false|false|NN
+
+EPP	others	epp|_start_|confer|false|true|false|true|false|false|false|false|false|NN
+Conference	others	confer|epp|room|true|false|false|false|false|false|false|false|false|NN
+Room	others	room|confer|_end_|true|false|false|false|false|false|false|false|false|NN
+
+The	others	the|_start_|high|true|false|false|false|false|false|false|false|false|DT
+high	others	high|the|perform|false|false|false|false|false|false|false|false|false|JJ
+performance	others	perform|high|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|perform|todai|false|false|false|false|false|false|false|false|false|IN
+today	others	todai|of|'s|false|false|false|false|false|false|false|false|true|NN
+'s	others	's|todai|comput|false|false|false|false|false|false|false|false|false|POS
+computers	others	comput|'s|have|false|false|false|false|false|false|false|false|false|NNS
+has	others	have|comput|facilit|false|false|false|false|false|false|false|false|false|VBZ
+facilitated	others	facilit|have|the|false|false|false|false|false|false|false|false|false|VBN
+the	others	the|facilit|_end_|false|false|false|false|false|false|false|false|false|DT
+
+development	others	develop|_start_|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|develop|us|false|false|false|false|false|false|false|false|false|CC
+use	others	us|and|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|us|softwar|false|false|false|false|false|false|false|false|false|IN
+software	others	softwar|of|to|false|false|false|false|false|false|false|false|false|NN
+to	others	to|softwar|simul|false|false|false|false|false|false|false|false|false|TO
+simulate	others	simul|to|realist|false|false|false|false|false|false|false|false|false|VB
+realistic	others	realist|simul|complex|false|false|false|false|false|false|false|false|false|JJ
+complex	others	complex|realist|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+chemical	others	chemic|_start_|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|chemic|industri|false|false|false|false|false|false|false|false|false|CC
+industrial	others	industri|and|process|false|false|false|false|false|false|false|false|false|JJ
+processes	others	process|industri|simul|false|false|false|false|false|false|false|false|false|NNS
+Simulation	others	simul|process|of|true|false|false|false|false|false|false|false|false|NN
+of	others	of|simul|steadi|false|false|false|false|false|false|false|false|false|IN
+steady	others	steadi|of|state|false|false|false|false|false|false|false|false|false|JJ
+state	others	state|steadi|_end_|false|false|false|false|false|false|false|false|false|NN
+
+processes	others	process|_start_|be|false|false|false|false|false|false|false|false|false|NNS
+are	others	be|process|well|false|false|false|false|false|false|false|false|false|VBP
+well	others	well|be|serv|false|false|false|false|false|false|false|false|false|RB
+served	others	serv|well|by|false|false|false|false|false|false|false|false|false|VBN
+by	others	by|serv|packag|false|false|false|false|false|false|false|false|false|IN
+packages	others	packag|by|such|false|false|false|false|false|false|false|false|false|NNS
+such	others	such|packag|as|false|false|false|false|false|false|false|false|false|JJ
+as	others	as|such|process|false|false|false|false|false|false|false|false|false|IN
+PROCESS	others	process|as|flowtran|false|true|false|true|false|false|false|false|false|NN
+FLOWTRAN	others	flowtran|process|_end_|false|true|false|true|false|false|false|false|false|NN
+
+CHEMSHARE	others	chemshar|_start_|and|false|true|false|true|false|false|false|false|false|NNP
+and	others	and|chemshar|aspen|false|false|false|false|false|false|false|false|false|CC
+ASPEN	others	aspen|and|in|false|true|false|true|false|false|false|false|false|NNP
+In	others	in|aspen|addit|true|false|false|false|false|false|false|false|false|IN
+addition	others	addit|in|sever|false|false|false|false|false|false|false|false|false|NN
+several	others	sever|addit|compani|false|false|false|false|false|false|false|false|false|JJ
+companies	others	compani|sever|have|false|false|false|false|false|false|false|false|false|NNS
+have	others	have|compani|in-hous|false|false|false|false|false|false|false|false|false|VBP
+in-house	others	in-hous|have|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+simulation	others	simul|_start_|tool|false|false|false|false|false|false|false|false|false|NN
+tools	others	tool|simul|cater|false|false|false|false|false|false|false|false|false|NNS
+catering	others	cater|tool|to|false|false|false|false|false|false|false|false|false|VBG
+to	others	to|cater|thei|false|false|false|false|false|false|false|false|false|TO
+their	others	thei|to|specific\/proprietari|false|false|false|false|false|false|false|false|false|PRP$
+specific\/proprietary	others	specific\/proprietari|thei|need|false|false|false|false|false|false|false|false|false|JJ
+needs	others	need|specific\/proprietari|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+However	others	howev|_start_|while|true|false|false|false|false|false|false|false|false|RB
+while	others	while|howev|comput|false|false|false|false|false|false|false|false|false|IN
+computer	others	comput|while|simul|false|false|false|false|false|false|false|false|false|NN
+simulation	others	simul|comput|model|false|false|false|false|false|false|false|false|false|NN
+models	others	model|simul|have|false|false|false|false|false|false|false|false|false|NNS
+have	others	have|model|grow|false|false|false|false|false|false|false|false|false|VBP
+grown	others	grow|have|in|false|false|false|false|false|false|false|false|false|VBN
+in	others	in|grow|_end_|false|false|false|false|false|false|false|false|false|IN
+
+sophistication	others	sophist|_start_|certain|false|false|false|false|false|false|false|false|false|NN
+certain	others	certain|sophist|capabl|false|false|false|false|false|false|false|false|false|JJ
+capabilities	others	capabl|certain|import|false|false|false|false|false|false|false|false|false|NNS
+important	others	import|capabl|to|false|false|false|false|false|false|false|false|false|JJ
+to	others	to|import|research|false|false|false|false|false|false|false|false|false|TO
+research	others	research|to|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|research|_end_|false|false|false|false|false|false|false|false|false|CC
+
+development	others	develop|_start_|plan|false|false|false|false|false|false|false|false|false|NN
+planning	others	plan|develop|system|false|false|false|false|false|false|false|false|false|NN
+systems	others	system|plan|design|false|false|false|false|false|false|false|false|false|NNS
+design	others	design|system|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|design|econom|false|false|false|false|false|false|false|false|false|CC
+economic	others	econom|and|analysi|false|false|false|false|false|false|false|false|false|JJ
+analyses	others	analysi|econom|still|false|false|false|false|false|false|false|false|false|NNS
+still	others	still|analysi|_end_|false|false|false|false|false|false|false|false|false|RB
+
+remain	others	remain|_start_|in|false|false|false|false|false|false|false|false|false|VB
+in	others	in|remain|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|in|stage|false|false|false|false|false|false|false|false|false|DT
+stages	others	stage|the|of|false|false|false|false|false|false|false|false|false|NNS
+of	others	of|stage|infanc|false|false|false|false|false|false|false|false|false|IN
+infancy	others	infanc|of|for|false|false|false|false|false|false|false|false|false|NN
+For	others	for|infanc|exampl|true|false|false|false|false|false|false|false|false|IN
+example	others	exampl|for|the|false|false|false|false|false|false|false|false|false|NN
+the	others	the|exampl|avail|false|false|false|false|false|false|false|false|false|DT
+available	others	avail|the|simul|false|false|false|false|false|false|false|false|false|JJ
+simulation	others	simul|avail|_end_|false|false|false|false|false|false|false|false|false|NN
+
+models	others	model|_start_|treat|false|false|false|false|false|false|false|false|false|NNS
+treat	others	treat|model|the|false|false|false|false|false|false|false|false|false|VBP
+the	others	the|treat|design|false|false|false|false|false|false|false|false|false|DT
+design	others	design|the|variabl|false|false|false|false|false|false|false|false|false|NN
+variables	others	variabl|design|in|false|false|false|false|false|false|false|false|false|NNS
+in	others	in|variabl|process|false|false|false|false|false|false|false|false|false|IN
+process	others	process|in|calcul|false|false|false|false|false|false|false|false|false|NN
+calculations	others	calcul|process|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+deterministically	others	determinist|_start_|such|false|false|false|false|false|false|false|false|false|RB
+Such	others	such|determinist|a|true|false|false|false|false|false|false|false|false|JJ
+an	others	a|such|approach|false|false|false|false|false|false|false|false|false|DT
+approach	others	approach|a|do|false|false|false|false|false|false|false|false|false|NN
+does	others	do|approach|not|false|false|false|false|false|false|false|false|false|VBZ
+not	others	not|do|take|false|false|false|false|false|false|false|false|false|RB
+take	others	take|not|into|false|false|false|false|false|false|false|false|false|VB
+into	others	into|take|consider|false|false|false|false|false|false|false|false|false|IN
+consideration	others	consider|into|_end_|false|false|false|false|false|false|false|false|false|NN
+
+the	others	the|_start_|implicit|false|false|false|false|false|false|false|false|false|DT
+implicit	others	implicit|the|and|false|false|false|false|false|false|false|false|false|JJ
+and	others	and|implicit|explicit|false|false|false|false|false|false|false|false|false|CC
+explicit	others	explicit|and|uncertainti|false|false|false|false|false|false|false|false|false|JJ
+uncertainties	others	uncertainti|explicit|typic|false|false|false|false|false|false|false|false|false|NNS
+typically	others	typic|uncertainti|associ|false|false|false|false|false|false|false|false|false|RB
+associated	others	associ|typic|with|false|false|false|false|false|false|false|false|false|VBN
+with	others	with|associ|_end_|false|false|false|false|false|false|false|false|false|IN
+
+process	others	process|_start_|flowsheet|false|false|false|false|false|false|false|false|false|NN
+flowsheets	others	flowsheet|process|especi|false|false|false|false|false|false|false|false|false|NNS
+especially	others	especi|flowsheet|dure|false|false|false|false|false|false|false|false|false|RB
+during	others	dure|especi|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|dure|earli|false|false|false|false|false|false|false|false|false|DT
+early	others	earli|the|stage|false|false|false|false|false|false|false|false|false|JJ
+stages	others	stage|earli|of|false|false|false|false|false|false|false|false|false|NNS
+of	others	of|stage|process|false|false|false|false|false|false|false|false|false|IN
+process	others	process|of|_end_|false|false|false|false|false|false|false|false|false|NN
+
+development	others	develop|_start_|the|false|false|false|false|false|false|false|false|false|NN
+The	others	the|develop|capabl|true|false|false|false|false|false|false|false|false|DT
+capability	others	capabl|the|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|capabl|analyzing\/simul|false|false|false|false|false|false|false|false|false|IN
+analyzing\/simulating	others	analyzing\/simul|of|process|false|false|false|false|false|false|false|false|false|VBG
+processes	others	process|analyzing\/simul|in|false|false|false|false|false|false|false|false|false|NNS
+in	others	in|process|a|false|false|false|false|false|false|false|false|false|IN
+a	others	a|in|_end_|false|false|false|false|false|false|false|false|false|DT
+
+non-deterministic	others	non-determinist|_start_|framework|false|false|false|false|false|false|false|false|false|JJ
+framework	others	framework|non-determinist|will|false|false|false|false|false|false|false|false|false|NN
+will	others	will|framework|therefor|false|false|false|false|false|false|false|false|false|MD
+therefore	others	therefor|will|be|false|false|false|false|false|false|false|false|false|RB
+be	others	be|therefor|of|false|false|false|false|false|false|false|false|false|VB
+of	others	of|be|immens|false|false|false|false|false|false|false|false|false|IN
+immense	others	immens|of|help|false|false|false|false|false|false|false|false|false|JJ
+help	others	help|immens|to|false|false|false|false|false|false|false|false|false|NN
+to	others	to|help|the|false|false|false|false|false|false|false|false|false|TO
+the	others	the|to|_end_|false|false|false|false|false|false|false|false|false|DT
+
+practising	others	practis|_start_|engin|false|false|false|false|false|false|false|false|false|VBG
+engineer	others	engin|practis|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|engin|the|false|false|false|false|false|false|false|false|false|CC
+the	others	the|and|polici|false|false|false|false|false|false|false|false|false|DT
+policy	others	polici|the|planner|false|false|false|false|false|false|false|false|false|NN
+planner	others	planner|polici|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Our	others	we|_start_|research|true|false|false|false|false|false|false|false|false|PRP$
+research	others	research|we|in|false|false|false|false|false|false|false|false|false|NN
+in	others	in|research|thi|false|false|false|false|false|false|false|false|false|IN
+this	others	thi|in|direct|false|false|false|false|false|false|false|false|false|DT
+direction	others	direct|thi|have|false|false|false|false|false|false|false|false|false|NN
+has	others	have|direct|lead|false|false|false|false|false|false|false|false|false|VBZ
+led	others	lead|have|to|false|false|false|false|false|false|false|false|false|VBN
+to	others	to|lead|the|false|false|false|false|false|false|false|false|false|TO
+the	others	the|to|develop|false|false|false|false|false|false|false|false|false|DT
+development	others	develop|the|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|develop|a|false|false|false|false|false|false|false|false|false|IN
+a	others	a|of|-lcb-|false|false|false|false|false|false|false|false|false|DT
+-LCB-	others	-lcb-|a|sl|false|false|false|false|false|false|false|false|false|-LRB-
+sl	others	sl|-lcb-|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Stochastic	others	stochast|_start_|model|true|false|false|false|false|false|false|false|false|NNP
+Modeling	others	model|stochast|-rcb-|true|false|false|false|false|false|false|false|false|NNP
+-RCB-	others	-rcb-|model|capabl|false|false|false|false|false|false|false|false|false|-RRB-
+capability	others	capabl|-rcb-|which|false|false|false|false|false|false|false|false|false|NN
+which	others	which|capabl|be|false|false|false|false|false|false|false|false|false|WDT
+is	others	be|which|implement|false|false|false|false|false|false|false|false|false|VBZ
+implemented	others	implement|be|in|false|false|false|false|false|false|false|false|false|VBN
+in	others	in|implement|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|in|aspen|false|false|false|false|false|false|false|false|false|DT
+ASPEN	others	aspen|the|_end_|false|true|false|true|false|false|false|false|false|NNP
+
+process	others	process|_start_|simul|false|false|false|false|false|false|false|false|false|NN
+simulator	others	simul|process|thi|false|false|false|false|false|false|false|false|false|NN
+This	others	thi|simul|provid|true|false|false|false|false|false|false|false|false|DT
+provides	others	provid|thi|a|false|false|false|false|false|false|false|false|false|VBZ
+a	others	a|provid|us|false|false|false|false|false|false|false|false|false|DT
+useful	others	us|a|tool|false|false|false|false|false|false|false|false|false|JJ
+tool	others	tool|us|for|false|false|false|false|false|false|false|false|false|NN
+for	others	for|tool|design|false|false|false|false|false|false|false|false|false|IN
+design	others	design|for|analysi|false|false|false|false|false|false|false|false|false|NN
+analysis	others	analysi|design|_end_|false|false|false|false|false|false|false|false|false|NN
+
+and	others	and|_start_|decision-mak|false|false|false|false|false|false|false|false|false|CC
+decision-making	others	decision-mak|and|in|false|false|false|false|false|false|false|false|false|NN
+in	others	in|decision-mak|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|in|face|false|false|false|false|false|false|false|false|false|DT
+face	others	face|the|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|face|uncertainti|false|false|false|false|false|false|false|false|false|IN
+uncertainties	others	uncertainti|of|thi|false|false|false|false|false|false|false|false|false|NNS
+This	others	thi|uncertainti|capabl|true|false|false|false|false|false|false|false|false|DT
+capability	others	capabl|thi|_end_|false|false|false|false|false|false|false|false|false|NN
+
+coupled	others	coupl|_start_|with|false|false|false|false|false|false|false|false|false|VBN
+with	others	with|coupl|a|false|false|false|false|false|false|false|false|false|IN
+a	others	a|with|newli|false|false|false|false|false|false|false|false|false|DT
+newly	others	newli|a|develop|false|false|false|false|false|false|false|false|false|RB
+developed	others	develop|newli|optim|false|false|false|false|false|false|false|false|false|VBN
+optimizer	others	optim|develop|for|false|false|false|false|false|false|false|false|false|NN
+for	others	for|optim|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|for|aspen|false|false|false|false|false|false|false|false|false|DT
+ASPEN	others	aspen|the|simul|false|true|false|true|false|false|false|false|false|NNP
+simulator	others	simul|aspen|_end_|false|false|false|false|false|false|false|false|false|NN
+
+further	others	further|_start_|allow|false|false|false|false|false|false|false|false|false|RB
+allows	others	allow|further|for|false|false|false|false|false|false|false|false|false|VBZ
+for	others	for|allow|a|false|false|false|false|false|false|false|false|false|IN
+a	others	a|for|-lcb-|false|false|false|false|false|false|false|false|false|DT
+-LCB-	others	-lcb-|a|sl|false|false|false|false|false|false|false|false|false|-LRB-
+sl	others	sl|-lcb-|stochast|false|false|false|false|false|false|false|false|false|NN
+Stochastic	others	stochast|sl|optim|true|false|false|false|false|false|false|false|false|NNP
+Optimization	others	optim|stochast|-rcb-|true|false|false|false|false|false|false|false|false|NNP
+-RCB-	others	-rcb-|optim|wherein|false|false|false|false|false|false|false|false|false|-RRB-
+wherein	others	wherein|-rcb-|the|false|false|false|false|false|false|false|false|false|WRB
+the	others	the|wherein|_end_|false|false|false|false|false|false|false|false|false|DT
+
+expected	others	expect|_start_|or|false|false|false|false|false|false|false|false|false|VBN
+or	others	or|expect|the|false|false|false|false|false|false|false|false|false|CC
+the	others	the|or|most|false|false|false|false|false|false|false|false|false|DT
+most	others	most|the|like|false|false|false|false|false|false|false|false|false|RBS
+likely	others	like|most|valu|false|false|false|false|false|false|false|false|false|JJ
+value	others	valu|like|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|valu|a|false|false|false|false|false|false|false|false|false|IN
+an	others	a|of|uncertain|false|false|false|false|false|false|false|false|false|DT
+uncertain	others	uncertain|a|object|false|false|false|false|false|false|false|false|false|JJ
+objective	others	object|uncertain|function|false|false|false|false|false|false|false|false|false|JJ
+function	others	function|object|_end_|false|false|false|false|false|false|false|false|false|NN
+
+is	others	be|_start_|optim|false|false|false|false|false|false|false|false|false|VBZ
+optimized	others	optim|be|the|false|false|false|false|false|false|false|false|false|VBN
+The	others	the|optim|stochast|true|false|false|false|false|false|false|false|false|DT
+Stochastic	others	stochast|the|model|true|false|false|false|false|false|false|false|false|NNP
+Modeling	others	model|stochast|and|true|false|false|false|false|false|false|false|false|NNP
+and	others	and|model|the|false|false|false|false|false|false|false|false|false|CC
+the	others	the|and|stochast|false|false|false|false|false|false|false|false|false|DT
+Stochastic	others	stochast|the|optim|true|false|false|false|false|false|false|false|false|NNP
+Optimization	others	optim|stochast|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+capabilities	others	capabl|_start_|will|false|false|false|false|false|false|false|false|false|NNS
+will	others	will|capabl|be|false|false|false|false|false|false|false|false|false|MD
+be	others	be|will|present|false|false|false|false|false|false|false|false|false|VB
+presented	others	present|be|and|false|false|false|false|false|false|false|false|false|VBN
+and	others	and|present|discuss|false|false|false|false|false|false|false|false|false|CC
+discussed	others	discuss|and|in|false|false|false|false|false|false|false|false|false|VBN
+in	others	in|discuss|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|in|context|false|false|false|false|false|false|false|false|false|DT
+context	others	context|the|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|context|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|of|_end_|false|false|false|false|false|false|false|false|false|DT
+
+ASPEN	others	aspen|_start_|simul|false|true|false|true|false|false|false|false|false|NNP
+simulator	others	simul|aspen|_end_|false|false|false|false|false|false|false|false|false|NN
+

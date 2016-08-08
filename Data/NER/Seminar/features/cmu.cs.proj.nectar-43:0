@@ -1,0 +1,151 @@
+Type	others	type|_start_|cmu|true|false|false|false|false|false|false|false|false|NN
+cmu	others	cmu|type|c|false|false|false|false|false|false|false|false|false|NN
+cs	others	c|cmu|proj|false|false|false|false|false|false|false|false|false|NNS
+proj	others	proj|c|nectar|false|false|false|false|false|false|false|false|false|NN
+nectar	others	nectar|proj|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Who	others	who|_start_|norman|true|false|false|false|false|false|false|false|false|WP
+Norman	speaker	norman|who|christ|true|false|false|false|false|true|false|false|false|NNP
+Christ	speaker	christ|norman|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+Columbia	others	columbia|_start_|univers|true|false|false|false|false|false|false|false|false|NNP
+University	others	univers|columbia|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Topic	others	topic|_start_|from|true|false|false|false|false|false|false|false|false|NN
+From	others	from|topic|gigaflop|true|false|false|false|false|false|false|false|false|IN
+Gigaflops	others	gigaflop|from|to|true|false|false|false|false|false|false|false|false|NNP
+to	others	to|gigaflop|teraflop|false|false|false|false|false|false|false|false|false|TO
+Teraflops	others	teraflop|to|parallel|true|false|false|false|false|false|false|false|false|NNP
+Parallel	others	parallel|teraflop|supercomput|true|false|false|false|false|false|false|false|false|JJ
+Supercomputers	others	supercomput|parallel|_end_|true|false|false|false|false|false|false|false|false|NNS
+
+for	others	for|_start_|lattic|false|false|false|false|false|false|false|false|false|IN
+Lattice	others	lattic|for|qcd|true|false|false|false|false|false|false|false|false|NNP
+QCD	others	qcd|lattic|_end_|false|true|false|true|false|false|false|false|false|NNP
+
+Dates	others	date|_start_|2-feb-90|true|false|false|false|false|false|false|false|false|NNS
+2-Feb-90	others	2-feb-90|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|4:00|true|false|false|false|false|false|false|false|false|NNP
+4:00	stime	4:00|time|pm|false|false|false|false|false|false|false|false|false|CD
+PM	stime	pm|4:00|_end_|false|true|false|true|false|false|false|false|false|NN
+
+Place	others	place|_start_|wean|true|false|false|false|false|false|false|false|false|NN
+Wean	location	wean|place|hall|true|false|false|false|false|false|false|false|false|VB
+Hall	location	hall|wean|5409|true|false|false|false|false|false|false|false|false|NNP
+5409	location	5409|hall|_end_|false|false|false|false|false|false|false|false|false|CD
+
+PostedBy	others	postedbi|_start_|barbara|false|false|false|false|true|false|false|false|false|NNP
+Barbara	others	barbara|postedbi|grandillo|true|false|false|false|false|true|false|false|false|NNP
+Grandillo	others	grandillo|barbara|on|true|false|false|false|false|false|false|false|false|NN
+on	others	on|grandillo|29-jan-90|false|false|false|false|false|false|false|false|false|IN
+29-Jan-90	others	29-jan-90|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|29-jan-90|15:48|false|false|false|false|false|false|false|false|false|IN
+15:48	others	15:48|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|15:48|n.sp.cs.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+N.SP.CS.CMU.EDU	others	n.sp.cs.cmu.edu|from|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+Speaker	others	speaker|_start_|norman|true|false|false|false|false|false|false|false|false|NNP
+Norman	speaker	norman|speaker|christ|true|false|false|false|false|true|false|false|false|NNP
+Christ	speaker	christ|norman|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+Columbia	others	columbia|_start_|univers|true|false|false|false|false|false|false|false|false|NNP
+University	others	univers|columbia|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Topic	others	topic|_start_|from|true|false|false|false|false|false|false|false|false|NN
+From	others	from|topic|gigaflop|true|false|false|false|false|false|false|false|false|IN
+Gigaflops	others	gigaflop|from|to|true|false|false|false|false|false|false|false|false|NNP
+to	others	to|gigaflop|teraflop|false|false|false|false|false|false|false|false|false|TO
+Teraflops	others	teraflop|to|parallel|true|false|false|false|false|false|false|false|false|NNP
+Parallel	others	parallel|teraflop|supercomput|true|false|false|false|false|false|false|false|false|JJ
+Supercomputers	others	supercomput|parallel|_end_|true|false|false|false|false|false|false|false|false|NNS
+
+for	others	for|_start_|lattic|false|false|false|false|false|false|false|false|false|IN
+Lattice	others	lattic|for|qcd|true|false|false|false|false|false|false|false|false|NNP
+QCD	others	qcd|lattic|_end_|false|true|false|true|false|false|false|false|false|NNP
+
+Date	others	date|_start_|fridai|true|false|false|false|false|false|false|false|false|NN
+Friday	others	fridai|date|februari|true|false|false|false|false|false|false|false|true|NNP
+February	others	februari|fridai|2|true|false|false|false|false|false|false|false|true|NNP
+2	others	2|februari|1990|false|false|false|false|false|false|false|false|true|CD
+1990	others	1990|2|_end_|false|false|false|false|false|false|false|false|true|CD
+
+Time	others	time|_start_|4:00|true|false|false|false|false|false|false|false|false|NNP
+4:00	stime	4:00|time|pm|false|false|false|false|false|false|false|false|false|CD
+pm	stime	pm|4:00|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Place	others	place|_start_|wean|true|false|false|false|false|false|false|false|false|NN
+Wean	location	wean|place|hall|true|false|false|false|false|false|false|false|false|VB
+Hall	location	hall|wean|5409|true|false|false|false|false|false|false|false|false|NNP
+5409	location	5409|hall|_end_|false|false|false|false|false|false|false|false|false|CD
+
+The	others	the|_start_|current|true|false|false|false|false|false|false|false|false|DT
+current	others	current|the|state|false|false|false|false|false|false|false|false|true|JJ
+state	others	state|current|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|state|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|of|five|false|false|false|false|false|false|false|false|false|DT
+five	others	five|the|project|false|false|false|false|false|false|false|false|false|CD
+projects	others	project|five|build|false|false|false|false|false|false|false|false|false|NNS
+building	others	build|project|dedic|false|false|false|false|false|false|false|false|false|VBG
+dedicated	others	dedic|build|lattic|false|false|false|false|false|false|false|false|false|JJ
+lattice	others	lattic|dedic|qcd|false|false|false|false|false|false|false|false|false|NN
+QCD	others	qcd|lattic|_end_|false|true|false|true|false|false|false|false|false|NN
+
+computers	others	comput|_start_|will|false|false|false|false|false|false|false|false|false|NNS
+will	others	will|comput|be|false|false|false|false|false|false|false|false|false|MD
+be	others	be|will|describ|false|false|false|false|false|false|false|false|false|VB
+described	others	describ|be|the|false|false|false|false|false|false|false|false|false|VBN
+The	others	the|describ|columbia|true|false|false|false|false|false|false|false|false|DT
+Columbia	others	columbia|the|project|true|false|false|false|false|false|false|false|false|NNP
+project	others	project|columbia|will|false|false|false|false|false|false|false|false|false|NN
+will	others	will|project|be|false|false|false|false|false|false|false|false|false|MD
+be	others	be|will|discuss|false|false|false|false|false|false|false|false|false|VB
+discussed	others	discuss|be|_end_|false|false|false|false|false|false|false|false|false|VBN
+
+in	others	in|_start_|some|false|false|false|false|false|false|false|false|false|IN
+some	others	some|in|detail|false|false|false|false|false|false|false|false|false|DT
+detail	others	detail|some|includ|false|false|false|false|false|false|false|false|false|NN
+including	others	includ|detail|the|false|false|false|false|false|false|false|false|false|VBG
+the	others	the|includ|characterist|false|false|false|false|false|false|false|false|false|DT
+characteristics	others	characterist|the|of|false|false|false|false|false|false|false|false|false|NNS
+of	others	of|characterist|we|false|false|false|false|false|false|false|false|false|IN
+our	others	we|of|work|false|false|false|false|false|false|false|false|false|PRP$
+working	others	work|we|16|false|false|false|false|false|false|false|false|false|NN
+16	others	16|work|gflop|false|false|false|false|false|false|false|false|false|CD
+Gflop	others	gflop|16|_end_|true|false|false|false|false|false|false|false|false|NN
+
+256-node	others	256-node|_start_|machin|false|false|false|false|false|false|false|false|false|JJ
+machine	others	machin|256-node|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|machin|the|false|false|false|false|false|false|false|false|false|CC
+the	others	the|and|natur|false|false|false|false|false|false|false|false|false|DT
+nature	others	natur|the|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|natur|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|of|physic|false|false|false|false|false|false|false|false|false|DT
+physics	others	physic|the|result|false|false|false|false|false|false|false|false|false|NN
+results	others	result|physic|obtain|false|false|false|false|false|false|false|false|false|VBZ
+obtained	others	obtain|result|so|false|false|false|false|false|false|false|false|false|VBN
+so	others	so|obtain|far|false|false|false|false|false|false|false|false|false|RB
+far	others	far|so|_end_|false|false|false|false|false|false|false|false|false|RB
+
+Finally	others	final|_start_|possibl|true|false|false|false|false|false|false|false|false|RB
+possible	others	possibl|final|architectur|false|false|false|false|false|false|false|false|false|JJ
+architectures	others	architectur|possibl|for|false|false|false|false|false|false|false|false|false|NNS
+for	others	for|architectur|a|false|false|false|false|false|false|false|false|false|IN
+a	others	a|for|1|false|false|false|false|false|false|false|false|false|DT
+1	others	1|a|teraflop|false|false|false|false|false|false|false|false|false|CD
+Teraflop	others	teraflop|1|qcd|true|false|false|false|false|false|false|false|false|NNP
+QCD	others	qcd|teraflop|machin|false|true|false|true|false|false|false|false|false|NNP
+machine	others	machin|qcd|be|false|false|false|false|false|false|false|false|false|NN
+being	others	be|machin|plan|false|false|false|false|false|false|false|false|false|VBG
+planned	others	plan|be|_end_|false|false|false|false|false|false|false|false|false|VBN
+
+by	others	by|_start_|a|false|false|false|false|false|false|false|false|false|IN
+a	others	a|by|multi-institut|false|false|false|false|false|false|false|false|false|DT
+multi-institutional	others	multi-institut|a|collabor|false|false|false|false|false|false|false|false|false|JJ
+collaboration	others	collabor|multi-institut|will|false|false|false|false|false|false|false|false|false|NN
+will	others	will|collabor|be|false|false|false|false|false|false|false|false|false|MD
+be	others	be|will|present|false|false|false|false|false|false|false|false|false|VB
+presented	others	present|be|_end_|false|false|false|false|false|false|false|false|false|VBN
+

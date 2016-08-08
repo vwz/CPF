@@ -1,0 +1,286 @@
+Type	others	type|_start_|ai|true|false|false|false|false|false|false|false|false|NN
+AI	others	ai|type|seminar|false|true|false|true|false|false|false|false|false|NNP
+Seminar	others	seminar|ai|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Who	others	who|_start_|rich|true|false|false|false|false|false|false|false|false|WP
+Rich	speaker	rich|who|korf|true|false|false|false|false|true|false|false|false|JJ
+Korf	speaker	korf|rich|-lrb-|true|false|false|false|false|true|false|false|false|NN
+-LRB-	others	-lrb-|korf|ucla|false|false|false|false|false|false|false|false|false|-LRB-
+UCLA	others	ucla|-lrb-|-rrb-|false|true|false|true|false|false|false|false|false|NNP
+-RRB-	others	-rrb-|ucla|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+Topic	others	topic|_start_|best-first|true|false|false|false|false|false|false|false|false|NN
+Best-First	others	best-first|topic|minimax|false|false|false|false|false|false|false|false|false|NNP
+Minimax	others	minimax|best-first|search|true|false|false|false|false|false|false|false|false|NNP
+Search	others	search|minimax|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Dates	others	date|_start_|21-oct-93|true|false|false|false|false|false|false|false|false|NNS
+21-Oct-93	others	21-oct-93|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|3:30|true|false|false|false|false|false|false|false|false|NNP
+3:30	stime	3:30|time|pm|false|false|false|false|false|false|false|false|false|CD
+PM	stime	pm|3:30|_end_|false|true|false|true|false|false|false|false|false|NN
+
+Place	others	place|_start_|4623|true|false|false|false|false|false|false|false|false|NN
+4623	location	4623|place|wean|false|false|false|false|false|false|false|false|true|CD
+Wean	location	wean|4623|hall|true|false|false|false|false|false|false|false|false|NNP
+Hall	location	hall|wean|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Host	others	host|_start_|dave|true|false|false|false|false|false|false|false|false|NN
+Dave	others	dave|host|mckeown|true|false|false|false|false|true|false|false|false|NNP
+McKeown	others	mckeown|dave|_end_|false|false|false|false|false|true|false|false|false|NNP
+
+PostedBy	others	postedbi|_start_|plp|false|false|false|false|true|false|false|false|false|NNP
+plp	others	plp|postedbi|on|false|false|false|false|false|false|false|false|false|NN
+on	others	on|plp|20-oct-93|false|false|false|false|false|false|false|false|false|IN
+20-Oct-93	others	20-oct-93|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|20-oct-93|15:35|false|false|false|false|false|false|false|false|false|IN
+15:35	others	15:35|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|15:35|phyllis.adm.cs.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+PHYLLIS.ADM.CS.CMU.EDU	others	phyllis.adm.cs.cmu.edu|from|-lrb-|false|false|false|false|false|false|false|false|false|NN
+-LRB-	others	-lrb-|phyllis.adm.cs.cmu.edu|phylli|false|false|false|false|false|false|false|false|false|-LRB-
+Phyllis	others	phylli|-lrb-|pomerantz|true|false|false|false|false|true|false|false|false|NNP
+Pomerantz	others	pomerantz|phylli|-rrb-|true|false|false|false|false|true|false|false|false|NNP
+-RRB-	others	-rrb-|pomerantz|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+Type	others	type|_start_|ai|true|false|false|false|false|false|false|false|false|NN
+AI	others	ai|type|seminar|false|true|false|true|false|false|false|false|false|NNP
+Seminar	others	seminar|ai|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Who	others	who|_start_|rich|true|false|false|false|false|false|false|false|false|WP
+Rich	speaker	rich|who|korf|true|false|false|false|false|true|false|false|false|JJ
+Korf	speaker	korf|rich|-lrb-|true|false|false|false|false|true|false|false|false|NN
+-LRB-	others	-lrb-|korf|ucla|false|false|false|false|false|false|false|false|false|-LRB-
+UCLA	others	ucla|-lrb-|-rrb-|false|true|false|true|false|false|false|false|false|NNP
+-RRB-	others	-rrb-|ucla|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+Topic	others	topic|_start_|best-first|true|false|false|false|false|false|false|false|false|NN
+Best-First	others	best-first|topic|minimax|false|false|false|false|false|false|false|false|false|NNP
+Minimax	others	minimax|best-first|search|true|false|false|false|false|false|false|false|false|NNP
+Search	others	search|minimax|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Dates	others	date|_start_|21-oct-93|true|false|false|false|false|false|false|false|false|NNS
+21-Oct-93	others	21-oct-93|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|3:30|true|false|false|false|false|false|false|false|false|NNP
+3:30	stime	3:30|time|p.|false|false|false|false|false|false|false|false|false|CD
+p.	stime	p.|3:30|m|false|false|false|false|false|false|false|false|false|NN
+m	stime	m|p.|-lrb-|false|false|false|false|false|false|false|false|false|NN
+-LRB-	others	-lrb-|m|note|false|false|false|false|false|false|false|false|false|-LRB-
+Note	others	note|-lrb-|unusu|true|false|false|false|false|false|false|false|false|VB
+unusual	others	unusu|note|dai|false|false|false|false|false|false|false|false|false|JJ
+day	others	dai|unusu|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|dai|room|false|false|false|false|false|false|false|false|false|CC
+room	others	room|and|thursdai|false|false|false|false|false|false|false|false|false|NN
+Thursday	others	thursdai|room|4623|true|false|false|false|false|false|false|false|true|NNP
+4623	location	4623|thursdai|weh|false|false|false|false|false|false|false|false|false|CD
+WeH	location	weh|4623|-rrb-|false|false|false|false|false|false|false|false|false|NN
+-RRB-	others	-rrb-|weh|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+Place	others	place|_start_|4623|true|false|false|false|false|false|false|false|false|NN
+4623	location	4623|place|wean|false|false|false|false|false|false|false|false|true|CD
+Wean	location	wean|4623|hall|true|false|false|false|false|false|false|false|false|NNP
+Hall	location	hall|wean|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Host	others	host|_start_|dave|true|false|false|false|false|false|false|false|false|NN
+Dave	others	dave|host|mckeown|true|false|false|false|false|true|false|false|false|NNP
+McKeown	others	mckeown|dave|_end_|false|false|false|false|false|true|false|false|false|NNP
+
+Best-First	others	best-first|_start_|minimax|false|false|false|false|false|false|false|false|false|NNP
+Minimax	others	minimax|best-first|a|true|false|false|false|false|false|false|false|false|NNP
+A	others	a|minimax|select|false|false|true|true|false|false|false|false|false|NNP
+Selective	others	select|a|search|true|false|false|false|false|false|false|false|false|JJ
+Search	others	search|select|algorithm|true|false|false|false|false|false|false|false|false|NNP
+Algorithm	others	algorithm|search|for|true|false|false|false|false|false|false|false|false|NNP
+for	others	for|algorithm|two-play|false|false|false|false|false|false|false|false|false|IN
+Two-Player	others	two-play|for|game|false|false|false|false|false|false|false|false|false|NNP
+Games	others	game|two-play|_end_|true|false|false|false|false|false|false|false|false|NNPS
+
+by	others	by|_start_|_end_|false|false|false|false|false|false|false|false|false|IN
+
+Computer	others	comput|_start_|scienc|true|false|false|false|false|false|false|false|false|NNP
+Science	others	scienc|comput|depart|true|false|false|false|false|false|false|false|false|NNP
+Department	others	depart|scienc|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+University	others	univers|_start_|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|univers|california|false|false|false|false|false|false|false|false|false|IN
+California	others	california|of|lo|true|false|false|false|false|false|false|false|false|NNP
+Los	others	lo|california|angel|true|false|false|false|false|false|false|false|false|NNP
+Angeles	others	angel|lo|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+We	others	we|_start_|present|true|false|false|false|false|false|false|false|false|PRP
+present	others	present|we|a|false|false|false|false|false|false|false|false|false|VBP
+a	others	a|present|veri|false|false|false|false|false|false|false|false|false|DT
+very	others	veri|a|simpl|false|false|false|false|false|false|false|false|false|RB
+simple	others	simpl|veri|select|false|false|false|false|false|false|false|false|false|JJ
+selective	others	select|simpl|minimax|false|false|false|false|false|false|false|false|false|JJ
+minimax	others	minimax|select|search|false|false|false|false|false|false|false|false|false|NN
+search	others	search|minimax|algorithm|false|false|false|false|false|false|false|false|false|NN
+algorithm	others	algorithm|search|for|false|false|false|false|false|false|false|false|false|NN
+for	others	for|algorithm|two-play|false|false|false|false|false|false|false|false|false|IN
+two-player	others	two-play|for|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+games	others	game|_start_|it|false|false|false|false|false|false|false|false|false|NNS
+It	others	it|game|alwai|true|false|false|false|false|false|false|false|false|PRP
+always	others	alwai|it|expand|false|false|false|false|false|false|false|false|false|RB
+expands	others	expand|alwai|next|false|false|false|false|false|false|false|false|false|VBZ
+next	others	next|expand|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|next|frontier|false|false|false|false|false|false|false|false|false|DT
+frontier	others	frontier|the|node|false|false|false|false|false|false|false|false|false|NN
+node	others	node|frontier|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|node|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|at|end|false|false|false|false|false|false|false|false|false|DT
+end	others	end|the|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|end|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|of|princip|false|false|false|false|false|false|false|false|false|DT
+principal	others	princip|the|_end_|false|false|false|false|false|false|false|false|false|NN
+
+variation	others	variat|_start_|or|false|false|false|false|false|false|false|false|false|NN
+or	others	or|variat|current|false|false|false|false|false|false|false|false|false|CC
+current	others	current|or|best|false|false|false|false|false|false|false|false|true|JJ
+best	others	best|current|line|false|false|false|false|false|false|false|false|false|JJS
+line	others	line|best|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|line|plai|false|false|false|false|false|false|false|false|false|IN
+play	others	plai|of|which|false|false|false|false|false|false|false|false|false|NN
+which	others	which|plai|be|false|false|false|false|false|false|false|false|false|WDT
+is	others	be|which|the|false|false|false|false|false|false|false|false|false|VBZ
+the	others	the|be|node|false|false|false|false|false|false|false|false|false|DT
+node	others	node|the|that|false|false|false|false|false|false|false|false|false|NN
+that	others	that|node|determin|false|false|false|false|false|false|false|false|false|WDT
+determines	others	determin|that|the|false|false|false|false|false|false|false|false|false|VBZ
+the	others	the|determin|_end_|false|false|false|false|false|false|false|false|false|DT
+
+minimax	others	minimax|_start_|valu|false|false|false|false|false|false|false|false|false|NN
+value	others	valu|minimax|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|valu|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|of|root|false|false|false|false|false|false|false|false|false|DT
+root	others	root|the|the|false|false|false|false|false|false|false|false|false|NN
+The	others	the|root|algorithm|true|false|false|false|false|false|false|false|false|DT
+algorithm	others	algorithm|the|requir|false|false|false|false|false|false|false|false|false|NN
+requires	others	requir|algorithm|no|false|false|false|false|false|false|false|false|false|VBZ
+no	others	no|requir|inform|false|false|false|false|false|false|false|false|false|DT
+information	others	inform|no|other|false|false|false|false|false|false|false|false|false|NN
+other	others	other|inform|than|false|false|false|false|false|false|false|false|false|JJ
+than	others	than|other|a|false|false|false|false|false|false|false|false|false|IN
+a	others	a|than|_end_|false|false|false|false|false|false|false|false|false|DT
+
+static	others	static|_start_|evalu|false|false|false|false|false|false|false|false|false|JJ
+evaluation	others	evalu|static|function|false|false|false|false|false|false|false|false|false|NN
+function	others	function|evalu|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|function|it|false|false|false|false|false|false|false|false|false|CC
+its	others	it|and|time|false|false|false|false|false|false|false|false|false|PRP$
+time	others	time|it|overhead|false|false|false|false|false|false|false|false|false|NN
+overhead	others	overhead|time|per|false|false|false|false|false|false|false|false|false|JJ
+per	others	per|overhead|node|false|false|false|false|false|false|false|false|false|IN
+node	others	node|per|be|false|false|false|false|false|false|false|false|false|NN
+is	others	be|node|similar|false|false|false|false|false|false|false|false|false|VBZ
+similar	others	similar|be|to|false|false|false|false|false|false|false|false|false|JJ
+to	others	to|similar|that|false|false|false|false|false|false|false|false|false|TO
+that	others	that|to|_end_|false|false|false|false|false|false|false|false|false|DT
+
+of	others	of|_start_|alpha-beta|false|false|false|false|false|false|false|false|false|IN
+alpha-beta	others	alpha-beta|of|minimax|false|false|false|false|false|false|false|false|false|NN
+minimax	others	minimax|alpha-beta|on|false|false|false|false|false|false|false|false|false|NN
+On	others	on|minimax|random|true|false|false|false|false|false|false|false|false|IN
+random	others	random|on|game|false|false|false|false|false|false|false|false|false|JJ
+game	others	game|random|tree|false|false|false|false|false|false|false|false|false|NN
+trees	others	tree|game|we|false|false|false|false|false|false|false|false|false|NNS
+our	others	we|tree|algorithm|false|false|false|false|false|false|false|false|false|PRP$
+algorithm	others	algorithm|we|outperform|false|false|false|false|false|false|false|false|false|NN
+outperforms	others	outperform|algorithm|a|false|false|false|false|false|false|false|false|false|VBZ
+an	others	a|outperform|_end_|false|false|false|false|false|false|false|false|false|DT
+
+efficient	others	effici|_start_|implement|false|false|false|false|false|false|false|false|false|JJ
+implementation	others	implement|effici|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|implement|alpha-beta|false|false|false|false|false|false|false|false|false|IN
+alpha-beta	others	alpha-beta|of|give|false|false|false|false|false|false|false|false|false|NN
+giving	others	give|alpha-beta|both|false|false|false|false|false|false|false|false|false|VBG
+both	others	both|give|the|false|false|false|false|false|false|false|false|false|CC
+the	others	the|both|same|false|false|false|false|false|false|false|false|false|DT
+same	others	same|the|amount|false|false|false|false|false|false|false|false|false|JJ
+amount	others	amount|same|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|amount|_end_|false|false|false|false|false|false|false|false|false|IN
+
+computation	others	comput|_start_|in|false|false|false|false|false|false|false|false|false|NN
+In	others	in|comput|the|true|false|false|false|false|false|false|false|false|IN
+the	others	the|in|game|false|false|false|false|false|false|false|false|false|DT
+game	others	game|the|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|game|othello|false|false|false|false|false|false|false|false|false|IN
+Othello	others	othello|of|us|true|false|false|false|false|false|false|false|false|NNP
+using	others	us|othello|the|false|false|false|false|false|false|false|false|false|VBG
+the	others	the|us|evalu|false|false|false|false|false|false|false|false|false|DT
+evaluation	others	evalu|the|function|false|false|false|false|false|false|false|false|false|NN
+function	others	function|evalu|from|false|false|false|false|false|false|false|false|false|NN
+from	others	from|function|bill|false|false|false|false|false|false|false|false|false|IN
+Bill	others	bill|from|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+the	others	the|_start_|world|false|false|false|false|false|false|false|false|false|DT
+world	others	world|the|'s|false|false|false|false|false|false|false|false|false|NN
+'s	others	's|world|best|false|false|false|false|false|false|false|false|false|POS
+best	others	best|'s|program|false|false|false|false|false|false|false|false|false|JJS
+program	others	program|best|best-first|false|false|false|false|false|false|false|false|false|NN
+best-first	others	best-first|program|minimax|false|false|false|false|false|false|false|false|false|JJ
+minimax	others	minimax|best-first|also|false|false|false|false|false|false|false|false|false|NN
+also	others	also|minimax|outplai|false|false|false|false|false|false|false|false|false|RB
+outplays	others	outplai|also|alpha-beta|false|false|false|false|false|false|false|false|false|VBZ
+alpha-beta	others	alpha-beta|outplai|we|false|false|false|false|false|false|false|false|false|NN
+We	others	we|alpha-beta|_end_|true|false|false|false|false|false|false|false|false|PRP
+
+present	others	present|_start_|a|false|false|false|false|false|false|false|false|false|JJ
+an	others	a|present|implement|false|false|false|false|false|false|false|false|false|DT
+implementation	others	implement|a|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|implement|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|of|algorithm|false|false|false|false|false|false|false|false|false|DT
+algorithm	others	algorithm|the|that|false|false|false|false|false|false|false|false|false|NN
+that	others	that|algorithm|reduc|false|false|false|false|false|false|false|false|false|WDT
+reduces	others	reduc|that|it|false|false|false|false|false|false|false|false|false|VBZ
+its	others	it|reduc|space|false|false|false|false|false|false|false|false|false|PRP$
+space	others	space|it|complex|false|false|false|false|false|false|false|false|false|NN
+complexity	others	complex|space|_end_|false|false|false|false|false|false|false|false|false|NN
+
+from	others	from|_start_|exponenti|false|false|false|false|false|false|false|false|false|IN
+exponential	others	exponenti|from|to|false|false|false|false|false|false|false|false|false|JJ
+to	others	to|exponenti|linear|false|false|false|false|false|false|false|false|false|TO
+linear	others	linear|to|in|false|false|false|false|false|false|false|false|false|JJ
+in	others	in|linear|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|in|search|false|false|false|false|false|false|false|false|false|DT
+search	others	search|the|depth|false|false|false|false|false|false|false|false|false|NN
+depth	others	depth|search|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|depth|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|at|cost|false|false|false|false|false|false|false|false|false|DT
+cost	others	cost|the|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|cost|increas|false|false|false|false|false|false|false|false|false|IN
+increased	others	increas|of|time|false|false|false|false|false|false|false|false|false|VBN
+time	others	time|increas|_end_|false|false|false|false|false|false|false|false|false|NN
+
+complexity	others	complex|_start_|final|false|false|false|false|false|false|false|false|false|NN
+Finally	others	final|complex|we|true|false|false|false|false|false|false|false|false|RB
+we	others	we|final|present|false|false|false|false|false|false|false|false|false|PRP
+present	others	present|we|a|false|false|false|false|false|false|false|false|false|VBP
+a	others	a|present|hybrid|false|false|false|false|false|false|false|false|false|DT
+hybrid	others	hybrid|a|best-first|false|false|false|false|false|false|false|false|false|NN
+best-first	others	best-first|hybrid|extens|false|false|false|false|false|false|false|false|false|JJ
+extension	others	extens|best-first|algorithm|false|false|false|false|false|false|false|false|false|NN
+algorithm	others	algorithm|extens|that|false|false|false|false|false|false|false|false|false|NN
+that	others	that|algorithm|_end_|false|false|false|false|false|false|false|false|false|WDT
+
+combines	others	combin|_start_|alpha-beta|false|false|false|false|false|false|false|false|false|NNS
+alpha-beta	others	alpha-beta|combin|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|alpha-beta|best-first|false|false|false|false|false|false|false|false|false|CC
+best-first	others	best-first|and|minimax|false|false|false|false|false|false|false|false|false|JJ
+minimax	others	minimax|best-first|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|minimax|perform|false|false|false|false|false|false|false|false|false|CC
+performs	others	perform|and|significantli|false|false|false|false|false|false|false|false|false|VBZ
+significantly	others	significantli|perform|better|false|false|false|false|false|false|false|false|false|RB
+better	others	better|significantli|_end_|false|false|false|false|false|false|false|false|false|JJR
+
+than	others	than|_start_|either|false|false|false|false|false|false|false|false|false|IN
+either	others	either|than|pure|false|false|false|false|false|false|false|false|false|DT
+pure	others	pure|either|algorithm|false|false|false|false|false|false|false|false|false|JJ
+algorithm	others	algorithm|pure|in|false|false|false|false|false|false|false|false|false|NN
+in	others	in|algorithm|both|false|false|false|false|false|false|false|false|false|IN
+both	others	both|in|domain|false|false|false|false|false|false|false|false|false|CC
+domains	others	domain|both|_end_|false|false|false|false|false|false|false|false|false|NNS
+

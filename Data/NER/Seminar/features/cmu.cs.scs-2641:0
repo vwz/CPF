@@ -1,0 +1,94 @@
+Type	others	type|_start_|cmu|true|false|false|false|false|false|false|false|false|NN
+cmu	others	cmu|type|c|false|false|false|false|false|false|false|false|false|NN
+cs	others	c|cmu|sc|false|false|false|false|false|false|false|false|false|NNS
+scs	others	sc|c|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+Who	others	who|_start_|gui|true|false|false|false|false|false|false|false|false|WP
+Guy	speaker	gui|who|l.|true|false|false|false|false|true|false|false|false|NNP
+L.	speaker	l.|gui|steel|false|false|false|false|false|true|false|false|false|NNP
+Steele	speaker	steel|l.|jr.|true|false|false|false|false|true|false|false|false|NNP
+Jr.	speaker	jr.|steel|_end_|false|false|false|false|false|false|false|false|false|NNP
+
+Thinking	others	think|_start_|machin|true|false|false|false|false|false|false|false|false|VBG
+Machines	others	machin|think|corpor|true|false|false|false|false|false|false|false|false|NNS
+Corporation	others	corpor|machin|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Topic	others	topic|_start_|high|true|false|false|false|false|false|false|false|false|NN
+High	others	high|topic|perform|true|false|false|false|false|false|false|false|false|JJ
+Performance	others	perform|high|fortran|true|false|false|false|false|false|false|false|false|NNP
+Fortran	others	fortran|perform|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Dates	others	date|_start_|11-feb-94|true|false|false|false|false|false|false|false|false|NNS
+11-Feb-94	others	11-feb-94|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|4:00|true|false|false|false|false|false|false|false|false|NNP
+4:00	stime	4:00|time|pm|false|false|false|false|false|false|false|false|false|CD
+PM	stime	pm|4:00|_end_|false|true|false|true|false|false|false|false|false|NN
+
+Place	others	place|_start_|3rd|true|false|false|false|false|false|false|false|false|NN
+3rd	location	3rd|place|floor|false|false|false|false|false|false|false|false|false|CD
+Floor	location	floor|3rd|confer|true|false|false|false|false|false|false|false|false|NNP
+Conference	location	confer|floor|room|true|false|false|false|false|false|false|false|false|NNP
+Room	location	room|confer|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Mellon	others	mellon|_start_|institut|true|false|false|false|false|false|false|false|false|NNP
+Institute	others	institut|mellon|build|true|false|false|false|false|false|false|false|false|NNP
+Building	others	build|institut|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+PostedBy	others	postedbi|_start_|bag|false|false|false|false|true|false|false|false|false|NNP
+bag	others	bag|postedbi|on|false|false|false|false|false|false|false|false|false|NN
+on	others	on|bag|10-feb-94|false|false|false|false|false|false|false|false|false|IN
+10-Feb-94	others	10-feb-94|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|10-feb-94|10:44|false|false|false|false|false|false|false|false|false|IN
+10:44	others	10:44|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|10:44|barbara.adm.cs.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+BARBARA.ADM.CS.CMU.EDU	others	barbara.adm.cs.cmu.edu|from|-lrb-|false|false|false|false|false|false|false|false|false|NN
+-LRB-	others	-lrb-|barbara.adm.cs.cmu.edu|barbara|false|false|false|false|false|false|false|false|false|-LRB-
+Barbara	others	barbara|-lrb-|grandillo|true|false|false|false|false|true|false|false|false|NNP
+Grandillo	others	grandillo|barbara|-rrb-|true|false|false|false|false|true|false|false|false|NNP
+-RRB-	others	-rrb-|grandillo|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+SPEAKER	others	speaker|_start_|gui|false|true|false|true|false|false|false|false|false|NN
+Guy	speaker	gui|speaker|l.|true|false|false|false|false|true|false|false|false|NNP
+L.	speaker	l.|gui|steel|false|false|false|false|false|true|false|false|false|NNP
+Steele	speaker	steel|l.|jr.|true|false|false|false|false|true|false|false|false|NNP
+Jr.	speaker	jr.|steel|_end_|false|false|false|false|false|false|false|false|false|NNP
+
+Thinking	others	think|_start_|machin|true|false|false|false|false|false|false|false|false|VBG
+Machines	others	machin|think|corpor|true|false|false|false|false|false|false|false|false|NNS
+Corporation	others	corpor|machin|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+TOPIC	others	topic|_start_|high|false|true|false|true|false|false|false|false|false|NN
+High	others	high|topic|perform|true|false|false|false|false|false|false|false|false|JJ
+Performance	others	perform|high|fortran|true|false|false|false|false|false|false|false|false|NNP
+Fortran	others	fortran|perform|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+DATE	others	date|_start_|fridai|false|true|false|true|false|false|false|false|false|NN
+Friday	others	fridai|date|februari|true|false|false|false|false|false|false|false|true|NNP
+February	others	februari|fridai|11|true|false|false|false|false|false|false|false|true|NNP
+11	others	11|februari|1994|false|false|false|false|false|false|false|false|true|CD
+1994	others	1994|11|_end_|false|false|false|false|false|false|false|false|true|CD
+
+TIME	others	time|_start_|4:00|false|true|false|true|false|false|false|false|false|NN
+4:00	stime	4:00|time|pm|false|false|false|false|false|false|false|false|false|CD
+pm	stime	pm|4:00|_end_|false|false|false|false|false|false|false|false|false|NN
+
+PLACE	others	place|_start_|3rd|false|true|false|true|false|false|false|false|false|NN
+3rd	location	3rd|place|floor|false|false|false|false|false|false|false|false|false|CD
+Floor	location	floor|3rd|confer|true|false|false|false|false|false|false|false|false|NNP
+Conference	location	confer|floor|room|true|false|false|false|false|false|false|false|false|NNP
+Room	location	room|confer|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Mellon	others	mellon|_start_|institut|true|false|false|false|false|false|false|false|false|NNP
+Institute	others	institut|mellon|build|true|false|false|false|false|false|false|false|false|NNP
+Building	others	build|institut|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+ABSTRACT	others	abstract|_start_|not|false|true|false|true|false|false|false|false|false|NN
+NOT	others	not|abstract|avail|false|true|false|true|false|false|false|false|false|RB
+AVAILABLE	others	avail|not|at|false|true|false|true|false|false|false|false|false|JJ
+AT	others	at|avail|thi|false|true|false|true|false|false|false|false|false|IN
+THIS	others	thi|at|time|false|true|false|true|false|false|false|false|false|NNP
+TIME	others	time|thi|_end_|false|true|false|true|false|false|false|false|false|NNP
+

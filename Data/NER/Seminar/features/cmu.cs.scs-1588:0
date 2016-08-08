@@ -1,0 +1,141 @@
+Type	others	type|_start_|cmu|true|false|false|false|false|false|false|false|false|NN
+cmu	others	cmu|type|c|false|false|false|false|false|false|false|false|false|NN
+cs	others	c|cmu|sc|false|false|false|false|false|false|false|false|false|NNS
+scs	others	sc|c|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+Topic	others	topic|_start_|program|true|false|false|false|false|false|false|false|false|NN
+Program	others	program|topic|depend|true|false|false|false|false|false|false|false|false|NNP
+Dependence	others	depend|program|graph|true|false|false|false|false|false|false|false|false|NN
+Graph	others	graph|depend|and|true|false|false|false|false|false|false|false|false|NN
+and	others	and|graph|static|false|false|false|false|false|false|false|false|false|CC
+Static	others	static|and|singl|true|false|false|false|false|false|false|false|false|JJ
+Single	others	singl|static|assign|true|false|false|false|false|false|false|false|false|JJ
+Assignment	others	assign|singl|form|true|false|false|false|false|false|false|false|false|NN
+forms	others	form|assign|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+Dates	others	date|_start_|12-feb-93|true|false|false|false|false|false|false|false|false|NNS
+12-Feb-93	others	12-feb-93|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|9:00|true|false|false|false|false|false|false|false|false|NNP
+9:00	stime	9:00|time|am|false|false|false|false|false|false|false|false|false|CD
+AM	stime	am|9:00|_end_|false|true|false|true|false|false|false|false|false|NNP
+
+Place	others	place|_start_|weh|true|false|false|false|false|false|false|false|false|NN
+WeH	location	weh|place|5409|false|false|false|false|false|false|false|false|false|NN
+5409	location	5409|weh|_end_|false|false|false|false|false|false|false|false|false|CD
+
+PostedBy	others	postedbi|_start_|jass|false|false|false|false|true|false|false|false|false|NNP
+jass	others	jass|postedbi|on|false|false|false|false|false|false|false|false|false|NN
+on	others	on|jass|10-feb-93|false|false|false|false|false|false|false|false|false|IN
+10-Feb-93	others	10-feb-93|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|10-feb-93|14:36|false|false|false|false|false|false|false|false|false|IN
+14:36	others	14:36|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|14:36|cs.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+cs.cmu.edu	others	cs.cmu.edu|from|-lrb-|false|false|false|false|false|false|false|false|false|NN
+-LRB-	others	-lrb-|cs.cmu.edu|jaspal|false|false|false|false|false|false|false|false|false|-LRB-
+Jaspal	others	jaspal|-lrb-|subhlok|true|false|false|false|false|false|false|false|false|JJ
+Subhlok	others	subhlok|jaspal|-rrb-|true|false|false|false|false|false|false|false|false|NN
+-RRB-	others	-rrb-|subhlok|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+Date	others	date|_start_|feb|true|false|false|false|false|false|false|false|false|NN
+Feb	others	feb|date|12,93|true|false|false|false|false|false|false|false|true|NNP
+12,93	others	12,93|feb|_end_|false|false|false|false|false|false|false|false|false|CD
+
+Time	others	time|_start_|9.00|true|false|false|false|false|false|false|false|false|NNP
+9.00	stime	9.00|time|a.|false|false|false|false|false|false|false|false|false|CD
+A.	stime	a.|9.00|m|false|false|false|false|false|false|false|false|false|NN
+M	stime	m|a.|_end_|false|false|true|true|false|false|false|false|false|NN
+
+Place	others	place|_start_|weh|true|false|false|false|false|false|false|false|false|NN
+WeH	location	weh|place|5409|false|false|false|false|false|false|false|false|false|NN
+5409	location	5409|weh|_end_|false|false|false|false|false|false|false|false|false|CD
+
+Topic	others	topic|_start_|program|true|false|false|false|false|false|false|false|false|NN
+Program	others	program|topic|depend|true|false|false|false|false|false|false|false|false|NNP
+Dependence	others	depend|program|graph|true|false|false|false|false|false|false|false|false|NN
+Graph	others	graph|depend|and|true|false|false|false|false|false|false|false|false|NN
+and	others	and|graph|static|false|false|false|false|false|false|false|false|false|CC
+Static	others	static|and|singl|true|false|false|false|false|false|false|false|false|JJ
+Single	others	singl|static|assign|true|false|false|false|false|false|false|false|false|JJ
+Assignment	others	assign|singl|form|true|false|false|false|false|false|false|false|false|NN
+forms	others	form|assign|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+Rajiv	speaker	rajiv|_start_|gupta|true|false|false|false|false|true|false|false|false|NNP
+Gupta	speaker	gupta|rajiv|from|true|false|false|false|false|true|false|false|false|NNP
+from	others	from|gupta|univers|false|false|false|false|false|false|false|false|false|IN
+University	others	univers|from|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|univers|pittsburgh|false|false|false|false|false|false|false|false|false|IN
+Pittsburgh	others	pittsburgh|of|will|true|false|false|false|false|false|false|false|false|NNP
+will	others	will|pittsburgh|deliv|false|false|false|false|false|false|false|false|false|MD
+deliver	others	deliv|will|a|false|false|false|false|false|false|false|false|false|VB
+a	others	a|deliv|guest|false|false|false|false|false|false|false|false|false|DT
+guest	others	guest|a|_end_|false|false|false|false|false|false|false|false|false|NN
+
+lecture	others	lectur|_start_|in|false|false|false|false|false|false|false|false|false|NN
+in	others	in|lectur|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|in|cours|false|false|false|false|false|false|false|false|false|DT
+course	others	cours|the|on|false|false|false|false|false|false|false|false|false|NN
+on	others	on|cours|modern|false|false|false|false|false|false|false|false|false|IN
+Modern	others	modern|on|languag|true|false|false|false|false|false|false|false|false|NNP
+Language	others	languag|modern|implement|true|false|false|false|false|false|false|false|false|NNP
+Implementation	others	implement|languag|on|true|false|false|false|false|false|false|false|false|NNP
+on	others	on|implement|_end_|false|false|false|false|false|false|false|false|false|IN
+
+Feb	others	feb|_start_|19|true|false|false|false|false|false|false|false|true|NNP
+19	others	19|feb|at|false|false|false|false|false|false|false|false|true|CD
+at	others	at|19|9.00|false|false|false|false|false|false|false|false|false|IN
+9.00	stime	9.00|at|he|false|false|false|false|false|false|false|false|false|CD
+His	others	he|9.00|lectur|true|false|false|false|false|false|false|false|false|PRP$
+lecture	others	lectur|he|will|false|false|false|false|false|false|false|false|false|NN
+will	others	will|lectur|focu|false|false|false|false|false|false|false|false|false|MD
+focus	others	focu|will|on|false|false|false|false|false|false|false|false|false|VB
+on	others	on|focu|program|false|false|false|false|false|false|false|false|false|IN
+Program	others	program|on|depend|true|false|false|false|false|false|false|false|false|NN
+Dependence	others	depend|program|_end_|true|false|false|false|false|false|false|false|false|NN
+
+Graph	others	graph|_start_|and|true|false|false|false|false|false|false|false|false|NN
+and	others	and|graph|static|false|false|false|false|false|false|false|false|false|CC
+Static	others	static|and|singl|true|false|false|false|false|false|false|false|false|JJ
+Single	others	singl|static|assign|true|false|false|false|false|false|false|false|false|JJ
+Assignment	others	assign|singl|program|true|false|false|false|false|false|false|false|false|NN
+program	others	program|assign|represent|false|false|false|false|false|false|false|false|false|NN
+representations	others	represent|program|you|false|false|false|false|false|false|false|false|false|NNS
+You	others	you|represent|_end_|true|false|false|false|false|false|false|false|false|PRP
+
+may	others	mai|_start_|wish|false|false|false|false|false|false|false|false|false|MD
+wish	others	wish|mai|to|false|false|false|false|false|false|false|false|false|VB
+to	others	to|wish|attend|false|false|false|false|false|false|false|false|false|TO
+attend	others	attend|to|thi|false|false|false|false|false|false|false|false|false|VB
+this	others	thi|attend|lectur|false|false|false|false|false|false|false|false|false|DT
+lecture	others	lectur|thi|even|false|false|false|false|false|false|false|false|false|NN
+even	others	even|lectur|if|false|false|false|false|false|false|false|false|false|RB
+if	others	if|even|you|false|false|false|false|false|false|false|false|false|IN
+you	others	you|if|do|false|false|false|false|false|false|false|false|false|PRP
+do	others	do|you|not|false|false|false|false|false|false|false|false|false|VBP
+not	others	not|do|attend|false|false|false|false|false|false|false|false|false|RB
+attend	others	attend|not|_end_|false|false|false|false|false|false|false|false|false|VB
+
+the	others	the|_start_|class|false|false|false|false|false|false|false|false|false|DT
+class	others	class|the|otherwis|false|false|false|false|false|false|false|false|false|NN
+otherwise	others	otherwis|class|pleas|false|false|false|false|false|false|false|false|false|RB
+Please	others	pleas|otherwis|contact|true|false|false|false|false|false|false|false|false|VB
+contact	others	contact|pleas|i|false|false|false|false|false|false|false|false|false|VB
+me	others	i|contact|-lrb-|false|false|false|false|false|false|false|false|false|PRP
+-LRB-	others	-lrb-|i|jass@c|false|false|false|false|false|false|false|false|false|-LRB-
+jass@cs	others	jass@c|-lrb-|-rrb-|false|false|false|false|false|false|false|false|false|NNS
+-RRB-	others	-rrb-|jass@c|if|false|false|false|false|false|false|false|false|false|-RRB-
+if	others	if|-rrb-|you|false|false|false|false|false|false|false|false|false|IN
+you	others	you|if|wish|false|false|false|false|false|false|false|false|false|PRP
+wish	others	wish|you|to|false|false|false|false|false|false|false|false|false|VBP
+to	others	to|wish|_end_|false|false|false|false|false|false|false|false|false|TO
+
+speak	others	speak|_start_|to|false|false|false|false|false|false|false|false|false|VB
+to	others	to|speak|rajiv|false|false|false|false|false|false|false|false|false|TO
+Rajiv	others	rajiv|to|while|true|false|false|false|false|true|false|false|false|NNP
+while	others	while|rajiv|he|false|false|false|false|false|false|false|false|false|IN
+he	others	he|while|be|false|false|false|false|false|false|false|false|false|PRP
+is	others	be|he|here|false|false|false|false|false|false|false|false|false|VBZ
+here	others	here|be|_end_|false|false|false|false|false|false|false|false|false|RB
+

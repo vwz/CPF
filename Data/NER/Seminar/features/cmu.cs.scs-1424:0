@@ -1,0 +1,56 @@
+Type	others	type|_start_|cmu|true|false|false|false|false|false|false|false|false|NN
+cmu	others	cmu|type|c|false|false|false|false|false|false|false|false|false|NN
+cs	others	c|cmu|sc|false|false|false|false|false|false|false|false|false|NNS
+scs	others	sc|c|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+Topic	others	topic|_start_|cs\/psc|true|false|false|false|false|false|false|false|false|NN
+CS\/PSC	others	cs\/psc|topic|seminar|false|false|false|false|false|false|false|false|false|NNP
+Seminar	others	seminar|cs\/psc|todai|true|false|false|false|false|false|false|false|false|NNP
+today	others	todai|seminar|4:00|false|false|false|false|false|false|false|false|true|NN
+4:00	others	4:00|todai|in|false|false|false|false|false|false|false|false|false|CD
+in	others	in|4:00|mellon|false|false|false|false|false|false|false|false|false|IN
+Mellon	others	mellon|in|inst|true|false|false|false|false|false|false|false|false|NNP
+Inst	others	inst|mellon|on|true|false|false|false|false|false|false|false|false|NNP
+on	others	on|inst|crai|false|false|false|false|false|false|false|false|false|IN
+Cray	others	crai|on|mpp|true|false|false|false|false|false|false|false|false|NNP
+MPP	others	mpp|crai|_end_|false|true|false|true|false|false|false|false|false|NNP
+
+Dates	others	date|_start_|4-dec-92|true|false|false|false|false|false|false|false|false|NNS
+4-Dec-92	others	4-dec-92|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|4:00|true|false|false|false|false|false|false|false|false|NNP
+4:00	stime	4:00|time|_end_|false|false|false|false|false|false|false|false|false|CD
+
+PostedBy	others	postedbi|_start_|trg|false|false|false|false|true|false|false|false|false|NNP
+trg	others	trg|postedbi|on|false|false|false|false|false|false|false|false|false|NN
+on	others	on|trg|4-dec-92|false|false|false|false|false|false|false|false|false|IN
+4-Dec-92	others	4-dec-92|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|4-dec-92|13:30|false|false|false|false|false|false|false|false|false|IN
+13:30	others	13:30|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|13:30|n3|false|false|false|false|false|false|false|false|false|IN
+N3	others	n3|from|sp.cs.cmu.edu|false|false|false|false|false|false|false|false|false|NN
+SP.CS.CMU.EDU	others	sp.cs.cmu.edu|n3|-lrb-|false|false|false|false|false|false|false|false|false|NN
+-LRB-	others	-lrb-|sp.cs.cmu.edu|thoma|false|false|false|false|false|false|false|false|false|-LRB-
+Thomas	others	thoma|-lrb-|gross|true|false|false|false|false|false|false|false|false|NNP
+Gross	others	gross|thoma|-rrb-|true|false|false|false|false|false|false|false|false|NNP
+-RRB-	others	-rrb-|gross|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+December	others	decemb|_start_|4|true|false|false|false|false|false|false|false|true|NNP
+4	others	4|decemb|the|false|false|false|false|false|false|false|false|true|CD
+The	others	the|4|crai|true|false|false|false|false|false|false|false|false|DT
+Cray	others	crai|the|research|true|false|false|false|false|false|false|false|false|NNP
+Research	others	research|crai|massiv|true|false|false|false|false|false|false|false|false|NNP
+Massively	others	massiv|research|parallel|true|false|false|false|false|false|false|false|false|RB
+Parallel	others	parallel|massiv|product|true|false|false|false|false|false|false|false|false|JJ
+Product	others	product|parallel|and|true|false|false|false|false|false|false|false|false|NN
+and	others	and|product|strategi|false|false|false|false|false|false|false|false|false|CC
+Strategy	others	strategi|and|_end_|true|false|false|false|false|false|false|false|false|NN
+
+Mick	speaker	mick|_start_|dungworth|true|false|false|false|false|true|false|false|false|NNP
+Dungworth	speaker	dungworth|mick|crai|true|false|false|false|false|true|false|false|false|NNP
+Cray	others	crai|dungworth|research|true|false|false|false|false|false|false|false|false|NNP
+Research	others	research|crai|inc.|true|false|false|false|false|false|false|false|false|NNP
+Inc.	others	inc.|research|_end_|false|false|false|false|false|false|false|false|false|NNP
+

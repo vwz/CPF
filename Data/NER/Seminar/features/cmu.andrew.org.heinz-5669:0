@@ -1,0 +1,130 @@
+Type	others	type|_start_|cmu.andrew.org|true|false|false|false|false|false|false|false|false|NN
+cmu.andrew.org	others	cmu.andrew.org|type|heinz|false|false|false|false|false|false|false|false|false|NN
+heinz	others	heinz|cmu.andrew.org|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Topic	others	topic|_start_|remind|true|false|false|false|false|false|false|false|false|NN
+REMINDER	others	remind|topic|green|false|true|false|true|false|false|false|false|false|NN
+Green	others	green|remind|design|true|false|false|false|false|false|false|false|false|NNP
+Design	others	design|green|seminar|true|false|false|false|false|false|false|false|false|NNP
+Seminar	others	seminar|design|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Dates	others	date|_start_|28-jan-94|true|false|false|false|false|false|false|false|false|NNS
+28-Jan-94	others	28-jan-94|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|10:00|true|false|false|false|false|false|false|false|false|NNP
+10:00	others	10:00|time|11:00|false|false|false|false|false|false|true|false|false|CD
+11:00	others	11:00|10:00|_end_|false|false|false|false|false|false|false|true|false|CD
+
+PostedBy	others	postedbi|_start_|erik|false|false|false|false|true|false|false|false|false|NNP
+Erik	others	erik|postedbi|devereux|true|false|false|false|false|true|false|false|false|NNP
+Devereux	others	devereux|erik|on|true|false|false|false|false|true|false|false|false|NNP
+on	others	on|devereux|27-jan-94|false|false|false|false|false|false|false|false|false|IN
+27-Jan-94	others	27-jan-94|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|27-jan-94|11:51|false|false|false|false|false|false|false|false|false|IN
+11:51	others	11:51|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|11:51|andrew.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+andrew.cmu.edu	others	andrew.cmu.edu|from|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+Members	others	member|_start_|of|true|false|false|false|false|false|false|false|false|NNS
+of	others	of|member|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|of|heinz|false|false|false|false|false|false|false|false|false|DT
+Heinz	others	heinz|the|commun|true|false|false|false|false|false|false|false|false|NNP
+Community	others	commun|heinz|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+This	others	thi|_start_|be|true|false|false|false|false|false|false|false|false|DT
+is	others	be|thi|a|false|false|false|false|false|false|false|false|false|VBZ
+a	others	a|be|remind|false|false|false|false|false|false|false|false|false|DT
+reminder	others	remind|a|that|false|false|false|false|false|false|false|false|false|NN
+that	others	that|remind|dr.|false|false|false|false|false|false|false|false|false|WDT
+Dr.	speaker	dr.|that|noellett|false|false|false|false|false|true|false|false|false|NNP
+Noellette	speaker	noellett|dr.|conway-schempf|true|false|false|false|false|true|false|false|false|NNP
+Conway-Schempf	speaker	conway-schempf|noellett|director|false|false|false|false|false|false|false|false|false|NNP
+Director	others	director|conway-schempf|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|director|green|false|false|false|false|false|false|false|false|false|IN
+Green	others	green|of|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Design	others	design|_start_|at|true|false|false|false|false|false|false|false|false|NN
+at	others	at|design|carnegi|false|false|false|false|false|false|false|false|false|IN
+Carnegie	others	carnegi|at|mellon|true|false|false|false|false|false|false|false|false|NNP
+Mellon	others	mellon|carnegi|will|true|false|false|false|false|false|false|false|false|NNP
+will	others	will|mellon|be|false|false|false|false|false|false|false|false|false|MD
+be	others	be|will|visit|false|false|false|false|false|false|false|false|false|VB
+visiting	others	visit|be|the|false|false|false|false|false|false|false|false|false|VBG
+the	others	the|visit|heinz|false|false|false|false|false|false|false|false|false|DT
+Heinz	others	heinz|the|school|true|false|false|false|false|false|false|false|false|NNP
+School	others	school|heinz|tomorrow|true|false|false|false|false|false|false|false|false|NNP
+tomorrow	others	tomorrow|school|_end_|false|false|false|false|false|false|false|false|true|NN
+
+She	others	she|_start_|will|true|false|false|false|false|false|false|false|false|PRP
+will	others	will|she|meet|false|false|false|false|false|false|false|false|false|MD
+meet	others	meet|will|inform|false|false|false|false|false|false|false|false|false|VB
+informally	others	inform|meet|with|false|false|false|false|false|false|false|false|false|RB
+with	others	with|inform|faculti|false|false|false|false|false|false|false|false|false|IN
+faculty	others	faculti|with|from|false|false|false|false|false|false|false|false|false|NN
+from	others	from|faculti|10:00|false|false|false|false|false|false|false|false|false|IN
+10:00	others	10:00|from|to|false|false|false|false|false|false|false|false|false|CD
+to	others	to|10:00|11:00|false|false|false|false|false|false|false|false|false|TO
+11:00	others	11:00|to|in|false|false|false|false|false|false|false|false|false|CD
+in	others	in|11:00|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|in|faculti|false|false|false|false|false|false|false|false|false|DT
+Faculty	others	faculti|the|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Lounge	others	loung|_start_|she|true|false|false|false|false|false|false|false|false|NN
+She	others	she|loung|will|true|false|false|false|false|false|false|false|false|PRP
+will	others	will|she|meet|false|false|false|false|false|false|false|false|false|MD
+meet	others	meet|will|inform|false|false|false|false|false|false|false|false|false|VB
+informally	others	inform|meet|with|false|false|false|false|false|false|false|false|false|RB
+with	others	with|inform|student|false|false|false|false|false|false|false|false|false|IN
+students	others	student|with|from|false|false|false|false|false|false|false|false|false|NNS
+from	others	from|student|11:00|false|false|false|false|false|false|false|false|false|IN
+11:00	others	11:00|from|to|false|false|false|false|false|false|false|false|false|CD
+to	others	to|11:00|12:00|false|false|false|false|false|false|false|false|false|TO
+12:00	others	12:00|to|in|false|false|false|false|false|false|false|false|false|CD
+in	others	in|12:00|_end_|false|false|false|false|false|false|false|false|false|IN
+
+Hamburg	location	hamburg|_start_|1001|true|false|false|false|false|false|false|false|false|NNP
+1001	location	1001|hamburg|the|false|false|false|false|false|false|false|false|true|CD
+The	others	the|1001|formal|true|false|false|false|false|false|false|false|false|DT
+formal	others	formal|the|seminar|false|false|false|false|false|false|false|false|false|JJ
+seminar	others	seminar|formal|the|false|false|false|false|false|false|false|false|false|NN
+The	others	the|seminar|green|true|false|false|false|false|false|false|false|false|DT
+Green	others	green|the|design|true|false|false|false|false|false|false|false|false|NNP
+Design	others	design|green|project|true|false|false|false|false|false|false|false|false|NNP
+Project	others	project|design|at|true|false|false|false|false|false|false|false|false|NNP
+at	others	at|project|carnegi|false|false|false|false|false|false|false|false|false|IN
+Carnegie	others	carnegi|at|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Mellon	others	mellon|_start_|will|true|false|false|false|false|false|false|false|false|NNP
+will	others	will|mellon|run|false|false|false|false|false|false|false|false|false|MD
+run	others	run|will|from|false|false|false|false|false|false|false|false|false|VB
+from	others	from|run|12:30|false|false|false|false|false|false|false|false|false|IN
+12:30	stime	12:30|from|to|false|false|false|false|false|false|false|false|false|CD
+to	others	to|12:30|1:50|false|false|false|false|false|false|false|false|false|TO
+1:50	etime	1:50|to|in|false|false|false|false|false|false|false|false|false|CD
+in	others	in|1:50|the|false|false|false|false|false|false|false|false|false|IN
+the	location	the|in|auditorium|false|false|false|false|false|false|false|false|false|DT
+auditorium	location	auditorium|the|_end_|false|false|false|false|false|false|false|false|false|NN
+
+I	others	i|_start_|encourag|false|false|true|true|false|false|false|false|false|CD
+encourage	others	encourag|i|everyon|false|false|false|false|false|false|false|false|false|VBP
+everyone	others	everyon|encourag|to|false|false|false|false|false|false|false|false|false|NN
+to	others	to|everyon|attend|false|false|false|false|false|false|false|false|false|TO
+attend	others	attend|to|the|false|false|false|false|false|false|false|false|false|VB
+the	others	the|attend|seminar|false|false|false|false|false|false|false|false|false|DT
+seminar	others	seminar|the|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|seminar|learn|false|false|false|false|false|false|false|false|false|CC
+learn	others	learn|and|about|false|false|false|false|false|false|false|false|false|VB
+about	others	about|learn|thi|false|false|false|false|false|false|false|false|false|IN
+this	others	thi|about|major|false|false|false|false|false|false|false|false|false|DT
+major	others	major|thi|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+initiative	others	initi|_start_|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|initi|carnegi|false|false|false|false|false|false|false|false|false|IN
+Carnegie	others	carnegi|at|mellon|true|false|false|false|false|false|false|false|false|NNP
+Mellon	others	mellon|carnegi|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Erik	others	erik|_start_|devereux|true|false|false|false|false|true|false|false|false|NNP
+Devereux	others	devereux|erik|_end_|true|false|false|false|false|true|false|false|false|NNP
+

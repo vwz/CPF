@@ -1,0 +1,163 @@
+Type	others	type|_start_|cmu|true|false|false|false|false|false|false|false|false|NN
+cmu	others	cmu|type|c|false|false|false|false|false|false|false|false|false|NN
+cs	others	c|cmu|sc|false|false|false|false|false|false|false|false|false|NNS
+scs	others	sc|c|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+Topic	others	topic|_start_|soni|true|false|false|false|false|false|false|false|false|NN
+SONY	others	soni|topic|talk|false|true|false|true|false|false|false|false|false|NNP
+TALK	others	talk|soni|dr.|false|true|false|true|false|false|false|false|false|NNP
+Dr.	others	dr.|talk|seiichi|false|false|false|false|false|true|false|false|false|NNP
+Seiichi	others	seiichi|dr.|watanab|true|false|false|false|false|true|false|false|false|NNP
+Watanabe	others	watanab|seiichi|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+Dates	others	date|_start_|5-jun-92|true|false|false|false|false|false|false|false|false|NNS
+5-Jun-92	others	5-jun-92|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|2:30|true|false|false|false|false|false|false|false|false|NNP
+2:30	stime	2:30|time|pm|false|false|false|false|false|false|false|false|false|CD
+PM	stime	pm|2:30|_end_|false|true|false|true|false|false|false|false|false|NNP
+
+PostedBy	others	postedbi|_start_|copeta|false|false|false|false|true|false|false|false|false|NNP
+copetas	others	copeta|postedbi|on|false|false|false|false|false|false|false|false|false|NNS
+on	others	on|copeta|02-jun-92|false|false|false|false|false|false|false|false|false|IN
+02-Jun-92	others	02-jun-92|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|02-jun-92|12:52|false|false|false|false|false|false|false|false|false|IN
+12:52	others	12:52|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|12:52|gandalf.cs.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+GANDALF.CS.CMU.EDU	others	gandalf.cs.cmu.edu|from|-lrb-|false|false|false|false|false|false|false|false|false|NN
+-LRB-	others	-lrb-|gandalf.cs.cmu.edu|catherin|false|false|false|false|false|false|false|false|false|-LRB-
+Catherine	others	catherin|-lrb-|copeta|true|false|false|false|false|false|false|false|false|NNP
+Copetas	others	copeta|catherin|-rrb-|true|false|false|false|false|false|false|false|false|NNP
+-RRB-	others	-rrb-|copeta|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+SPECIAL	others	special|_start_|cit|false|true|false|true|false|false|false|false|false|JJ
+CIT	others	cit|special|seminar|false|true|false|true|false|false|false|false|false|NNP
+SEMINAR	others	seminar|cit|fridai|false|true|false|true|false|false|false|false|false|NN
+Friday	others	fridai|seminar|june|true|false|false|false|false|false|false|false|true|NNP
+June	others	june|fridai|5|true|false|false|false|false|false|false|false|true|NNP
+5	others	5|june|_end_|false|false|false|false|false|false|false|false|true|CD
+
+Sony	others	soni|_start_|corpor|true|false|false|false|false|false|false|false|false|NNP
+Corporation	others	corpor|soni|research|true|false|false|false|false|false|false|false|false|NNP
+Research	others	research|corpor|center|true|false|false|false|false|false|false|false|false|NNP
+Center	others	center|research|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+An	others	a|_start_|overview|true|false|false|false|false|false|false|false|false|DT
+Overview	others	overview|a|of|true|false|false|false|false|false|false|false|false|NN
+of	others	of|overview|recent|false|false|false|false|false|false|false|false|false|IN
+Recent	others	recent|of|research|true|false|false|false|false|false|false|false|false|JJ
+Research	others	research|recent|develop|true|false|false|false|false|false|false|false|false|NN
+Developments	others	develop|research|_end_|true|false|false|false|false|false|false|false|false|NNS
+
+at	others	at|_start_|soni|false|false|false|false|false|false|false|false|false|IN
+Sony	others	soni|at|'s|true|false|false|false|false|false|false|false|false|NNP
+'s	others	's|soni|research|false|false|false|false|false|false|false|false|false|POS
+Research	others	research|'s|center|true|false|false|false|false|false|false|false|false|NNP
+Center	others	center|research|in|true|false|false|false|false|false|false|false|false|NNP
+in	others	in|center|japan|false|false|false|false|false|false|false|false|false|IN
+Japan	others	japan|in|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Seminconductor	others	seminconductor|_start_|laser|true|false|false|false|false|false|false|false|false|NN
+laser	others	laser|seminconductor|diod|false|false|false|false|false|false|false|false|false|NN
+diodes	others	diod|laser|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+Magnetic	others	magnet|_start_|record|true|false|false|false|false|false|false|false|false|JJ
+recording	others	record|magnet|materi|false|false|false|false|false|false|false|false|false|NN
+materials	others	materi|record|for|false|false|false|false|false|false|false|false|false|NNS
+for	others	for|materi|high|false|false|false|false|false|false|false|false|false|IN
+high	others	high|for|densiti|false|false|false|false|false|false|false|false|false|JJ
+density	others	densiti|high|storag|false|false|false|false|false|false|false|false|false|NN
+storage	others	storag|densiti|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Lithium	others	lithium|_start_|ion|true|false|false|false|false|false|false|false|false|NN
+ion	others	ion|lithium|recharges|false|false|false|false|false|false|false|false|false|NN
+rechargesable	others	recharges|ion|batteri|false|false|false|false|false|false|false|false|false|JJ
+batteries	others	batteri|recharges|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+A	others	a|_start_|novel|false|false|true|true|false|false|false|false|false|DT
+novel	others	novel|a|laser|false|false|false|false|false|false|false|false|false|JJ
+laser	others	laser|novel|anneal|false|false|false|false|false|false|false|false|false|NN
+annealing	others	anneal|laser|process|false|false|false|false|false|false|false|false|false|NN
+process	others	process|anneal|for|false|false|false|false|false|false|false|false|false|NN
+for	others	for|process|function|false|false|false|false|false|false|false|false|false|IN
+functional	others	function|for|polysilicon|false|false|false|false|false|false|false|false|false|JJ
+polysilicon	others	polysilicon|function|_end_|false|false|false|false|false|false|false|false|false|NN
+
+devices	others	devic|_start_|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+Dr.	speaker	dr.|_start_|watanab|false|false|false|false|false|true|false|false|false|NNP
+Watanabe	speaker	watanab|dr.|be|true|false|false|false|false|true|false|false|false|NNP
+is	others	be|watanab|a|false|false|false|false|false|false|false|false|false|VBZ
+a	others	a|be|member|false|false|false|false|false|false|false|false|false|DT
+Member	others	member|a|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|member|soni|false|false|false|false|false|false|false|false|false|IN
+Sony	others	soni|of|corpor|true|false|false|false|false|false|false|false|false|NNP
+Corporation	others	corpor|soni|'s|true|false|false|false|false|false|false|false|false|NNP
+'s	others	's|corpor|board|false|false|false|false|false|false|false|false|false|POS
+Board	others	board|'s|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|board|director|false|false|false|false|false|false|false|false|false|IN
+Directors	others	director|of|and|true|false|false|false|false|false|false|false|false|NNS
+and	others	and|director|_end_|false|false|false|false|false|false|false|false|false|CC
+
+is	others	be|_start_|the|false|false|false|false|false|false|false|false|false|VBZ
+the	others	the|be|director|false|false|false|false|false|false|false|false|false|DT
+Director	others	director|the|of|true|false|false|false|false|false|false|false|false|NN
+of	others	of|director|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|of|soni|false|false|false|false|false|false|false|false|false|DT
+Sony	others	soni|the|research|true|false|false|false|false|false|false|false|false|NNP
+Research	others	research|soni|center|true|false|false|false|false|false|false|false|false|NNP
+Center	others	center|research|in|true|false|false|false|false|false|false|false|false|NNP
+in	others	in|center|tokyo|false|false|false|false|false|false|false|false|false|IN
+Tokyo	others	tokyo|in|he|true|false|false|false|false|false|false|false|false|NNP
+He	others	he|tokyo|have|true|false|false|false|false|false|false|false|false|PRP
+has	others	have|he|be|false|false|false|false|false|false|false|false|false|VBZ
+been	others	be|have|with|false|false|false|false|false|false|false|false|false|VBN
+with	others	with|be|_end_|false|false|false|false|false|false|false|false|false|IN
+
+Sony	others	soni|_start_|sinc|true|false|false|false|false|false|false|false|false|NNP
+since	others	sinc|soni|1967|false|false|false|false|false|false|false|false|false|IN
+1967	others	1967|sinc|dr.|false|false|false|false|false|false|false|false|true|CD
+Dr.	speaker	dr.|1967|watanab|false|false|false|false|false|true|false|false|false|NNP
+Watanabe	speaker	watanab|dr.|receiv|true|false|false|false|false|true|false|false|false|NNP
+received	others	receiv|watanab|he|false|false|false|false|false|false|false|false|false|VBD
+his	others	he|receiv|bachelor|false|false|false|false|false|false|false|false|false|PRP$
+bachelors	others	bachelor|he|master|false|false|false|false|false|false|false|false|false|NNS
+masters	others	master|bachelor|and|false|false|false|false|false|false|false|false|false|NNS
+and	others	and|master|_end_|false|false|false|false|false|false|false|false|false|CC
+
+doctoral	others	doctor|_start_|degre|false|false|false|false|false|false|false|false|false|JJ
+degrees	others	degre|doctor|in|false|false|false|false|false|false|false|false|false|NNS
+in	others	in|degre|engin|false|false|false|false|false|false|false|false|false|IN
+engineering	others	engin|in|from|false|false|false|false|false|false|false|false|false|NN
+from	others	from|engin|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|from|univers|false|false|false|false|false|false|false|false|false|DT
+University	others	univers|the|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|univers|tokyo|false|false|false|false|false|false|false|false|false|IN
+Tokyo	others	tokyo|of|he|true|false|false|false|false|false|false|false|false|NNP
+His	others	he|tokyo|_end_|true|false|false|false|false|false|false|false|false|PRP$
+
+primary	others	primari|_start_|area|false|false|false|false|false|false|false|false|false|JJ
+area	others	area|primari|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|area|interest|false|false|false|false|false|false|false|false|false|IN
+interest	others	interest|of|be|false|false|false|false|false|false|false|false|false|NN
+is	others	be|interest|high|false|false|false|false|false|false|false|false|false|VBZ
+high	others	high|be|frequenc|false|false|false|false|false|false|false|false|false|JJ
+frequency	others	frequenc|high|semiconductor|false|false|false|false|false|false|false|false|false|NN
+semiconductor	others	semiconductor|frequenc|devic|false|false|false|false|false|false|false|false|false|NN
+devices	others	devic|semiconductor|he|false|false|false|false|false|false|false|false|false|NNS
+He	others	he|devic|_end_|true|false|false|false|false|false|false|false|false|PRP
+
+recently	others	recent|_start_|publish|false|false|false|false|false|false|false|false|true|RB
+published	others	publish|recent|a|false|false|false|false|false|false|false|false|false|VBN
+a	others	a|publish|book|false|false|false|false|false|false|false|false|false|DT
+book	others	book|a|entitl|false|false|false|false|false|false|false|false|false|NN
+entitled	others	entitl|book|seminconductor|false|false|false|false|false|false|false|false|false|VBN
+Seminconductor	others	seminconductor|entitl|devic|true|false|false|false|false|false|false|false|false|NNP
+Devices	others	devic|seminconductor|for|true|false|false|false|false|false|false|false|false|NNP
+for	others	for|devic|electron|false|false|false|false|false|false|false|false|false|IN
+Electronic	others	electron|for|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Tuners	others	tuner|_start_|_end_|true|false|false|false|false|false|false|false|false|NNP
+

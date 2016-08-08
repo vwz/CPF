@@ -1,0 +1,79 @@
+Type	others	type|_start_|cmu|true|false|false|false|false|false|false|false|false|NN
+cmu	others	cmu|type|c|false|false|false|false|false|false|false|false|false|NN
+cs	others	c|cmu|sc|false|false|false|false|false|false|false|false|false|NNS
+scs	others	sc|c|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+Topic	others	topic|_start_|re|true|false|false|false|false|false|false|false|false|NN
+Re	others	re|topic|seminar|true|false|false|false|false|false|false|false|false|NNP
+Seminar	others	seminar|re|notic|true|false|false|false|false|false|false|false|false|NN
+notice	others	notic|seminar|-lrb-|false|false|false|false|false|false|false|false|false|NN
+-LRB-	others	-lrb-|notic|stc|false|false|false|false|false|false|false|false|false|-LRB-
+STC	others	stc|-lrb-|-rrb-|false|true|false|true|false|false|false|false|false|NN
+-RRB-	others	-rrb-|stc|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+Dates	others	date|_start_|6-dec-91|true|false|false|false|false|false|false|false|false|NNS
+6-Dec-91	others	6-dec-91|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|4:00|true|false|false|false|false|false|false|false|false|NNP
+4:00	stime	4:00|time|pm|false|false|false|false|false|false|false|false|false|CD
+PM	stime	pm|4:00|_end_|false|true|false|true|false|false|false|false|false|NN
+
+PostedBy	others	postedbi|_start_|vald|false|false|false|false|true|false|false|false|false|NNP
+valdes	others	vald|postedbi|on|false|false|false|false|false|false|false|false|false|NNS
+on	others	on|vald|05-dec-91|false|false|false|false|false|false|false|false|false|IN
+05-Dec-91	others	05-dec-91|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|05-dec-91|08:50|false|false|false|false|false|false|false|false|false|IN
+08:50	others	08:50|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|08:50|cs.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+CS.CMU.EDU	others	cs.cmu.edu|from|-lrb-|false|false|false|false|false|false|false|false|false|NNP
+-LRB-	others	-lrb-|cs.cmu.edu|raul|false|false|false|false|false|false|false|false|false|-LRB-
+Raul	others	raul|-lrb-|valdes-perez|true|false|false|false|false|false|false|false|false|NNP
+Valdes-Perez	others	valdes-perez|raul|-rrb-|false|false|false|false|false|false|false|false|false|NNP
+-RRB-	others	-rrb-|valdes-perez|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+The	others	the|_start_|talk|true|false|false|false|false|false|false|false|false|DT
+talk	others	talk|the|by|false|false|false|false|false|false|false|false|false|NN
+by	others	by|talk|jonathan|false|false|false|false|false|false|false|false|false|IN
+Jonathan	speaker	jonathan|by|minden|true|false|false|false|false|true|false|false|false|NNP
+Minden	speaker	minden|jonathan|be|true|false|false|false|false|true|false|false|false|NNP
+is	others	be|minden|at|false|false|false|false|false|false|false|false|false|VBZ
+at	others	at|be|4pm|false|false|false|false|false|false|false|false|false|IN
+4pm	stime	4pm|at|thi|false|false|false|false|false|false|false|false|false|JJ
+this	others	thi|4pm|fridai|false|false|false|false|false|false|false|false|true|DT
+Friday	others	fridai|thi|dec.|true|false|false|false|false|false|false|false|true|NNP
+Dec.	others	dec.|fridai|6|false|false|false|false|false|false|false|false|true|NNP
+6	others	6|dec.|_end_|false|false|false|false|false|false|false|false|true|CD
+
+in	others	in|_start_|448|false|false|false|false|false|false|false|false|false|IN
+448	location	448|in|mellon|false|false|false|false|false|false|false|false|false|CD
+Mellon	location	mellon|448|institut|true|false|false|false|false|false|false|false|false|NNP
+Institute	location	institut|mellon|the|true|false|false|false|false|false|false|false|false|NNP
+The	others	the|institut|mellon|true|false|false|false|false|false|false|false|false|DT
+Mellon	others	mellon|the|institut|true|false|false|false|false|false|false|false|false|NNP
+Institute	others	institut|mellon|be|true|false|false|false|false|false|false|false|false|NNP
+is	others	be|institut|the|false|false|false|false|false|false|false|false|false|VBZ
+the	others	the|be|massiv|false|false|false|false|false|false|false|false|false|DT
+massive	others	massiv|the|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+building	others	build|_start_|with|false|false|false|false|false|false|false|false|false|VBG
+with	others	with|build|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|with|tall|false|false|false|false|false|false|false|false|false|DT
+tall	others	tall|the|column|false|false|false|false|false|false|false|false|false|JJ
+columns	others	column|tall|on|false|false|false|false|false|false|false|false|false|NNS
+on	others	on|column|5th|false|false|false|false|false|false|false|false|false|IN
+5th	others	5th|on|avenu|false|false|false|false|false|false|false|false|false|JJ
+Avenue	others	avenu|5th|it|true|false|false|false|false|false|false|false|false|NNP
+it	others	it|avenu|hous|false|false|false|false|false|false|false|false|false|PRP
+houses	others	hous|it|_end_|false|false|false|false|false|false|false|false|false|VBZ
+
+Biology	others	biologi|_start_|chemistri|true|false|false|false|false|false|false|false|false|NN
+Chemistry	others	chemistri|biologi|pgh|true|false|false|false|false|false|false|false|false|NNP
+Pgh	others	pgh|chemistri|supercomput|true|false|false|false|false|false|false|false|false|NNP
+Supercomputing	others	supercomput|pgh|center|true|false|false|false|false|false|false|false|false|NNP
+Center	others	center|supercomput|etc|true|false|false|false|false|false|false|false|false|NNP
+etc	others	etc|center|_end_|false|false|false|false|false|false|false|false|false|FW
+
+Raul	others	raul|_start_|_end_|true|false|false|false|false|true|false|false|false|NNP
+

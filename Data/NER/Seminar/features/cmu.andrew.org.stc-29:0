@@ -1,0 +1,88 @@
+Type	others	type|_start_|cmu.andrew.org|true|false|false|false|false|false|false|false|false|NN
+cmu.andrew.org	others	cmu.andrew.org|type|stc|false|false|false|false|false|false|false|false|false|NN
+stc	others	stc|cmu.andrew.org|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Topic	others	topic|_start_|seminar|true|false|false|false|false|false|false|false|false|NN
+SEMINARS	others	seminar|topic|_end_|false|true|false|true|false|false|false|false|false|NNS
+
+Dates	others	date|_start_|8-aug-95|true|false|false|false|false|false|false|false|false|NNS
+8-Aug-95	others	8-aug-95|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|4:00|true|false|false|false|false|false|false|false|false|NNP
+4:00	stime	4:00|time|pm|false|false|false|false|false|false|false|false|false|CD
+PM	stime	pm|4:00|_end_|false|true|false|true|false|false|false|false|false|NN
+
+PostedBy	others	postedbi|_start_|sandra|false|false|false|false|true|false|false|false|false|NNP
+Sandra	others	sandra|postedbi|m|true|false|false|false|false|true|false|false|false|NNP
+M	others	m|sandra|sherman|false|false|true|true|false|true|false|false|false|NNP
+Sherman	others	sherman|m|on|true|false|false|false|false|true|false|false|false|NNP
+on	others	on|sherman|4-aug-95|false|false|false|false|false|false|false|false|false|IN
+4-Aug-95	others	4-aug-95|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|4-aug-95|11:50|false|false|false|false|false|false|false|false|false|IN
+11:50	others	11:50|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|11:50|andrew.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+andrew.cmu.edu	others	andrew.cmu.edu|from|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+Please	others	pleas|_start_|make|true|false|false|false|false|false|false|false|false|VB
+make	others	make|pleas|note|false|false|false|false|false|false|false|false|false|VB
+note	others	note|make|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|note|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|of|follow|false|false|false|false|false|false|false|false|false|DT
+following	others	follow|the|seminar|false|false|false|false|false|false|false|false|false|VBG
+seminars	others	seminar|follow|take|false|false|false|false|false|false|false|false|false|NNS
+taking	others	take|seminar|place|false|false|false|false|false|false|false|false|false|VBG
+place	others	place|take|over|false|false|false|false|false|false|false|false|false|NN
+over	others	over|place|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|over|next|false|false|false|false|false|false|false|false|false|DT
+next	others	next|the|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+two	others	two|_start_|week|false|false|false|false|false|false|false|false|false|CD
+weeks	others	week|two|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+CMU\/PITT	others	cmu\/pitt|_start_|physic|false|false|false|false|false|false|false|false|false|NN
+PHYSICS	others	physic|cmu\/pitt|seminar|false|true|false|true|false|false|false|false|false|NN
+SEMINAR	others	seminar|physic|and|false|true|false|true|false|false|false|false|false|NN
+AND	others	and|seminar|colloquium|false|true|false|true|false|false|false|false|false|CC
+COLLOQUIUM	others	colloquium|and|schedul|false|true|false|true|false|false|false|false|false|NN
+SCHEDULE	others	schedul|colloquium|_end_|false|true|false|true|false|false|false|false|false|NN
+
+TUESDAY	others	tuesdai|_start_|aug.|false|true|false|true|false|false|false|false|true|NNP
+AUG.	others	aug.|tuesdai|8|false|false|false|false|false|false|false|false|true|NNP
+8	others	8|aug.|_end_|false|false|false|false|false|false|false|false|true|CD
+
+Special	others	special|_start_|high|true|false|false|false|false|false|false|false|false|JJ
+High	others	high|special|energi|true|false|false|false|false|false|false|false|false|NNP
+Energy	others	energi|high|seminar|true|false|false|false|false|false|false|false|false|NNP
+Seminar	others	seminar|energi|steve|true|false|false|false|false|false|false|false|false|NNP
+Steve	speaker	steve|seminar|blusk|true|false|false|false|false|true|false|false|false|NNP
+Blusk	speaker	blusk|steve|univers|true|false|false|false|false|true|false|false|false|NNP
+University	others	univers|blusk|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|univers|pittsburgh|false|false|false|false|false|false|false|false|false|IN
+Pittsburgh	others	pittsburgh|of|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Production	others	product|_start_|of|true|false|false|false|false|false|false|false|false|NN
+of	others	of|product|charm|false|false|false|false|false|false|false|false|false|IN
+Charm	others	charm|of|meson|true|false|false|false|false|false|false|false|false|NN
+Mesons	others	meson|charm|at|true|false|false|false|false|false|false|false|false|NNS
+at	others	at|meson|high|false|false|false|false|false|false|false|false|false|IN
+High	others	high|at|transvers|true|false|false|false|false|false|false|false|false|JJ
+Transverse	others	transvers|high|momentum|true|false|false|false|false|false|false|false|false|JJ
+Momentum	others	momentum|transvers|in|true|false|false|false|false|false|false|false|false|NN
+in	others	in|momentum|515|false|false|false|false|false|false|false|false|false|IN
+515	others	515|in|gev\/c|false|false|false|false|false|false|false|false|false|CD
+GeV\/c	others	gev\/c|515|_end_|false|false|false|false|false|false|false|false|false|NN
+
+-LCB-	others	-lcb-|_start_|piminu|false|false|false|false|false|false|false|false|false|-LRB-
+piminus	others	piminu|-lcb-|-rcb-|false|false|false|false|false|false|false|false|false|NN
+-RCB-	others	-rcb-|piminu|nucelon|false|false|false|false|false|false|false|false|false|-RRB-
+Nucelon	others	nucelon|-rcb-|collis|true|false|false|false|false|false|false|false|false|NNP
+Collisions	others	collis|nucelon|4:00|true|false|false|false|false|false|false|false|false|NNP
+4:00	others	4:00|collis|pm|false|false|false|false|false|false|false|false|false|CD
+pm	others	pm|4:00|316|false|false|false|false|false|false|false|false|false|NN
+316	location	316|pm|allen|false|false|false|false|false|false|false|false|false|CD
+Allen	location	allen|316|hall|true|false|false|false|false|true|false|false|false|NNP
+Hall	location	hall|allen|pitt|true|false|false|false|false|true|false|false|false|NNP
+Pitt	location	pitt|hall|_end_|true|false|false|false|false|true|false|false|false|NNP
+

@@ -1,0 +1,168 @@
+Type	others	type|_start_|cmu.andrew.org|true|false|false|false|false|false|false|false|false|NN
+cmu.andrew.org	others	cmu.andrew.org|type|heinz|false|false|false|false|false|false|false|false|false|NN
+heinz	others	heinz|cmu.andrew.org|mam|false|false|false|false|false|false|false|false|false|NN
+mam	others	mam|heinz|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Topic	others	topic|_start_|hirokazu|true|false|false|false|false|false|false|false|false|NN
+Hirokazu	speaker	hirokazu|topic|fukawa|true|false|false|false|false|true|false|false|false|NNP
+Fukawa	speaker	fukawa|hirokazu|lectur|true|false|false|false|false|true|false|false|false|NNP
+Lecture	others	lectur|fukawa|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Dates	others	date|_start_|15-sep-92|true|false|false|false|false|false|false|false|false|NNS
+15-Sep-92	others	15-sep-92|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|5:00|true|false|false|false|false|false|false|false|false|NNP
+5:00	stime	5:00|time|pm|false|false|false|false|false|false|false|false|false|CD
+PM	stime	pm|5:00|_end_|false|true|false|true|false|false|false|false|false|NNP
+
+PostedBy	others	postedbi|_start_|saul|false|false|false|false|true|false|false|false|false|NNP
+Saul	others	saul|postedbi|markowitz|true|false|false|false|false|true|false|false|false|NNP
+Markowitz	others	markowitz|saul|on|true|false|false|false|false|true|false|false|false|NNP
+on	others	on|markowitz|14-sep-92|false|false|false|false|false|false|false|false|false|IN
+14-Sep-92	others	14-sep-92|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|14-sep-92|11:15|false|false|false|false|false|false|false|false|false|IN
+11:15	others	11:15|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|11:15|andrew.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+andrew.cmu.edu	others	andrew.cmu.edu|from|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+The	others	the|_start_|1992-23|true|false|false|false|false|false|false|false|false|DT
+1992-23	others	1992-23|the|art|false|false|false|false|false|false|false|false|false|CD
+Art	others	art|1992-23|depart|true|false|false|false|false|false|false|false|false|NNP
+Department	others	depart|art|lectur|true|false|false|false|false|false|false|false|false|NNP
+Lecture	others	lectur|depart|seri|true|false|false|false|false|false|false|false|false|NNP
+Series	others	seri|lectur|open|true|false|false|false|false|false|false|false|false|NNP
+opens	others	open|seri|on|false|false|false|false|false|false|false|false|false|VBZ
+on	others	on|open|tuesdai|false|false|false|false|false|false|false|false|false|IN
+Tuesday	others	tuesdai|on|sept.|true|false|false|false|false|false|false|false|true|NNP
+Sept.	others	sept.|tuesdai|15|false|false|false|false|false|false|false|false|true|NNP
+15	others	15|sept.|_end_|false|false|false|false|false|false|false|false|true|CD
+
+with	others	with|_start_|art|false|false|false|false|false|false|false|false|false|IN
+Art	others	art|with|depart|true|false|false|false|false|false|false|false|false|NNP
+Department	others	depart|art|visit|true|false|false|false|false|false|false|false|false|NNP
+visiting	others	visit|depart|professor|false|false|false|false|false|false|false|false|false|VBG
+professor	others	professor|visit|hirokazu|false|false|false|false|false|true|false|false|false|NN
+Hirokazu	speaker	hirokazu|professor|fukawa|true|false|false|false|false|true|false|false|false|NNP
+Fukawa	speaker	fukawa|hirokazu|he|true|false|false|false|false|true|false|false|false|NNP
+His	others	he|fukawa|_end_|true|false|false|false|false|false|false|false|false|PRP$
+
+performances	others	perform|_start_|instal|false|false|false|false|false|false|false|false|false|NNS
+installations	others	instal|perform|and|false|false|false|false|false|false|false|false|false|NNS
+and	others	and|instal|sculptur|false|false|false|false|false|false|false|false|false|CC
+sculpture	others	sculptur|and|be|false|false|false|false|false|false|false|false|false|NN
+are	others	be|sculptur|gener|false|false|false|false|false|false|false|false|false|VBP
+generated	others	gener|be|from|false|false|false|false|false|false|false|false|false|VBN
+from	others	from|gener|_end_|false|false|false|false|false|false|false|false|false|IN
+
+inter-cultural	others	inter-cultur|_start_|experi|false|false|false|false|false|false|false|false|false|JJ
+experiences	others	experi|inter-cultur|and|false|false|false|false|false|false|false|false|false|NNS
+and	others	and|experi|often|false|false|false|false|false|false|false|false|false|CC
+often	others	often|and|respond|false|false|false|false|false|false|false|false|false|RB
+respond	others	respond|often|to|false|false|false|false|false|false|false|false|false|VBP
+to	others	to|respond|he|false|false|false|false|false|false|false|false|false|TO
+his	others	he|to|immedi|false|false|false|false|false|false|false|false|false|PRP$
+immediate	others	immedi|he|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+environment	others	environ|_start_|fukawa|false|false|false|false|false|false|false|false|false|NN
+Fukawa	speaker	fukawa|environ|have|true|false|false|false|false|true|false|false|false|NN
+has	others	have|fukawa|work|false|false|false|false|false|false|false|false|false|VBZ
+worked	others	work|have|both|false|false|false|false|false|false|false|false|false|VBN
+both	others	both|work|alon|false|false|false|false|false|false|false|false|false|DT
+alone	others	alon|both|and|false|false|false|false|false|false|false|false|false|RB
+and	others	and|alon|collabor|false|false|false|false|false|false|false|false|false|CC
+collaboratively	others	collabor|and|_end_|false|false|false|false|false|false|false|false|false|RB
+
+combining	others	combin|_start_|natur|false|false|false|false|false|false|false|false|false|VBG
+natural	others	natur|combin|materi|false|false|false|false|false|false|false|false|false|JJ
+materials	others	materi|natur|with|false|false|false|false|false|false|false|false|false|NNS
+with	others	with|materi|man-mad|false|false|false|false|false|false|false|false|false|IN
+man-made	others	man-mad|with|materi|false|false|false|false|false|false|false|false|false|JJ
+materials	others	materi|man-mad|rang|false|false|false|false|false|false|false|false|false|NNS
+ranging	others	rang|materi|from|false|false|false|false|false|false|false|false|false|VBG
+from	others	from|rang|dry|false|false|false|false|false|false|false|false|false|IN
+dried	others	dry|from|_end_|false|false|false|false|false|false|false|false|false|VBN
+
+fish	others	fish|_start_|to|false|false|false|false|false|false|false|false|false|NN
+to	others	to|fish|fluoresc|false|false|false|false|false|false|false|false|false|TO
+fluorescent	others	fluoresc|to|light|false|false|false|false|false|false|false|false|false|JJ
+light	others	light|fluoresc|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|light|wood|false|false|false|false|false|false|false|false|false|CC
+wood	others	wood|and|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Fukawa	speaker	fukawa|_start_|grow|true|false|false|false|false|true|false|false|false|NN
+grew	others	grow|fukawa|up|false|false|false|false|false|false|false|false|false|VBD
+up	others	up|grow|in|false|false|false|false|false|false|false|false|false|RP
+in	others	in|up|japan|false|false|false|false|false|false|false|false|false|IN
+Japan	others	japan|in|where|true|false|false|false|false|false|false|false|false|NNP
+where	others	where|japan|he|false|false|false|false|false|false|false|false|false|WRB
+he	others	he|where|receiv|false|false|false|false|false|false|false|false|false|PRP
+received	others	receiv|he|degre|false|false|false|false|false|false|false|false|false|VBD
+degrees	others	degre|receiv|in|false|false|false|false|false|false|false|false|false|NNS
+in	others	in|degre|social|false|false|false|false|false|false|false|false|false|IN
+social	others	social|in|scienc|false|false|false|false|false|false|false|false|false|JJ
+science	others	scienc|social|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|scienc|_end_|false|false|false|false|false|false|false|false|false|CC
+
+graphic	others	graphic|_start_|design|false|false|false|false|false|false|false|false|false|JJ
+design	others	design|graphic|he|false|false|false|false|false|false|false|false|false|NN
+He	others	he|design|have|true|false|false|false|false|false|false|false|false|PRP
+has	others	have|he|studi|false|false|false|false|false|false|false|false|false|VBZ
+studied	others	studi|have|at|false|false|false|false|false|false|false|false|false|VBN
+at	others	at|studi|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|at|banff|false|false|false|false|false|false|false|false|false|DT
+Banff	others	banff|the|centr|true|false|false|false|false|false|false|false|false|NNP
+Centre	others	centr|banff|school|true|false|false|false|false|false|false|false|false|NNP
+School	others	school|centr|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|school|fine|false|false|false|false|false|false|false|false|false|IN
+Fine	others	fine|of|art|true|false|false|false|false|false|false|false|false|NNP
+Arts	others	art|fine|_end_|true|false|false|false|false|false|false|false|false|NNS
+
+in	others	in|_start_|canada|false|false|false|false|false|false|false|false|false|IN
+Canada	others	canada|in|and|true|false|false|false|false|false|false|false|false|NNP
+and	others	and|canada|receiv|false|false|false|false|false|false|false|false|false|CC
+received	others	receiv|and|he|false|false|false|false|false|false|false|false|false|VBD
+his	others	he|receiv|master|false|false|false|false|false|false|false|false|false|PRP$
+Master	others	master|he|of|true|false|false|false|false|true|false|false|false|NN
+of	others	of|master|fine|false|false|false|false|false|false|false|false|false|IN
+Fine	others	fine|of|art|true|false|false|false|false|false|false|false|false|JJ
+Arts	others	art|fine|in|true|false|false|false|false|false|false|false|false|NNS
+in	others	in|art|sculptur|false|false|false|false|false|false|false|false|false|IN
+sculpture	others	sculptur|in|from|false|false|false|false|false|false|false|false|false|NN
+from	others	from|sculptur|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|from|_end_|false|false|false|false|false|false|false|false|false|DT
+
+Rhode	others	rhode|_start_|island|true|false|false|false|false|false|false|false|false|NNP
+Island	others	island|rhode|school|true|false|false|false|false|false|false|false|false|NNP
+School	others	school|island|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|school|design|false|false|false|false|false|false|false|false|false|IN
+Design	others	design|of|in|true|false|false|false|false|false|false|false|false|NNP
+in	others	in|design|1990|false|false|false|false|false|false|false|false|false|IN
+1990	others	1990|in|he|false|false|false|false|false|false|false|false|true|CD
+His	others	he|1990|work|true|false|false|false|false|false|false|false|false|PRP$
+work	others	work|he|have|false|false|false|false|false|false|false|false|false|NN
+has	others	have|work|be|false|false|false|false|false|false|false|false|false|VBZ
+been	others	be|have|exhibit|false|false|false|false|false|false|false|false|false|VBN
+exhibited	others	exhibit|be|_end_|false|false|false|false|false|false|false|false|false|VBN
+
+throughout	others	throughout|_start_|north|false|false|false|false|false|false|false|false|false|IN
+North	others	north|throughout|america|true|false|false|false|false|false|false|false|false|NNP
+America	others	america|north|and|true|false|false|false|false|false|false|false|false|NNP
+and	others	and|america|japan|false|false|false|false|false|false|false|false|false|CC
+Japan	others	japan|and|and|true|false|false|false|false|false|false|false|false|NNP
+and	others	and|japan|he|false|false|false|false|false|false|false|false|false|CC
+he	others	he|and|current|false|false|false|false|false|false|false|false|false|PRP
+currently	others	current|he|have|false|false|false|false|false|false|false|false|true|RB
+has	others	have|current|a|false|false|false|false|false|false|false|false|false|VBZ
+an	others	a|have|instal|false|false|false|false|false|false|false|false|false|DT
+installation	others	instal|a|_end_|false|false|false|false|false|false|false|false|false|NN
+
+at	others	at|_start_|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|at|pittsburgh|false|false|false|false|false|false|false|false|false|DT
+Pittsburgh	others	pittsburgh|the|center|true|false|false|false|false|false|false|false|false|NNP
+Center	others	center|pittsburgh|for|true|false|false|false|false|false|false|false|false|NNP
+for	others	for|center|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|for|art|false|false|false|false|false|false|false|false|false|DT
+Arts	others	art|the|_end_|true|false|false|false|false|false|false|false|false|NNS
+

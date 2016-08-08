@@ -1,0 +1,114 @@
+Type	others	type|_start_|cmu|true|false|false|false|false|false|false|false|false|NN
+cmu	others	cmu|type|c|false|false|false|false|false|false|false|false|false|NN
+cs	others	c|cmu|robot|false|false|false|false|false|false|false|false|false|NNS
+robotics	others	robot|c|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+Topic	others	topic|_start_|robotics\/plan|true|false|false|false|false|false|false|false|false|NN
+Robotics\/Planning	others	robotics\/plan|topic|talk|false|false|false|false|false|false|false|false|false|NN
+Talk	others	talk|robotics\/plan|dan|true|false|false|false|false|false|false|false|false|NN
+Dan	others	dan|talk|koditschek|true|false|false|false|false|true|false|false|false|NNP
+Koditschek	others	koditschek|dan|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+Dates	others	date|_start_|16-apr-92|true|false|false|false|false|false|false|false|false|NNS
+16-Apr-92	others	16-apr-92|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|3:30|true|false|false|false|false|false|false|false|false|NNP
+3:30	stime	3:30|time|5:00|false|false|false|false|false|false|true|false|false|CD
+5:00	etime	5:00|3:30|pm|false|false|false|false|false|false|false|true|false|CD
+PM	etime	pm|5:00|_end_|false|true|false|true|false|false|false|false|false|NN
+
+PostedBy	others	postedbi|_start_|ssingh|false|false|false|false|true|false|false|false|false|NNP
+ssingh	others	ssingh|postedbi|on|false|false|false|false|false|false|false|false|false|NN
+on	others	on|ssingh|13-apr-92|false|false|false|false|false|false|false|false|false|IN
+13-Apr-92	others	13-apr-92|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|13-apr-92|11:10|false|false|false|false|false|false|false|false|false|IN
+11:10	others	11:10|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|11:10|h.gp.cs.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+H.GP.CS.CMU.EDU	others	h.gp.cs.cmu.edu|from|-lrb-|false|false|false|false|false|false|false|false|false|NN
+-LRB-	others	-lrb-|h.gp.cs.cmu.edu|sanjiv|false|false|false|false|false|false|false|false|false|-LRB-
+Sanjiv	others	sanjiv|-lrb-|singh|true|false|false|false|false|true|false|false|false|NNP
+Singh	others	singh|sanjiv|-rrb-|true|false|false|false|false|true|false|false|false|NNP
+-RRB-	others	-rrb-|singh|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+The	others	the|_start_|dynam|true|false|false|false|false|false|false|false|false|DT
+Dynamics	others	dynam|the|of|true|false|false|false|false|false|false|false|false|NNPS
+of	others	of|dynam|robot|false|false|false|false|false|false|false|false|false|IN
+Robot	others	robot|of|assembl|true|false|false|false|false|false|false|false|false|NNP
+Assembly	others	assembl|robot|problem|true|false|false|false|false|false|false|false|false|NNP
+Problems	others	problem|assembl|_end_|true|false|false|false|false|false|false|false|false|NNS
+
+Yale	others	yale|_start_|univers|true|false|false|false|false|false|false|false|false|NNP
+University	others	univers|yale|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Thursday	others	thursdai|_start_|apr|true|false|false|false|false|false|false|false|true|NNP
+Apr	others	apr|thursdai|16|true|false|false|false|false|false|false|false|true|NNP
+16	others	16|apr|_end_|false|false|false|false|false|false|false|false|true|CD
+
+Assembly	others	assembl|_start_|problem|true|false|false|false|false|false|false|false|false|NN
+problems	others	problem|assembl|aris|false|false|false|false|false|false|false|false|false|NNS
+arise	others	aris|problem|when|false|false|false|false|false|false|false|false|false|VBP
+when	others	when|aris|a|false|false|false|false|false|false|false|false|false|WRB
+a	others	a|when|robot|false|false|false|false|false|false|false|false|false|DT
+robot	others	robot|a|with|false|false|false|false|false|false|false|false|false|NN
+with	others	with|robot|rel|false|false|false|false|false|false|false|false|false|IN
+relatively	others	rel|with|few|false|false|false|false|false|false|false|false|false|RB
+few	others	few|rel|degre|false|false|false|false|false|false|false|false|false|JJ
+degrees	others	degre|few|of|false|false|false|false|false|false|false|false|false|NNS
+of	others	of|degre|actuat|false|false|false|false|false|false|false|false|false|IN
+actuated	others	actuat|of|_end_|false|false|false|false|false|false|false|false|false|VBN
+
+freedom	others	freedom|_start_|be|false|false|false|false|false|false|false|false|false|NN
+is	others	be|freedom|assign|false|false|false|false|false|false|false|false|false|VBZ
+assigned	others	assign|be|to|false|false|false|false|false|false|false|false|false|VBN
+to	others	to|assign|manipul|false|false|false|false|false|false|false|false|false|TO
+manipulate	others	manipul|to|a|false|false|false|false|false|false|false|false|false|VB
+an	others	a|manipul|environ|false|false|false|false|false|false|false|false|false|DT
+environment	others	environ|a|with|false|false|false|false|false|false|false|false|false|NN
+with	others	with|environ|rel|false|false|false|false|false|false|false|false|false|IN
+relatively	others	rel|with|mani|false|false|false|false|false|false|false|false|false|RB
+many	others	mani|rel|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+degrees	others	degre|_start_|of|false|false|false|false|false|false|false|false|false|NNS
+of	others	of|degre|unactu|false|false|false|false|false|false|false|false|false|IN
+unactuated	others	unactu|of|freedom|false|false|false|false|false|false|false|false|false|JJ
+freedom	others	freedom|unactu|thi|false|false|false|false|false|false|false|false|false|NN
+This	others	thi|freedom|talk|true|false|false|false|false|false|false|false|false|DT
+talk	others	talk|thi|review|false|false|false|false|false|false|false|false|false|NN
+reviews	others	review|talk|we|false|false|false|false|false|false|false|false|false|VBZ
+our	others	we|review|progress|false|false|false|false|false|false|false|false|false|PRP$
+progress	others	progress|we|in|false|false|false|false|false|false|false|false|false|NN
+in	others	in|progress|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|in|_end_|false|false|false|false|false|false|false|false|false|DT
+
+effort	others	effort|_start_|to|false|false|false|false|false|false|false|false|false|NN
+to	others	to|effort|pose|false|false|false|false|false|false|false|false|false|TO
+pose	others	pose|to|and|false|false|false|false|false|false|false|false|false|VB
+and	others	and|pose|solv|false|false|false|false|false|false|false|false|false|CC
+solve	others	solv|and|class|false|false|false|false|false|false|false|false|false|VB
+classes	others	class|solv|of|false|false|false|false|false|false|false|false|false|NNS
+of	others	of|class|such|false|false|false|false|false|false|false|false|false|IN
+such	others	such|of|problem|false|false|false|false|false|false|false|false|false|JJ
+problems	others	problem|such|within|false|false|false|false|false|false|false|false|false|NNS
+within	others	within|problem|a|false|false|false|false|false|false|false|false|false|IN
+a	others	a|within|framework|false|false|false|false|false|false|false|false|false|DT
+framework	others	framework|a|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|framework|_end_|false|false|false|false|false|false|false|false|false|IN
+
+autonomous	others	autonom|_start_|machin|false|false|false|false|false|false|false|false|false|JJ
+machine	others	machin|autonom|design|false|false|false|false|false|false|false|false|false|NN
+design	others	design|machin|that|false|false|false|false|false|false|false|false|false|NN
+that	others	that|design|emphas|false|false|false|false|false|false|false|false|false|WDT
+emphasizes	others	emphas|that|the|false|false|false|false|false|false|false|false|false|VBZ
+the	others	the|emphas|dynam|false|false|false|false|false|false|false|false|false|DT
+dynamical	others	dynam|the|natur|false|false|false|false|false|false|false|false|false|JJ
+nature	others	natur|dynam|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|natur|_end_|false|false|false|false|false|false|false|false|false|IN
+
+robot	others	robot|_start_|task|false|false|false|false|false|false|false|false|false|NN
+tasks	others	task|robot|and|false|false|false|false|false|false|false|false|false|NNS
+and	others	and|task|environ|false|false|false|false|false|false|false|false|false|CC
+environments	others	environ|and|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+

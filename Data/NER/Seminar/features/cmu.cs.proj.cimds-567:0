@@ -1,0 +1,106 @@
+Type	others	type|_start_|cmu|true|false|false|false|false|false|false|false|false|NN
+cmu	others	cmu|type|c|false|false|false|false|false|false|false|false|false|NN
+cs	others	c|cmu|proj|false|false|false|false|false|false|false|false|false|NNS
+proj	others	proj|c|cimd|false|false|false|false|false|false|false|false|false|NN
+cimds	others	cimd|proj|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+Who	others	who|_start_|steve|true|false|false|false|false|false|false|false|false|WP
+Steve	speaker	steve|who|smith|true|false|false|false|false|true|false|false|false|NNP
+Smith	speaker	smith|steve|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+Topic	others	topic|_start_|isis-3|true|false|false|false|false|false|false|false|false|NN
+ISIS-3	others	isis-3|topic|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Dates	others	date|_start_|15-feb-84|true|false|false|false|false|false|false|false|false|NNS
+15-Feb-84	others	15-feb-84|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|11:30|true|false|false|false|false|false|false|false|false|NNP
+11:30	stime	11:30|time|1:00|false|false|false|false|false|false|true|false|false|CD
+1:00	etime	1:00|11:30|_end_|false|false|false|false|false|false|false|true|false|CD
+
+PostedBy	others	postedbi|_start_|on|false|false|false|false|true|false|false|false|false|NNP
+on	others	on|postedbi|14-feb-84|false|false|false|false|false|false|false|false|false|IN
+14-Feb-84	others	14-feb-84|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|14-feb-84|09:16|false|false|false|false|false|false|false|false|false|IN
+09:16	others	09:16|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|09:16|_end_|false|false|false|false|false|false|false|false|false|IN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+ISL	others	isl|_start_|seminar|false|true|false|true|false|false|false|false|false|NNP
+SEMINAR	others	seminar|isl|wed|false|true|false|true|false|false|false|false|false|NNP
+Wed	others	wed|seminar|2\/15|true|false|false|false|false|false|false|false|true|VBD
+2\/15	others	2\/15|wed|11:30|false|false|false|false|false|false|false|false|false|CD
+11:30	stime	11:30|2\/15|1:00|false|false|false|false|false|false|true|false|false|CD
+1:00	etime	1:00|11:30|422|false|false|false|false|false|false|false|true|false|CD
+422	location	422|1:00|scaif|false|false|false|false|false|false|false|false|false|CD
+Scaife	location	scaif|422|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Speaker	others	speaker|_start_|steve|true|false|false|false|false|false|false|false|false|NNP
+Steve	speaker	steve|speaker|smith|true|false|false|false|false|true|false|false|false|NNP
+Smith	speaker	smith|steve|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+Topic	others	topic|_start_|isis-3|true|false|false|false|false|false|false|false|false|NN
+ISIS-3	others	isis-3|topic|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Abstract	others	abstract|_start_|thi|true|false|false|false|false|false|false|false|false|NNP
+This	others	thi|abstract|talk|true|false|false|false|false|false|false|false|false|DT
+talk	others	talk|thi|will|false|false|false|false|false|false|false|false|false|NN
+will	others	will|talk|focu|false|false|false|false|false|false|false|false|false|MD
+focus	others	focu|will|on|false|false|false|false|false|false|false|false|false|VB
+on	others	on|focu|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|on|current|false|false|false|false|false|false|false|false|false|DT
+current	others	current|the|issu|false|false|false|false|false|false|false|false|true|JJ
+issues	others	issu|current|surround|false|false|false|false|false|false|false|false|false|NNS
+surrounding	others	surround|issu|the|false|false|false|false|false|false|false|false|false|VBG
+the	others	the|surround|design|false|false|false|false|false|false|false|false|false|DT
+design	others	design|the|_end_|false|false|false|false|false|false|false|false|false|NN
+
+of	others	of|_start_|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|of|isis-3|false|false|false|false|false|false|false|false|false|DT
+ISIS-3	others	isis-3|the|job|false|false|false|false|false|false|false|false|false|NN
+job	others	job|isis-3|shop|false|false|false|false|false|false|false|false|false|NN
+shop	others	shop|job|schedul|false|false|false|false|false|false|false|false|false|NN
+scheduling	others	schedul|shop|system|false|false|false|false|false|false|false|false|false|NN
+system	others	system|schedul|i|false|false|false|false|false|false|false|false|false|NN
+I	others	i|system|will|false|false|true|true|false|false|false|false|false|PRP
+will	others	will|i|provid|false|false|false|false|false|false|false|false|false|MD
+provide	others	provid|will|a|false|false|false|false|false|false|false|false|false|VB
+an	others	a|provid|overview|false|false|false|false|false|false|false|false|false|DT
+overview	others	overview|a|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|overview|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|of|_end_|false|false|false|false|false|false|false|false|false|DT
+
+basic	others	basic|_start_|methodolog|false|false|false|false|false|false|false|false|false|JJ
+methodology	others	methodolog|basic|emploi|false|false|false|false|false|false|false|false|false|NN
+employed	others	emploi|methodolog|to|false|false|false|false|false|false|false|false|false|VBN
+to	others	to|emploi|gener|false|false|false|false|false|false|false|false|false|TO
+generate	others	gener|to|job|false|false|false|false|false|false|false|false|false|VB
+job	others	job|gener|shop|false|false|false|false|false|false|false|false|false|NN
+shop	others	shop|job|schedul|false|false|false|false|false|false|false|false|false|NN
+schedules	others	schedul|shop|indic|false|false|false|false|false|false|false|false|false|NNS
+indicate	others	indic|schedul|some|false|false|false|false|false|false|false|false|false|VBP
+some	others	some|indic|of|false|false|false|false|false|false|false|false|false|DT
+of	others	of|some|_end_|false|false|false|false|false|false|false|false|false|IN
+
+the	others	the|_start_|problem|false|false|false|false|false|false|false|false|false|DT
+problems	others	problem|the|that|false|false|false|false|false|false|false|false|false|NNS
+that	others	that|problem|remain|false|false|false|false|false|false|false|false|false|WDT
+remain	others	remain|that|unresolv|false|false|false|false|false|false|false|false|false|VBP
+unresolved	others	unresolv|remain|and|false|false|false|false|false|false|false|false|false|JJ
+and	others	and|unresolv|discuss|false|false|false|false|false|false|false|false|false|CC
+discuss	others	discuss|and|some|false|false|false|false|false|false|false|false|false|VB
+some	others	some|discuss|of|false|false|false|false|false|false|false|false|false|DT
+of	others	of|some|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|of|new|false|false|false|false|false|false|false|false|false|DT
+new	others	new|the|idea|false|false|false|false|false|false|false|false|false|JJ
+ideas	others	idea|new|we|false|false|false|false|false|false|false|false|false|NNS
+we	others	we|idea|be|false|false|false|false|false|false|false|false|false|PRP
+are	others	be|we|_end_|false|false|false|false|false|false|false|false|false|VBP
+
+exploring	others	explor|_start_|to|false|false|false|false|false|false|false|false|false|VBG
+to	others	to|explor|address|false|false|false|false|false|false|false|false|false|TO
+address	others	address|to|these|false|false|false|false|false|false|false|false|false|VB
+these	others	these|address|problem|false|false|false|false|false|false|false|false|false|DT
+problems	others	problem|these|_end_|false|false|false|false|false|false|false|false|false|NNS
+

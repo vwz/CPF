@@ -1,0 +1,359 @@
+Type	others	type|_start_|ai|true|false|false|false|false|false|false|false|false|NN
+AI	others	ai|type|seminar|false|true|false|true|false|false|false|false|false|NNP
+Seminar	others	seminar|ai|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Who	others	who|_start_|melvin|true|false|false|false|false|false|false|false|false|WP
+Melvin	speaker	melvin|who|montemerlo|true|false|false|false|false|true|false|false|false|NNP
+Montemerlo	speaker	montemerlo|melvin|nasa|true|false|false|false|false|true|false|false|false|NNP
+NASA	others	nasa|montemerlo|hq|false|true|false|true|false|false|false|false|false|NNP
+HQ	others	hq|nasa|_end_|false|true|false|true|false|false|false|false|false|NNP
+
+Topic	others	topic|_start_|nasa|true|false|false|false|false|false|false|false|false|NN
+NASA	others	nasa|topic|'s|false|true|false|true|false|false|false|false|false|NNP
+'s	others	's|nasa|artifici|false|false|false|false|false|false|false|false|false|POS
+Artificial	others	artifici|'s|intellig|true|false|false|false|false|false|false|false|false|NNP
+Intelligence	others	intellig|artifici|program|true|false|false|false|false|false|false|false|false|NNP
+Program	others	program|intellig|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Dates	others	date|_start_|12-apr-94|true|false|false|false|false|false|false|false|false|NNS
+12-Apr-94	others	12-apr-94|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|3:30|true|false|false|false|false|false|false|false|false|NNP
+3:30	stime	3:30|time|pm|false|false|false|false|false|false|false|false|false|CD
+PM	stime	pm|3:30|_end_|false|true|false|true|false|false|false|false|false|NN
+
+Place	others	place|_start_|5409|true|false|false|false|false|false|false|false|false|NN
+5409	location	5409|place|wean|false|false|false|false|false|false|false|false|true|CD
+Wean	location	wean|5409|hall|true|false|false|false|false|false|false|false|false|NNP
+Hall	location	hall|wean|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Duration	others	durat|_start_|1 1\/2|true|false|false|false|false|false|false|false|false|NN
+1 1\/2	others	1 1\/2|durat|hour|false|false|false|false|false|false|false|false|false|CD
+hours	others	hour|1 1\/2|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+Host	others	host|_start_|raul|true|false|false|false|false|false|false|false|false|NN
+Raul	others	raul|host|valdes-perez|true|false|false|false|false|true|false|false|false|NNP
+Valdes-Perez	others	valdes-perez|raul|_end_|false|false|false|false|false|true|false|false|false|NNP
+
+PostedBy	others	postedbi|_start_|plp|false|false|false|false|true|false|false|false|false|NNP
+plp	others	plp|postedbi|on|false|false|false|false|false|false|false|false|false|NN
+on	others	on|plp|6-apr-94|false|false|false|false|false|false|false|false|false|IN
+6-Apr-94	others	6-apr-94|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|6-apr-94|10:41|false|false|false|false|false|false|false|false|false|IN
+10:41	others	10:41|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|10:41|phyllis.adm.cs.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+PHYLLIS.ADM.CS.CMU.EDU	others	phyllis.adm.cs.cmu.edu|from|-lrb-|false|false|false|false|false|false|false|false|false|NN
+-LRB-	others	-lrb-|phyllis.adm.cs.cmu.edu|phylli|false|false|false|false|false|false|false|false|false|-LRB-
+Phyllis	others	phylli|-lrb-|pomerantz|true|false|false|false|false|true|false|false|false|NNP
+Pomerantz	others	pomerantz|phylli|-rrb-|true|false|false|false|false|true|false|false|false|NNP
+-RRB-	others	-rrb-|pomerantz|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+Type	others	type|_start_|ai|true|false|false|false|false|false|false|false|false|NN
+AI	others	ai|type|seminar|false|true|false|true|false|false|false|false|false|NNP
+Seminar	others	seminar|ai|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Who	others	who|_start_|melvin|true|false|false|false|false|false|false|false|false|WP
+Melvin	speaker	melvin|who|montemerlo|true|false|false|false|false|true|false|false|false|NNP
+Montemerlo	speaker	montemerlo|melvin|nasa|true|false|false|false|false|true|false|false|false|NNP
+NASA	others	nasa|montemerlo|hq|false|true|false|true|false|false|false|false|false|NNP
+HQ	others	hq|nasa|_end_|false|true|false|true|false|false|false|false|false|NNP
+
+Topic	others	topic|_start_|nasa|true|false|false|false|false|false|false|false|false|NN
+NASA	others	nasa|topic|'s|false|true|false|true|false|false|false|false|false|NNP
+'s	others	's|nasa|artifici|false|false|false|false|false|false|false|false|false|POS
+Artificial	others	artifici|'s|intellig|true|false|false|false|false|false|false|false|false|NNP
+Intelligence	others	intellig|artifici|program|true|false|false|false|false|false|false|false|false|NNP
+Program	others	program|intellig|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Dates	others	date|_start_|12-apr-94|true|false|false|false|false|false|false|false|false|NNS
+12-Apr-94	others	12-apr-94|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|3:30|true|false|false|false|false|false|false|false|false|NNP
+3:30	stime	3:30|time|p.|false|false|false|false|false|false|false|false|false|CD
+p.	stime	p.|3:30|m|false|false|false|false|false|false|false|false|false|NN
+m	stime	m|p.|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Place	others	place|_start_|5409|true|false|false|false|false|false|false|false|false|NN
+5409	location	5409|place|wean|false|false|false|false|false|false|false|false|true|CD
+Wean	location	wean|5409|hall|true|false|false|false|false|false|false|false|false|NNP
+Hall	location	hall|wean|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Duration	others	durat|_start_|1 1\/2|true|false|false|false|false|false|false|false|false|NN
+1 1\/2	others	1 1\/2|durat|hour|false|false|false|false|false|false|false|false|false|CD
+hours	others	hour|1 1\/2|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+Host	others	host|_start_|raul|true|false|false|false|false|false|false|false|false|NN
+Raul	others	raul|host|valdes-perez|true|false|false|false|false|true|false|false|false|NNP
+Valdes-Perez	others	valdes-perez|raul|_end_|false|false|false|false|false|true|false|false|false|NNP
+
+NASA	others	nasa|_start_|'s|false|true|false|true|false|false|false|false|false|NNP
+'s	others	's|nasa|artifici|false|false|false|false|false|false|false|false|false|POS
+Artificial	others	artifici|'s|intellig|true|false|false|false|false|false|false|false|false|NNP
+Intelligence	others	intellig|artifici|program|true|false|false|false|false|false|false|false|false|NNP
+Program	others	program|intellig|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Future	others	futur|_start_|direct|true|false|false|false|false|false|false|false|false|JJ
+Directions	others	direct|futur|and|true|false|false|false|false|false|false|false|false|NNS
+and	others	and|direct|the|false|false|false|false|false|false|false|false|false|CC
+the	others	the|and|univers|false|false|false|false|false|false|false|false|false|DT
+University	others	univers|the|role|true|false|false|false|false|false|false|false|false|NNP
+Role	others	role|univers|_end_|true|false|false|false|false|false|false|false|false|NN
+
+NASA	others	nasa|_start_|washington|false|true|false|true|false|false|false|false|false|NNP
+Washington	others	washington|nasa|d.c.|true|false|false|false|false|false|false|false|false|NNP
+D.C.	others	d.c.|washington|_end_|false|false|false|false|false|false|false|false|false|NNP
+
+The	others	the|_start_|goal|true|false|false|false|false|false|false|false|false|DT
+goal	others	goal|the|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|goal|my|false|false|false|false|false|false|false|false|false|IN
+my	others	my|of|talk|false|false|false|false|false|false|false|false|false|PRP$
+talk	others	talk|my|be|false|false|false|false|false|false|false|false|false|NN
+is	others	be|talk|to|false|false|false|false|false|false|false|false|false|VBZ
+to	others	to|be|help|false|false|false|false|false|false|false|false|false|TO
+help	others	help|to|the|false|false|false|false|false|false|false|false|false|VB
+the	others	the|help|cmu|false|false|false|false|false|false|false|false|false|DT
+CMU	others	cmu|the|commun|false|true|false|true|false|false|false|false|false|NNP
+community	others	commun|cmu|understand|false|false|false|false|false|false|false|false|false|NN
+understand	others	understand|commun|what|false|false|false|false|false|false|false|false|false|VB
+what	others	what|understand|it|false|false|false|false|false|false|false|false|false|WP
+it	others	it|what|_end_|false|false|false|false|false|false|false|false|false|PRP
+
+takes	others	take|_start_|to|false|false|false|false|false|false|false|false|false|VBZ
+to	others	to|take|keep|false|false|false|false|false|false|false|false|false|TO
+keep	others	keep|to|a|false|false|false|false|false|false|false|false|false|VB
+an	others	a|keep|r&d|false|false|false|false|false|false|false|false|false|DT
+R&D	others	r&d|a|program|false|false|false|false|false|false|false|false|false|NN
+program	others	program|r&d|aliv|false|false|false|false|false|false|false|false|false|NN
+alive	others	aliv|program|the|false|false|false|false|false|false|false|false|false|JJ
+The	others	the|aliv|case|true|false|false|false|false|false|false|false|false|DT
+case	others	case|the|studi|false|false|false|false|false|false|false|false|false|NN
+study	others	studi|case|be|false|false|false|false|false|false|false|false|false|NN
+is	others	be|studi|nasa|false|false|false|false|false|false|false|false|false|VBZ
+NASA	others	nasa|be|'s|false|true|false|true|false|false|false|false|false|NNP
+'s	others	's|nasa|ai|false|false|false|false|false|false|false|false|false|POS
+AI	others	ai|'s|_end_|false|true|false|true|false|false|false|false|false|NNP
+
+program	others	program|_start_|it|false|false|false|false|false|false|false|false|false|NN
+It	others	it|program|be|true|false|false|false|false|false|false|false|false|PRP
+is	others	be|it|10|false|false|false|false|false|false|false|false|false|VBZ
+10	others	10|be|year|false|false|false|false|false|false|false|false|false|CD
+years	others	year|10|old|false|false|false|false|false|false|false|false|false|NNS
+old	others	old|year|and|false|false|false|false|false|false|false|false|false|JJ
+and	others	and|old|have|false|false|false|false|false|false|false|false|false|CC
+has	others	have|and|grow|false|false|false|false|false|false|false|false|false|VBZ
+grown	others	grow|have|from|false|false|false|false|false|false|false|false|false|VBN
+from	others	from|grow|2m\/yr|false|false|false|false|false|false|false|false|false|IN
+2M\/yr	others	2m\/yr|from|to|false|false|false|false|false|false|false|false|false|JJ
+to	others	to|2m\/yr|18m\/yr|false|false|false|false|false|false|false|false|false|TO
+18M\/yr	others	18m\/yr|to|but|false|false|false|false|false|false|false|false|false|JJ
+but	others	but|18m\/yr|_end_|false|false|false|false|false|false|false|false|false|CC
+
+the	others	the|_start_|road|false|false|false|false|false|false|false|false|false|DT
+road	others	road|the|have|false|false|false|false|false|false|false|false|false|NN
+has	others	have|road|be|false|false|false|false|false|false|false|false|false|VBZ
+been	others	be|have|rocki|false|false|false|false|false|false|false|false|false|VBN
+rocky	others	rocki|be|and|false|false|false|false|false|false|false|false|false|JJ
+and	others	and|rocki|the|false|false|false|false|false|false|false|false|false|CC
+the	others	the|and|current|false|false|false|false|false|false|false|false|false|DT
+current	others	current|the|outlook|false|false|false|false|false|false|false|false|true|JJ
+outlook	others	outlook|current|be|false|false|false|false|false|false|false|false|false|NN
+is	others	be|outlook|anyth|false|false|false|false|false|false|false|false|false|VBZ
+anything	others	anyth|be|but|false|false|false|false|false|false|false|false|false|NN
+but	others	but|anyth|_end_|false|false|false|false|false|false|false|false|false|CC
+
+clear	others	clear|_start_|my|false|false|false|false|false|false|false|false|false|JJ
+My	others	my|clear|job|true|false|false|false|false|false|false|false|false|PRP$
+job	others	job|my|be|false|false|false|false|false|false|false|false|false|NN
+is	others	be|job|two-fold|false|false|false|false|false|false|false|false|false|VBZ
+two-fold	others	two-fold|be|to|false|false|false|false|false|false|false|false|false|RB
+to	others	to|two-fold|educ|false|false|false|false|false|false|false|false|false|TO
+educate	others	educ|to|the|false|false|false|false|false|false|false|false|false|VB
+the	others	the|educ|washington|false|false|false|false|false|false|false|false|false|DT
+Washington	others	washington|the|bureaucraci|true|false|false|false|false|false|false|false|false|NNP
+bureaucracy	others	bureaucraci|washington|as|false|false|false|false|false|false|false|false|false|NN
+as	others	as|bureaucraci|_end_|false|false|false|false|false|false|false|false|false|IN
+
+to	others	to|_start_|what|false|false|false|false|false|false|false|false|false|TO
+what	others	what|to|can|false|false|false|false|false|false|false|false|false|WP
+can	others	can|what|and|false|false|false|false|false|false|false|false|false|MD
+and	others	and|can|should|false|false|false|false|false|false|false|false|false|CC
+should	others	should|and|be|false|false|false|false|false|false|false|false|false|MD
+be	others	be|should|do|false|false|false|false|false|false|false|false|false|VB
+done	others	do|be|so|false|false|false|false|false|false|false|false|false|VBN
+so	others	so|do|that|false|false|false|false|false|false|false|false|false|RB
+that	others	that|so|thei|false|false|false|false|false|false|false|false|false|IN
+they	others	thei|that|will|false|false|false|false|false|false|false|false|false|PRP
+will	others	will|thei|place|false|false|false|false|false|false|false|false|false|MD
+place	others	place|will|good|false|false|false|false|false|false|false|false|false|VB
+good	others	good|place|and|false|false|false|false|false|false|false|false|false|JJ
+and	others	and|good|us|false|false|false|false|false|false|false|false|false|CC
+useful	others	us|and|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+constraints	others	constraint|_start_|on|false|false|false|false|false|false|false|false|false|NNS
+on	others	on|constraint|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|on|program|false|false|false|false|false|false|false|false|false|DT
+program	others	program|the|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|program|to|false|false|false|false|false|false|false|false|false|CC
+to	others	to|and|propag|false|false|false|false|false|false|false|false|false|TO
+propagate	others	propag|to|those|false|false|false|false|false|false|false|false|false|VB
+those	others	those|propag|constraint|false|false|false|false|false|false|false|false|false|DT
+constraints	others	constraint|those|to|false|false|false|false|false|false|false|false|false|NNS
+to	others	to|constraint|_end_|false|false|false|false|false|false|false|false|false|TO
+
+those	others	those|_start_|who|false|false|false|false|false|false|false|false|false|DT
+who	others	who|those|carri|false|false|false|false|false|false|false|false|false|WP
+carry	others	carri|who|out|false|false|false|false|false|false|false|false|false|VBP
+out	others	out|carri|the|false|false|false|false|false|false|false|false|false|RP
+the	others	the|out|program|false|false|false|false|false|false|false|false|false|DT
+program	others	program|the|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|program|help|false|false|false|false|false|false|false|false|false|CC
+help	others	help|and|thei|false|false|false|false|false|false|false|false|false|VB
+them	others	thei|help|understand|false|false|false|false|false|false|false|false|false|PRP
+understand	others	understand|thei|what|false|false|false|false|false|false|false|false|false|VB
+what	others	what|understand|the|false|false|false|false|false|false|false|false|false|WP
+the	others	the|what|_end_|false|false|false|false|false|false|false|false|false|DT
+
+constraints	others	constraint|_start_|be|false|false|false|false|false|false|false|false|false|NNS
+are	others	be|constraint|and|false|false|false|false|false|false|false|false|false|VBP
+and	others	and|be|why|false|false|false|false|false|false|false|false|false|CC
+why	others	why|and|thei|false|false|false|false|false|false|false|false|false|WRB
+they	others	thei|why|be|false|false|false|false|false|false|false|false|false|PRP
+were	others	be|thei|make|false|false|false|false|false|false|false|false|false|VBD
+made	others	make|be|what|false|false|false|false|false|false|false|false|false|VBN
+What	others	what|make|be|true|false|false|false|false|false|false|false|false|WP
+are	others	be|what|those|false|false|false|false|false|false|false|false|false|VBP
+those	others	those|be|constraint|false|false|false|false|false|false|false|false|false|DT
+constraints	others	constraint|those|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+How	others	how|_start_|have|true|false|false|false|false|false|false|false|false|WRB
+have	others	have|how|thei|false|false|false|false|false|false|false|false|false|VBP
+they	others	thei|have|chang|false|false|false|false|false|false|false|false|false|PRP
+changed	others	chang|thei|over|false|false|false|false|false|false|false|false|false|VBD
+over	others	over|chang|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|over|year|false|false|false|false|false|false|false|false|false|DT
+years	others	year|the|what|false|false|false|false|false|false|false|false|false|NNS
+What	others	what|year|do|true|false|false|false|false|false|false|false|false|WP
+does	others	do|what|the|false|false|false|false|false|false|false|false|false|VBZ
+the	others	the|do|near|false|false|false|false|false|false|false|false|true|DT
+near	others	near|the|futur|false|false|false|false|false|false|false|false|true|JJ
+future	others	futur|near|look|false|false|false|false|false|false|false|false|true|JJ
+look	others	look|futur|_end_|false|false|false|false|false|false|false|false|false|NN
+
+like	others	like|_start_|what|false|false|false|false|false|false|false|false|false|IN
+What	others	what|like|role|true|false|false|false|false|false|false|false|false|WP
+roles	others	role|what|have|false|false|false|false|false|false|false|false|false|NNS
+have	others	have|role|univers|false|false|false|false|false|false|false|false|false|VBP
+university	others	univers|have|research|false|false|false|false|false|false|false|false|false|NN
+researchers	others	research|univers|plai|false|false|false|false|false|false|false|false|false|NNS
+played	others	plai|research|in|false|false|false|false|false|false|false|false|false|VBN
+in	others	in|plai|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|in|program|false|false|false|false|false|false|false|false|false|DT
+program	others	program|the|_end_|false|false|false|false|false|false|false|false|false|NN
+
+and	others	and|_start_|what|false|false|false|false|false|false|false|false|false|CC
+what	others	what|and|role|false|false|false|false|false|false|false|false|false|WP
+roles	others	role|what|might|false|false|false|false|false|false|false|false|false|NNS
+might	others	might|role|thei|false|false|false|false|false|false|false|false|false|MD
+they	others	thei|might|plai|false|false|false|false|false|false|false|false|false|PRP
+play	others	plai|thei|in|false|false|false|false|false|false|false|false|false|VB
+in	others	in|plai|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|in|futur|false|false|false|false|false|false|false|false|true|DT
+future	others	futur|the|_end_|false|false|false|false|false|false|false|false|true|JJ
+
+This	others	thi|_start_|will|true|false|false|false|false|false|false|false|false|DT
+will	others	will|thi|not|false|false|false|false|false|false|false|false|false|MD
+not	others	not|will|be|false|false|false|false|false|false|false|false|false|RB
+be	others	be|not|a|false|false|false|false|false|false|false|false|false|VB
+a	others	a|be|technic|false|false|false|false|false|false|false|false|false|DT
+technical	others	technic|a|talk|false|false|false|false|false|false|false|false|false|JJ
+talk	others	talk|technic|i|false|false|false|false|false|false|false|false|false|NN
+I	others	i|talk|will|false|false|true|true|false|false|false|false|false|PRP
+will	others	will|i|describ|false|false|false|false|false|false|false|false|false|MD
+describe	others	describ|will|some|false|false|false|false|false|false|false|false|false|VB
+some	others	some|describ|of|false|false|false|false|false|false|false|false|false|DT
+of	others	of|some|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|of|thing|false|false|false|false|false|false|false|false|false|DT
+things	others	thing|the|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+we	others	we|_start_|have|false|false|false|false|false|false|false|false|false|PRP
+have	others	have|we|do|false|false|false|false|false|false|false|false|false|VBP
+done	others	do|have|successfulli|false|false|false|false|false|false|false|false|false|VBN
+successfully	others	successfulli|do|and|false|false|false|false|false|false|false|false|false|RB
+and	others	and|successfulli|unsuccessfulli|false|false|false|false|false|false|false|false|false|CC
+unsuccessfully	others	unsuccessfulli|and|in|false|false|false|false|false|false|false|false|false|RB
+in	others	in|unsuccessfulli|order|false|false|false|false|false|false|false|false|false|IN
+order	others	order|in|to|false|false|false|false|false|false|false|false|false|NN
+to	others	to|order|get|false|false|false|false|false|false|false|false|false|TO
+get	others	get|to|across|false|false|false|false|false|false|false|false|false|VB
+across	others	across|get|_end_|false|false|false|false|false|false|false|false|false|IN
+
+some	others	some|_start_|lesson|false|false|false|false|false|false|false|false|false|DT
+lessons	others	lesson|some|learn|false|false|false|false|false|false|false|false|false|NNS
+learned	others	learn|lesson|in|false|false|false|false|false|false|false|false|false|VBD
+in	others	in|learn|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|in|past|false|false|false|false|false|false|false|false|false|DT
+past	others	past|the|decad|false|false|false|false|false|false|false|false|false|JJ
+decade	others	decad|past|_end_|false|false|false|false|false|false|false|false|false|NN
+
+There	others	there|_start_|be|true|false|false|false|false|false|false|false|false|EX
+are	others	be|there|some|false|false|false|false|false|false|false|false|false|VBP
+some	others	some|be|signific|false|false|false|false|false|false|false|false|false|DT
+significant	others	signific|some|sign|false|false|false|false|false|false|false|false|false|JJ
+signs	others	sign|signific|that|false|false|false|false|false|false|false|false|false|NNS
+that	others	that|sign|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|that|futur|false|false|false|false|false|false|false|false|true|DT
+future	others	futur|the|will|false|false|false|false|false|false|false|false|true|NN
+will	others	will|futur|see|false|false|false|false|false|false|false|false|false|MD
+see	others	see|will|differ|false|false|false|false|false|false|false|false|false|VB
+different	others	differ|see|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+approaches	others	approach|_start_|to|false|false|false|false|false|false|false|false|false|NNS
+to	others	to|approach|get|false|false|false|false|false|false|false|false|false|TO
+getting	others	get|to|research|false|false|false|false|false|false|false|false|false|VBG
+research	others	research|get|fund|false|false|false|false|false|false|false|false|false|NN
+funding	others	fund|research|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|fund|carri|false|false|false|false|false|false|false|false|false|CC
+carrying	others	carri|and|out|false|false|false|false|false|false|false|false|false|VBG
+out	others	out|carri|research|false|false|false|false|false|false|false|false|false|RP
+research	others	research|out|in|false|false|false|false|false|false|false|false|false|NN
+in	others	in|research|_end_|false|false|false|false|false|false|false|false|false|IN
+
+universities	others	univers|_start_|i|false|false|false|false|false|false|false|false|false|NNS
+I	others	i|univers|'ll|false|false|true|true|false|false|false|false|false|PRP
+'ll	others	'll|i|discuss|false|false|false|false|false|false|false|false|false|MD
+discuss	others	discuss|'ll|those|false|false|false|false|false|false|false|false|false|VB
+those	others	those|discuss|sign|false|false|false|false|false|false|false|false|false|DT
+signs	others	sign|those|and|false|false|false|false|false|false|false|false|false|NNS
+and	others	and|sign|open|false|false|false|false|false|false|false|false|false|CC
+open	others	open|and|thing|false|false|false|false|false|false|false|false|false|JJ
+things	others	thing|open|up|false|false|false|false|false|false|false|false|false|NNS
+up	others	up|thing|to|false|false|false|false|false|false|false|false|false|RP
+to	others	to|up|_end_|false|false|false|false|false|false|false|false|false|TO
+
+interactive	others	interact|_start_|discuss|false|false|false|false|false|false|false|false|false|JJ
+discussion	others	discuss|interact|_end_|false|false|false|false|false|false|false|false|false|NN
+
+FurtherDetails	others	furtherdetail|_start_|for|false|false|false|false|false|false|false|false|false|NNP
+For	others	for|furtherdetail|appoint|true|false|false|false|false|false|false|false|false|IN
+appointments	others	appoint|for|phylli|false|false|false|false|false|false|false|false|false|NNS
+Phyllis	others	phylli|appoint|pomerantz|true|false|false|false|false|true|false|false|false|NNP
+Pomerantz	others	pomerantz|phylli|-lrb-|true|false|false|false|false|true|false|false|false|NNP
+-LRB-	others	-lrb-|pomerantz|plp@c|false|false|false|false|false|false|false|false|false|-LRB-
+plp@cs	others	plp@c|-lrb-|-rrb-|false|false|false|false|false|false|false|false|false|NNS
+-RRB-	others	-rrb-|plp@c|or|false|false|false|false|false|false|false|false|false|-RRB-
+or	others	or|-rrb-|x8-7897|false|false|false|false|false|false|false|false|false|CC
+X8-7897	others	x8-7897|or|_end_|false|false|false|false|false|false|false|false|false|NN
+
+FurtherDetails	others	furtherdetail|_start_|for|false|false|false|false|false|false|false|false|false|NNP
+For	others	for|furtherdetail|appoint|true|false|false|false|false|false|false|false|false|IN
+appointments	others	appoint|for|phylli|false|false|false|false|false|false|false|false|false|NNS
+Phyllis	others	phylli|appoint|pomerantz|true|false|false|false|false|true|false|false|false|NNP
+Pomerantz	others	pomerantz|phylli|-lrb-|true|false|false|false|false|true|false|false|false|NNP
+-LRB-	others	-lrb-|pomerantz|plp@c|false|false|false|false|false|false|false|false|false|-LRB-
+plp@cs	others	plp@c|-lrb-|-rrb-|false|false|false|false|false|false|false|false|false|NNS
+-RRB-	others	-rrb-|plp@c|or|false|false|false|false|false|false|false|false|false|-RRB-
+or	others	or|-rrb-|x8-7897|false|false|false|false|false|false|false|false|false|CC
+X8-7897	others	x8-7897|or|_end_|false|false|false|false|false|false|false|false|false|NN
+

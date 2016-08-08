@@ -1,0 +1,213 @@
+Type	others	type|_start_|cmu|true|false|false|false|false|false|false|false|false|NN
+cmu	others	cmu|type|c|false|false|false|false|false|false|false|false|false|NN
+cs	others	c|cmu|proj|false|false|false|false|false|false|false|false|false|NNS
+proj	others	proj|c|cimd|false|false|false|false|false|false|false|false|false|NN
+cimds	others	cimd|proj|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+Who	others	who|_start_|beverli|true|false|false|false|false|false|false|false|false|WP
+Beverly	speaker	beverli|who|kedzierski|true|false|false|false|false|true|false|false|false|NNP
+Kedzierski	speaker	kedzierski|beverli|kestral|true|false|false|false|false|true|false|false|false|NNP
+Kestral	others	kestral|kedzierski|institut|true|false|false|false|false|false|false|false|false|NNP
+Institute	others	institut|kestral|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Topic	others	topic|_start_|knowledge-bas|true|false|false|false|false|false|false|false|false|NN
+Knowledge-Based	others	knowledge-bas|topic|commun|false|false|false|false|false|false|false|false|false|NNP
+Communication	others	commun|knowledge-bas|and|true|false|false|false|false|false|false|false|false|NNP
+and	others	and|commun|manag|false|false|false|false|false|false|false|false|false|CC
+Management	others	manag|and|support|true|false|false|false|false|false|false|false|false|NNP
+Support	others	support|manag|_end_|true|false|false|false|false|false|false|false|false|NN
+
+in	others	in|_start_|a|false|false|false|false|false|false|false|false|false|IN
+a	others	a|in|system|false|false|false|false|false|false|false|false|false|DT
+System	others	system|a|develop|true|false|false|false|false|false|false|false|false|NNP
+Development	others	develop|system|environ|true|false|false|false|false|false|false|false|false|NNP
+Environment	others	environ|develop|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Dates	others	date|_start_|18-jul-84|true|false|false|false|false|false|false|false|false|NNS
+18-Jul-84	others	18-jul-84|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|11:30|true|false|false|false|false|false|false|false|false|NNP
+11:30	stime	11:30|time|1:00|false|false|false|false|false|false|true|false|false|CD
+1:00	etime	1:00|11:30|_end_|false|false|false|false|false|false|false|true|false|CD
+
+Place	others	place|_start_|6423|true|false|false|false|false|false|false|false|false|NN
+6423	location	6423|place|wean|false|false|false|false|false|false|false|false|false|CD
+Wean	location	wean|6423|hall|true|false|false|false|false|false|false|false|false|NNP
+Hall	location	hall|wean|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+PostedBy	others	postedbi|_start_|on|false|false|false|false|true|false|false|false|false|NNP
+on	others	on|postedbi|13-jul-84|false|false|false|false|false|false|false|false|false|IN
+13-Jul-84	others	13-jul-84|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|13-jul-84|16:51|false|false|false|false|false|false|false|false|false|IN
+16:51	others	16:51|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|16:51|_end_|false|false|false|false|false|false|false|false|false|IN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+Speaker	others	speaker|_start_|beverli|true|false|false|false|false|false|false|false|false|NNP
+Beverly	speaker	beverli|speaker|kedzierski|true|false|false|false|false|true|false|false|false|NNP
+Kedzierski	speaker	kedzierski|beverli|kestral|true|false|false|false|false|true|false|false|false|NNP
+Kestral	others	kestral|kedzierski|institut|true|false|false|false|false|false|false|false|false|NNP
+Institute	others	institut|kestral|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Title	others	titl|_start_|knowledge-bas|true|false|false|false|false|false|false|false|false|NN
+Knowledge-Based	others	knowledge-bas|titl|commun|false|false|false|false|false|false|false|false|false|NNP
+Communication	others	commun|knowledge-bas|and|true|false|false|false|false|false|false|false|false|NNP
+and	others	and|commun|manag|false|false|false|false|false|false|false|false|false|CC
+Management	others	manag|and|support|true|false|false|false|false|false|false|false|false|NNP
+Support	others	support|manag|_end_|true|false|false|false|false|false|false|false|false|NN
+
+in	others	in|_start_|a|false|false|false|false|false|false|false|false|false|IN
+a	others	a|in|system|false|false|false|false|false|false|false|false|false|DT
+System	others	system|a|develop|true|false|false|false|false|false|false|false|false|NNP
+Development	others	develop|system|environ|true|false|false|false|false|false|false|false|false|NNP
+Environment	others	environ|develop|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Date	others	date|_start_|juli|true|false|false|false|false|false|false|false|false|NN
+July	others	juli|date|18|true|false|false|false|false|false|false|false|true|NNP
+18	others	18|juli|1984|false|false|false|false|false|false|false|false|true|CD
+1984	others	1984|18|_end_|false|false|false|false|false|false|false|false|true|CD
+
+Time	others	time|_start_|11:30|true|false|false|false|false|false|false|false|false|NNP
+11:30	stime	11:30|time|1:00|false|false|false|false|false|false|true|false|false|CD
+1:00	etime	1:00|11:30|_end_|false|false|false|false|false|false|false|true|false|CD
+
+Place	others	place|_start_|6423|true|false|false|false|false|false|false|false|false|NN
+6423	location	6423|place|wean|false|false|false|false|false|false|false|false|false|CD
+Wean	location	wean|6423|hall|true|false|false|false|false|false|false|false|false|NNP
+Hall	location	hall|wean|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Software	others	softwar|_start_|develop|true|false|false|false|false|false|false|false|false|NNP
+development	others	develop|softwar|environ|false|false|false|false|false|false|false|false|false|NN
+environments	others	environ|develop|be|false|false|false|false|false|false|false|false|false|NNS
+are	others	be|environ|need|false|false|false|false|false|false|false|false|false|VBP
+needed	others	need|be|to|false|false|false|false|false|false|false|false|false|VBN
+to	others	to|need|support|false|false|false|false|false|false|false|false|false|TO
+support	others	support|to|the|false|false|false|false|false|false|false|false|false|VB
+the	others	the|support|varieti|false|false|false|false|false|false|false|false|false|DT
+variety	others	varieti|the|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|varieti|_end_|false|false|false|false|false|false|false|false|false|IN
+
+activity	others	activ|_start_|that|false|false|false|false|false|false|false|false|false|NN
+that	others	that|activ|peopl|false|false|false|false|false|false|false|false|false|IN
+people	others	peopl|that|perform|false|false|false|false|false|false|false|false|false|NNS
+perform	others	perform|peopl|while|false|false|false|false|false|false|false|false|false|VBP
+while	others	while|perform|build|false|false|false|false|false|false|false|false|false|IN
+building	others	build|while|complex|false|false|false|false|false|false|false|false|false|VBG
+complex	others	complex|build|evolv|false|false|false|false|false|false|false|false|false|NN
+evolving	others	evolv|complex|softwar|false|false|false|false|false|false|false|false|false|VBG
+software	others	softwar|evolv|_end_|false|false|false|false|false|false|false|false|false|NN
+
+systems	others	system|_start_|and|false|false|false|false|false|false|false|false|false|NNS
+and	others	and|system|manag|false|false|false|false|false|false|false|false|false|CC
+managing	others	manag|and|thei|false|false|false|false|false|false|false|false|false|VBG
+their	others	thei|manag|project|false|false|false|false|false|false|false|false|false|PRP$
+projects	others	project|thei|thi|false|false|false|false|false|false|false|false|false|NNS
+This	others	thi|project|talk|true|false|false|false|false|false|false|false|false|DT
+talk	others	talk|thi|will|false|false|false|false|false|false|false|false|false|NN
+will	others	will|talk|describ|false|false|false|false|false|false|false|false|false|MD
+describe	others	describ|will|some|false|false|false|false|false|false|false|false|false|VB
+some	others	some|describ|work|false|false|false|false|false|false|false|false|false|DT
+work	others	work|some|do|false|false|false|false|false|false|false|false|false|NN
+done	others	do|work|_end_|false|false|false|false|false|false|false|false|false|VBN
+
+at	others	at|_start_|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|at|kestrel|false|false|false|false|false|false|false|false|false|DT
+Kestrel	others	kestrel|the|institut|true|false|false|false|false|false|false|false|false|NNP
+Institute	others	institut|kestrel|in|true|false|false|false|false|false|false|false|false|NNP
+in	others	in|institut|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|in|area|false|false|false|false|false|false|false|false|false|DT
+area	others	area|the|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|area|project|false|false|false|false|false|false|false|false|false|IN
+project	others	project|of|manag|false|false|false|false|false|false|false|false|false|NN
+management	others	manag|project|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|manag|_end_|false|false|false|false|false|false|false|false|false|CC
+
+communication	others	commun|_start_|support|false|false|false|false|false|false|false|false|false|NN
+support	others	support|commun|for|false|false|false|false|false|false|false|false|false|NN
+for	others	for|support|effect|false|false|false|false|false|false|false|false|false|IN
+effective	others	effect|for|softwar|false|false|false|false|false|false|false|false|false|JJ
+software	others	softwar|effect|develop|false|false|false|false|false|false|false|false|false|NN
+development	others	develop|softwar|environ|false|false|false|false|false|false|false|false|false|NN
+environment	others	environ|develop|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|environ|_end_|false|false|false|false|false|false|false|false|false|CC
+
+the	others	the|_start_|applic|false|false|false|false|false|false|false|false|false|DT
+application	others	applic|the|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|applic|speech|false|false|false|false|false|false|false|false|false|IN
+speech	others	speech|of|act|false|false|false|false|false|false|false|false|false|NN
+act	others	act|speech|theori|false|false|false|false|false|false|false|false|false|NN
+theory	others	theori|act|to|false|false|false|false|false|false|false|false|false|NN
+to	others	to|theori|that|false|false|false|false|false|false|false|false|false|TO
+that	others	that|to|domain|false|false|false|false|false|false|false|false|false|DT
+domain	others	domain|that|a|false|false|false|false|false|false|false|false|false|NN
+A	others	a|domain|framework|false|false|true|true|false|false|false|false|false|DT
+framework	others	framework|a|or|false|false|false|false|false|false|false|false|false|NN
+or	others	or|framework|_end_|false|false|false|false|false|false|false|false|false|CC
+
+paradigm	others	paradigm|_start_|be|false|false|false|false|false|false|false|false|false|NN
+was	others	be|paradigm|design|false|false|false|false|false|false|false|false|false|VBD
+designed	others	design|be|for|false|false|false|false|false|false|false|false|false|VBN
+for	others	for|design|such|false|false|false|false|false|false|false|false|false|IN
+such	others	such|for|a|false|false|false|false|false|false|false|false|false|JJ
+an	others	a|such|environ|false|false|false|false|false|false|false|false|false|DT
+environment	others	environ|a|us|false|false|false|false|false|false|false|false|false|NN
+using	others	us|environ|a|false|false|false|false|false|false|false|false|false|VBG
+a	others	a|us|knowledge-bas|false|false|false|false|false|false|false|false|false|DT
+knowledge-based	others	knowledge-bas|a|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+program	others	program|_start_|synthesi|false|false|false|false|false|false|false|false|false|NN
+synthesis	others	synthesi|program|approach|false|false|false|false|false|false|false|false|false|NN
+approach	others	approach|synthesi|from|false|false|false|false|false|false|false|false|false|NN
+from	others	from|approach|artifici|false|false|false|false|false|false|false|false|false|IN
+artificial	others	artifici|from|intellig|false|false|false|false|false|false|false|false|false|JJ
+intelligence	others	intellig|artifici|a|false|false|false|false|false|false|false|false|false|NN
+A	others	a|intellig|pilot|false|false|true|true|false|false|false|false|false|DT
+pilot	others	pilot|a|_end_|false|false|false|false|false|false|false|false|false|NN
+
+communication	others	commun|_start_|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|commun|manag|false|false|false|false|false|false|false|false|false|CC
+management	others	manag|and|support|false|false|false|false|false|false|false|false|false|NN
+support	others	support|manag|environ|false|false|false|false|false|false|false|false|false|NN
+environment	others	environ|support|-lrb-|false|false|false|false|false|false|false|false|false|NN
+-LRB-	others	-lrb-|environ|cm|false|false|false|false|false|false|false|false|false|-LRB-
+CMS	others	cm|-lrb-|-rrb-|false|true|false|true|false|false|false|false|false|NNP
+-RRB-	others	-rrb-|cm|be|false|false|false|false|false|false|false|false|false|-RRB-
+was	others	be|-rrb-|implement|false|false|false|false|false|false|false|false|false|VBD
+implemented	others	implement|be|cm|false|false|false|false|false|false|false|false|false|VBN
+CMS	others	cm|implement|_end_|false|true|false|true|false|false|false|false|false|NNP
+
+supported	others	support|_start_|a|false|false|false|false|false|false|false|false|false|VBD
+an	others	a|support|exist|false|false|false|false|false|false|false|false|false|DT
+existing	others	exist|a|project|false|false|false|false|false|false|false|false|false|VBG
+project	others	project|exist|to|false|false|false|false|false|false|false|false|false|NN
+to	others	to|project|build|false|false|false|false|false|false|false|false|false|TO
+build	others	build|to|a|false|false|false|false|false|false|false|false|false|VB
+a	others	a|build|complex|false|false|false|false|false|false|false|false|false|DT
+complex	others	complex|a|softwar|false|false|false|false|false|false|false|false|false|NN
+software	others	softwar|complex|system|false|false|false|false|false|false|false|false|false|NN
+system	others	system|softwar|that|false|false|false|false|false|false|false|false|false|NN
+that	others	that|system|be|false|false|false|false|false|false|false|false|false|WDT
+is	others	be|that|_end_|false|false|false|false|false|false|false|false|false|VBZ
+
+referred	others	refer|_start_|to|false|false|false|false|false|false|false|false|false|VBN
+to	others	to|refer|as|false|false|false|false|false|false|false|false|false|TO
+as	others	as|to|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|as|target|false|false|false|false|false|false|false|false|false|DT
+target	others	target|the|system|false|false|false|false|false|false|false|false|false|NN
+system	others	system|target|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Anyone	others	anyon|_start_|interest|true|false|false|false|false|false|false|false|false|NN
+interested	others	interest|anyon|in|false|false|false|false|false|false|false|false|false|JJ
+in	others	in|interest|meet|false|false|false|false|false|false|false|false|false|IN
+meeting	others	meet|in|with|false|false|false|false|false|false|false|false|false|NN
+with	others	with|meet|beverli|false|false|false|false|false|false|false|false|false|IN
+Beverly	speaker	beverli|with|kedzierski|true|false|false|false|false|true|false|false|false|NNP
+Kedzierski	speaker	kedzierski|beverli|should|true|false|false|false|false|true|false|false|false|NNP
+should	others	should|kedzierski|send|false|false|false|false|false|false|false|false|false|MD
+send	others	send|should|mail|false|false|false|false|false|false|false|false|false|VB
+mail	others	mail|send|to|false|false|false|false|false|false|false|false|false|NN
+to	others	to|mail|_end_|false|false|false|false|false|false|false|false|false|TO
+
+sfs@cmu-ri-isl1	others	sfs@cmu-ri-isl1|_start_|_end_|false|false|false|false|false|false|false|false|false|NN
+

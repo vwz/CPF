@@ -1,0 +1,117 @@
+Type	others	type|_start_|cmu|true|false|false|false|false|false|false|false|false|NN
+cmu	others	cmu|type|c|false|false|false|false|false|false|false|false|false|NN
+cs	others	c|cmu|sc|false|false|false|false|false|false|false|false|false|NNS
+scs	others	sc|c|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+Topic	others	topic|_start_|appl|true|false|false|false|false|false|false|false|false|NN
+APPLE	others	appl|topic|comput|false|true|false|true|false|false|false|false|false|NNP
+COMPUTER	others	comput|appl|talk|false|true|false|true|false|false|false|false|false|NNP
+TALK	others	talk|comput|_end_|false|true|false|true|false|false|false|false|false|NNP
+
+Dates	others	date|_start_|26-jan-95|true|false|false|false|false|false|false|false|false|NNS
+26-Jan-95	others	26-jan-95|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|12:00|true|false|false|false|false|false|false|false|false|NNP
+12:00	stime	12:00|time|1:30|false|false|false|false|false|false|true|false|false|CD
+1:30	etime	1:30|12:00|pm|false|false|false|false|false|false|false|true|false|CD
+PM	etime	pm|1:30|_end_|false|true|false|true|false|false|false|false|false|NN
+
+PostedBy	others	postedbi|_start_|copeta|false|false|false|false|true|false|false|false|false|NNP
+copetas	others	copeta|postedbi|on|false|false|false|false|false|false|false|false|false|NNS
+on	others	on|copeta|16-jan-95|false|false|false|false|false|false|false|false|false|IN
+16-Jan-95	others	16-jan-95|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|16-jan-95|11:46|false|false|false|false|false|false|false|false|false|IN
+11:46	others	11:46|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|11:46|gandalf.cs.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+GANDALF.CS.CMU.EDU	others	gandalf.cs.cmu.edu|from|-lrb-|false|false|false|false|false|false|false|false|false|NN
+-LRB-	others	-lrb-|gandalf.cs.cmu.edu|catherin|false|false|false|false|false|false|false|false|false|-LRB-
+Catherine	others	catherin|-lrb-|copeta|true|false|false|false|false|false|false|false|false|NNP
+Copetas	others	copeta|catherin|-rrb-|true|false|false|false|false|false|false|false|false|NNP
+-RRB-	others	-rrb-|copeta|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+Kai-Fu	speaker	kai-fu|_start_|lee|false|false|false|false|false|true|false|false|false|NNP
+Lee	speaker	lee|kai-fu|and|true|false|false|false|false|true|false|false|false|NNP
+and	others	and|lee|rick|false|false|false|false|false|false|false|false|false|CC
+Rick	speaker	rick|and|shriner|true|false|false|false|false|true|false|false|false|NNP
+Shriner	speaker	shriner|rick|from|true|false|false|false|false|true|false|false|false|NNP
+from	others	from|shriner|appl|false|false|false|false|false|false|false|false|false|IN
+Apple	others	appl|from|comput|true|false|false|false|false|false|false|false|false|NNP
+Computer	others	comput|appl|will|true|false|false|false|false|false|false|false|false|NNP
+will	others	will|comput|give|false|false|false|false|false|false|false|false|false|MD
+give	others	give|will|a|false|false|false|false|false|false|false|false|false|VB
+a	others	a|give|_end_|false|false|false|false|false|false|false|false|false|DT
+
+presentation	others	present|_start_|on|false|false|false|false|false|false|false|false|false|NN
+on	others	on|present|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|on|appl|false|false|false|false|false|false|false|false|false|DT
+Apple	others	appl|the|core|true|false|false|false|false|false|false|false|false|NNP
+Core	others	core|appl|technolog|true|false|false|false|false|false|false|false|false|NNP
+Technology	others	technolog|core|group|true|false|false|false|false|false|false|false|false|NNP
+group	others	group|technolog|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|group|the|false|false|false|false|false|false|false|false|false|CC
+the	others	the|and|advanc|false|false|false|false|false|false|false|false|false|DT
+Advanced	others	advanc|the|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Technology	others	technolog|_start_|group|true|false|false|false|false|false|false|false|false|NNP
+Group	others	group|technolog|on|true|false|false|false|false|false|false|false|false|NNP
+on	others	on|group|thursdai|false|false|false|false|false|false|false|false|false|IN
+Thursday	others	thursdai|on|januari|true|false|false|false|false|false|false|false|true|NNP
+January	others	januari|thursdai|26|true|false|false|false|false|false|false|false|true|NNP
+26	others	26|januari|from|false|false|false|false|false|false|false|false|true|CD
+from	others	from|26|12:00|false|false|false|false|false|false|false|false|false|IN
+12:00	stime	12:00|from|1:30|false|false|false|false|false|false|true|false|false|CD
+1:30	etime	1:30|12:00|pm|false|false|false|false|false|false|false|true|false|CD
+pm	etime	pm|1:30|in|false|false|false|false|false|false|false|false|false|NN
+in	others	in|pm|_end_|false|false|false|false|false|false|false|false|false|IN
+
+Wean	location	wean|_start_|4625|true|false|false|false|false|false|false|false|false|VB
+4625	location	4625|wean|thei|false|false|false|false|false|false|false|false|false|CD
+They	others	thei|4625|will|true|false|false|false|false|false|false|false|false|PRP
+will	others	will|thei|bring|false|false|false|false|false|false|false|false|false|MD
+bring	others	bring|will|some|false|false|false|false|false|false|false|false|false|VB
+some	others	some|bring|of|false|false|false|false|false|false|false|false|false|DT
+of	others	of|some|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|of|latest|false|false|false|false|false|false|false|false|false|DT
+latest	others	latest|the|appl|false|false|false|false|false|false|false|false|false|JJS
+Apple	others	appl|latest|technolog|true|false|false|false|false|false|false|false|false|NNP
+technologies	others	technolog|appl|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+in	others	in|_start_|commun|false|false|false|false|false|false|false|false|false|IN
+communications	others	commun|in|telephoni|false|false|false|false|false|false|false|false|false|NNS
+telephony	others	telephoni|commun|multimedia|false|false|false|false|false|false|false|false|false|NN
+multimedia	others	multimedia|telephoni|and|false|false|false|false|false|false|false|false|false|NNS
+and	others	and|multimedia|speech|false|false|false|false|false|false|false|false|false|CC
+speech	others	speech|and|rick|false|false|false|false|false|false|false|false|false|NN
+Rick	others	rick|speech|and|true|false|false|false|false|true|false|false|false|NNP
+and	others	and|rick|kai-fu|false|false|false|false|false|false|false|false|false|CC
+Kai-Fu	others	kai-fu|and|_end_|false|false|false|false|false|false|false|false|false|NNP
+
+invite	others	invit|_start_|interest|false|false|false|false|false|false|false|false|false|VB
+interested	others	interest|invit|grad|false|false|false|false|false|false|false|false|false|JJ
+grads	others	grad|interest|and|false|false|false|false|false|false|false|false|false|NNS
+and	others	and|grad|undergrad|false|false|false|false|false|false|false|false|false|CC
+undergrads	others	undergrad|and|to|false|false|false|false|false|false|false|false|false|NNS
+to	others	to|undergrad|attend|false|false|false|false|false|false|false|false|false|TO
+attend	others	attend|to|thi|false|false|false|false|false|false|false|false|false|VB
+this	others	thi|attend|inform|false|false|false|false|false|false|false|false|false|DT
+informal	others	inform|thi|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+demonstration	others	demonstr|_start_|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|demonstr|discuss|false|false|false|false|false|false|false|false|false|CC
+discussion	others	discuss|and|graduat|false|false|false|false|false|false|false|false|false|NN
+Graduate	others	graduat|discuss|student|true|false|false|false|false|false|false|false|false|NN
+students	others	student|graduat|interest|false|false|false|false|false|false|false|false|false|NNS
+interested	others	interest|student|in|false|false|false|false|false|false|false|false|false|JJ
+in	others	in|interest|_end_|false|false|false|false|false|false|false|false|false|IN
+
+potential	others	potenti|_start_|job|false|false|false|false|false|false|false|false|false|JJ
+job	others	job|potenti|opportun|false|false|false|false|false|false|false|false|false|NN
+opportunities	others	opportun|job|be|false|false|false|false|false|false|false|false|false|NNS
+are	others	be|opportun|particularli|false|false|false|false|false|false|false|false|false|VBP
+particularly	others	particularli|be|encourag|false|false|false|false|false|false|false|false|false|RB
+encouraged	others	encourag|particularli|to|false|false|false|false|false|false|false|false|false|VBN
+to	others	to|encourag|attend|false|false|false|false|false|false|false|false|false|TO
+attend	others	attend|to|_end_|false|false|false|false|false|false|false|false|false|VB
+

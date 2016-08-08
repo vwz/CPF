@@ -1,0 +1,158 @@
+Type	others	type|_start_|cmu|true|false|false|false|false|false|false|false|false|NN
+cmu	others	cmu|type|c|false|false|false|false|false|false|false|false|false|NN
+cs	others	c|cmu|robot|false|false|false|false|false|false|false|false|false|NNS
+robotics	others	robot|c|student|false|false|false|false|false|false|false|false|false|NNS
+students	others	student|robot|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+Topic	others	topic|_start_|financi|true|false|false|false|false|false|false|false|false|NN
+Financial	others	financi|topic|aid|true|false|false|false|false|false|false|false|false|NNP
+Aid	others	aid|financi|seminar|true|false|false|false|false|false|false|false|false|NNP
+Seminar	others	seminar|aid|thi|true|false|false|false|false|false|false|false|false|NNP
+this	others	thi|seminar|thursdai|false|false|false|false|false|false|false|false|true|DT
+Thursday	others	thursdai|thi|_end_|true|false|false|false|false|false|false|false|true|NNP
+
+Dates	others	date|_start_|6-apr-95|true|false|false|false|false|false|false|false|false|NNS
+6-Apr-95	others	6-apr-95|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|4:30|true|false|false|false|false|false|false|false|false|NNP
+4:30	stime	4:30|time|6:30|false|false|false|false|false|false|true|false|false|CD
+6:30	etime	6:30|4:30|pm|false|false|false|false|false|false|false|true|false|CD
+PM	etime	pm|6:30|_end_|false|true|false|true|false|false|false|false|false|NN
+
+Place	others	place|_start_|adamson|true|false|false|false|false|false|false|false|false|NN
+Adamson	location	adamson|place|wing|true|false|false|false|false|false|false|false|false|NNP
+Wing	location	wing|adamson|baker|true|false|false|false|false|false|false|false|false|NNP
+Baker	location	baker|wing|hall|true|false|false|false|false|true|false|false|false|NNP
+Hall	location	hall|baker|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+PostedBy	others	postedbi|_start_|os22|false|false|false|false|true|false|false|false|false|NNP
+os22	others	os22|postedbi|on|false|false|false|false|false|false|false|false|false|NN
+on	others	on|os22|6-apr-95|false|false|false|false|false|false|false|false|false|IN
+6-Apr-95	others	6-apr-95|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|6-apr-95|20:03|false|false|false|false|false|false|false|false|false|IN
+20:03	others	20:03|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|20:03|andrew.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+andrew.cmu.edu	others	andrew.cmu.edu|from|-lrb-|false|false|false|false|false|false|false|false|false|NN
+-LRB-	others	-lrb-|andrew.cmu.edu|oliv|false|false|false|false|false|false|false|false|false|-LRB-
+Oliver	others	oliv|-lrb-|schult|true|false|false|false|false|true|false|false|false|NNP
+Schulte	others	schult|oliv|-rrb-|true|false|false|false|false|true|false|false|false|NNP
+-RRB-	others	-rrb-|schult|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+STUDENT	others	student|_start_|aid|false|true|false|true|false|false|false|false|false|NN
+AID	others	aid|student|what|false|true|false|true|false|false|false|false|false|NN
+WHAT	others	what|aid|there|false|true|false|true|false|false|false|false|false|WDT
+THERE	others	there|what|be|false|true|false|true|false|false|false|false|false|NNP
+IS	others	be|there|and|false|true|false|true|false|false|false|false|false|VBZ
+AND	others	and|be|how|false|true|false|true|false|false|false|false|false|CC
+HOW	others	how|and|to|false|true|false|true|false|false|false|false|false|NN
+TO	others	to|how|get|false|true|false|true|false|false|false|false|false|TO
+GET	others	get|to|it|false|true|false|true|false|false|false|false|false|VB
+IT	others	it|get|_end_|false|true|false|true|false|false|false|false|false|PRP
+
+As	others	as|_start_|part|true|false|false|false|false|false|false|false|false|IN
+part	others	part|as|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|part|nation|false|false|false|false|false|false|false|false|false|IN
+National	others	nation|of|graduat|true|false|false|false|false|false|false|false|false|NNP
+Graduate	others	graduat|nation|awar|true|false|false|false|false|false|false|false|false|NNP
+Awareness	others	awar|graduat|week|true|false|false|false|false|false|false|false|false|NNP
+Week	others	week|awar|gso|true|false|false|false|false|false|false|false|false|NNP
+GSO	others	gso|week|present|false|true|false|true|false|false|false|false|false|NNP
+presents	others	present|gso|a|false|false|false|false|false|false|false|false|false|VBZ
+an	others	a|present|inform|false|false|false|false|false|false|false|false|false|DT
+information	others	inform|a|_end_|false|false|false|false|false|false|false|false|false|NN
+
+seminar	others	seminar|_start_|on|false|false|false|false|false|false|false|false|false|NN
+on	others	on|seminar|graduat|false|false|false|false|false|false|false|false|false|IN
+graduate	others	graduat|on|student|false|false|false|false|false|false|false|false|false|JJ
+student	others	student|graduat|loan|false|false|false|false|false|false|false|false|false|NN
+loans	others	loan|student|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+Dave	speaker	dave|_start_|gould|true|false|false|false|false|true|false|false|false|NNP
+Gould	speaker	gould|dave|from|true|false|false|false|false|true|false|false|false|NNP
+from	others	from|gould|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|from|financi|false|false|false|false|false|false|false|false|false|DT
+Financial	others	financi|the|aid|true|false|false|false|false|false|false|false|false|NNP
+Aid	others	aid|financi|offic|true|false|false|false|false|false|false|false|false|NNP
+Office	others	offic|aid|will|true|false|false|false|false|false|false|false|false|NNP
+will	others	will|offic|give|false|false|false|false|false|false|false|false|false|MD
+give	others	give|will|a|false|false|false|false|false|false|false|false|false|VB
+an	others	a|give|overview|false|false|false|false|false|false|false|false|false|DT
+overview	others	overview|a|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|overview|_end_|false|false|false|false|false|false|false|false|false|IN
+
+federal	others	feder|_start_|loan|false|false|false|false|false|false|false|false|false|JJ
+loan	others	loan|feder|program|false|false|false|false|false|false|false|false|false|NN
+programs	others	program|loan|explain|false|false|false|false|false|false|false|false|false|NNS
+explain	others	explain|program|elig|false|false|false|false|false|false|false|false|false|VBP
+eligibility	others	elig|explain|criterion|false|false|false|false|false|false|false|false|false|NN
+criteria	others	criterion|elig|and|false|false|false|false|false|false|false|false|false|NNS
+and	others	and|criterion|applic|false|false|false|false|false|false|false|false|false|CC
+application	others	applic|and|_end_|false|false|false|false|false|false|false|false|false|NN
+
+procedures	others	procedur|_start_|and|false|false|false|false|false|false|false|false|false|NNS
+and	others	and|procedur|answer|false|false|false|false|false|false|false|false|false|CC
+answer	others	answer|and|ani|false|false|false|false|false|false|false|false|false|VB
+any	others	ani|answer|question|false|false|false|false|false|false|false|false|false|DT
+questions	others	question|ani|you|false|false|false|false|false|false|false|false|false|NNS
+you	others	you|question|mai|false|false|false|false|false|false|false|false|false|PRP
+may	others	mai|you|have|false|false|false|false|false|false|false|false|false|MD
+have	others	have|mai|_end_|false|false|false|false|false|false|false|false|false|VB
+
+TIME	others	time|_start_|thursdai|false|true|false|true|false|false|false|false|false|NN
+Thursday	others	thursdai|time|april|true|false|false|false|false|false|false|false|true|NNP
+April	others	april|thursdai|6|true|false|false|false|false|false|false|false|true|NNP
+6	others	6|april|4:30|false|false|false|false|false|false|false|false|true|CD
+4:30	stime	4:30|6|6:30|false|false|false|false|false|false|true|false|false|CD
+6:30	etime	6:30|4:30|p.m.|false|false|false|false|false|false|false|true|false|CD
+p.m.	etime	p.m.|6:30|_end_|false|false|false|false|false|false|false|false|false|NN
+
+PLACE	others	place|_start_|adamson|false|true|false|true|false|false|false|false|false|NN
+Adamson	location	adamson|place|wing|true|false|false|false|false|false|false|false|false|NNP
+Wing	location	wing|adamson|baker|true|false|false|false|false|false|false|false|false|NNP
+Baker	location	baker|wing|hall|true|false|false|false|false|false|false|false|false|NNP
+Hall	location	hall|baker|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+GSO	others	gso|_start_|rep|false|true|false|true|false|false|false|false|false|NNP
+reps	others	rep|gso|pleas|false|false|false|false|false|false|false|false|false|NNS
+Please	others	pleas|rep|distribut|true|false|false|false|false|false|false|false|false|VB
+distribute	others	distribut|pleas|thi|false|false|false|false|false|false|false|false|false|VB
+this	others	thi|distribut|announc|false|false|false|false|false|false|false|false|false|DT
+announcement	others	announc|thi|in|false|false|false|false|false|false|false|false|false|NN
+in	others	in|announc|you|false|false|false|false|false|false|false|false|false|IN
+your	others	you|in|depart|false|false|false|false|false|false|false|false|false|PRP$
+department	others	depart|you|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Oliver	others	oliv|_start_|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+
+Oliver	others	oliv|_start_|schult|true|false|false|false|false|true|false|false|false|NNP
+Schulte	others	schult|oliv|os22@andrew.cmu.edu|true|false|false|false|false|true|false|false|false|NNP
+os22@andrew.cmu.edu	others	os22@andrew.cmu.edu|schult|gso|false|false|false|false|false|false|false|false|false|NN
+GSO	others	gso|os22@andrew.cmu.edu|liasion|false|true|false|true|false|false|false|false|false|NNP
+Liasion	others	liasion|gso|offic|true|false|false|false|false|false|false|false|false|NNP
+Officer	others	offic|liasion|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Logic	others	logic|_start_|and|true|false|false|false|false|false|false|false|false|NN
+and	others	and|logic|comput|false|false|false|false|false|false|false|false|false|CC
+Computation	others	comput|and|program|true|false|false|false|false|false|false|false|false|NNP
+Program	others	program|comput|a|true|false|false|false|false|false|false|false|false|NNP
+A	others	a|program|be|false|false|true|true|false|false|false|false|false|DT
+is	others	be|a|better|false|false|false|false|false|false|false|false|false|VBZ
+better	others	better|be|off|false|false|false|false|false|false|false|false|false|JJR
+off	others	off|better|if|false|false|false|false|false|false|false|false|false|IN
+if	others	if|off|b|false|false|false|false|false|false|false|false|false|IN
+B	others	b|if|be|false|false|true|true|false|false|false|false|false|NN
+is	others	be|b|better|false|false|false|false|false|false|false|false|false|VBZ
+better	others	better|be|_end_|false|false|false|false|false|false|false|false|false|RBR
+
+Carnegie	others	carnegi|_start_|mellon|true|false|false|false|false|false|false|false|false|NNP
+Mellon	others	mellon|carnegi|univers|true|false|false|false|false|false|false|false|false|NNP
+University	others	univers|mellon|pittsburgh|true|false|false|false|false|false|false|false|false|NNP
+Pittsburgh	others	pittsburgh|univers|pa|true|false|false|false|false|false|false|false|false|NNP
+PA	others	pa|pittsburgh|off|false|true|false|true|false|false|false|false|false|NN
+off	others	off|pa|v.|false|false|false|false|false|false|false|false|false|RP
+v.	others	v.|off|foerster|false|false|false|false|false|false|false|false|false|CC
+Foerster	others	foerster|v.|_end_|true|false|false|false|false|false|false|false|false|NNP
+

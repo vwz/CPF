@@ -1,0 +1,82 @@
+Type	others	type|_start_|cmu.andrew.org|true|false|false|false|false|false|false|false|false|NN
+cmu.andrew.org	others	cmu.andrew.org|type|heinz|false|false|false|false|false|false|false|false|false|NN
+heinz	others	heinz|cmu.andrew.org|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Topic	others	topic|_start_|pitt-cmu|true|false|false|false|false|false|false|false|false|NN
+Pitt-CMU	others	pitt-cmu|topic|ration|false|false|false|false|false|false|false|false|false|NNP
+Rationality	others	ration|pitt-cmu|seminar|true|false|false|false|false|false|false|false|false|NNP
+Seminar	others	seminar|ration|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Dates	others	date|_start_|23-feb-95|true|false|false|false|false|false|false|false|false|NNS
+23-Feb-95	others	23-feb-95|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|5:00|true|false|false|false|false|false|false|false|false|NNP
+5:00	stime	5:00|time|pm|false|false|false|false|false|false|false|false|false|CD
+PM	stime	pm|5:00|_end_|false|true|false|true|false|false|false|false|false|NNP
+
+Place	others	place|_start_|cmu|true|false|false|false|false|false|false|false|false|NN
+CMU	location	cmu|place|adamson|false|true|false|true|false|false|false|false|false|NN
+Adamson	location	adamson|cmu|wing|true|false|false|false|false|true|false|false|false|NNP
+Wing	location	wing|adamson|-lrb-|true|false|false|false|false|false|false|false|false|NN
+-LRB-	location	-lrb-|wing|baker|false|false|false|false|false|false|false|false|false|-LRB-
+Baker	location	baker|-lrb-|hall|true|false|false|false|false|false|false|false|false|NNP
+Hall	location	hall|baker|-rrb-|true|false|false|false|false|false|false|false|false|NNP
+-RRB-	others	-rrb-|hall|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+PostedBy	others	postedbi|_start_|cristina|false|false|false|false|true|false|false|false|false|NNP
+Cristina	others	cristina|postedbi|bicchieri|true|false|false|false|false|true|false|false|false|NNP
+Bicchieri	others	bicchieri|cristina|on|true|false|false|false|false|true|false|false|false|NNP
+on	others	on|bicchieri|10-feb-95|false|false|false|false|false|false|false|false|false|IN
+10-Feb-95	others	10-feb-95|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|10-feb-95|16:32|false|false|false|false|false|false|false|false|false|IN
+16:32	others	16:32|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|16:32|andrew.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+andrew.cmu.edu	others	andrew.cmu.edu|from|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+Pitt-CMU	others	pitt-cmu|_start_|ration|false|false|false|false|false|false|false|false|false|NNP
+Rationality	others	ration|pitt-cmu|seminar|true|false|false|false|false|false|false|false|false|NNP
+Seminar	others	seminar|ration|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Al	speaker	al|_start_|roth|true|false|false|false|false|true|false|false|false|NNP
+Roth	speaker	roth|al|and|true|false|false|false|false|true|false|false|false|NNP
+and	others	and|roth|ido|false|false|false|false|false|false|false|false|false|CC
+Ido	speaker	ido|and|erev|true|false|false|false|false|false|false|false|false|NNP
+Erev	speaker	erev|ido|will|true|false|false|false|false|false|false|false|false|NNP
+will	others	will|erev|speak|false|false|false|false|false|false|false|false|false|MD
+speak	others	speak|will|on|false|false|false|false|false|false|false|false|false|VB
+on	others	on|speak|low|false|false|false|false|false|false|false|false|false|IN
+Low	others	low|on|versu|true|false|false|false|false|false|false|false|false|JJ
+versus	others	versu|low|high|false|false|false|false|false|false|false|false|false|CC
+high	others	high|versu|game|false|false|false|false|false|false|false|false|false|JJ
+game	others	game|high|theori|false|false|false|false|false|false|false|false|false|NN
+theory	others	theori|game|part|false|false|false|false|false|false|false|false|false|NN
+part	others	part|theori|i|false|false|false|false|false|false|false|false|false|NN
+I	others	i|part|_end_|false|false|true|true|false|false|false|false|false|CD
+
+Boundedly	others	boundedli|_start_|ration|true|false|false|false|false|false|false|false|false|RB
+rational	others	ration|boundedli|adapt|false|false|false|false|false|false|false|false|false|JJ
+adaptive	others	adapt|ration|behavior|false|false|false|false|false|false|false|false|false|JJ
+behavior	others	behavior|adapt|in|false|false|false|false|false|false|false|false|false|NN
+in	others	in|behavior|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|in|intermedi|false|false|false|false|false|false|false|false|false|DT
+intermediate	others	intermedi|the|term|false|false|false|false|false|false|false|false|false|JJ
+term	others	term|intermedi|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Thursday	others	thursdai|_start_|februari|true|false|false|false|false|false|false|false|true|NNP
+February	others	februari|thursdai|23|true|false|false|false|false|false|false|false|true|NNP
+23	others	23|februari|_end_|false|false|false|false|false|false|false|false|true|CD
+
+Time	others	time|_start_|5pm|true|false|false|false|false|false|false|false|false|NNP
+5pm	stime	5pm|time|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+Place	others	place|_start_|cmu|true|false|false|false|false|false|false|false|false|NN
+CMU	location	cmu|place|adamson|false|true|false|true|false|false|false|false|false|NN
+Adamson	location	adamson|cmu|wing|true|false|false|false|false|true|false|false|false|NNP
+Wing	location	wing|adamson|-lrb-|true|false|false|false|false|false|false|false|false|NN
+-LRB-	location	-lrb-|wing|baker|false|false|false|false|false|false|false|false|false|-LRB-
+Baker	location	baker|-lrb-|hall|true|false|false|false|false|false|false|false|false|NNP
+Hall	location	hall|baker|-rrb-|true|false|false|false|false|false|false|false|false|NNP
+-RRB-	others	-rrb-|hall|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+

@@ -1,0 +1,127 @@
+Type	others	type|_start_|cmu|true|false|false|false|false|false|false|false|false|NN
+cmu	others	cmu|type|c|false|false|false|false|false|false|false|false|false|NN
+cs	others	c|cmu|robot|false|false|false|false|false|false|false|false|false|NNS
+robotics	others	robot|c|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+Who	others	who|_start_|paolo|true|false|false|false|false|false|false|false|false|WP
+Paolo	speaker	paolo|who|dario|true|false|false|false|false|true|false|false|false|NNP
+Dario	speaker	dario|paolo|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+Professor	others	professor|_start_|and|true|false|false|false|false|true|false|false|false|NNP
+and	others	and|professor|director|false|false|false|false|false|false|false|false|false|CC
+Director	others	director|and|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+ARTS	others	art|_start_|lab|false|true|false|true|false|false|false|false|false|NNP
+Lab	others	lab|art|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+University	others	univers|_start_|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|univers|pisa|false|false|false|false|false|false|false|false|false|IN
+Pisa	others	pisa|of|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Topic	others	topic|_start_|robot|true|false|false|false|false|false|false|false|false|NN
+Robots	others	robot|topic|for|true|false|false|false|false|false|false|false|false|NNS
+for	others	for|robot|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|for|assist|false|false|false|false|false|false|false|false|false|DT
+Assistance	others	assist|the|to|true|false|false|false|false|false|false|false|false|NNP
+to	others	to|assist|the|false|false|false|false|false|false|false|false|false|TO
+the	others	the|to|disabl|false|false|false|false|false|false|false|false|false|DT
+Disabled	others	disabl|the|and|true|false|false|false|false|false|false|false|false|JJ
+and	others	and|disabl|the|false|false|false|false|false|false|false|false|false|CC
+the	others	the|and|elderli|false|false|false|false|false|false|false|false|false|DT
+Elderly	others	elderli|the|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Current	others	current|_start_|statu|true|false|false|false|false|false|false|false|true|JJ
+Status	others	statu|current|and|true|false|false|false|false|false|false|false|false|NN
+and	others	and|statu|perspect|false|false|false|false|false|false|false|false|false|CC
+Perspectives	others	perspect|and|_end_|true|false|false|false|false|false|false|false|false|NNS
+
+Dates	others	date|_start_|3-mar-95|true|false|false|false|false|false|false|false|false|NNS
+3-Mar-95	others	3-mar-95|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|3:30|true|false|false|false|false|false|false|false|false|NNP
+3:30	stime	3:30|time|pm|false|false|false|false|false|false|false|false|false|CD
+PM	stime	pm|3:30|5:00|false|true|false|true|false|false|true|false|false|NN
+5:00	etime	5:00|pm|pm|false|false|false|false|false|false|false|true|false|CD
+PM	etime	pm|5:00|_end_|false|true|false|true|false|false|false|false|false|NN
+
+Place	others	place|_start_|adamson|true|false|false|false|false|false|false|false|false|NN
+ADAMSON	location	adamson|place|wing|false|true|false|true|false|true|false|false|false|NNP
+WING	location	wing|adamson|auditorium|false|true|false|true|false|false|false|false|false|NNP
+Auditorium	location	auditorium|wing|in|true|false|false|false|false|false|false|false|false|NNP
+in	location	in|auditorium|baker|false|false|false|false|false|false|false|false|false|IN
+Baker	location	baker|in|hall|true|false|false|false|false|false|false|false|false|NNP
+Hall	location	hall|baker|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+PostedBy	others	postedbi|_start_|baraff|false|false|false|false|true|false|false|false|false|NNP
+baraff	others	baraff|postedbi|on|false|false|false|false|false|false|false|false|false|NN
+on	others	on|baraff|28-feb-95|false|false|false|false|false|false|false|false|false|IN
+28-Feb-95	others	28-feb-95|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|28-feb-95|16:29|false|false|false|false|false|false|false|false|false|IN
+16:29	others	16:29|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|16:29|turnover.graphics.cs.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+TURNOVER.GRAPHICS.CS.CMU.EDU	others	turnover.graphics.cs.cmu.edu|from|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+RI	others	ru|_start_|seminar|false|true|false|true|false|false|false|false|false|NN
+SEMINAR	others	seminar|ru|_end_|false|true|false|true|false|false|false|false|false|NN
+
+WHEN	others	when|_start_|fridai|false|true|false|true|false|false|false|false|false|WRB
+Friday	others	fridai|when|march|true|false|false|false|false|false|false|false|true|NNP
+March	others	march|fridai|3|true|false|false|false|false|false|false|false|true|NNP
+3	others	3|march|1995|false|false|false|false|false|false|false|false|true|CD
+1995	others	1995|3|3:30|false|false|false|false|false|false|false|false|true|CD
+3:30	stime	3:30|1995|pm|false|false|false|false|false|false|false|false|false|CD
+pm	stime	pm|3:30|5:00|false|false|false|false|false|false|true|false|false|NN
+5:00	etime	5:00|pm|pm|false|false|false|false|false|false|false|true|false|CD
+pm	etime	pm|5:00|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Refreshments	others	refresh|_start_|will|true|false|false|false|false|false|false|false|false|NNS
+will	others	will|refresh|be|false|false|false|false|false|false|false|false|false|MD
+be	others	be|will|serv|false|false|false|false|false|false|false|false|false|VB
+served	others	serv|be|start|false|false|false|false|false|false|false|false|false|VBN
+starting	others	start|serv|at|false|false|false|false|false|false|false|false|false|VBG
+at	others	at|start|3:15|false|false|false|false|false|false|false|false|false|IN
+3:15	others	3:15|at|pm|false|false|false|false|false|false|false|false|false|CD
+pm	others	pm|3:15|_end_|false|false|false|false|false|false|false|false|false|NN
+
+WHERE	others	where|_start_|adamson|false|true|false|true|false|false|false|false|false|NN
+ADAMSON	location	adamson|where|wing|false|true|false|true|false|true|false|false|false|NNP
+WING	location	wing|adamson|auditorium|false|true|false|true|false|false|false|false|false|NNP
+Auditorium	location	auditorium|wing|in|true|false|false|false|false|false|false|false|false|NNP
+in	location	in|auditorium|baker|false|false|false|false|false|false|false|false|false|IN
+Baker	location	baker|in|hall|true|false|false|false|false|false|false|false|false|NNP
+Hall	location	hall|baker|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+SPEAKER	others	speaker|_start_|paolo|false|true|false|true|false|false|false|false|false|NN
+Paolo	speaker	paolo|speaker|dario|true|false|false|false|false|true|false|false|false|NNP
+Dario	speaker	dario|paolo|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+Professor	others	professor|_start_|and|true|false|false|false|false|true|false|false|false|NNP
+and	others	and|professor|director|false|false|false|false|false|false|false|false|false|CC
+Director	others	director|and|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+ARTS	others	art|_start_|lab|false|true|false|true|false|false|false|false|false|NNP
+Lab	others	lab|art|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+University	others	univers|_start_|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|univers|pisa|false|false|false|false|false|false|false|false|false|IN
+Pisa	others	pisa|of|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+TITLE	others	titl|_start_|robot|false|true|false|true|false|false|false|false|false|NN
+Robots	others	robot|titl|for|true|false|false|false|false|false|false|false|false|NNS
+for	others	for|robot|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|for|assist|false|false|false|false|false|false|false|false|false|DT
+Assistance	others	assist|the|to|true|false|false|false|false|false|false|false|false|NNP
+to	others	to|assist|the|false|false|false|false|false|false|false|false|false|TO
+the	others	the|to|disabl|false|false|false|false|false|false|false|false|false|DT
+Disabled	others	disabl|the|and|true|false|false|false|false|false|false|false|false|JJ
+and	others	and|disabl|the|false|false|false|false|false|false|false|false|false|CC
+the	others	the|and|elderli|false|false|false|false|false|false|false|false|false|DT
+Elderly	others	elderli|the|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Current	others	current|_start_|statu|true|false|false|false|false|false|false|false|true|JJ
+Status	others	statu|current|and|true|false|false|false|false|false|false|false|false|NN
+and	others	and|statu|perspect|false|false|false|false|false|false|false|false|false|CC
+Perspectives	others	perspect|and|_end_|true|false|false|false|false|false|false|false|false|NNS
+

@@ -1,0 +1,184 @@
+Type	others	type|_start_|cmu|true|false|false|false|false|false|false|false|false|NN
+cmu	others	cmu|type|c|false|false|false|false|false|false|false|false|false|NN
+cs	others	c|cmu|proj|false|false|false|false|false|false|false|false|false|NNS
+proj	others	proj|c|nectar|false|false|false|false|false|false|false|false|false|NN
+nectar	others	nectar|proj|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Who	others	who|_start_|yasuro|true|false|false|false|false|false|false|false|false|WP
+Yasuro	speaker	yasuro|who|shobatak|true|false|false|false|false|true|false|false|false|NNP
+Shobatake	speaker	shobatak|yasuro|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+Electronics	others	electron|_start_|equip|true|false|false|false|false|false|false|false|false|NNP
+Equipment	others	equip|electron|lab|true|false|false|false|false|false|false|false|false|NNP
+Lab	others	lab|equip|_end_|true|false|false|false|false|false|false|false|false|NN
+
+TOSHIBA	others	toshiba|_start_|r&d|false|true|false|true|false|false|false|false|false|NNP
+R&D	others	r&d|toshiba|center|false|false|false|false|false|false|false|false|false|NNP
+Center	others	center|r&d|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Kawasaki	others	kawasaki|_start_|japan|true|false|false|false|false|false|false|false|false|NNP
+Japan	others	japan|kawasaki|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Topic	others	topic|_start_|a|true|false|false|false|false|false|false|false|false|NN
+An	others	a|topic|atm|true|false|false|false|false|false|false|false|false|DT
+ATM	others	atm|a|switch|false|true|false|true|false|false|false|false|false|NNP
+Switch	others	switch|atm|base|true|false|false|false|false|false|false|false|false|VB
+based	others	base|switch|on|false|false|false|false|false|false|false|false|false|VBN
+on	others	on|base|a|false|false|false|false|false|false|false|false|false|IN
+a	others	a|on|caso-banyan|false|false|false|false|false|false|false|false|false|DT
+CASO-banyan	others	caso-banyan|a|network|false|false|false|false|false|false|false|false|false|JJ
+Network	others	network|caso-banyan|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Dates	others	date|_start_|20-apr-90|true|false|false|false|false|false|false|false|false|NNS
+20-Apr-90	others	20-apr-90|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|1:30|true|false|false|false|false|false|false|false|false|NNP
+1:30	stime	1:30|time|pm|false|false|false|false|false|false|false|false|false|CD
+PM	stime	pm|1:30|_end_|false|true|false|true|false|false|false|false|false|NN
+
+Place	others	place|_start_|wean|true|false|false|false|false|false|false|false|false|NN
+Wean	location	wean|place|hall|true|false|false|false|false|false|false|false|false|VB
+Hall	location	hall|wean|8220|true|false|false|false|false|false|false|false|false|NNP
+8220	location	8220|hall|_end_|false|false|false|false|false|false|false|false|false|CD
+
+PostedBy	others	postedbi|_start_|robert|false|false|false|false|true|false|false|false|false|NNP
+Robert	others	robert|postedbi|sansom|true|false|false|false|false|true|false|false|false|NNP
+Sansom	others	sansom|robert|on|true|false|false|false|false|true|false|false|false|NNP
+on	others	on|sansom|17-apr-90|false|false|false|false|false|false|false|false|false|IN
+17-Apr-90	others	17-apr-90|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|17-apr-90|18:33|false|false|false|false|false|false|false|false|false|IN
+18:33	others	18:33|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|18:33|n.sp.cs.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+N.SP.CS.CMU.EDU	others	n.sp.cs.cmu.edu|from|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+Topic	others	topic|_start_|a|true|false|false|false|false|false|false|false|false|NN
+An	others	a|topic|atm|true|false|false|false|false|false|false|false|false|DT
+ATM	others	atm|a|switch|false|true|false|true|false|false|false|false|false|NNP
+Switch	others	switch|atm|base|true|false|false|false|false|false|false|false|false|VB
+based	others	base|switch|on|false|false|false|false|false|false|false|false|false|VBN
+on	others	on|base|a|false|false|false|false|false|false|false|false|false|IN
+a	others	a|on|caso-banyan|false|false|false|false|false|false|false|false|false|DT
+CASO-banyan	others	caso-banyan|a|network|false|false|false|false|false|false|false|false|false|JJ
+Network	others	network|caso-banyan|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Speaker	others	speaker|_start_|yasuro|true|false|false|false|false|false|false|false|false|NNP
+Yasuro	speaker	yasuro|speaker|shobatak|true|false|false|false|false|true|false|false|false|NNP
+Shobatake	speaker	shobatak|yasuro|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+Electronics	others	electron|_start_|equip|true|false|false|false|false|false|false|false|false|NNP
+Equipment	others	equip|electron|lab|true|false|false|false|false|false|false|false|false|NNP
+Lab	others	lab|equip|_end_|true|false|false|false|false|false|false|false|false|NN
+
+TOSHIBA	others	toshiba|_start_|r&d|false|true|false|true|false|false|false|false|false|NNP
+R&D	others	r&d|toshiba|center|false|false|false|false|false|false|false|false|false|NNP
+Center	others	center|r&d|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Kawasaki	others	kawasaki|_start_|japan|true|false|false|false|false|false|false|false|false|NNP
+Japan	others	japan|kawasaki|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Date	others	date|_start_|fridai|true|false|false|false|false|false|false|false|false|NN
+Friday	others	fridai|date|20th|true|false|false|false|false|false|false|false|true|NNP
+20th	others	20th|fridai|april|false|false|false|false|false|false|false|false|true|JJ
+April	others	april|20th|_end_|true|false|false|false|false|false|false|false|true|NNP
+
+Time	others	time|_start_|1:30|true|false|false|false|false|false|false|false|false|NNP
+1:30	stime	1:30|time|pm|false|false|false|false|false|false|false|false|false|CD
+pm	stime	pm|1:30|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Place	others	place|_start_|wean|true|false|false|false|false|false|false|false|false|NN
+Wean	location	wean|place|hall|true|false|false|false|false|false|false|false|false|VB
+Hall	location	hall|wean|8220|true|false|false|false|false|false|false|false|false|NNP
+8220	location	8220|hall|_end_|false|false|false|false|false|false|false|false|false|CD
+
+A	others	a|_start_|modifi|false|false|true|true|false|false|false|false|false|NN
+modified	others	modifi|a|buffer|false|false|false|false|false|false|false|false|false|VBN
+buffered	others	buffer|modifi|banyan|false|false|false|false|false|false|false|false|false|JJ
+banyan	others	banyan|buffer|network|false|false|false|false|false|false|false|false|false|NN
+network	others	network|banyan|call|false|false|false|false|false|false|false|false|false|NN
+called	others	call|network|caso-banyan|false|false|false|false|false|false|false|false|false|VBN
+CASO-banyan	others	caso-banyan|call|switch|false|false|false|false|false|false|false|false|false|JJ
+switch	others	switch|caso-banyan|be|false|false|false|false|false|false|false|false|false|NN
+is	others	be|switch|suitabl|false|false|false|false|false|false|false|false|false|VBZ
+suitable	others	suitabl|be|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+for	others	for|_start_|a|false|false|false|false|false|false|false|false|false|IN
+an	others	a|for|atm|false|false|false|false|false|false|false|false|false|DT
+ATM	others	atm|a|switch|false|true|false|true|false|false|false|false|false|NNP
+switch	others	switch|atm|becaus|false|false|false|false|false|false|false|false|false|NN
+because	others	becaus|switch|of|false|false|false|false|false|false|false|false|false|IN
+of	others	of|becaus|it|false|false|false|false|false|false|false|false|false|IN
+its	others	it|of|high|false|false|false|false|false|false|false|false|false|PRP$
+high	others	high|it|throughput|false|false|false|false|false|false|false|false|false|JJ
+throughput	others	throughput|high|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|throughput|easi|false|false|false|false|false|false|false|false|false|CC
+easy	others	easi|and|high-spe|false|false|false|false|false|false|false|false|false|JJ
+high-speed	others	high-spe|easi|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+implementation	others	implement|_start_|thi|false|false|false|false|false|false|false|false|false|NN
+This	others	thi|implement|talk|true|false|false|false|false|false|false|false|false|DT
+talk	others	talk|thi|describ|false|false|false|false|false|false|false|false|false|NN
+describes	others	describ|talk|the|false|false|false|false|false|false|false|false|false|VBZ
+the	others	the|describ|caso-banyan|false|false|false|false|false|false|false|false|false|DT
+CASO-banyan	others	caso-banyan|the|switch|false|false|false|false|false|false|false|false|false|JJ
+switch	others	switch|caso-banyan|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|switch|the|false|false|false|false|false|false|false|false|false|CC
+the	others	the|and|lsi|false|false|false|false|false|false|false|false|false|DT
+LSI	others	lsi|the|_end_|false|true|false|true|false|false|false|false|false|NNP
+
+implementation	others	implement|_start_|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|implement|it|false|false|false|false|false|false|false|false|false|IN
+its	others	it|of|element|false|false|false|false|false|false|false|false|false|PRP$
+elements	others	element|it|at|false|false|false|false|false|false|false|false|false|NNS
+at	others	at|element|toshiba|false|false|false|false|false|false|false|false|false|IN
+Toshiba	others	toshiba|at|r&d|true|false|false|false|false|false|false|false|false|NNP
+R&D	others	r&d|toshiba|center|false|false|false|false|false|false|false|false|false|NNP
+Center	others	center|r&d|in|true|false|false|false|false|false|false|false|false|NNP
+In	others	in|center|particular|true|false|false|false|false|false|false|false|false|IN
+particular	others	particular|in|a|false|false|false|false|false|false|false|false|false|JJ
+a	others	a|particular|lsi|false|false|false|false|false|false|false|false|false|DT
+LSI	others	lsi|a|_end_|false|true|false|true|false|false|false|false|false|NNP
+
+2	others	2|_start_|by|false|false|false|false|false|false|false|false|false|CD
+by	others	by|2|2|false|false|false|false|false|false|false|false|false|IN
+2	others	2|by|switch|false|false|false|false|false|false|false|false|false|CD
+switch	others	switch|2|element|false|false|false|false|false|false|false|false|false|NN
+element	others	element|switch|have|false|false|false|false|false|false|false|false|false|NN
+has	others	have|element|alreadi|false|false|false|false|false|false|false|false|false|VBZ
+already	others	alreadi|have|be|false|false|false|false|false|false|false|false|false|RB
+been	others	be|alreadi|design|false|false|false|false|false|false|false|false|false|VBN
+designed	others	design|be|and|false|false|false|false|false|false|false|false|false|VBN
+and	others	and|design|fabric|false|false|false|false|false|false|false|false|false|CC
+fabricated	others	fabric|and|thi|false|false|false|false|false|false|false|false|false|VBN
+This	others	thi|fabric|chip|true|false|false|false|false|false|false|false|false|DT
+chip	others	chip|thi|_end_|false|false|false|false|false|false|false|false|false|NN
+
+works	others	work|_start_|at|false|false|false|false|false|false|false|false|false|NNS
+at	others	at|work|speed|false|false|false|false|false|false|false|false|false|IN
+speeds	others	speed|at|higher|false|false|false|false|false|false|false|false|false|NNS
+higher	others	higher|speed|than|false|false|false|false|false|false|false|false|false|JJR
+than	others	than|higher|sever|false|false|false|false|false|false|false|false|false|IN
+several	others	sever|than|hundr|false|false|false|false|false|false|false|false|false|JJ
+hundred	others	hundr|sever|mbp|false|false|false|false|false|false|false|false|false|CD
+Mbps	others	mbp|hundr|_end_|true|false|false|false|false|false|false|false|false|NNS
+
+If	others	if|_start_|you|true|false|false|false|false|false|false|false|false|IN
+you	others	you|if|would|false|false|false|false|false|false|false|false|false|PRP
+would	others	would|you|like|false|false|false|false|false|false|false|false|false|MD
+like	others	like|would|a|false|false|false|false|false|false|false|false|false|VB
+an	others	a|like|appoint|false|false|false|false|false|false|false|false|false|DT
+appointment	others	appoint|a|with|false|false|false|false|false|false|false|false|false|NN
+with	others	with|appoint|mr.|false|false|false|false|false|false|false|false|false|IN
+Mr.	speaker	mr.|with|shobatak|false|false|false|false|false|true|false|false|false|NNP
+Shobatake	speaker	shobatak|mr.|pleas|true|false|false|false|false|true|false|false|false|NNP
+please	others	pleas|shobatak|contact|false|false|false|false|false|false|false|false|false|VB
+contact	others	contact|pleas|barbara|false|false|false|false|false|false|false|false|false|NN
+Barbara	others	barbara|contact|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+Grandillo	others	grandillo|_start_|-lrb-|true|false|false|false|false|false|false|false|false|NN
+-LRB-	others	-lrb-|grandillo|bag@n,|false|false|false|false|false|false|false|false|false|-LRB-
+bag@n,	others	bag@n,|-lrb-|x7550|false|false|false|false|false|false|false|false|false|NN
+x7550	others	x7550|bag@n,|-rrb-|false|false|false|false|false|false|false|false|false|NN
+-RRB-	others	-rrb-|x7550|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+

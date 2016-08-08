@@ -1,0 +1,53 @@
+Type	others	type|_start_|cmu|true|false|false|false|false|false|false|false|false|NN
+cmu	others	cmu|type|c|false|false|false|false|false|false|false|false|false|NN
+cs	others	c|cmu|proj|false|false|false|false|false|false|false|false|false|NNS
+proj	others	proj|c|vision|false|false|false|false|false|false|false|false|false|NN
+vision	others	vision|proj|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Topic	others	topic|_start_|iu|true|false|false|false|false|false|false|false|false|NN
+IUS	others	iu|topic|seminar|false|true|false|true|false|false|false|false|false|NNS
+seminar	others	seminar|iu|tomorrow|false|false|false|false|false|false|false|false|false|NN
+tomorrow	others	tomorrow|seminar|_end_|false|false|false|false|false|false|false|false|true|NN
+
+Dates	others	date|_start_|17-aug-83|true|false|false|false|false|false|false|false|false|NNS
+17-Aug-83	others	17-aug-83|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|3:30|true|false|false|false|false|false|false|false|false|NNP
+3:30	stime	3:30|time|_end_|false|false|false|false|false|false|false|false|false|CD
+
+PostedBy	others	postedbi|_start_|on|false|false|false|false|true|false|false|false|false|NNP
+on	others	on|postedbi|16-aug-83|false|false|false|false|false|false|false|false|false|IN
+16-Aug-83	others	16-aug-83|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|16-aug-83|14:15|false|false|false|false|false|false|false|false|false|IN
+14:15	others	14:15|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|14:15|_end_|false|false|false|false|false|false|false|false|false|IN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+There	others	there|_start_|will|true|false|false|false|false|false|false|false|false|EX
+will	others	will|there|be|false|false|false|false|false|false|false|false|false|MD
+be	others	be|will|a|false|false|false|false|false|false|false|false|false|VB
+a	others	a|be|special|false|false|false|false|false|false|false|false|false|DT
+special	others	special|a|session|false|false|false|false|false|false|false|false|false|JJ
+session	others	session|special|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|session|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|of|iu|false|false|false|false|false|false|false|false|false|DT
+IUS	others	iu|the|seminar|false|true|false|true|false|false|false|false|false|NN
+seminar	others	seminar|iu|tomorrow|false|false|false|false|false|false|false|false|false|NN
+tomorrow	others	tomorrow|seminar|wednesdai|false|false|false|false|false|false|false|false|true|NN
+Wednesday	others	wednesdai|tomorrow|_end_|true|false|false|false|false|false|false|false|true|NNP
+
+at	others	at|_start_|3:30|false|false|false|false|false|false|false|false|false|IN
+3:30	stime	3:30|at|in|false|false|false|false|false|false|false|false|false|CD
+in	others	in|3:30|8220|false|false|false|false|false|false|false|false|false|IN
+8220	location	8220|in|due|false|false|false|false|false|false|false|false|false|CD
+due	others	due|8220|to|false|false|false|false|false|false|false|false|false|JJ
+to	others	to|due|the|false|false|false|false|false|false|false|false|false|TO
+the	others	the|to|earli|false|false|false|false|false|false|false|false|false|DT
+early	others	earli|the|breakup|false|false|false|false|false|false|false|false|false|JJ
+breakup	others	breakup|earli|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|breakup|mondai|false|false|false|false|false|false|false|false|false|IN
+Monday	others	mondai|of|'s|true|false|false|false|false|false|false|false|true|NNP
+'s	others	's|mondai|meet|false|false|false|false|false|false|false|false|false|POS
+meeting	others	meet|'s|_end_|false|false|false|false|false|false|false|false|false|NN
+

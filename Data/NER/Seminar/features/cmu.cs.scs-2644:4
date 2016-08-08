@@ -1,0 +1,66 @@
+Type	others	type|_start_|cmu|true|false|false|false|false|false|false|false|false|NN
+cmu	others	cmu|type|c|false|false|false|false|false|false|false|false|false|NN
+cs	others	c|cmu|sc|false|false|false|false|false|false|false|false|false|NNS
+scs	others	sc|c|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+Topic	others	topic|_start_|cs\/psc|true|false|false|false|false|false|false|false|false|NN
+CS\/PSC	others	cs\/psc|topic|seminars\/spr|false|false|false|false|false|false|false|false|false|NN
+SEMINARS\/SPRING	others	seminars\/spr|cs\/psc|94|false|false|false|false|false|false|false|false|false|NN
+94	others	94|seminars\/spr|_end_|false|false|false|false|false|false|false|false|false|CD
+
+Dates	others	date|_start_|25-mar-94|true|false|false|false|false|false|false|false|false|NNS
+25-Mar-94	others	25-mar-94|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|4:00|true|false|false|false|false|false|false|false|false|NNP
+4:00	stime	4:00|time|pm|false|false|false|false|false|false|false|false|false|CD
+PM	stime	pm|4:00|_end_|false|true|false|true|false|false|false|false|false|NN
+
+PostedBy	others	postedbi|_start_|bag|false|false|false|false|true|false|false|false|false|NNP
+bag	others	bag|postedbi|on|false|false|false|false|false|false|false|false|false|NN
+on	others	on|bag|11-feb-94|false|false|false|false|false|false|false|false|false|IN
+11-Feb-94	others	11-feb-94|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|11-feb-94|10:11|false|false|false|false|false|false|false|false|false|IN
+10:11	others	10:11|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|10:11|barbara.adm.cs.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+BARBARA.ADM.CS.CMU.EDU	others	barbara.adm.cs.cmu.edu|from|-lrb-|false|false|false|false|false|false|false|false|false|NN
+-LRB-	others	-lrb-|barbara.adm.cs.cmu.edu|barbara|false|false|false|false|false|false|false|false|false|-LRB-
+Barbara	others	barbara|-lrb-|grandillo|true|false|false|false|false|true|false|false|false|NNP
+Grandillo	others	grandillo|barbara|-rrb-|true|false|false|false|false|true|false|false|false|NNP
+-RRB-	others	-rrb-|grandillo|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+COMPUTER	others	comput|_start_|systems\/pgh|false|true|false|true|false|false|false|false|false|NN
+SYSTEMS\/PGH	others	systems\/pgh|comput|supercomput|false|false|false|false|false|false|false|false|false|NN
+SUPERCOMPUTING	others	supercomput|systems\/pgh|center|false|true|false|true|false|false|false|false|false|VBG
+CENTER	others	center|supercomput|seminar|false|true|false|true|false|false|false|false|false|NN
+SEMINARS	others	seminar|center|_end_|false|true|false|true|false|false|false|false|false|NNS
+
+SPRING	others	spring|_start_|'94|false|true|false|true|false|false|false|false|true|NN
+'94	others	'94|spring|list|false|false|false|false|false|false|false|false|true|CD
+LIST	others	list|'94|_end_|false|true|false|true|false|false|false|false|false|NN
+
+March	others	march|_start_|25|true|false|false|false|false|false|false|false|true|NNP
+25	others	25|march|_end_|false|false|false|false|false|false|false|false|true|CD
+
+National	others	nation|_start_|center|true|false|false|false|false|false|false|false|false|NNP
+Center	others	center|nation|for|true|false|false|false|false|false|false|false|false|NNP
+for	others	for|center|atmospher|false|false|false|false|false|false|false|false|false|IN
+Atmospheric	others	atmospher|for|research|true|false|false|false|false|false|false|false|false|NNP
+Research	others	research|atmospher|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Geophysical	others	geophys|_start_|turbul|true|false|false|false|false|false|false|false|false|JJ
+Turbulance	others	turbul|geophys|_end_|true|false|false|false|false|false|false|false|false|NN
+
+4	stime	4|_start_|pm|false|false|false|false|false|false|false|false|false|CD
+pm	stime	pm|4|3rd|false|false|false|false|false|false|false|false|false|NN
+3rd	location	3rd|pm|floor|false|false|false|false|false|false|false|false|false|CD
+Floor	location	floor|3rd|confer|true|false|false|false|false|false|false|false|false|NNP
+Conference	location	confer|floor|room|true|false|false|false|false|false|false|false|false|NNP
+Room	location	room|confer|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Mellon	others	mellon|_start_|institut|true|false|false|false|false|false|false|false|false|NNP
+Institute	others	institut|mellon|build|true|false|false|false|false|false|false|false|false|NNP
+Building	others	build|institut|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+

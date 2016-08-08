@@ -1,0 +1,79 @@
+Type	others	type|_start_|cmu.andrew.org|true|false|false|false|false|false|false|false|false|NN
+cmu.andrew.org	others	cmu.andrew.org|type|stc|false|false|false|false|false|false|false|false|false|NN
+stc	others	stc|cmu.andrew.org|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Topic	others	topic|_start_|weekli|true|false|false|false|false|false|false|false|false|NN
+WEEKLY	others	weekli|topic|seminar|false|true|false|true|false|false|false|false|false|NNP
+SEMINARS	others	seminar|weekli|june|false|true|false|true|false|false|false|false|false|NNP
+JUNE	others	june|seminar|5|false|true|false|true|false|false|false|false|true|NN
+5	others	5|june|_end_|false|false|false|false|false|false|false|false|true|CD
+
+Dates	others	date|_start_|8-jun-95|true|false|false|false|false|false|false|false|false|NNS
+8-Jun-95	others	8-jun-95|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|3:30|true|false|false|false|false|false|false|false|false|NNP
+3:30	stime	3:30|time|pm|false|false|false|false|false|false|false|false|false|CD
+PM	stime	pm|3:30|_end_|false|true|false|true|false|false|false|false|false|NN
+
+PostedBy	others	postedbi|_start_|sandra|false|false|false|false|true|false|false|false|false|NNP
+Sandra	others	sandra|postedbi|m|true|false|false|false|false|true|false|false|false|NNP
+M	others	m|sandra|sherman|false|false|true|true|false|true|false|false|false|NNP
+Sherman	others	sherman|m|on|true|false|false|false|false|true|false|false|false|NNP
+on	others	on|sherman|5-jun-95|false|false|false|false|false|false|false|false|false|IN
+5-Jun-95	others	5-jun-95|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|5-jun-95|10:09|false|false|false|false|false|false|false|false|false|IN
+10:09	others	10:09|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|10:09|andrew.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+andrew.cmu.edu	others	andrew.cmu.edu|from|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+4	others	4|_start_|dept.|false|false|false|false|false|false|false|false|false|CD
+DEPT.	others	dept.|4|of|false|false|false|false|false|false|false|false|false|NNP
+OF	others	of|dept.|molecular|false|true|false|true|false|false|false|false|false|IN
+MOLECULAR	others	molecular|of|genet|false|true|false|true|false|false|false|false|false|NNP
+GENETICS	others	genet|molecular|and|false|true|false|true|false|false|false|false|false|NNPS
+AND	others	and|genet|biochemistri|false|true|false|true|false|false|false|false|false|CC
+BIOCHEMISTRY	others	biochemistri|and|pitt|false|true|false|true|false|false|false|false|false|NN
+PITT	others	pitt|biochemistri|studi|false|true|false|true|false|false|false|false|false|NN
+Studies	others	studi|pitt|of|true|false|false|false|false|false|false|false|false|NNS
+of	others	of|studi|_end_|false|false|false|false|false|false|false|false|false|IN
+
+HSV	others	hsv|_start_|latenc|false|true|false|true|false|false|false|false|false|NN
+Latency	others	latenc|hsv|and|true|false|false|false|false|false|false|false|false|NN
+and	others	and|latenc|transgen|false|false|false|false|false|false|false|false|false|CC
+Transgene	others	transgen|and|express|true|false|false|false|false|false|false|false|false|NN
+Expression	others	express|transgen|in|true|false|false|false|false|false|false|false|false|NN
+in	others	in|express|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|in|nervou|false|false|false|false|false|false|false|false|false|DT
+Nervous	others	nervou|the|system|true|false|false|false|false|false|false|false|false|NNP
+System	others	system|nervou|dr.|true|false|false|false|false|false|false|false|false|NNP
+Dr.	speaker	dr.|system|david|false|false|false|false|false|true|false|false|false|NNP
+David	speaker	david|dr.|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+J.	others	j.|_start_|fink|false|false|false|false|false|true|false|false|false|NNP
+Fink	others	fink|j.|dept.|true|false|false|false|false|true|false|false|false|NNP
+Dept.	others	dept.|fink|of|false|false|false|false|false|false|false|false|false|NNP
+of	others	of|dept.|neurolog|false|false|false|false|false|false|false|false|false|IN
+Neurology	others	neurolog|of|univ.|true|false|false|false|false|false|false|false|false|NNP
+Univ.	others	univ.|neurolog|of|false|false|false|false|false|false|false|false|false|NNP
+of	others	of|univ.|pgh|false|false|false|false|false|false|false|false|false|IN
+Pgh	others	pgh|of|school|true|false|false|false|false|false|false|false|false|NNP
+School	others	school|pgh|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|school|med.|false|false|false|false|false|false|false|false|false|IN
+Med.	others	med.|of|thursdai|false|false|false|false|false|false|false|false|false|NNP
+Thursday	others	thursdai|med.|june|true|false|false|false|false|false|false|false|true|NNP
+June	others	june|thursdai|_end_|true|false|false|false|false|false|false|false|true|NNP
+
+8	others	8|_start_|3:30|false|false|false|false|false|false|false|false|false|CD
+3:30	stime	3:30|8|pm|false|false|false|false|false|false|false|false|false|CD
+pm	stime	pm|3:30|1295|false|false|false|false|false|false|false|false|false|NN
+1295	location	1295|pm|biomed|false|false|false|false|false|false|false|false|true|CD
+Biomedical	location	biomed|1295|scienc|true|false|false|false|false|false|false|false|false|NNP
+Science	location	scienc|biomed|tower|true|false|false|false|false|false|false|false|false|NNP
+Tower	location	tower|scienc|refresh|true|false|false|false|false|false|false|false|false|NNP
+Refreshments	others	refresh|tower|serv|true|false|false|false|false|false|false|false|false|NNS
+served	others	serv|refresh|at|false|false|false|false|false|false|false|false|false|VBD
+at	others	at|serv|3:30|false|false|false|false|false|false|false|false|false|IN
+3:30	stime	3:30|at|_end_|false|false|false|false|false|false|false|false|false|CD
+

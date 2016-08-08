@@ -1,0 +1,138 @@
+Type	others	type|_start_|cmu|true|false|false|false|false|false|false|false|false|NN
+cmu	others	cmu|type|c|false|false|false|false|false|false|false|false|false|NN
+cs	others	c|cmu|sc|false|false|false|false|false|false|false|false|false|NNS
+scs	others	sc|c|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+Who	others	who|_start_|eric|true|false|false|false|false|false|false|false|false|WP
+Eric	speaker	eric|who|krotkov|true|false|false|false|false|true|false|false|false|NNP
+Krotkov	speaker	krotkov|eric|and|true|false|false|false|false|true|false|false|false|NNP
+and	others	and|krotkov|reid|false|false|false|false|false|false|false|false|false|CC
+Reid	speaker	reid|and|simmon|true|false|false|false|false|true|false|false|false|NNP
+Simmons	speaker	simmon|reid|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+Carnegie	others	carnegi|_start_|mellon|true|false|false|false|false|false|false|false|false|NNP
+Mellon	others	mellon|carnegi|univers|true|false|false|false|false|false|false|false|false|NNP
+University	others	univers|mellon|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Topic	others	topic|_start_|autonom|true|false|false|false|false|false|false|false|false|NN
+Autonomous	others	autonom|topic|walk|true|false|false|false|false|false|false|false|false|NNP
+Walking	others	walk|autonom|for|true|false|false|false|false|false|false|false|false|VBG
+for	others	for|walk|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|for|ambler|false|false|false|false|false|false|false|false|false|DT
+Ambler	others	ambler|the|planetari|true|false|false|false|false|false|false|false|false|NNP
+Planetary	others	planetari|ambler|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Exploration	others	explor|_start_|robot|true|false|false|false|false|false|false|false|false|NN
+Robot	others	robot|explor|_end_|true|false|false|false|false|false|false|false|false|NN
+
+Dates	others	date|_start_|20-nov-92|true|false|false|false|false|false|false|false|false|NNS
+20-Nov-92	others	20-nov-92|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|3:30|true|false|false|false|false|false|false|false|false|NNP
+3:30	stime	3:30|time|5:00|false|false|false|false|false|false|true|false|false|CD
+5:00	etime	5:00|3:30|pm|false|false|false|false|false|false|false|true|false|CD
+PM	etime	pm|5:00|_end_|false|true|false|true|false|false|false|false|false|NN
+
+Place	others	place|_start_|baker|true|false|false|false|false|false|false|false|false|NN
+Baker	location	baker|place|hall|true|false|false|false|false|false|false|false|false|NNP
+Hall	location	hall|baker|adamson|true|false|false|false|false|false|false|false|false|NNP
+Adamson	location	adamson|hall|wing|true|false|false|false|false|true|false|false|false|NNP
+Wing	location	wing|adamson|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Host	others	host|_start_|hagen|true|false|false|false|false|false|false|false|false|NN
+Hagen	others	hagen|host|schempf|true|false|false|false|false|true|false|false|false|NNP
+Schempf	others	schempf|hagen|x6884|true|false|false|false|false|true|false|false|false|NNP
+x6884	others	x6884|schempf|_end_|false|false|false|false|false|false|false|false|false|NN
+
+PostedBy	others	postedbi|_start_|tmeadow|false|false|false|false|true|false|false|false|false|NNP
+tmeadows	others	tmeadow|postedbi|on|false|false|false|false|false|false|false|false|false|NNS
+on	others	on|tmeadow|20-nov-92|false|false|false|false|false|false|false|false|false|IN
+20-Nov-92	others	20-nov-92|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|20-nov-92|08:56|false|false|false|false|false|false|false|false|false|IN
+08:56	others	08:56|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|08:56|frc.ri.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+frc.ri.cmu.edu	others	frc.ri.cmu.edu|from|-lrb-|false|false|false|false|false|false|false|false|false|NN
+-LRB-	others	-lrb-|frc.ri.cmu.edu|tim|false|false|false|false|false|false|false|false|false|-LRB-
+Tim	others	tim|-lrb-|meadow|true|false|false|false|false|false|false|false|false|NNP
+Meadows	others	meadow|tim|-rrb-|true|false|false|false|false|false|false|false|false|NNP
+-RRB-	others	-rrb-|meadow|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+RI	others	ru|_start_|seminar|false|true|false|true|false|false|false|false|false|NN
+SEMINAR	others	seminar|ru|_end_|false|true|false|true|false|false|false|false|false|NN
+
+WHEN	others	when|_start_|fridai|false|true|false|true|false|false|false|false|false|WRB
+Friday	others	fridai|when|20|true|false|false|false|false|false|false|false|true|NNP
+20	others	20|fridai|novemb|false|false|false|false|false|false|false|false|true|CD
+November	others	novemb|20|1992|true|false|false|false|false|false|false|false|true|NNP
+1992	others	1992|novemb|3:30|false|false|false|false|false|false|false|false|true|CD
+3:30	stime	3:30|1992|5:00|false|false|false|false|false|false|true|false|false|CD
+5:00	etime	5:00|3:30|pm|false|false|false|false|false|false|false|true|false|CD
+PM	etime	pm|5:00|_end_|false|true|false|true|false|false|false|false|false|NN
+
+Refreshments	others	refresh|_start_|to|true|false|false|false|false|false|false|false|false|NNS
+to	others	to|refresh|be|false|false|false|false|false|false|false|false|false|TO
+be	others	be|to|serv|false|false|false|false|false|false|false|false|false|VB
+served	others	serv|be|by|false|false|false|false|false|false|false|false|false|VBN
+by	others	by|serv|3:15|false|false|false|false|false|false|false|false|false|IN
+3:15	others	3:15|by|pm|false|false|false|false|false|false|false|false|false|CD
+PM	others	pm|3:15|_end_|false|true|false|true|false|false|false|false|false|NN
+
+WHERE	others	where|_start_|baker|false|true|false|true|false|false|false|false|false|NN
+Baker	location	baker|where|hall|true|false|false|false|false|false|false|false|false|NNP
+Hall	location	hall|baker|adamson|true|false|false|false|false|false|false|false|false|NNP
+Adamson	location	adamson|hall|wing|true|false|false|false|false|true|false|false|false|NNP
+Wing	location	wing|adamson|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+SPEAKERS	others	speaker|_start_|eric|false|true|false|true|false|false|false|false|false|NNS
+Eric	speaker	eric|speaker|krotkov|true|false|false|false|false|true|false|false|false|NNP
+Krotkov	speaker	krotkov|eric|and|true|false|false|false|false|true|false|false|false|NNP
+and	others	and|krotkov|reid|false|false|false|false|false|false|false|false|false|CC
+Reid	speaker	reid|and|simmon|true|false|false|false|false|true|false|false|false|NNP
+Simmons	speaker	simmon|reid|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+Carnegie	others	carnegi|_start_|mellon|true|false|false|false|false|false|false|false|false|NNP
+Mellon	others	mellon|carnegi|univers|true|false|false|false|false|false|false|false|false|NNP
+University	others	univers|mellon|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+TITLE	others	titl|_start_|autonom|false|true|false|true|false|false|false|false|false|NN
+Autonomous	others	autonom|titl|walk|true|false|false|false|false|false|false|false|false|NNP
+Walking	others	walk|autonom|for|true|false|false|false|false|false|false|false|false|VBG
+for	others	for|walk|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|for|ambler|false|false|false|false|false|false|false|false|false|DT
+Ambler	others	ambler|the|planetari|true|false|false|false|false|false|false|false|false|NNP
+Planetary	others	planetari|ambler|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Exploration	others	explor|_start_|robot|true|false|false|false|false|false|false|false|false|NN
+Robot	others	robot|explor|_end_|true|false|false|false|false|false|false|false|false|NN
+
+ABSTRACT	others	abstract|_start_|previous|false|true|false|true|false|false|false|false|false|NN
+Previously	others	previous|abstract|post|true|false|false|false|false|false|false|false|false|RB
+Posted	others	post|previous|_end_|true|false|false|false|false|false|false|false|false|VBN
+
+HOST	others	host|_start_|hagen|false|true|false|true|false|false|false|false|false|NN
+Hagen	others	hagen|host|schempf|true|false|false|false|false|true|false|false|false|NNP
+Schempf	others	schempf|hagen|x6884|true|false|false|false|false|true|false|false|false|NNP
+x6884	others	x6884|schempf|_end_|false|false|false|false|false|false|false|false|false|NN
+
+
+
+
+Tim	others	tim|_start_|meadow|true|false|false|false|false|false|false|false|false|NNP
+Meadows	others	meadow|tim|field|true|false|false|false|false|false|false|false|false|NNP
+Field	others	field|meadow|robot|true|false|false|false|false|false|false|false|false|NNP
+Robotics	others	robot|field|center|true|false|false|false|false|false|false|false|false|NNP
+Center	others	center|robot|carnegi|true|false|false|false|false|false|false|false|false|NNP
+Carnegie	others	carnegi|center|mellon|true|false|false|false|false|false|false|false|false|NNP
+Mellon	others	mellon|carnegi|univ.|true|false|false|false|false|false|false|false|false|NNP
+Univ.	others	univ.|mellon|_end_|false|false|false|false|false|false|false|false|false|NNP
+
+
+412-268-7085	others	412-268-7085|_start_|fax|false|false|false|false|false|false|false|false|false|CD
+Fax	others	fax|412-268-7085|412-682-1793|true|false|false|false|false|false|false|false|false|NN
+412-682-1793	others	412-682-1793|fax|tmeadows@frc.ri.cmu.edu|false|false|false|false|false|false|false|false|false|CD
+tmeadows@frc.ri.cmu.edu	others	tmeadows@frc.ri.cmu.edu|412-682-1793|_end_|false|false|false|false|false|false|false|false|false|NN
+
+
+

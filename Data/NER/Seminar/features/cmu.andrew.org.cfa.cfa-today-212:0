@@ -1,0 +1,110 @@
+Type	others	type|_start_|cmu.andrew.org.cfa.cfa-todai|true|false|false|false|false|false|false|false|false|NN
+cmu.andrew.org.cfa.cfa-today	others	cmu.andrew.org.cfa.cfa-todai|type|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Topic	others	topic|_start_|art|true|false|false|false|false|false|false|false|false|NN
+Art	others	art|topic|lectur|true|false|false|false|false|false|false|false|false|NNP
+Lecture	others	lectur|art|10\/13\/92|true|false|false|false|false|false|false|false|false|NNP
+10\/13\/92	others	10\/13\/92|lectur|_end_|false|false|false|false|false|false|false|false|true|CD
+
+Dates	others	date|_start_|13-oct-92|true|false|false|false|false|false|false|false|false|NNS
+13-Oct-92	others	13-oct-92|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|5:00|true|false|false|false|false|false|false|false|false|NNP
+5:00	stime	5:00|time|pm|false|false|false|false|false|false|false|false|false|CD
+PM	stime	pm|5:00|_end_|false|true|false|true|false|false|false|false|false|NNP
+
+PostedBy	others	postedbi|_start_|saul|false|false|false|false|true|false|false|false|false|NNP
+Saul	others	saul|postedbi|markowitz|true|false|false|false|false|true|false|false|false|NNP
+Markowitz	others	markowitz|saul|on|true|false|false|false|false|true|false|false|false|NNP
+on	others	on|markowitz|12-oct-92|false|false|false|false|false|false|false|false|false|IN
+12-Oct-92	others	12-oct-92|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|12-oct-92|10:21|false|false|false|false|false|false|false|false|false|IN
+10:21	others	10:21|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|10:21|andrew.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+andrew.cmu.edu	others	andrew.cmu.edu|from|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+The	others	the|_start_|art|true|false|false|false|false|false|false|false|false|DT
+Art	others	art|the|depart|true|false|false|false|false|false|false|false|false|NNP
+Department	others	depart|art|lectur|true|false|false|false|false|false|false|false|false|NNP
+Lecture	others	lectur|depart|seri|true|false|false|false|false|false|false|false|false|NNP
+Series	others	seri|lectur|continu|true|false|false|false|false|false|false|false|false|NNP
+continues	others	continu|seri|tomorrow|false|false|false|false|false|false|false|false|false|VBZ
+tomorrow	others	tomorrow|continu|even|false|false|false|false|false|false|false|false|true|NN
+evening	others	even|tomorrow|at|false|false|false|false|false|false|false|false|true|NN
+at	others	at|even|5|false|false|false|false|false|false|false|false|true|IN
+5	others	5|at|pm|false|false|false|false|false|false|false|false|true|CD
+pm	others	pm|5|_end_|false|false|false|false|false|false|false|false|true|NN
+
+with	others	with|_start_|multi-media|false|false|false|false|false|false|false|false|false|IN
+multi-media	others	multi-media|with|artist|false|false|false|false|false|false|false|false|false|JJ
+artist	others	artist|multi-media|woodi|false|false|false|false|false|false|false|false|false|NN
+Woody	speaker	woodi|artist|vasulka|true|false|false|false|false|true|false|false|false|NNP
+Vasulka	speaker	vasulka|woodi|he|true|false|false|false|false|true|false|false|false|NNP
+His	others	he|vasulka|lectur|true|false|false|false|false|false|false|false|false|PRP$
+lecture	others	lectur|he|be|false|false|false|false|false|false|false|false|false|NN
+is	others	be|lectur|entitl|false|false|false|false|false|false|false|false|false|VBZ
+entitled	others	entitl|be|the|false|false|false|false|false|false|false|false|false|VBN
+The	others	the|entitl|_end_|true|false|false|false|false|false|false|false|false|DT
+
+Theater	others	theater|_start_|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|theater|hybrid|false|false|false|false|false|false|false|false|false|IN
+Hybrid	others	hybrid|of|automata|true|false|false|false|false|false|false|false|false|NNP
+Automata	others	automata|hybrid|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+A	others	a|_start_|co-found|false|false|true|true|false|false|false|false|false|NN
+co-founder	others	co-found|a|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|co-found|the|false|false|false|false|false|false|false|false|false|IN
+The	others	the|of|kitchen|true|false|false|false|false|false|false|false|false|DT
+Kitchen	others	kitchen|the|a|true|false|false|false|false|false|false|false|false|NN
+a	others	a|kitchen|new|false|false|false|false|false|false|false|false|false|DT
+New	others	new|a|york|true|false|false|false|false|false|false|false|false|NNP
+York	others	york|new|media|true|false|false|false|false|false|false|false|false|NNP
+media	others	media|york|theater|false|false|false|false|false|false|false|false|false|NNS
+theater	others	theater|media|vasulka|false|false|false|false|false|false|false|false|false|NN
+Vasulka	speaker	vasulka|theater|have|true|false|false|false|false|false|false|false|false|NN
+has	others	have|vasulka|_end_|false|false|false|false|false|false|false|false|false|VBZ
+
+participated	others	particip|_start_|in|false|false|false|false|false|false|false|false|false|VBD
+in	others	in|particip|major|false|false|false|false|false|false|false|false|false|IN
+major	others	major|in|video|false|false|false|false|false|false|false|false|false|JJ
+video	others	video|major|show|false|false|false|false|false|false|false|false|false|NN
+shows	others	show|video|in|false|false|false|false|false|false|false|false|false|VBZ
+in	others	in|show|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|in|us|false|false|false|false|false|false|false|false|false|DT
+US	others	us|the|and|false|true|false|true|false|false|false|false|false|NNP
+and	others	and|us|abroad|false|false|false|false|false|false|false|false|false|CC
+abroad	others	abroad|and|_end_|false|false|false|false|false|false|false|false|false|RB
+
+Vasulka	speaker	vasulka|_start_|will|true|false|false|false|false|false|false|false|false|FW
+will	others	will|vasulka|also|false|false|false|false|false|false|false|false|false|MD
+also	others	also|will|be|false|false|false|false|false|false|false|false|false|RB
+be	others	be|also|conduct|false|false|false|false|false|false|false|false|false|VB
+conducting	others	conduct|be|a|false|false|false|false|false|false|false|false|false|VBG
+an	others	a|conduct|afternoon|false|false|false|false|false|false|false|false|false|DT
+afternoon	others	afternoon|a|workshop|false|false|false|false|false|false|false|false|false|NN
+workshop	others	workshop|afternoon|in|false|false|false|false|false|false|false|false|false|NN
+in	others	in|workshop|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|in|colleg|false|false|false|false|false|false|false|false|false|DT
+College	location	colleg|the|of|true|false|false|false|false|false|false|false|false|NNP
+of	location	of|colleg|_end_|false|false|false|false|false|false|false|false|false|IN
+
+Fine	others	fine|_start_|art|true|false|false|false|false|false|false|false|false|JJ
+Arts	others	art|fine|in|true|false|false|false|false|false|false|false|false|NNS
+in	others	in|art|room|false|false|false|false|false|false|false|false|false|IN
+Room	others	room|in|314c|true|false|false|false|false|false|false|false|false|NNP
+314C	others	314c|room|from|false|false|false|false|false|false|false|false|false|NNP
+from	others	from|314c|1:30|false|false|false|false|false|false|false|false|false|IN
+1:30	stime	1:30|from|to|false|false|false|false|false|false|false|false|false|CD
+to	others	to|1:30|4:00|false|false|false|false|false|false|false|false|false|TO
+4:00	others	4:00|to|pm|false|false|false|false|false|false|false|false|false|CD
+pm	others	pm|4:00|on|false|false|false|false|false|false|false|false|false|NN
+on	others	on|pm|video|false|false|false|false|false|false|false|false|false|IN
+video	others	video|on|perform|false|false|false|false|false|false|false|false|false|NN
+performance	others	perform|video|_end_|false|false|false|false|false|false|false|false|false|NN
+
+electronic	others	electron|_start_|media|false|false|false|false|false|false|false|false|false|JJ
+media	others	media|electron|multi-media|false|false|false|false|false|false|false|false|false|NNS
+multi-media	others	multi-media|media|_end_|false|false|false|false|false|false|false|false|false|NNS
+

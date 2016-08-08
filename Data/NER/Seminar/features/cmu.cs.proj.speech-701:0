@@ -1,0 +1,81 @@
+Type	others	type|_start_|cmu|true|false|false|false|false|false|false|false|false|NN
+cmu	others	cmu|type|c|false|false|false|false|false|false|false|false|false|NN
+cs	others	c|cmu|proj|false|false|false|false|false|false|false|false|false|NNS
+proj	others	proj|c|speech|false|false|false|false|false|false|false|false|false|NN
+speech	others	speech|proj|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Topic	others	topic|_start_|talk|true|false|false|false|false|false|false|false|false|NN
+talk	others	talk|topic|todai|false|false|false|false|false|false|false|false|false|NN
+today	others	todai|talk|_end_|false|false|false|false|false|false|false|false|true|NN
+
+Dates	others	date|_start_|18-sep-86|true|false|false|false|false|false|false|false|false|NNS
+18-Sep-86	others	18-sep-86|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|3:30|true|false|false|false|false|false|false|false|false|NNP
+3:30	stime	3:30|time|_end_|false|false|false|false|false|false|false|false|false|CD
+
+PostedBy	others	postedbi|_start_|richard|false|false|false|false|true|false|false|false|false|NNP
+Richard	others	richard|postedbi|stern|true|false|false|false|false|true|false|false|false|NNP
+Stern	others	stern|richard|on|true|false|false|false|false|true|false|false|false|NNP
+on	others	on|stern|18-sep-86|false|false|false|false|false|false|false|false|false|IN
+18-Sep-86	others	18-sep-86|on|at|false|false|false|false|false|false|false|false|false|NNP
+at	others	at|18-sep-86|10:15|false|false|false|false|false|false|false|false|false|IN
+10:15	others	10:15|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|10:15|speech1|false|false|false|false|false|false|false|false|false|IN
+speech1	others	speech1|from|cs.cmu.edu|false|false|false|false|false|false|false|false|false|NN
+cs.cmu.edu	others	cs.cmu.edu|speech1|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+I	others	i|_start_|be|false|false|true|true|false|false|false|false|false|PRP
+'m	others	be|i|give|false|false|false|false|false|false|false|false|false|VBP
+giving	others	give|be|a|false|false|false|false|false|false|false|false|false|VBG
+a	others	a|give|talk|false|false|false|false|false|false|false|false|false|DT
+talk	others	talk|a|about|false|false|false|false|false|false|false|false|false|NN
+about	others	about|talk|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|about|darpa|false|false|false|false|false|false|false|false|false|DT
+DARPA	others	darpa|the|system|false|true|false|true|false|false|false|false|false|NNP
+system	others	system|darpa|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|system|3:30|false|false|false|false|false|false|false|false|false|IN
+3:30	stime	3:30|at|todai|false|false|false|false|false|false|false|false|false|CD
+today	others	todai|3:30|in|false|false|false|false|false|false|false|false|true|NN
+in	others	in|todai|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|in|scaif|false|false|false|false|false|false|false|false|false|DT
+Scaife	location	scaif|the|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Hall	others	hall|_start_|auditorium|true|false|false|false|false|false|false|false|false|NNP
+auditorium	others	auditorium|hall|it|false|false|false|false|false|false|false|false|false|NN
+It	others	it|auditorium|be|true|false|false|false|false|false|false|false|false|PRP
+'s	others	be|it|part|false|false|false|false|false|false|false|false|false|VBZ
+part	others	part|be|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|part|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|of|ec|false|false|false|false|false|false|false|false|false|DT
+ECE	others	ec|the|graduat|false|true|false|true|false|false|false|false|false|NNP
+Graduate	others	graduat|ec|seminar|true|false|false|false|false|false|false|false|false|NNP
+Seminar	others	seminar|graduat|seri|true|false|false|false|false|false|false|false|false|NNP
+Series	others	seri|seminar|refresh|true|false|false|false|false|false|false|false|false|NNP
+Refreshments	others	refresh|seri|_end_|true|false|false|false|false|false|false|false|false|NNS
+
+at	others	at|_start_|3:15|false|false|false|false|false|false|false|false|false|IN
+3:15	others	3:15|at|it|false|false|false|false|false|false|false|false|false|CD
+It	others	it|3:15|will|true|false|false|false|false|false|false|false|false|PRP
+wo	others	will|it|not|false|false|false|false|false|false|false|false|false|MD
+n't	others	not|will|be|false|false|false|false|false|false|false|false|false|RB
+be	others	be|not|much|false|false|false|false|false|false|false|false|false|VB
+much	others	much|be|new|false|false|false|false|false|false|false|false|false|JJ
+new	others	new|much|to|false|false|false|false|false|false|false|false|false|JJ
+to	others	to|new|those|false|false|false|false|false|false|false|false|false|TO
+those	others	those|to|here|false|false|false|false|false|false|false|false|false|DT
+here	others	here|those|in|false|false|false|false|false|false|false|false|false|RB
+in	others	in|here|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|in|know|false|false|false|false|false|false|false|false|false|DT
+know	others	know|the|but|false|false|false|false|false|false|false|false|false|VBP
+but	others	but|know|you|false|false|false|false|false|false|false|false|false|CC
+you	others	you|but|be|false|false|false|false|false|false|false|false|false|PRP
+'re	others	be|you|all|false|false|false|false|false|false|false|false|false|VBP
+all	others	all|be|_end_|false|false|false|false|false|false|false|false|false|DT
+
+invited	others	invit|_start_|to|false|false|false|false|false|false|false|false|false|VBN
+to	others	to|invit|come|false|false|false|false|false|false|false|false|false|TO
+come	others	come|to|_end_|false|false|false|false|false|false|false|false|false|VB
+

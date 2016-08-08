@@ -1,0 +1,74 @@
+Type	others	type|_start_|cmu.andrew.org|true|false|false|false|false|false|false|false|false|NN
+cmu.andrew.org	others	cmu.andrew.org|type|epp|false|false|false|false|false|false|false|false|false|NN
+epp	others	epp|cmu.andrew.org|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Topic	others	topic|_start_|cee|true|false|false|false|false|false|false|false|false|NN
+CEE	others	cee|topic|ee|false|true|false|true|false|false|false|false|false|NN
+EES	others	ee|cee|seminar|false|true|false|true|false|false|false|false|false|NN
+Seminar	others	seminar|ee|seri|true|false|false|false|false|false|false|false|false|NNP
+Series	others	seri|seminar|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Dates	others	date|_start_|11-nov-94|true|false|false|false|false|false|false|false|false|NNS
+11-Nov-94	others	11-nov-94|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|3:30|true|false|false|false|false|false|false|false|false|NNP
+3:30	stime	3:30|time|_end_|false|false|false|false|false|false|false|false|false|CD
+
+PostedBy	others	postedbi|_start_|david|false|false|false|false|true|false|false|false|false|NNP
+David	others	david|postedbi|adam|true|false|false|false|false|true|false|false|false|NNP
+Adam	others	adam|david|dzombak|true|false|false|false|false|true|false|false|false|NNP
+Dzombak	others	dzombak|adam|on|true|false|false|false|false|true|false|false|false|NNP
+on	others	on|dzombak|2-oct-94|false|false|false|false|false|false|false|false|false|IN
+2-Oct-94	others	2-oct-94|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|2-oct-94|14:09|false|false|false|false|false|false|false|false|false|IN
+14:09	others	14:09|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|14:09|andrew.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+andrew.cmu.edu	others	andrew.cmu.edu|from|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+DEPARTMENT	others	depart|_start_|of|false|true|false|true|false|false|false|false|false|NNP
+OF	others	of|depart|civil|false|true|false|true|false|false|false|false|false|IN
+CIVIL	others	civil|of|and|false|true|false|true|false|false|false|false|false|NNP
+AND	others	and|civil|environment|false|true|false|true|false|false|false|false|false|CC
+ENVIRONMENTAL	others	environment|and|engin|false|true|false|true|false|false|false|false|false|JJ
+ENGINEERING	others	engin|environment|_end_|false|true|false|true|false|false|false|false|false|NN
+
+CARNEGIE	others	carnegi|_start_|mellon|false|true|false|true|false|false|false|false|false|NNP
+MELLON	others	mellon|carnegi|univers|false|true|false|true|false|false|false|false|false|NNP
+UNIVERSITY	others	univers|mellon|_end_|false|true|false|true|false|false|false|false|false|NNP
+
+ENVIRONMENTAL	others	environment|_start_|engin|false|true|false|true|false|false|false|false|false|JJ
+ENGINEERING	others	engin|environment|and|false|true|false|true|false|false|false|false|false|NN
+AND	others	and|engin|scienc|false|true|false|true|false|false|false|false|false|CC
+SCIENCE	others	scienc|and|seminar|false|true|false|true|false|false|false|false|false|NN
+SEMINARS	others	seminar|scienc|_end_|false|true|false|true|false|false|false|false|false|NNS
+
+FALL	others	fall|_start_|1994|false|true|false|true|false|false|false|false|true|NN
+1994	others	1994|fall|_end_|false|false|false|false|false|false|false|false|true|CD
+
+DATE	others	date|_start_|room|false|true|false|true|false|false|false|false|false|NN
+ROOM	others	room|date|time|false|true|false|true|false|false|false|false|false|NN
+TIME	others	time|room|speaker|false|true|false|true|false|false|false|false|false|NN
+SPEAKER	others	speaker|time|topic|false|true|false|true|false|false|false|false|false|NN
+TOPIC	others	topic|speaker|_end_|false|true|false|true|false|false|false|false|false|NN
+
+11\/11	others	11\/11|_start_|ph|false|false|false|false|false|false|false|false|false|CD
+PH	location	ph|11\/11|a18c|false|true|false|true|false|false|false|false|false|NN
+A18C	location	a18c|ph|3:30|false|false|false|false|false|false|false|false|false|NN
+3:30	stime	3:30|a18c|mr.|false|false|false|false|false|false|false|false|false|CD
+Mr.	speaker	mr.|3:30|subhasi|false|false|false|false|false|true|false|false|false|NNP
+Subhasis	speaker	subhasi|mr.|ghoshal|true|false|false|false|false|true|false|false|false|NNP
+Ghoshal	speaker	ghoshal|subhasi|biodegrad|true|false|false|false|false|true|false|false|false|NNP
+Biodegradation	others	biodegrad|ghoshal|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|biodegrad|_end_|false|false|false|false|false|false|false|false|false|IN
+
+CEE	others	cee|_start_|naphthalen|false|true|false|true|false|false|false|false|false|NNP
+Naphthalene	others	naphthalen|cee|from|true|false|false|false|false|false|false|false|false|NNP
+from	others	from|naphthalen|_end_|false|false|false|false|false|false|false|false|false|IN
+
+Nonaqueous	others	nonaqu|_start_|phase|true|false|false|false|false|false|false|false|false|NNP
+Phase	others	phase|nonaqu|_end_|true|false|false|false|false|false|false|false|false|NN
+
+Liquids	others	liquid|_start_|_end_|true|false|false|false|false|false|false|false|false|NNS
+

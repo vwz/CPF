@@ -1,0 +1,231 @@
+Type	others	type|_start_|ai|true|false|false|false|false|false|false|false|false|NN
+AI	others	ai|type|seminar|false|true|false|true|false|false|false|false|false|NNP
+Seminar	others	seminar|ai|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Who	others	who|_start_|clark|true|false|false|false|false|false|false|false|false|WP
+Clark	speaker	clark|who|glymour|true|false|false|false|false|true|false|false|false|NNP
+Glymour	speaker	glymour|clark|-lrb-|true|false|false|false|false|true|false|false|false|NNP
+-LRB-	others	-lrb-|glymour|cmu|false|false|false|false|false|false|false|false|false|-LRB-
+CMU	others	cmu|-lrb-|philosophi|false|true|false|true|false|false|false|false|false|NNP
+Philosophy	others	philosophi|cmu|-rrb-|true|false|false|false|false|false|false|false|false|NN
+-RRB-	others	-rrb-|philosophi|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+Topic	others	topic|_start_|autom|true|false|false|false|false|false|false|false|false|NN
+Automated	others	autom|topic|casual|true|false|false|false|false|false|false|false|false|NNP
+Casual	others	casual|autom|infer|true|false|false|false|false|false|false|false|false|NNP
+Inference	others	infer|casual|recent|true|false|false|false|false|false|false|false|false|NNP
+Recent	others	recent|infer|work|true|false|false|false|false|false|false|false|false|JJ
+Work	others	work|recent|and|true|false|false|false|false|false|false|false|false|NN
+and	others	and|work|open|false|false|false|false|false|false|false|false|false|CC
+Open	others	open|and|problem|true|false|false|false|false|false|false|false|false|NNP
+Problems	others	problem|open|_end_|true|false|false|false|false|false|false|false|false|NNS
+
+Dates	others	date|_start_|9-nov-93|true|false|false|false|false|false|false|false|false|NNS
+9-Nov-93	others	9-nov-93|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|3:30|true|false|false|false|false|false|false|false|false|NNP
+3:30	stime	3:30|time|pm|false|false|false|false|false|false|false|false|false|CD
+PM	stime	pm|3:30|_end_|false|true|false|true|false|false|false|false|false|NN
+
+Place	others	place|_start_|5409|true|false|false|false|false|false|false|false|false|NN
+5409	location	5409|place|wean|false|false|false|false|false|false|false|false|true|CD
+Wean	location	wean|5409|hall|true|false|false|false|false|false|false|false|false|NNP
+Hall	location	hall|wean|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Host	others	host|_start_|raul|true|false|false|false|false|false|false|false|false|NN
+Raul	others	raul|host|valdes-perez|true|false|false|false|false|true|false|false|false|NNP
+Valdes-Perez	others	valdes-perez|raul|_end_|false|false|false|false|false|true|false|false|false|NNP
+
+PostedBy	others	postedbi|_start_|plp|false|false|false|false|true|false|false|false|false|NNP
+plp	others	plp|postedbi|on|false|false|false|false|false|false|false|false|false|NN
+on	others	on|plp|4-nov-93|false|false|false|false|false|false|false|false|false|IN
+4-Nov-93	others	4-nov-93|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|4-nov-93|11:29|false|false|false|false|false|false|false|false|false|IN
+11:29	others	11:29|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|11:29|phyllis.adm.cs.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+PHYLLIS.ADM.CS.CMU.EDU	others	phyllis.adm.cs.cmu.edu|from|-lrb-|false|false|false|false|false|false|false|false|false|NN
+-LRB-	others	-lrb-|phyllis.adm.cs.cmu.edu|phylli|false|false|false|false|false|false|false|false|false|-LRB-
+Phyllis	others	phylli|-lrb-|pomerantz|true|false|false|false|false|true|false|false|false|NNP
+Pomerantz	others	pomerantz|phylli|-rrb-|true|false|false|false|false|true|false|false|false|NNP
+-RRB-	others	-rrb-|pomerantz|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+Type	others	type|_start_|ai|true|false|false|false|false|false|false|false|false|NN
+AI	others	ai|type|seminar|false|true|false|true|false|false|false|false|false|NNP
+Seminar	others	seminar|ai|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Who	others	who|_start_|clark|true|false|false|false|false|false|false|false|false|WP
+Clark	speaker	clark|who|glymour|true|false|false|false|false|true|false|false|false|NNP
+Glymour	speaker	glymour|clark|-lrb-|true|false|false|false|false|true|false|false|false|NNP
+-LRB-	others	-lrb-|glymour|cmu|false|false|false|false|false|false|false|false|false|-LRB-
+CMU	others	cmu|-lrb-|philosophi|false|true|false|true|false|false|false|false|false|NNP
+Philosophy	others	philosophi|cmu|-rrb-|true|false|false|false|false|false|false|false|false|NN
+-RRB-	others	-rrb-|philosophi|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+Topic	others	topic|_start_|autom|true|false|false|false|false|false|false|false|false|NN
+Automated	others	autom|topic|casual|true|false|false|false|false|false|false|false|false|NNP
+Casual	others	casual|autom|infer|true|false|false|false|false|false|false|false|false|NNP
+Inference	others	infer|casual|recent|true|false|false|false|false|false|false|false|false|NNP
+Recent	others	recent|infer|work|true|false|false|false|false|false|false|false|false|JJ
+Work	others	work|recent|and|true|false|false|false|false|false|false|false|false|NN
+and	others	and|work|open|false|false|false|false|false|false|false|false|false|CC
+Open	others	open|and|problem|true|false|false|false|false|false|false|false|false|NNP
+Problems	others	problem|open|_end_|true|false|false|false|false|false|false|false|false|NNS
+
+Dates	others	date|_start_|9-nov-93|true|false|false|false|false|false|false|false|false|NNS
+9-Nov-93	others	9-nov-93|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|3:30|true|false|false|false|false|false|false|false|false|NNP
+3:30	stime	3:30|time|p.|false|false|false|false|false|false|false|false|false|CD
+p.	stime	p.|3:30|m|false|false|false|false|false|false|false|false|false|NN
+m	stime	m|p.|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Place	others	place|_start_|5409|true|false|false|false|false|false|false|false|false|NN
+5409	location	5409|place|wean|false|false|false|false|false|false|false|false|true|CD
+Wean	location	wean|5409|hall|true|false|false|false|false|false|false|false|false|NNP
+Hall	location	hall|wean|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Host	others	host|_start_|raul|true|false|false|false|false|false|false|false|false|NN
+Raul	others	raul|host|valdes-perez|true|false|false|false|false|true|false|false|false|NNP
+Valdes-Perez	others	valdes-perez|raul|_end_|false|false|false|false|false|true|false|false|false|NNP
+
+Causation	others	causat|_start_|feedback|true|false|false|false|false|false|false|false|false|NNP
+Feedback	others	feedback|causat|condit|true|false|false|false|false|false|false|false|false|NNP
+Conditional	others	condit|feedback|independ|true|false|false|false|false|false|false|false|false|JJ
+Independence	others	independ|condit|in|true|false|false|false|false|false|false|false|false|NN
+in	others	in|independ|neural|false|false|false|false|false|false|false|false|false|IN
+Neural	others	neural|in|net|true|false|false|false|false|false|false|false|false|JJ
+Nets	others	net|neural|_end_|true|false|false|false|false|false|false|false|false|NNS
+
+and	others	and|_start_|the|false|false|false|false|false|false|false|false|false|CC
+the	others	the|and|structur|false|false|false|false|false|false|false|false|false|DT
+Structure	others	structur|the|of|true|false|false|false|false|false|false|false|false|NN
+of	others	of|structur|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|of|unobserv|false|false|false|false|false|false|false|false|false|DT
+Unobserved	others	unobserv|the|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+I	others	i|_start_|will|false|false|true|true|false|false|false|false|false|PRP
+will	others	will|i|describ|false|false|false|false|false|false|false|false|false|MD
+describe	others	describ|will|some|false|false|false|false|false|false|false|false|false|VB
+some	others	some|describ|recent|false|false|false|false|false|false|false|false|false|DT
+recent	others	recent|some|work|false|false|false|false|false|false|false|false|false|JJ
+work	others	work|recent|on|false|false|false|false|false|false|false|false|false|NN
+on	others	on|work|autom|false|false|false|false|false|false|false|false|false|IN
+automated	others	autom|on|causal|false|false|false|false|false|false|false|false|false|VBN
+causal	others	causal|autom|infer|false|false|false|false|false|false|false|false|false|JJ
+inference	others	infer|causal|do|false|false|false|false|false|false|false|false|false|NN
+done	others	do|infer|in|false|false|false|false|false|false|false|false|false|VBN
+in	others	in|do|_end_|false|false|false|false|false|false|false|false|false|IN
+
+the	others	the|_start_|last|false|false|false|false|false|false|false|false|false|DT
+last	others	last|the|year|false|false|false|false|false|false|false|false|false|JJ
+year	others	year|last|by|false|false|false|false|false|false|false|false|false|NN
+by	others	by|year|peter|false|false|false|false|false|false|false|false|false|IN
+Peter	others	peter|by|spirt|true|false|false|false|false|true|false|false|false|NNP
+Spirtes	others	spirt|peter|thoma|true|false|false|false|false|true|false|false|false|NNP
+Thomas	others	thoma|spirt|richardson|true|false|false|false|false|true|false|false|false|NNP
+Richardson	others	richardson|thoma|and|true|false|false|false|false|true|false|false|false|NNP
+and	others	and|richardson|richard|false|false|false|false|false|false|false|false|false|CC
+Richard	others	richard|and|schein|true|false|false|false|false|true|false|false|false|NNP
+Scheines	others	schein|richard|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+extending	others	extend|_start_|the|false|false|false|false|false|false|false|false|false|VBG
+the	others	the|extend|result|false|false|false|false|false|false|false|false|false|DT
+results	others	result|the|in|false|false|false|false|false|false|false|false|false|NNS
+in	others	in|result|spirt|false|false|false|false|false|false|false|false|false|IN
+Spirtes	others	spirt|in|glymour|true|false|false|false|false|false|false|false|false|NNP
+Glymour	others	glymour|spirt|and|true|false|false|false|false|false|false|false|false|NNP
+and	others	and|glymour|schein|false|false|false|false|false|false|false|false|false|CC
+Scheines	others	schein|and|causat|true|false|false|false|false|false|false|false|false|NNP
+Causation	others	causat|schein|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Prediction	others	predict|_start_|and|true|false|false|false|false|false|false|false|false|NN
+and	others	and|predict|search|false|false|false|false|false|false|false|false|false|CC
+Search	others	search|and|springer|true|false|false|false|false|false|false|false|false|NN
+springer	others	springer|search|1993|false|false|false|false|false|false|false|false|false|NN
+1993	others	1993|springer|_end_|false|false|false|false|false|false|false|false|true|CD
+
+1	others	1|_start_|how|false|false|false|false|false|false|false|false|false|LS
+How	others	how|1|causal|true|false|false|false|false|false|false|false|false|WRB
+causal	others	causal|how|relat|false|false|false|false|false|false|false|false|false|JJ
+relations	others	relat|causal|among|false|false|false|false|false|false|false|false|false|NNS
+among	others	among|relat|linearli|false|false|false|false|false|false|false|false|false|IN
+linearly	others	linearli|among|relat|false|false|false|false|false|false|false|false|false|RB
+related	others	relat|linearli|unobserv|false|false|false|false|false|false|false|false|false|JJ
+unobserved	others	unobserv|relat|variabl|false|false|false|false|false|false|false|false|false|JJ
+variables	others	variabl|unobserv|mai|false|false|false|false|false|false|false|false|false|NNS
+may	others	mai|variabl|_end_|false|false|false|false|false|false|false|false|false|MD
+
+be	others	be|_start_|determin|false|false|false|false|false|false|false|false|false|VB
+determined	others	determin|be|from|false|false|false|false|false|false|false|false|false|VBN
+from	others	from|determin|statist|false|false|false|false|false|false|false|false|false|IN
+statistical	others	statist|from|pattern|false|false|false|false|false|false|false|false|false|JJ
+patterns	others	pattern|statist|among|false|false|false|false|false|false|false|false|false|NNS
+among	others	among|pattern|thei|false|false|false|false|false|false|false|false|false|IN
+their	others	thei|among|observ|false|false|false|false|false|false|false|false|false|PRP$
+observed	others	observ|thei|effect|false|false|false|false|false|false|false|false|false|VBN
+effects	others	effect|observ|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+with	others	with|_start_|limit|false|false|false|false|false|false|false|false|false|IN
+limited	others	limit|with|prior|false|false|false|false|false|false|false|false|false|JJ
+prior	others	prior|limit|knowledg|false|false|false|false|false|false|false|false|false|JJ
+knowledge	others	knowledg|prior|-lrb-|false|false|false|false|false|false|false|false|false|NN
+-LRB-	others	-lrb-|knowledg|spirt|false|false|false|false|false|false|false|false|false|-LRB-
+Spirtes	others	spirt|-lrb-|and|true|false|false|false|false|false|false|false|false|NNS
+and	others	and|spirt|schein|false|false|false|false|false|false|false|false|false|CC
+Scheines	others	schein|and|-rrb-|true|false|false|false|false|false|false|false|false|NNS
+-RRB-	others	-rrb-|schein|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+2	others	2|_start_|statist|false|false|false|false|false|false|false|false|false|LS
+Statistical	others	statist|2|pattern|true|false|false|false|false|false|false|false|false|JJ
+patterns	others	pattern|statist|characterist|false|false|false|false|false|false|false|false|false|NNS
+characteristic	others	characterist|pattern|of|false|false|false|false|false|false|false|false|false|JJ
+of	others	of|characterist|-lrb-|false|false|false|false|false|false|false|false|false|IN
+-LRB-	others	-lrb-|of|converg|false|false|false|false|false|false|false|false|false|-LRB-
+convergent	others	converg|-lrb-|-rrb-|false|false|false|false|false|false|false|false|false|JJ
+-RRB-	others	-rrb-|converg|linear|false|false|false|false|false|false|false|false|false|-RRB-
+linear	others	linear|-rrb-|feedback|false|false|false|false|false|false|false|false|false|JJ
+feedback	others	feedback|linear|_end_|false|false|false|false|false|false|false|false|false|NN
+
+systems	others	system|_start_|-lrb-|false|false|false|false|false|false|false|false|false|NNS
+-LRB-	others	-lrb-|system|spirt|false|false|false|false|false|false|false|false|false|-LRB-
+Spirtes	others	spirt|-lrb-|-rrb-|true|false|false|false|false|false|false|false|false|NNS
+-RRB-	others	-rrb-|spirt|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+3	others	3|_start_|statist|false|false|false|false|false|false|false|false|false|LS
+Statistical	others	statist|3|pattern|true|false|false|false|false|false|false|false|false|JJ
+patterns	others	pattern|statist|characterist|false|false|false|false|false|false|false|false|false|NNS
+characteristic	others	characterist|pattern|of|false|false|false|false|false|false|false|false|false|JJ
+of	others	of|characterist|mani|false|false|false|false|false|false|false|false|false|IN
+many	others	mani|of|-lrb-|false|false|false|false|false|false|false|false|false|JJ
+-LRB-	others	-lrb-|mani|converg|false|false|false|false|false|false|false|false|false|-LRB-
+convergent	others	converg|-lrb-|-rrb-|false|false|false|false|false|false|false|false|false|JJ
+-RRB-	others	-rrb-|converg|non-linear|false|false|false|false|false|false|false|false|false|-RRB-
+non-linear	others	non-linear|-rrb-|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+feedback	others	feedback|_start_|system|false|false|false|false|false|false|false|false|false|NN
+systems	others	system|feedback|-lrb-|false|false|false|false|false|false|false|false|false|NNS
+-LRB-	others	-lrb-|system|spirt|false|false|false|false|false|false|false|false|false|-LRB-
+Spirtes	others	spirt|-lrb-|schein|true|false|false|false|false|false|false|false|false|NNS
+Scheines	others	schein|spirt|richardson|true|false|false|false|false|false|false|false|false|NNS
+Richardson	others	richardson|schein|glymour|true|false|false|false|false|true|false|false|false|NNP
+Glymour	others	glymour|richardson|-rrb-|true|false|false|false|false|false|false|false|false|NNP
+-RRB-	others	-rrb-|glymour|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+4	others	4|_start_|progress|false|false|false|false|false|false|false|false|false|LS
+Progress	others	progress|4|in|true|false|false|false|false|false|false|false|false|NNP
+in	others	in|progress|character|false|false|false|false|false|false|false|false|false|IN
+characterizing	others	character|in|statist|false|false|false|false|false|false|false|false|false|VBG
+statistically	others	statist|character|equival|false|false|false|false|false|false|false|false|false|RB
+equivalent	others	equival|statist|linear|false|false|false|false|false|false|false|false|false|JJ
+linear	others	linear|equival|feedback|false|false|false|false|false|false|false|false|false|JJ
+feedback	others	feedback|linear|_end_|false|false|false|false|false|false|false|false|false|NN
+
+systems	others	system|_start_|-lrb-|false|false|false|false|false|false|false|false|false|NNS
+-LRB-	others	-lrb-|system|richardson|false|false|false|false|false|false|false|false|false|-LRB-
+Richardson	others	richardson|-lrb-|and|true|false|false|false|false|true|false|false|false|NNP
+and	others	and|richardson|spirt|false|false|false|false|false|false|false|false|false|CC
+Spirtes	others	spirt|and|-rrb-|true|false|false|false|false|false|false|false|false|NNP
+-RRB-	others	-rrb-|spirt|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+

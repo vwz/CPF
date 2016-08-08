@@ -1,0 +1,378 @@
+Type	others	type|_start_|cmu|true|false|false|false|false|false|false|false|false|NN
+cmu	others	cmu|type|c|false|false|false|false|false|false|false|false|false|NN
+cs	others	c|cmu|robot|false|false|false|false|false|false|false|false|false|NNS
+robotics	others	robot|c|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+Who	others	who|_start_|hugh|true|false|false|false|false|false|false|false|false|WP
+Hugh	speaker	hugh|who|durrant-whyt|true|false|false|false|false|true|false|false|false|NNP
+Durrant-Whyte	speaker	durrant-whyt|hugh|oxford|false|false|false|false|false|true|false|false|false|NNP
+Oxford	others	oxford|durrant-whyt|univers|true|false|false|false|false|false|false|false|false|NNP
+University	others	univers|oxford|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Topic	others	topic|_start_|navig|true|false|false|false|false|false|false|false|false|NN
+Navigation	others	navig|topic|and|true|false|false|false|false|false|false|false|false|NNP
+and	others	and|navig|control|false|false|false|false|false|false|false|false|false|CC
+Control	others	control|and|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|control|high-spe|false|false|false|false|false|false|false|false|false|IN
+High-Speed	others	high-spe|of|land|false|false|false|false|false|false|false|false|false|NNP
+Land	others	land|high-spe|vehicl|true|false|false|false|false|false|false|false|false|NNP
+Vehicles	others	vehicl|land|_end_|true|false|false|false|false|false|false|false|false|NNPS
+
+Dates	others	date|_start_|21-jul-94|true|false|false|false|false|false|false|false|false|NNS
+21-Jul-94	others	21-jul-94|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|3:30|true|false|false|false|false|false|false|false|false|NNP
+3:30	stime	3:30|time|5:00|false|false|false|false|false|false|true|false|false|CD
+5:00	etime	5:00|3:30|_end_|false|false|false|false|false|false|false|true|false|CD
+
+Place	others	place|_start_|weh|true|false|false|false|false|false|false|false|false|NN
+WeH	location	weh|place|4623|false|false|false|false|false|false|false|false|false|NN
+4623	location	4623|weh|_end_|false|false|false|false|false|false|false|false|false|CD
+
+PostedBy	others	postedbi|_start_|epk|false|false|false|false|true|false|false|false|false|NNP
+epk	others	epk|postedbi|on|false|false|false|false|false|false|false|false|false|NN
+on	others	on|epk|20-jul-94|false|false|false|false|false|false|false|false|false|IN
+20-Jul-94	others	20-jul-94|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|20-jul-94|18:09|false|false|false|false|false|false|false|false|false|IN
+18:09	others	18:09|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|18:09|ius4|false|false|false|false|false|false|false|false|false|IN
+IUS4	others	ius4|from|ius.cs.cmu.edu|false|false|false|false|false|false|false|false|false|NN
+IUS.CS.CMU.EDU	others	ius.cs.cmu.edu|ius4|-lrb-|false|false|false|false|false|false|false|false|false|NN
+-LRB-	others	-lrb-|ius.cs.cmu.edu|eric|false|false|false|false|false|false|false|false|false|-LRB-
+Eric	others	eric|-lrb-|krotkov|true|false|false|false|false|true|false|false|false|NNP
+Krotkov	others	krotkov|eric|-rrb-|true|false|false|false|false|true|false|false|false|NNP
+-RRB-	others	-rrb-|krotkov|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+VASC	others	vasc|_start_|seminar|false|true|false|true|false|false|false|false|false|NNP
+Seminar	others	seminar|vasc|announc|true|false|false|false|false|false|false|false|false|NNP
+Announcement	others	announc|seminar|_end_|true|false|false|false|false|false|false|false|false|NN
+
+
+Date	others	date|_start_|thursdai|true|false|false|false|false|false|false|false|false|NN
+Thursday	others	thursdai|date|juli|true|false|false|false|false|false|false|false|true|NNP
+July	others	juli|thursdai|21|true|false|false|false|false|false|false|false|true|NNP
+21	others	21|juli|1994|false|false|false|false|false|false|false|false|true|CD
+1994	others	1994|21|_end_|false|false|false|false|false|false|false|false|true|CD
+
+Time	others	time|_start_|3:30|true|false|false|false|false|false|false|false|false|NNP
+3:30	stime	3:30|time|5:00|false|false|false|false|false|false|true|false|false|CD
+5:00	etime	5:00|3:30|_end_|false|false|false|false|false|false|false|true|false|CD
+
+Place	others	place|_start_|weh|true|false|false|false|false|false|false|false|false|NN
+WeH	location	weh|place|4623|false|false|false|false|false|false|false|false|false|NN
+4623	location	4623|weh|_end_|false|false|false|false|false|false|false|false|false|CD
+
+Speaker	others	speaker|_start_|hugh|true|false|false|false|false|false|false|false|false|NNP
+Hugh	speaker	hugh|speaker|durrant-whyt|true|false|false|false|false|true|false|false|false|NNP
+Durrant-Whyte	speaker	durrant-whyt|hugh|oxford|false|false|false|false|false|true|false|false|false|NNP
+Oxford	others	oxford|durrant-whyt|univers|true|false|false|false|false|false|false|false|false|NNP
+University	others	univers|oxford|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Title	others	titl|_start_|navig|true|false|false|false|false|false|false|false|false|NN
+Navigation	others	navig|titl|and|true|false|false|false|false|false|false|false|false|NNP
+and	others	and|navig|control|false|false|false|false|false|false|false|false|false|CC
+Control	others	control|and|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|control|high-spe|false|false|false|false|false|false|false|false|false|IN
+High-Speed	others	high-spe|of|land|false|false|false|false|false|false|false|false|false|NNP
+Land	others	land|high-spe|vehicl|true|false|false|false|false|false|false|false|false|NNP
+Vehicles	others	vehicl|land|_end_|true|false|false|false|false|false|false|false|false|NNPS
+
+We	others	we|_start_|describ|true|false|false|false|false|false|false|false|false|PRP
+describe	others	describ|we|a|false|false|false|false|false|false|false|false|false|VBP
+a	others	a|describ|current|false|false|false|false|false|false|false|false|false|DT
+current	others	current|a|project|false|false|false|false|false|false|false|false|true|JJ
+project	others	project|current|to|false|false|false|false|false|false|false|false|false|NN
+to	others	to|project|develop|false|false|false|false|false|false|false|false|false|TO
+develop	others	develop|to|and|false|false|false|false|false|false|false|false|false|VB
+and	others	and|develop|demonstr|false|false|false|false|false|false|false|false|false|CC
+demonstrate	others	demonstr|and|the|false|false|false|false|false|false|false|false|false|VB
+the	others	the|demonstr|_end_|false|false|false|false|false|false|false|false|false|DT
+
+estimation	others	estim|_start_|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|estim|control|false|false|false|false|false|false|false|false|false|CC
+control	others	control|and|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|control|a|false|false|false|false|false|false|false|false|false|IN
+an	others	a|of|outdoor|false|false|false|false|false|false|false|false|false|DT
+outdoor	others	outdoor|a|vehicl|false|false|false|false|false|false|false|false|false|JJ
+vehicle	others	vehicl|outdoor|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|vehicl|speed|false|false|false|false|false|false|false|false|false|IN
+speeds	others	speed|at|up|false|false|false|false|false|false|false|false|false|NNS
+up	others	up|speed|to|false|false|false|false|false|false|false|false|false|IN
+to	others	to|up|25m\/|false|false|false|false|false|false|false|false|false|TO
+25m\/s	others	25m\/|to|_end_|false|false|false|false|false|false|false|false|false|VB
+
+The	others	the|_start_|project|true|false|false|false|false|false|false|false|false|DT
+project	others	project|the|have|false|false|false|false|false|false|false|false|false|NN
+has	others	have|project|three|false|false|false|false|false|false|false|false|false|VBZ
+three	others	three|have|main|false|false|false|false|false|false|false|false|false|CD
+main	others	main|three|theme|false|false|false|false|false|false|false|false|false|JJ
+themes	others	theme|main|first|false|false|false|false|false|false|false|false|false|NNS
+First	others	first|theme|be|true|false|false|false|false|false|false|false|false|NNP
+is	others	be|first|the|false|false|false|false|false|false|false|false|false|VBZ
+the	others	the|be|develop|false|false|false|false|false|false|false|false|false|DT
+development	others	develop|the|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|develop|_end_|false|false|false|false|false|false|false|false|false|CC
+
+integration	others	integr|_start_|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|integr|a|false|false|false|false|false|false|false|false|false|IN
+a	others	a|of|number|false|false|false|false|false|false|false|false|false|DT
+number	others	number|a|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|number|low-cost|false|false|false|false|false|false|false|false|false|IN
+low-cost	others	low-cost|of|sens|false|false|false|false|false|false|false|false|false|JJ
+sensing	others	sens|low-cost|system|false|false|false|false|false|false|false|false|false|VBG
+systems	others	system|sens|to|false|false|false|false|false|false|false|false|false|NNS
+to	others	to|system|_end_|false|false|false|false|false|false|false|false|false|TO
+
+provide	others	provid|_start_|appropri|false|false|false|false|false|false|false|false|false|VB
+appropriate	others	appropri|provid|measur|false|false|false|false|false|false|false|false|false|JJ
+measurements	others	measur|appropri|of|false|false|false|false|false|false|false|false|false|NNS
+of	others	of|measur|vehicl|false|false|false|false|false|false|false|false|false|IN
+vehicle	others	vehicl|of|locat|false|false|false|false|false|false|false|false|false|NN
+location	others	locat|vehicl|these|false|false|false|false|false|false|false|false|false|NN
+These	others	these|locat|sensor|true|false|false|false|false|false|false|false|false|DT
+sensors	others	sensor|these|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+include	others	includ|_start_|strap-down|false|false|false|false|false|false|false|false|false|VBP
+strap-down	others	strap-down|includ|inerti|false|false|false|false|false|false|false|false|false|JJ
+inertial	others	inerti|strap-down|platform|false|false|false|false|false|false|false|false|false|JJ
+platform	others	platform|inerti|a|false|false|false|false|false|false|false|false|false|NN
+a	others	a|platform|civilian|false|false|false|false|false|false|false|false|false|DT
+civilian	others	civilian|a|gp|false|false|false|false|false|false|false|false|false|JJ
+GPS	others	gp|civilian|-lrb-|false|true|false|true|false|false|false|false|false|NN
+-LRB-	others	-lrb-|gp|navstar|false|false|false|false|false|false|false|false|false|-LRB-
+Navstar	others	navstar|-lrb-|-rrb-|true|false|false|false|false|false|false|false|false|NN
+-RRB-	others	-rrb-|navstar|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+receiver	others	receiv|_start_|a|false|false|false|false|false|false|false|false|false|NN
+a	others	a|receiv|millimeter-wav|false|false|false|false|false|false|false|false|false|DT
+millimeter-wave	others	millimeter-wav|a|terrain-aid|false|false|false|false|false|false|false|false|false|JJ
+terrain-aiding	others	terrain-aid|millimeter-wav|sensor|false|false|false|false|false|false|false|false|false|NN
+sensor	others	sensor|terrain-aid|a|false|false|false|false|false|false|false|false|false|NN
+a	others	a|sensor|ground|false|false|false|false|false|false|false|false|false|DT
+ground	others	ground|a|veloc|false|false|false|false|false|false|false|false|false|NN
+velocity	others	veloc|ground|_end_|false|false|false|false|false|false|false|false|false|NN
+
+sensor	others	sensor|_start_|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|sensor|wheel|false|false|false|false|false|false|false|false|false|CC
+wheel	others	wheel|and|encod|false|false|false|false|false|false|false|false|false|NN
+encoders	others	encod|wheel|the|false|false|false|false|false|false|false|false|false|NNS
+The	others	the|encod|second|true|false|false|false|false|false|false|false|false|DT
+second	others	second|the|theme|false|false|false|false|false|false|false|false|false|JJ
+theme	others	theme|second|be|false|false|false|false|false|false|false|false|false|NN
+is	others	be|theme|the|false|false|false|false|false|false|false|false|false|VBZ
+the	others	the|be|develop|false|false|false|false|false|false|false|false|false|DT
+development	others	develop|the|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|develop|_end_|false|false|false|false|false|false|false|false|false|IN
+
+dynamic	others	dynam|_start_|vehicl|false|false|false|false|false|false|false|false|false|JJ
+vehicle	others	vehicl|dynam|model|false|false|false|false|false|false|false|false|false|NN
+models	others	model|vehicl|capabl|false|false|false|false|false|false|false|false|false|NNS
+capable	others	capabl|model|of|false|false|false|false|false|false|false|false|false|JJ
+of	others	of|capabl|describ|false|false|false|false|false|false|false|false|false|IN
+describing	others	describ|of|the|false|false|false|false|false|false|false|false|false|VBG
+the	others	the|describ|behavior|false|false|false|false|false|false|false|false|false|DT
+behavior	others	behavior|the|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|behavior|_end_|false|false|false|false|false|false|false|false|false|IN
+
+high-speed	others	high-spe|_start_|vehicl|false|false|false|false|false|false|false|false|false|JJ
+vehicles	others	vehicl|high-spe|these|false|false|false|false|false|false|false|false|false|NNS
+These	others	these|vehicl|model|true|false|false|false|false|false|false|false|false|DT
+models	others	model|these|encorpor|false|false|false|false|false|false|false|false|false|NNS
+encorporate	others	encorpor|model|not|false|false|false|false|false|false|false|false|false|VBP
+not	others	not|encorpor|onli|false|false|false|false|false|false|false|false|false|RB
+only	others	onli|not|knowledg|false|false|false|false|false|false|false|false|false|RB
+knowledge	others	knowledg|onli|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|knowledg|_end_|false|false|false|false|false|false|false|false|false|IN
+
+vehicle	others	vehicl|_start_|locat|false|false|false|false|false|false|false|false|false|NN
+location	others	locat|vehicl|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|locat|veloc|false|false|false|false|false|false|false|false|false|CC
+velocity	others	veloc|and|but|false|false|false|false|false|false|false|false|false|NN
+but	others	but|veloc|also|false|false|false|false|false|false|false|false|false|CC
+also	others	also|but|dynam|false|false|false|false|false|false|false|false|false|RB
+dynamic	others	dynam|also|characterist|false|false|false|false|false|false|false|false|false|JJ
+characteristics	others	characterist|dynam|of|false|false|false|false|false|false|false|false|false|NNS
+of	others	of|characterist|_end_|false|false|false|false|false|false|false|false|false|IN
+
+the	others	the|_start_|chassi|false|false|false|false|false|false|false|false|false|DT
+chassis	others	chassi|the|includ|false|false|false|false|false|false|false|false|false|NN
+including	others	includ|chassi|vehicl|false|false|false|false|false|false|false|false|false|VBG
+vehicle	others	vehicl|includ|roll|false|false|false|false|false|false|false|false|false|NN
+roll	others	roll|vehicl|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|roll|chassi|false|false|false|false|false|false|false|false|false|CC
+chassis	others	chassi|and|distort|false|false|false|false|false|false|false|false|false|NN
+distortion	others	distort|chassi|tyre|false|false|false|false|false|false|false|false|false|NN
+tyre	others	tyre|distort|_end_|false|false|false|false|false|false|false|false|false|NN
+
+deformation	others	deform|_start_|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|deform|skid|false|false|false|false|false|false|false|false|false|CC
+skid	others	skid|and|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|skid|steer|false|false|false|false|false|false|false|false|false|CC
+steer	others	steer|and|geometri|false|false|false|false|false|false|false|false|false|VB
+geometry	others	geometri|steer|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|geometri|slip|false|false|false|false|false|false|false|false|false|CC
+slip	others	slip|and|mechan|false|false|false|false|false|false|false|false|false|VBP
+mechanics	others	mechan|slip|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+The	others	the|_start_|third|true|false|false|false|false|false|false|false|false|DT
+third	others	third|the|theme|false|false|false|false|false|false|false|false|false|JJ
+theme	others	theme|third|be|false|false|false|false|false|false|false|false|false|NN
+is	others	be|theme|the|false|false|false|false|false|false|false|false|false|VBZ
+the	others	the|be|develop|false|false|false|false|false|false|false|false|false|DT
+development	others	develop|the|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|develop|appropri|false|false|false|false|false|false|false|false|false|IN
+appropriate	others	appropri|of|high-spe|false|false|false|false|false|false|false|false|false|JJ
+high-speed	others	high-spe|appropri|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+data	others	datum|_start_|fusion|false|false|false|false|false|false|false|false|false|NNS
+fusion	others	fusion|datum|algorithm|false|false|false|false|false|false|false|false|false|NN
+algorithms	others	algorithm|fusion|for|false|false|false|false|false|false|false|false|false|NNS
+for	others	for|algorithm|thi|false|false|false|false|false|false|false|false|false|IN
+this	others	thi|for|type|false|false|false|false|false|false|false|false|false|DT
+type	others	type|thi|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|type|applic|false|false|false|false|false|false|false|false|false|IN
+application	others	applic|of|base|false|false|false|false|false|false|false|false|false|NN
+based	others	base|applic|on|false|false|false|false|false|false|false|false|false|VBN
+on	others	on|base|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|on|us|false|false|false|false|false|false|false|false|false|DT
+use	others	us|the|_end_|false|false|false|false|false|false|false|false|false|NN
+
+of	others	of|_start_|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|of|extend|false|false|false|false|false|false|false|false|false|DT
+extended	others	extend|the|kalman|false|false|false|false|false|false|false|false|false|VBN
+Kalman	others	kalman|extend|filter|true|false|false|false|false|true|false|false|false|NNP
+filter	others	filter|kalman|as|false|false|false|false|false|false|false|false|false|NN
+as	others	as|filter|a|false|false|false|false|false|false|false|false|false|IN
+a	others	a|as|primari|false|false|false|false|false|false|false|false|false|DT
+primary	others	primari|a|locat|false|false|false|false|false|false|false|false|false|JJ
+location	others	locat|primari|estim|false|false|false|false|false|false|false|false|false|NN
+estimation	others	estim|locat|method|false|false|false|false|false|false|false|false|false|NN
+method	others	method|estim|_end_|false|false|false|false|false|false|false|false|false|NN
+
+We	others	we|_start_|will|true|false|false|false|false|false|false|false|false|PRP
+will	others	will|we|concentr|false|false|false|false|false|false|false|false|false|MD
+concentrate	others	concentr|will|on|false|false|false|false|false|false|false|false|false|VB
+on	others	on|concentr|describ|false|false|false|false|false|false|false|false|false|IN
+describing	others	describ|on|two|false|false|false|false|false|false|false|false|false|VBG
+two	others	two|describ|main|false|false|false|false|false|false|false|false|false|CD
+main	others	main|two|element|false|false|false|false|false|false|false|false|false|JJ
+elements	others	element|main|of|false|false|false|false|false|false|false|false|false|NNS
+of	others	of|element|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|of|work|false|false|false|false|false|false|false|false|false|DT
+work	others	work|the|we|false|false|false|false|false|false|false|false|false|NN
+we	others	we|work|_end_|false|false|false|false|false|false|false|false|false|PRP
+
+have	others	have|_start_|do|false|false|false|false|false|false|false|false|false|VB
+done	others	do|have|todat|false|false|false|false|false|false|false|false|false|VBN
+todate	others	todat|do|the|false|false|false|false|false|false|false|false|false|NN
+The	others	the|todat|first|true|false|false|false|false|false|false|false|false|DT
+first	others	first|the|be|false|false|false|false|false|false|false|false|false|JJ
+is	others	be|first|the|false|false|false|false|false|false|false|false|false|VBZ
+the	others	the|be|develop|false|false|false|false|false|false|false|false|false|DT
+development	others	develop|the|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|develop|exploit|false|false|false|false|false|false|false|false|false|CC
+exploitation	others	exploit|and|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|exploit|_end_|false|false|false|false|false|false|false|false|false|IN
+
+the	others	the|_start_|both|false|false|false|false|false|false|false|false|false|DT
+both	others	both|the|the|false|false|false|false|false|false|false|false|false|CC
+the	others	the|both|model|false|false|false|false|false|false|false|false|false|DT
+models	others	model|the|for|false|false|false|false|false|false|false|false|false|NNS
+for	others	for|model|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|for|vehicl|false|false|false|false|false|false|false|false|false|DT
+vehicle	others	vehicl|the|sensor|false|false|false|false|false|false|false|false|false|NN
+sensors	others	sensor|vehicl|and|false|false|false|false|false|false|false|false|false|NNS
+and	others	and|sensor|model|false|false|false|false|false|false|false|false|false|CC
+models	others	model|and|of|false|false|false|false|false|false|false|false|false|NNS
+of	others	of|model|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|of|vehicl|false|false|false|false|false|false|false|false|false|DT
+vehicle	others	vehicl|the|_end_|false|false|false|false|false|false|false|false|false|NN
+
+itself	others	itself|_start_|we|false|false|false|false|false|false|false|false|false|PRP
+We	others	we|itself|describ|true|false|false|false|false|false|false|false|false|PRP
+describe	others	describ|we|the|false|false|false|false|false|false|false|false|false|VBP
+the	others	the|describ|essenti|false|false|false|false|false|false|false|false|false|DT
+essential	others	essenti|the|pay-off|false|false|false|false|false|false|false|false|false|JJ
+pay-off	others	pay-off|essenti|between|false|false|false|false|false|false|false|false|false|NN
+between	others	between|pay-off|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|between|accuraci|false|false|false|false|false|false|false|false|false|DT
+accuracy	others	accuraci|the|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|accuraci|_end_|false|false|false|false|false|false|false|false|false|IN
+
+these	others	these|_start_|model|false|false|false|false|false|false|false|false|false|DT
+models	others	model|these|and|false|false|false|false|false|false|false|false|false|NNS
+and	others	and|model|the|false|false|false|false|false|false|false|false|false|CC
+the	others	the|and|result|false|false|false|false|false|false|false|false|false|DT
+resulting	others	result|the|estim|false|false|false|false|false|false|false|false|false|VBG
+estimator	others	estim|result|perform|false|false|false|false|false|false|false|false|false|NN
+performance	others	perform|estim|the|false|false|false|false|false|false|false|false|false|NN
+The	others	the|perform|second|true|false|false|false|false|false|false|false|false|DT
+second	others	second|the|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+element	others	element|_start_|be|false|false|false|false|false|false|false|false|false|NN
+is	others	be|element|a|false|false|false|false|false|false|false|false|false|VBZ
+a	others	a|be|new|false|false|false|false|false|false|false|false|false|DT
+new	others	new|a|theori|false|false|false|false|false|false|false|false|false|JJ
+theory	others	theori|new|emploi|false|false|false|false|false|false|false|false|false|NN
+employing	others	emploi|theori|freqequency-domain|false|false|false|false|false|false|false|false|false|VBG
+freqequency-domain	others	freqequency-domain|emploi|techniqu|false|false|false|false|false|false|false|false|false|JJ
+techniques	others	techniqu|freqequency-domain|to|false|false|false|false|false|false|false|false|false|NNS
+to	others	to|techniqu|_end_|false|false|false|false|false|false|false|false|false|TO
+
+analyze	others	analyz|_start_|the|false|false|false|false|false|false|false|false|false|VB
+the	others	the|analyz|perform|false|false|false|false|false|false|false|false|false|DT
+performance	others	perform|the|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|perform|combin|false|false|false|false|false|false|false|false|false|IN
+combined	others	combin|of|sensor|false|false|false|false|false|false|false|false|false|JJ
+sensor	others	sensor|combin|suit|false|false|false|false|false|false|false|false|false|NN
+suites	others	suit|sensor|and|false|false|false|false|false|false|false|false|false|NNS
+and	others	and|suit|complex|false|false|false|false|false|false|false|false|false|CC
+complex	others	complex|and|system|false|false|false|false|false|false|false|false|false|JJ
+system	others	system|complex|_end_|false|false|false|false|false|false|false|false|false|NN
+
+models	others	model|_start_|these|false|false|false|false|false|false|false|false|false|NNS
+These	others	these|model|method|true|false|false|false|false|false|false|false|false|DT
+methods	others	method|these|provid|false|false|false|false|false|false|false|false|false|NNS
+provide	others	provid|method|a|false|false|false|false|false|false|false|false|false|VBP
+a	others	a|provid|systemat|false|false|false|false|false|false|false|false|false|DT
+systematic	others	systemat|a|mean|false|false|false|false|false|false|false|false|false|JJ
+means	others	mean|systemat|of|false|false|false|false|false|false|false|false|false|NNS
+of	others	of|mean|synthes|false|false|false|false|false|false|false|false|false|IN
+synthesizing	others	synthes|of|_end_|false|false|false|false|false|false|false|false|false|VBG
+
+appropriate	others	appropri|_start_|datum|false|false|false|false|false|false|false|false|false|JJ
+data	others	datum|appropri|fusion|false|false|false|false|false|false|false|false|false|NNS
+fusion	others	fusion|datum|architectur|false|false|false|false|false|false|false|false|false|NN
+architectures	others	architectur|fusion|and|false|false|false|false|false|false|false|false|false|NNS
+and	others	and|architectur|in|false|false|false|false|false|false|false|false|false|CC
+in	others	in|and|gener|false|false|false|false|false|false|false|false|false|IN
+generating	others	gener|in|overal|false|false|false|false|false|false|false|false|false|VBG
+overall	others	overal|gener|system|false|false|false|false|false|false|false|false|false|JJ
+system	others	system|overal|_end_|false|false|false|false|false|false|false|false|false|NN
+
+error	others	error|_start_|budget|false|false|false|false|false|false|false|false|false|NN
+budgets	others	budget|error|we|false|false|false|false|false|false|false|false|false|NNS
+We	others	we|budget|will|true|false|false|false|false|false|false|false|false|PRP
+will	others	will|we|conclud|false|false|false|false|false|false|false|false|false|MD
+conclude	others	conclud|will|with|false|false|false|false|false|false|false|false|false|VB
+with	others	with|conclud|a|false|false|false|false|false|false|false|false|false|IN
+a	others	a|with|few|false|false|false|false|false|false|false|false|false|DT
+few	others	few|a|joke|false|false|false|false|false|false|false|false|false|JJ
+jokes	others	joke|few|about|false|false|false|false|false|false|false|false|false|NNS
+about	others	about|joke|comput|false|false|false|false|false|false|false|false|false|IN
+computer	others	comput|about|_end_|false|false|false|false|false|false|false|false|false|NN
+
+vision	others	vision|_start_|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Appointments	others	appoint|_start_|carolyn|true|false|false|false|false|false|false|false|false|NNS
+Carolyn	others	carolyn|appoint|kraft|true|false|false|false|false|true|false|false|false|NNP
+Kraft	others	kraft|carolyn|ckraft@c|true|false|false|false|false|true|false|false|false|NNP
+ckraft@cs	others	ckraft@c|kraft|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+FurtherDetails	others	furtherdetail|_start_|carolyn|false|false|false|false|false|false|false|false|false|NNP
+Carolyn	others	carolyn|furtherdetail|kraft|true|false|false|false|false|true|false|false|false|NNP
+Kraft	others	kraft|carolyn|ckraft@c|true|false|false|false|false|true|false|false|false|NNP
+ckraft@cs	others	ckraft@c|kraft|_end_|false|false|false|false|false|false|false|false|false|NNS
+

@@ -1,0 +1,60 @@
+Type	others	type|_start_|cmu.andrew.org|true|false|false|false|false|false|false|false|false|NN
+cmu.andrew.org	others	cmu.andrew.org|type|stc|false|false|false|false|false|false|false|false|false|NN
+stc	others	stc|cmu.andrew.org|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Topic	others	topic|_start_|the|true|false|false|false|false|false|false|false|false|NN
+THE	others	the|topic|weekli|false|true|false|true|false|false|false|false|false|DT
+WEEKLY	others	weekli|the|aim|false|true|false|true|false|false|false|false|false|NN
+AIM	others	aim|weekli|seminar|false|true|false|true|false|false|false|false|false|NN
+SEMINAR	others	seminar|aim|_end_|false|true|false|true|false|false|false|false|false|NN
+
+Dates	others	date|_start_|11-apr-95|true|false|false|false|false|false|false|false|false|NNS
+11-Apr-95	others	11-apr-95|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|12:00|true|false|false|false|false|false|false|false|false|NNP
+12:00	stime	12:00|time|pm|false|false|false|false|false|false|false|false|false|CD
+PM	stime	pm|12:00|_end_|false|true|false|true|false|false|false|false|false|NN
+
+Place	others	place|_start_|m.i.|true|false|false|false|false|false|false|false|false|NN
+M.I.	location	m.i.|place|448|false|false|false|false|false|false|false|false|false|NN
+448	location	448|m.i.|_end_|false|false|false|false|false|false|false|false|false|CD
+
+PostedBy	others	postedbi|_start_|yvonn|false|false|false|false|true|false|false|false|false|NNP
+Yvonne	others	yvonn|postedbi|francescon|true|false|false|false|false|true|false|false|false|NNP
+Francescon	others	francescon|yvonn|on|true|false|false|false|false|true|false|false|false|NNP
+on	others	on|francescon|10-apr-95|false|false|false|false|false|false|false|false|false|IN
+10-Apr-95	others	10-apr-95|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|10-apr-95|11:48|false|false|false|false|false|false|false|false|false|IN
+11:48	others	11:48|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|11:48|andrew.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+andrew.cmu.edu	others	andrew.cmu.edu|from|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+This	others	thi|_start_|week|true|false|false|false|false|false|false|false|true|DT
+week	others	week|thi|'s|false|false|false|false|false|false|false|false|true|NN
+'s	others	's|week|aim|false|false|false|false|false|false|false|false|false|POS
+AIM	others	aim|'s|seminar|false|true|false|true|false|false|false|false|false|NN
+seminar	others	seminar|aim|by|false|false|false|false|false|false|false|false|false|NN
+by	others	by|seminar|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|by|develop|false|false|false|false|false|false|false|false|false|DT
+Development	others	develop|the|team|true|false|false|false|false|false|false|false|false|NNP
+Team	others	team|develop|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+DECONVOLUTION	others	deconvolut|_start_|on|false|true|false|true|false|false|false|false|false|NNP
+ON	others	on|deconvolut|the|false|true|false|true|false|false|false|false|false|NNP
+THE	others	the|on|onyx|false|true|false|true|false|false|false|false|false|DT
+ONYX	others	onyx|the|_end_|false|true|false|true|false|false|false|false|false|NNP
+
+DATE	others	date|_start_|tuesdai|false|true|false|true|false|false|false|false|false|NN
+TUESDAY	others	tuesdai|date|april|false|true|false|true|false|false|false|false|true|NNP
+APRIL	others	april|tuesdai|11|false|true|false|true|false|false|false|false|true|NNP
+11	others	11|april|at|false|false|false|false|false|false|false|false|true|CD
+at	others	at|11|12|false|false|false|false|false|false|false|false|false|IN
+12	stime	12|at|pm|false|false|false|false|false|false|false|false|false|CD
+PM	stime	pm|12|_end_|false|true|false|true|false|false|false|false|false|NN
+
+PLACE	others	place|_start_|m.i.|false|true|false|true|false|false|false|false|false|NN
+M.I.	location	m.i.|place|448|false|false|false|false|false|false|false|false|false|NN
+448	location	448|m.i.|_end_|false|false|false|false|false|false|false|false|false|CD
+

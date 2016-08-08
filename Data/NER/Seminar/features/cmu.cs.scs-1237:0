@@ -1,0 +1,98 @@
+Type	others	type|_start_|cmu|true|false|false|false|false|false|false|false|false|NN
+cmu	others	cmu|type|c|false|false|false|false|false|false|false|false|false|NN
+cs	others	c|cmu|sc|false|false|false|false|false|false|false|false|false|NNS
+scs	others	sc|c|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+Topic	others	topic|_start_|1st|true|false|false|false|false|false|false|false|false|NN
+1ST	others	1st|topic|annual|false|false|false|false|false|false|false|false|false|CD
+ANNUAL	others	annual|1st|sc|false|true|false|true|false|false|false|false|false|NNP
+SCS	others	sc|annual|homecom|false|true|false|true|false|false|false|false|false|NNP
+HOMECOMING	others	homecom|sc|lectur|false|true|false|true|false|false|false|false|false|NNP
+LECTURE	others	lectur|homecom|_end_|false|true|false|true|false|false|false|false|false|NN
+
+Dates	others	date|_start_|16-oct-92|true|false|false|false|false|false|false|false|false|NNS
+16-Oct-92	others	16-oct-92|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|3:00|true|false|false|false|false|false|false|false|false|NNP
+3:00	stime	3:00|time|pm|false|false|false|false|false|false|false|false|false|CD
+PM	stime	pm|3:00|_end_|false|true|false|true|false|false|false|false|false|NN
+
+PostedBy	others	postedbi|_start_|copeta|false|false|false|false|true|false|false|false|false|NNP
+copetas	others	copeta|postedbi|on|false|false|false|false|false|false|false|false|false|NNS
+on	others	on|copeta|16-oct-92|false|false|false|false|false|false|false|false|false|IN
+16-Oct-92	others	16-oct-92|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|16-oct-92|13:51|false|false|false|false|false|false|false|false|false|IN
+13:51	others	13:51|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|13:51|gandalf.cs.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+GANDALF.CS.CMU.EDU	others	gandalf.cs.cmu.edu|from|-lrb-|false|false|false|false|false|false|false|false|false|NN
+-LRB-	others	-lrb-|gandalf.cs.cmu.edu|catherin|false|false|false|false|false|false|false|false|false|-LRB-
+Catherine	others	catherin|-lrb-|copeta|true|false|false|false|false|false|false|false|false|NNP
+Copetas	others	copeta|catherin|-rrb-|true|false|false|false|false|false|false|false|false|NNP
+-RRB-	others	-rrb-|copeta|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+What	others	what|_start_|better|true|false|false|false|false|false|false|false|false|WDT
+better	others	better|what|wai|false|false|false|false|false|false|false|false|false|JJR
+way	others	wai|better|to|false|false|false|false|false|false|false|false|false|NN
+to	others	to|wai|spend|false|false|false|false|false|false|false|false|false|TO
+spend	others	spend|to|a|false|false|false|false|false|false|false|false|false|VB
+a	others	a|spend|slightli|false|false|false|false|false|false|false|false|false|DT
+slightly	others	slightli|a|raini|false|false|false|false|false|false|false|false|false|RB
+rainy	others	raini|slightli|afternoon|false|false|false|false|false|false|false|false|false|JJ
+afternoon	others	afternoon|raini|than|false|false|false|false|false|false|false|false|false|NN
+than	others	than|afternoon|with|false|false|false|false|false|false|false|false|false|IN
+with	others	with|than|a|false|false|false|false|false|false|false|false|false|IN
+a	others	a|with|_end_|false|false|false|false|false|false|false|false|false|DT
+
+stimulating	others	stimul|_start_|lectur|false|false|false|false|false|false|false|false|false|VBG
+lecture	others	lectur|stimul|as|false|false|false|false|false|false|false|false|false|NN
+As	others	as|lectur|part|true|false|false|false|false|false|false|false|false|IN
+part	others	part|as|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|part|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|of|weekend|false|false|false|false|false|false|false|false|true|DT
+weekend	others	weekend|the|program|false|false|false|false|false|false|false|false|true|NN
+programming	others	program|weekend|sc|false|false|false|false|false|false|false|false|false|NN
+SCS	others	sc|program|be|false|true|false|true|false|false|false|false|false|NN
+is	others	be|sc|host|false|false|false|false|false|false|false|false|false|VBZ
+hosting	others	host|be|_end_|false|false|false|false|false|false|false|false|false|VBG
+
+a	others	a|_start_|homecom|false|false|false|false|false|false|false|false|false|DT
+homecoming	others	homecom|a|lectur|false|false|false|false|false|false|false|false|false|NN
+lecture	others	lectur|homecom|todai|false|false|false|false|false|false|false|false|false|NN
+today	others	todai|lectur|-lrb-|false|false|false|false|false|false|false|false|true|NN
+-LRB-	others	-lrb-|todai|fridai|false|false|false|false|false|false|false|false|false|-LRB-
+Friday	others	fridai|-lrb-|-rrb-|true|false|false|false|false|false|false|false|true|NNP
+-RRB-	others	-rrb-|fridai|for|false|false|false|false|false|false|false|false|false|-RRB-
+for	others	for|-rrb-|alumnu|false|false|false|false|false|false|false|false|false|IN
+alumni	others	alumnu|for|and|false|false|false|false|false|false|false|false|false|NNS
+and	others	and|alumnu|other|false|false|false|false|false|false|false|false|false|CC
+other	others	other|and|interest|false|false|false|false|false|false|false|false|false|JJ
+interested	others	interest|other|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+individuals	others	individu|_start_|the|false|false|false|false|false|false|false|false|false|NNS
+The	others	the|individu|featur|true|false|false|false|false|false|false|false|false|DT
+featured	others	featur|the|speaker|false|false|false|false|false|false|false|false|false|JJ
+speaker	others	speaker|featur|be|false|false|false|false|false|false|false|false|false|NN
+is	others	be|speaker|_end_|false|false|false|false|false|false|false|false|false|VBZ
+
+Associate	others	associ|_start_|professor|true|false|false|false|false|false|false|false|false|NNP
+Professor	others	professor|associ|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+THE	others	the|_start_|rise|false|true|false|true|false|false|false|false|false|DT
+RISE	others	rise|the|and|false|true|false|true|false|false|false|false|false|NN
+AND	others	and|rise|fall|false|true|false|true|false|false|false|false|false|CC
+FALL	others	fall|and|of|false|true|false|true|false|false|false|false|true|NN
+OF	others	of|fall|the|false|true|false|true|false|false|false|false|true|IN
+THE	others	the|of|data|false|true|false|true|false|false|false|false|false|DT
+DATA	others	data|the|encrypt|false|true|false|true|false|false|false|false|false|NNP
+ENCRYPTION	others	encrypt|data|standard|false|true|false|true|false|false|false|false|false|NNP
+STANDARD	others	standard|encrypt|_end_|false|true|false|true|false|false|false|false|false|NNP
+
+Friday	others	fridai|_start_|16|true|false|false|false|false|false|false|false|true|NNP
+16	others	16|fridai|octob|false|false|false|false|false|false|false|false|true|CD
+October	others	octob|16|1992|true|false|false|false|false|false|false|false|true|NNP
+1992	others	1992|octob|_end_|false|false|false|false|false|false|false|false|true|CD
+
+Enjoy	others	enjoi|_start_|_end_|true|false|false|false|false|false|false|false|false|VB
+

@@ -1,0 +1,437 @@
+Type	others	type|_start_|cmu|true|false|false|false|false|false|false|false|false|NN
+cmu	others	cmu|type|c|false|false|false|false|false|false|false|false|false|NN
+cs	others	c|cmu|proj|false|false|false|false|false|false|false|false|false|NNS
+proj	others	proj|c|mt|false|false|false|false|false|false|false|false|false|NN
+mt	others	mt|proj|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Topic	others	topic|_start_|zero|true|false|false|false|false|false|false|false|false|NN
+Zero	others	zero|topic|pronomin|true|false|false|false|false|false|false|false|false|NNP
+Pronominals	others	pronomin|zero|point-of-view|true|false|false|false|false|false|false|false|false|NNP
+Point-of-View	others	point-of-view|pronomin|empathi|false|false|false|false|false|false|false|false|false|NNP
+Empathy	others	empathi|point-of-view|perspect|true|false|false|false|false|false|false|false|false|NNP
+Perspective	others	perspect|empathi|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+and	others	and|_start_|context-paramet|false|false|false|false|false|false|false|false|false|CC
+Context-Parameters	others	context-paramet|and|_end_|false|false|false|false|false|false|false|false|false|NNP
+
+Dates	others	date|_start_|9-mar-89|true|false|false|false|false|false|false|false|false|NNS
+9-Mar-89	others	9-mar-89|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|1:30|true|false|false|false|false|false|false|false|false|NNP
+1:30	stime	1:30|time|pm|false|false|false|false|false|false|false|false|false|CD
+PM	stime	pm|1:30|_end_|false|true|false|true|false|false|false|false|false|NN
+
+PostedBy	others	postedbi|_start_|natur|false|false|false|false|true|false|false|false|false|NNP
+Natural	others	natur|postedbi|languag|true|false|false|false|false|false|false|false|false|NNP
+Language	others	languag|natur|process|true|false|false|false|false|false|false|false|false|NN
+Processing	others	process|languag|on|true|false|false|false|false|false|false|false|false|NN
+on	others	on|process|08-mar-89|false|false|false|false|false|false|false|false|false|IN
+08-Mar-89	others	08-mar-89|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|08-mar-89|17:09|false|false|false|false|false|false|false|false|false|IN
+17:09	others	17:09|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|17:09|nl.cs.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+NL.CS.CMU.EDU	others	nl.cs.cmu.edu|from|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+I	others	i|_start_|will|false|false|true|true|false|false|false|false|false|PRP
+will	others	will|i|be|false|false|false|false|false|false|false|false|false|MD
+be	others	be|will|host|false|false|false|false|false|false|false|false|false|VB
+hosting	others	host|be|my|false|false|false|false|false|false|false|false|false|VBG
+my	others	my|host|linguist|false|false|false|false|false|false|false|false|false|PRP$
+Linguistics	others	linguist|my|theori|true|false|false|false|false|false|false|false|false|NNP
+Theory	others	theori|linguist|qualifi|true|false|false|false|false|false|false|false|false|NNP
+Qualifier	others	qualifi|theori|talk|true|false|false|false|false|false|false|false|false|NNP
+Talk	others	talk|qualifi|tomorrow|true|false|false|false|false|false|false|false|false|NN
+tomorrow	others	tomorrow|talk|_end_|false|false|false|false|false|false|false|false|true|NN
+
+-LRB-	others	-lrb-|_start_|3\/9|false|false|false|false|false|false|false|false|false|-LRB-
+3\/9	others	3\/9|-lrb-|thursdai|false|false|false|false|false|false|false|false|false|CD
+Thursday	others	thursdai|3\/9|-rrb-|true|false|false|false|false|false|false|false|true|NNP
+-RRB-	others	-rrb-|thursdai|at|false|false|false|false|false|false|false|false|false|-RRB-
+at	others	at|-rrb-|1:30|false|false|false|false|false|false|false|false|false|IN
+1:30	stime	1:30|at|pm|false|false|false|false|false|false|false|false|false|CD
+pm	stime	pm|1:30|in|false|false|false|false|false|false|false|false|false|NN
+in	others	in|pm|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|in|cmt|false|false|false|false|false|false|false|false|false|DT
+CMT	location	cmt|the|confer|false|true|false|true|false|false|false|false|false|NN
+conference	location	confer|cmt|room|false|false|false|false|false|false|false|false|false|NN
+room	location	room|confer|-lrb-|false|false|false|false|false|false|false|false|false|NN
+-LRB-	location	-lrb-|room|bdlg|false|false|false|false|false|false|false|false|false|-LRB-
+Bdlg	location	bdlg|-lrb-|b|true|false|false|false|false|false|false|false|false|NN
+B	location	b|bdlg|109|false|false|true|true|false|false|false|false|false|NN
+109	location	109|b|-rrb-|false|false|false|false|false|false|false|false|false|CD
+-RRB-	others	-rrb-|109|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+hideto	others	hideto|_start_|_end_|false|false|false|false|false|false|false|false|false|NN
+
+
+Title	others	titl|_start_|zero|true|false|false|false|false|false|false|false|false|NN
+Zero	others	zero|titl|pronomin|true|false|false|false|false|false|false|false|false|NNP
+Pronominals	others	pronomin|zero|point-of-view|true|false|false|false|false|false|false|false|false|NNP
+Point-of-View	others	point-of-view|pronomin|empathi|false|false|false|false|false|false|false|false|false|NNP
+Empathy	others	empathi|point-of-view|perspect|true|false|false|false|false|false|false|false|false|NNP
+Perspective	others	perspect|empathi|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+and	others	and|_start_|context-paramet|false|false|false|false|false|false|false|false|false|CC
+Context-Parameters	others	context-paramet|and|_end_|false|false|false|false|false|false|false|false|false|NNP
+
+In	others	in|_start_|thi|true|false|false|false|false|false|false|false|false|IN
+this	others	thi|in|talk|false|false|false|false|false|false|false|false|false|DT
+talk	others	talk|thi|i|false|false|false|false|false|false|false|false|false|NN
+I	others	i|talk|will|false|false|true|true|false|false|false|false|false|PRP
+will	others	will|i|be|false|false|false|false|false|false|false|false|false|MD
+be	others	be|will|present|false|false|false|false|false|false|false|false|false|VB
+presenting	others	present|be|a|false|false|false|false|false|false|false|false|false|VBG
+a	others	a|present|framework|false|false|false|false|false|false|false|false|false|DT
+framework	others	framework|a|for|false|false|false|false|false|false|false|false|false|NN
+for	others	for|framework|analyz|false|false|false|false|false|false|false|false|false|IN
+analyzing	others	analyz|for|_end_|false|false|false|false|false|false|false|false|false|VBG
+
+the	others	the|_start_|zero|false|false|false|false|false|false|false|false|false|DT
+zero	others	zero|the|anaphora|false|false|false|false|false|false|false|false|false|CD
+anaphora	others	anaphora|zero|-lrb-|false|false|false|false|false|false|false|false|false|NN
+-LRB-	others	-lrb-|anaphora|kameyama|false|false|false|false|false|false|false|false|false|-LRB-
+Kameyama	others	kameyama|-lrb-|-lrb-|true|false|false|false|false|true|false|false|false|NNP
+-LRB-	others	-lrb-|kameyama|1985|false|false|false|false|false|false|false|false|false|-LRB-
+1985	others	1985|-lrb-|-rrb-|false|false|false|false|false|false|false|false|true|CD
+-RRB-	others	-rrb-|1985|-rrb-|false|false|false|false|false|false|false|false|false|-RRB-
+-RRB-	others	-rrb-|-rrb-|phonomenon|false|false|false|false|false|false|false|false|false|-RRB-
+phonomenon	others	phonomenon|-rrb-|us|false|false|false|false|false|false|false|false|false|NN
+using	others	us|phonomenon|the|false|false|false|false|false|false|false|false|false|VBG
+the	others	the|us|_end_|false|false|false|false|false|false|false|false|false|DT
+
+discourse-parameter	others	discourse-paramet|_start_|base|false|false|false|false|false|false|false|false|false|NN
+based	others	base|discourse-paramet|analysi|false|false|false|false|false|false|false|false|false|JJ
+analysis	others	analysi|base|under|false|false|false|false|false|false|false|false|false|NN
+under	others	under|analysi|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|under|unification-bas|false|false|false|false|false|false|false|false|false|DT
+unification-based	others	unification-bas|the|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+grammar	others	grammar|_start_|-lrb-|false|false|false|false|false|false|false|false|false|NN
+-LRB-	others	-lrb-|grammar|hpsg|false|false|false|false|false|false|false|false|false|-LRB-
+HPSG	others	hpsg|-lrb-|-rrb-|false|true|false|true|false|false|false|false|false|NN
+-RRB-	others	-rrb-|hpsg|zero|false|false|false|false|false|false|false|false|false|-RRB-
+Zero	others	zero|-rrb-|anaphora|true|false|false|false|false|false|false|false|false|NNP
+anaphora	others	anaphora|zero|be|false|false|false|false|false|false|false|false|false|NN
+is	others	be|anaphora|extens|false|false|false|false|false|false|false|false|false|VBZ
+extensively	others	extens|be|us|false|false|false|false|false|false|false|false|false|RB
+used	others	us|extens|in|false|false|false|false|false|false|false|false|false|VBN
+in	others	in|us|japanes|false|false|false|false|false|false|false|false|false|IN
+Japanese	others	japanes|in|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+especially	others	especi|_start_|in|false|false|false|false|false|false|false|false|false|RB
+in	others	in|especi|discours|false|false|false|false|false|false|false|false|false|IN
+discourse	others	discours|in|situat|false|false|false|false|false|false|false|false|false|NN
+situations	others	situat|discours|yoshimoto|false|false|false|false|false|false|false|false|false|NNS
+Yoshimoto	others	yoshimoto|situat|-lrb-|true|false|false|false|false|true|false|false|false|NN
+-LRB-	others	-lrb-|yoshimoto|1988|false|false|false|false|false|false|false|false|false|-LRB-
+1988	others	1988|-lrb-|-rrb-|false|false|false|false|false|false|false|false|true|CD
+-RRB-	others	-rrb-|1988|report|false|false|false|false|false|false|false|false|false|-RRB-
+reports	others	report|-rrb-|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+that	others	that|_start_|in|false|false|false|false|false|false|false|false|false|IN
+in	others	in|that|thei|false|false|false|false|false|false|false|false|false|IN
+their	others	thei|in|simul|false|false|false|false|false|false|false|false|false|PRP$
+simulated	others	simul|thei|inter-termin|false|false|false|false|false|false|false|false|false|JJ
+inter-terminal	others	inter-termin|simul|dialogu|false|false|false|false|false|false|false|false|false|JJ
+dialogues	others	dialogu|inter-termin|-lrb-|false|false|false|false|false|false|false|false|false|NNS
+-LRB-	others	-lrb-|dialogu|94|false|false|false|false|false|false|false|false|false|-LRB-
+94	others	94|-lrb-|_end_|false|false|false|false|false|false|false|false|false|CD
+
+sentences	others	sentenc|_start_|2|false|false|false|false|false|false|false|false|false|NNS
+2	others	2|sentenc|dialogu|false|false|false|false|false|false|false|false|false|CD
+dialogue	others	dialogu|2|sequenc|false|false|false|false|false|false|false|false|false|NN
+sequences	others	sequenc|dialogu|-rrb-|false|false|false|false|false|false|false|false|false|NNS
+-RRB-	others	-rrb-|sequenc|out|false|false|false|false|false|false|false|false|false|-RRB-
+out	others	out|-rrb-|of|false|false|false|false|false|false|false|false|false|IN
+of	others	of|out|53|false|false|false|false|false|false|false|false|false|IN
+53	others	53|of|occurr|false|false|false|false|false|false|false|false|false|CD
+occurrences	others	occurr|53|of|false|false|false|false|false|false|false|false|false|NNS
+of	others	of|occurr|_end_|false|false|false|false|false|false|false|false|false|IN
+
+personal	others	person|_start_|pronoun|false|false|false|false|false|false|false|false|false|JJ
+pronouns	others	pronoun|person|in|false|false|false|false|false|false|false|false|false|NNS
+in	others	in|pronoun|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|in|english|false|false|false|false|false|false|false|false|false|DT
+English	others	english|the|translat|true|false|false|false|false|false|false|false|false|NNP
+translation	others	translat|english|51|false|false|false|false|false|false|false|false|false|NN
+51	others	51|translat|correspond|false|false|false|false|false|false|false|false|false|CD
+corresponded	others	correspond|51|_end_|false|false|false|false|false|false|false|false|false|VBD
+
+to	others	to|_start_|zero-pronoun|false|false|false|false|false|false|false|false|false|TO
+zero-pronouns	others	zero-pronoun|to|in|false|false|false|false|false|false|false|false|false|NNS
+in	others	in|zero-pronoun|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|in|origin|false|false|false|false|false|false|false|false|false|DT
+original	others	origin|the|japanes|false|false|false|false|false|false|false|false|false|JJ
+Japanese	others	japanes|origin|text|true|false|false|false|false|false|false|false|false|JJ
+text	others	text|japanes|as|false|false|false|false|false|false|false|false|false|NN
+As	others	as|text|kameyama|true|false|false|false|false|false|false|false|false|IN
+Kameyama	others	kameyama|as|_end_|true|false|false|false|false|true|false|false|false|NN
+
+observed	others	observ|_start_|syntact|false|false|false|false|false|false|false|false|false|VBN
+syntactic	others	syntact|observ|constraint|false|false|false|false|false|false|false|false|false|JJ
+constraints	others	constraint|syntact|and|false|false|false|false|false|false|false|false|false|NNS
+and	others	and|constraint|discours|false|false|false|false|false|false|false|false|false|CC
+discourse	others	discours|and|function|false|false|false|false|false|false|false|false|false|NN
+functions	others	function|discours|be|false|false|false|false|false|false|false|false|false|NNS
+are	others	be|function|_end_|false|false|false|false|false|false|false|false|false|VBP
+
+both	others	both|_start_|involv|false|false|false|false|false|false|false|false|false|DT
+involved	others	involv|both|in|false|false|false|false|false|false|false|false|false|VBN
+in	others	in|involv|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|in|identif|false|false|false|false|false|false|false|false|false|DT
+identification	others	identif|the|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|identif|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|of|zero|false|false|false|false|false|false|false|false|false|DT
+zero	others	zero|the|anaphor|false|false|false|false|false|false|false|false|false|CD
+anaphoric	others	anaphor|zero|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+references	others	refer|_start_|in|false|false|false|false|false|false|false|false|false|NNS
+In	others	in|refer|thi|true|false|false|false|false|false|false|false|false|IN
+this	others	thi|in|talk|false|false|false|false|false|false|false|false|false|DT
+talk	others	talk|thi|i|false|false|false|false|false|false|false|false|false|NN
+I	others	i|talk|will|false|false|true|true|false|false|false|false|false|PRP
+will	others	will|i|be|false|false|false|false|false|false|false|false|false|MD
+be	others	be|will|refer|false|false|false|false|false|false|false|false|false|VB
+referring	others	refer|be|to|false|false|false|false|false|false|false|false|false|VBG
+to	others	to|refer|zero|false|false|false|false|false|false|false|false|false|TO
+zero	others	zero|to|_end_|false|false|false|false|false|false|false|false|false|VB
+
+anaphora	others	anaphora|_start_|as|false|false|false|false|false|false|false|false|false|NN
+as	others	as|anaphora|zero-pronoun|false|false|false|false|false|false|false|false|false|IN
+zero-pronouns	others	zero-pronoun|as|-lrb-|false|false|false|false|false|false|false|false|false|NNS
+-LRB-	others	-lrb-|zero-pronoun|hasegawa|false|false|false|false|false|false|false|false|false|-LRB-
+Hasegawa	others	hasegawa|-lrb-|-lrb-|true|false|false|false|false|true|false|false|false|NN
+-LRB-	others	-lrb-|hasegawa|1984|false|false|false|false|false|false|false|false|false|-LRB-
+1984	others	1984|-lrb-|-rrb-|false|false|false|false|false|false|false|false|true|CD
+-RRB-	others	-rrb-|1984|-rrb-|false|false|false|false|false|false|false|false|false|-RRB-
+-RRB-	others	-rrb-|-rrb-|which|false|false|false|false|false|false|false|false|false|-RRB-
+which	others	which|-rrb-|repres|false|false|false|false|false|false|false|false|false|WDT
+represents	others	repres|which|_end_|false|false|false|false|false|false|false|false|false|VBZ
+
+-LRB-	others	-lrb-|_start_|follow|false|false|false|false|false|false|false|false|false|-LRB-
+following	others	follow|-lrb-|kameyama|false|false|false|false|false|false|false|false|false|VBG
+Kameyama	others	kameyama|follow|'s|true|false|false|false|false|true|false|false|false|NNP
+'s	others	's|kameyama|definit|false|false|false|false|false|false|false|false|false|POS
+definition	others	definit|'s|-rrb-|false|false|false|false|false|false|false|false|false|NN
+-RRB-	others	-rrb-|definit|the|false|false|false|false|false|false|false|false|false|-RRB-
+the	others	the|-rrb-|sequenc|false|false|false|false|false|false|false|false|false|DT
+sequence	others	sequenc|the|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|sequenc|morphem|false|false|false|false|false|false|false|false|false|IN
+morphemes	others	morphem|of|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+with	others	with|_start_|no|false|false|false|false|false|false|false|false|false|IN
+no	others	no|with|phonet|false|false|false|false|false|false|false|false|false|DT
+phonetic	others	phonet|no|content|false|false|false|false|false|false|false|false|false|JJ
+content	others	content|phonet|which|false|false|false|false|false|false|false|false|false|NN
+which	others	which|content|appli|false|false|false|false|false|false|false|false|false|WDT
+applies	others	appli|which|to|false|false|false|false|false|false|false|false|false|VBZ
+to	others	to|appli|morpholog|false|false|false|false|false|false|false|false|false|TO
+morphologically	others	morpholog|to|_end_|false|false|false|false|false|false|false|false|false|RB
+
+unrealized	others	unreal|_start_|nuclear|false|false|false|false|false|false|false|false|false|JJ
+nuclear	others	nuclear|unreal|grammat|false|false|false|false|false|false|false|false|false|JJ
+grammatical	others	grammat|nuclear|function|false|false|false|false|false|false|false|false|false|JJ
+functions	others	function|grammat|subj|false|false|false|false|false|false|false|false|false|NNS
+subj	others	subj|function|obj|false|false|false|false|false|false|false|false|false|NN
+obj	others	obj|subj|or|false|false|false|false|false|false|false|false|false|NN
+or	others	or|obj|obj2|false|false|false|false|false|false|false|false|false|CC
+obj2	others	obj2|or|_end_|false|false|false|false|false|false|false|false|false|NN
+
+and	others	and|_start_|not|false|false|false|false|false|false|false|false|false|CC
+not	others	not|and|to|false|false|false|false|false|false|false|false|false|RB
+to	others	to|not|other|false|false|false|false|false|false|false|false|false|TO
+other	others	other|to|function|false|false|false|false|false|false|false|false|false|JJ
+functions	others	function|other|-lrb-|false|false|false|false|false|false|false|false|false|NNS
+-LRB-	others	-lrb-|function|abaitua|false|false|false|false|false|false|false|false|false|-LRB-
+Abaitua	others	abaitua|-lrb-|-lrb-|true|false|false|false|false|false|false|false|false|NN
+-LRB-	others	-lrb-|abaitua|1988|false|false|false|false|false|false|false|false|false|-LRB-
+1988	others	1988|-lrb-|-rrb-|false|false|false|false|false|false|false|false|true|CD
+-RRB-	others	-rrb-|1988|-rrb-|false|false|false|false|false|false|false|false|false|-RRB-
+-RRB-	others	-rrb-|-rrb-|normal|false|false|false|false|false|false|false|false|false|-RRB-
+Normally	others	normal|-rrb-|onli|true|false|false|false|false|false|false|false|false|RB
+only	others	onli|normal|on|false|false|false|false|false|false|false|false|false|RB
+one	others	on|onli|_end_|false|false|false|false|false|false|false|false|false|CD
+
+NP	others	np|_start_|in|false|true|false|true|false|false|false|false|false|NN
+in	others	in|np|a|false|false|false|false|false|false|false|false|false|IN
+a	others	a|in|discours|false|false|false|false|false|false|false|false|false|DT
+discourse	others	discours|a|repres|false|false|false|false|false|false|false|false|false|NN
+representing	others	repres|discours|a|false|false|false|false|false|false|false|false|false|VBG
+a	others	a|repres|person|false|false|false|false|false|false|false|false|false|DT
+person	others	person|a|be|false|false|false|false|false|false|false|false|false|NN
+is	others	be|person|_end_|false|false|false|false|false|false|false|false|false|VBZ
+
+zero-pronominalized	others	zero-pronomin|_start_|the|false|false|false|false|false|false|false|false|false|JJ
+The	others	the|zero-pronomin|zero|true|false|false|false|false|false|false|false|false|DT
+zeroed	others	zero|the|np|false|false|false|false|false|false|false|false|false|VBN
+NP	others	np|zero|mai|false|true|false|true|false|false|false|false|false|NN
+may	others	mai|np|be|false|false|false|false|false|false|false|false|false|MD
+be	others	be|mai|identifi|false|false|false|false|false|false|false|false|false|VB
+identified	others	identifi|be|either|false|false|false|false|false|false|false|false|false|VBN
+either	others	either|identifi|_end_|false|false|false|false|false|false|false|false|false|CC
+
+with	others	with|_start_|backward-look|false|false|false|false|false|false|false|false|false|IN
+backward-looking	others	backward-look|with|center|false|false|false|false|false|false|false|false|false|JJ
+center	others	center|backward-look|-lrb-|false|false|false|false|false|false|false|false|false|NN
+-LRB-	others	-lrb-|center|cb|false|false|false|false|false|false|false|false|false|-LRB-
+Cb	others	cb|-lrb-|grosz|true|false|false|false|false|false|false|false|false|NNP
+Grosz	others	grosz|cb|et|true|false|false|false|false|true|false|false|false|NNP
+et	others	et|grosz|al|false|false|false|false|false|false|false|false|false|FW
+al	others	al|et|-lrb-|false|false|false|false|false|false|false|false|false|FW
+-LRB-	others	-lrb-|al|1985|false|false|false|false|false|false|false|false|false|-LRB-
+1985	others	1985|-lrb-|-rrb-|false|false|false|false|false|false|false|false|true|CD
+-RRB-	others	-rrb-|1985|-rrb-|false|false|false|false|false|false|false|false|false|-RRB-
+-RRB-	others	-rrb-|-rrb-|or|false|false|false|false|false|false|false|false|false|-RRB-
+or	others	or|-rrb-|the|false|false|false|false|false|false|false|false|false|CC
+the	others	the|or|_end_|false|false|false|false|false|false|false|false|false|DT
+
+speaker	others	speaker|_start_|-lrb-|false|false|false|false|false|false|false|false|false|NN
+-LRB-	others	-lrb-|speaker|hearer|false|false|false|false|false|false|false|false|false|-LRB-
+hearer	others	hearer|-lrb-|-rrb-|false|false|false|false|false|false|false|false|false|NN
+-RRB-	others	-rrb-|hearer|of|false|false|false|false|false|false|false|false|false|-RRB-
+of	others	of|-rrb-|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|of|utter|false|false|false|false|false|false|false|false|false|DT
+utterance	others	utter|the|howev|false|false|false|false|false|false|false|false|false|NN
+however	others	howev|utter|with|false|false|false|false|false|false|false|false|false|RB
+with	others	with|howev|sentenc|false|false|false|false|false|false|false|false|false|IN
+sentences	others	sentenc|with|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+which	others	which|_start_|involv|false|false|false|false|false|false|false|false|false|WDT
+involve	others	involv|which|the|false|false|false|false|false|false|false|false|false|VBP
+the	others	the|involv|empathi|false|false|false|false|false|false|false|false|false|DT
+empathy	others	empathi|the|perspect|false|false|false|false|false|false|false|false|false|NN
+perspective	others	perspect|empathi|-lrb-|false|false|false|false|false|false|false|false|false|NN
+-LRB-	others	-lrb-|perspect|kuno|false|false|false|false|false|false|false|false|false|-LRB-
+Kuno	others	kuno|-lrb-|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Kaburagi	others	kaburagu|_start_|-lrb-|true|false|false|false|false|false|false|false|false|NN
+-LRB-	others	-lrb-|kaburagu|1975\/1977|false|false|false|false|false|false|false|false|false|-LRB-
+1975\/1977	others	1975\/1977|-lrb-|-rrb-|false|false|false|false|false|false|false|false|false|CD
+-RRB-	others	-rrb-|1975\/1977|and|false|false|false|false|false|false|false|false|false|-RRB-
+and	others	and|-rrb-|kuno|false|false|false|false|false|false|false|false|false|CC
+Kuno	others	kuno|and|-lrb-|true|false|false|false|false|false|false|false|false|NNP
+-LRB-	others	-lrb-|kuno|1987|false|false|false|false|false|false|false|false|false|-LRB-
+1987	others	1987|-lrb-|-rrb-|false|false|false|false|false|false|false|false|true|CD
+-RRB-	others	-rrb-|1987|-rrb-|false|false|false|false|false|false|false|false|false|-RRB-
+-RRB-	others	-rrb-|-rrb-|two|false|false|false|false|false|false|false|false|false|-RRB-
+two	others	two|-rrb-|np|false|false|false|false|false|false|false|false|false|CD
+NPs	others	np|two|-lrb-|false|false|false|false|false|false|false|false|false|NNS
+-LRB-	others	-lrb-|np|both|false|false|false|false|false|false|false|false|false|-LRB-
+both	others	both|-lrb-|_end_|false|false|false|false|false|false|false|false|false|CC
+
+representing	others	repres|_start_|peopl|false|false|false|false|false|false|false|false|false|VBG
+people	others	peopl|repres|-rrb-|false|false|false|false|false|false|false|false|false|NNS
+-RRB-	others	-rrb-|peopl|mai|false|false|false|false|false|false|false|false|false|-RRB-
+may	others	mai|-rrb-|be|false|false|false|false|false|false|false|false|false|MD
+be	others	be|mai|zero-pronomin|false|false|false|false|false|false|false|false|false|VB
+zero-pronominalized	others	zero-pronomin|be|at|false|false|false|false|false|false|false|false|false|VBN
+at	others	at|zero-pronomin|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|at|same|false|false|false|false|false|false|false|false|false|DT
+same	others	same|the|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+time	others	time|_start_|ident|false|false|false|false|false|false|false|false|false|NN
+Identity	others	ident|time|of|true|false|false|false|false|false|false|false|false|NN
+of	others	of|ident|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|of|two|false|false|false|false|false|false|false|false|false|DT
+two	others	two|the|pronomin|false|false|false|false|false|false|false|false|false|CD
+pronominals	others	pronomin|two|can|false|false|false|false|false|false|false|false|false|NNS
+can	others	can|pronomin|be|false|false|false|false|false|false|false|false|false|MD
+be	others	be|can|determin|false|false|false|false|false|false|false|false|false|VB
+determined	others	determin|be|by|false|false|false|false|false|false|false|false|false|VBN
+by	others	by|determin|_end_|false|false|false|false|false|false|false|false|false|IN
+
+the	others	the|_start_|point-of-view|false|false|false|false|false|false|false|false|false|DT
+point-of-view	others	point-of-view|the|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|point-of-view|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|of|speaker|false|false|false|false|false|false|false|false|false|DT
+speaker	others	speaker|the|as|false|false|false|false|false|false|false|false|false|NN
+as	others	as|speaker|well|false|false|false|false|false|false|false|false|false|RB
+well	others	well|as|as|false|false|false|false|false|false|false|false|false|RB
+as	others	as|well|other|false|false|false|false|false|false|false|false|false|IN
+other	others	other|as|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+discourse-parameters	others	discourse-paramet|_start_|_end_|false|false|false|false|false|false|false|false|false|NN
+
+I	others	i|_start_|will|false|false|true|true|false|false|false|false|false|PRP
+will	others	will|i|be|false|false|false|false|false|false|false|false|false|MD
+be	others	be|will|us|false|false|false|false|false|false|false|false|false|VB
+using	others	us|be|five|false|false|false|false|false|false|false|false|false|VBG
+five	others	five|us|discourse-paramet|false|false|false|false|false|false|false|false|false|CD
+discourse-parameters	others	discourse-paramet|five|and|false|false|false|false|false|false|false|false|false|NNS
+and	others	and|discourse-paramet|two|false|false|false|false|false|false|false|false|false|CC
+two	others	two|and|constraint|false|false|false|false|false|false|false|false|false|CD
+constraints	others	constraint|two|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+-LRB-	others	-lrb-|_start_|of|false|false|false|false|false|false|false|false|false|-LRB-
+of	others	of|-lrb-|unif|false|false|false|false|false|false|false|false|false|IN
+unification	others	unif|of|-rrb-|false|false|false|false|false|false|false|false|false|NN
+-RRB-	others	-rrb-|unif|for|false|false|false|false|false|false|false|false|false|-RRB-
+for	others	for|-rrb-|keep|false|false|false|false|false|false|false|false|false|IN
+keeping	others	keep|for|track|false|false|false|false|false|false|false|false|false|VBG
+track	others	track|keep|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|track|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|of|paramet|false|false|false|false|false|false|false|false|false|DT
+parameters	others	paramet|the|and|false|false|false|false|false|false|false|false|false|NNS
+and	others	and|paramet|_end_|false|false|false|false|false|false|false|false|false|CC
+
+resolving	others	resolv|_start_|the|false|false|false|false|false|false|false|false|false|VBG
+the	others	the|resolv|overt|false|false|false|false|false|false|false|false|false|DT
+overt	others	overt|the|and|false|false|false|false|false|false|false|false|false|JJ
+and	others	and|overt|zero-pronomin|false|false|false|false|false|false|false|false|false|CC
+zero-pronominals	others	zero-pronomin|and|in|false|false|false|false|false|false|false|false|false|NNS
+in	others	in|zero-pronomin|a|false|false|false|false|false|false|false|false|false|IN
+a	others	a|in|discours|false|false|false|false|false|false|false|false|false|DT
+discourse	others	discours|a|the|false|false|false|false|false|false|false|false|false|NN
+The	others	the|discours|_end_|true|false|false|false|false|false|false|false|false|DT
+
+parameters	others	paramet|_start_|and|false|false|false|false|false|false|false|false|false|NNS
+and	others	and|paramet|the|false|false|false|false|false|false|false|false|false|CC
+the	others	the|and|constraint|false|false|false|false|false|false|false|false|false|DT
+constraints	others	constraint|the|be|false|false|false|false|false|false|false|false|false|NNS
+are	others	be|constraint|specifi|false|false|false|false|false|false|false|false|false|VBP
+specified	others	specifi|be|us|false|false|false|false|false|false|false|false|false|VBN
+using	others	us|specifi|the|false|false|false|false|false|false|false|false|false|VBG
+the	others	the|us|hpsg|false|false|false|false|false|false|false|false|false|DT
+HPSG	others	hpsg|the|_end_|false|true|false|true|false|false|false|false|false|NN
+
+-LRB-	others	-lrb-|_start_|head-driven|false|false|false|false|false|false|false|false|false|-LRB-
+Head-driven	others	head-driven|-lrb-|phrase|false|false|false|false|false|false|false|false|false|JJ
+Phrase	others	phrase|head-driven|structur|true|false|false|false|false|false|false|false|false|NN
+Structure	others	structur|phrase|grammar|true|false|false|false|false|false|false|false|false|NN
+Grammar	others	grammar|structur|pollard|true|false|false|false|false|false|false|false|false|NN
+Pollard	others	pollard|grammar|sag|true|false|false|false|false|false|false|false|false|NNP
+Sag	others	sag|pollard|-lrb-|true|false|false|false|false|false|false|false|false|NNP
+-LRB-	others	-lrb-|sag|1987|false|false|false|false|false|false|false|false|false|-LRB-
+1987	others	1987|-lrb-|-rrb-|false|false|false|false|false|false|false|false|true|CD
+-RRB-	others	-rrb-|1987|-rrb-|false|false|false|false|false|false|false|false|false|-RRB-
+-RRB-	others	-rrb-|-rrb-|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+framework	others	framework|_start_|howev|false|false|false|false|false|false|false|false|false|NN
+however	others	howev|framework|the|false|false|false|false|false|false|false|false|false|RB
+the	others	the|howev|analysi|false|false|false|false|false|false|false|false|false|DT
+analysis	others	analysi|the|be|false|false|false|false|false|false|false|false|false|NN
+is	others	be|analysi|present|false|false|false|false|false|false|false|false|false|VBZ
+presented	others	present|be|in|false|false|false|false|false|false|false|false|false|VBN
+in	others	in|present|term|false|false|false|false|false|false|false|false|false|IN
+terms	others	term|in|of|false|false|false|false|false|false|false|false|false|NNS
+of	others	of|term|_end_|false|false|false|false|false|false|false|false|false|IN
+
+unifications	others	unif|_start_|of|false|false|false|false|false|false|false|false|false|NNS
+of	others	of|unif|partial-inform|false|false|false|false|false|false|false|false|false|IN
+partial-informational	others	partial-inform|of|structur|false|false|false|false|false|false|false|false|false|JJ
+structures	others	structur|partial-inform|-lrb-|false|false|false|false|false|false|false|false|false|NNS
+-LRB-	others	-lrb-|structur|featur|false|false|false|false|false|false|false|false|false|-LRB-
+feature	others	featur|-lrb-|_end_|false|false|false|false|false|false|false|false|false|NN
+
+structures	others	structur|_start_|-rrb-|false|false|false|false|false|false|false|false|false|NNS
+-RRB-	others	-rrb-|structur|and|false|false|false|false|false|false|false|false|false|-RRB-
+and	others	and|-rrb-|should|false|false|false|false|false|false|false|false|false|CC
+should	others	should|and|be|false|false|false|false|false|false|false|false|false|MD
+be	others	be|should|theori|false|false|false|false|false|false|false|false|false|VB
+theory	others	theori|be|independ|false|false|false|false|false|false|false|false|false|NN
+independent	others	independ|theori|in|false|false|false|false|false|false|false|false|false|JJ
+in	others	in|independ|natur|false|false|false|false|false|false|false|false|false|IN
+nature	others	natur|in|_end_|false|false|false|false|false|false|false|false|false|NN
+

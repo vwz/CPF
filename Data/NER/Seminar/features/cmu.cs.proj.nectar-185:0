@@ -1,0 +1,145 @@
+Type	others	type|_start_|cmu|true|false|false|false|false|false|false|false|false|NN
+cmu	others	cmu|type|c|false|false|false|false|false|false|false|false|false|NN
+cs	others	c|cmu|proj|false|false|false|false|false|false|false|false|false|NNS
+proj	others	proj|c|nectar|false|false|false|false|false|false|false|false|false|NN
+nectar	others	nectar|proj|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Who	others	who|_start_|alan|true|false|false|false|false|false|false|false|false|WP
+Alan	speaker	alan|who|huang|true|false|false|false|false|true|false|false|false|NNP
+Huang	speaker	huang|alan|at&t|true|false|false|false|false|true|false|false|false|NNP
+AT&T	others	at&t|huang|bell|false|false|false|false|false|false|false|false|false|NNP
+Bell	others	bell|at&t|lab|true|false|false|false|false|false|false|false|false|NNP
+Labs	others	lab|bell|_end_|true|false|false|false|false|false|false|false|false|NNPS
+
+Topic	others	topic|_start_|optic|true|false|false|false|false|false|false|false|false|NN
+Optical	others	optic|topic|digit|true|false|false|false|false|false|false|false|false|NNP
+Digital	others	digit|optic|comput|true|false|false|false|false|false|false|false|false|NNP
+Computers	others	comput|digit|_end_|true|false|false|false|false|false|false|false|false|NNPS
+
+Dates	others	date|_start_|22-mar-91|true|false|false|false|false|false|false|false|false|NNS
+22-Mar-91	others	22-mar-91|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|4:00|true|false|false|false|false|false|false|false|false|NNP
+4:00	stime	4:00|time|pm|false|false|false|false|false|false|false|false|false|CD
+PM	stime	pm|4:00|_end_|false|true|false|true|false|false|false|false|false|NN
+
+Place	others	place|_start_|wean|true|false|false|false|false|false|false|false|false|NN
+Wean	location	wean|place|hall|true|false|false|false|false|false|false|false|false|VB
+Hall	location	hall|wean|5409|true|false|false|false|false|false|false|false|false|NNP
+5409	location	5409|hall|_end_|false|false|false|false|false|false|false|false|false|CD
+
+PostedBy	others	postedbi|_start_|barbara|false|false|false|false|true|false|false|false|false|NNP
+Barbara	others	barbara|postedbi|grandillo|true|false|false|false|false|true|false|false|false|NNP
+Grandillo	others	grandillo|barbara|on|true|false|false|false|false|false|false|false|false|NN
+on	others	on|grandillo|20-mar-91|false|false|false|false|false|false|false|false|false|IN
+20-Mar-91	others	20-mar-91|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|20-mar-91|10:47|false|false|false|false|false|false|false|false|false|IN
+10:47	others	10:47|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|10:47|ius3|false|false|false|false|false|false|false|false|false|IN
+IUS3	others	ius3|from|ius.cs.cmu.edu|false|false|false|false|false|false|false|false|false|NN
+IUS.CS.CMU.EDU	others	ius.cs.cmu.edu|ius3|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+Speaker	others	speaker|_start_|alan|true|false|false|false|false|false|false|false|false|NNP
+Alan	speaker	alan|speaker|huang|true|false|false|false|false|true|false|false|false|NNP
+Huang	speaker	huang|alan|at&t|true|false|false|false|false|true|false|false|false|NNP
+AT&T	others	at&t|huang|bell|false|false|false|false|false|false|false|false|false|NNP
+Bell	others	bell|at&t|lab|true|false|false|false|false|false|false|false|false|NNP
+Labs	others	lab|bell|_end_|true|false|false|false|false|false|false|false|false|NNPS
+
+Topic	others	topic|_start_|optic|true|false|false|false|false|false|false|false|false|NN
+Optical	others	optic|topic|digit|true|false|false|false|false|false|false|false|false|NNP
+Digital	others	digit|optic|comput|true|false|false|false|false|false|false|false|false|NNP
+Computers	others	comput|digit|_end_|true|false|false|false|false|false|false|false|false|NNPS
+
+Date	others	date|_start_|fridai|true|false|false|false|false|false|false|false|false|NN
+Friday	others	fridai|date|march|true|false|false|false|false|false|false|false|true|NNP
+March	others	march|fridai|22|true|false|false|false|false|false|false|false|true|NNP
+22	others	22|march|1991|false|false|false|false|false|false|false|false|true|CD
+1991	others	1991|22|_end_|false|false|false|false|false|false|false|false|true|CD
+
+Time	others	time|_start_|4:00|true|false|false|false|false|false|false|false|false|NNP
+4:00	stime	4:00|time|pm|false|false|false|false|false|false|false|false|false|CD
+pm	stime	pm|4:00|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Place	others	place|_start_|wean|true|false|false|false|false|false|false|false|false|NN
+Wean	location	wean|place|hall|true|false|false|false|false|false|false|false|false|VB
+Hall	location	hall|wean|5409|true|false|false|false|false|false|false|false|false|NNP
+5409	location	5409|hall|_end_|false|false|false|false|false|false|false|false|false|CD
+
+-LRB-	others	-lrb-|_start_|refresh|false|false|false|false|false|false|false|false|false|-LRB-
+Refreshments	others	refresh|-lrb-|at|true|false|false|false|false|false|false|false|false|NNS
+at	others	at|refresh|3:45|false|false|false|false|false|false|false|false|false|IN
+3:45	others	3:45|at|pm|false|false|false|false|false|false|false|false|false|CD
+pm	others	pm|3:45|-rrb-|false|false|false|false|false|false|false|false|false|NN
+-RRB-	others	-rrb-|pm|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+The	others	the|_start_|push|true|false|false|false|false|false|false|false|false|DT
+push	others	push|the|toward|false|false|false|false|false|false|false|false|false|NN
+towards	others	toward|push|develop|false|false|false|false|false|false|false|false|false|IN
+developing	others	develop|toward|a|false|false|false|false|false|false|false|false|false|VBG
+an	others	a|develop|optic|false|false|false|false|false|false|false|false|false|DT
+optical	others	optic|a|digit|false|false|false|false|false|false|false|false|false|JJ
+digital	others	digit|optic|comput|false|false|false|false|false|false|false|false|false|JJ
+computer	others	comput|digit|have|false|false|false|false|false|false|false|false|false|NN
+has	others	have|comput|_end_|false|false|false|false|false|false|false|false|false|VBZ
+
+stimulated	others	stimul|_start_|advanc|false|false|false|false|false|false|false|false|false|VBN
+advances	others	advanc|stimul|in|false|false|false|false|false|false|false|false|false|NNS
+in	others	in|advanc|materi|false|false|false|false|false|false|false|false|false|IN
+materials	others	materi|in|devic|false|false|false|false|false|false|false|false|false|NNS
+devices	others	devic|materi|comput|false|false|false|false|false|false|false|false|false|NNS
+computer	others	comput|devic|architectur|false|false|false|false|false|false|false|false|false|NN
+architecture	others	architectur|comput|_end_|false|false|false|false|false|false|false|false|false|NN
+
+and	others	and|_start_|algorithm|false|false|false|false|false|false|false|false|false|CC
+algorithms	others	algorithm|and|the|false|false|false|false|false|false|false|false|false|NNS
+The	others	the|algorithm|optic|true|false|false|false|false|false|false|false|false|DT
+optical	others	optic|the|logic|false|false|false|false|false|false|false|false|false|JJ
+logic	others	logic|optic|gate|false|false|false|false|false|false|false|false|false|NN
+gates	others	gate|logic|and|false|false|false|false|false|false|false|false|false|NNS
+and	others	and|gate|microlas|false|false|false|false|false|false|false|false|false|CC
+microlasers	others	microlas|and|have|false|false|false|false|false|false|false|false|false|NNS
+have	others	have|microlas|be|false|false|false|false|false|false|false|false|false|VBP
+been	others	be|have|_end_|false|false|false|false|false|false|false|false|false|VBN
+
+developed	others	develop|_start_|via|false|false|false|false|false|false|false|false|false|VBN
+via	others	via|develop|a|false|false|false|false|false|false|false|false|false|IN
+an	others	a|via|atom|false|false|false|false|false|false|false|false|false|DT
+atomic	others	atom|a|level|false|false|false|false|false|false|false|false|false|JJ
+level	others	level|atom|integr|false|false|false|false|false|false|false|false|false|NN
+integration	others	integr|level|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|integr|optic|false|false|false|false|false|false|false|false|false|IN
+optics	others	optic|of|and|false|false|false|false|false|false|false|false|false|NNS
+and	others	and|optic|electron|false|false|false|false|false|false|false|false|false|CC
+electronics	others	electron|and|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+A	others	a|_start_|pipelin|false|false|true|true|false|false|false|false|false|NN
+pipelined	others	pipelin|a|architectur|false|false|false|false|false|false|false|false|false|JJ
+architecture	others	architectur|pipelin|have|false|false|false|false|false|false|false|false|false|NN
+has	others	have|architectur|be|false|false|false|false|false|false|false|false|false|VBZ
+been	others	be|have|find|false|false|false|false|false|false|false|false|false|VBN
+found	others	find|be|to|false|false|false|false|false|false|false|false|false|VBN
+to	others	to|find|match|false|false|false|false|false|false|false|false|false|TO
+match	others	match|to|the|false|false|false|false|false|false|false|false|false|VB
+the	others	the|match|natur|false|false|false|false|false|false|false|false|false|DT
+natural	others	natur|the|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+parallellism	others	parallel|_start_|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|parallel|optic|false|false|false|false|false|false|false|false|false|IN
+optics	others	optic|of|algorithm|false|false|false|false|false|false|false|false|false|NNS
+Algorithms	others	algorithm|optic|have|true|false|false|false|false|false|false|false|false|NNS
+have	others	have|algorithm|be|false|false|false|false|false|false|false|false|false|VBP
+been	others	be|have|develop|false|false|false|false|false|false|false|false|false|VBN
+developed	others	develop|be|to|false|false|false|false|false|false|false|false|false|VBN
+to	others	to|develop|map|false|false|false|false|false|false|false|false|false|TO
+map	others	map|to|_end_|false|false|false|false|false|false|false|false|false|VB
+
+various	others	variou|_start_|applic|false|false|false|false|false|false|false|false|false|JJ
+applications	others	applic|variou|onto|false|false|false|false|false|false|false|false|false|NNS
+onto	others	onto|applic|such|false|false|false|false|false|false|false|false|false|IN
+such	others	such|onto|a|false|false|false|false|false|false|false|false|false|PDT
+an	others	a|such|architectur|false|false|false|false|false|false|false|false|false|DT
+architecture	others	architectur|a|_end_|false|false|false|false|false|false|false|false|false|NN
+

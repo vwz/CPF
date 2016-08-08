@@ -1,0 +1,97 @@
+Type	others	type|_start_|cmu.andrew.org|true|false|false|false|false|false|false|false|false|NN
+cmu.andrew.org	others	cmu.andrew.org|type|che|false|false|false|false|false|false|false|false|false|NN
+che	others	che|cmu.andrew.org|chegsa|false|false|false|false|false|false|false|false|false|NN
+chegsa	others	chegsa|che|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Topic	others	topic|_start_|fwd|true|false|false|false|false|false|false|false|false|NN
+Fwd	others	fwd|topic|women|true|false|false|false|false|false|false|false|false|NN
+Women	others	women|fwd|'s|true|false|false|false|false|false|false|false|false|NNP
+'s	others	's|women|speaker|false|false|false|false|false|false|false|false|false|POS
+Speaker	others	speaker|'s|seri|true|false|false|false|false|false|false|false|false|NNP
+Series	others	seri|speaker|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Dates	others	date|_start_|30-sep-93|true|false|false|false|false|false|false|false|false|NNS
+30-Sep-93	others	30-sep-93|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|4:30|true|false|false|false|false|false|false|false|false|NNP
+4:30	stime	4:30|time|pm|false|false|false|false|false|false|false|false|false|CD
+PM	stime	pm|4:30|_end_|false|true|false|true|false|false|false|false|false|NN
+
+PostedBy	others	postedbi|_start_|tim|false|false|false|false|true|false|false|false|false|NNP
+Tim	others	tim|postedbi|a|true|false|false|false|false|true|false|false|false|NNP
+A	others	a|tim|mallo|false|false|true|true|false|true|false|false|false|NNP
+Mallo	others	mallo|a|on|true|false|false|false|false|true|false|false|false|NNP
+on	others	on|mallo|28-sep-93|false|false|false|false|false|false|false|false|false|IN
+28-Sep-93	others	28-sep-93|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|28-sep-93|09:47|false|false|false|false|false|false|false|false|false|IN
+09:47	others	09:47|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|09:47|andrew.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+andrew.cmu.edu	others	andrew.cmu.edu|from|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+Friends	others	friend|_start_|_end_|true|false|false|false|false|false|false|false|false|NNPS
+
+This	others	thi|_start_|be|true|false|false|false|false|false|false|false|false|DT
+is	others	be|thi|a|false|false|false|false|false|false|false|false|false|VBZ
+a	others	a|be|remind|false|false|false|false|false|false|false|false|false|DT
+reminder	others	remind|a|that|false|false|false|false|false|false|false|false|false|NN
+that	others	that|remind|we|false|false|false|false|false|false|false|false|false|IN
+we	others	we|that|be|false|false|false|false|false|false|false|false|false|PRP
+are	others	be|we|have|false|false|false|false|false|false|false|false|false|VBP
+having	others	have|be|a|false|false|false|false|false|false|false|false|false|VBG
+a	others	a|have|panel|false|false|false|false|false|false|false|false|false|DT
+panel	others	panel|a|discuss|false|false|false|false|false|false|false|false|false|NN
+discussion	others	discuss|panel|in|false|false|false|false|false|false|false|false|false|NN
+in	others	in|discuss|conjunct|false|false|false|false|false|false|false|false|false|IN
+conjunction	others	conjunct|in|_end_|false|false|false|false|false|false|false|false|false|NN
+
+with	others	with|_start_|pitt|false|false|false|false|false|false|false|false|false|IN
+Pitt	others	pitt|with|thi|true|false|false|false|false|true|false|false|false|NN
+this	others	thi|pitt|thursdai|false|false|false|false|false|false|false|false|true|DT
+Thursday	others	thursdai|thi|septemb|true|false|false|false|false|false|false|false|true|NNP
+September	others	septemb|thursdai|30|true|false|false|false|false|false|false|false|true|NNP
+30	others	30|septemb|at|false|false|false|false|false|false|false|false|true|CD
+at	others	at|30|4:30|false|false|false|false|false|false|false|false|false|IN
+4:30	stime	4:30|at|p.|false|false|false|false|false|false|false|false|false|CD
+p.	stime	p.|4:30|m|false|false|false|false|false|false|false|false|false|NN
+m	stime	m|p.|in|false|false|false|false|false|false|false|false|false|NN
+in	others	in|m|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|in|faculti|false|false|false|false|false|false|false|false|false|DT
+Faculty	location	faculti|the|dine|true|false|false|false|false|false|false|false|false|NNP
+Dining	location	dine|faculti|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Room	others	room|_start_|in|true|false|false|false|false|false|false|false|false|NN
+in	others	in|room|skibo|false|false|false|false|false|false|false|false|false|IN
+Skibo	others	skibo|in|the|true|false|false|false|false|false|false|false|false|NNP
+The	others	the|skibo|topic|true|false|false|false|false|false|false|false|false|DT
+topic	others	topic|the|be|false|false|false|false|false|false|false|false|false|NN
+is	others	be|topic|thrive|false|false|false|false|false|false|false|false|false|VBZ
+Thriving	others	thrive|be|in|true|false|false|false|false|false|false|false|false|VBG
+in	others	in|thrive|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|in|academi|false|false|false|false|false|false|false|false|false|DT
+Academy	others	academi|the|a|true|false|false|false|false|false|false|false|false|NN
+A	others	a|academi|welcom|false|false|true|true|false|false|false|false|false|DT
+Welcome	others	welcom|a|back|true|false|false|false|false|false|false|false|false|VB
+Back	others	back|welcom|_end_|true|false|false|false|false|false|false|false|false|RB
+
+Reception	others	recept|_start_|honor|true|false|false|false|false|false|false|false|false|NNP
+Honoring	others	honor|recept|graduat|true|false|false|false|false|false|false|false|false|NNP
+Graduate	others	graduat|honor|women|true|false|false|false|false|false|false|false|false|NNP
+Women	others	women|graduat|there|true|false|false|false|false|false|false|false|false|NNP
+There	others	there|women|be|true|false|false|false|false|false|false|false|false|EX
+is	others	be|there|still|false|false|false|false|false|false|false|false|false|VBZ
+still	others	still|be|time|false|false|false|false|false|false|false|false|false|RB
+time	others	time|still|to|false|false|false|false|false|false|false|false|false|NN
+to	others	to|time|rsvp|false|false|false|false|false|false|false|false|false|TO
+RSVP	others	rsvp|to|at|false|true|false|true|false|false|false|false|false|NN
+at	others	at|rsvp|kj26|false|false|false|false|false|false|false|false|false|IN
+kj26	others	kj26|at|_end_|false|false|false|false|false|false|false|false|false|NN
+
+or	others	or|_start_|x8-7970|false|false|false|false|false|false|false|false|false|CC
+x8-7970	others	x8-7970|or|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+Kathleen	others	kathleen|_start_|minadeo|true|false|false|false|false|true|false|false|false|NNP
+Minadeo	others	minadeo|kathleen|johnson|true|false|false|false|false|true|false|false|false|NNP
+Johnson	others	johnson|minadeo|_end_|true|false|false|false|false|true|false|false|false|NNP
+

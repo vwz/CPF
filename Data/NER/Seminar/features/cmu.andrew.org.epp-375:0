@@ -1,0 +1,82 @@
+Type	others	type|_start_|cmu.andrew.org|true|false|false|false|false|false|false|false|false|NN
+cmu.andrew.org	others	cmu.andrew.org|type|epp|false|false|false|false|false|false|false|false|false|NN
+epp	others	epp|cmu.andrew.org|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Topic	others	topic|_start_|fwd|true|false|false|false|false|false|false|false|false|NN
+Fwd	others	fwd|topic|lectur|true|false|false|false|false|false|false|false|false|NN
+Lecture	others	lectur|fwd|_end_|true|false|false|false|false|false|false|false|false|NN
+
+Dates	others	date|_start_|30-nov-93|true|false|false|false|false|false|false|false|false|NNS
+30-Nov-93	others	30-nov-93|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|12:30|true|false|false|false|false|false|false|false|false|NNP
+12:30	stime	12:30|time|2:00|false|false|false|false|false|false|true|false|false|CD
+2:00	etime	2:00|12:30|pm|false|false|false|false|false|false|false|true|false|CD
+PM	etime	pm|2:00|_end_|false|true|false|true|false|false|false|false|false|NN
+
+PostedBy	others	postedbi|_start_|shaun|false|false|false|false|true|false|false|false|false|NNP
+Shaun	others	shaun|postedbi|p|true|false|false|false|false|true|false|false|false|NNP
+P	others	p|shaun|mcdermott|false|false|true|true|false|true|false|false|false|NN
+Mcdermott	others	mcdermott|p|on|true|false|false|false|false|true|false|false|false|NN
+on	others	on|mcdermott|24-nov-93|false|false|false|false|false|false|false|false|false|IN
+24-Nov-93	others	24-nov-93|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|24-nov-93|20:52|false|false|false|false|false|false|false|false|false|IN
+20:52	others	20:52|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|20:52|andrew.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+andrew.cmu.edu	others	andrew.cmu.edu|from|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+The	others	the|_start_|environment|true|false|false|false|false|false|false|false|false|DT
+Environmental	others	environment|the|consequ|true|false|false|false|false|false|false|false|false|JJ
+Consequences	others	consequ|environment|of|true|false|false|false|false|false|false|false|false|NNS
+of	others	of|consequ|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|of|nafta|false|false|false|false|false|false|false|false|false|DT
+NAFTA	others	nafta|the|will|false|true|false|true|false|false|false|false|false|NNP
+will	others	will|nafta|be|false|false|false|false|false|false|false|false|false|MD
+be	others	be|will|present|false|false|false|false|false|false|false|false|false|VB
+presented	others	present|be|by|false|false|false|false|false|false|false|false|false|VBN
+by	others	by|present|_end_|false|false|false|false|false|false|false|false|false|IN
+
+Michael	speaker	michael|_start_|gregori|true|false|false|false|false|true|false|false|false|NNP
+Gregory	speaker	gregori|michael|director|true|false|false|false|false|true|false|false|false|NNP
+director	others	director|gregori|arizona|false|false|false|false|false|false|false|false|false|NN
+Arizona	others	arizona|director|toxic|true|false|false|false|false|false|false|false|false|NNP
+Toxics	others	toxic|arizona|inform|true|false|false|false|false|false|false|false|false|NNP
+Information	others	inform|toxic|on|true|false|false|false|false|false|false|false|false|NNP
+on	others	on|inform|tuesdai|false|false|false|false|false|false|false|false|false|IN
+Tuesday	others	tuesdai|on|nov.|true|false|false|false|false|false|false|false|true|NNP
+Nov.	others	nov.|tuesdai|_end_|false|false|false|false|false|false|false|false|true|NNP
+
+30	others	30|_start_|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|30|12:30|false|false|false|false|false|false|false|false|false|IN
+12:30	stime	12:30|from|to|false|false|false|false|false|false|false|false|false|CD
+to	others	to|12:30|2|false|false|false|false|false|false|false|false|false|TO
+2	etime	2|to|p.|false|false|false|false|false|false|false|false|false|CD
+p.	etime	p.|2|m|false|false|false|false|false|false|false|false|false|NN
+m	etime	m|p.|in|false|false|false|false|false|false|false|false|false|NN
+in	others	in|m|hamburg|false|false|false|false|false|false|false|false|false|IN
+Hamburg	location	hamburg|in|hall|true|false|false|false|false|false|false|false|false|NNP
+Hall	location	hall|hamburg|auditorium|true|false|false|false|false|false|false|false|false|NNP
+Auditorium	location	auditorium|hall|the|true|false|false|false|false|false|false|false|false|NNP
+The	others	the|auditorium|lectur|true|false|false|false|false|false|false|false|false|DT
+lecture	others	lectur|the|be|false|false|false|false|false|false|false|false|false|NN
+is	others	be|lectur|_end_|false|false|false|false|false|false|false|false|false|VBZ
+
+being	others	be|_start_|present|false|false|false|false|false|false|false|false|false|VBG
+presented	others	present|be|as|false|false|false|false|false|false|false|false|false|VBN
+as	others	as|present|part|false|false|false|false|false|false|false|false|false|IN
+part	others	part|as|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|part|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|of|heinz|false|false|false|false|false|false|false|false|false|DT
+Heinz	others	heinz|the|school|true|false|false|false|false|false|false|false|false|NNP
+School	others	school|heinz|'s|true|false|false|false|false|false|false|false|false|NNP
+'s	others	's|school|profession|false|false|false|false|false|false|false|false|false|POS
+Professional	others	profession|'s|seminar|true|false|false|false|false|false|false|false|false|JJ
+Seminar	others	seminar|profession|_end_|true|false|false|false|false|false|false|false|false|NN
+
+Series	others	seri|_start_|all|true|false|false|false|false|false|false|false|false|NNP
+All	others	all|seri|be|true|false|false|false|false|false|false|false|false|DT
+are	others	be|all|invit|false|false|false|false|false|false|false|false|false|VBP
+invited	others	invit|be|_end_|false|false|false|false|false|false|false|false|false|VBN
+

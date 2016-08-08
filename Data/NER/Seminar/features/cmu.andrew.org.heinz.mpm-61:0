@@ -1,0 +1,104 @@
+Type	others	type|_start_|cmu.andrew.org|true|false|false|false|false|false|false|false|false|NN
+cmu.andrew.org	others	cmu.andrew.org|type|heinz|false|false|false|false|false|false|false|false|false|NN
+heinz	others	heinz|cmu.andrew.org|mpm|false|false|false|false|false|false|false|false|false|NN
+mpm	others	mpm|heinz|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Topic	others	topic|_start_|career|true|false|false|false|false|false|false|false|false|NN
+Career	others	career|topic|enhanc|true|false|false|false|false|false|false|false|false|NNP
+Enhancement	others	enhanc|career|seminar|true|false|false|false|false|false|false|false|false|NN
+Seminar	others	seminar|enhanc|_end_|true|false|false|false|false|false|false|false|false|NN
+
+Dates	others	date|_start_|21-nov-92|true|false|false|false|false|false|false|false|false|NNS
+21-Nov-92	others	21-nov-92|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|9:00|true|false|false|false|false|false|false|false|false|NNP
+9:00	stime	9:00|time|am|false|false|false|false|false|false|false|false|false|CD
+AM	stime	am|9:00|12:00|false|true|false|true|false|false|true|false|false|NNP
+12:00	etime	12:00|am|pm|false|false|false|false|false|false|false|true|false|CD
+PM	etime	pm|12:00|_end_|false|true|false|true|false|false|false|false|false|NN
+
+PostedBy	others	postedbi|_start_|career|false|false|false|false|true|false|false|false|false|NNP
+Career	others	career|postedbi|servic|true|false|false|false|false|false|false|false|false|NNP
+Services	others	servic|career|on|true|false|false|false|false|false|false|false|false|NNPS
+on	others	on|servic|16-nov-92|false|false|false|false|false|false|false|false|false|IN
+16-Nov-92	others	16-nov-92|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|16-nov-92|15:27|false|false|false|false|false|false|false|false|false|IN
+15:27	others	15:27|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|15:27|andrew.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+andrew.cmu.edu	others	andrew.cmu.edu|from|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+CAREER	others	career|_start_|enhanc|false|true|false|true|false|false|false|false|false|NN
+ENHANCEMENT	others	enhanc|career|through|false|true|false|true|false|false|false|false|false|NN
+THROUGH	others	through|enhanc|self-assess|false|true|false|true|false|false|false|false|false|IN
+SELF-ASSESSMENT	others	self-assess|through|resum|false|false|false|false|false|false|false|false|false|NN
+RESUME	others	resum|self-assess|prepar|false|true|false|true|false|false|false|false|false|VB
+PREPARATION	others	prepar|resum|_end_|false|true|false|true|false|false|false|false|false|NN
+
+The	others	the|_start_|offic|true|false|false|false|false|false|false|false|false|DT
+Office	others	offic|the|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|offic|career|false|false|false|false|false|false|false|false|false|IN
+Career	others	career|of|student|true|false|false|false|false|false|false|false|false|NNP
+Student	others	student|career|servic|true|false|false|false|false|false|false|false|false|NNP
+Services	others	servic|student|present|true|false|false|false|false|false|false|false|false|NNPS
+presents	others	present|servic|a|false|false|false|false|false|false|false|false|false|VBZ
+a	others	a|present|seminar|false|false|false|false|false|false|false|false|false|DT
+seminar	others	seminar|a|for|false|false|false|false|false|false|false|false|false|NN
+for	others	for|seminar|mpm|false|false|false|false|false|false|false|false|false|IN
+MPM	others	mpm|for|student|false|true|false|true|false|false|false|false|false|NNP
+students	others	student|mpm|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+You	others	you|_start_|can|true|false|false|false|false|false|false|false|false|PRP
+Ca	others	can|you|not|true|false|false|false|false|false|false|false|false|MD
+n't	others	not|can|get|false|false|false|false|false|false|false|false|false|RB
+Get	others	get|not|there|true|false|false|false|false|false|false|false|false|VB
+There	others	there|get|from|true|false|false|false|false|false|false|false|false|EX
+From	others	from|there|here|true|false|false|false|false|false|false|false|false|IN
+Here	others	here|from|unless|true|false|false|false|false|false|false|false|false|RB
+Unless	others	unless|here|you|true|false|false|false|false|false|false|false|false|IN
+You	others	you|unless|know|true|false|false|false|false|false|false|false|false|PRP
+Know	others	know|you|where|true|false|false|false|false|false|false|false|false|NNP
+Where	others	where|know|you|true|false|false|false|false|false|false|false|false|WRB
+You	others	you|where|be|true|false|false|false|false|false|false|false|false|PRP
+Are	others	be|you|_end_|true|false|false|false|false|false|false|false|false|VBP
+
+Presented	others	present|_start_|by|true|false|false|false|false|false|false|false|false|VBN
+by	others	by|present|kathi|false|false|false|false|false|false|false|false|false|IN
+Kathy	speaker	kathi|by|bernard|true|false|false|false|false|true|false|false|false|NNP
+Bernard	speaker	bernard|kathi|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+Career	others	career|_start_|consult|true|false|false|false|false|false|false|false|false|NNP
+Consultant	others	consult|career|counselor|true|false|false|false|false|false|false|false|false|NN
+Counselor	others	counselor|consult|_end_|true|false|false|false|false|false|false|false|false|NN
+
+Saturday	others	saturdai|_start_|novemeb|true|false|false|false|false|false|false|false|true|NNP
+Novemeber	others	novemeb|saturdai|21|true|false|false|false|false|false|false|false|true|NNP
+21	others	21|novemeb|1992|false|false|false|false|false|false|false|false|true|CD
+1992	others	1992|21|_end_|false|false|false|false|false|false|false|false|true|CD
+
+ROOM	location	room|_start_|1004|false|true|false|true|false|false|false|false|false|NN
+1004	location	1004|room|_end_|false|false|false|false|false|false|false|false|true|CD
+
+Hamburg	others	hamburg|_start_|hall|true|false|false|false|false|false|false|false|false|NNP
+Hall	others	hall|hamburg|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Please	others	pleas|_start_|make|true|false|false|false|false|false|false|false|false|VB
+make	others	make|pleas|reserv|false|false|false|false|false|false|false|false|false|VB
+reservations	others	reserv|make|with|false|false|false|false|false|false|false|false|false|NNS
+with	others	with|reserv|lou|false|false|false|false|false|false|false|false|false|IN
+Lou	others	lou|with|or|true|false|false|false|false|true|false|false|false|NNP
+or	others	or|lou|jean|false|false|false|false|false|false|false|false|false|CC
+Jean	others	jean|or|in|true|false|false|false|false|true|false|false|false|NNP
+in	others	in|jean|career|false|false|false|false|false|false|false|false|false|IN
+career	others	career|in|servic|false|false|false|false|false|false|false|false|false|NN
+services	others	servic|career|by|false|false|false|false|false|false|false|false|false|NNS
+by	others	by|servic|call|false|false|false|false|false|false|false|false|false|IN
+calling	others	call|by|_end_|false|false|false|false|false|false|false|false|false|VBG
+
+268-2166	others	268-2166|_start_|or|false|false|false|false|false|false|false|false|false|CD
+or	others	or|268-2166|just|false|false|false|false|false|false|false|false|false|CC
+just	others	just|or|pop|false|false|false|false|false|false|false|false|false|RB
+pop	others	pop|just|in|false|false|false|false|false|false|false|false|false|NN
+in	others	in|pop|_end_|false|false|false|false|false|false|false|false|false|IN
+

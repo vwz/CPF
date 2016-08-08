@@ -1,0 +1,61 @@
+Type	others	type|_start_|cmu.andrew.org|true|false|false|false|false|false|false|false|false|NN
+cmu.andrew.org	others	cmu.andrew.org|type|heinz|false|false|false|false|false|false|false|false|false|NN
+heinz	others	heinz|cmu.andrew.org|phd|false|false|false|false|false|false|false|false|false|NN
+phd	others	phd|heinz|_end_|false|false|false|false|false|true|false|false|false|NN
+
+Topic	others	topic|_start_|ph.d.|true|false|false|false|false|false|false|false|false|NN
+Ph.D.	others	ph.d.|topic|present|false|false|false|false|false|true|false|false|false|NNP
+Presentations	others	present|ph.d.|_end_|true|false|false|false|false|false|false|false|false|NNPS
+
+Dates	others	date|_start_|6-apr-9|true|false|false|false|false|false|false|false|false|NNS
+6-Apr-9	others	6-apr-9|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|12:30|true|false|false|false|false|false|false|false|false|NNP
+12:30	stime	12:30|time|2:00|false|false|false|false|false|false|true|false|false|CD
+2:00	etime	2:00|12:30|pm|false|false|false|false|false|false|false|true|false|CD
+PM	etime	pm|2:00|_end_|false|true|false|true|false|false|false|false|false|NN
+
+PostedBy	others	postedbi|_start_|carol|false|false|false|false|true|false|false|false|false|NNP
+Carole	others	carol|postedbi|mccoi|true|false|false|false|false|true|false|false|false|NNP
+McCoy	others	mccoi|carol|on|false|false|false|false|false|true|false|false|false|NNP
+on	others	on|mccoi|4-apr-95|false|false|false|false|false|false|false|false|false|IN
+4-Apr-95	others	4-apr-95|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|4-apr-95|08:11|false|false|false|false|false|false|false|false|false|IN
+08:11	others	08:11|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|08:11|andrew.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+andrew.cmu.edu	others	andrew.cmu.edu|from|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+The	others	the|_start_|ph.d.|true|false|false|false|false|false|false|false|false|DT
+Ph.D.	others	ph.d.|the|present|false|false|false|false|false|true|false|false|false|NN
+presentations	others	present|ph.d.|thi|false|false|false|false|false|false|false|false|false|NNS
+this	others	thi|present|week|false|false|false|false|false|false|false|false|true|DT
+week	others	week|thi|be|false|false|false|false|false|false|false|false|true|NN
+are	others	be|week|_end_|false|false|false|false|false|false|false|false|false|VBP
+
+First	others	first|_start_|research|true|false|false|false|false|false|false|false|false|NNP
+Research	others	research|first|paper|true|false|false|false|false|false|false|false|false|NNP
+Paper	others	paper|research|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Estimates	others	estim|_start_|of|true|false|false|false|false|false|false|false|false|NNS
+of	others	of|estim|effect|false|false|false|false|false|false|false|false|false|IN
+Effective	others	effect|of|guarante|true|false|false|false|false|false|false|false|false|JJ
+Guarantees	others	guarante|effect|and|true|false|false|false|false|false|false|false|false|NNS
+and	others	and|guarante|tax|false|false|false|false|false|false|false|false|false|CC
+Tax	others	tax|and|rate|true|false|false|false|false|false|false|false|false|NN
+Rates	others	rate|tax|in|true|false|false|false|false|false|false|false|false|NNS
+in	others	in|rate|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|in|afdc|false|false|false|false|false|false|false|false|false|DT
+AFDC	others	afdc|the|program|false|true|false|true|false|false|false|false|false|NNP
+Program	others	program|afdc|for|true|false|false|false|false|false|false|false|false|NNP
+for	others	for|program|_end_|false|false|false|false|false|false|false|false|false|IN
+
+the	others	the|_start_|post-obra|false|false|false|false|false|false|false|false|false|DT
+Post-OBRA	others	post-obra|the|period|false|false|false|false|false|false|false|false|false|NNP
+Period	others	period|post-obra|_end_|true|false|false|false|false|false|false|false|false|NN
+
+Thursday	others	thursdai|_start_|april|true|false|false|false|false|false|false|false|true|NNP
+April	others	april|thursdai|6|true|false|false|false|false|false|false|false|true|NNP
+6	others	6|april|_end_|false|false|false|false|false|false|false|false|true|CD
+

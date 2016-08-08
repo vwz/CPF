@@ -1,0 +1,69 @@
+Type	others	type|_start_|cmu|true|false|false|false|false|false|false|false|false|NN
+cmu	others	cmu|type|c|false|false|false|false|false|false|false|false|false|NN
+cs	others	c|cmu|proj|false|false|false|false|false|false|false|false|false|NNS
+proj	others	proj|c|cimd|false|false|false|false|false|false|false|false|false|NN
+cimds	others	cimd|proj|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+Topic	others	topic|_start_|kalendar|true|false|false|false|false|false|false|false|false|NN
+Kalendar	others	kalendar|topic|seminar|true|false|false|false|false|false|false|false|false|NN
+seminar	others	seminar|kalendar|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Dates	others	date|_start_|1-dec-87|true|false|false|false|false|false|false|false|false|NNS
+1-Dec-87	others	1-dec-87|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|1:30|true|false|false|false|false|false|false|false|false|NNP
+1:30	stime	1:30|time|3:00|false|false|false|false|false|false|true|false|false|CD
+3:00	etime	3:00|1:30|_end_|false|false|false|false|false|false|false|true|false|CD
+
+PostedBy	others	postedbi|_start_|marcella|false|false|false|false|true|false|false|false|false|NNP
+Marcella	others	marcella|postedbi|zaragoza|true|false|false|false|false|true|false|false|false|NNP
+Zaragoza	others	zaragoza|marcella|on|true|false|false|false|false|false|false|false|false|NNP
+on	others	on|zaragoza|30-nov-87|false|false|false|false|false|false|false|false|false|IN
+30-Nov-87	others	30-nov-87|on|at|false|false|false|false|false|false|false|false|false|NNP
+at	others	at|30-nov-87|16:48|false|false|false|false|false|false|false|false|false|IN
+16:48	others	16:48|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|16:48|isl1|false|false|false|false|false|false|false|false|false|IN
+ISL1	others	isl1|from|ri.cmu.edu|false|false|false|false|false|false|false|false|false|NN
+RI.CMU.EDU	others	ri.cmu.edu|isl1|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+A	others	a|_start_|remind|false|false|true|true|false|false|false|false|false|NN
+reminder	others	remind|a|that|false|false|false|false|false|false|false|false|false|NN
+that	others	that|remind|katia|false|false|false|false|false|false|false|false|false|WDT
+Katia	speaker	katia|that|sycara|true|false|false|false|false|true|false|false|false|NNP
+Sycara	speaker	sycara|katia|will|true|false|false|false|false|true|false|false|false|NNP
+will	others	will|sycara|present|false|false|false|false|false|false|false|false|false|MD
+present	others	present|will|a|false|false|false|false|false|false|false|false|false|VB
+an	others	a|present|overview|false|false|false|false|false|false|false|false|false|DT
+overview	others	overview|a|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|overview|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|of|kalendar|false|false|false|false|false|false|false|false|false|DT
+Kalendar	others	kalendar|the|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+project	others	project|_start_|tuesdai|false|false|false|false|false|false|false|false|false|NN
+Tuesday	others	tuesdai|project|decemb|true|false|false|false|false|false|false|false|true|NNP
+December	others	decemb|tuesdai|1|true|false|false|false|false|false|false|false|true|NNP
+1	others	1|decemb|1:30|false|false|false|false|false|false|false|false|true|CD
+1:30	stime	1:30|1|3:00|false|false|false|false|false|false|true|false|false|CD
+3:00	etime	3:00|1:30|in|false|false|false|false|false|false|false|true|false|CD
+in	others	in|3:00|dh|false|false|false|false|false|false|false|false|false|IN
+DH	location	dh|in|3313|false|true|false|true|false|false|false|false|false|NN
+3313	location	3313|dh|-lrb-|false|false|false|false|false|false|false|false|false|CD
+-LRB-	location	-lrb-|3313|larg|false|false|false|false|false|false|false|false|false|-LRB-
+large	location	larg|-lrb-|confer|false|false|false|false|false|false|false|false|false|JJ
+conference	location	confer|larg|_end_|false|false|false|false|false|false|false|false|false|NN
+
+room	others	room|_start_|-rrb-|false|false|false|false|false|false|false|false|false|NN
+-RRB-	others	-rrb-|room|all|false|false|false|false|false|false|false|false|false|-RRB-
+All	others	all|-rrb-|especi|true|false|false|false|false|false|false|false|false|DT
+especially	others	especi|all|newcom|false|false|false|false|false|false|false|false|false|RB
+newcomers	others	newcom|especi|to|false|false|false|false|false|false|false|false|false|NNS
+to	others	to|newcom|the|false|false|false|false|false|false|false|false|false|TO
+the	others	the|to|lab|false|false|false|false|false|false|false|false|false|DT
+lab	others	lab|the|be|false|false|false|false|false|false|false|false|false|NN
+are	others	be|lab|urg|false|false|false|false|false|false|false|false|false|VBP
+urged	others	urg|be|to|false|false|false|false|false|false|false|false|false|VBN
+to	others	to|urg|attend|false|false|false|false|false|false|false|false|false|TO
+attend	others	attend|to|_end_|false|false|false|false|false|false|false|false|false|VB
+

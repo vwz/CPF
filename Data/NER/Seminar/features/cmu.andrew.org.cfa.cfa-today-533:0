@@ -1,0 +1,114 @@
+Type	others	type|_start_|cmu.andrew.org.cfa.cfa-todai|true|false|false|false|false|false|false|false|false|NN
+cmu.andrew.org.cfa.cfa-today	others	cmu.andrew.org.cfa.cfa-todai|type|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Topic	others	topic|_start_|art|true|false|false|false|false|false|false|false|false|NN
+Art	others	art|topic|depart|true|false|false|false|false|false|false|false|false|NNP
+Department	others	depart|art|lectur|true|false|false|false|false|false|false|false|false|NNP
+Lecture	others	lectur|depart|seri|true|false|false|false|false|false|false|false|false|NNP
+Series	others	seri|lectur|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Dates	others	date|_start_|29-nov-94|true|false|false|false|false|false|false|false|false|NNS
+29-Nov-94	others	29-nov-94|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|5:00|true|false|false|false|false|false|false|false|false|NNP
+5:00	stime	5:00|time|pm|false|false|false|false|false|false|false|false|false|CD
+PM	stime	pm|5:00|_end_|false|true|false|true|false|false|false|false|false|NNP
+
+PostedBy	others	postedbi|_start_|tina|false|false|false|false|true|false|false|false|false|NNP
+Tina	others	tina|postedbi|c|true|false|false|false|false|true|false|false|false|NNP
+C	others	c|tina|calabro|false|false|true|true|false|true|false|false|false|NNP
+Calabro	others	calabro|c|on|true|false|false|false|false|true|false|false|false|NNP
+on	others	on|calabro|15-nov-94|false|false|false|false|false|false|false|false|false|IN
+15-Nov-94	others	15-nov-94|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|15-nov-94|14:49|false|false|false|false|false|false|false|false|false|IN
+14:49	others	14:49|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|14:49|andrew.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+andrew.cmu.edu	others	andrew.cmu.edu|from|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+Joyce	speaker	joyc|_start_|scott|true|false|false|false|false|true|false|false|false|NNP
+Scott	speaker	scott|joyc|have|true|false|false|false|false|true|false|false|false|NNP
+has	others	have|scott|studi|false|false|false|false|false|false|false|false|false|VBZ
+studied	others	studi|have|tradit|false|false|false|false|false|false|false|false|false|VBN
+traditional	others	tradit|studi|navajo|false|false|false|false|false|false|false|false|false|JJ
+Navajo	others	navajo|tradit|rug|true|false|false|false|false|false|false|false|false|NNP
+rug	others	rug|navajo|weav|false|false|false|false|false|false|false|false|false|NN
+weaving	others	weav|rug|tradit|false|false|false|false|false|false|false|false|false|VBG
+traditional	others	tradit|weav|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+and	others	and|_start_|contemporari|false|false|false|false|false|false|false|false|false|CC
+contemporary	others	contemporari|and|japanes|false|false|false|false|false|false|false|false|false|JJ
+Japanese	others	japanes|contemporari|theater|true|false|false|false|false|false|false|false|false|JJ
+theater	others	theater|japanes|techniqu|false|false|false|false|false|false|false|false|false|NN
+techniques	others	techniqu|theater|and|false|false|false|false|false|false|false|false|false|NNS
+and	others	and|techniqu|tradit|false|false|false|false|false|false|false|false|false|CC
+traditional	others	tradit|and|nativ|false|false|false|false|false|false|false|false|false|JJ
+Native	others	nativ|tradit|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+American	others	american|_start_|beadwork|true|false|false|false|false|false|false|false|false|JJ
+beadwork	others	beadwork|american|she|false|false|false|false|false|false|false|false|false|NN
+Her	others	she|beadwork|work|true|false|false|false|false|false|false|false|false|PRP$
+work	others	work|she|center|false|false|false|false|false|false|false|false|false|NN
+centers	others	center|work|around|false|false|false|false|false|false|false|false|false|NNS
+around	others	around|center|polit|false|false|false|false|false|false|false|false|false|IN
+political	others	polit|around|and|false|false|false|false|false|false|false|false|false|JJ
+and	others	and|polit|social|false|false|false|false|false|false|false|false|false|CC
+social	others	social|and|issu|false|false|false|false|false|false|false|false|false|JJ
+issues	others	issu|social|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+particularly	others	particularli|_start_|issu|false|false|false|false|false|false|false|false|false|RB
+issues	others	issu|particularli|of|false|false|false|false|false|false|false|false|false|NNS
+of	others	of|issu|race|false|false|false|false|false|false|false|false|false|IN
+race	others	race|of|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|race|gender|false|false|false|false|false|false|false|false|false|CC
+gender	others	gender|and|small|false|false|false|false|false|false|false|false|false|NN
+Small	others	small|gender|sculptur|true|false|false|false|false|false|false|false|false|JJ
+sculptures	others	sculptur|small|of|false|false|false|false|false|false|false|false|false|NNS
+of	others	of|sculptur|bead|false|false|false|false|false|false|false|false|false|IN
+beads	others	bead|of|and|false|false|false|false|false|false|false|false|false|NNS
+and	others	and|bead|_end_|false|false|false|false|false|false|false|false|false|CC
+
+thread	others	thread|_start_|which|false|false|false|false|false|false|false|false|false|NN
+which	others	which|thread|at|false|false|false|false|false|false|false|false|false|WDT
+at	others	at|which|first|false|false|false|false|false|false|false|false|false|IN
+first	others	first|at|look|false|false|false|false|false|false|false|false|false|JJ
+look	others	look|first|toy-lik|false|false|false|false|false|false|false|false|false|NN
+toy-like	others	toy-lik|look|be|false|false|false|false|false|false|false|false|false|JJ
+are	others	be|toy-lik|actual|false|false|false|false|false|false|false|false|false|VBP
+actually	others	actual|be|social|false|false|false|false|false|false|false|false|false|RB
+social	others	social|actual|commentari|false|false|false|false|false|false|false|false|false|JJ
+commentaries	others	commentari|social|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+about	others	about|_start_|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|about|psycholog|false|false|false|false|false|false|false|false|false|DT
+psychological	others	psycholog|the|and|false|false|false|false|false|false|false|false|false|JJ
+and	others	and|psycholog|physic|false|false|false|false|false|false|false|false|false|CC
+physical	others	physic|and|danger|false|false|false|false|false|false|false|false|false|JJ
+dangers	others	danger|physic|of|false|false|false|false|false|false|false|false|false|NNS
+of	others	of|danger|be|false|false|false|false|false|false|false|false|false|IN
+being	others	be|of|a|false|false|false|false|false|false|false|false|false|VBG
+an	others	a|be|_end_|false|false|false|false|false|false|false|false|false|DT
+
+African-American	others	african-american|_start_|and|false|false|false|false|false|false|false|false|false|JJ
+and	others	and|african-american|a|false|false|false|false|false|false|false|false|false|CC
+a	others	a|and|woman|false|false|false|false|false|false|false|false|false|DT
+woman	others	woman|a|in|false|false|false|false|false|false|false|false|false|NN
+in	others	in|woman|we|false|false|false|false|false|false|false|false|false|IN
+our	others	we|in|societi|false|false|false|false|false|false|false|false|false|PRP$
+society	others	societi|we|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Ms.	speaker	ms.|_start_|scott|false|false|false|false|false|true|false|false|false|NNP
+Scott	speaker	scott|ms.|will|true|false|false|false|false|true|false|false|false|NNP
+will	others	will|scott|be|false|false|false|false|false|false|false|false|false|MD
+be	others	be|will|speak|false|false|false|false|false|false|false|false|false|VB
+speaking	others	speak|be|tuesdai|false|false|false|false|false|false|false|false|false|VBG
+Tuesday	others	tuesdai|speak|novemb|true|false|false|false|false|false|false|false|true|NNP
+November	others	novemb|tuesdai|29|true|false|false|false|false|false|false|false|true|NNP
+29	others	29|novemb|at|false|false|false|false|false|false|false|false|true|CD
+at	others	at|29|5:00|false|false|false|false|false|false|false|false|false|IN
+5:00	stime	5:00|at|p.|false|false|false|false|false|false|false|false|false|CD
+p.	stime	p.|5:00|m|false|false|false|false|false|false|false|false|false|NN
+m	stime	m|p.|in|false|false|false|false|false|false|false|false|false|NN
+in	others	in|m|_end_|false|false|false|false|false|false|false|false|false|IN
+

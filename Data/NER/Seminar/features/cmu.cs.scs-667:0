@@ -1,0 +1,71 @@
+Type	others	type|_start_|cmu|true|false|false|false|false|false|false|false|false|NN
+cmu	others	cmu|type|c|false|false|false|false|false|false|false|false|false|NN
+cs	others	c|cmu|sc|false|false|false|false|false|false|false|false|false|NNS
+scs	others	sc|c|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+Topic	others	topic|_start_|network|true|false|false|false|false|false|false|false|false|NN
+Networks	others	network|topic|class\/dqdb|true|false|false|false|false|false|false|false|false|NNP
+class\/DQDB	others	class\/dqdb|network|talk|false|false|false|false|false|false|false|false|false|NNP
+talk	others	talk|class\/dqdb|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Dates	others	date|_start_|16-mar-92|true|false|false|false|false|false|false|false|false|NNS
+16-Mar-92	others	16-mar-92|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|1:30|true|false|false|false|false|false|false|false|false|NNP
+1:30	stime	1:30|time|_end_|false|false|false|false|false|false|false|false|false|CD
+
+PostedBy	others	postedbi|_start_|alf|false|false|false|false|true|false|false|false|false|NNP
+alf	others	alf|postedbi|on|false|false|false|false|false|false|false|false|false|NN
+on	others	on|alf|13-mar-92|false|false|false|false|false|false|false|false|false|IN
+13-Mar-92	others	13-mar-92|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|13-mar-92|08:21|false|false|false|false|false|false|false|false|false|IN
+08:21	others	08:21|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|08:21|n3|false|false|false|false|false|false|false|false|false|IN
+N3	others	n3|from|sp.cs.cmu.edu|false|false|false|false|false|false|false|false|false|NN
+SP.CS.CMU.EDU	others	sp.cs.cmu.edu|n3|-lrb-|false|false|false|false|false|false|false|false|false|NN
+-LRB-	others	-lrb-|sp.cs.cmu.edu|allan|false|false|false|false|false|false|false|false|false|-LRB-
+Allan	others	allan|-lrb-|fisher|true|false|false|false|false|true|false|false|false|NNP
+Fisher	others	fisher|allan|-rrb-|true|false|false|false|false|true|false|false|false|NNP
+-RRB-	others	-rrb-|fisher|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+Monday	others	mondai|_start_|the|true|false|false|false|false|false|false|false|true|NNP
+the	others	the|mondai|16th|false|false|false|false|false|false|false|false|true|DT
+16th	others	16th|the|1:30|false|false|false|false|false|false|false|false|true|JJ
+1:30	stime	1:30|16th|in|false|false|false|false|false|false|false|false|false|CD
+in	others	in|1:30|5409|false|false|false|false|false|false|false|false|false|IN
+5409	location	5409|in|_end_|false|false|false|false|false|false|false|false|false|CD
+
+Bandwidth	others	bandwidth|_start_|balanc|true|false|false|false|false|false|false|false|false|NNP
+Balancing	others	balanc|bandwidth|and|true|false|false|false|false|false|false|false|false|NNP
+and	others	and|balanc|prioriti|false|false|false|false|false|false|false|false|false|CC
+Priority	others	prioriti|and|mechan|true|false|false|false|false|false|false|false|false|NNP
+Mechanism	others	mechan|prioriti|_end_|true|false|false|false|false|false|false|false|false|NN
+
+in	others	in|_start_|a|false|false|false|false|false|false|false|false|false|IN
+a	others	a|in|dqdb|false|false|false|false|false|false|false|false|false|DT
+DQDB	others	dqdb|a|man|false|true|false|true|false|false|false|false|false|NN
+MAN	others	man|dqdb|problem|false|true|false|true|false|false|false|false|false|NN
+Problems	others	problem|man|and|true|false|false|false|false|false|false|false|false|NNS
+and	others	and|problem|solut|false|false|false|false|false|false|false|false|false|CC
+Solutions	others	solut|and|_end_|true|false|false|false|false|false|false|false|false|NNPS
+
+Institute	others	institut|_start_|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|institut|telemat|false|false|false|false|false|false|false|false|false|IN
+Telematics	others	telemat|of|univers|true|false|false|false|false|false|false|false|false|NNPS
+University	others	univers|telemat|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|univers|karlsruh|false|false|false|false|false|false|false|false|false|IN
+Karlsruhe	others	karlsruh|of|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+D-7500	others	d-7500|_start_|karlsruh|false|false|false|false|false|false|false|false|false|CD
+Karlsruhe	others	karlsruh|d-7500|1|true|false|false|false|false|false|false|false|false|NNP
+1	others	1|karlsruh|feder|false|false|false|false|false|false|false|false|false|CD
+Federal	others	feder|1|republ|true|false|false|false|false|false|false|false|false|NNP
+Republic	others	republ|feder|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|republ|germani|false|false|false|false|false|false|false|false|false|IN
+Germany	others	germani|of|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Email	others	email|_start_|jroethig@ira.uka.d|true|false|false|false|false|false|false|false|false|NN
+jroethig@ira.uka.de	others	jroethig@ira.uka.d|email|_end_|false|false|false|false|false|false|false|false|false|NN
+

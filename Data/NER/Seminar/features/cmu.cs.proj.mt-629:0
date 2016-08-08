@@ -1,0 +1,130 @@
+Type	others	type|_start_|cmu|true|false|false|false|false|false|false|false|false|NN
+cmu	others	cmu|type|c|false|false|false|false|false|false|false|false|false|NN
+cs	others	c|cmu|proj|false|false|false|false|false|false|false|false|false|NNS
+proj	others	proj|c|mt|false|false|false|false|false|false|false|false|false|NN
+mt	others	mt|proj|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Who	others	who|_start_|dr.|true|false|false|false|false|false|false|false|false|WP
+Dr.	speaker	dr.|who|fred|false|false|false|false|false|true|false|false|false|NNP
+Fred	speaker	fred|dr.|jelinek|true|false|false|false|false|true|false|false|false|NNP
+Jelinek	speaker	jelinek|fred|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+Topic	others	topic|_start_|remind|true|false|false|false|false|false|false|false|false|NN
+reminder	others	remind|topic|jelinek|false|false|false|false|false|false|false|false|false|NN
+Jelinek	others	jelinek|remind|lectur|true|false|false|false|false|true|false|false|false|NNP
+lecture	others	lectur|jelinek|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Dates	others	date|_start_|3-dec-90|true|false|false|false|false|false|false|false|false|NNS
+3-Dec-90	others	3-dec-90|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|3:30|true|false|false|false|false|false|false|false|false|NNP
+3:30	stime	3:30|time|5:00|false|false|false|false|false|false|true|false|false|CD
+5:00	etime	5:00|3:30|pm|false|false|false|false|false|false|false|true|false|CD
+PM	etime	pm|5:00|_end_|false|true|false|true|false|false|false|false|false|NN
+
+Place	others	place|_start_|weh|true|false|false|false|false|false|false|false|false|NN
+WeH	location	weh|place|5403|false|false|false|false|false|false|false|false|false|NN
+5403	location	5403|weh|_end_|false|false|false|false|false|false|false|false|false|CD
+
+PostedBy	others	postedbi|_start_|alex.|false|false|false|false|true|false|false|false|false|NNP
+Alex.	others	alex.|postedbi|waibel|false|false|false|false|false|true|false|false|false|NNP
+Waibel	others	waibel|alex.|on|true|false|false|false|false|true|false|false|false|NNP
+on	others	on|waibel|2-dec-90|false|false|false|false|false|false|false|false|false|IN
+2-Dec-90	others	2-dec-90|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|2-dec-90|18:25|false|false|false|false|false|false|false|false|false|IN
+18:25	others	18:25|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|18:25|speech2|false|false|false|false|false|false|false|false|false|IN
+SPEECH2	others	speech2|from|cs.cmu.edu|false|false|false|false|false|false|false|false|false|NN
+CS.CMU.EDU	others	cs.cmu.edu|speech2|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+As	others	as|_start_|part|true|false|false|false|false|false|false|false|false|IN
+part	others	part|as|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|part|15-880a|false|false|false|false|false|false|false|false|false|IN
+15-880A	others	15-880a|of|speech|false|false|false|false|false|false|false|false|false|NN
+Speech	others	speech|15-880a|recognit|true|false|false|false|false|false|false|false|false|NN
+Recognition	others	recognit|speech|by|true|false|false|false|false|false|false|false|false|NN
+By	others	by|recognit|machin|true|false|false|false|false|false|false|false|false|IN
+Machine	others	machin|by|we|true|false|false|false|false|false|false|false|false|NN
+we	others	we|machin|be|false|false|false|false|false|false|false|false|false|PRP
+are	others	be|we|happi|false|false|false|false|false|false|false|false|false|VBP
+happy	others	happi|be|to|false|false|false|false|false|false|false|false|false|JJ
+to	others	to|happi|_end_|false|false|false|false|false|false|false|false|false|TO
+
+announce	others	announc|_start_|a|false|false|false|false|false|false|false|false|false|VB
+a	others	a|announc|guest|false|false|false|false|false|false|false|false|false|DT
+guest	others	guest|a|lectur|false|false|false|false|false|false|false|false|false|NN
+lecture	others	lectur|guest|give|false|false|false|false|false|false|false|false|false|NN
+given	others	give|lectur|by|false|false|false|false|false|false|false|false|false|VBN
+by	others	by|give|dr.|false|false|false|false|false|false|false|false|false|IN
+Dr.	speaker	dr.|by|fred|false|false|false|false|false|true|false|false|false|NNP
+Fred	speaker	fred|dr.|jelinek|true|false|false|false|false|true|false|false|false|NNP
+Jelinek	speaker	jelinek|fred|on|true|false|false|false|false|true|false|false|false|NNP
+on	others	on|jelinek|statist|false|false|false|false|false|false|false|false|false|IN
+Statistical	others	statist|on|languag|true|false|false|false|false|false|false|false|false|JJ
+Language	others	languag|statist|_end_|true|false|false|false|false|false|false|false|false|NN
+
+Models	others	model|_start_|and|true|false|false|false|false|false|false|false|false|NNS
+and	others	and|model|natur|false|false|false|false|false|false|false|false|false|CC
+Natural	others	natur|and|languag|true|false|false|false|false|false|false|false|false|JJ
+Language	others	languag|natur|process|true|false|false|false|false|false|false|false|false|NN
+Processing	others	process|languag|on|true|false|false|false|false|false|false|false|false|NN
+on	others	on|process|mondai|false|false|false|false|false|false|false|false|false|IN
+Monday	others	mondai|on|dec.|true|false|false|false|false|false|false|false|true|NNP
+Dec.	others	dec.|mondai|3|false|false|false|false|false|false|false|false|true|NNP
+3	others	3|dec.|at|false|false|false|false|false|false|false|false|true|CD
+at	others	at|3|3:30|false|false|false|false|false|false|false|false|false|IN
+3:30	stime	3:30|at|pm|false|false|false|false|false|false|false|false|false|CD
+pm	stime	pm|3:30|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Fred	speaker	fred|_start_|jelinek|true|false|false|false|false|true|false|false|false|NNP
+Jelinek	speaker	jelinek|fred|be|true|false|false|false|false|true|false|false|false|NNP
+is	others	be|jelinek|the|false|false|false|false|false|false|false|false|false|VBZ
+the	others	the|be|head|false|false|false|false|false|false|false|false|false|DT
+head	others	head|the|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|head|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|of|speech|false|false|false|false|false|false|false|false|false|DT
+speech	others	speech|the|recognit|false|false|false|false|false|false|false|false|false|NN
+recognition	others	recognit|speech|depart|false|false|false|false|false|false|false|false|false|NN
+department	others	depart|recognit|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|depart|ibm|false|false|false|false|false|false|false|false|false|IN
+IBM	others	ibm|at|_end_|false|true|false|true|false|false|false|false|false|NNP
+
+TJ	others	tj|_start_|watson|false|true|false|true|false|false|false|false|false|NNP
+Watson	others	watson|tj|research|true|false|false|false|false|false|false|false|false|NNP
+Research	others	research|watson|lab|true|false|false|false|false|false|false|false|false|NNP
+Labs	others	lab|research|and|true|false|false|false|false|false|false|false|false|NNPS
+and	others	and|lab|be|false|false|false|false|false|false|false|false|false|CC
+is	others	be|and|on|false|false|false|false|false|false|false|false|false|VBZ
+one	others	on|be|of|false|false|false|false|false|false|false|false|false|CD
+of	others	of|on|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|of|pioneer|false|false|false|false|false|false|false|false|false|DT
+pioneers	others	pioneer|the|of|false|false|false|false|false|false|false|false|false|NNS
+of	others	of|pioneer|statist|false|false|false|false|false|false|false|false|false|IN
+statistical	others	statist|of|speech|false|false|false|false|false|false|false|false|false|JJ
+speech	others	speech|statist|_end_|false|false|false|false|false|false|false|false|false|NN
+
+and	others	and|_start_|languag|false|false|false|false|false|false|false|false|false|CC
+language	others	languag|and|process|false|false|false|false|false|false|false|false|false|NN
+processing	others	process|languag|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Speaker	others	speaker|_start_|dr.|true|false|false|false|false|false|false|false|false|NNP
+Dr.	speaker	dr.|speaker|fred|false|false|false|false|false|true|false|false|false|NNP
+Fred	speaker	fred|dr.|jelinek|true|false|false|false|false|true|false|false|false|NNP
+Jelinek	speaker	jelinek|fred|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+Date	others	date|_start_|mondai|true|false|false|false|false|false|false|false|false|NN
+Monday	others	mondai|date|dec.|true|false|false|false|false|false|false|false|true|NNP
+Dec.	others	dec.|mondai|3|false|false|false|false|false|false|false|false|true|NNP
+3	others	3|dec.|_end_|false|false|false|false|false|false|false|false|true|CD
+
+Time	others	time|_start_|3:30|true|false|false|false|false|false|false|false|false|NNP
+3:30	stime	3:30|time|5:00|false|false|false|false|false|false|true|false|false|CD
+5:00	etime	5:00|3:30|pm|false|false|false|false|false|false|false|true|false|CD
+pm	etime	pm|5:00|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Place	others	place|_start_|weh|true|false|false|false|false|false|false|false|false|NN
+WeH	location	weh|place|5403|false|false|false|false|false|false|false|false|false|NN
+5403	location	5403|weh|_end_|false|false|false|false|false|false|false|false|false|CD
+

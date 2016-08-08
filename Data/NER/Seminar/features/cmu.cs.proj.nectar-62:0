@@ -1,0 +1,120 @@
+Type	others	type|_start_|cmu|true|false|false|false|false|false|false|false|false|NN
+cmu	others	cmu|type|c|false|false|false|false|false|false|false|false|false|NN
+cs	others	c|cmu|proj|false|false|false|false|false|false|false|false|false|NNS
+proj	others	proj|c|nectar|false|false|false|false|false|false|false|false|false|NN
+nectar	others	nectar|proj|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Who	others	who|_start_|dr.|true|false|false|false|false|false|false|false|false|WP
+Dr.	speaker	dr.|who|cleve|false|false|false|false|false|true|false|false|false|NNP
+Cleve	speaker	cleve|dr.|moler|true|false|false|false|false|true|false|false|false|NNP
+Moler	speaker	moler|cleve|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+The	others	the|_start_|mathwork|true|false|false|false|false|false|false|false|false|DT
+MathWorks	others	mathwork|the|_end_|false|false|false|false|false|false|false|false|false|NNPS
+
+Topic	others	topic|_start_|matlab|true|false|false|false|false|false|false|false|false|NN
+MATLAB	others	matlab|topic|_end_|false|true|false|true|false|false|false|false|false|NNP
+
+Dates	others	date|_start_|2-mar-90|true|false|false|false|false|false|false|false|false|NNS
+2-Mar-90	others	2-mar-90|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|4:00|true|false|false|false|false|false|false|false|false|NNP
+4:00	stime	4:00|time|pm|false|false|false|false|false|false|false|false|false|CD
+PM	stime	pm|4:00|_end_|false|true|false|true|false|false|false|false|false|NN
+
+Place	others	place|_start_|wean|true|false|false|false|false|false|false|false|false|NN
+Wean	location	wean|place|hall|true|false|false|false|false|false|false|false|false|VB
+Hall	location	hall|wean|5409|true|false|false|false|false|false|false|false|false|NNP
+5409	location	5409|hall|_end_|false|false|false|false|false|false|false|false|false|CD
+
+PostedBy	others	postedbi|_start_|barbara|false|false|false|false|true|false|false|false|false|NNP
+Barbara	others	barbara|postedbi|grandillo|true|false|false|false|false|true|false|false|false|NNP
+Grandillo	others	grandillo|barbara|on|true|false|false|false|false|false|false|false|false|NN
+on	others	on|grandillo|27-feb-90|false|false|false|false|false|false|false|false|false|IN
+27-Feb-90	others	27-feb-90|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|27-feb-90|15:54|false|false|false|false|false|false|false|false|false|IN
+15:54	others	15:54|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|15:54|n.sp.cs.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+N.SP.CS.CMU.EDU	others	n.sp.cs.cmu.edu|from|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+Speaker	others	speaker|_start_|dr.|true|false|false|false|false|false|false|false|false|NNP
+Dr.	speaker	dr.|speaker|cleve|false|false|false|false|false|true|false|false|false|NNP
+Cleve	speaker	cleve|dr.|moler|true|false|false|false|false|true|false|false|false|NNP
+Moler	speaker	moler|cleve|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+The	others	the|_start_|mathwork|true|false|false|false|false|false|false|false|false|DT
+MathWorks	others	mathwork|the|_end_|false|false|false|false|false|false|false|false|false|NNPS
+
+Topic	others	topic|_start_|matlab|true|false|false|false|false|false|false|false|false|NN
+MATLAB	others	matlab|topic|_end_|false|true|false|true|false|false|false|false|false|NNP
+
+Date	others	date|_start_|fridai|true|false|false|false|false|false|false|false|false|NN
+Friday	others	fridai|date|march|true|false|false|false|false|false|false|false|true|NNP
+March	others	march|fridai|2|true|false|false|false|false|false|false|false|true|NNP
+2	others	2|march|1990|false|false|false|false|false|false|false|false|true|CD
+1990	others	1990|2|_end_|false|false|false|false|false|false|false|false|true|CD
+
+Time	others	time|_start_|4:00|true|false|false|false|false|false|false|false|false|NNP
+4:00	stime	4:00|time|pm|false|false|false|false|false|false|false|false|false|CD
+pm	stime	pm|4:00|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Place	others	place|_start_|wean|true|false|false|false|false|false|false|false|false|NN
+Wean	location	wean|place|hall|true|false|false|false|false|false|false|false|false|VB
+Hall	location	hall|wean|5409|true|false|false|false|false|false|false|false|false|NNP
+5409	location	5409|hall|_end_|false|false|false|false|false|false|false|false|false|CD
+
+MATLAB	others	matlab|_start_|be|false|true|false|true|false|false|false|false|false|NN
+is	others	be|matlab|a|false|false|false|false|false|false|false|false|false|VBZ
+an	others	a|be|interact|false|false|false|false|false|false|false|false|false|DT
+interactive	others	interact|a|matrix|false|false|false|false|false|false|false|false|false|JJ
+matrix	others	matrix|interact|laboratori|false|false|false|false|false|false|false|false|false|NN
+laboratory	others	laboratori|matrix|for|false|false|false|false|false|false|false|false|false|NN
+for	others	for|laboratori|task|false|false|false|false|false|false|false|false|false|IN
+tasks	others	task|for|involv|false|false|false|false|false|false|false|false|false|NNS
+involving	others	involv|task|_end_|false|false|false|false|false|false|false|false|false|VBG
+
+matrices	others	matrix|_start_|graphic|false|false|false|false|false|false|false|false|false|NNS
+graphics	others	graphic|matrix|and|false|false|false|false|false|false|false|false|false|NNS
+and	others	and|graphic|gener|false|false|false|false|false|false|false|false|false|CC
+general	others	gener|and|numer|false|false|false|false|false|false|false|false|false|JJ
+numeric	others	numer|gener|comput|false|false|false|false|false|false|false|false|false|JJ
+computation	others	comput|numer|thi|false|false|false|false|false|false|false|false|false|NN
+This	others	thi|comput|talk|true|false|false|false|false|false|false|false|false|DT
+talk	others	talk|thi|will|false|false|false|false|false|false|false|false|false|NN
+will	others	will|talk|_end_|false|false|false|false|false|false|false|false|false|MD
+
+trace	others	trace|_start_|matlab|false|false|false|false|false|false|false|false|false|NN
+MATLAB	others	matlab|trace|'s|false|true|false|true|false|false|false|false|false|NNP
+'s	others	's|matlab|develop|false|false|false|false|false|false|false|false|false|POS
+development	others	develop|'s|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|develop|demonstr|false|false|false|false|false|false|false|false|false|CC
+demonstrate	others	demonstr|and|it|false|false|false|false|false|false|false|false|false|VBP
+its	others	it|demonstr|applic|false|false|false|false|false|false|false|false|false|PRP$
+application	others	applic|it|with|false|false|false|false|false|false|false|false|false|NN
+with	others	with|applic|_end_|false|false|false|false|false|false|false|false|false|IN
+
+examples	others	exampl|_start_|take|false|false|false|false|false|false|false|false|false|NNS
+taken	others	take|exampl|from|false|false|false|false|false|false|false|false|false|VBN
+from	others	from|take|datum|false|false|false|false|false|false|false|false|false|IN
+data	others	datum|from|analysi|false|false|false|false|false|false|false|false|false|NN
+analysis	others	analysi|datum|matrix|false|false|false|false|false|false|false|false|false|NN
+matrix	others	matrix|analysi|factor|false|false|false|false|false|false|false|false|false|NN
+factorization	others	factor|matrix|differenti|false|false|false|false|false|false|false|false|false|NN
+differential	others	differenti|factor|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+equations	others	equat|_start_|and|false|false|false|false|false|false|false|false|false|NNS
+and	others	and|equat|anim|false|false|false|false|false|false|false|false|false|CC
+animated	others	anim|and|graphic|false|false|false|false|false|false|false|false|false|JJ
+graphics	others	graphic|anim|a|false|false|false|false|false|false|false|false|false|NNS
+A	others	a|graphic|video|false|false|true|true|false|false|false|false|false|NN
+video	others	video|a|tape|false|false|false|false|false|false|false|false|false|NN
+tape	others	tape|video|show|false|false|false|false|false|false|false|false|false|NN
+shows	others	show|tape|some|false|false|false|false|false|false|false|false|false|VBZ
+some	others	some|show|advanc|false|false|false|false|false|false|false|false|false|DT
+advanced	others	advanc|some|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+visualization	others	visual|_start_|featur|false|false|false|false|false|false|false|false|false|NN
+features	others	featur|visual|_end_|false|false|false|false|false|false|false|false|false|NNS
+

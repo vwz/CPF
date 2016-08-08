@@ -1,0 +1,261 @@
+Type	others	type|_start_|cmu.andrew.org|true|false|false|false|false|false|false|false|false|NN
+cmu.andrew.org	others	cmu.andrew.org|type|win|false|false|false|false|false|false|false|false|false|NN
+win	others	win|cmu.andrew.org|_end_|false|false|false|false|false|false|false|false|false|VB
+
+Topic	others	topic|_start_|talk|true|false|false|false|false|false|false|false|false|NN
+Talk	others	talk|topic|by|true|false|false|false|false|false|false|false|false|NN
+by	others	by|talk|iri|false|false|false|false|false|false|false|false|false|IN
+Iris	speaker	iri|by|young|true|false|false|false|false|true|false|false|false|NNP
+Young	speaker	young|iri|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+Dates	others	date|_start_|27-jan-94|true|false|false|false|false|false|false|false|false|NNS
+27-Jan-94	others	27-jan-94|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|7:30|true|false|false|false|false|false|false|false|false|NNP
+7:30	stime	7:30|time|pm|false|false|false|false|false|false|false|false|false|CD
+PM	stime	pm|7:30|_end_|false|true|false|true|false|false|false|false|false|NN
+
+PostedBy	others	postedbi|_start_|kathleen|false|false|false|false|true|false|false|false|false|NNP
+Kathleen	others	kathleen|postedbi|minadeo|true|false|false|false|false|true|false|false|false|NNP
+Minadeo	others	minadeo|kathleen|johnson|true|false|false|false|false|true|false|false|false|NNP
+Johnson	others	johnson|minadeo|on|true|false|false|false|false|true|false|false|false|NNP
+on	others	on|johnson|19-jan-94|false|false|false|false|false|false|false|false|false|IN
+19-Jan-94	others	19-jan-94|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|19-jan-94|14:59|false|false|false|false|false|false|false|false|false|IN
+14:59	others	14:59|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|14:59|andrew.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+andrew.cmu.edu	others	andrew.cmu.edu|from|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+On	others	on|_start_|thursdai|true|false|false|false|false|false|false|false|false|IN
+Thursday	others	thursdai|on|januari|true|false|false|false|false|false|false|false|true|NNP
+January	others	januari|thursdai|27|true|false|false|false|false|false|false|false|true|NNP
+27	others	27|januari|the|false|false|false|false|false|false|false|false|true|CD
+the	others	the|27|univers|false|false|false|false|false|false|false|false|false|DT
+University	others	univers|the|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|univers|pittsburgh\/carnegi|false|false|false|false|false|false|false|false|false|IN
+Pittsburgh\/Carnegie	others	pittsburgh\/carnegi|of|mellon|false|false|false|false|false|false|false|false|false|NNP
+Mellon	others	mellon|pittsburgh\/carnegi|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Women	others	woman|_start_|s|true|false|false|false|false|false|false|false|false|NNS
+s	others	s|woman|speaker|false|false|false|false|false|false|false|false|false|NNS
+Speaker	others	speaker|s|seri|true|false|false|false|false|false|false|false|false|NNP
+Series	others	seri|speaker|present|true|false|false|false|false|false|false|false|false|NNP
+presents	others	present|seri|professor|false|false|false|false|false|false|false|false|false|VBZ
+Professor	speaker	professor|present|iri|true|false|false|false|false|true|false|false|false|NNP
+Iris	speaker	iri|professor|young|true|false|false|false|false|true|false|false|false|NNP
+Young	speaker	young|iri|graduat|true|false|false|false|false|true|false|false|false|NNP
+Graduate	others	graduat|young|school|true|false|false|false|false|false|false|false|false|NNP
+School	others	school|graduat|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|school|_end_|false|false|false|false|false|false|false|false|false|IN
+
+Public	others	public|_start_|and|true|false|false|false|false|false|false|false|false|NNP
+and	others	and|public|intern|false|false|false|false|false|false|false|false|false|CC
+International	others	intern|and|affair|true|false|false|false|false|false|false|false|false|NNP
+Affairs	others	affair|intern|univers|true|false|false|false|false|false|false|false|false|NNPS
+University	others	univers|affair|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|univers|pittsburgh|false|false|false|false|false|false|false|false|false|IN
+Pittsburgh	others	pittsburgh|of|critic|true|false|false|false|false|false|false|false|false|NNP
+Critical	others	critic|pittsburgh|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+Reflections	others	reflect|_start_|on|true|false|false|false|false|false|false|false|false|NNS
+on	others	on|reflect|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|on|famili|false|false|false|false|false|false|false|false|false|DT
+Family	others	famili|the|valu|true|false|false|false|false|false|false|false|false|NNP
+Values	others	valu|famili|debat|true|false|false|false|false|false|false|false|false|NNS
+Debate	others	debat|valu|will|true|false|false|false|false|false|false|false|false|NN
+will	others	will|debat|be|false|false|false|false|false|false|false|false|false|MD
+be	others	be|will|present|false|false|false|false|false|false|false|false|false|VB
+presented	others	present|be|at|false|false|false|false|false|false|false|false|false|VBN
+at	others	at|present|7:30|false|false|false|false|false|false|false|false|false|IN
+7:30	stime	7:30|at|p.|false|false|false|false|false|false|false|false|false|CD
+p.	stime	p.|7:30|m|false|false|false|false|false|false|false|false|false|NN
+m	stime	m|p.|_end_|false|false|false|false|false|false|false|false|false|NN
+
+at	others	at|_start_|forb|false|false|false|false|false|false|false|false|false|IN
+Forbes	location	forb|at|quad|true|false|false|false|false|false|false|false|false|NNP
+Quad	location	quad|forb|2m56|true|false|false|false|false|false|false|false|false|NNP
+2M56	location	2m56|quad|on|false|false|false|false|false|false|false|false|false|NNP
+on	location	on|2m56|the|false|false|false|false|false|false|false|false|false|IN
+the	location	the|on|univers|false|false|false|false|false|false|false|false|false|DT
+University	location	univers|the|of|true|false|false|false|false|false|false|false|false|NNP
+of	location	of|univers|pittsburgh|false|false|false|false|false|false|false|false|false|IN
+Pittsburgh	location	pittsburgh|of|campu|true|false|false|false|false|false|false|false|false|NNP
+campus	location	campu|pittsburgh|to|false|false|false|false|false|false|false|false|false|NN
+To	others	to|campu|reach|true|false|false|false|false|false|false|false|false|TO
+reach	others	reach|to|_end_|false|false|false|false|false|false|false|false|false|VB
+
+Forbes	others	forb|_start_|quad|true|false|false|false|false|false|false|false|false|NNP
+Quad	others	quad|forb|walk|true|false|false|false|false|false|false|false|false|NNP
+walk	others	walk|quad|down|false|false|false|false|false|false|false|false|false|VBP
+down	others	down|walk|forb|false|false|false|false|false|false|false|false|false|RB
+Forbes	others	forb|down|avenu|true|false|false|false|false|false|false|false|false|NNP
+Avenue	others	avenu|forb|past|true|false|false|false|false|false|false|false|false|NNP
+past	others	past|avenu|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|past|carnegi|false|false|false|false|false|false|false|false|false|DT
+Carnegie	others	carnegi|the|and|true|false|false|false|false|false|false|false|false|NNP
+and	others	and|carnegi|hillman|false|false|false|false|false|false|false|false|false|CC
+Hillman	others	hillman|and|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+Library	others	librari|_start_|turn|true|false|false|false|false|false|false|false|false|NNP
+Turn	others	turn|librari|leav|true|false|false|false|false|false|false|false|false|VB
+left	others	leav|turn|on|false|false|false|false|false|false|false|false|false|VBN
+on	others	on|leav|bouquet|false|false|false|false|false|false|false|false|false|IN
+Bouquet	others	bouquet|on|just|true|false|false|false|false|false|false|false|false|NNP
+Just	others	just|bouquet|befor|true|false|false|false|false|false|false|false|false|RB
+before	others	befor|just|roberto|false|false|false|false|false|false|false|false|false|IN
+Roberto	others	roberto|befor|clement|true|false|false|false|false|true|false|false|false|NNP
+Clemente	others	clement|roberto|street|true|false|false|false|false|true|false|false|false|NNP
+Street	others	street|clement|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+Forbes	others	forb|_start_|quad|true|false|false|false|false|false|false|false|false|NNP
+Quad	others	quad|forb|will|true|false|false|false|false|false|false|false|false|NNP
+will	others	will|quad|be|false|false|false|false|false|false|false|false|false|MD
+be	others	be|will|on|false|false|false|false|false|false|false|false|false|VB
+on	others	on|be|you|false|false|false|false|false|false|false|false|false|IN
+your	others	you|on|left|false|false|false|false|false|false|false|false|false|PRP$
+left	others	left|you|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+Since	others	sinc|_start_|dan|true|false|false|false|false|false|false|false|false|IN
+Dan	others	dan|sinc|quayl|true|false|false|false|false|true|false|false|false|NNP
+Quayle	others	quayl|dan|'s|true|false|false|false|false|true|false|false|false|NNP
+'s	others	's|quayl|famou|false|false|false|false|false|false|false|false|false|POS
+famous	others	famou|'s|murphi|false|false|false|false|false|false|false|false|false|JJ
+Murphy	others	murphi|famou|brown|true|false|false|false|false|true|false|false|false|NNP
+Brown	others	brown|murphi|speech|true|false|false|false|false|true|false|false|false|NNP
+speech	others	speech|brown|mani|false|false|false|false|false|false|false|false|false|NN
+many	others	mani|speech|liber|false|false|false|false|false|false|false|false|false|JJ
+liberals	others	liber|mani|have|false|false|false|false|false|false|false|false|false|NNS
+have	others	have|liber|be|false|false|false|false|false|false|false|false|false|VBP
+been	others	be|have|_end_|false|false|false|false|false|false|false|false|false|VBN
+
+jumping	others	jump|_start_|on|false|false|false|false|false|false|false|false|false|VBG
+on	others	on|jump|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|on|bandwagon|false|false|false|false|false|false|false|false|false|DT
+bandwagon	others	bandwagon|the|to|false|false|false|false|false|false|false|false|false|NN
+to	others	to|bandwagon|privileg|false|false|false|false|false|false|false|false|false|TO
+privilege	others	privileg|to|the|false|false|false|false|false|false|false|false|false|NN
+the	others	the|privileg|tradit|false|false|false|false|false|false|false|false|false|DT
+traditional	others	tradit|the|heterosexu|false|false|false|false|false|false|false|false|false|JJ
+heterosexual	others	heterosexu|tradit|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+two-parent	others	two-par|_start_|married-forev|false|false|false|false|false|false|false|false|false|JJ
+married-forever	others	married-forev|two-par|famili|false|false|false|false|false|false|false|false|false|JJ
+family	others	famili|married-forev|at|false|false|false|false|false|false|false|false|false|NN
+At	others	at|famili|the|true|false|false|false|false|false|false|false|false|IN
+the	others	the|at|same|false|false|false|false|false|false|false|false|false|DT
+same	others	same|the|time|false|false|false|false|false|false|false|false|false|JJ
+time	others	time|same|increas|false|false|false|false|false|false|false|false|false|NN
+increasing	others	increas|time|number|false|false|false|false|false|false|false|false|false|VBG
+numbers	others	number|increas|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+of	others	of|_start_|singl|false|false|false|false|false|false|false|false|false|IN
+single	others	singl|of|woman|false|false|false|false|false|false|false|false|false|JJ
+women	others	woman|singl|be|false|false|false|false|false|false|false|false|false|NNS
+are	others	be|woman|choos|false|false|false|false|false|false|false|false|false|VBP
+choosing	others	choos|be|to|false|false|false|false|false|false|false|false|false|VBG
+to	others	to|choos|have|false|false|false|false|false|false|false|false|false|TO
+have	others	have|to|child|false|false|false|false|false|false|false|false|false|VB
+children	others	child|have|increas|false|false|false|false|false|false|false|false|false|NNS
+increasing	others	increas|child|number|false|false|false|false|false|false|false|false|false|VBG
+numbers	others	number|increas|of|false|false|false|false|false|false|false|false|false|NNS
+of	others	of|number|_end_|false|false|false|false|false|false|false|false|false|IN
+
+lesbian	others	lesbian|_start_|and|false|false|false|false|false|false|false|false|false|JJ
+and	others	and|lesbian|gai|false|false|false|false|false|false|false|false|false|CC
+gay	others	gai|and|coupl|false|false|false|false|false|false|false|false|false|JJ
+couples	others	coupl|gai|be|false|false|false|false|false|false|false|false|false|NNS
+are	others	be|coupl|choos|false|false|false|false|false|false|false|false|false|VBP
+choosing	others	choos|be|to|false|false|false|false|false|false|false|false|false|VBG
+to	others	to|choos|have|false|false|false|false|false|false|false|false|false|TO
+have	others	have|to|child|false|false|false|false|false|false|false|false|false|VB
+children	others	child|have|and|false|false|false|false|false|false|false|false|false|NNS
+and	others	and|child|increas|false|false|false|false|false|false|false|false|false|CC
+increasing	others	increas|and|_end_|false|false|false|false|false|false|false|false|false|VBG
+
+numbers	others	number|_start_|of|false|false|false|false|false|false|false|false|false|NNS
+of	others	of|number|institut|false|false|false|false|false|false|false|false|false|IN
+institutions	others	institut|of|be|false|false|false|false|false|false|false|false|false|NNS
+are	others	be|institut|recogn|false|false|false|false|false|false|false|false|false|VBP
+recognizing	others	recogn|be|domest|false|false|false|false|false|false|false|false|false|VBG
+domestic	others	domest|recogn|partnership|false|false|false|false|false|false|false|false|false|JJ
+partnership	others	partnership|domest|for|false|false|false|false|false|false|false|false|false|NN
+for	others	for|partnership|peopl|false|false|false|false|false|false|false|false|false|IN
+people	others	peopl|for|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+who	others	who|_start_|can|false|false|false|false|false|false|false|false|false|WP
+can	others	can|who|not|false|false|false|false|false|false|false|false|false|MD
+not	others	not|can|legal|false|false|false|false|false|false|false|false|false|RB
+legally	others	legal|not|marri|false|false|false|false|false|false|false|false|false|RB
+marry	others	marri|legal|or|false|false|false|false|false|false|false|false|false|VB
+or	others	or|marri|who|false|false|false|false|false|false|false|false|false|CC
+who	others	who|or|do|false|false|false|false|false|false|false|false|false|WP
+do	others	do|who|not|false|false|false|false|false|false|false|false|false|VBP
+not	others	not|do|wish|false|false|false|false|false|false|false|false|false|RB
+wish	others	wish|not|to|false|false|false|false|false|false|false|false|false|VB
+to	others	to|wish|in|false|false|false|false|false|false|false|false|false|TO
+In	others	in|to|thi|true|false|false|false|false|false|false|false|false|IN
+this	others	thi|in|talk|false|false|false|false|false|false|false|false|false|DT
+talk	others	talk|thi|dr.|false|false|false|false|false|false|false|false|false|NN
+Dr.	speaker	dr.|talk|young|false|false|false|false|false|true|false|false|false|NNP
+Young	speaker	young|dr.|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+will	others	will|_start_|explor|false|false|false|false|false|false|false|false|false|MD
+explore	others	explor|will|why|false|false|false|false|false|false|false|false|false|VB
+why	others	why|explor|we|false|false|false|false|false|false|false|false|false|WRB
+we	others	we|why|should|false|false|false|false|false|false|false|false|false|PRP
+should	others	should|we|be|false|false|false|false|false|false|false|false|false|MD
+be	others	be|should|worri|false|false|false|false|false|false|false|false|false|VB
+worried	others	worri|be|about|false|false|false|false|false|false|false|false|false|VBN
+about	others	about|worri|tradit|false|false|false|false|false|false|false|false|false|IN
+traditional	others	tradit|about|famili|false|false|false|false|false|false|false|false|false|JJ
+family	others	famili|tradit|valu|false|false|false|false|false|false|false|false|false|NN
+values	others	valu|famili|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+rhetoric	others	rhetor|_start_|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|rhetor|engag|false|false|false|false|false|false|false|false|false|CC
+engage	others	engag|and|in|false|false|false|false|false|false|false|false|false|VB
+in	others	in|engag|open|false|false|false|false|false|false|false|false|false|IN
+open	others	open|in|discuss|false|false|false|false|false|false|false|false|false|JJ
+discussion	others	discuss|open|about|false|false|false|false|false|false|false|false|false|NN
+about	others	about|discuss|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|about|plural|false|false|false|false|false|false|false|false|false|DT
+plural	others	plural|the|mean|false|false|false|false|false|false|false|false|false|NN
+meanings	others	mean|plural|of|false|false|false|false|false|false|false|false|false|NNS
+of	others	of|mean|_end_|false|false|false|false|false|false|false|false|false|IN
+
+family	others	famili|_start_|for|false|false|false|false|false|false|false|false|false|NN
+for	others	for|famili|american|false|false|false|false|false|false|false|false|false|IN
+Americans	others	american|for|todai|true|false|false|false|false|false|false|false|false|NNPS
+today	others	todai|american|_end_|false|false|false|false|false|false|false|false|true|NN
+
+A	others	a|_start_|recept|false|false|true|true|false|false|false|false|false|NN
+reception	others	recept|a|will|false|false|false|false|false|false|false|false|false|NN
+will	others	will|recept|be|false|false|false|false|false|false|false|false|false|MD
+be	others	be|will|hold|false|false|false|false|false|false|false|false|false|VB
+held	others	hold|be|follow|false|false|false|false|false|false|false|false|false|VBN
+following	others	follow|hold|the|false|false|false|false|false|false|false|false|false|VBG
+the	others	the|follow|present|false|false|false|false|false|false|false|false|false|DT
+presentation	others	present|the|for|false|false|false|false|false|false|false|false|false|NN
+For	others	for|present|more|true|false|false|false|false|false|false|false|false|IN
+more	others	more|for|_end_|false|false|false|false|false|false|false|false|false|JJR
+
+information	others	inform|_start_|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|inform|to|false|false|false|false|false|false|false|false|false|CC
+to	others	to|and|rsvp|false|false|false|false|false|false|false|false|false|TO
+RSVP	others	rsvp|to|by|false|true|false|true|false|false|false|false|false|NN
+by	others	by|rsvp|januari|false|false|false|false|false|false|false|false|false|IN
+January	others	januari|by|21|true|false|false|false|false|false|false|false|true|NNP
+21	others	21|januari|pleas|false|false|false|false|false|false|false|false|true|CD
+please	others	pleas|21|contact|false|false|false|false|false|false|false|false|false|VB
+contact	others	contact|pleas|kathleen|false|false|false|false|false|false|false|false|false|NN
+Kathleen	others	kathleen|contact|minadeo|true|false|false|false|false|true|false|false|false|NNP
+Minadeo	others	minadeo|kathleen|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+Johnson	others	johnson|_start_|at|true|false|false|false|false|true|false|false|false|NNP
+at	others	at|johnson|kj26|false|false|false|false|false|false|false|false|false|IN
+kj26	others	kj26|at|or|false|false|false|false|false|false|false|false|false|CD
+or	others	or|kj26|8-7970|false|false|false|false|false|false|false|false|false|CC
+8-7970	others	8-7970|or|_end_|false|false|false|false|false|false|false|false|false|CD
+

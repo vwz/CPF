@@ -1,0 +1,68 @@
+Type	others	type|_start_|cmu|true|false|false|false|false|false|false|false|false|NN
+cmu	others	cmu|type|c|false|false|false|false|false|false|false|false|false|NN
+cs	others	c|cmu|sc|false|false|false|false|false|false|false|false|false|NNS
+scs	others	sc|c|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+Topic	others	topic|_start_|special|true|false|false|false|false|false|false|false|false|NN
+Special	others	special|topic|ai|true|false|false|false|false|false|false|false|false|JJ
+AI	others	ai|special|seminar|false|true|false|true|false|false|false|false|false|NNP
+Seminar	others	seminar|ai|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Dates	others	date|_start_|29-sep-94|true|false|false|false|false|false|false|false|false|NNS
+29-Sep-94	others	29-sep-94|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|3:00|true|false|false|false|false|false|false|false|false|NNP
+3:00	stime	3:00|time|pm|false|false|false|false|false|false|false|false|false|CD
+PM	stime	pm|3:00|_end_|false|true|false|true|false|false|false|false|false|NN
+
+PostedBy	others	postedbi|_start_|vald|false|false|false|false|true|false|false|false|false|NNP
+valdes	others	vald|postedbi|on|false|false|false|false|false|false|false|false|false|NNS
+on	others	on|vald|28-sep-94|false|false|false|false|false|false|false|false|false|IN
+28-Sep-94	others	28-sep-94|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|28-sep-94|13:22|false|false|false|false|false|false|false|false|false|IN
+13:22	others	13:22|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|13:22|cs.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+CS.CMU.EDU	others	cs.cmu.edu|from|-lrb-|false|false|false|false|false|false|false|false|false|NNP
+-LRB-	others	-lrb-|cs.cmu.edu|raul|false|false|false|false|false|false|false|false|false|-LRB-
+Raul	others	raul|-lrb-|valdes-perez|true|false|false|false|false|false|false|false|false|NNP
+Valdes-Perez	others	valdes-perez|raul|-rrb-|false|false|false|false|false|false|false|false|false|NNP
+-RRB-	others	-rrb-|valdes-perez|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+Ken	speaker	ken|_start_|forbu|true|false|false|false|false|true|false|false|false|NNP
+Forbus	speaker	forbu|ken|of|true|false|false|false|false|true|false|false|false|NNP
+of	others	of|forbu|northwestern|false|false|false|false|false|false|false|false|false|IN
+Northwestern	others	northwestern|of|univers|true|false|false|false|false|false|false|false|false|NNP
+University	others	univers|northwestern|will|true|false|false|false|false|false|false|false|false|NNP
+will	others	will|univers|give|false|false|false|false|false|false|false|false|false|MD
+give	others	give|will|a|false|false|false|false|false|false|false|false|false|VB
+a	others	a|give|seminar|false|false|false|false|false|false|false|false|false|DT
+seminar	others	seminar|a|on|false|false|false|false|false|false|false|false|false|NN
+on	others	on|seminar|_end_|false|false|false|false|false|false|false|false|false|IN
+
+Articulate	others	articul|_start_|virtual|true|false|false|false|false|false|false|false|false|NNP
+Virtual	others	virtual|articul|laboratori|true|false|false|false|false|false|false|false|false|NNP
+Laboratories	others	laboratori|virtual|for|true|false|false|false|false|false|false|false|false|NNPS
+for	others	for|laboratori|engin|false|false|false|false|false|false|false|false|false|IN
+Engineering	others	engin|for|educ|true|false|false|false|false|false|false|false|false|NNP
+Education	others	educ|engin|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+tomorrow	others	tomorrow|_start_|-lrb-|false|false|false|false|false|false|false|false|true|NN
+-LRB-	others	-lrb-|tomorrow|thursdai|false|false|false|false|false|false|false|false|false|-LRB-
+Thursday	others	thursdai|-lrb-|-rrb-|true|false|false|false|false|false|false|false|true|NNP
+-RRB-	others	-rrb-|thursdai|at|false|false|false|false|false|false|false|false|false|-RRB-
+at	others	at|-rrb-|3pm|false|false|false|false|false|false|false|false|false|IN
+3pm	stime	3pm|at|in|false|false|false|false|false|false|false|false|false|CD
+in	others	in|3pm|wean|false|false|false|false|false|false|false|false|false|IN
+Wean	location	wean|in|4625|true|false|false|false|false|false|false|false|false|JJ
+4625	location	4625|wean|the|false|false|false|false|false|false|false|false|false|CD
+The	others	the|4625|abstract|true|false|false|false|false|false|false|false|false|DT
+abstract	others	abstract|the|will|false|false|false|false|false|false|false|false|false|JJ
+will	others	will|abstract|be|false|false|false|false|false|false|false|false|false|MD
+be	others	be|will|_end_|false|false|false|false|false|false|false|false|false|VB
+
+posted	others	post|_start_|when|false|false|false|false|false|false|false|false|false|VBN
+when	others	when|post|avail|false|false|false|false|false|false|false|false|false|WRB
+available	others	avail|when|_end_|false|false|false|false|false|false|false|false|false|JJ
+

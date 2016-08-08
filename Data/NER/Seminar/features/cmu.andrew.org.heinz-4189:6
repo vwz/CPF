@@ -1,0 +1,104 @@
+Type	others	type|_start_|cmu.andrew.org|true|false|false|false|false|false|false|false|false|NN
+cmu.andrew.org	others	cmu.andrew.org|type|heinz|false|false|false|false|false|false|false|false|false|NN
+heinz	others	heinz|cmu.andrew.org|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Topic	others	topic|_start_|final|true|false|false|false|false|false|false|false|false|NN
+Final	others	final|topic|present|true|false|false|false|false|false|false|false|false|JJ
+Presentations	others	present|final|on|true|false|false|false|false|false|false|false|false|NNS
+on	others	on|present|system|false|false|false|false|false|false|false|false|false|IN
+Systems	others	system|on|synthesi|true|false|false|false|false|false|false|false|false|NNP
+Synthesis	others	synthesi|system|project|true|false|false|false|false|false|false|false|false|NN
+Projects	others	project|synthesi|_end_|true|false|false|false|false|false|false|false|false|NNS
+
+Dates	others	date|_start_|5-may-93|true|false|false|false|false|false|false|false|false|NNS
+5-May-93	others	5-may-93|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|3:30|true|false|false|false|false|false|false|false|false|NNP
+3:30	stime	3:30|time|5:00|false|false|false|false|false|false|true|false|false|CD
+5:00	etime	5:00|3:30|pm|false|false|false|false|false|false|false|true|false|CD
+PM	etime	pm|5:00|_end_|false|true|false|true|false|false|false|false|false|NN
+
+PostedBy	others	postedbi|_start_|nanci|false|false|false|false|true|false|false|false|false|NNP
+Nancy	others	nanci|postedbi|dewalt|true|false|false|false|false|true|false|false|false|NNP
+Dewalt	others	dewalt|nanci|on|true|false|false|false|false|true|false|false|false|NNP
+on	others	on|dewalt|21-apr-93|false|false|false|false|false|false|false|false|false|IN
+21-Apr-93	others	21-apr-93|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|21-apr-93|09:32|false|false|false|false|false|false|false|false|false|IN
+09:32	others	09:32|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|09:32|andrew.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+andrew.cmu.edu	others	andrew.cmu.edu|from|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+Final	others	final|_start_|present|true|false|false|false|false|false|false|false|false|JJ
+Presentations	others	present|final|on|true|false|false|false|false|false|false|false|false|NNS
+on	others	on|present|system|false|false|false|false|false|false|false|false|false|IN
+Systems	others	system|on|synthesi|true|false|false|false|false|false|false|false|false|NNP
+Synthesis	others	synthesi|system|project|true|false|false|false|false|false|false|false|false|NN
+Projects	others	project|synthesi|_end_|true|false|false|false|false|false|false|false|false|NNS
+
+
+The	others	the|_start_|schedul|true|false|false|false|false|false|false|false|false|DT
+schedule	others	schedul|the|for|false|false|false|false|false|false|false|false|false|NN
+for	others	for|schedul|final|false|false|false|false|false|false|false|false|false|IN
+final	others	final|for|present|false|false|false|false|false|false|false|false|false|JJ
+presentations	others	present|final|of|false|false|false|false|false|false|false|false|false|NNS
+of	others	of|present|1992-93|false|false|false|false|false|false|false|false|false|IN
+1992-93	others	1992-93|of|system|false|false|false|false|false|false|false|false|false|CD
+Systems	others	system|1992-93|synthesi|true|false|false|false|false|false|false|false|false|NNPS
+Synthesis	others	synthesi|system|_end_|true|false|false|false|false|false|false|false|false|NN
+
+projects	others	project|_start_|be|false|false|false|false|false|false|false|false|false|NNS
+is	others	be|project|list|false|false|false|false|false|false|false|false|false|VBZ
+listed	others	list|be|below|false|false|false|false|false|false|false|false|false|VBN
+below	others	below|list|the|false|false|false|false|false|false|false|false|false|IN
+The	others	the|below|project|true|false|false|false|false|false|false|false|false|DT
+projects	others	project|the|be|false|false|false|false|false|false|false|false|false|NNS
+are	others	be|project|time|false|false|false|false|false|false|false|false|false|VBP
+timely	others	time|be|and|false|false|false|false|false|false|false|false|false|JJ
+and	others	and|time|should|false|false|false|false|false|false|false|false|false|CC
+should	others	should|and|_end_|false|false|false|false|false|false|false|false|false|MD
+
+generate	others	gener|_start_|consider|false|false|false|false|false|false|false|false|false|VB
+considerable	others	consider|gener|interest|false|false|false|false|false|false|false|false|false|JJ
+interest	others	interest|consider|feel|false|false|false|false|false|false|false|false|false|NN
+Feel	others	feel|interest|free|true|false|false|false|false|false|false|false|false|NNP
+free	others	free|feel|to|false|false|false|false|false|false|false|false|false|JJ
+to	others	to|free|attend|false|false|false|false|false|false|false|false|false|TO
+attend	others	attend|to|ani|false|false|false|false|false|false|false|false|false|VB
+any	others	ani|attend|or|false|false|false|false|false|false|false|false|false|DT
+or	others	or|ani|all|false|false|false|false|false|false|false|false|false|CC
+all	others	all|or|_end_|false|false|false|false|false|false|false|false|false|DT
+
+presentations	others	present|_start_|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+Food	others	food|_start_|pattern|true|false|false|false|false|false|false|false|false|NNP
+Patterns	others	pattern|food|in|true|false|false|false|false|false|false|false|false|NN
+in	others	in|pattern|allegheni|false|false|false|false|false|false|false|false|false|IN
+Allegheny	others	allegheni|in|counti|true|false|false|false|false|false|false|false|false|NNP
+County	others	counti|allegheni|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Technology	others	technolog|_start_|transfer|true|false|false|false|false|false|false|false|false|NNP
+Transfer	others	transfer|technolog|organ|true|false|false|false|false|false|false|false|false|NN
+Organizations	others	organ|transfer|and|true|false|false|false|false|false|false|false|false|NNP
+and	others	and|organ|econom|false|false|false|false|false|false|false|false|false|CC
+Economic	others	econom|and|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Development	others	develop|_start_|under|true|false|false|false|false|false|false|false|false|NNP
+under	others	under|develop|_end_|false|false|false|false|false|false|false|false|false|IN
+
+the	others	the|_start_|direct|false|false|false|false|false|false|false|false|false|DT
+direction	others	direct|the|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|direct|maryellen|false|false|false|false|false|false|false|false|false|IN
+Maryellen	others	maryellen|of|kellei|true|false|false|false|false|true|false|false|false|NNP
+Kelley	others	kellei|maryellen|and|true|false|false|false|false|true|false|false|false|NNP
+and	others	and|kellei|ashish|false|false|false|false|false|false|false|false|false|CC
+Ashish	others	ashish|and|arora|true|false|false|false|false|true|false|false|false|NNP
+Arora	others	arora|ashish|be|true|false|false|false|false|true|false|false|false|NNP
+was	others	be|arora|present|false|false|false|false|false|false|false|false|false|VBD
+presented	others	present|be|_end_|false|false|false|false|false|false|false|false|false|VBN
+
+on	others	on|_start_|april|false|false|false|false|false|false|false|false|false|IN
+April	others	april|on|16|true|false|false|false|false|false|false|false|true|NNP
+16	others	16|april|_end_|false|false|false|false|false|false|false|false|true|CD
+

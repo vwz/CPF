@@ -1,0 +1,55 @@
+Type	others	type|_start_|cmu.andrew.org|true|false|false|false|false|false|false|false|false|NN
+cmu.andrew.org	others	cmu.andrew.org|type|heinz|false|false|false|false|false|false|false|false|false|NN
+heinz	others	heinz|cmu.andrew.org|phd|false|false|false|false|false|false|false|false|false|NN
+phd	others	phd|heinz|_end_|false|false|false|false|false|true|false|false|false|NN
+
+Topic	others	topic|_start_|ph.d.|true|false|false|false|false|false|false|false|false|NN
+Ph.D.	others	ph.d.|topic|present|false|false|false|false|false|true|false|false|false|NNP
+Presentations	others	present|ph.d.|_end_|true|false|false|false|false|false|false|false|false|NNPS
+
+Dates	others	date|_start_|16-may-95|true|false|false|false|false|false|false|false|false|NNS
+16-May-95	others	16-may-95|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|12:30|true|false|false|false|false|false|false|false|false|NNP
+12:30	stime	12:30|time|2:00|false|false|false|false|false|false|true|false|false|CD
+2:00	etime	2:00|12:30|pm|false|false|false|false|false|false|false|true|false|CD
+PM	etime	pm|2:00|_end_|false|true|false|true|false|false|false|false|false|NN
+
+PostedBy	others	postedbi|_start_|carol|false|false|false|false|true|false|false|false|false|NNP
+Carole	others	carol|postedbi|mccoi|true|false|false|false|false|true|false|false|false|NNP
+McCoy	others	mccoi|carol|on|false|false|false|false|false|true|false|false|false|NNP
+on	others	on|mccoi|12-may-95|false|false|false|false|false|false|false|false|false|IN
+12-May-95	others	12-may-95|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|12-may-95|14:17|false|false|false|false|false|false|false|false|false|IN
+14:17	others	14:17|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|14:17|andrew.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+andrew.cmu.edu	others	andrew.cmu.edu|from|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+Tuesday	others	tuesdai|_start_|mai|true|false|false|false|false|false|false|false|true|NNP
+May	others	mai|tuesdai|16|true|false|false|false|false|false|false|false|true|NNP
+16	others	16|mai|cindi|false|false|false|false|false|false|false|false|true|CD
+Cindy	speaker	cindi|16|bryce|true|false|false|false|false|true|false|false|false|NNP
+Bryce	speaker	bryce|cindi|thesi|true|false|false|false|false|true|false|false|false|NNP
+Thesis	others	thesi|bryce|propos|true|false|false|false|false|false|false|false|false|NNP
+Proposal	others	propos|thesi|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+12:30	stime	12:30|_start_|2:00|false|false|false|false|false|false|true|false|false|CD
+2:00	etime	2:00|12:30|p.m.|false|false|false|false|false|false|false|true|false|CD
+p.m.	etime	p.m.|2:00|altern|false|false|false|false|false|false|false|false|false|NN
+Alternative	others	altern|p.m.|approach|true|false|false|false|false|false|false|false|false|JJ
+Approaches	others	approach|altern|to|true|false|false|false|false|false|false|false|false|NNS
+to	others	to|approach|estim|false|false|false|false|false|false|false|false|false|TO
+Estimating	others	estim|to|the|true|false|false|false|false|false|false|false|false|VBG
+the	others	the|estim|effici|false|false|false|false|false|false|false|false|false|DT
+Efficiency	others	effici|the|of|true|false|false|false|false|false|false|false|false|NN
+of	others	of|effici|_end_|false|false|false|false|false|false|false|false|false|IN
+
+Room	location	room|_start_|1004|true|false|false|false|false|false|false|false|false|NN
+1004	location	1004|room|hbh|false|false|false|false|false|false|false|false|true|CD
+HbH	location	hbh|1004|health|false|false|false|false|false|false|false|false|false|NN
+Health	others	health|hbh|mainten|true|false|false|false|false|false|false|false|false|NNP
+Maintenance	others	mainten|health|organ|true|false|false|false|false|false|false|false|false|NNP
+Organizations	others	organ|mainten|_end_|true|false|false|false|false|false|false|false|false|NNP
+

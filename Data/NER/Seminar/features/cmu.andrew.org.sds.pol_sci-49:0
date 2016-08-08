@@ -1,0 +1,76 @@
+Type	others	type|_start_|cmu.andrew.org|true|false|false|false|false|false|false|false|false|NN
+cmu.andrew.org	others	cmu.andrew.org|type|sd|false|false|false|false|false|false|false|false|false|NN
+sds	others	sd|cmu.andrew.org|pol_sci|false|false|false|false|false|false|false|false|false|NNS
+pol_sci	others	pol_sci|sd|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+Topic	others	topic|_start_|pubwash|true|false|false|false|false|false|false|false|false|NN
+Pubwash	others	pubwash|topic|lectur|true|false|false|false|false|false|false|false|false|NNP
+Lecture	others	lectur|pubwash|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Dates	others	date|_start_|3-dec-92|true|false|false|false|false|false|false|false|false|NNS
+3-Dec-92	others	3-dec-92|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|4:30|true|false|false|false|false|false|false|false|false|NNP
+4:30	stime	4:30|time|pm|false|false|false|false|false|false|false|false|false|CD
+PM	stime	pm|4:30|_end_|false|true|false|true|false|false|false|false|false|NN
+
+PostedBy	others	postedbi|_start_|marjori|false|false|false|false|true|false|false|false|false|NNP
+Marjorie	others	marjori|postedbi|melenyz|true|false|false|false|false|true|false|false|false|NNP
+Melenyzer	others	melenyz|marjori|on|true|false|false|false|false|true|false|false|false|NNP
+on	others	on|melenyz|25-nov-92|false|false|false|false|false|false|false|false|false|IN
+25-Nov-92	others	25-nov-92|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|25-nov-92|09:45|false|false|false|false|false|false|false|false|false|IN
+09:45	others	09:45|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|09:45|andrew.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+andrew.cmu.edu	others	andrew.cmu.edu|from|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+Student	others	student|_start_|pugwash|true|false|false|false|false|false|false|false|false|NN
+Pugwash	others	pugwash|student|will|true|false|false|false|false|false|false|false|false|NNP
+will	others	will|pugwash|present|false|false|false|false|false|false|false|false|false|MD
+present	others	present|will|a|false|false|false|false|false|false|false|false|false|VB
+a	others	a|present|lectur|false|false|false|false|false|false|false|false|false|DT
+lecture	others	lectur|a|by|false|false|false|false|false|false|false|false|false|NN
+by	others	by|lectur|prof.|false|false|false|false|false|false|false|false|false|IN
+Prof.	speaker	prof.|by|richard|false|false|false|false|false|true|false|false|false|NNP
+Richard	speaker	richard|prof.|dai|true|false|false|false|false|true|false|false|false|NNP
+Day	speaker	dai|richard|of|true|false|false|false|false|true|false|false|false|NNP
+of	others	of|dai|grad|false|false|false|false|false|false|false|false|false|IN
+Grad	others	grad|of|_end_|true|false|false|false|false|false|false|false|false|NN
+
+School	others	school|_start_|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|school|public|false|false|false|false|false|false|false|false|false|IN
+Public	others	public|of|health|true|false|false|false|false|false|false|false|false|NNP
+Health	others	health|public|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|health|pitt|false|false|false|false|false|false|false|false|false|IN
+Pitt	others	pitt|of|on|true|false|false|false|false|false|false|false|false|NNP
+on	others	on|pitt|the|false|false|false|false|false|false|false|false|false|IN
+The	others	the|on|preval|true|false|false|false|false|false|false|false|false|DT
+Prevalence	others	preval|the|of|true|false|false|false|false|false|false|false|false|NN
+of	others	of|preval|len|false|false|false|false|false|false|false|false|false|IN
+Lens	others	len|of|chang|true|false|false|false|false|false|false|false|false|NNP
+Changes	others	chang|len|in|true|false|false|false|false|false|false|false|false|NNS
+in	others	in|chang|_end_|false|false|false|false|false|false|false|false|false|IN
+
+Children	others	children|_start_|expos|true|false|false|false|false|false|false|false|false|NNP
+Exposed	others	expos|children|to|true|false|false|false|false|false|false|false|false|NNP
+to	others	to|expos|radiat|false|false|false|false|false|false|false|false|false|TO
+Radiation	others	radiat|to|from|true|false|false|false|false|false|false|false|false|NNP
+from	others	from|radiat|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|from|chernobyl|false|false|false|false|false|false|false|false|false|DT
+Chernobyl	others	chernobyl|the|accid|true|false|false|false|false|false|false|false|false|NNP
+Accident	others	accid|chernobyl|on|true|false|false|false|false|false|false|false|false|NNP
+on	others	on|accid|thursdai|false|false|false|false|false|false|false|false|false|IN
+Thursday	others	thursdai|on|_end_|true|false|false|false|false|false|false|false|true|NNP
+
+Dec.	others	dec.|_start_|3|false|false|false|false|false|false|false|false|true|NNP
+3	others	3|dec.|at|false|false|false|false|false|false|false|false|true|CD
+at	others	at|3|4:30|false|false|false|false|false|false|false|false|false|IN
+4:30	stime	4:30|at|pm|false|false|false|false|false|false|false|false|false|CD
+pm	stime	pm|4:30|in|false|false|false|false|false|false|false|false|false|NN
+in	others	in|pm|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|in|adamson|false|false|false|false|false|false|false|false|false|DT
+Adamson	location	adamson|the|wing|true|false|false|false|false|true|false|false|false|NNP
+Wing	location	wing|adamson|_end_|true|false|false|false|false|false|false|false|false|NN
+

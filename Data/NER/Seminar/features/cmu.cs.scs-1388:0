@@ -1,0 +1,152 @@
+Type	others	type|_start_|cmu|true|false|false|false|false|false|false|false|false|NN
+cmu	others	cmu|type|c|false|false|false|false|false|false|false|false|false|NN
+cs	others	c|cmu|sc|false|false|false|false|false|false|false|false|false|NNS
+scs	others	sc|c|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+Topic	others	topic|_start_|distinguish|true|false|false|false|false|false|false|false|false|NN
+Distinguished	others	distinguish|topic|lectur|true|false|false|false|false|false|false|false|false|VBN
+Lecture	others	lectur|distinguish|decemb|true|false|false|false|false|false|false|false|false|NN
+December	others	decemb|lectur|2|true|false|false|false|false|false|false|false|true|NNP
+2	others	2|decemb|_end_|false|false|false|false|false|false|false|false|true|CD
+
+Dates	others	date|_start_|2-dec-92|true|false|false|false|false|false|false|false|false|NNS
+2-Dec-92	others	2-dec-92|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|3:30|true|false|false|false|false|false|false|false|false|NNP
+3:30	stime	3:30|time|pm|false|false|false|false|false|false|false|false|false|CD
+PM	stime	pm|3:30|_end_|false|true|false|true|false|false|false|false|false|NN
+
+PostedBy	others	postedbi|_start_|stanku|false|false|false|false|true|false|false|false|false|NNP
+stankus	others	stanku|postedbi|on|false|false|false|false|false|false|false|false|false|NN
+on	others	on|stanku|24-nov-92|false|false|false|false|false|false|false|false|false|IN
+24-Nov-92	others	24-nov-92|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|24-nov-92|09:15|false|false|false|false|false|false|false|false|false|IN
+09:15	others	09:15|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|09:15|stankus.adm.cs.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+STANKUS.ADM.CS.CMU.EDU	others	stankus.adm.cs.cmu.edu|from|-lrb-|false|false|false|false|false|false|false|false|false|NN
+-LRB-	others	-lrb-|stankus.adm.cs.cmu.edu|terri|false|false|false|false|false|false|false|false|false|-LRB-
+Terri	others	terri|-lrb-|stanku|true|false|false|false|false|true|false|false|false|NNP
+Stankus	others	stanku|terri|-rrb-|true|false|false|false|false|true|false|false|false|NNP
+-RRB-	others	-rrb-|stanku|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+University	others	univers|_start_|professor|true|false|false|false|false|false|false|false|false|NNP
+Professor	others	professor|univers|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+Psychology	others	psycholog|_start_|and|true|false|false|false|false|false|false|false|false|NN
+and	others	and|psycholog|comput|false|false|false|false|false|false|false|false|false|CC
+Computer	others	comput|and|scienc|true|false|false|false|false|false|false|false|false|NN
+Science	others	scienc|comput|_end_|true|false|false|false|false|false|false|false|false|NN
+
+Carnegie	others	carnegi|_start_|mellon|true|false|false|false|false|false|false|false|false|NNP
+Mellon	others	mellon|carnegi|univers|true|false|false|false|false|false|false|false|false|NNP
+University	others	univers|mellon|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Wednesday	others	wednesdai|_start_|decemb|true|false|false|false|false|false|false|false|true|NNP
+December	others	decemb|wednesdai|2|true|false|false|false|false|false|false|false|true|NNP
+2	others	2|decemb|1992|false|false|false|false|false|false|false|false|true|CD
+1992	others	1992|2|_end_|false|false|false|false|false|false|false|false|true|CD
+
+WHAT	others	what|_start_|be|false|true|false|true|false|false|false|false|false|WDT
+IS	others	be|what|reason|false|true|false|true|false|false|false|false|false|VBZ
+REASONING	others	reason|be|_end_|false|true|false|true|false|false|false|false|false|NN
+
+HEURISTIC	others	heurist|_start_|search|false|true|false|true|false|false|false|false|false|NN
+SEARCH	others	search|heurist|revisit|false|true|false|true|false|false|false|false|false|NN
+REVISITED	others	revisit|search|_end_|false|true|false|true|false|false|false|false|false|VBN
+
+In	others	in|_start_|the|true|false|false|false|false|false|false|false|false|IN
+the	others	the|in|histori|false|false|false|false|false|false|false|false|false|DT
+history	others	histori|the|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|histori|research|false|false|false|false|false|false|false|false|false|IN
+research	others	research|of|on|false|false|false|false|false|false|false|false|false|NN
+on	others	on|research|think|false|false|false|false|false|false|false|false|false|IN
+thinking	others	think|on|two|false|false|false|false|false|false|false|false|false|VBG
+two	others	two|think|-lrb-|false|false|false|false|false|false|false|false|false|CD
+-LRB-	others	-lrb-|two|or|false|false|false|false|false|false|false|false|false|-LRB-
+or	others	or|-lrb-|more|false|false|false|false|false|false|false|false|false|CC
+more	others	more|or|-rrb-|false|false|false|false|false|false|false|false|false|JJR
+-RRB-	others	-rrb-|more|distinct|false|false|false|false|false|false|false|false|false|-RRB-
+distinct	others	distinct|-rrb-|tradit|false|false|false|false|false|false|false|false|false|JJ
+traditions	others	tradit|distinct|have|false|false|false|false|false|false|false|false|false|NNS
+have	others	have|tradit|_end_|false|false|false|false|false|false|false|false|false|VBP
+
+persisted	others	persist|_start_|on|false|false|false|false|false|false|false|false|false|VBD
+One	others	on|persist|tradit|true|false|false|false|false|false|false|false|false|CD
+tradition	others	tradit|on|deriv|false|false|false|false|false|false|false|false|false|NN
+deriving	others	deriv|tradit|from|false|false|false|false|false|false|false|false|false|VBG
+from	others	from|deriv|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|from|studi|false|false|false|false|false|false|false|false|false|DT
+study	others	studi|the|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|studi|languag|false|false|false|false|false|false|false|false|false|IN
+language	others	languag|of|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|languag|logic|false|false|false|false|false|false|false|false|false|CC
+logic	others	logic|and|view|false|false|false|false|false|false|false|false|false|NN
+views	others	view|logic|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+thinking	others	think|_start_|as|false|false|false|false|false|false|false|false|false|VBG
+as	others	as|think|a|false|false|false|false|false|false|false|false|false|IN
+a	others	a|as|form|false|false|false|false|false|false|false|false|false|DT
+form	others	form|a|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|form|logic|false|false|false|false|false|false|false|false|false|IN
+logical	others	logic|of|and|false|false|false|false|false|false|false|false|false|JJ
+and	others	and|logic|verbal|false|false|false|false|false|false|false|false|false|CC
+verbal	others	verbal|and|reason|false|false|false|false|false|false|false|false|false|JJ
+reasoning	others	reason|verbal|the|false|false|false|false|false|false|false|false|false|NN
+The	others	the|reason|other|true|false|false|false|false|false|false|false|false|DT
+other	others	other|the|deriv|false|false|false|false|false|false|false|false|false|JJ
+deriving	others	deriv|other|from|false|false|false|false|false|false|false|false|false|VBG
+from	others	from|deriv|_end_|false|false|false|false|false|false|false|false|false|IN
+
+the	others	the|_start_|studi|false|false|false|false|false|false|false|false|false|DT
+study	others	studi|the|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|studi|human|false|false|false|false|false|false|false|false|false|IN
+human	others	human|of|problem|false|false|false|false|false|false|false|false|false|JJ
+problem	others	problem|human|solv|false|false|false|false|false|false|false|false|false|NN
+solving	others	solv|problem|view|false|false|false|false|false|false|false|false|false|VBG
+views	others	view|solv|think|false|false|false|false|false|false|false|false|false|NNS
+thinking	others	think|view|as|false|false|false|false|false|false|false|false|false|VBG
+as	others	as|think|a|false|false|false|false|false|false|false|false|false|IN
+a	others	a|as|process|false|false|false|false|false|false|false|false|false|DT
+process	others	process|a|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|process|heurist|false|false|false|false|false|false|false|false|false|IN
+heuristic	others	heurist|of|_end_|false|false|false|false|false|false|false|false|false|NN
+
+search	others	search|_start_|through|false|false|false|false|false|false|false|false|false|NN
+through	others	through|search|a|false|false|false|false|false|false|false|false|false|IN
+a	others	a|through|mental|false|false|false|false|false|false|false|false|false|DT
+mental	others	mental|a|represent|false|false|false|false|false|false|false|false|false|JJ
+representation	others	represent|mental|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|represent|a|false|false|false|false|false|false|false|false|false|IN
+a	others	a|of|problem|false|false|false|false|false|false|false|false|false|DT
+problem	others	problem|a|situat|false|false|false|false|false|false|false|false|false|NN
+situation	others	situat|problem|the|false|false|false|false|false|false|false|false|false|NN
+The	others	the|situat|talk|true|false|false|false|false|false|false|false|false|DT
+talk	others	talk|the|will|false|false|false|false|false|false|false|false|false|NN
+will	others	will|talk|_end_|false|false|false|false|false|false|false|false|false|MD
+
+use	others	us|_start_|recent|false|false|false|false|false|false|false|false|false|NN
+recent	others	recent|us|find|false|false|false|false|false|false|false|false|false|JJ
+findings	others	find|recent|from|false|false|false|false|false|false|false|false|false|NNS
+from	others	from|find|research|false|false|false|false|false|false|false|false|false|IN
+research	others	research|from|on|false|false|false|false|false|false|false|false|false|NN
+on	others	on|research|human|false|false|false|false|false|false|false|false|false|IN
+human	others	human|on|think|false|false|false|false|false|false|false|false|false|JJ
+thinking	others	think|human|to|false|false|false|false|false|false|false|false|false|VBG
+to	others	to|think|review|false|false|false|false|false|false|false|false|false|TO
+review	others	review|to|the|false|false|false|false|false|false|false|false|false|VB
+the	others	the|review|present|false|false|false|false|false|false|false|false|false|DT
+present	others	present|the|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+status	others	statu|_start_|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|statu|futur|false|false|false|false|false|false|false|false|false|CC
+future	others	futur|and|prospect|false|false|false|false|false|false|false|false|false|JJ
+prospects	others	prospect|futur|within|false|false|false|false|false|false|false|false|false|NNS
+within	others	within|prospect|a.i.|false|false|false|false|false|false|false|false|false|IN
+A.I.	others	a.i.|within|of|false|false|false|false|false|false|false|false|false|NNP
+of	others	of|a.i.|these|false|false|false|false|false|false|false|false|false|IN
+these	others	these|of|two|false|false|false|false|false|false|false|false|false|DT
+two	others	two|these|paradigm|false|false|false|false|false|false|false|false|false|CD
+paradigms	others	paradigm|two|_end_|false|false|false|false|false|false|false|false|false|NNS
+

@@ -1,0 +1,55 @@
+Type	others	type|_start_|cmu|true|false|false|false|false|false|false|false|false|NN
+cmu	others	cmu|type|c|false|false|false|false|false|false|false|false|false|NN
+cs	others	c|cmu|proj|false|false|false|false|false|false|false|false|false|NNS
+proj	others	proj|c|cimd|false|false|false|false|false|false|false|false|false|NN
+cimds	others	cimd|proj|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+Topic	others	topic|_start_|yet|true|false|false|false|false|false|false|false|false|NN
+yet	others	yet|topic|anoth|false|false|false|false|false|false|false|false|false|RB
+another	others	anoth|yet|isl|false|false|false|false|false|false|false|false|false|DT
+ISL	others	isl|anoth|seminar|false|true|false|true|false|false|false|false|false|NNP
+Seminar	others	seminar|isl|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Dates	others	date|_start_|1-jul-82|true|false|false|false|false|false|false|false|false|NNS
+1-Jul-82	others	1-jul-82|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|3:30|true|false|false|false|false|false|false|false|false|NNP
+3:30	stime	3:30|time|pm|false|false|false|false|false|false|false|false|false|CD
+PM	stime	pm|3:30|_end_|false|true|false|true|false|false|false|false|false|NN
+
+PostedBy	others	postedbi|_start_|on|false|false|false|false|true|false|false|false|false|NNP
+on	others	on|postedbi|30-jun-82|false|false|false|false|false|false|false|false|false|IN
+30-Jun-82	others	30-jun-82|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|30-jun-82|17:18|false|false|false|false|false|false|false|false|false|IN
+17:18	others	17:18|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|17:18|_end_|false|false|false|false|false|false|false|false|false|IN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+There	others	there|_start_|be|true|false|false|false|false|false|false|false|false|EX
+is	others	be|there|anoth|false|false|false|false|false|false|false|false|false|VBZ
+another	others	anoth|be|import|false|false|false|false|false|false|false|false|false|DT
+important	others	import|anoth|isl|false|false|false|false|false|false|false|false|false|JJ
+ISL	others	isl|import|seminar|false|true|false|true|false|false|false|false|false|NNP
+Seminar	others	seminar|isl|tomorrow|true|false|false|false|false|false|false|false|false|NNP
+tomorrow	others	tomorrow|seminar|-lrb-|false|false|false|false|false|false|false|false|true|NN
+-LRB-	others	-lrb-|tomorrow|thur.|false|false|false|false|false|false|false|false|false|-LRB-
+Thurs.	others	thur.|-lrb-|-rrb-|false|false|false|false|false|false|false|false|false|NN
+-RRB-	others	-rrb-|thur.|on|false|false|false|false|false|false|false|false|false|-RRB-
+on	others	on|-rrb-|ops5|false|false|false|false|false|false|false|false|false|IN
+OPS5	others	ops5|on|-lrb-|false|false|false|false|false|false|false|false|false|NN
+-LRB-	others	-lrb-|ops5|frederk|false|false|false|false|false|false|false|false|false|-LRB-
+Frederking	others	frederk|-lrb-|-rrb-|true|false|false|false|false|false|false|false|false|NN
+-RRB-	others	-rrb-|frederk|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+at	others	at|_start_|3:30|false|false|false|false|false|false|false|false|false|IN
+3:30	stime	3:30|at|p.|false|false|false|false|false|false|false|false|false|CD
+P.	stime	p.|3:30|m|false|false|false|false|false|false|false|false|false|NNP
+M	stime	m|p.|in|false|false|true|true|false|false|false|false|false|NN
+in	others	in|m|or|false|false|false|false|false|false|false|false|false|IN
+or	others	or|in|near|false|false|false|false|false|false|false|false|false|CC
+near	others	near|or|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|near|isl|false|false|false|false|false|false|false|false|false|DT
+ISL	location	isl|the|lab|false|true|false|true|false|false|false|false|false|NNP
+Lab	location	lab|isl|_end_|true|false|false|false|false|false|false|false|false|NN
+

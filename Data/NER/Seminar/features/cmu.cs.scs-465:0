@@ -1,0 +1,81 @@
+Type	others	type|_start_|cmu|true|false|false|false|false|false|false|false|false|NN
+cmu	others	cmu|type|c|false|false|false|false|false|false|false|false|false|NN
+cs	others	c|cmu|sc|false|false|false|false|false|false|false|false|false|NNS
+scs	others	sc|c|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+Topic	others	topic|_start_|algorithm|true|false|false|false|false|false|false|false|false|NN
+Algorithms	others	algorithm|topic|for|true|false|false|false|false|false|false|false|false|NNS
+for	others	for|algorithm|squar|false|false|false|false|false|false|false|false|false|IN
+Square	others	squar|for|root|true|false|false|false|false|false|false|false|false|NN
+Roots	others	root|squar|of|true|false|false|false|false|false|false|false|false|NNS
+of	others	of|root|graph|false|false|false|false|false|false|false|false|false|IN
+Graphs	others	graph|of|_end_|true|false|false|false|false|false|false|false|false|NNS
+
+Dates	others	date|_start_|14-jan-92|true|false|false|false|false|false|false|false|false|NNS
+14-Jan-92	others	14-jan-92|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|1:30|true|false|false|false|false|false|false|false|false|NNP
+1:30	stime	1:30|time|pm|false|false|false|false|false|false|false|false|false|CD
+PM	stime	pm|1:30|_end_|false|true|false|true|false|false|false|false|false|NN
+
+Place	others	place|_start_|wean|true|false|false|false|false|false|false|false|false|NN
+Wean	location	wean|place|hall|true|false|false|false|false|false|false|false|false|VB
+Hall	location	hall|wean|4634|true|false|false|false|false|false|false|false|false|NNP
+4634	location	4634|hall|_end_|false|false|false|false|false|false|false|false|false|CD
+
+PostedBy	others	postedbi|_start_|lydium|false|false|false|false|true|false|false|false|false|NNP
+lydia	others	lydium|postedbi|on|false|false|false|false|false|false|false|false|false|NN
+on	others	on|lydium|14-jan-92|false|false|false|false|false|false|false|false|false|IN
+14-Jan-92	others	14-jan-92|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|14-jan-92|08:24|false|false|false|false|false|false|false|false|false|IN
+08:24	others	08:24|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|08:24|proof.ergo.cs.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+PROOF.ERGO.CS.CMU.EDU	others	proof.ergo.cs.cmu.edu|from|-lrb-|false|false|false|false|false|false|false|false|false|NN
+-LRB-	others	-lrb-|proof.ergo.cs.cmu.edu|lydia|false|false|false|false|false|false|false|false|false|-LRB-
+Lydia	others	lydia|-lrb-|defilippo|true|false|false|false|false|true|false|false|false|NNP
+Defilippo	others	defilippo|lydia|-rrb-|true|false|false|false|false|true|false|false|false|NNP
+-RRB-	others	-rrb-|defilippo|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+REMINDER	others	remind|_start_|_end_|false|true|false|true|false|false|false|false|false|NN
+
+Speaker	others	speaker|_start_|steven|true|false|false|false|false|false|false|false|false|NNP
+Steven	speaker	steven|speaker|skiena|true|false|false|false|false|true|false|false|false|NNP
+Skiena	speaker	skiena|steven|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+Department	others	depart|_start_|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|depart|comput|false|false|false|false|false|false|false|false|false|IN
+Computer	others	comput|of|scienc|true|false|false|false|false|false|false|false|false|NNP
+Science	others	scienc|comput|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+State	others	state|_start_|univers|true|false|false|false|false|false|false|false|false|NNP
+University	others	univers|state|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|univers|new|false|false|false|false|false|false|false|false|false|IN
+New	others	new|of|york|true|false|false|false|false|false|false|false|false|NNP
+York	others	york|new|stoni|true|false|false|false|false|false|false|false|false|NNP
+Stony	others	stoni|york|brook|true|false|false|false|false|false|false|false|false|NNP
+Brook	others	brook|stoni|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Date	others	date|_start_|tuesdai|true|false|false|false|false|false|false|false|false|NN
+Tuesday	others	tuesdai|date|januari|true|false|false|false|false|false|false|false|true|NNP
+January	others	januari|tuesdai|14|true|false|false|false|false|false|false|false|true|NNP
+14	others	14|januari|_end_|false|false|false|false|false|false|false|false|true|CD
+
+Time	others	time|_start_|1:30|true|false|false|false|false|false|false|false|false|NNP
+1:30	stime	1:30|time|pm|false|false|false|false|false|false|false|false|false|CD
+pm	stime	pm|1:30|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Place	others	place|_start_|wean|true|false|false|false|false|false|false|false|false|NN
+Wean	location	wean|place|hall|true|false|false|false|false|false|false|false|false|VB
+Hall	location	hall|wean|4634|true|false|false|false|false|false|false|false|false|NNP
+4634	location	4634|hall|_end_|false|false|false|false|false|false|false|false|false|CD
+
+Topic	others	topic|_start_|algorithm|true|false|false|false|false|false|false|false|false|NN
+Algorithms	others	algorithm|topic|for|true|false|false|false|false|false|false|false|false|NNS
+for	others	for|algorithm|squar|false|false|false|false|false|false|false|false|false|IN
+Square	others	squar|for|root|true|false|false|false|false|false|false|false|false|NN
+Roots	others	root|squar|of|true|false|false|false|false|false|false|false|false|NNS
+of	others	of|root|graph|false|false|false|false|false|false|false|false|false|IN
+Graphs	others	graph|of|_end_|true|false|false|false|false|false|false|false|false|NNS
+

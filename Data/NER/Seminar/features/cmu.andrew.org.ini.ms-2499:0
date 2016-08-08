@@ -1,0 +1,160 @@
+Type	others	type|_start_|cmu.andrew.org|true|false|false|false|false|false|false|false|false|NN
+cmu.andrew.org	others	cmu.andrew.org|type|inu|false|false|false|false|false|false|false|false|false|NN
+ini	others	inu|cmu.andrew.org|m|false|false|false|false|false|false|false|false|false|NNS
+ms	others	m|inu|_end_|false|false|false|false|false|true|false|false|false|NNS
+
+Topic	others	topic|_start_|schedul|true|false|false|false|false|false|false|false|false|NN
+schedule	others	schedul|topic|for|false|false|false|false|false|false|false|false|false|NN
+for	others	for|schedul|present|false|false|false|false|false|false|false|false|false|IN
+presentations	others	present|for|on|false|false|false|false|false|false|false|false|false|NNS
+on	others	on|present|elect|false|false|false|false|false|false|false|false|false|IN
+electives	others	elect|on|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+Dates	others	date|_start_|12-apr-95|true|false|false|false|false|false|false|false|false|NNS
+12-Apr-95	others	12-apr-95|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|10:30|true|false|false|false|false|false|false|false|false|NNP
+10:30	stime	10:30|time|am|false|false|false|false|false|false|false|false|false|CD
+AM	stime	am|10:30|1:30|false|true|false|true|false|false|true|false|false|NNP
+1:30	etime	1:30|am|pm|false|false|false|false|false|false|false|true|false|CD
+PM	etime	pm|1:30|_end_|false|true|false|true|false|false|false|false|false|NN
+
+PostedBy	others	postedbi|_start_|joyc|false|false|false|false|true|false|false|false|false|NNP
+Joyce	others	joyc|postedbi|maszl|true|false|false|false|false|true|false|false|false|NNP
+Maszle	others	maszl|joyc|on|true|false|false|false|false|true|false|false|false|NNP
+on	others	on|maszl|10-apr-95|false|false|false|false|false|false|false|false|false|IN
+10-Apr-95	others	10-apr-95|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|10-apr-95|15:35|false|false|false|false|false|false|false|false|false|IN
+15:35	others	15:35|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|15:35|andrew.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+andrew.cmu.edu	others	andrew.cmu.edu|from|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+Annual	others	annual|_start_|present|true|false|false|false|false|false|false|false|false|JJ
+presentations	others	present|annual|by|false|false|false|false|false|false|false|false|false|NNS
+by	others	by|present|faculti|false|false|false|false|false|false|false|false|false|IN
+faculty	others	faculti|by|on|false|false|false|false|false|false|false|false|false|NN
+on	others	on|faculti|msia|false|false|false|false|false|false|false|false|false|IN
+MSIA	others	msia|on|elect|false|true|false|true|false|false|false|false|false|NNP
+electives	others	elect|msia|for|false|false|false|false|false|false|false|false|false|NNS
+for	others	for|elect|ay|false|false|false|false|false|false|false|false|false|IN
+AY	others	ay|for|95-96|false|true|false|true|false|false|false|false|false|NN
+95-96	others	95-96|ay|be|false|false|false|false|false|false|false|false|false|CD
+is	others	be|95-96|_end_|false|false|false|false|false|false|false|false|false|VBZ
+
+scheduled	others	schedul|_start_|for|false|false|false|false|false|false|false|false|false|VBN
+for	others	for|schedul|wednesdai|false|false|false|false|false|false|false|false|false|IN
+Wednesday	others	wednesdai|for|april|true|false|false|false|false|false|false|false|true|NNP
+April	others	april|wednesdai|12|true|false|false|false|false|false|false|false|true|NNP
+12	others	12|april|in|false|false|false|false|false|false|false|false|true|CD
+in	others	in|12|room|false|false|false|false|false|false|false|false|false|IN
+room	location	room|in|152|false|false|false|false|false|false|false|false|false|NN
+152	location	152|room|10:30|false|false|false|false|false|false|false|false|false|CD
+10:30	stime	10:30|152|be|false|false|false|false|false|false|false|false|false|CD
+am	stime	be|10:30|1:30|false|false|false|false|false|false|true|false|false|VBP
+1:30	etime	1:30|be|pm|false|false|false|false|false|false|false|true|false|CD
+pm	etime	pm|1:30|_end_|false|false|false|false|false|false|false|false|false|NN
+
+10:30	others	10:30|_start_|account|false|false|false|false|false|false|false|false|false|CD
+Accounting	others	account|10:30|y.|true|false|false|false|false|false|false|false|false|NN
+Y.	others	y.|account|ijiri|false|false|false|false|false|true|false|false|false|NNP
+Ijiri	others	ijiri|y.|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+10:45	others	10:45|_start_|econom|false|false|false|false|false|false|false|false|false|CD
+Economics	others	econom|10:45|and|true|false|false|false|false|false|false|false|false|NNP
+and	others	and|econom|statist|false|false|false|false|false|false|false|false|false|CC
+Statistics	others	statist|and|f.|true|false|false|false|false|false|false|false|false|NNP
+F.	others	f.|statist|sowel|false|false|false|false|false|false|false|false|false|NNP
+Sowell	others	sowel|f.|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+10:55	others	10:55|_start_|financ|false|false|false|false|false|false|false|false|false|CD
+Finance	others	financ|10:55|r.|true|false|false|false|false|false|false|false|false|NNP
+R.	others	r.|financ|dammon|false|false|false|false|false|true|false|false|false|NNP
+Dammon	others	dammon|r.|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+11:10	others	11:10|_start_|foreign|false|false|false|false|false|false|false|false|false|CD
+Foreign	others	foreign|11:10|languag|true|false|false|false|false|false|false|false|false|JJ
+Languages	others	languag|foreign|modern|true|false|false|false|false|false|false|false|false|NNP
+Modern	others	modern|languag|languag|true|false|false|false|false|false|false|false|false|NNP
+Language	others	languag|modern|faculti|true|false|false|false|false|false|false|false|false|NNP
+Faculty	others	faculti|languag|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+11:20	others	11:20|_start_|organiz|false|false|false|false|false|false|false|false|false|CD
+Organizational	others	organiz|11:20|behavior|true|false|false|false|false|false|false|false|false|JJ
+Behavior	others	behavior|organiz|l.|true|false|false|false|false|false|false|false|false|NNP
+L.	others	l.|behavior|weingart|false|false|false|false|false|false|false|false|false|NNP
+Weingart	others	weingart|l.|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+11:35	others	11:35|_start_|inform|false|false|false|false|false|false|false|false|false|CD
+Information	others	inform|11:35|system|true|false|false|false|false|false|false|false|false|NNP
+Systems	others	system|inform|j.|true|false|false|false|false|false|false|false|false|NNP
+J.	others	j.|system|lerch|false|false|false|false|false|false|false|false|false|NNP
+Lerch	others	lerch|j.|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+11:50	others	11:50|_start_|intern|false|false|false|false|false|false|false|false|false|CD
+International	others	intern|11:50|manag|true|false|false|false|false|false|false|false|false|NNP
+Management	others	manag|intern|b.|true|false|false|false|false|false|false|false|false|NNP
+B.	others	b.|manag|mckern|false|false|false|false|false|false|false|false|false|NNP
+McKern	others	mckern|b.|_end_|false|false|false|false|false|false|false|false|false|NNP
+
+12:00	others	12:00|_start_|market|false|false|false|false|false|false|false|false|false|CD
+Marketing	others	market|12:00|k.|true|false|false|false|false|false|false|false|false|NNP
+K.	others	k.|market|srinivasan|false|false|false|false|false|true|false|false|false|NNP
+Srinivasan	others	srinivasan|k.|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+12:15	others	12:15|_start_|oper|false|false|false|false|false|false|false|false|false|CD
+Operations	others	oper|12:15|research|true|false|false|false|false|false|false|false|false|NNP
+Research	others	research|oper|m.|true|false|false|false|false|false|false|false|false|NNP
+M.	others	m.|research|trick|false|false|false|false|false|false|false|false|false|NNP
+Trick	others	trick|m.|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+12:30	others	12:30|_start_|product|false|false|false|false|false|false|false|false|false|CD
+Production	others	product|12:30|s.|true|false|false|false|false|false|false|false|false|NN
+S.	others	s.|product|tayur|false|false|false|false|false|false|false|false|false|NNP
+Tayur	others	tayur|s.|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+12:45	others	12:45|_start_|strategi|false|false|false|false|false|false|false|false|false|CD
+Strategy	others	strategi|12:45|j.|true|false|false|false|false|false|false|false|false|NNP
+J.	others	j.|strategi|william|false|false|false|false|false|false|false|false|false|NNP
+Williams	others	william|j.|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+12:55	others	12:55|_start_|busi|false|false|false|false|false|false|false|false|false|NNP
+Business	others	busi|12:55|commun|true|false|false|false|false|false|false|false|false|NNP
+Communications	others	commun|busi|m.|true|false|false|false|false|false|false|false|false|NNPS
+M.	others	m.|commun|myer|false|false|false|false|false|false|false|false|false|NNP
+Myers	others	myer|m.|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+1:05	others	1:05|_start_|entrepreneurship|false|false|false|false|false|false|false|false|false|CD
+Entrepreneurship	others	entrepreneurship|1:05|j.|true|false|false|false|false|false|false|false|false|NNP
+J.	others	j.|entrepreneurship|thorn|false|false|false|false|false|false|false|false|false|NNP
+Thorne	others	thorn|j.|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+1:20	others	1:20|_start_|gener|false|false|false|false|false|false|false|false|false|CD
+General	others	gener|1:20|management\/oth|true|false|false|false|false|false|false|false|false|NNP
+Management\/Others	others	management\/oth|gener|i.|false|false|false|false|false|false|false|false|false|NNP
+I.	others	i.|management\/oth|baybar|false|false|false|false|false|true|false|false|false|NNP
+Baybars	others	baybar|i.|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+Copies	others	copi|_start_|of|true|false|false|false|false|false|false|false|false|NNS
+of	others	of|copi|what|false|false|false|false|false|false|false|false|false|IN
+what	others	what|of|elect|false|false|false|false|false|false|false|false|false|WP
+electives	others	elect|what|will|false|false|false|false|false|false|false|false|false|NNS
+will	others	will|elect|be|false|false|false|false|false|false|false|false|false|MD
+be	others	be|will|offer|false|false|false|false|false|false|false|false|false|VB
+offered	others	offer|be|in|false|false|false|false|false|false|false|false|false|VBN
+in	others	in|offer|each|false|false|false|false|false|false|false|false|false|IN
+each	others	each|in|area|false|false|false|false|false|false|false|false|false|DT
+area	others	area|each|for|false|false|false|false|false|false|false|false|false|NN
+for	others	for|area|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|for|ay|false|false|false|false|false|false|false|false|false|DT
+AY	others	ay|the|95-96|false|true|false|true|false|false|false|false|false|NN
+95-96	others	95-96|ay|_end_|false|false|false|false|false|false|false|false|true|CD
+
+will	others	will|_start_|be|false|false|false|false|false|false|false|false|false|MD
+be	others	be|will|avail|false|false|false|false|false|false|false|false|false|VB
+available	others	avail|be|outsid|false|false|false|false|false|false|false|false|false|JJ
+outside	others	outsid|avail|room|false|false|false|false|false|false|false|false|false|JJ
+room	others	room|outsid|128|false|false|false|false|false|false|false|false|false|NN
+128	others	128|room|_end_|false|false|false|false|false|false|false|false|false|CD
+

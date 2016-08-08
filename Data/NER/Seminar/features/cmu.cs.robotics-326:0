@@ -1,0 +1,209 @@
+Type	others	type|_start_|cmu|true|false|false|false|false|false|false|false|false|NN
+cmu	others	cmu|type|c|false|false|false|false|false|false|false|false|false|NN
+cs	others	c|cmu|robot|false|false|false|false|false|false|false|false|false|NNS
+robotics	others	robot|c|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+Topic	others	topic|_start_|vision|true|false|false|false|false|false|false|false|false|NN
+VISION	others	vision|topic|seminar|false|true|false|true|false|false|false|false|false|NN
+Seminar	others	seminar|vision|todai|true|false|false|false|false|false|false|false|false|NN
+TODAY	others	todai|seminar|_end_|false|true|false|true|false|false|false|false|true|NN
+
+Dates	others	date|_start_|15-nov-91|true|false|false|false|false|false|false|false|false|NNS
+15-Nov-91	others	15-nov-91|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|2:00|true|false|false|false|false|false|false|false|false|NNP
+2:00	stime	2:00|time|pm|false|false|false|false|false|false|false|false|false|CD
+PM	stime	pm|2:00|3:00|false|true|false|true|false|false|true|false|false|NN
+3:00	etime	3:00|pm|pm|false|false|false|false|false|false|false|true|false|CD
+PM	etime	pm|3:00|_end_|false|true|false|true|false|false|false|false|false|NN
+
+Host	others	host|_start_|dave|true|false|false|false|false|false|false|false|false|NN
+Dave	others	dave|host|mckeown|true|false|false|false|false|true|false|false|false|NNP
+McKeown	others	mckeown|dave|dmm@cs.cmu.edu|false|false|false|false|false|true|false|false|false|NNP
+dmm@cs.cmu.edu	others	dmm@cs.cmu.edu|mckeown|_end_|false|false|false|false|false|false|false|false|false|NN
+
+PostedBy	others	postedbi|_start_|dmm|false|false|false|false|true|false|false|false|false|NNP
+dmm	others	dmm|postedbi|on|false|false|false|false|false|false|false|false|false|NN
+on	others	on|dmm|15-nov-91|false|false|false|false|false|false|false|false|false|IN
+15-Nov-91	others	15-nov-91|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|15-nov-91|09:50|false|false|false|false|false|false|false|false|false|IN
+09:50	others	09:50|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|09:50|maps.cs.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+MAPS.CS.CMU.EDU	others	maps.cs.cmu.edu|from|-lrb-|false|false|false|false|false|false|false|false|false|NN
+-LRB-	others	-lrb-|maps.cs.cmu.edu|dave|false|false|false|false|false|false|false|false|false|-LRB-
+Dave	others	dave|-lrb-|mckeown|true|false|false|false|false|true|false|false|false|NNP
+McKeown	others	mckeown|dave|-rrb-|false|false|false|false|false|true|false|false|false|NNP
+-RRB-	others	-rrb-|mckeown|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+SPECIAL	others	special|_start_|comput|false|true|false|true|false|false|false|false|false|JJ
+COMPUTER	others	comput|special|vision|false|true|false|true|false|false|false|false|false|NN
+VISION	others	vision|comput|seminar|false|true|false|true|false|false|false|false|false|NN
+SEMINAR	others	seminar|vision|not|false|true|false|true|false|false|false|false|false|NN
+NOT	others	not|seminar|so|false|true|false|true|false|false|false|false|false|RB
+SO	others	so|not|friendli|false|true|false|true|false|false|false|false|false|RB
+FRIENDLY	others	friendli|so|remind|false|true|false|true|false|false|false|false|false|JJ
+REMINDER	others	remind|friendli|-rrb-|false|true|false|true|false|false|false|false|false|NN
+-RRB-	others	-rrb-|remind|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+Friday	others	fridai|_start_|novemb|true|false|false|false|false|false|false|false|true|NNP
+November	others	novemb|fridai|15|true|false|false|false|false|false|false|false|true|NNP
+15	others	15|novemb|1991|false|false|false|false|false|false|false|false|true|CD
+1991	others	1991|15|todai|false|false|false|false|false|false|false|false|true|CD
+TODAY	others	todai|1991|_end_|false|true|false|true|false|false|false|false|true|NN
+
+Symbiosis	others	symbiosi|_start_|between|true|false|false|false|false|false|false|false|false|NN
+between	others	between|symbiosi|photogrammetri|false|false|false|false|false|false|false|false|false|IN
+photogrammetry	others	photogrammetri|between|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|photogrammetri|imag|false|false|false|false|false|false|false|false|false|CC
+image	others	imag|and|understand|false|false|false|false|false|false|false|false|false|NN
+understanding	others	understand|imag|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Fairchild	others	fairchild|_start_|weston|true|false|false|false|false|false|false|false|false|NNP
+Weston	others	weston|fairchild|system|true|false|false|false|false|false|false|false|false|NNP
+Systems	others	system|weston|_end_|true|false|false|false|false|false|false|false|false|NNPS
+
+Photogrammetry	others	photogrammetri|_start_|and|true|false|false|false|false|false|false|false|false|NN
+and	others	and|photogrammetri|imag|false|false|false|false|false|false|false|false|false|CC
+image	others	imag|and|understand|false|false|false|false|false|false|false|false|false|NN
+understanding	others	understand|imag|be|false|false|false|false|false|false|false|false|false|NN
+are	others	be|understand|complementari|false|false|false|false|false|false|false|false|false|VBP
+complementary	others	complementari|be|field|false|false|false|false|false|false|false|false|false|JJ
+fields	others	field|complementari|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+image	others	imag|_start_|understand|false|false|false|false|false|false|false|false|false|NN
+understanding	others	understand|imag|be|false|false|false|false|false|false|false|false|false|NN
+is	others	be|understand|concern|false|false|false|false|false|false|false|false|false|VBZ
+concerned	others	concern|be|with|false|false|false|false|false|false|false|false|false|VBN
+with	others	with|concern|what|false|false|false|false|false|false|false|false|false|IN
+what	others	what|with|while|false|false|false|false|false|false|false|false|false|WP
+while	others	while|what|photogrammetri|false|false|false|false|false|false|false|false|false|IN
+photogrammetry	others	photogrammetri|while|be|false|false|false|false|false|false|false|false|false|NN
+is	others	be|photogrammetri|_end_|false|false|false|false|false|false|false|false|false|VBZ
+
+concerned	others	concern|_start_|with|false|false|false|false|false|false|false|false|false|VBN
+with	others	with|concern|where|false|false|false|false|false|false|false|false|false|IN
+where	others	where|with|while|false|false|false|false|false|false|false|false|false|WRB
+While	others	while|where|there|true|false|false|false|false|false|false|false|false|IN
+there	others	there|while|have|false|false|false|false|false|false|false|false|false|EX
+has	others	have|there|be|false|false|false|false|false|false|false|false|false|VBZ
+been	others	be|have|some|false|false|false|false|false|false|false|false|false|VBN
+some	others	some|be|product|false|false|false|false|false|false|false|false|false|DT
+productive	others	product|some|cross|false|false|false|false|false|false|false|false|false|JJ
+cross	others	cross|product|_end_|false|false|false|false|false|false|false|false|false|NN
+
+fertilization	others	fertil|_start_|there|false|false|false|false|false|false|false|false|false|NN
+there	others	there|fertil|be|false|false|false|false|false|false|false|false|false|EX
+are	others	be|there|mani|false|false|false|false|false|false|false|false|false|VBP
+many	others	mani|be|further|false|false|false|false|false|false|false|false|false|JJ
+further	others	further|mani|possibl|false|false|false|false|false|false|false|false|false|JJ
+possibilities	others	possibl|further|for|false|false|false|false|false|false|false|false|false|NNS
+for	others	for|possibl|us|false|false|false|false|false|false|false|false|false|IN
+useful	others	us|for|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+interactions	others	interact|_start_|thi|false|false|false|false|false|false|false|false|false|NNS
+This	others	thi|interact|talk|true|false|false|false|false|false|false|false|false|DT
+talk	others	talk|thi|will|false|false|false|false|false|false|false|false|false|NN
+will	others	will|talk|outlin|false|false|false|false|false|false|false|false|false|MD
+outline	others	outlin|will|some|false|false|false|false|false|false|false|false|false|VB
+some	others	some|outlin|area|false|false|false|false|false|false|false|false|false|DT
+areas	others	area|some|of|false|false|false|false|false|false|false|false|false|NNS
+of	others	of|area|imag|false|false|false|false|false|false|false|false|false|IN
+image	others	imag|of|understand|false|false|false|false|false|false|false|false|false|NN
+understanding	others	understand|imag|_end_|false|false|false|false|false|false|false|false|false|NN
+
+where	others	where|_start_|photogrammetr|false|false|false|false|false|false|false|false|false|WRB
+photogrammetric	others	photogrammetr|where|techniqu|false|false|false|false|false|false|false|false|false|JJ
+techniques	others	techniqu|photogrammetr|could|false|false|false|false|false|false|false|false|false|NNS
+could	others	could|techniqu|be|false|false|false|false|false|false|false|false|false|MD
+be	others	be|could|us|false|false|false|false|false|false|false|false|false|VB
+useful	others	us|be|such|false|false|false|false|false|false|false|false|false|JJ
+such	others	such|us|as|false|false|false|false|false|false|false|false|false|JJ
+as	others	as|such|multipl|false|false|false|false|false|false|false|false|false|IN
+multiple	others	multipl|as|imag|false|false|false|false|false|false|false|false|false|JJ
+image	others	imag|multipl|_end_|false|false|false|false|false|false|false|false|false|NN
+
+solutions	others	solut|_start_|and|false|false|false|false|false|false|false|false|false|NNS
+and	others	and|solut|stochast|false|false|false|false|false|false|false|false|false|CC
+stochastic	others	stochast|and|model|false|false|false|false|false|false|false|false|false|JJ
+modeling	others	model|stochast|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|model|similarli|false|false|false|false|false|false|false|false|false|CC
+similarly	others	similarli|and|some|false|false|false|false|false|false|false|false|false|RB
+some	others	some|similarli|topic|false|false|false|false|false|false|false|false|false|DT
+topics	others	topic|some|in|false|false|false|false|false|false|false|false|false|NNS
+in	others	in|topic|_end_|false|false|false|false|false|false|false|false|false|IN
+
+photogrammetry	others	photogrammetri|_start_|where|false|false|false|false|false|false|false|false|false|NN
+where	others	where|photogrammetri|imag|false|false|false|false|false|false|false|false|false|WRB
+image	others	imag|where|understand|false|false|false|false|false|false|false|false|false|NN
+understanding	others	understand|imag|concept|false|false|false|false|false|false|false|false|false|NN
+concepts	others	concept|understand|could|false|false|false|false|false|false|false|false|false|NNS
+could	others	could|concept|be|false|false|false|false|false|false|false|false|false|MD
+be	others	be|could|appli|false|false|false|false|false|false|false|false|false|VB
+applied	others	appli|be|the|false|false|false|false|false|false|false|false|false|VBN
+The	others	the|appli|_end_|true|false|false|false|false|false|false|false|false|DT
+
+eventual	others	eventu|_start_|goal|false|false|false|false|false|false|false|false|false|JJ
+goal	others	goal|eventu|should|false|false|false|false|false|false|false|false|false|NN
+should	others	should|goal|be|false|false|false|false|false|false|false|false|false|MD
+be	others	be|should|the|false|false|false|false|false|false|false|false|false|VB
+the	others	the|be|tighter|false|false|false|false|false|false|false|false|false|DT
+tighter	others	tighter|the|integr|false|false|false|false|false|false|false|false|false|JJR
+integration	others	integr|tighter|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|integr|both|false|false|false|false|false|false|false|false|false|IN
+both	others	both|of|field|false|false|false|false|false|false|false|false|false|CC
+fields	others	field|both|look|false|false|false|false|false|false|false|false|false|NNS
+looking	others	look|field|_end_|false|false|false|false|false|false|false|false|false|VBG
+
+beyond	others	beyond|_start_|autom|false|false|false|false|false|false|false|false|false|IN
+automating	others	autom|beyond|individu|false|false|false|false|false|false|false|false|false|VBG
+individual	others	individu|autom|oper|false|false|false|false|false|false|false|false|false|JJ
+operator	others	oper|individu|'s|false|false|false|false|false|false|false|false|false|NN
+'s	others	's|oper|task|false|false|false|false|false|false|false|false|false|POS
+tasks	others	task|'s|and|false|false|false|false|false|false|false|false|false|NNS
+and	others	and|task|emul|false|false|false|false|false|false|false|false|false|CC
+emulating	others	emul|and|paper|false|false|false|false|false|false|false|false|false|VBG
+paper	others	paper|emul|map|false|false|false|false|false|false|false|false|false|NN
+maps	others	map|paper|to|false|false|false|false|false|false|false|false|false|NNS
+to	others	to|map|_end_|false|false|false|false|false|false|false|false|false|TO
+
+new	others	new|_start_|wai|false|false|false|false|false|false|false|false|false|JJ
+ways	others	wai|new|of|false|false|false|false|false|false|false|false|false|NNS
+of	others	of|wai|obtain|false|false|false|false|false|false|false|false|false|IN
+obtaining	others	obtain|of|process|false|false|false|false|false|false|false|false|false|VBG
+processing	others	process|obtain|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|process|exploit|false|false|false|false|false|false|false|false|false|CC
+exploiting	others	exploit|and|imag|false|false|false|false|false|false|false|false|false|VBG
+image	others	imag|exploit|inform|false|false|false|false|false|false|false|false|false|NN
+information	others	inform|imag|as|false|false|false|false|false|false|false|false|false|NN
+As	others	as|inform|_end_|true|false|false|false|false|false|false|false|false|IN
+
+an	others	a|_start_|exampl|false|false|false|false|false|false|false|false|false|DT
+example	others	exampl|a|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|exampl|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|of|integr|false|false|false|false|false|false|false|false|false|DT
+integration	others	integr|the|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|integr|imag|false|false|false|false|false|false|false|false|false|IN
+image	others	imag|of|understand|false|false|false|false|false|false|false|false|false|NN
+understanding	others	understand|imag|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|understand|photogrammetri|false|false|false|false|false|false|false|false|false|CC
+photogrammetry	others	photogrammetri|and|_end_|false|false|false|false|false|false|false|false|false|NN
+
+the	others	the|_start_|us|false|false|false|false|false|false|false|false|false|DT
+use	others	us|the|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|us|snake|false|false|false|false|false|false|false|false|false|IN
+snakes	others	snake|of|for|false|false|false|false|false|false|false|false|false|NNS
+for	others	for|snake|autom|false|false|false|false|false|false|false|false|false|IN
+automated	others	autom|for|image-map|false|false|false|false|false|false|false|false|false|VBN
+image-map	others	image-map|autom|registr|false|false|false|false|false|false|false|false|false|JJ
+registration	others	registr|image-map|will|false|false|false|false|false|false|false|false|false|NN
+will	others	will|registr|be|false|false|false|false|false|false|false|false|false|MD
+be	others	be|will|discuss|false|false|false|false|false|false|false|false|false|VB
+discussed	others	discuss|be|_end_|false|false|false|false|false|false|false|false|false|VBN
+
+Host	others	host|_start_|dave|true|false|false|false|false|false|false|false|false|NN
+Dave	others	dave|host|mckeown|true|false|false|false|false|true|false|false|false|NNP
+McKeown	others	mckeown|dave|dmm@cs.cmu.edu|false|false|false|false|false|true|false|false|false|NNP
+dmm@cs.cmu.edu	others	dmm@cs.cmu.edu|mckeown|_end_|false|false|false|false|false|false|false|false|false|NN
+

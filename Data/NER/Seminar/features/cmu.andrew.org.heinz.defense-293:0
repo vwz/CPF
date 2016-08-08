@@ -1,0 +1,91 @@
+Type	others	type|_start_|cmu.andrew.org|true|false|false|false|false|false|false|false|false|NN
+cmu.andrew.org	others	cmu.andrew.org|type|heinz|false|false|false|false|false|false|false|false|false|NN
+heinz	others	heinz|cmu.andrew.org|defens|false|false|false|false|false|false|false|false|false|NN
+defense	others	defens|heinz|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Topic	others	topic|_start_|mock|true|false|false|false|false|false|false|false|false|NN
+Mock	others	mock|topic|present|true|false|false|false|false|false|false|false|false|NNP
+Presentation	others	present|mock|_end_|true|false|false|false|false|false|false|false|false|NN
+
+Dates	others	date|_start_|13-apr-94|true|false|false|false|false|false|false|false|false|NNS
+13-Apr-94	others	13-apr-94|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|3:30|true|false|false|false|false|false|false|false|false|NNP
+3:30	stime	3:30|time|_end_|false|false|false|false|false|false|false|false|false|CD
+
+PostedBy	others	postedbi|_start_|ami|false|false|false|false|true|false|false|false|false|NNP
+Amy	others	ami|postedbi|m|true|false|false|false|false|true|false|false|false|NNP
+M	others	m|ami|almeida|false|false|true|true|false|true|false|false|false|NNP
+Almeida	others	almeida|m|on|true|false|false|false|false|true|false|false|false|NNP
+on	others	on|almeida|7-apr-94|false|false|false|false|false|false|false|false|false|IN
+7-Apr-94	others	7-apr-94|on|at|false|false|false|false|false|false|false|false|false|NNP
+at	others	at|7-apr-94|12:10|false|false|false|false|false|false|false|false|false|IN
+12:10	others	12:10|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|12:10|andrew.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+andrew.cmu.edu	others	andrew.cmu.edu|from|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+Maryellen	others	maryellen|_start_|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+We	others	we|_start_|have|true|false|false|false|false|false|false|false|false|PRP
+'ve	others	have|we|schedul|false|false|false|false|false|false|false|false|false|VBP
+scheduled	others	schedul|have|we|false|false|false|false|false|false|false|false|false|VBN
+our	others	we|schedul|first|false|false|false|false|false|false|false|false|false|PRP$
+first	others	first|we|mock|false|false|false|false|false|false|false|false|false|JJ
+mock	others	mock|first|present|false|false|false|false|false|false|false|false|false|JJ
+presentation	others	present|mock|in|false|false|false|false|false|false|false|false|false|NN
+in	others	in|present|prepar|false|false|false|false|false|false|false|false|false|IN
+preparation	others	prepar|in|for|false|false|false|false|false|false|false|false|false|NN
+for	others	for|prepar|we|false|false|false|false|false|false|false|false|false|IN
+our	others	we|for|final|false|false|false|false|false|false|false|false|false|PRP$
+final	others	final|we|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+presentation	others	present|_start_|on|false|false|false|false|false|false|false|false|false|NN
+on	others	on|present|wednesdai|false|false|false|false|false|false|false|false|false|IN
+Wednesday	others	wednesdai|on|april|true|false|false|false|false|false|false|false|true|NNP
+April	others	april|wednesdai|13|true|false|false|false|false|false|false|false|true|NNP
+13	others	13|april|at|false|false|false|false|false|false|false|false|true|CD
+at	others	at|13|3:30|false|false|false|false|false|false|false|false|false|IN
+3:30	stime	3:30|at|we|false|false|false|false|false|false|false|false|false|CD
+We	others	we|3:30|'ll|true|false|false|false|false|false|false|false|false|PRP
+'ll	others	'll|we|be|false|false|false|false|false|false|false|false|false|MD
+be	others	be|'ll|meet|false|false|false|false|false|false|false|false|false|VB
+meeting	others	meet|be|in|false|false|false|false|false|false|false|false|false|VBG
+in	others	in|meet|2110|false|false|false|false|false|false|false|false|false|IN
+2110	location	2110|in|_end_|false|false|false|false|false|false|false|false|true|CD
+
+We	others	we|_start_|also|true|false|false|false|false|false|false|false|false|PRP
+also	others	also|we|plan|false|false|false|false|false|false|false|false|false|RB
+plan	others	plan|also|to|false|false|false|false|false|false|false|false|false|VBP
+to	others	to|plan|have|false|false|false|false|false|false|false|false|false|TO
+have	others	have|to|a|false|false|false|false|false|false|false|false|false|VB
+a	others	a|have|second|false|false|false|false|false|false|false|false|false|DT
+second	others	second|a|mock|false|false|false|false|false|false|false|false|false|JJ
+mock	others	mock|second|present|false|false|false|false|false|false|false|false|false|JJ
+presentation	others	present|mock|over|false|false|false|false|false|false|false|false|false|NN
+over	others	over|present|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|over|weekend|false|false|false|false|false|false|false|false|true|DT
+weekend	others	weekend|the|of|false|false|false|false|false|false|false|false|true|NN
+of	others	of|weekend|_end_|false|false|false|false|false|false|false|false|false|IN
+
+April	others	april|_start_|16-17|true|false|false|false|false|false|false|false|true|NNP
+16-17	others	16-17|april|we|false|false|false|false|false|false|false|false|true|CD
+We	others	we|16-17|would|true|false|false|false|false|false|false|false|false|PRP
+'d	others	would|we|appreci|false|false|false|false|false|false|false|false|false|MD
+appreciate	others	appreci|would|it|false|false|false|false|false|false|false|false|false|VB
+it	others	it|appreci|if|false|false|false|false|false|false|false|false|false|PRP
+if	others	if|it|you|false|false|false|false|false|false|false|false|false|IN
+you	others	you|if|could|false|false|false|false|false|false|false|false|false|PRP
+could	others	could|you|make|false|false|false|false|false|false|false|false|false|MD
+make	others	make|could|on|false|false|false|false|false|false|false|false|false|VB
+one	others	on|make|of|false|false|false|false|false|false|false|false|false|CD
+of	others	of|on|these|false|false|false|false|false|false|false|false|false|IN
+these	others	these|of|mock|false|false|false|false|false|false|false|false|false|DT
+mocks	others	mock|these|_end_|false|false|false|false|false|false|false|false|false|VBZ
+
+Your	others	you|_start_|love|true|false|false|false|false|false|false|false|false|PRP$
+loving	others	love|you|system|false|false|false|false|false|false|false|false|false|JJ
+systems	others	system|love|group|false|false|false|false|false|false|false|false|false|NNS
+group	others	group|system|_end_|false|false|false|false|false|false|false|false|false|NN
+

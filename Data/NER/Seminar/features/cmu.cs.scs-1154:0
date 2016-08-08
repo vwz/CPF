@@ -1,0 +1,150 @@
+Type	others	type|_start_|cmu|true|false|false|false|false|false|false|false|false|NN
+cmu	others	cmu|type|c|false|false|false|false|false|false|false|false|false|NN
+cs	others	c|cmu|sc|false|false|false|false|false|false|false|false|false|NNS
+scs	others	sc|c|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+Who	others	who|_start_|dr.|true|false|false|false|false|false|false|false|false|WP
+Dr.	speaker	dr.|who|ted|false|false|false|false|false|true|false|false|false|NNP
+Ted	speaker	ted|dr.|adelson|true|false|false|false|false|true|false|false|false|NNP
+Adelson	speaker	adelson|ted|associ|true|false|false|false|false|true|false|false|false|NNP
+Associate	others	associ|adelson|professor|true|false|false|false|false|false|false|false|false|NNP
+Professor	others	professor|associ|of|true|false|false|false|false|true|false|false|false|NNP
+of	others	of|professor|vision|false|false|false|false|false|false|false|false|false|IN
+Vision	others	vision|of|scienc|true|false|false|false|false|false|false|false|false|NNP
+Science	others	scienc|vision|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Media	others	media|_start_|laboratori|true|false|false|false|false|false|false|false|false|NNP
+Laboratory	others	laboratori|media|and|true|false|false|false|false|false|false|false|false|NNP
+and	others	and|laboratori|the|false|false|false|false|false|false|false|false|false|CC
+the	others	the|and|dept.|false|false|false|false|false|false|false|false|false|DT
+Dept.	others	dept.|the|of|false|false|false|false|false|false|false|false|false|NNP
+of	others	of|dept.|brain|false|false|false|false|false|false|false|false|false|IN
+Brain	others	brain|of|and|true|false|false|false|false|false|false|false|false|NN
+and	others	and|brain|cognit|false|false|false|false|false|false|false|false|false|CC
+Cognitive	others	cognit|and|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+Science	others	scienc|_start_|mit|true|false|false|false|false|false|false|false|false|NN
+MIT	others	mit|scienc|_end_|false|true|false|true|false|false|false|false|false|NNP
+
+Topic	others	topic|_start_|element|true|false|false|false|false|false|false|false|false|NN
+Elemental	others	element|topic|measur|true|false|false|false|false|false|false|false|false|JJ
+measurements	others	measur|element|in|false|false|false|false|false|false|false|false|false|NNS
+in	others	in|measur|vision|false|false|false|false|false|false|false|false|false|IN
+vision	others	vision|in|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Dates	others	date|_start_|18-sep-92|true|false|false|false|false|false|false|false|false|NNS
+18-Sep-92	others	18-sep-92|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|3:30|true|false|false|false|false|false|false|false|false|NNP
+3:30	stime	3:30|time|pm|false|false|false|false|false|false|false|false|false|CD
+PM	stime	pm|3:30|5:00|false|true|false|true|false|false|true|false|false|NN
+5:00	etime	5:00|pm|pm|false|false|false|false|false|false|false|true|false|CD
+PM	etime	pm|5:00|_end_|false|true|false|true|false|false|false|false|false|NN
+
+Place	others	place|_start_|baker|true|false|false|false|false|false|false|false|false|NN
+Baker	location	baker|place|hall|true|false|false|false|false|false|false|false|false|NNP
+Hall	location	hall|baker|adamson|true|false|false|false|false|false|false|false|false|NNP
+Adamson	location	adamson|hall|wing|true|false|false|false|false|true|false|false|false|NNP
+Wing	location	wing|adamson|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+PostedBy	others	postedbi|_start_|tmeadow|false|false|false|false|true|false|false|false|false|NNP
+tmeadows	others	tmeadow|postedbi|on|false|false|false|false|false|false|false|false|false|NNS
+on	others	on|tmeadow|18-sep-92|false|false|false|false|false|false|false|false|false|IN
+18-Sep-92	others	18-sep-92|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|18-sep-92|08:29|false|false|false|false|false|false|false|false|false|IN
+08:29	others	08:29|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|08:29|resumix.portal.com|false|false|false|false|false|false|false|false|false|IN
+resumix.portal.com	others	resumix.portal.com|from|-lrb-|false|false|false|false|false|false|false|false|false|NNP
+-LRB-	others	-lrb-|resumix.portal.com|tim|false|false|false|false|false|false|false|false|false|-LRB-
+Tim	others	tim|-lrb-|meadow|true|false|false|false|false|false|false|false|false|NNP
+Meadows	others	meadow|tim|-rrb-|true|false|false|false|false|false|false|false|false|NNP
+-RRB-	others	-rrb-|meadow|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+RI	others	ru|_start_|seminar|false|true|false|true|false|false|false|false|false|NN
+SEMINAR	others	seminar|ru|_end_|false|true|false|true|false|false|false|false|false|NN
+
+WHEN	others	when|_start_|fridai|false|true|false|true|false|false|false|false|false|WRB
+Friday	others	fridai|when|sept.|true|false|false|false|false|false|false|false|true|NNP
+Sept.	others	sept.|fridai|18|false|false|false|false|false|false|false|false|true|NNP
+18	others	18|sept.|1992|false|false|false|false|false|false|false|false|true|CD
+1992	others	1992|18|3:30|false|false|false|false|false|false|false|false|true|CD
+3:30	stime	3:30|1992|pm|false|false|false|false|false|false|false|false|false|CD
+pm	stime	pm|3:30|5:00|false|false|false|false|false|false|true|false|false|NN
+5:00	etime	5:00|pm|pm|false|false|false|false|false|false|false|true|false|CD
+pm	etime	pm|5:00|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Refreshments	others	refresh|_start_|will|true|false|false|false|false|false|false|false|false|NNS
+will	others	will|refresh|be|false|false|false|false|false|false|false|false|false|MD
+be	others	be|will|serv|false|false|false|false|false|false|false|false|false|VB
+served	others	serv|be|by|false|false|false|false|false|false|false|false|false|VBN
+by	others	by|serv|3:15|false|false|false|false|false|false|false|false|false|IN
+3:15	others	3:15|by|pm|false|false|false|false|false|false|false|false|false|CD
+pm	others	pm|3:15|_end_|false|false|false|false|false|false|false|false|false|NN
+
+WHERE	others	where|_start_|baker|false|true|false|true|false|false|false|false|false|NN
+Baker	location	baker|where|hall|true|false|false|false|false|false|false|false|false|NNP
+Hall	location	hall|baker|adamson|true|false|false|false|false|false|false|false|false|NNP
+Adamson	location	adamson|hall|wing|true|false|false|false|false|true|false|false|false|NNP
+Wing	location	wing|adamson|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+SPEAKER	others	speaker|_start_|dr.|false|true|false|true|false|false|false|false|false|NN
+Dr.	speaker	dr.|speaker|ted|false|false|false|false|false|true|false|false|false|NNP
+Ted	speaker	ted|dr.|adelson|true|false|false|false|false|true|false|false|false|NNP
+Adelson	speaker	adelson|ted|associ|true|false|false|false|false|true|false|false|false|NNP
+Associate	others	associ|adelson|professor|true|false|false|false|false|false|false|false|false|NNP
+Professor	others	professor|associ|of|true|false|false|false|false|true|false|false|false|NNP
+of	others	of|professor|vision|false|false|false|false|false|false|false|false|false|IN
+Vision	others	vision|of|scienc|true|false|false|false|false|false|false|false|false|NNP
+Science	others	scienc|vision|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Media	others	media|_start_|laboratori|true|false|false|false|false|false|false|false|false|NNP
+Laboratory	others	laboratori|media|and|true|false|false|false|false|false|false|false|false|NNP
+and	others	and|laboratori|the|false|false|false|false|false|false|false|false|false|CC
+the	others	the|and|dept.|false|false|false|false|false|false|false|false|false|DT
+Dept.	others	dept.|the|of|false|false|false|false|false|false|false|false|false|NNP
+of	others	of|dept.|brain|false|false|false|false|false|false|false|false|false|IN
+Brain	others	brain|of|and|true|false|false|false|false|false|false|false|false|NN
+and	others	and|brain|cognit|false|false|false|false|false|false|false|false|false|CC
+Cognitive	others	cognit|and|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+Science	others	scienc|_start_|mit|true|false|false|false|false|false|false|false|false|NN
+MIT	others	mit|scienc|_end_|false|true|false|true|false|false|false|false|false|NNP
+
+TITLE	others	titl|_start_|element|false|true|false|true|false|false|false|false|false|NN
+Elemental	others	element|titl|measur|true|false|false|false|false|false|false|false|false|JJ
+measurements	others	measur|element|in|false|false|false|false|false|false|false|false|false|NNS
+in	others	in|measur|vision|false|false|false|false|false|false|false|false|false|IN
+vision	others	vision|in|_end_|false|false|false|false|false|false|false|false|false|NN
+
+ABSTRACT	others	abstract|_start_|post|false|true|false|true|false|false|false|false|false|NN
+Posted	others	post|abstract|earlier|true|false|false|false|false|false|false|false|false|VBN
+Earlier	others	earlier|post|_end_|true|false|false|false|false|false|false|false|false|RBR
+
+Hosted	others	host|_start_|by|true|false|false|false|false|false|false|false|false|VBN
+by	others	by|host|hagen|false|false|false|false|false|false|false|false|false|IN
+Hagen	others	hagen|by|schempf|true|false|false|false|false|true|false|false|false|NNP
+Schempf	others	schempf|hagen|x6884|true|false|false|false|false|true|false|false|false|NNP
+x6884	others	x6884|schempf|_end_|false|false|false|false|false|false|false|false|false|NN
+
+
+
+
+Tim	others	tim|_start_|meadow|true|false|false|false|false|false|false|false|false|NNP
+Meadows	others	meadow|tim|field|true|false|false|false|false|false|false|false|false|NNP
+Field	others	field|meadow|robot|true|false|false|false|false|false|false|false|false|NNP
+Robotics	others	robot|field|center|true|false|false|false|false|false|false|false|false|NNP
+Center	others	center|robot|carnegi|true|false|false|false|false|false|false|false|false|NNP
+Carnegie	others	carnegi|center|mellon|true|false|false|false|false|false|false|false|false|NNP
+Mellon	others	mellon|carnegi|univ.|true|false|false|false|false|false|false|false|false|NNP
+Univ.	others	univ.|mellon|_end_|false|false|false|false|false|false|false|false|false|NNP
+
+
+412-268-7085	others	412-268-7085|_start_|fax|false|false|false|false|false|false|false|false|false|CD
+Fax	others	fax|412-268-7085|412-682-1793|true|false|false|false|false|false|false|false|false|NN
+412-682-1793	others	412-682-1793|fax|tmeadows@frc.ri.cmu.edu|false|false|false|false|false|false|false|false|false|CD
+tmeadows@frc.ri.cmu.edu	others	tmeadows@frc.ri.cmu.edu|412-682-1793|_end_|false|false|false|false|false|false|false|false|false|NN
+
+
+

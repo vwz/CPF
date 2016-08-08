@@ -1,0 +1,75 @@
+Type	others	type|_start_|cmu.andrew.official.cmu-new|true|false|false|false|false|false|false|false|false|NN
+cmu.andrew.official.cmu-news	others	cmu.andrew.official.cmu-new|type|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+Topic	others	topic|_start_|ec|true|false|false|false|false|false|false|false|false|NN
+ECE	others	ec|topic|seminar|false|true|false|true|false|false|false|false|false|NNP
+Seminar	others	seminar|ec|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Dates	others	date|_start_|30-mar-95|true|false|false|false|false|false|false|false|false|NNS
+30-Mar-95	others	30-mar-95|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|4:00|true|false|false|false|false|false|false|false|false|NNP
+4:00	stime	4:00|time|5:00|false|false|false|false|false|false|true|false|false|CD
+5:00	etime	5:00|4:00|pm|false|false|false|false|false|false|false|true|false|CD
+PM	etime	pm|5:00|_end_|false|true|false|true|false|false|false|false|false|NN
+
+Place	others	place|_start_|scaif|true|false|false|false|false|false|false|false|false|NN
+Scaife	location	scaif|place|hall|true|false|false|false|false|false|false|false|false|NNP
+Hall	location	hall|scaif|auditorium|true|false|false|false|false|false|false|false|false|NNP
+Auditorium	location	auditorium|hall|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+PostedBy	others	postedbi|_start_|edmund|false|false|false|false|true|false|false|false|false|NNP
+Edmund	others	edmund|postedbi|j.|true|false|false|false|false|true|false|false|false|NNP
+J.	others	j.|edmund|delanei|false|false|false|false|false|true|false|false|false|NNP
+Delaney	others	delanei|j.|on|true|false|false|false|false|true|false|false|false|NNP
+on	others	on|delanei|21-mar-95|false|false|false|false|false|false|false|false|false|IN
+21-Mar-95	others	21-mar-95|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|21-mar-95|14:12|false|false|false|false|false|false|false|false|false|IN
+14:12	others	14:12|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|14:12|andrew.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+andrew.cmu.edu	others	andrew.cmu.edu|from|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+COMPUTERIZED	others	computer|_start_|test|false|true|false|true|false|false|false|false|false|JJ
+TESTING	others	test|computer|and|false|true|false|true|false|false|false|false|false|NN
+AND	others	and|test|simul|false|true|false|true|false|false|false|false|false|CC
+SIMULATION	others	simul|and|of|false|true|false|true|false|false|false|false|false|NN
+OF	others	of|simul|concret|false|true|false|true|false|false|false|false|false|IN
+CONCRETE	others	concret|of|construct|false|true|false|true|false|false|false|false|false|NNP
+CONSTRUCTION	others	construct|concret|_end_|false|true|false|true|false|false|false|false|false|NNP
+
+President	others	presid|_start_|and|true|false|false|false|false|false|false|false|false|NNP
+and	others	and|presid|founder|false|false|false|false|false|false|false|false|false|CC
+Founder	others	founder|and|_end_|true|false|false|false|false|false|false|false|false|NN
+
+Digital	others	digit|_start_|site|true|false|false|false|false|false|false|false|false|NNP
+Site	others	site|digit|system|true|false|false|false|false|false|false|false|false|NN
+Systems	others	system|site|inc.|true|false|false|false|false|false|false|false|false|NNP
+Inc.	others	inc.|system|_end_|false|false|false|false|false|false|false|false|false|NNP
+
+Pittsburgh	others	pittsburgh|_start_|pa|true|false|false|false|false|false|false|false|false|NNP
+PA	others	pa|pittsburgh|_end_|false|true|false|true|false|false|false|false|false|NN
+
+DATE	others	date|_start_|thursdai|false|true|false|true|false|false|false|false|false|NN
+Thursday	others	thursdai|date|march|true|false|false|false|false|false|false|false|true|NNP
+March	others	march|thursdai|30|true|false|false|false|false|false|false|false|true|NNP
+30	others	30|march|1995|false|false|false|false|false|false|false|false|true|CD
+1995	others	1995|30|_end_|false|false|false|false|false|false|false|false|true|CD
+
+TIME	others	time|_start_|4:00|false|true|false|true|false|false|false|false|false|NN
+4:00	stime	4:00|time|5:00|false|false|false|false|false|false|true|false|false|CD
+5:00	etime	5:00|4:00|p.m.|false|false|false|false|false|false|false|true|false|CD
+P.M.	etime	p.m.|5:00|_end_|false|false|false|false|false|false|false|false|false|NN
+
+PLACE	others	place|_start_|scaif|false|true|false|true|false|false|false|false|false|NN
+Scaife	location	scaif|place|hall|true|false|false|false|false|false|false|false|false|NNP
+Hall	location	hall|scaif|auditorium|true|false|false|false|false|false|false|false|false|NNP
+Auditorium	location	auditorium|hall|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+REFRESHMENTS	others	refresh|_start_|at|false|true|false|true|false|false|false|false|false|NNS
+at	others	at|refresh|3:45|false|false|false|false|false|false|false|false|false|IN
+3:45	others	3:45|at|p.m.|false|false|false|false|false|false|false|false|false|CD
+P.M.	others	p.m.|3:45|_end_|false|false|false|false|false|false|false|false|false|NN
+
+

@@ -1,0 +1,59 @@
+Type	others	type|_start_|cmu.andrew.official.cmu-new|true|false|false|false|false|false|false|false|false|NN
+cmu.andrew.official.cmu-news	others	cmu.andrew.official.cmu-new|type|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+Topic	others	topic|_start_|cultur|true|false|false|false|false|false|false|false|false|NN
+Cultural	others	cultur|topic|analysi|true|false|false|false|false|false|false|false|false|JJ
+Analysis	others	analysi|cultur|lectur|true|false|false|false|false|false|false|false|false|NN
+Lecture	others	lectur|analysi|_end_|true|false|false|false|false|false|false|false|false|NN
+
+Dates	others	date|_start_|17-mar-95|true|false|false|false|false|false|false|false|false|NNS
+17-Mar-95	others	17-mar-95|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|3:30|true|false|false|false|false|false|false|false|false|NNP
+3:30	stime	3:30|time|pm|false|false|false|false|false|false|false|false|false|CD
+PM	stime	pm|3:30|_end_|false|true|false|true|false|false|false|false|false|NN
+
+PostedBy	others	postedbi|_start_|bruce|false|false|false|false|true|false|false|false|false|NNP
+Bruce	others	bruce|postedbi|gerson|true|false|false|false|false|true|false|false|false|NNP
+Gerson	others	gerson|bruce|on|true|false|false|false|false|true|false|false|false|NNP
+on	others	on|gerson|27-feb-95|false|false|false|false|false|false|false|false|false|IN
+27-Feb-95	others	27-feb-95|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|27-feb-95|11:05|false|false|false|false|false|false|false|false|false|IN
+11:05	others	11:05|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|11:05|andrew.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+andrew.cmu.edu	others	andrew.cmu.edu|from|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+entitled	others	entitl|_start_|the|false|false|false|false|false|false|false|false|false|VBN
+The	others	the|entitl|best|true|false|false|false|false|false|false|false|false|DT
+Best	others	best|the|of|true|false|false|false|false|false|false|false|false|JJS
+of	others	of|best|possibl|false|false|false|false|false|false|false|false|false|IN
+Possible	others	possibl|of|island|true|false|false|false|false|false|false|false|false|JJ
+Islands	others	island|possibl|sevil|true|false|false|false|false|false|false|false|false|NNS
+Seville	others	sevil|island|expo|true|false|false|false|false|false|false|false|false|NNP
+Expo	others	expo|sevil|92|true|false|false|false|false|false|false|false|false|NNP
+92	others	92|expo|and|false|false|false|false|false|false|false|false|true|CD
+and	others	and|92|the|false|false|false|false|false|false|false|false|false|CC
+the	others	the|and|_end_|false|false|false|false|false|false|false|false|false|DT
+
+Politics	others	polit|_start_|of|true|false|false|false|false|false|false|false|false|NNS
+of	others	of|polit|cultur|false|false|false|false|false|false|false|false|false|IN
+Culture	others	cultur|of|in|true|false|false|false|false|false|false|false|false|NN
+in	others	in|cultur|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|in|new|false|false|false|false|false|false|false|false|false|DT
+New	others	new|the|spain|true|false|false|false|false|false|false|false|false|NNP
+Spain	others	spain|new|at|true|false|false|false|false|false|false|false|false|NNP
+at	others	at|spain|3:30|false|false|false|false|false|false|false|false|false|IN
+3:30	stime	3:30|at|p.|false|false|false|false|false|false|false|false|false|CD
+p.	stime	p.|3:30|m|false|false|false|false|false|false|false|false|false|NN
+m	stime	m|p.|fridai|false|false|false|false|false|false|false|false|false|NN
+Friday	others	fridai|m|march|true|false|false|false|false|false|false|false|true|NNP
+March	others	march|fridai|17|true|false|false|false|false|false|false|false|true|NNP
+17	others	17|march|_end_|false|false|false|false|false|false|false|false|true|CD
+
+in	others	in|_start_|baker|false|false|false|false|false|false|false|false|false|IN
+Baker	location	baker|in|hall|true|false|false|false|false|false|false|false|false|NNP
+Hall	location	hall|baker|235a|true|false|false|false|false|false|false|false|false|NNP
+235A	location	235a|hall|_end_|false|false|false|false|false|false|false|false|false|NN
+

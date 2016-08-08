@@ -1,0 +1,74 @@
+Type	others	type|_start_|cmu.andrew.academic.met-|true|false|false|false|false|false|false|false|false|NN
+cmu.andrew.academic.met-e	others	cmu.andrew.academic.met-|type|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Topic	others	topic|_start_|career|true|false|false|false|false|false|false|false|false|NN
+Career	others	career|topic|talk|true|false|false|false|false|false|false|false|false|NNP
+Talk	others	talk|career|3.28.95|true|false|false|false|false|false|false|false|false|NN
+3.28.95	others	3.28.95|talk|_end_|false|false|false|false|false|false|false|false|false|CD
+
+Dates	others	date|_start_|28-mar-95|true|false|false|false|false|false|false|false|false|NNS
+28-Mar-95	others	28-mar-95|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|12:00|true|false|false|false|false|false|false|false|false|NNP
+12:00	stime	12:00|time|pm|false|false|false|false|false|false|false|false|false|CD
+PM	stime	pm|12:00|_end_|false|true|false|true|false|false|false|false|false|NN
+
+PostedBy	others	postedbi|_start_|jason|false|false|false|false|true|false|false|false|false|NNP
+Jason	others	jason|postedbi|t|true|false|false|false|false|true|false|false|false|NNP
+T	others	t|jason|andracku|false|false|true|true|false|true|false|false|false|NN
+Andracki	others	andracku|t|on|true|false|false|false|false|true|false|false|false|NN
+on	others	on|andracku|17-mar-95|false|false|false|false|false|false|false|false|false|IN
+17-Mar-95	others	17-mar-95|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|17-mar-95|09:17|false|false|false|false|false|false|false|false|false|IN
+09:17	others	09:17|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|09:17|andrew.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+andrew.cmu.edu	others	andrew.cmu.edu|from|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+Buddy	others	buddi|_start_|be|true|false|false|false|false|false|false|false|false|NNP
+is	others	be|buddi|a|false|false|false|false|false|false|false|false|false|VBZ
+a	others	a|be|veri|false|false|false|false|false|false|false|false|false|DT
+very	others	veri|a|popular|false|false|false|false|false|false|false|false|false|RB
+popular	others	popular|veri|speaker|false|false|false|false|false|false|false|false|false|JJ
+speaker	others	speaker|popular|so|false|false|false|false|false|false|false|false|false|NN
+so	others	so|speaker|pleas|false|false|false|false|false|false|false|false|false|IN
+please	others	pleas|so|call|false|false|false|false|false|false|false|false|false|VB
+call	others	call|pleas|8-8451|false|false|false|false|false|false|false|false|false|JJ
+8-8451	others	8-8451|call|to|false|false|false|false|false|false|false|false|false|CD
+to	others	to|8-8451|reserv|false|false|false|false|false|false|false|false|false|TO
+reserve	others	reserv|to|a|false|false|false|false|false|false|false|false|false|VB
+a	others	a|reserv|seat|false|false|false|false|false|false|false|false|false|DT
+seat	others	seat|a|_end_|false|false|false|false|false|false|false|false|false|NN
+
+by	others	by|_start_|noon|false|false|false|false|false|false|false|false|false|IN
+noon	others	noon|by|on|false|false|false|false|false|false|false|false|false|NN
+on	others	on|noon|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|on|28th|false|false|false|false|false|false|false|false|false|DT
+28th	others	28th|the|reserv|false|false|false|false|false|false|false|false|false|JJ
+Reservations	others	reserv|28th|be|true|false|false|false|false|false|false|false|false|NNS
+are	others	be|reserv|not|false|false|false|false|false|false|false|false|false|VBP
+not	others	not|be|necessari|false|false|false|false|false|false|false|false|false|RB
+necessary	others	necessari|not|but|false|false|false|false|false|false|false|false|false|JJ
+BUT	others	but|necessari|encourag|false|true|false|true|false|false|false|false|false|NNP
+encouraged	others	encourag|but|_end_|false|false|false|false|false|false|false|false|false|VBD
+
+Career	others	career|_start_|talk|true|false|false|false|false|false|false|false|false|NNP
+Talks	others	talk|career|be|true|false|false|false|false|false|false|false|false|NNS
+are	others	be|talk|sponsor|false|false|false|false|false|false|false|false|false|VBP
+sponsored	others	sponsor|be|by|false|false|false|false|false|false|false|false|false|VBN
+by	others	by|sponsor|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|by|student|false|false|false|false|false|false|false|false|false|DT
+Student	others	student|the|alumni|true|false|false|false|false|false|false|false|false|NN
+Alumni	others	alumni|student|relat|true|false|false|false|false|false|false|false|false|NNP
+Relations	others	relat|alumni|council|true|false|false|false|false|false|false|false|false|NNP
+Council	others	council|relat|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+-LRB-	others	-lrb-|_start_|sarc|false|false|false|false|false|false|false|false|false|-LRB-
+SARC	others	sarc|-lrb-|-rrb-|false|true|false|true|false|false|false|false|false|NN
+-RRB-	others	-rrb-|sarc|and|false|false|false|false|false|false|false|false|false|-RRB-
+and	others	and|-rrb-|the|false|false|false|false|false|false|false|false|false|CC
+the	others	the|and|career|false|false|false|false|false|false|false|false|false|DT
+Career	others	career|the|center|true|false|false|false|false|false|false|false|false|NNP
+Center	others	center|career|_end_|true|false|false|false|false|false|false|false|false|NNP
+

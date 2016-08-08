@@ -1,0 +1,89 @@
+Type	others	type|_start_|cmu|true|false|false|false|false|false|false|false|false|NN
+cmu	others	cmu|type|c|false|false|false|false|false|false|false|false|false|NN
+cs	others	c|cmu|sc|false|false|false|false|false|false|false|false|false|NNS
+scs	others	sc|c|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+Who	others	who|_start_|lesli|true|false|false|false|false|false|false|false|false|WP
+Leslie	speaker	lesli|who|lamport|true|false|false|false|false|true|false|false|false|NNP
+Lamport	speaker	lamport|lesli|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+Digital	others	digit|_start_|equip|true|false|false|false|false|false|false|false|false|NNP
+Equipment	others	equip|digit|corpor|true|false|false|false|false|false|false|false|false|NNP
+Corporation	others	corpor|equip|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Systems	others	system|_start_|research|true|false|false|false|false|false|false|false|false|NNP
+Research	others	research|system|center|true|false|false|false|false|false|false|false|false|NNP
+Center	others	center|research|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Topic	others	topic|_start_|the|true|false|false|false|false|false|false|false|false|NN
+The	others	the|topic|tempor|true|false|false|false|false|false|false|false|false|DT
+Temporal	others	tempor|the|logic|true|false|false|false|false|false|false|false|false|JJ
+Logic	others	logic|tempor|of|true|false|false|false|false|false|false|false|false|NN
+of	others	of|logic|action|false|false|false|false|false|false|false|false|false|IN
+Actions	others	action|of|_end_|true|false|false|false|false|false|false|false|false|NNS
+
+Dates	others	date|_start_|28-apr-92|true|false|false|false|false|false|false|false|false|NNS
+28-Apr-92	others	28-apr-92|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|3:30|true|false|false|false|false|false|false|false|false|NNP
+3:30	stime	3:30|time|pm|false|false|false|false|false|false|false|false|false|CD
+PM	stime	pm|3:30|_end_|false|true|false|true|false|false|false|false|false|NN
+
+Place	others	place|_start_|wean|true|false|false|false|false|false|false|false|false|NN
+Wean	location	wean|place|hall|true|false|false|false|false|false|false|false|false|VB
+Hall	location	hall|wean|4623|true|false|false|false|false|false|false|false|false|NNP
+4623	location	4623|hall|_end_|false|false|false|false|false|false|false|false|false|CD
+
+PostedBy	others	postedbi|_start_|lydium|false|false|false|false|true|false|false|false|false|NNP
+lydia	others	lydium|postedbi|on|false|false|false|false|false|false|false|false|false|NN
+on	others	on|lydium|28-apr-92|false|false|false|false|false|false|false|false|false|IN
+28-Apr-92	others	28-apr-92|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|28-apr-92|08:22|false|false|false|false|false|false|false|false|false|IN
+08:22	others	08:22|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|08:22|proof.ergo.cs.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+PROOF.ERGO.CS.CMU.EDU	others	proof.ergo.cs.cmu.edu|from|-lrb-|false|false|false|false|false|false|false|false|false|NN
+-LRB-	others	-lrb-|proof.ergo.cs.cmu.edu|lydia|false|false|false|false|false|false|false|false|false|-LRB-
+Lydia	others	lydia|-lrb-|defilippo|true|false|false|false|false|true|false|false|false|NNP
+Defilippo	others	defilippo|lydia|-rrb-|true|false|false|false|false|true|false|false|false|NNP
+-RRB-	others	-rrb-|defilippo|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+REMINDER	others	remind|_start_|_end_|false|true|false|true|false|false|false|false|false|NN
+
+SPECIAL	others	special|_start_|seminar|false|true|false|true|false|false|false|false|false|JJ
+SEMINAR	others	seminar|special|_end_|false|true|false|true|false|false|false|false|false|NN
+
+Speaker	others	speaker|_start_|lesli|true|false|false|false|false|false|false|false|false|NNP
+Leslie	speaker	lesli|speaker|lamport|true|false|false|false|false|true|false|false|false|NNP
+Lamport	speaker	lamport|lesli|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+Digital	others	digit|_start_|equip|true|false|false|false|false|false|false|false|false|NNP
+Equipment	others	equip|digit|corpor|true|false|false|false|false|false|false|false|false|NNP
+Corporation	others	corpor|equip|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Systems	others	system|_start_|research|true|false|false|false|false|false|false|false|false|NNP
+Research	others	research|system|center|true|false|false|false|false|false|false|false|false|NNP
+Center	others	center|research|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Date	others	date|_start_|tuesdai|true|false|false|false|false|false|false|false|false|NN
+Tuesday	others	tuesdai|date|april|true|false|false|false|false|false|false|false|true|NNP
+April	others	april|tuesdai|28|true|false|false|false|false|false|false|false|true|NNP
+28	others	28|april|_end_|false|false|false|false|false|false|false|false|true|CD
+
+Time	others	time|_start_|3:30|true|false|false|false|false|false|false|false|false|NNP
+3:30	stime	3:30|time|pm|false|false|false|false|false|false|false|false|false|CD
+pm	stime	pm|3:30|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Place	others	place|_start_|wean|true|false|false|false|false|false|false|false|false|NN
+Wean	location	wean|place|hall|true|false|false|false|false|false|false|false|false|VB
+Hall	location	hall|wean|4623|true|false|false|false|false|false|false|false|false|NNP
+4623	location	4623|hall|_end_|false|false|false|false|false|false|false|false|false|CD
+
+Topic	others	topic|_start_|the|true|false|false|false|false|false|false|false|false|NN
+The	others	the|topic|tempor|true|false|false|false|false|false|false|false|false|DT
+Temporal	others	tempor|the|logic|true|false|false|false|false|false|false|false|false|JJ
+Logic	others	logic|tempor|of|true|false|false|false|false|false|false|false|false|NN
+of	others	of|logic|action|false|false|false|false|false|false|false|false|false|IN
+Actions	others	action|of|_end_|true|false|false|false|false|false|false|false|false|NNS
+

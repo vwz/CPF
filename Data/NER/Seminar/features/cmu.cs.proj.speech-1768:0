@@ -1,0 +1,107 @@
+Type	others	type|_start_|cmu|true|false|false|false|false|false|false|false|false|NN
+cmu	others	cmu|type|c|false|false|false|false|false|false|false|false|false|NN
+cs	others	c|cmu|proj|false|false|false|false|false|false|false|false|false|NNS
+proj	others	proj|c|speech|false|false|false|false|false|false|false|false|false|NN
+speech	others	speech|proj|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Topic	others	topic|_start_|lip|true|false|false|false|false|false|false|false|false|NN
+Lip	others	lip|topic|read|true|false|false|false|false|false|false|false|false|NNP
+Reading	others	read|lip|architectur|true|false|false|false|false|false|false|false|false|NNP
+Architectures	others	architectur|read|_end_|true|false|false|false|false|false|false|false|false|NNPS
+
+Talk	others	talk|_start_|will|true|false|false|false|false|false|false|false|false|NN
+will	others	will|talk|last|false|false|false|false|false|false|false|false|false|MD
+last	others	last|will|about|false|false|false|false|false|false|false|false|false|VB
+about	others	about|last|30|false|false|false|false|false|false|false|false|false|IN
+30	others	30|about|45|false|false|false|false|false|false|false|false|false|CD
+45	others	45|30|minut|false|false|false|false|false|false|false|false|true|CD
+minutes	others	minut|45|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+Dates	others	date|_start_|6-mar-95|true|false|false|false|false|false|false|false|false|NNS
+6-Mar-95	others	6-mar-95|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|10:00|true|false|false|false|false|false|false|false|false|NNP
+10:00	stime	10:00|time|am|false|false|false|false|false|false|false|false|false|CD
+AM	stime	am|10:00|_end_|false|true|false|true|false|false|false|false|false|NNP
+
+Place	others	place|_start_|wean|true|false|false|false|false|false|false|false|false|NN
+Wean	location	wean|place|hall|true|false|false|false|false|false|false|false|false|VB
+Hall	location	hall|wean|4616|true|false|false|false|false|false|false|false|false|NNP
+4616	location	4616|hall|we|false|false|false|false|false|false|false|false|false|CD
+our	others	we|4616|lab|false|false|false|false|false|false|false|false|false|PRP$
+lab	others	lab|we|_end_|false|false|false|false|false|false|false|false|false|NN
+
+PostedBy	others	postedbi|_start_|ricki|false|false|false|false|true|false|false|false|false|NNP
+Ricky	others	ricki|postedbi|houghton|true|false|false|false|false|true|false|false|false|NNP
+Houghton	others	houghton|ricki|on|true|false|false|false|false|false|false|false|false|NNP
+on	others	on|houghton|2-mar-95|false|false|false|false|false|false|false|false|false|IN
+2-Mar-95	others	2-mar-95|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|2-mar-95|16:42|false|false|false|false|false|false|false|false|false|IN
+16:42	others	16:42|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|16:42|cs.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+cs.cmu.edu	others	cs.cmu.edu|from|_end_|false|false|false|false|false|false|false|false|false|FW
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+Date	others	date|_start_|3.6.95|true|false|false|false|false|false|false|false|false|NN
+3.6.95	others	3.6.95|date|mondai|false|false|false|false|false|false|false|false|true|CD
+Monday	others	mondai|3.6.95|_end_|true|false|false|false|false|false|false|false|true|NNP
+
+Time	others	time|_start_|10:00|true|false|false|false|false|false|false|false|false|NNP
+10:00	stime	10:00|time|be|false|false|false|false|false|false|false|false|false|CD
+am	stime	be|10:00|_end_|false|false|false|false|false|false|false|false|false|VBP
+
+Where	others	where|_start_|wean|true|false|false|false|false|false|false|false|false|WRB
+Wean	location	wean|where|hall|true|false|false|false|false|false|false|false|false|VB
+Hall	location	hall|wean|4616|true|false|false|false|false|false|false|false|false|NNP
+4616	location	4616|hall|we|false|false|false|false|false|false|false|false|false|CD
+our	others	we|4616|lab|false|false|false|false|false|false|false|false|false|PRP$
+lab	others	lab|we|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Title	others	titl|_start_|lip|true|false|false|false|false|false|false|false|false|NN
+Lip	others	lip|titl|read|true|false|false|false|false|false|false|false|false|NNP
+Reading	others	read|lip|architectur|true|false|false|false|false|false|false|false|false|NNP
+Architectures	others	architectur|read|_end_|true|false|false|false|false|false|false|false|false|NNPS
+
+Talk	others	talk|_start_|will|true|false|false|false|false|false|false|false|false|NN
+will	others	will|talk|last|false|false|false|false|false|false|false|false|false|MD
+last	others	last|will|about|false|false|false|false|false|false|false|false|false|VB
+about	others	about|last|30|false|false|false|false|false|false|false|false|false|IN
+30	others	30|about|45|false|false|false|false|false|false|false|false|false|CD
+45	others	45|30|minut|false|false|false|false|false|false|false|false|true|CD
+minutes	others	minut|45|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+Uwe	speaker	uw|_start_|meier|true|false|false|false|false|true|false|false|false|NNP
+Meier	speaker	meier|uw|a|true|false|false|false|false|true|false|false|false|NNP
+a	others	a|meier|visit|false|false|false|false|false|false|false|false|false|DT
+visiting	others	visit|a|student|false|false|false|false|false|false|false|false|false|VBG
+student	others	student|visit|from|false|false|false|false|false|false|false|false|false|NN
+from	others	from|student|karlsruh|false|false|false|false|false|false|false|false|false|IN
+Karlsruhe	others	karlsruh|from|will|true|false|false|false|false|false|false|false|false|NNP
+will	others	will|karlsruh|be|false|false|false|false|false|false|false|false|false|MD
+be	others	be|will|discuss|false|false|false|false|false|false|false|false|false|VB
+discussing	others	discuss|be|he|false|false|false|false|false|false|false|false|false|VBG
+his	others	he|discuss|_end_|false|false|false|false|false|false|false|false|false|PRP$
+
+Diplom	others	diplom|_start_|work|true|false|false|false|false|false|false|false|false|NN
+work	others	work|diplom|-lrb-|false|false|false|false|false|false|false|false|false|NN
+-LRB-	others	-lrb-|work|diplom|false|false|false|false|false|false|false|false|false|-LRB-
+Diplom	others	diplom|-lrb-|be|true|false|false|false|false|false|false|false|false|NN
+is	others	be|diplom|a|false|false|false|false|false|false|false|false|false|VBZ
+a	others	a|be|m|false|false|false|false|false|false|false|false|false|DT
+MS	others	m|a|equiv|false|true|false|true|false|true|false|false|false|NN
+equiv	others	equiv|m|-rrb-|false|false|false|false|false|false|false|false|false|NN
+-RRB-	others	-rrb-|equiv|system|false|false|false|false|false|false|false|false|false|-RRB-
+System	others	system|-rrb-|descript|true|false|false|false|false|false|false|false|false|NN
+description	others	descript|system|as|false|false|false|false|false|false|false|false|false|NN
+as	others	as|descript|well|false|false|false|false|false|false|false|false|false|RB
+well	others	well|as|as|false|false|false|false|false|false|false|false|false|RB
+as	others	as|well|_end_|false|false|false|false|false|false|false|false|false|IN
+
+results	others	result|_start_|will|false|false|false|false|false|false|false|false|false|NNS
+will	others	will|result|be|false|false|false|false|false|false|false|false|false|MD
+be	others	be|will|present|false|false|false|false|false|false|false|false|false|VB
+presented	others	present|be|_end_|false|false|false|false|false|false|false|false|false|VBN
+
+Ricky	others	ricki|_start_|_end_|true|false|false|false|false|true|false|false|false|NNP
+

@@ -1,0 +1,257 @@
+Type	others	type|_start_|cmu|true|false|false|false|false|false|false|false|false|NN
+cmu	others	cmu|type|c|false|false|false|false|false|false|false|false|false|NN
+cs	others	c|cmu|proj|false|false|false|false|false|false|false|false|false|NNS
+proj	others	proj|c|speech|false|false|false|false|false|false|false|false|false|NN
+speech	others	speech|proj|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Who	others	who|_start_|larri|true|false|false|false|false|false|false|false|false|WP
+Larry	speaker	larri|who|stewart|true|false|false|false|false|true|false|false|false|NNP
+Stewart	speaker	stewart|larri|digit|true|false|false|false|false|true|false|false|false|NNP
+Digital	others	digit|stewart|equip|true|false|false|false|false|false|false|false|false|NNP
+Equipment	others	equip|digit|corpor|true|false|false|false|false|false|false|false|false|NNP
+Corporation	others	corpor|equip|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Topic	others	topic|_start_|the|true|false|false|false|false|false|false|false|false|NN
+The	others	the|topic|crl|true|false|false|false|false|false|false|false|false|DT
+CRL	others	crl|the|audio|false|true|false|true|false|false|false|false|false|NNP
+Audio	others	audio|crl|server|true|false|false|false|false|false|false|false|false|NNP
+Server	others	server|audio|audiofil|true|false|false|false|false|false|false|false|false|NN
+AudioFile	others	audiofil|server|_end_|false|false|false|false|false|false|false|false|false|NNP
+
+Dates	others	date|_start_|21-oct-92|true|false|false|false|false|false|false|false|false|NNS
+21-Oct-92	others	21-oct-92|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|12:00|true|false|false|false|false|false|false|false|false|NNP
+12:00	stime	12:00|time|pm|false|false|false|false|false|false|false|false|false|CD
+PM	stime	pm|12:00|1:00|false|true|false|true|false|false|true|false|false|NN
+1:00	etime	1:00|pm|pm|false|false|false|false|false|false|false|true|false|CD
+PM	etime	pm|1:00|_end_|false|true|false|true|false|false|false|false|false|NN
+
+Place	others	place|_start_|wean|true|false|false|false|false|false|false|false|false|NN
+Wean	location	wean|place|hall|true|false|false|false|false|false|false|false|false|VB
+Hall	location	hall|wean|4623|true|false|false|false|false|false|false|false|false|NNP
+4623	location	4623|hall|_end_|false|false|false|false|false|false|false|false|false|CD
+
+PostedBy	others	postedbi|_start_|mlz|false|false|false|false|true|false|false|false|false|NNP
+mlz	others	mlz|postedbi|on|false|false|false|false|false|false|false|false|false|NN
+on	others	on|mlz|21-oct-92|false|false|false|false|false|false|false|false|false|IN
+21-Oct-92	others	21-oct-92|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|21-oct-92|08:52|false|false|false|false|false|false|false|false|false|IN
+08:52	others	08:52|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|08:52|mlz.speech.cs.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+mlz.SPEECH.CS.CMU.EDU	others	mlz.speech.cs.cmu.edu|from|-lrb-|false|false|false|false|false|false|false|false|false|NN
+-LRB-	others	-lrb-|mlz.speech.cs.cmu.edu|marc|false|false|false|false|false|false|false|false|false|-LRB-
+Marce	others	marc|-lrb-|zaragoza|true|false|false|false|false|false|false|false|false|NNP
+Zaragoza	others	zaragoza|marc|-rrb-|true|false|false|false|false|false|false|false|false|NNP
+-RRB-	others	-rrb-|zaragoza|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+SPEAKER	others	speaker|_start_|larri|false|true|false|true|false|false|false|false|false|NN
+Larry	speaker	larri|speaker|stewart|true|false|false|false|false|true|false|false|false|NNP
+Stewart	speaker	stewart|larri|digit|true|false|false|false|false|true|false|false|false|NNP
+Digital	others	digit|stewart|equip|true|false|false|false|false|false|false|false|false|NNP
+Equipment	others	equip|digit|corpor|true|false|false|false|false|false|false|false|false|NNP
+Corporation	others	corpor|equip|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+TOPIC	others	topic|_start_|the|false|true|false|true|false|false|false|false|false|NN
+The	others	the|topic|crl|true|false|false|false|false|false|false|false|false|DT
+CRL	others	crl|the|audio|false|true|false|true|false|false|false|false|false|NNP
+Audio	others	audio|crl|server|true|false|false|false|false|false|false|false|false|NNP
+Server	others	server|audio|audiofil|true|false|false|false|false|false|false|false|false|NN
+AudioFile	others	audiofil|server|_end_|false|false|false|false|false|false|false|false|false|NNP
+
+WHEN	others	when|_start_|wednesdai|false|true|false|true|false|false|false|false|false|WRB
+Wednesday	others	wednesdai|when|octob|true|false|false|false|false|false|false|false|true|NNP
+October	others	octob|wednesdai|21|true|false|false|false|false|false|false|false|true|NNP
+21	others	21|octob|1992|false|false|false|false|false|false|false|false|true|CD
+1992	others	1992|21|noon|false|false|false|false|false|false|false|false|true|CD
+noon	stime	noon|1992|1|false|false|false|false|false|false|true|false|false|NN
+1	etime	1|noon|p.m.|false|false|false|false|false|false|false|true|false|CD
+p.m.	etime	p.m.|1|_end_|false|false|false|false|false|false|false|false|false|NN
+
+WHERE	others	where|_start_|wean|false|true|false|true|false|false|false|false|false|NN
+Wean	location	wean|where|hall|true|false|false|false|false|false|false|false|false|VB
+Hall	location	hall|wean|4623|true|false|false|false|false|false|false|false|false|NNP
+4623	location	4623|hall|_end_|false|false|false|false|false|false|false|false|false|CD
+
+ABSTRACT	others	abstract|_start_|the|false|true|false|true|false|false|false|false|false|NN
+The	others	the|abstract|talk|true|false|false|false|false|false|false|false|false|DT
+talk	others	talk|the|will|false|false|false|false|false|false|false|false|false|NN
+will	others	will|talk|describ|false|false|false|false|false|false|false|false|false|MD
+describe	others	describ|will|the|false|false|false|false|false|false|false|false|false|VB
+the	others	the|describ|audio|false|false|false|false|false|false|false|false|false|DT
+audio	others	audio|the|server|false|false|false|false|false|false|false|false|false|JJ
+server	others	server|audio|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|server|protocol|false|false|false|false|false|false|false|false|false|CC
+protocol	others	protocol|and|develop|false|false|false|false|false|false|false|false|false|NN
+developed	others	develop|protocol|at|false|false|false|false|false|false|false|false|false|VBD
+at	others	at|develop|_end_|false|false|false|false|false|false|false|false|false|IN
+
+DEC	others	dec|_start_|'s|false|true|false|true|false|false|false|false|false|NNP
+'s	others	's|dec|cambridg|false|false|false|false|false|false|false|false|false|POS
+Cambridge	others	cambridg|'s|research|true|false|false|false|false|false|false|false|false|NNP
+Research	others	research|cambridg|lab|true|false|false|false|false|false|false|false|false|NNP
+Lab	others	lab|research|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+AudioFile	others	audiofil|_start_|be|false|false|false|false|false|false|false|false|false|NNP
+was	others	be|audiofil|develop|false|false|false|false|false|false|false|false|false|VBD
+developed	others	develop|be|to|false|false|false|false|false|false|false|false|false|VBN
+to	others	to|develop|provid|false|false|false|false|false|false|false|false|false|TO
+provide	others	provid|to|a|false|false|false|false|false|false|false|false|false|VB
+a	others	a|provid|network|false|false|false|false|false|false|false|false|false|DT
+network	others	network|a|transpar|false|false|false|false|false|false|false|false|false|NN
+transparent	others	transpar|network|interfac|false|false|false|false|false|false|false|false|false|JJ
+interface	others	interfac|transpar|_end_|false|false|false|false|false|false|false|false|false|NN
+
+between	others	between|_start_|digit|false|false|false|false|false|false|false|false|false|IN
+digital	others	digit|between|audio|false|false|false|false|false|false|false|false|false|JJ
+audio	others	audio|digit|hardwar|false|false|false|false|false|false|false|false|false|JJ
+hardware	others	hardwar|audio|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|hardwar|client|false|false|false|false|false|false|false|false|false|CC
+client	others	client|and|applic|false|false|false|false|false|false|false|false|false|NN
+applications	others	applic|client|oper|false|false|false|false|false|false|false|false|false|NNS
+operating	others	oper|applic|_end_|false|false|false|false|false|false|false|false|false|VBG
+
+in	others	in|_start_|a|false|false|false|false|false|false|false|false|false|IN
+a	others	a|in|distribut|false|false|false|false|false|false|false|false|false|DT
+distributed	others	distribut|a|environ|false|false|false|false|false|false|false|false|false|VBN
+environment	others	environ|distribut|audiofil|false|false|false|false|false|false|false|false|false|NN
+AudioFile	others	audiofil|environ|support|false|false|false|false|false|false|false|false|false|NN
+supports	others	support|audiofil|differ|false|false|false|false|false|false|false|false|false|VBZ
+different	others	differ|support|type|false|false|false|false|false|false|false|false|false|JJ
+types	others	type|differ|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+of	others	of|_start_|audio|false|false|false|false|false|false|false|false|false|IN
+audio	others	audio|of|hardwar|false|false|false|false|false|false|false|false|false|JJ
+hardware	others	hardwar|audio|while|false|false|false|false|false|false|false|false|false|NN
+while	others	while|hardwar|present|false|false|false|false|false|false|false|false|false|IN
+presenting	others	present|while|a|false|false|false|false|false|false|false|false|false|VBG
+a	others	a|present|consist|false|false|false|false|false|false|false|false|false|DT
+consistent	others	consist|a|interfac|false|false|false|false|false|false|false|false|false|JJ
+interface	others	interfac|consist|to|false|false|false|false|false|false|false|false|false|NN
+to	others	to|interfac|_end_|false|false|false|false|false|false|false|false|false|TO
+
+client	others	client|_start_|program|false|false|false|false|false|false|false|false|false|NN
+programs	others	program|client|the|false|false|false|false|false|false|false|false|false|NNS
+The	others	the|program|audiofil|true|false|false|false|false|false|false|false|false|DT
+AudioFile	others	audiofil|the|server|false|false|false|false|false|false|false|false|false|NNP
+server	others	server|audiofil|now|false|false|false|false|false|false|false|false|false|NN
+now	others	now|server|support|false|false|false|false|false|false|false|false|true|RB
+supports	others	support|now|four|false|false|false|false|false|false|false|false|false|VBZ
+four	others	four|support|differ|false|false|false|false|false|false|false|false|false|CD
+different	others	differ|four|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+audio	others	audio|_start_|interfac|false|false|false|false|false|false|false|false|false|JJ
+interface	others	interfac|audio|peripher|false|false|false|false|false|false|false|false|false|NN
+peripherals	others	peripher|interfac|and|false|false|false|false|false|false|false|false|false|NNS
+and	others	and|peripher|two|false|false|false|false|false|false|false|false|false|CC
+two	others	two|and|comput|false|false|false|false|false|false|false|false|false|CD
+computer	others	comput|two|architectur|false|false|false|false|false|false|false|false|false|NN
+architectures	others	architectur|comput|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+Examples	others	exampl|_start_|of|true|false|false|false|false|false|false|false|false|NNS
+of	others	of|exampl|exist|false|false|false|false|false|false|false|false|false|IN
+existing	others	exist|of|applic|false|false|false|false|false|false|false|false|false|VBG
+applications	others	applic|exist|us|false|false|false|false|false|false|false|false|false|NNS
+using	others	us|applic|audiofil|false|false|false|false|false|false|false|false|false|VBG
+AudioFile	others	audiofil|us|be|false|false|false|false|false|false|false|false|false|NNP
+are	others	be|audiofil|audio\/video|false|false|false|false|false|false|false|false|false|VBP
+audio\/video	others	audio\/video|be|_end_|false|false|false|false|false|false|false|false|false|IN
+
+teleconferencing	others	teleconferenc|_start_|multi-media|false|false|false|false|false|false|false|false|false|NN
+multi-media	others	multi-media|teleconferenc|databas|false|false|false|false|false|false|false|false|false|NN
+database	others	databas|multi-media|multi-media|false|false|false|false|false|false|false|false|false|NN
+multi-media	others	multi-media|databas|mail|false|false|false|false|false|false|false|false|false|JJ
+mail	others	mail|multi-media|telephon|false|false|false|false|false|false|false|false|false|NN
+telephone	others	telephon|mail|_end_|false|false|false|false|false|false|false|false|false|NN
+
+control	others	control|_start_|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|control|a|false|false|false|false|false|false|false|false|false|CC
+a	others	a|and|person|false|false|false|false|false|false|false|false|false|DT
+personalized	others	person|a|messag|false|false|false|false|false|false|false|false|false|JJ
+message	others	messag|person|desk|false|false|false|false|false|false|false|false|false|NN
+desk	others	desk|messag|audiofil|false|false|false|false|false|false|false|false|false|NN
+AudioFile	others	audiofil|desk|will|false|false|false|false|false|false|false|false|false|NNP
+will	others	will|audiofil|be|false|false|false|false|false|false|false|false|false|MD
+be	others	be|will|a|false|false|false|false|false|false|false|false|false|VB
+a	others	a|be|compon|false|false|false|false|false|false|false|false|false|DT
+component	others	compon|a|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|compon|_end_|false|false|false|false|false|false|false|false|false|IN
+
+further	others	further|_start_|research|false|false|false|false|false|false|false|false|false|RB
+research	others	research|further|in|false|false|false|false|false|false|false|false|false|NN
+in	others	in|research|support|false|false|false|false|false|false|false|false|false|IN
+support	others	support|in|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|support|collabor|false|false|false|false|false|false|false|false|false|IN
+collaborative	others	collabor|of|work|false|false|false|false|false|false|false|false|false|JJ
+work	others	work|collabor|telecommut|false|false|false|false|false|false|false|false|false|NN
+telecommuting	others	telecommut|work|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|telecommut|_end_|false|false|false|false|false|false|false|false|false|CC
+
+multi-media	others	multi-media|_start_|in|false|false|false|false|false|false|false|false|false|JJ
+in	others	in|multi-media|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|in|offic|false|false|false|false|false|false|false|false|false|DT
+office	others	offic|the|environ|false|false|false|false|false|false|false|false|false|NN
+environment	others	environ|offic|_end_|false|false|false|false|false|false|false|false|false|NN
+
+ABOUT	others	about|_start_|the|false|true|false|true|false|false|false|false|false|IN
+THE	others	the|about|speaker|false|true|false|true|false|false|false|false|false|DT
+SPEAKER	others	speaker|the|lawrenc|false|true|false|true|false|false|false|false|false|NN
+Lawrence	speaker	lawrenc|speaker|c.|true|false|false|false|false|true|false|false|false|NNP
+C.	speaker	c.|lawrenc|stewart|false|false|false|false|false|true|false|false|false|NNP
+Stewart	speaker	stewart|c.|be|true|false|false|false|false|true|false|false|false|NNP
+is	others	be|stewart|a|false|false|false|false|false|false|false|false|false|VBZ
+a	others	a|be|consult|false|false|false|false|false|false|false|false|false|DT
+Consultant	others	consult|a|engin|true|false|false|false|false|false|false|false|false|NN
+Engineer	others	engin|consult|at|true|false|false|false|false|false|false|false|false|NN
+at	others	at|engin|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|at|digit|false|false|false|false|false|false|false|false|false|DT
+Digital	others	digit|the|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Equipment	others	equip|_start_|corpor|true|false|false|false|false|false|false|false|false|NNP
+Corporation	others	corpor|equip|'s|true|false|false|false|false|false|false|false|false|NNP
+'s	others	's|corpor|cambridg|false|false|false|false|false|false|false|false|false|POS
+Cambridge	others	cambridg|'s|research|true|false|false|false|false|false|false|false|false|NNP
+Research	others	research|cambridg|laboratori|true|false|false|false|false|false|false|false|false|NNP
+Laboratory	others	laboratori|research|he|true|false|false|false|false|false|false|false|false|NNP
+He	others	he|laboratori|hold|true|false|false|false|false|false|false|false|false|PRP
+holds	others	hold|he|a|false|false|false|false|false|false|false|false|false|VBZ
+a	others	a|hold|bachelor|false|false|false|false|false|false|false|false|false|DT
+Bachelor	others	bachelor|a|'s|true|false|false|false|false|false|false|false|false|NN
+'s	others	's|bachelor|_end_|false|false|false|false|false|false|false|false|false|POS
+
+degree	others	degre|_start_|from|false|false|false|false|false|false|false|false|false|NN
+from	others	from|degre|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|from|massachusett|false|false|false|false|false|false|false|false|false|DT
+Massachusetts	others	massachusett|the|institut|true|false|false|false|false|false|false|false|false|NNP
+Institute	others	institut|massachusett|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|institut|technolog|false|false|false|false|false|false|false|false|false|IN
+Technology	others	technolog|of|and|true|false|false|false|false|false|false|false|false|NNP
+and	others	and|technolog|master|false|false|false|false|false|false|false|false|false|CC
+Master	others	master|and|'s|true|false|false|false|false|true|false|false|false|NNP
+'s	others	's|master|and|false|false|false|false|false|false|false|false|false|POS
+and	others	and|'s|ph.d.|false|false|false|false|false|false|false|false|false|CC
+Ph.D.	others	ph.d.|and|_end_|false|false|false|false|false|true|false|false|false|NNP
+
+degrees	others	degre|_start_|from|false|false|false|false|false|false|false|false|false|NNS
+from	others	from|degre|stanford|false|false|false|false|false|false|false|false|false|IN
+Stanford	others	stanford|from|univers|true|false|false|false|false|false|false|false|false|NNP
+University	others	univers|stanford|all|true|false|false|false|false|false|false|false|false|NNP
+all	others	all|univers|in|false|false|false|false|false|false|false|false|false|DT
+in	others	in|all|electr|false|false|false|false|false|false|false|false|false|IN
+Electrical	others	electr|in|engin|true|false|false|false|false|false|false|false|false|JJ
+Engineering	others	engin|electr|he|true|false|false|false|false|false|false|false|false|NNP
+His	others	he|engin|interest|true|false|false|false|false|false|false|false|false|PRP$
+interests	others	interest|he|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+are	others	be|_start_|in|false|false|false|false|false|false|false|false|false|VBP
+in	others	in|be|processor|false|false|false|false|false|false|false|false|false|IN
+processors	others	processor|in|memori|false|false|false|false|false|false|false|false|false|NNS
+memory	others	memori|processor|system|false|false|false|false|false|false|false|false|false|NN
+systems	others	system|memori|speech|false|false|false|false|false|false|false|false|false|NNS
+speech	others	speech|system|technolog|false|false|false|false|false|false|false|false|false|NN
+technology	others	technolog|speech|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|technolog|multimedia|false|false|false|false|false|false|false|false|false|CC
+multimedia	others	multimedia|and|_end_|false|false|false|false|false|false|false|false|false|NNS
+

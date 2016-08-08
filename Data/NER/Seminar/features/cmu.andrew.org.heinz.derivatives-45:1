@@ -1,0 +1,68 @@
+Type	others	type|_start_|cmu.andrew.org|true|false|false|false|false|false|false|false|false|NN
+cmu.andrew.org	others	cmu.andrew.org|type|heinz|false|false|false|false|false|false|false|false|false|NN
+heinz	others	heinz|cmu.andrew.org|deriv|false|false|false|false|false|false|false|false|false|NN
+derivatives	others	deriv|heinz|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+Topic	others	topic|_start_|mock|true|false|false|false|false|false|false|false|false|NN
+Mock	others	mock|topic|present|true|false|false|false|false|false|false|false|false|NNP
+Presentation	others	present|mock|and|true|false|false|false|false|false|false|false|false|NN
+and	others	and|present|meet|false|false|false|false|false|false|false|false|false|CC
+Meeting	others	meet|and|with|true|false|false|false|false|false|false|false|false|VBG
+with	others	with|meet|mr.|false|false|false|false|false|false|false|false|false|IN
+Mr.	speaker	mr.|with|okada|false|false|false|false|false|true|false|false|false|NNP
+Okada	speaker	okada|mr.|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+Dates	others	date|_start_|26-oct-94|true|false|false|false|false|false|false|false|false|NNS
+26-Oct-94	others	26-oct-94|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|1:30|true|false|false|false|false|false|false|false|false|NNP
+1:30	stime	1:30|time|pm|false|false|false|false|false|false|false|false|false|CD
+PM	stime	pm|1:30|_end_|false|true|false|true|false|false|false|false|false|NN
+
+PostedBy	others	postedbi|_start_|rath|false|false|false|false|true|false|false|false|false|NNP
+Rath	others	rath|postedbi|dhnadirek|true|false|false|false|false|true|false|false|false|NNP
+Dhnadirek	others	dhnadirek|rath|on|true|false|false|false|false|true|false|false|false|NNP
+on	others	on|dhnadirek|24-oct-94|false|false|false|false|false|false|false|false|false|IN
+24-Oct-94	others	24-oct-94|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|24-oct-94|17:06|false|false|false|false|false|false|false|false|false|IN
+17:06	others	17:06|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|17:06|andrew.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+andrew.cmu.edu	others	andrew.cmu.edu|from|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+Dear	others	dear|_start_|all|true|false|false|false|false|false|false|false|false|NNP
+All	others	all|dear|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Our	others	we|_start_|privat|true|false|false|false|false|false|false|false|false|PRP$
+private	others	privat|we|meet|false|false|false|false|false|false|false|false|false|JJ
+meeting	others	meet|privat|with|false|false|false|false|false|false|false|false|false|NN
+with	others	with|meet|mr.|false|false|false|false|false|false|false|false|false|IN
+Mr.	speaker	mr.|with|okada|false|false|false|false|false|true|false|false|false|NNP
+Okada	speaker	okada|mr.|on|true|false|false|false|false|true|false|false|false|NNP
+on	others	on|okada|wednesdai|false|false|false|false|false|false|false|false|false|IN
+Wednesday	others	wednesdai|on|will|true|false|false|false|false|false|false|false|true|NNP
+will	others	will|wednesdai|be|false|false|false|false|false|false|false|false|false|MD
+be	others	be|will|at|false|false|false|false|false|false|false|false|false|VB
+at	others	at|be|1:30|false|false|false|false|false|false|false|false|false|IN
+1:30	stime	1:30|at|pm|false|false|false|false|false|false|false|false|false|CD
+pm	stime	pm|1:30|in|false|false|false|false|false|false|false|false|false|NN
+in	others	in|pm|_end_|false|false|false|false|false|false|false|false|false|IN
+
+room	location	room|_start_|2110|false|false|false|false|false|false|false|false|false|NN
+2110	location	2110|room|thi|false|false|false|false|false|false|false|false|true|CD
+This	others	thi|2110|be|true|false|false|false|false|false|false|false|false|DT
+is	others	be|thi|also|false|false|false|false|false|false|false|false|false|VBZ
+also	others	also|be|veri|false|false|false|false|false|false|false|false|false|RB
+very	others	veri|also|import|false|false|false|false|false|false|false|false|false|RB
+important	others	import|veri|we|false|false|false|false|false|false|false|false|false|JJ
+We	others	we|import|should|true|false|false|false|false|false|false|false|false|PRP
+should	others	should|we|-lrb-|false|false|false|false|false|false|false|false|false|MD
+-LRB-	others	-lrb-|should|must|false|false|false|false|false|false|false|false|false|-LRB-
+must	others	must|-lrb-|-rrb-|false|false|false|false|false|false|false|false|false|MD
+-RRB-	others	-rrb-|must|all|false|false|false|false|false|false|false|false|false|-RRB-
+all	others	all|-rrb-|attend|false|false|false|false|false|false|false|false|false|DT
+attend	others	attend|all|_end_|false|false|false|false|false|false|false|false|false|VB
+
+Rath	others	rath|_start_|_end_|true|false|false|false|false|false|false|false|false|NN
+

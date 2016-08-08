@@ -1,0 +1,59 @@
+Type	others	type|_start_|cmu|true|false|false|false|false|false|false|false|false|NN
+cmu	others	cmu|type|c|false|false|false|false|false|false|false|false|false|NN
+cs	others	c|cmu|proj|false|false|false|false|false|false|false|false|false|NNS
+proj	others	proj|c|speech|false|false|false|false|false|false|false|false|false|NN
+speech	others	speech|proj|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Topic	others	topic|_start_|talk|true|false|false|false|false|false|false|false|false|NN
+talk	others	talk|topic|tomorrow|false|false|false|false|false|false|false|false|false|NN
+tomorrow	others	tomorrow|talk|_end_|false|false|false|false|false|false|false|false|true|NN
+
+Dates	others	date|_start_|25-may-93|true|false|false|false|false|false|false|false|false|NNS
+25-May-93	others	25-may-93|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|12:00|true|false|false|false|false|false|false|false|false|NNP
+12:00	stime	12:00|time|1:00|false|false|false|false|false|false|true|false|false|CD
+1:00	etime	1:00|12:00|_end_|false|false|false|false|false|false|false|true|false|CD
+
+PostedBy	others	postedbi|_start_|rm|false|false|false|false|true|false|false|false|false|NNP
+rms	others	rm|postedbi|on|false|false|false|false|false|false|false|false|false|NNS
+on	others	on|rm|24-may-93|false|false|false|false|false|false|false|false|false|IN
+24-May-93	others	24-may-93|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|24-may-93|12:57|false|false|false|false|false|false|false|false|false|IN
+12:57	others	12:57|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|12:57|speech1|false|false|false|false|false|false|false|false|false|IN
+SPEECH1	others	speech1|from|cs.cmu.edu|false|false|false|false|false|false|false|false|false|NN
+CS.CMU.EDU	others	cs.cmu.edu|speech1|-lrb-|false|false|false|false|false|false|false|false|false|NN
+-LRB-	others	-lrb-|cs.cmu.edu|richard|false|false|false|false|false|false|false|false|false|-LRB-
+Richard	others	richard|-lrb-|stern|true|false|false|false|false|true|false|false|false|NNP
+Stern	others	stern|richard|-rrb-|true|false|false|false|false|true|false|false|false|NNP
+-RRB-	others	-rrb-|stern|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+Nobutoshi	speaker	nobutoshi|_start_|hanai|true|false|false|false|false|true|false|false|false|NNP
+Hanai	speaker	hanai|nobutoshi|will|true|false|false|false|false|true|false|false|false|NNP
+will	others	will|hanai|present|false|false|false|false|false|false|false|false|false|MD
+present	others	present|will|a|false|false|false|false|false|false|false|false|false|VB
+a	others	a|present|talk|false|false|false|false|false|false|false|false|false|DT
+talk	others	talk|a|entitl|false|false|false|false|false|false|false|false|false|NN
+entitled	others	entitl|talk|_end_|false|false|false|false|false|false|false|false|false|VBN
+
+Speech	others	speech|_start_|recognit|true|false|false|false|false|false|false|false|false|NN
+Recognition	others	recognit|speech|in|true|false|false|false|false|false|false|false|false|NN
+in	others	in|recognit|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|in|automobil|false|false|false|false|false|false|false|false|false|DT
+Automobile	others	automobil|the|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+which	others	which|_start_|be|false|false|false|false|false|false|false|false|false|WDT
+is	others	be|which|the|false|false|false|false|false|false|false|false|false|VBZ
+the	others	the|be|subject|false|false|false|false|false|false|false|false|false|DT
+subject	others	subject|the|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|subject|he|false|false|false|false|false|false|false|false|false|IN
+his	others	he|of|recently-complet|false|false|false|false|false|false|false|false|false|PRP$
+recently-completed	others	recently-complet|he|m.s.|false|false|false|false|false|false|false|false|false|JJ
+M.S.	others	m.s.|recently-complet|here|false|false|false|false|false|true|false|false|false|NNP
+here	others	here|m.s.|at|false|false|false|false|false|false|false|false|false|RB
+at	others	at|here|cmu|false|false|false|false|false|false|false|false|false|IN
+CMU	others	cmu|at|_end_|false|true|false|true|false|false|false|false|false|NNP
+

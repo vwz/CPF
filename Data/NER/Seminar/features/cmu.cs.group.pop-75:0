@@ -1,0 +1,280 @@
+Type	others	type|_start_|cmu|true|false|false|false|false|false|false|false|false|NN
+cmu	others	cmu|type|c|false|false|false|false|false|false|false|false|false|NN
+cs	others	c|cmu|group|false|false|false|false|false|false|false|false|false|NNS
+group	others	group|c|pop|false|false|false|false|false|false|false|false|false|NN
+pop	others	pop|group|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Topic	others	topic|_start_|pop|true|false|false|false|false|false|false|false|false|NN
+POP	others	pop|topic|seminar|false|true|false|true|false|false|false|false|false|NNP
+Seminar	others	seminar|pop|feb|true|false|false|false|false|false|false|false|false|NNP
+Feb	others	feb|seminar|5|true|false|false|false|false|false|false|false|false|NNP
+5	others	5|feb|_end_|false|false|false|false|false|false|false|false|true|CD
+
+Dates	others	date|_start_|5-feb-93|true|false|false|false|false|false|false|false|false|NNS
+5-Feb-93	others	5-feb-93|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|3:00|true|false|false|false|false|false|false|false|false|NNP
+3:00	stime	3:00|time|pm|false|false|false|false|false|false|false|false|false|CD
+PM	stime	pm|3:00|4:00|false|true|false|true|false|false|true|false|false|NN
+4:00	etime	4:00|pm|pm|false|false|false|false|false|false|false|true|false|CD
+PM	etime	pm|4:00|_end_|false|true|false|true|false|false|false|false|false|NN
+
+PostedBy	others	postedbi|_start_|fp|false|false|false|false|true|false|false|false|false|NNP
+fp	others	fp|postedbi|on|false|false|false|false|false|false|false|false|false|NN
+on	others	on|fp|2-feb-93|false|false|false|false|false|false|false|false|false|IN
+2-Feb-93	others	2-feb-93|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|2-feb-93|16:36|false|false|false|false|false|false|false|false|false|IN
+16:36	others	16:36|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|16:36|cs.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+cs.cmu.edu	others	cs.cmu.edu|from|-lrb-|false|false|false|false|false|false|false|false|false|NN
+-LRB-	others	-lrb-|cs.cmu.edu|frank|false|false|false|false|false|false|false|false|false|-LRB-
+Frank	others	frank|-lrb-|pfen|true|false|false|false|false|true|false|false|false|NNP
+Pfenning	others	pfen|frank|-rrb-|true|false|false|false|false|true|false|false|false|NNP
+-RRB-	others	-rrb-|pfen|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+Alex	speaker	alex|_start_|aiken|true|false|false|false|false|true|false|false|false|NNP
+Aiken	speaker	aiken|alex|will|true|false|false|false|false|true|false|false|false|NNP
+will	others	will|aiken|be|false|false|false|false|false|false|false|false|false|MD
+be	others	be|will|here|false|false|false|false|false|false|false|false|false|VB
+here	others	here|be|the|false|false|false|false|false|false|false|false|false|RB
+the	others	the|here|whole|false|false|false|false|false|false|false|false|true|DT
+whole	others	whole|the|dai|false|false|false|false|false|false|false|false|true|JJ
+day	others	dai|whole|fridai|false|false|false|false|false|false|false|false|true|NN
+Friday	others	fridai|dai|if|true|false|false|false|false|false|false|false|true|NNP
+If	others	if|fridai|you|true|false|false|false|false|false|false|false|false|IN
+you	others	you|if|would|false|false|false|false|false|false|false|false|false|PRP
+would	others	would|you|like|false|false|false|false|false|false|false|false|false|MD
+like	others	like|would|to|false|false|false|false|false|false|false|false|false|VB
+to	others	to|like|talk|false|false|false|false|false|false|false|false|false|TO
+talk	others	talk|to|to|false|false|false|false|false|false|false|false|false|VB
+to	others	to|talk|_end_|false|false|false|false|false|false|false|false|false|TO
+
+him	others	he|_start_|pleas|false|false|false|false|false|false|false|false|false|PRP
+please	others	pleas|he|contact|false|false|false|false|false|false|false|false|false|VB
+contact	others	contact|pleas|nevin|false|false|false|false|false|false|false|false|false|NN
+Nevin	others	nevin|contact|heintz|true|false|false|false|false|true|false|false|false|NNP
+Heintze	others	heintz|nevin|frank|true|false|false|false|false|true|false|false|false|NNP
+Frank	others	frank|heintz|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+
+POP	others	pop|_start_|seminar|false|true|false|true|false|false|false|false|false|NNP
+SEMINAR	others	seminar|pop|_end_|false|true|false|true|false|false|false|false|false|NN
+
+Friday	others	fridai|_start_|feb|true|false|false|false|false|false|false|false|true|NNP
+Feb	others	feb|fridai|5|true|false|false|false|false|false|false|false|false|NNP
+5	others	5|feb|1993|false|false|false|false|false|false|false|false|true|CD
+1993	others	1993|5|_end_|false|false|false|false|false|false|false|false|true|CD
+
+Type	others	type|_start_|infer|true|false|false|false|false|false|false|false|false|NN
+Inference	others	infer|type|with|true|false|false|false|false|false|false|false|false|NN
+with	others	with|infer|set|false|false|false|false|false|false|false|false|false|IN
+Set	others	set|with|constraint|true|false|false|false|false|false|false|false|false|NNP
+Constraints	others	constraint|set|_end_|true|false|false|false|false|false|false|false|false|NNS
+
+Alex	speaker	alex|_start_|aiken|true|false|false|false|false|true|false|false|false|NNP
+Aiken	speaker	aiken|alex|-lrb-|true|false|false|false|false|true|false|false|false|NNP
+-LRB-	others	-lrb-|aiken|ibm|false|false|false|false|false|false|false|false|false|-LRB-
+IBM	others	ibm|-lrb-|almaden|false|true|false|true|false|false|false|false|false|NNP
+Almaden	others	almaden|ibm|-rrb-|true|false|false|false|false|false|false|false|false|NNP
+-RRB-	others	-rrb-|almaden|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+Set	others	set|_start_|constraint|true|false|false|false|false|false|false|false|false|NN
+constraints	others	constraint|set|be|false|false|false|false|false|false|false|false|false|NNS
+are	others	be|constraint|a|false|false|false|false|false|false|false|false|false|VBP
+a	others	a|be|simpl|false|false|false|false|false|false|false|false|false|DT
+simple	others	simpl|a|extens|false|false|false|false|false|false|false|false|false|JJ
+extension	others	extens|simpl|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|extens|standard|false|false|false|false|false|false|false|false|false|IN
+standard	others	standard|of|type|false|false|false|false|false|false|false|false|false|JJ
+type	others	type|standard|languag|false|false|false|false|false|false|false|false|false|NN
+languages	others	languag|type|in|false|false|false|false|false|false|false|false|false|NNS
+In	others	in|languag|_end_|true|false|false|false|false|false|false|false|false|IN
+
+addition	others	addit|_start_|to|false|false|false|false|false|false|false|false|false|NN
+to	others	to|addit|the|false|false|false|false|false|false|false|false|false|TO
+the	others	the|to|usual|false|false|false|false|false|false|false|false|false|DT
+usual	others	usual|the|type|false|false|false|false|false|false|false|false|false|JJ
+type	others	type|usual|constructor|false|false|false|false|false|false|false|false|false|NN
+constructors	others	constructor|type|set|false|false|false|false|false|false|false|false|false|NNS
+set	others	set|constructor|constraint|false|false|false|false|false|false|false|false|false|VBN
+constraints	others	constraint|set|add|false|false|false|false|false|false|false|false|false|NNS
+add	others	add|constraint|the|false|false|false|false|false|false|false|false|false|VBP
+the	others	the|add|set|false|false|false|false|false|false|false|false|false|DT
+set	others	set|the|_end_|false|false|false|false|false|false|false|false|false|NN
+
+operations	others	oper|_start_|-lrb-|false|false|false|false|false|false|false|false|false|NNS
+-LRB-	others	-lrb-|oper|union|false|false|false|false|false|false|false|false|false|-LRB-
+union	others	union|-lrb-|intersect|false|false|false|false|false|false|false|false|false|NN
+intersection	others	intersect|union|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|intersect|a|false|false|false|false|false|false|false|false|false|CC
+a	others	a|and|kind|false|false|false|false|false|false|false|false|false|DT
+kind	others	kind|a|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|kind|negat|false|false|false|false|false|false|false|false|false|IN
+negation	others	negat|of|-rrb-|false|false|false|false|false|false|false|false|false|NN
+-RRB-	others	-rrb-|negat|and|false|false|false|false|false|false|false|false|false|-RRB-
+and	others	and|-rrb-|_end_|false|false|false|false|false|false|false|false|false|CC
+
+constraints	others	constraint|_start_|of|false|false|false|false|false|false|false|false|false|NNS
+of	others	of|constraint|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|of|form|false|false|false|false|false|false|false|false|false|DT
+form	others	form|the|x|false|false|false|false|false|false|false|false|false|NN
+X	others	x|form|be|false|false|true|true|false|false|false|false|false|NN
+is	others	be|x|a|false|false|false|false|false|false|false|false|false|VBZ
+a	others	a|be|subset|false|false|false|false|false|false|false|false|false|DT
+subset	others	subset|a|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|subset|y|false|false|false|false|false|false|false|false|false|IN
+Y	others	y|of|thi|false|false|true|true|false|false|false|false|false|NN
+This	others	thi|y|combin|true|false|false|false|false|false|false|false|false|DT
+combination	others	combin|thi|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|combin|_end_|false|false|false|false|false|false|false|false|false|IN
+
+inclusion	others	inclus|_start_|constraint|false|false|false|false|false|false|false|false|false|NN
+constraints	others	constraint|inclus|and|false|false|false|false|false|false|false|false|false|NNS
+and	others	and|constraint|set|false|false|false|false|false|false|false|false|false|CC
+set	others	set|and|oper|false|false|false|false|false|false|false|false|false|VBN
+operations	others	oper|set|make|false|false|false|false|false|false|false|false|false|NNS
+makes	others	make|oper|it|false|false|false|false|false|false|false|false|false|VBZ
+it	others	it|make|possibl|false|false|false|false|false|false|false|false|false|PRP
+possible	others	possibl|it|to|false|false|false|false|false|false|false|false|false|JJ
+to	others	to|possibl|devis|false|false|false|false|false|false|false|false|false|TO
+devise	others	devis|to|_end_|false|false|false|false|false|false|false|false|false|VB
+
+some	others	some|_start_|veri|false|false|false|false|false|false|false|false|false|DT
+very	others	veri|some|power|false|false|false|false|false|false|false|false|false|RB
+powerful	others	power|veri|type|false|false|false|false|false|false|false|false|false|JJ
+type	others	type|power|system|false|false|false|false|false|false|false|false|false|NN
+systems	others	system|type|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+In	others	in|_start_|thi|true|false|false|false|false|false|false|false|false|IN
+this	others	thi|in|talk|false|false|false|false|false|false|false|false|false|DT
+talk	others	talk|thi|we|false|false|false|false|false|false|false|false|false|NN
+we	others	we|talk|present|false|false|false|false|false|false|false|false|false|PRP
+present	others	present|we|on|false|false|false|false|false|false|false|false|false|VBP
+one	others	on|present|such|false|false|false|false|false|false|false|false|false|CD
+such	others	such|on|set|false|false|false|false|false|false|false|false|false|JJ
+set	others	set|such|constraint|false|false|false|false|false|false|false|false|false|VBN
+constraint	others	constraint|set|type|false|false|false|false|false|false|false|false|false|NN
+type	others	type|constraint|system|false|false|false|false|false|false|false|false|false|NN
+system	others	system|type|for|false|false|false|false|false|false|false|false|false|NN
+for	others	for|system|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|for|_end_|false|false|false|false|false|false|false|false|false|DT
+
+lambda	others	lambda|_start_|calculu|false|false|false|false|false|false|false|false|false|NN
+calculus	others	calculu|lambda|thi|false|false|false|false|false|false|false|false|false|NN
+This	others	thi|calculu|system|true|false|false|false|false|false|false|false|false|DT
+system	others	system|thi|have|false|false|false|false|false|false|false|false|false|NN
+has	others	have|system|some|false|false|false|false|false|false|false|false|false|VBZ
+some	others	some|have|interest|false|false|false|false|false|false|false|false|false|DT
+interesting	others	interest|some|properti|false|false|false|false|false|false|false|false|false|JJ
+properties	others	properti|interest|first|false|false|false|false|false|false|false|false|false|NNS
+first	others	first|properti|_end_|false|false|false|false|false|false|false|false|false|RB
+
+every	others	everi|_start_|pure|false|false|false|false|false|false|false|false|false|DT
+pure	others	pure|everi|lambda|false|false|false|false|false|false|false|false|false|JJ
+lambda	others	lambda|pure|term|false|false|false|false|false|false|false|false|false|NN
+term	others	term|lambda|have|false|false|false|false|false|false|false|false|false|NN
+has	others	have|term|a|false|false|false|false|false|false|false|false|false|VBZ
+a	others	a|have|type|false|false|false|false|false|false|false|false|false|DT
+type	others	type|a|second|false|false|false|false|false|false|false|false|false|NN
+second	others	second|type|whenev|false|false|false|false|false|false|false|false|false|JJ
+whenever	others	whenev|second|a|false|false|false|false|false|false|false|false|false|WRB
+a	others	a|whenev|term|false|false|false|false|false|false|false|false|false|DT
+term	others	term|a|be|false|false|false|false|false|false|false|false|false|NN
+is	others	be|term|typabl|false|false|false|false|false|false|false|false|false|VBZ
+typable	others	typabl|be|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+in	others	in|_start_|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|in|hindley\/miln|false|false|false|false|false|false|false|false|false|DT
+Hindley\/Milner	others	hindley\/miln|the|type|false|false|false|false|false|false|false|false|false|NNP
+type	others	type|hindley\/miln|system|false|false|false|false|false|false|false|false|false|NN
+system	others	system|type|the|false|false|false|false|false|false|false|false|false|NN
+the	others	the|system|hindley\/miln|false|false|false|false|false|false|false|false|false|DT
+Hindley\/Milner	others	hindley\/miln|the|type|false|false|false|false|false|false|false|false|false|NNP
+type	others	type|hindley\/miln|be|false|false|false|false|false|false|false|false|false|NN
+is	others	be|type|a|false|false|false|false|false|false|false|false|false|VBZ
+an	others	a|be|_end_|false|false|false|false|false|false|false|false|false|DT
+
+instance	others	instanc|_start_|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|instanc|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|of|type|false|false|false|false|false|false|false|false|false|DT
+type	others	type|the|assign|false|false|false|false|false|false|false|false|false|NN
+assigned	others	assign|type|by|false|false|false|false|false|false|false|false|false|VBN
+by	others	by|assign|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|by|set|false|false|false|false|false|false|false|false|false|DT
+set	others	set|the|constraint|false|false|false|false|false|false|false|false|false|VBN
+constraint	others	constraint|set|type|false|false|false|false|false|false|false|false|false|NN
+type	others	type|constraint|system|false|false|false|false|false|false|false|false|false|NN
+system	others	system|type|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|system|_end_|false|false|false|false|false|false|false|false|false|CC
+
+third	others	third|_start_|the|false|false|false|false|false|false|false|false|false|JJ
+the	others	the|third|set|false|false|false|false|false|false|false|false|false|DT
+set	others	set|the|constraint|false|false|false|false|false|false|false|false|false|NN
+constraints	others	constraint|set|can|false|false|false|false|false|false|false|false|false|NNS
+can	others	can|constraint|be|false|false|false|false|false|false|false|false|false|MD
+be	others	be|can|solv|false|false|false|false|false|false|false|false|false|VB
+solved	others	solv|be|so|false|false|false|false|false|false|false|false|false|VBN
+so	others	so|solv|there|false|false|false|false|false|false|false|false|false|RB
+there	others	there|so|be|false|false|false|false|false|false|false|false|false|EX
+is	others	be|there|a|false|false|false|false|false|false|false|false|false|VBZ
+an	others	a|be|effect|false|false|false|false|false|false|false|false|false|DT
+effective	others	effect|a|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+type	others	type|_start_|infer|false|false|false|false|false|false|false|false|false|NN
+inference	others	infer|type|algorithm|false|false|false|false|false|false|false|false|false|NN
+algorithm	others	algorithm|infer|as|false|false|false|false|false|false|false|false|false|NN
+As	others	as|algorithm|time|true|false|false|false|false|false|false|false|false|IN
+time	others	time|as|permit|false|false|false|false|false|false|false|false|false|NN
+permits	others	permit|time|we|false|false|false|false|false|false|false|false|false|NNS
+we	others	we|permit|will|false|false|false|false|false|false|false|false|false|PRP
+will	others	will|we|also|false|false|false|false|false|false|false|false|false|MD
+also	others	also|will|make|false|false|false|false|false|false|false|false|false|RB
+make	others	make|also|some|false|false|false|false|false|false|false|false|false|VB
+some	others	some|make|_end_|false|false|false|false|false|false|false|false|false|DT
+
+comparisons	others	comparison|_start_|with|false|false|false|false|false|false|false|false|false|NNS
+with	others	with|comparison|other|false|false|false|false|false|false|false|false|false|IN
+other	others	other|with|type|false|false|false|false|false|false|false|false|false|JJ
+type	others	type|other|infer|false|false|false|false|false|false|false|false|false|NN
+inference	others	infer|type|system|false|false|false|false|false|false|false|false|false|NN
+systems	others	system|infer|and|false|false|false|false|false|false|false|false|false|NNS
+and	others	and|system|discuss|false|false|false|false|false|false|false|false|false|CC
+discuss	others	discuss|and|other|false|false|false|false|false|false|false|false|false|VB
+other	others	other|discuss|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+possible	others	possibl|_start_|applic|false|false|false|false|false|false|false|false|false|JJ
+applications	others	applic|possibl|of|false|false|false|false|false|false|false|false|false|NNS
+of	others	of|applic|set|false|false|false|false|false|false|false|false|false|IN
+set	others	set|of|constraint|false|false|false|false|false|false|false|false|false|VBN
+constraints	others	constraint|set|to|false|false|false|false|false|false|false|false|false|NNS
+to	others	to|constraint|program|false|false|false|false|false|false|false|false|false|TO
+program	others	program|to|analysi|false|false|false|false|false|false|false|false|false|NN
+analysis	others	analysi|program|the|false|false|false|false|false|false|false|false|false|NN
+The	others	the|analysi|talk|true|false|false|false|false|false|false|false|false|DT
+talk	others	talk|the|_end_|false|false|false|false|false|false|false|false|false|NN
+
+will	others	will|_start_|be|false|false|false|false|false|false|false|false|false|MD
+be	others	be|will|illustr|false|false|false|false|false|false|false|false|false|VB
+illustrated	others	illustr|be|with|false|false|false|false|false|false|false|false|false|VBN
+with	others	with|illustr|exampl|false|false|false|false|false|false|false|false|false|IN
+examples	others	exampl|with|take|false|false|false|false|false|false|false|false|false|NNS
+taken	others	take|exampl|from|false|false|false|false|false|false|false|false|false|VBN
+from	others	from|take|we|false|false|false|false|false|false|false|false|false|IN
+our	others	we|from|implement|false|false|false|false|false|false|false|false|false|PRP$
+implementation	others	implement|we|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|implement|a|false|false|false|false|false|false|false|false|false|IN
+a	others	a|of|_end_|false|false|false|false|false|false|false|false|false|DT
+
+type	others	type|_start_|infer|false|false|false|false|false|false|false|false|false|NN
+inference	others	infer|type|system|false|false|false|false|false|false|false|false|false|NN
+system	others	system|infer|base|false|false|false|false|false|false|false|false|false|NN
+based	others	base|system|on|false|false|false|false|false|false|false|false|false|VBN
+on	others	on|base|solv|false|false|false|false|false|false|false|false|false|IN
+solving	others	solv|on|system|false|false|false|false|false|false|false|false|false|VBG
+systems	others	system|solv|of|false|false|false|false|false|false|false|false|false|NNS
+of	others	of|system|set|false|false|false|false|false|false|false|false|false|IN
+set	others	set|of|constraint|false|false|false|false|false|false|false|false|false|NN
+constraints	others	constraint|set|_end_|false|false|false|false|false|false|false|false|false|NNS
+

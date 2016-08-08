@@ -1,0 +1,93 @@
+Type	others	type|_start_|cmu.andrew.org|true|false|false|false|false|false|false|false|false|NN
+cmu.andrew.org	others	cmu.andrew.org|type|heinz|false|false|false|false|false|false|false|false|false|NN
+heinz	others	heinz|cmu.andrew.org|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Topic	others	topic|_start_|fwd|true|false|false|false|false|false|false|false|false|NN
+Fwd	others	fwd|topic|graduat|true|false|false|false|false|false|false|false|false|NN
+Graduate	others	graduat|fwd|student|true|false|false|false|false|false|false|false|false|NNP
+Student	others	student|graduat|seminar|true|false|false|false|false|false|false|false|false|NNP
+Seminar	others	seminar|student|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Dates	others	date|_start_|10-mar-94|true|false|false|false|false|false|false|false|false|NNS
+10-Mar-94	others	10-mar-94|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|12:00|true|false|false|false|false|false|false|false|false|NNP
+12:00	stime	12:00|time|pm|false|false|false|false|false|false|false|false|false|CD
+PM	stime	pm|12:00|_end_|false|true|false|true|false|false|false|false|false|NN
+
+PostedBy	others	postedbi|_start_|sandi|false|false|false|false|true|false|false|false|false|NNP
+Sandy	others	sandi|postedbi|dai|true|false|false|false|false|false|false|false|false|NNP
+Day	others	dai|sandi|on|true|false|false|false|false|false|false|false|false|NNP
+on	others	on|dai|2-mar-94|false|false|false|false|false|false|false|false|false|IN
+2-Mar-94	others	2-mar-94|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|2-mar-94|10:11|false|false|false|false|false|false|false|false|false|IN
+10:11	others	10:11|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|10:11|andrew.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+andrew.cmu.edu	others	andrew.cmu.edu|from|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+The	others	the|_start_|next|true|false|false|false|false|false|false|false|false|DT
+next	others	next|the|graduat|false|false|false|false|false|false|false|false|false|JJ
+Graduate	others	graduat|next|student|true|false|false|false|false|false|false|false|false|NN
+Student	others	student|graduat|seminar|true|false|false|false|false|false|false|false|false|NN
+Seminar	others	seminar|student|titl|true|false|false|false|false|false|false|false|false|NN
+titled	others	titl|seminar|great|false|false|false|false|false|false|false|false|false|VBN
+Great	others	great|titl|expect|true|false|false|false|false|false|false|false|false|NNP
+Expectations	others	expect|great|chart|true|false|false|false|false|false|false|false|false|NNPS
+Charting	others	chart|expect|_end_|true|false|false|false|false|false|false|false|false|VBG
+
+an	others	a|_start_|academ|false|false|false|false|false|false|false|false|false|DT
+Academic	others	academ|a|career|true|false|false|false|false|false|false|false|false|NNP
+Career	others	career|academ|will|true|false|false|false|false|false|false|false|false|NNP
+will	others	will|career|be|false|false|false|false|false|false|false|false|false|MD
+be	others	be|will|hold|false|false|false|false|false|false|false|false|false|VB
+held	others	hold|be|at|false|false|false|false|false|false|false|false|false|VBN
+at	others	at|hold|noon|false|false|false|false|false|false|false|false|false|IN
+noon	others	noon|at|on|false|false|false|false|false|false|false|false|false|NN
+on	others	on|noon|thursdai|false|false|false|false|false|false|false|false|false|IN
+Thursday	others	thursdai|on|march|true|false|false|false|false|false|false|false|true|NNP
+March	others	march|thursdai|10|true|false|false|false|false|false|false|false|true|NNP
+10	others	10|march|in|false|false|false|false|false|false|false|false|true|CD
+in	others	in|10|skibo|false|false|false|false|false|false|false|false|false|IN
+Skibo	location	skibo|in|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+105-106	others	105-106|_start_|the|false|false|false|false|false|false|false|false|false|CD
+The	others	the|105-106|speaker|true|false|false|false|false|false|false|false|false|DT
+speakers	others	speaker|the|will|false|false|false|false|false|false|false|false|false|NNS
+will	others	will|speaker|be|false|false|false|false|false|false|false|false|false|MD
+be	others	be|will|rob|false|false|false|false|false|false|false|false|false|VB
+Rob	speaker	rob|be|rutenbar|true|false|false|false|false|true|false|false|false|NNP
+Rutenbar	speaker	rutenbar|rob|professor|true|false|false|false|false|true|false|false|false|NNP
+Professor	others	professor|rutenbar|of|true|false|false|false|false|true|false|false|false|NNP
+of	others	of|professor|electr|false|false|false|false|false|false|false|false|false|IN
+Electrical	others	electr|of|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+Engineering	others	engin|_start_|lester|true|false|false|false|false|false|false|false|false|NNP
+Lester	speaker	lester|engin|lave|true|false|false|false|false|true|false|false|false|NNP
+Lave	speaker	lave|lester|professor|true|false|false|false|false|true|false|false|false|NNP
+Professor	others	professor|lave|of|true|false|false|false|false|true|false|false|false|NNP
+of	others	of|professor|econom|false|false|false|false|false|false|false|false|false|IN
+Economics	others	econom|of|and|true|false|false|false|false|false|false|false|false|NNP
+and	others	and|econom|julia|false|false|false|false|false|false|false|false|false|CC
+Julia	speaker	julia|and|even|true|false|false|false|false|true|false|false|false|NNP
+Evens	speaker	even|julia|_end_|true|false|false|false|false|true|false|false|false|VBZ
+
+Post-Doctoral	others	post-doctor|_start_|associ|false|false|false|false|false|false|false|false|false|NNP
+Associate	others	associ|post-doctor|psycholog|true|false|false|false|false|false|false|false|false|NNP
+Psychology	others	psycholog|associ|pleas|true|false|false|false|false|false|false|false|false|NNP
+Please	others	pleas|psycholog|rsvp|true|false|false|false|false|false|false|false|false|VB
+RSVP	others	rsvp|pleas|for|false|true|false|true|false|false|false|false|false|NN
+for	others	for|rsvp|lunch|false|false|false|false|false|false|false|false|false|IN
+lunch	others	lunch|for|to|false|false|false|false|false|false|false|false|false|NN
+to	others	to|lunch|kj26|false|false|false|false|false|false|false|false|false|TO
+kj26	others	kj26|to|or|false|false|false|false|false|false|false|false|false|NN
+or	others	or|kj26|_end_|false|false|false|false|false|false|false|false|false|CC
+
+x8-7970	others	x8-7970|_start_|if|false|false|false|false|false|false|false|false|false|NN
+if	others	if|x8-7970|you|false|false|false|false|false|false|false|false|false|IN
+you	others	you|if|plan|false|false|false|false|false|false|false|false|false|PRP
+plan	others	plan|you|to|false|false|false|false|false|false|false|false|false|VBP
+to	others	to|plan|attend|false|false|false|false|false|false|false|false|false|TO
+attend	others	attend|to|_end_|false|false|false|false|false|false|false|false|false|VB
+

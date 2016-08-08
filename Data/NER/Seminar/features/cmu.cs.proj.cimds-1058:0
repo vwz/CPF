@@ -1,0 +1,93 @@
+Type	others	type|_start_|cmu|true|false|false|false|false|false|false|false|false|NN
+cmu	others	cmu|type|c|false|false|false|false|false|false|false|false|false|NN
+cs	others	c|cmu|proj|false|false|false|false|false|false|false|false|false|NNS
+proj	others	proj|c|cimd|false|false|false|false|false|false|false|false|false|NN
+cimds	others	cimd|proj|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+Topic	others	topic|_start_|special|true|false|false|false|false|false|false|false|false|NN
+Special	others	special|topic|seminar|true|false|false|false|false|false|false|false|false|JJ
+Seminar	others	seminar|special|_end_|true|false|false|false|false|false|false|false|false|NN
+
+Dates	others	date|_start_|29-nov-88|true|false|false|false|false|false|false|false|false|NNS
+29-Nov-88	others	29-nov-88|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|1:30|true|false|false|false|false|false|false|false|false|NNP
+1:30	stime	1:30|time|2:30|false|false|false|false|false|false|true|false|false|CD
+2:30	etime	2:30|1:30|_end_|false|false|false|false|false|false|false|true|false|CD
+
+Place	others	place|_start_|4623|true|false|false|false|false|false|false|false|false|NN
+4623	location	4623|place|wean|false|false|false|false|false|false|false|false|true|CD
+Wean	location	wean|4623|hall|true|false|false|false|false|false|false|false|false|NNP
+Hall	location	hall|wean|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+PostedBy	others	postedbi|_start_|stephen|false|false|false|false|true|false|false|false|false|NNP
+Stephen	others	stephen|postedbi|smith|true|false|false|false|false|true|false|false|false|NNP
+Smith	others	smith|stephen|on|true|false|false|false|false|true|false|false|false|NNP
+on	others	on|smith|28-nov-88|false|false|false|false|false|false|false|false|false|IN
+28-Nov-88	others	28-nov-88|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|28-nov-88|09:56|false|false|false|false|false|false|false|false|false|IN
+09:56	others	09:56|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|09:56|isl1|false|false|false|false|false|false|false|false|false|IN
+ISL1	others	isl1|from|ri.cmu.edu|false|false|false|false|false|false|false|false|false|NN
+RI.CMU.EDU	others	ri.cmu.edu|isl1|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+ABSTRACTION	others	abstract|_start_|and|false|true|false|true|false|false|false|false|false|NN
+AND	others	and|abstract|represent|false|true|false|true|false|false|false|false|false|CC
+REPRESENTATION	others	represent|and|of|false|true|false|true|false|false|false|false|false|NN
+OF	others	of|represent|robot|false|true|false|true|false|false|false|false|false|IN
+ROBOTIC	others	robot|of|task|false|true|false|true|false|false|false|false|false|JJ
+TASKS	others	task|robot|_end_|false|true|false|true|false|false|false|false|false|NNS
+
+McDonnell	others	mcdonnel|_start_|douglass|false|false|false|false|false|false|false|false|false|NNP
+Douglass	others	douglass|mcdonnel|research|true|false|false|false|false|false|false|false|false|NNP
+Research	others	research|douglass|laboratori|true|false|false|false|false|false|false|false|false|NNP
+Laboratories	others	laboratori|research|_end_|true|false|false|false|false|false|false|false|false|NNPS
+
+Date	others	date|_start_|tuesdai|true|false|false|false|false|false|false|false|false|NN
+Tuesday	others	tuesdai|date|novemb|true|false|false|false|false|false|false|false|true|NNP
+November	others	novemb|tuesdai|29|true|false|false|false|false|false|false|false|true|NNP
+29	others	29|novemb|_end_|false|false|false|false|false|false|false|false|true|CD
+
+Time	others	time|_start_|1:30|true|false|false|false|false|false|false|false|false|NNP
+1:30	stime	1:30|time|2:30|false|false|false|false|false|false|true|false|false|CD
+2:30	etime	2:30|1:30|_end_|false|false|false|false|false|false|false|true|false|CD
+
+Location	others	locat|_start_|4623|true|false|false|false|false|false|false|false|false|NNP
+4623	location	4623|locat|wean|false|false|false|false|false|false|false|false|true|CD
+Wean	location	wean|4623|hall|true|false|false|false|false|false|false|false|false|NNP
+Hall	location	hall|wean|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Abstract	others	abstract|_start_|will|true|false|false|false|false|false|false|false|false|JJ
+will	others	will|abstract|appear|false|false|false|false|false|false|false|false|false|MD
+appear	others	appear|will|later|false|false|false|false|false|false|false|false|false|VB
+later	others	later|appear|todai|false|false|false|false|false|false|false|false|true|RB
+today	others	todai|later|_end_|false|false|false|false|false|false|false|false|true|NN
+
+Anyone	others	anyon|_start_|wish|true|false|false|false|false|false|false|false|false|NN
+wishing	others	wish|anyon|to|false|false|false|false|false|false|false|false|false|VBG
+to	others	to|wish|meet|false|false|false|false|false|false|false|false|false|TO
+meet	others	meet|to|with|false|false|false|false|false|false|false|false|false|VB
+with	others	with|meet|dr.|false|false|false|false|false|false|false|false|false|IN
+Dr.	speaker	dr.|with|fox|false|false|false|false|false|true|false|false|false|NNP
+Fox	speaker	fox|dr.|either|true|false|false|false|false|true|false|false|false|NNP
+either	others	either|fox|on|false|false|false|false|false|false|false|false|false|RB
+on	others	on|either|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|on|afternoon|false|false|false|false|false|false|false|false|false|DT
+afternoon	others	afternoon|the|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|afternoon|mondai|false|false|false|false|false|false|false|false|false|IN
+Monday	others	mondai|of|the|true|false|false|false|false|false|false|false|true|NNP
+the	others	the|mondai|_end_|false|false|false|false|false|false|false|false|false|DT
+
+28th	others	28th|_start_|or|false|false|false|false|false|false|false|false|false|JJ
+or	others	or|28th|tuesdai|false|false|false|false|false|false|false|false|false|CC
+Tuesday	others	tuesdai|or|morn|true|false|false|false|false|false|false|false|true|NNP
+morning	others	morn|tuesdai|should|false|false|false|false|false|false|false|false|false|NN
+should	others	should|morn|contact|false|false|false|false|false|false|false|false|false|MD
+contact	others	contact|should|carol|false|false|false|false|false|false|false|false|false|VB
+Carol	others	carol|contact|pascarella|true|false|false|false|false|true|false|false|false|NNP
+Pascarella	others	pascarella|carol|at|true|false|false|false|false|true|false|false|false|NNP
+at	others	at|pascarella|x8818|false|false|false|false|false|false|false|false|false|IN
+x8818	others	x8818|at|_end_|false|false|false|false|false|false|false|false|false|CD
+

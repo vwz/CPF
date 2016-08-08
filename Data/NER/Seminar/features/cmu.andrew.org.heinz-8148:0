@@ -1,0 +1,154 @@
+Type	others	type|_start_|cmu.andrew.org|true|false|false|false|false|false|false|false|false|NN
+cmu.andrew.org	others	cmu.andrew.org|type|heinz|false|false|false|false|false|false|false|false|false|NN
+heinz	others	heinz|cmu.andrew.org|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Topic	others	topic|_start_|2\/16|true|false|false|false|false|false|false|false|false|NN
+2\/16	others	2\/16|topic|dist|false|false|false|false|false|false|false|false|false|CD
+Dist	others	dist|2\/16|lectur|true|false|false|false|false|false|false|false|false|NNP
+Lecture	others	lectur|dist|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Dates	others	date|_start_|16-feb-95|true|false|false|false|false|false|false|false|false|NNS
+16-Feb-95	others	16-feb-95|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|5:00|true|false|false|false|false|false|false|false|false|NNP
+5:00	stime	5:00|time|pm|false|false|false|false|false|false|false|false|false|CD
+PM	stime	pm|5:00|_end_|false|true|false|true|false|false|false|false|false|NNP
+
+PostedBy	others	postedbi|_start_|angela|false|false|false|false|true|false|false|false|false|NNP
+Angela	others	angela|postedbi|burrow|true|false|false|false|false|true|false|false|false|NNP
+Burrows	others	burrow|angela|on|true|false|false|false|false|true|false|false|false|NNP
+on	others	on|burrow|15-feb-95|false|false|false|false|false|false|false|false|false|IN
+15-Feb-95	others	15-feb-95|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|15-feb-95|14:15|false|false|false|false|false|false|false|false|false|IN
+14:15	others	14:15|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|14:15|andrew.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+andrew.cmu.edu	others	andrew.cmu.edu|from|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+
+To	others	to|_start_|civil|true|false|false|false|false|false|false|false|false|TO
+Civil	others	civil|to|engin|true|false|false|false|false|false|false|false|false|NNP
+Engineering	others	engin|civil|environment|true|false|false|false|false|false|false|false|false|NNP
+Environmental	others	environment|engin|seminar|true|false|false|false|false|false|false|false|false|NNP
+Seminar	others	seminar|environment|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Cc	others	cc|_start_|richard|true|false|false|false|false|false|false|false|false|NN
+Richard	others	richard|cc|florida|true|false|false|false|false|false|false|false|false|NNP
+Florida	others	florida|richard|timothi|true|false|false|false|false|false|false|false|false|NNP
+Timothy	others	timothi|florida|mcnulti|true|false|false|false|false|true|false|false|false|NNP
+McNulty	others	mcnulti|timothi|al|false|false|false|false|false|true|false|false|false|NNP
+Al	others	al|mcnulti|novak|true|false|false|false|false|true|false|false|false|NNP
+Novak	others	novak|al|vidic@civeng1.civ.pitt.edu;|true|false|false|false|false|true|false|false|false|NNP
+vidic@civeng1.civ.pitt.edu;	others	vidic@civeng1.civ.pitt.edu;|novak|_end_|false|false|false|false|false|false|false|false|false|NN
+
+pohland@civ.pitt.edu;	others	pohland@civ.pitt.edu;|_start_|neufeld@engrng.pitt.edu;|false|false|false|false|false|false|false|false|false|NN
+neufeld@engrng.pitt.edu;	others	neufeld@engrng.pitt.edu;|pohland@civ.pitt.edu;|edmund|false|false|false|false|false|false|false|false|false|NN
+Edmund	others	edmund|neufeld@engrng.pitt.edu;|j.|true|false|false|false|false|true|false|false|false|NNP
+J.	others	j.|edmund|delanei|false|false|false|false|false|true|false|false|false|NNP
+Delaney	others	delanei|j.|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+From	others	from|_start_|david|true|false|false|false|false|false|false|false|false|IN
+David	others	david|from|adam|true|false|false|false|false|true|false|false|false|NNP
+Adam	others	adam|david|dzombak|true|false|false|false|false|true|false|false|false|NNP
+Dzombak	others	dzombak|adam|on|true|false|false|false|false|true|false|false|false|NNP
+on	others	on|dzombak|tue|false|false|false|false|false|false|false|false|false|IN
+Tue	others	tue|on|feb|true|false|false|false|false|false|false|false|false|NNP
+Feb	others	feb|tue|14|true|false|false|false|false|false|false|false|true|NNP
+14	others	14|feb|1995|false|false|false|false|false|false|false|false|true|CD
+1995	others	1995|14|8:13|false|false|false|false|false|false|false|false|true|CD
+8:13	others	8:13|1995|am|false|false|false|false|false|false|false|false|false|CD
+AM	others	am|8:13|_end_|false|true|false|true|false|false|false|false|false|NNP
+
+Subject	others	subject|_start_|2\/16|true|false|false|false|false|false|false|false|false|NNP
+2\/16	others	2\/16|subject|dist|false|false|false|false|false|false|false|false|false|CD
+Dist	others	dist|2\/16|lectur|true|false|false|false|false|false|false|false|false|NNP
+Lecture	others	lectur|dist|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+1995	others	1995|_start_|distinguish|false|false|false|false|false|false|false|false|true|CD
+DISTINGUISHED	others	distinguish|1995|lectur|false|true|false|true|false|false|false|false|false|NNP
+LECTURE	others	lectur|distinguish|seri|false|true|false|true|false|false|false|false|false|NNP
+SERIES	others	seri|lectur|in|false|true|false|true|false|false|false|false|false|NNP
+IN	others	in|seri|_end_|false|true|false|true|false|false|false|false|false|IN
+
+ENVIRONMENTAL	others	environment|_start_|scienc|false|true|false|true|false|false|false|false|false|JJ
+SCIENCE	others	scienc|environment|technolog|false|true|false|true|false|false|false|false|false|NN
+TECHNOLOGY	others	technolog|scienc|and|false|true|false|true|false|false|false|false|false|NN
+AND	others	and|technolog|polici|false|true|false|true|false|false|false|false|false|CC
+POLICY	others	polici|and|_end_|false|true|false|true|false|false|false|false|false|NNP
+
+CMU	others	cmu|_start_|environment|false|true|false|true|false|false|false|false|false|NNP
+Environmental	others	environment|cmu|institut|true|false|false|false|false|false|false|false|false|NNP
+Institute	others	institut|environment|and|true|false|false|false|false|false|false|false|false|NNP
+and	others	and|institut|_end_|false|false|false|false|false|false|false|false|false|CC
+
+Center	others	center|_start_|for|true|false|false|false|false|false|false|false|false|NNP
+for	others	for|center|econom|false|false|false|false|false|false|false|false|false|IN
+Economic	others	econom|for|develop|true|false|false|false|false|false|false|false|false|NNP
+Development	others	develop|econom|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+in	others	in|_start_|partnership|false|false|false|false|false|false|false|false|false|IN
+partnership	others	partnership|in|with|false|false|false|false|false|false|false|false|false|NN
+with	others	with|partnership|_end_|false|false|false|false|false|false|false|false|false|IN
+
+Chester	others	chester|_start_|environment|true|false|false|false|false|false|false|false|false|NNP
+Environmental	others	environment|chester|inc.|true|false|false|false|false|false|false|false|false|NNP
+Inc.	others	inc.|environment|_end_|false|false|false|false|false|false|false|false|false|NNP
+
+and	others	and|_start_|the|false|false|false|false|false|false|false|false|false|CC
+the	others	the|and|howard|false|false|false|false|false|false|false|false|false|DT
+Howard	others	howard|the|heinz|true|false|false|false|false|false|false|false|false|NNP
+Heinz	others	heinz|howard|endow|true|false|false|false|false|false|false|false|false|NNP
+Endowment	others	endow|heinz|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+present	others	present|_start_|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+Vice	others	vice|_start_|presid|true|false|false|false|false|false|false|false|false|NNP
+President	others	presid|vice|and|true|false|false|false|false|false|false|false|false|NNP
+and	others	and|presid|senior|false|false|false|false|false|false|false|false|false|CC
+Senior	others	senior|and|fellow|true|false|false|false|false|false|false|false|false|NNP
+Fellow	others	fellow|senior|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Resources	others	resourc|_start_|for|true|false|false|false|false|false|false|false|false|NNPS
+for	others	for|resourc|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|for|futur|false|false|false|false|false|false|false|false|true|DT
+Future	others	futur|the|inc.|true|false|false|false|false|false|false|false|false|NNP
+Inc.	others	inc.|futur|_end_|false|false|false|false|false|false|false|false|false|NNP
+
+Washington	others	washington|_start_|d.c.|true|false|false|false|false|false|false|false|false|NNP
+D.C.	others	d.c.|washington|_end_|false|false|false|false|false|false|false|false|false|NNP
+
+speaking	others	speak|_start_|on|false|false|false|false|false|false|false|false|false|VBG
+on	others	on|speak|_end_|false|false|false|false|false|false|false|false|false|IN
+
+DO	others	do|_start_|environment|false|true|false|true|false|false|false|false|false|NNP
+ENVIRONMENTAL	others	environment|do|regul|false|true|false|true|false|false|false|false|false|JJ
+REGULATIONS	others	regul|environment|help|false|true|false|true|false|false|false|false|false|NNS
+HELP	others	help|regul|_end_|false|true|false|true|false|false|false|false|false|VBP
+
+OR	others	or|_start_|hinder|false|true|false|true|false|false|false|false|false|NN
+HINDER	others	hinder|or|u.s.|false|true|false|true|false|false|false|false|false|VBP
+U.S.	others	u.s.|hinder|competit|false|false|false|false|false|false|false|false|false|NNP
+COMPETITIVENESS	others	competit|u.s.|_end_|false|true|false|true|false|false|false|false|false|NNP
+
+THURSDAY	others	thursdai|_start_|februari|false|true|false|true|false|false|false|false|true|NNP
+FEBRUARY	others	februari|thursdai|16|false|true|false|true|false|false|false|false|true|NNP
+16	others	16|februari|1995|false|false|false|false|false|false|false|false|true|CD
+1995	others	1995|16|_end_|false|false|false|false|false|false|false|false|true|CD
+
+5:00	stime	5:00|_start_|p.|false|false|false|false|false|false|false|false|false|CD
+P.	stime	p.|5:00|m|false|false|false|false|false|false|false|false|false|NNP
+M	stime	m|p.|_end_|false|false|true|true|false|false|false|false|false|NN
+
+Free	others	free|_start_|and|true|false|false|false|false|false|false|false|false|NNP
+and	others	and|free|open|false|false|false|false|false|false|false|false|false|CC
+Open	others	open|and|to|true|false|false|false|false|false|false|false|false|NNP
+to	others	to|open|the|false|false|false|false|false|false|false|false|false|TO
+the	others	the|to|public|false|false|false|false|false|false|false|false|false|DT
+Public	others	public|the|_end_|true|false|false|false|false|false|false|false|false|NN
+
+Reception	others	recept|_start_|to|true|false|false|false|false|false|false|false|false|NN
+to	others	to|recept|follow|false|false|false|false|false|false|false|false|false|TO
+Follow	others	follow|to|immedi|true|false|false|false|false|false|false|false|false|VB
+Immediately	others	immedi|follow|_end_|true|false|false|false|false|false|false|false|false|RB
+

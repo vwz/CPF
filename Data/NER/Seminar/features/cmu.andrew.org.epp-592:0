@@ -1,0 +1,261 @@
+Type	others	type|_start_|cmu.andrew.org|true|false|false|false|false|false|false|false|false|NN
+cmu.andrew.org	others	cmu.andrew.org|type|epp|false|false|false|false|false|false|false|false|false|NN
+epp	others	epp|cmu.andrew.org|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Topic	others	topic|_start_|fwd|true|false|false|false|false|false|false|false|false|NN
+Fwd	others	fwd|topic|special|true|false|false|false|false|false|false|false|false|NN
+Special	others	special|fwd|seminar|true|false|false|false|false|false|false|false|false|JJ
+Seminar	others	seminar|special|_end_|true|false|false|false|false|false|false|false|false|NN
+
+Dates	others	date|_start_|15-jun-9|true|false|false|false|false|false|false|false|false|NNS
+15-Jun-9	others	15-jun-9|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|12:30|true|false|false|false|false|false|false|false|false|NNP
+12:30	stime	12:30|time|1:30|false|false|false|false|false|false|true|false|false|CD
+1:30	etime	1:30|12:30|_end_|false|false|false|false|false|false|false|true|false|CD
+
+PostedBy	others	postedbi|_start_|carol|false|false|false|false|true|false|false|false|false|NNP
+Carol	others	carol|postedbi|goldburg|true|false|false|false|false|true|false|false|false|NNP
+Goldburg	others	goldburg|carol|on|true|false|false|false|false|true|false|false|false|NNP
+on	others	on|goldburg|2-jun-94|false|false|false|false|false|false|false|false|false|IN
+2-Jun-94	others	2-jun-94|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|2-jun-94|14:45|false|false|false|false|false|false|false|false|false|IN
+14:45	others	14:45|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|14:45|andrew.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+andrew.cmu.edu	others	andrew.cmu.edu|from|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+Do	others	do|_start_|not|true|false|false|false|false|false|false|false|false|VBP
+n't	others	not|do|miss|false|false|false|false|false|false|false|false|false|RB
+miss	others	miss|not|thi|false|false|false|false|false|true|false|false|false|VB
+this	others	thi|miss|on|false|false|false|false|false|false|false|false|false|DT
+one	others	on|thi|_end_|false|false|false|false|false|false|false|false|false|CD
+
+Special	others	special|_start_|seminar|true|false|false|false|false|false|false|false|false|JJ
+Seminar	others	seminar|special|_end_|true|false|false|false|false|false|false|false|false|NN
+
+Wednesday	others	wednesdai|_start_|june|true|false|false|false|false|false|false|false|true|NNP
+June	others	june|wednesdai|15th|true|false|false|false|false|false|false|false|true|NNP
+15th	others	15th|june|_end_|false|false|false|false|false|false|false|false|true|NN
+
+-LRB-	others	-lrb-|_start_|pizza|false|false|false|false|false|false|false|false|false|-LRB-
+pizza	others	pizza|-lrb-|in|false|false|false|false|false|false|false|false|false|NN
+in	others	in|pizza|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|in|edrc|false|false|false|false|false|false|false|false|false|DT
+EDRC	location	edrc|the|confer|false|true|false|true|false|false|false|false|false|NN
+Conference	location	confer|edrc|room|true|false|false|false|false|false|false|false|false|NN
+Room	location	room|confer|at|true|false|false|false|false|false|false|false|false|NN
+at	others	at|room|12:00|false|false|false|false|false|false|false|false|false|IN
+12:00	others	12:00|at|befor|false|false|false|false|false|false|false|false|false|CD
+before	others	befor|12:00|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|befor|seminar|false|false|false|false|false|false|false|false|false|DT
+seminar	others	seminar|the|-rrb-|false|false|false|false|false|false|false|false|false|NN
+-RRB-	others	-rrb-|seminar|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+Presentation	others	present|_start_|abstract|true|false|false|false|false|false|false|false|false|NN
+Abstract	others	abstract|present|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+Joe	speaker	joe|_start_|cascio|true|false|false|false|false|true|false|false|false|NNP
+Cascio	speaker	cascio|joe|ibm|true|false|false|false|false|true|false|false|false|NNP
+IBM	others	ibm|cascio|_end_|false|true|false|true|false|false|false|false|false|NNP
+
+International	others	intern|_start_|environment|true|false|false|false|false|false|false|false|false|NNP
+Environmental	others	environment|intern|manag|true|false|false|false|false|false|false|false|false|NNP
+Management	others	manag|environment|standard|true|false|false|false|false|false|false|false|false|NNP
+Standards	others	standard|manag|_end_|true|false|false|false|false|false|false|false|false|NNPS
+
+This	others	thi|_start_|present|true|false|false|false|false|false|false|false|false|DT
+presentation	others	present|thi|give|false|false|false|false|false|false|false|false|false|NN
+gives	others	give|present|a|false|false|false|false|false|false|false|false|false|VBZ
+an	others	a|give|overview|false|false|false|false|false|false|false|false|false|DT
+overview	others	overview|a|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|overview|u.s.|false|false|false|false|false|false|false|false|false|IN
+U.S.	others	u.s.|of|think|false|false|false|false|false|false|false|false|false|NNP
+thinking	others	think|u.s.|on|false|false|false|false|false|false|false|false|false|NN
+on	others	on|think|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|on|develop|false|false|false|false|false|false|false|false|false|DT
+development	others	develop|the|_end_|false|false|false|false|false|false|false|false|false|NN
+
+of	others	of|_start_|intern|false|false|false|false|false|false|false|false|false|IN
+international	others	intern|of|environment|false|false|false|false|false|false|false|false|false|JJ
+environmental	others	environment|intern|manag|false|false|false|false|false|false|false|false|false|JJ
+management	others	manag|environment|standard|false|false|false|false|false|false|false|false|false|NN
+standards	others	standard|manag|within|false|false|false|false|false|false|false|false|false|NNS
+within	others	within|standard|iso|false|false|false|false|false|false|false|false|false|IN
+ISO	others	iso|within|technic|false|true|false|true|false|false|false|false|false|NN
+technical	others	technic|iso|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+committee	others	committe|_start_|207|false|false|false|false|false|false|false|false|false|NN
+207	others	207|committe|standard|false|false|false|false|false|false|false|false|false|CD
+Standards	others	standard|207|and|true|false|false|false|false|false|false|false|false|NNPS
+and	others	and|standard|guidelin|false|false|false|false|false|false|false|false|false|CC
+guidelines	others	guidelin|and|be|false|false|false|false|false|false|false|false|false|NNS
+are	others	be|guidelin|be|false|false|false|false|false|false|false|false|false|VBP
+being	others	be|be|creat|false|false|false|false|false|false|false|false|false|VBG
+created	others	creat|be|there|false|false|false|false|false|false|false|false|false|VBN
+there	others	there|creat|on|false|false|false|false|false|false|false|false|false|RB
+on	others	on|there|_end_|false|false|false|false|false|false|false|false|false|IN
+
+environmental	others	environment|_start_|manag|false|false|false|false|false|false|false|false|false|JJ
+management	others	manag|environment|audit|false|false|false|false|false|false|false|false|false|NN
+auditing	others	audit|manag|life-cycle-assess|false|false|false|false|false|false|false|false|false|NN
+life-cycle-assessment	others	life-cycle-assess|audit|label|false|false|false|false|false|false|false|false|false|NN
+labeling	others	label|life-cycle-assess|_end_|false|false|false|false|false|false|false|false|false|NN
+
+performance	others	perform|_start_|evalu|false|false|false|false|false|false|false|false|false|NN
+evaluation	others	evalu|perform|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|evalu|product|false|false|false|false|false|false|false|false|false|CC
+product	others	product|and|attribut|false|false|false|false|false|false|false|false|false|NN
+attributes	others	attribut|product|the|false|false|false|false|false|false|false|false|false|VBZ
+The	others	the|attribut|potenti|true|false|false|false|false|false|false|false|false|DT
+potential	others	potenti|the|effect|false|false|false|false|false|false|false|false|false|JJ
+effects	others	effect|potenti|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+of	others	of|_start_|these|false|false|false|false|false|false|false|false|false|IN
+these	others	these|of|standard|false|false|false|false|false|false|false|false|false|DT
+standards	others	standard|these|on|false|false|false|false|false|false|false|false|false|NNS
+on	others	on|standard|nation|false|false|false|false|false|false|false|false|false|IN
+national	others	nation|on|and|false|false|false|false|false|false|false|false|false|JJ
+and	others	and|nation|region|false|false|false|false|false|false|false|false|false|CC
+regional	others	region|and|standard|false|false|false|false|false|false|false|false|false|JJ
+standards	others	standard|region|trade|false|false|false|false|false|false|false|false|false|NNS
+trade	others	trade|standard|cost|false|false|false|false|false|false|false|false|false|NN
+cost	others	cost|trade|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|cost|_end_|false|false|false|false|false|false|false|false|false|CC
+
+benefits	others	benefit|_start_|environment|false|false|false|false|false|false|false|false|false|NNS
+environmental	others	environment|benefit|improv|false|false|false|false|false|false|false|false|false|JJ
+improvement	others	improv|environment|regulatori|false|false|false|false|false|false|false|false|false|NN
+regulatory	others	regulatori|improv|complianc|false|false|false|false|false|false|false|false|false|JJ
+compliance	others	complianc|regulatori|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|complianc|_end_|false|false|false|false|false|false|false|false|false|CC
+
+harmonization	others	harmon|_start_|with|false|false|false|false|false|false|false|false|false|NN
+with	others	with|harmon|exist|false|false|false|false|false|false|false|false|false|IN
+existing	others	exist|with|iso|false|false|false|false|false|false|false|false|false|VBG
+ISO	others	iso|exist|9000|false|true|false|true|false|false|false|false|false|NN
+9000	others	9000|iso|qualiti|false|false|false|false|false|false|false|false|false|CD
+Quality	others	qualiti|9000|standard|true|false|false|false|false|false|false|false|false|NNP
+Standards	others	standard|qualiti|will|true|false|false|false|false|false|false|false|false|NNPS
+will	others	will|standard|be|false|false|false|false|false|false|false|false|false|MD
+be	others	be|will|_end_|false|false|false|false|false|false|false|false|false|VB
+
+discussed	others	discuss|_start_|_end_|false|false|false|false|false|false|false|false|false|VBN
+
+Biographical	others	biograph|_start_|sketch|true|false|false|false|false|false|false|false|false|NNP
+Sketch	others	sketch|biograph|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Employed	others	emploi|_start_|by|true|false|false|false|false|false|false|false|false|VBN
+by	others	by|emploi|ibm|false|false|false|false|false|false|false|false|false|IN
+IBM	others	ibm|by|corpor|false|true|false|true|false|false|false|false|false|NNP
+Corporation	others	corpor|ibm|for|true|false|false|false|false|false|false|false|false|NNP
+for	others	for|corpor|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|for|last|false|false|false|false|false|false|false|false|false|DT
+last	others	last|the|24|false|false|false|false|false|false|false|false|true|JJ
+24	others	24|last|year|false|false|false|false|false|false|false|false|true|CD
+years	others	year|24|current|false|false|false|false|false|false|false|false|true|NNS
+currently	others	current|year|in|false|false|false|false|false|false|false|false|false|RB
+in	others	in|current|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|in|_end_|false|false|false|false|false|false|false|false|false|DT
+
+position	others	posit|_start_|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|posit|program|false|false|false|false|false|false|false|false|false|IN
+Program	others	program|of|director|true|false|false|false|false|false|false|false|false|NN
+Director	others	director|program|eh&|true|false|false|false|false|false|false|false|false|NN
+EH&S	others	eh&|director|standard|false|false|false|false|false|false|false|false|false|NN
+Standardization	others	standard|eh&|he|true|false|false|false|false|false|false|false|false|NN
+He	others	he|standard|be|true|false|false|false|false|false|false|false|false|PRP
+is	others	be|he|respons|false|false|false|false|false|false|false|false|false|VBZ
+responsible	others	respons|be|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+for	others	for|_start_|overse|false|false|false|false|false|false|false|false|false|IN
+overseeing	others	overse|for|ibm|false|false|false|false|false|false|false|false|false|VBG
+IBM	others	ibm|overse|'s|false|true|false|true|false|false|false|false|false|NNP
+'s	others	's|ibm|particip|false|false|false|false|false|false|false|false|false|POS
+participation	others	particip|'s|in|false|false|false|false|false|false|false|false|false|NN
+in	others	in|particip|extern|false|false|false|false|false|false|false|false|false|IN
+external	others	extern|in|forum|false|false|false|false|false|false|false|false|false|JJ
+fora	others	forum|extern|deal|false|false|false|false|false|false|false|false|false|NNS
+dealing	others	deal|forum|with|false|false|false|false|false|false|false|false|false|VBG
+with	others	with|deal|_end_|false|false|false|false|false|false|false|false|false|IN
+
+environment	others	environ|_start_|health|false|false|false|false|false|false|false|false|false|NN
+health	others	health|environ|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|health|safeti|false|false|false|false|false|false|false|false|false|CC
+safety	others	safeti|and|standard|false|false|false|false|false|false|false|false|false|NN
+standardization	others	standard|safeti|he|false|false|false|false|false|false|false|false|false|NN
+He	others	he|standard|hold|true|false|false|false|false|false|false|false|false|PRP
+holds	others	hold|he|the|false|false|false|false|false|false|false|false|false|VBZ
+the	others	the|hold|_end_|false|false|false|false|false|false|false|false|false|DT
+
+chairmanship	others	chairmanship|_start_|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|chairmanship|u.s.|false|false|false|false|false|false|false|false|false|IN
+U.S.	others	u.s.|of|technic|false|false|false|false|false|false|false|false|false|NNP
+Technical	others	technic|u.s.|advisori|true|false|false|false|false|false|false|false|false|NNP
+Advisory	others	advisori|technic|group|true|false|false|false|false|false|false|false|false|NNP
+Group	others	group|advisori|to|true|false|false|false|false|false|false|false|false|NNP
+to	others	to|group|iso|false|false|false|false|false|false|false|false|false|TO
+ISO	others	iso|to|technic|false|true|false|true|false|false|false|false|false|NN
+Technical	others	technic|iso|committe|true|false|false|false|false|false|false|false|false|NNP
+Committee	others	committe|technic|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+207	others	207|_start_|which|false|false|false|false|false|false|false|false|false|CD
+which	others	which|207|be|false|false|false|false|false|false|false|false|false|WDT
+is	others	be|which|develop|false|false|false|false|false|false|false|false|false|VBZ
+developing	others	develop|be|intern|false|false|false|false|false|false|false|false|false|VBG
+international	others	intern|develop|environment|false|false|false|false|false|false|false|false|false|JJ
+environmental	others	environment|intern|manag|false|false|false|false|false|false|false|false|false|JJ
+management	others	manag|environment|_end_|false|false|false|false|false|false|false|false|false|NN
+
+standards	others	standard|_start_|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+Joe	others	joe|_start_|have|true|false|false|false|false|true|false|false|false|NNP
+has	others	have|joe|work|false|false|false|false|false|false|false|false|false|VBZ
+worked	others	work|have|in|false|false|false|false|false|false|false|false|false|VBN
+in	others	in|work|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|in|eh&|false|false|false|false|false|false|false|false|false|DT
+EH&S	others	eh&|the|field|false|false|false|false|false|false|false|false|false|NN
+field	others	field|eh&|for|false|false|false|false|false|false|false|false|false|NN
+for	others	for|field|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|for|past|false|false|false|false|false|false|false|false|false|DT
+past	others	past|the|twelv|false|false|false|false|false|false|false|false|false|JJ
+twelve	others	twelv|past|year|false|false|false|false|false|false|false|false|false|CD
+years	others	year|twelv|primarili|false|false|false|false|false|false|false|false|false|NNS
+primarily	others	primarili|year|on|false|false|false|false|false|false|false|false|false|RB
+on	others	on|primarili|_end_|false|false|false|false|false|false|false|false|false|IN
+
+public	others	public|_start_|polici|false|false|false|false|false|false|false|false|false|JJ
+policy	others	polici|public|issu|false|false|false|false|false|false|false|false|false|NN
+issues	others	issu|polici|and|false|false|false|false|false|false|false|false|false|NNS
+and	others	and|issu|have|false|false|false|false|false|false|false|false|false|CC
+has	others	have|and|repres|false|false|false|false|false|false|false|false|false|VBZ
+represented	others	repres|have|ibm|false|false|false|false|false|false|false|false|false|VBN
+IBM	others	ibm|repres|on|false|true|false|true|false|false|false|false|false|NNP
+on	others	on|ibm|both|false|false|false|false|false|false|false|false|false|IN
+both	others	both|on|nation|false|false|false|false|false|false|false|false|false|DT
+national	others	nation|both|and|false|false|false|false|false|false|false|false|false|JJ
+and	others	and|nation|_end_|false|false|false|false|false|false|false|false|false|CC
+
+international	others	intern|_start_|issu|false|false|false|false|false|false|false|false|false|JJ
+issues	others	issu|intern|he|false|false|false|false|false|false|false|false|false|NNS
+He	others	he|issu|hold|true|false|false|false|false|false|false|false|false|PRP
+holds	others	hold|he|bachelor|false|false|false|false|false|false|false|false|false|VBZ
+bachelor	others	bachelor|hold|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|bachelor|master|false|false|false|false|false|false|false|false|false|CC
+master	others	master|and|of|false|false|false|false|false|true|false|false|false|NN
+of	others	of|master|scienc|false|false|false|false|false|false|false|false|false|IN
+science	others	scienc|of|degre|false|false|false|false|false|false|false|false|false|NN
+degrees	others	degre|scienc|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+in	others	in|_start_|engin|false|false|false|false|false|false|false|false|false|IN
+engineering	others	engin|in|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|engin|a|false|false|false|false|false|false|false|false|false|CC
+a	others	a|and|jd|false|false|false|false|false|false|false|false|false|DT
+JD	others	jd|a|degre|false|true|false|true|false|false|false|false|false|NN
+degree	others	degre|jd|from|false|false|false|false|false|false|false|false|false|NN
+from	others	from|degre|fordham|false|false|false|false|false|false|false|false|false|IN
+Fordham	others	fordham|from|law|true|false|false|false|false|false|false|false|false|NNP
+Law	others	law|fordham|school|true|false|false|false|false|false|false|false|false|NNP
+School	others	school|law|_end_|true|false|false|false|false|false|false|false|false|NNP
+

@@ -1,0 +1,173 @@
+Type	others	type|_start_|cmu|true|false|false|false|false|false|false|false|false|NN
+cmu	others	cmu|type|c|false|false|false|false|false|false|false|false|false|NN
+cs	others	c|cmu|robot|false|false|false|false|false|false|false|false|false|NNS
+robotics	others	robot|c|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+Topic	others	topic|_start_|robot|true|false|false|false|false|false|false|false|false|NN
+Robotics	others	robot|topic|seminar|true|false|false|false|false|false|false|false|false|NNP
+Seminar	others	seminar|robot|-lrb-|true|false|false|false|false|false|false|false|false|NNP
+-LRB-	others	-lrb-|seminar|driscol|false|false|false|false|false|false|false|false|false|-LRB-
+Driscoll	speaker	driscol|-lrb-|-rrb-|true|false|false|false|false|true|false|false|false|NNP
+-RRB-	others	-rrb-|driscol|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+Dates	others	date|_start_|6-dec-91|true|false|false|false|false|false|false|false|false|NNS
+6-Dec-91	others	6-dec-91|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|3:30|true|false|false|false|false|false|false|false|false|NNP
+3:30	stime	3:30|time|5:00|false|false|false|false|false|false|true|false|false|CD
+5:00	etime	5:00|3:30|_end_|false|false|false|false|false|false|false|true|false|CD
+
+PostedBy	others	postedbi|_start_|sleator|false|false|false|false|true|false|false|false|false|NNP
+sleator	others	sleator|postedbi|on|false|false|false|false|false|false|false|false|false|NN
+on	others	on|sleator|03-dec-91|false|false|false|false|false|false|false|false|false|IN
+03-Dec-91	others	03-dec-91|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|03-dec-91|15:47|false|false|false|false|false|false|false|false|false|IN
+15:47	others	15:47|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|15:47|spade.pc.cs.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+SPADE.PC.CS.CMU.EDU	others	spade.pc.cs.cmu.edu|from|-lrb-|false|false|false|false|false|false|false|false|false|NN
+-LRB-	others	-lrb-|spade.pc.cs.cmu.edu|daniel|false|false|false|false|false|false|false|false|false|-LRB-
+Daniel	others	daniel|-lrb-|sleator|true|false|false|false|false|true|false|false|false|NNP
+Sleator	others	sleator|daniel|-rrb-|true|false|false|false|false|true|false|false|false|NNP
+-RRB-	others	-rrb-|sleator|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+There	others	there|_start_|be|true|false|false|false|false|false|false|false|false|EX
+is	others	be|there|more|false|false|false|false|false|false|false|false|false|VBZ
+more	others	more|be|to|false|false|false|false|false|false|false|false|false|JJR
+to	others	to|more|life|false|false|false|false|false|false|false|false|false|TO
+life	others	life|to|than|false|false|false|false|false|false|false|false|false|NN
+than	others	than|life|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|than|fft|false|false|false|false|false|false|false|false|false|DT
+FFT	others	fft|the|_end_|false|true|false|true|false|false|false|false|false|NN
+
+Dartmouth	others	dartmouth|_start_|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Friday	others	fridai|_start_|decemb|true|false|false|false|false|false|false|false|true|NNP
+December	others	decemb|fridai|6|true|false|false|false|false|false|false|false|true|NNP
+6	others	6|decemb|3:30|false|false|false|false|false|false|false|false|true|CD
+3:30	stime	3:30|6|5:00|false|false|false|false|false|false|true|false|false|CD
+5:00	etime	5:00|3:30|_end_|false|false|false|false|false|false|false|true|false|CD
+
+The	others	the|_start_|fft|true|false|false|false|false|false|false|false|false|DT
+FFT	others	fft|the|be|false|true|false|true|false|false|false|false|false|NN
+is	others	be|fft|a|false|false|false|false|false|false|false|false|false|VBZ
+an	others	a|be|import|false|false|false|false|false|false|false|false|false|DT
+important	others	import|a|engin|false|false|false|false|false|false|false|false|false|JJ
+engineering	others	engin|import|tool|false|false|false|false|false|false|false|false|false|NN
+tool	others	tool|engin|but|false|false|false|false|false|false|false|false|false|NN
+but	others	but|tool|it|false|false|false|false|false|false|false|false|false|CC
+its	others	it|but|applic|false|false|false|false|false|false|false|false|false|PRP$
+applicability	others	applic|it|be|false|false|false|false|false|false|false|false|false|NN
+is	others	be|applic|not|false|false|false|false|false|false|false|false|false|VBZ
+not	others	not|be|_end_|false|false|false|false|false|false|false|false|false|RB
+
+universal	others	univers|_start_|it|false|false|false|false|false|false|false|false|false|JJ
+Its	others	it|univers|util|true|false|false|false|false|false|false|false|false|PRP$
+utility	others	util|it|come|false|false|false|false|false|false|false|false|false|NN
+comes	others	come|util|from|false|false|false|false|false|false|false|false|false|VBZ
+from	others	from|come|simplifi|false|false|false|false|false|false|false|false|false|IN
+simplifying	others	simplifi|from|oper|false|false|false|false|false|false|false|false|false|VBG
+operators	others	oper|simplifi|with|false|false|false|false|false|false|false|false|false|NNS
+with	others	with|oper|a|false|false|false|false|false|false|false|false|false|IN
+a	others	a|with|_end_|false|false|false|false|false|false|false|false|false|DT
+
+translational	others	translat|_start_|symmetri|false|false|false|false|false|false|false|false|false|JJ
+symmetry	others	symmetri|translat|-lrb-|false|false|false|false|false|false|false|false|false|NN
+-LRB-	others	-lrb-|symmetri|i.e.|false|false|false|false|false|false|false|false|false|-LRB-
+i.e.	others	i.e.|-lrb-|linear|false|false|false|false|false|false|false|false|false|FW
+linear	others	linear|i.e.|translat|false|false|false|false|false|false|false|false|false|JJ
+translation	others	translat|linear|invari|false|false|false|false|false|false|false|false|false|NN
+invariant	others	invari|translat|oper|false|false|false|false|false|false|false|false|false|JJ
+operators	others	oper|invari|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+convolution	others	convolut|_start_|oper|false|false|false|false|false|false|false|false|false|NN
+operators	others	oper|convolut|or|false|false|false|false|false|false|false|false|false|NNS
+or	others	or|oper|toeplitz|false|false|false|false|false|false|false|false|false|CC
+toeplitz	others	toeplitz|or|matrix|false|false|false|false|false|false|false|false|false|NN
+matrices	others	matrix|toeplitz|depend|false|false|false|false|false|false|false|false|false|NNS
+depending	others	depend|matrix|on|false|false|false|false|false|false|false|false|false|VBG
+on	others	on|depend|you|false|false|false|false|false|false|false|false|false|IN
+your	others	you|on|bia|false|false|false|false|false|false|false|false|false|PRP$
+bias	others	bia|you|-rrb-|false|false|false|false|false|false|false|false|false|NN
+-RRB-	others	-rrb-|bia|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+However	others	howev|_start_|mani|true|false|false|false|false|false|false|false|false|RB
+many	others	mani|howev|problem|false|false|false|false|false|false|false|false|false|JJ
+problems	others	problem|mani|in|false|false|false|false|false|false|false|false|false|NNS
+in	others	in|problem|physic|false|false|false|false|false|false|false|false|false|IN
+physics	others	physic|in|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|physic|engin|false|false|false|false|false|false|false|false|false|CC
+engineering	others	engin|and|possess|false|false|false|false|false|false|false|false|false|NN
+possess	others	possess|engin|spheric|false|false|false|false|false|false|false|false|false|VBP
+spherical	others	spheric|possess|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+symmetry	others	symmetri|_start_|-lrb-|false|false|false|false|false|false|false|false|false|NN
+-LRB-	others	-lrb-|symmetri|or|false|false|false|false|false|false|false|false|false|-LRB-
+or	others	or|-lrb-|other|false|false|false|false|false|false|false|false|false|CC
+other	others	other|or|symmetri|false|false|false|false|false|false|false|false|false|JJ
+symmetry	others	symmetri|other|that|false|false|false|false|false|false|false|false|false|NN
+that	others	that|symmetri|be|false|false|false|false|false|false|false|false|false|WDT
+is	others	be|that|not|false|false|false|false|false|false|false|false|false|VBZ
+not	others	not|be|translat|false|false|false|false|false|false|false|false|false|RB
+translational	others	translat|not|-rrb-|false|false|false|false|false|false|false|false|false|JJ
+-RRB-	others	-rrb-|translat|i|false|false|false|false|false|false|false|false|false|-RRB-
+I	others	i|-rrb-|will|false|false|true|true|false|false|false|false|false|PRP
+will	others	will|i|_end_|false|false|false|false|false|false|false|false|false|MD
+
+explain	others	explain|_start_|how|false|false|false|false|false|false|false|false|false|VB
+how	others	how|explain|the|false|false|false|false|false|false|false|false|false|WRB
+the	others	the|how|idea|false|false|false|false|false|false|false|false|false|DT
+ideas	others	idea|the|of|false|false|false|false|false|false|false|false|false|NNS
+of	others	of|idea|fourier|false|false|false|false|false|false|false|false|false|IN
+Fourier	others	fourier|of|analysi|true|false|false|false|false|false|false|false|false|NN
+analysis	others	analysi|fourier|can|false|false|false|false|false|false|false|false|false|NN
+can	others	can|analysi|be|false|false|false|false|false|false|false|false|false|MD
+be	others	be|can|extend|false|false|false|false|false|false|false|false|false|VB
+extended	others	extend|be|to|false|false|false|false|false|false|false|false|false|VBN
+to	others	to|extend|the|false|false|false|false|false|false|false|false|false|TO
+the	others	the|to|_end_|false|false|false|false|false|false|false|false|false|DT
+
+sphere	others	sphere|_start_|give|false|false|false|false|false|false|false|false|false|NN
+give	others	give|sphere|a|false|false|false|false|false|false|false|false|false|VBP
+an	others	a|give|effici|false|false|false|false|false|false|false|false|false|DT
+efficient	others	effici|a|algorithm|false|false|false|false|false|false|false|false|false|JJ
+algorithm	others	algorithm|effici|for|false|false|false|false|false|false|false|false|false|NN
+for	others	for|algorithm|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|for|fourier|false|false|false|false|false|false|false|false|false|DT
+Fourier	others	fourier|the|transform|true|false|false|false|false|false|false|false|false|NN
+transform	others	transform|fourier|there|false|false|false|false|false|false|false|false|false|VB
+there	others	there|transform|_end_|false|false|false|false|false|false|false|false|false|RB
+
+and	others	and|_start_|give|false|false|false|false|false|false|false|false|false|CC
+give	others	give|and|exampl|false|false|false|false|false|false|false|false|false|VB
+examples	others	exampl|give|of|false|false|false|false|false|false|false|false|false|NNS
+of	others	of|exampl|how|false|false|false|false|false|false|false|false|false|IN
+how	others	how|of|fourier|false|false|false|false|false|false|false|false|false|WRB
+Fourier	others	fourier|how|analysi|true|false|false|false|false|false|false|false|false|NN
+analysis	others	analysi|fourier|on|false|false|false|false|false|false|false|false|false|NN
+on	others	on|analysi|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|on|sphere|false|false|false|false|false|false|false|false|false|DT
+sphere	others	sphere|the|can|false|false|false|false|false|false|false|false|false|NN
+can	others	can|sphere|appli|false|false|false|false|false|false|false|false|false|MD
+applied	others	appli|can|to|false|false|false|false|false|false|false|false|false|VBD
+to	others	to|appli|_end_|false|false|false|false|false|false|false|false|false|TO
+
+computer	others	comput|_start_|vision|false|false|false|false|false|false|false|false|false|NN
+vision	others	vision|comput|medic|false|false|false|false|false|false|false|false|false|NN
+medical	others	medic|vision|imag|false|false|false|false|false|false|false|false|false|JJ
+imaging	others	imag|medic|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|imag|comput|false|false|false|false|false|false|false|false|false|CC
+computations	others	comput|and|with|false|false|false|false|false|false|false|false|false|NNS
+with	others	with|comput|lie|false|false|false|false|false|false|false|false|false|IN
+Lie	others	lie|with|algebra|true|false|false|false|false|false|false|false|false|NN
+Algebras	others	algebra|lie|_end_|true|false|false|false|false|false|false|false|false|FW
+
+-LRB-	others	-lrb-|_start_|of|false|false|false|false|false|false|false|false|false|-LRB-
+of	others	of|-lrb-|recent|false|false|false|false|false|false|false|false|false|IN
+recent	others	recent|of|interest|false|false|false|false|false|false|false|false|false|JJ
+interest	others	interest|recent|in|false|false|false|false|false|false|false|false|false|NN
+in	others	in|interest|robot|false|false|false|false|false|false|false|false|false|IN
+robotics	others	robot|in|-rrb-|false|false|false|false|false|false|false|false|false|NNS
+-RRB-	others	-rrb-|robot|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+

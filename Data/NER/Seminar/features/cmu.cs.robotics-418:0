@@ -1,0 +1,239 @@
+Type	others	type|_start_|cmu|true|false|false|false|false|false|false|false|false|NN
+cmu	others	cmu|type|c|false|false|false|false|false|false|false|false|false|NN
+cs	others	c|cmu|robot|false|false|false|false|false|false|false|false|false|NNS
+robotics	others	robot|c|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+Who	others	who|_start_|josef|true|false|false|false|false|false|false|false|false|WP
+Josef	speaker	josef|who|skrzypek|true|false|false|false|false|true|false|false|false|NNP
+Skrzypek	speaker	skrzypek|josef|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+Machine	others	machin|_start_|percept|true|false|false|false|false|false|false|false|false|NN
+Perception	others	percept|machin|laboratori|true|false|false|false|false|false|false|false|false|NN
+Laboratory	others	laboratori|percept|_end_|true|false|false|false|false|false|false|false|false|NN
+
+University	others	univers|_start_|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|univers|california|false|false|false|false|false|false|false|false|false|IN
+California	others	california|of|at|true|false|false|false|false|false|false|false|false|NNP
+at	others	at|california|lo|false|false|false|false|false|false|false|false|false|IN
+Los	others	lo|at|angel|true|false|false|false|false|false|false|false|false|NNP
+Angeles	others	angel|lo|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Los	others	lo|_start_|angel|true|false|false|false|false|false|false|false|false|NNP
+Angeles	others	angel|lo|ca|true|false|false|false|false|false|false|false|false|NNP
+CA	others	ca|angel|usa|false|true|false|true|false|false|false|false|false|NNP
+USA	others	usa|ca|_end_|false|true|false|true|false|false|false|false|false|NNP
+
+Topic	others	topic|_start_|neural|true|false|false|false|false|false|false|false|false|NN
+Neural	others	neural|topic|net|true|false|false|false|false|false|false|false|false|JJ
+net	others	net|neural|model|false|false|false|false|false|false|false|false|false|JJ
+models	others	model|net|of|false|false|false|false|false|false|false|false|false|NNS
+of	others	of|model|light|false|false|false|false|false|false|false|false|false|IN
+lightness	others	light|of|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|light|color|false|false|false|false|false|false|false|false|false|CC
+color	others	color|and|constanc|false|false|false|false|false|false|false|false|false|NN
+constancy	others	constanc|color|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Dates	others	date|_start_|16-mar-92|true|false|false|false|false|false|false|false|false|NNS
+16-Mar-92	others	16-mar-92|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|3:30|true|false|false|false|false|false|false|false|false|NNP
+3:30	stime	3:30|time|5:00|false|false|false|false|false|false|true|false|false|CD
+5:00	etime	5:00|3:30|pm|false|false|false|false|false|false|false|true|false|CD
+PM	etime	pm|5:00|_end_|false|true|false|true|false|false|false|false|false|NN
+
+Place	others	place|_start_|wean|true|false|false|false|false|false|false|false|false|NN
+Wean	location	wean|place|hall|true|false|false|false|false|false|false|false|false|VB
+Hall	location	hall|wean|7220|true|false|false|false|false|false|false|false|false|NNP
+7220	location	7220|hall|_end_|false|false|false|false|false|false|false|false|false|CD
+
+PostedBy	others	postedbi|_start_|patti|false|false|false|false|true|false|false|false|false|NNP
+patty	others	patti|postedbi|on|false|false|false|false|false|false|false|false|false|NN
+on	others	on|patti|11-mar-92|false|false|false|false|false|false|false|false|false|IN
+11-Mar-92	others	11-mar-92|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|11-mar-92|16:32|false|false|false|false|false|false|false|false|false|IN
+16:32	others	16:32|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|16:32|ius5|false|false|false|false|false|false|false|false|false|IN
+IUS5	others	ius5|from|ius.cs.cmu.edu|false|false|false|false|false|false|false|false|false|NN
+IUS.CS.CMU.EDU	others	ius.cs.cmu.edu|ius5|-lrb-|false|false|false|false|false|false|false|false|false|NN
+-LRB-	others	-lrb-|ius.cs.cmu.edu|patricia|false|false|false|false|false|false|false|false|false|-LRB-
+Patricia	others	patricia|-lrb-|mackiewicz|true|false|false|false|false|true|false|false|false|NNP
+Mackiewicz	others	mackiewicz|patricia|-rrb-|true|false|false|false|false|true|false|false|false|NNP
+-RRB-	others	-rrb-|mackiewicz|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+VASC	others	vasc|_start_|seminar|false|true|false|true|false|false|false|false|false|NNP
+Seminar	others	seminar|vasc|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Time	others	time|_start_|mondai|true|false|false|false|false|false|false|false|false|NNP
+Monday	others	mondai|time|march|true|false|false|false|false|false|false|false|true|NNP
+March	others	march|mondai|16|true|false|false|false|false|false|false|false|true|NNP
+16	others	16|march|1992|false|false|false|false|false|false|false|false|true|CD
+1992	others	1992|16|3:30|false|false|false|false|false|false|false|false|true|CD
+3:30	stime	3:30|1992|5:00|false|false|false|false|false|false|true|false|false|CD
+5:00	etime	5:00|3:30|pm|false|false|false|false|false|false|false|true|false|CD
+pm	etime	pm|5:00|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Place	others	place|_start_|wean|true|false|false|false|false|false|false|false|false|NN
+Wean	location	wean|place|hall|true|false|false|false|false|false|false|false|false|VB
+Hall	location	hall|wean|7220|true|false|false|false|false|false|false|false|false|NNP
+7220	location	7220|hall|_end_|false|false|false|false|false|false|false|false|false|CD
+
+Speaker	others	speaker|_start_|josef|true|false|false|false|false|false|false|false|false|NNP
+Josef	speaker	josef|speaker|skrzypek|true|false|false|false|false|true|false|false|false|NNP
+Skrzypek	speaker	skrzypek|josef|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+Machine	others	machin|_start_|percept|true|false|false|false|false|false|false|false|false|NN
+Perception	others	percept|machin|laboratori|true|false|false|false|false|false|false|false|false|NN
+Laboratory	others	laboratori|percept|_end_|true|false|false|false|false|false|false|false|false|NN
+
+University	others	univers|_start_|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|univers|california|false|false|false|false|false|false|false|false|false|IN
+California	others	california|of|at|true|false|false|false|false|false|false|false|false|NNP
+at	others	at|california|lo|false|false|false|false|false|false|false|false|false|IN
+Los	others	lo|at|angel|true|false|false|false|false|false|false|false|false|NNP
+Angeles	others	angel|lo|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Los	others	lo|_start_|angel|true|false|false|false|false|false|false|false|false|NNP
+Angeles	others	angel|lo|ca|true|false|false|false|false|false|false|false|false|NNP
+CA	others	ca|angel|usa|false|true|false|true|false|false|false|false|false|NNP
+USA	others	usa|ca|_end_|false|true|false|true|false|false|false|false|false|NNP
+
+Comment	others	comment|_start_|if|true|false|false|false|false|false|false|false|false|NN
+If	others	if|comment|you|true|false|false|false|false|false|false|false|false|IN
+you	others	you|if|be|false|false|false|false|false|false|false|false|false|PRP
+are	others	be|you|interest|false|false|false|false|false|false|false|false|false|VBP
+interested	others	interest|be|in|false|false|false|false|false|false|false|false|false|JJ
+in	others	in|interest|meet|false|false|false|false|false|false|false|false|false|IN
+meeting	others	meet|in|with|false|false|false|false|false|false|false|false|false|NN
+with	others	with|meet|josef|false|false|false|false|false|false|false|false|false|IN
+Josef	others	josef|with|skrzyek|true|false|false|false|false|true|false|false|false|NNP
+Skrzyek	others	skrzyek|josef|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+please	others	pleas|_start_|contact|false|false|false|false|false|false|false|false|false|VB
+contact	others	contact|pleas|patti|false|false|false|false|false|false|false|false|false|NN
+Patty	others	patti|contact|mackiewicz|true|false|false|false|false|true|false|false|false|NNP
+Mackiewicz	others	mackiewicz|patti|via|true|false|false|false|false|true|false|false|false|NNP
+via	others	via|mackiewicz|email|false|false|false|false|false|false|false|false|false|IN
+email	others	email|via|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|email|patty@ius5|false|false|false|false|false|false|false|false|false|IN
+patty@ius5	others	patty@ius5|at|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Title	others	titl|_start_|neural|true|false|false|false|false|false|false|false|false|NN
+Neural	others	neural|titl|net|true|false|false|false|false|false|false|false|false|JJ
+net	others	net|neural|model|false|false|false|false|false|false|false|false|false|JJ
+models	others	model|net|of|false|false|false|false|false|false|false|false|false|NNS
+of	others	of|model|light|false|false|false|false|false|false|false|false|false|IN
+lightness	others	light|of|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|light|color|false|false|false|false|false|false|false|false|false|CC
+color	others	color|and|constanc|false|false|false|false|false|false|false|false|false|NN
+constancy	others	constanc|color|_end_|false|false|false|false|false|false|false|false|false|NN
+
+One	others	on|_start_|of|true|false|false|false|false|false|false|false|false|CD
+of	others	of|on|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|of|kei|false|false|false|false|false|false|false|false|false|DT
+key	others	kei|the|problem|false|false|false|false|false|false|false|false|false|JJ
+problems	others	problem|kei|in|false|false|false|false|false|false|false|false|false|NNS
+in	others	in|problem|vision|false|false|false|false|false|false|false|false|false|IN
+vision	others	vision|in|be|false|false|false|false|false|false|false|false|false|NN
+is	others	be|vision|segment|false|false|false|false|false|false|false|false|false|VBZ
+segmentation	others	segment|be|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|segment|imag|false|false|false|false|false|false|false|false|false|IN
+images	others	imag|of|into|false|false|false|false|false|false|false|false|false|NNS
+into	others	into|imag|_end_|false|false|false|false|false|false|false|false|false|IN
+
+labeled	others	label|_start_|patch|false|false|false|false|false|false|false|false|false|VBN
+patches	others	patch|label|that|false|false|false|false|false|false|false|false|false|NNS
+that	others	that|patch|repres|false|false|false|false|false|false|false|false|false|WDT
+represent	others	repres|that|featur|false|false|false|false|false|false|false|false|false|VBP
+features	others	featur|repres|surfac|false|false|false|false|false|false|false|false|false|NNS
+surfaces	others	surfac|featur|and|false|false|false|false|false|false|false|false|false|NNS
+and	others	and|surfac|object|false|false|false|false|false|false|false|false|false|CC
+objects	others	object|and|in|false|false|false|false|false|false|false|false|false|NNS
+in	others	in|object|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|in|_end_|false|false|false|false|false|false|false|false|false|DT
+
+scene	others	scene|_start_|analyt|false|false|false|false|false|false|false|false|false|NN
+Analytical	others	analyt|scene|model|true|false|false|false|false|false|false|false|false|NNP
+models	others	model|analyt|for|false|false|false|false|false|false|false|false|false|NNS
+for	others	for|model|delin|false|false|false|false|false|false|false|false|false|IN
+delineating	others	delin|for|and|false|false|false|false|false|false|false|false|false|VBG
+and	others	and|delin|label|false|false|false|false|false|false|false|false|false|CC
+labeling	others	label|and|surfac|false|false|false|false|false|false|false|false|false|VBG
+surfaces	others	surfac|label|as|false|false|false|false|false|false|false|false|false|NNS
+as	others	as|surfac|_end_|false|false|false|false|false|false|false|false|false|IN
+
+white	others	white|_start_|black|false|false|false|false|false|false|false|false|false|JJ
+black	others	black|white|grai|false|false|false|false|false|false|false|false|false|JJ
+gray	others	grai|black|or|false|false|false|false|false|false|false|false|false|JJ
+or	others	or|grai|color|false|false|false|false|false|false|false|false|false|CC
+color	others	color|or|regardless|false|false|false|false|false|false|false|false|false|NN
+regardless	others	regardless|color|of|false|false|false|false|false|false|false|false|false|RB
+of	others	of|regardless|variat|false|false|false|false|false|false|false|false|false|IN
+variation	others	variat|of|in|false|false|false|false|false|false|false|false|false|NN
+in	others	in|variat|intens|false|false|false|false|false|false|false|false|false|IN
+intensity	others	intens|in|or|false|false|false|false|false|false|false|false|false|NN
+or	others	or|intens|_end_|false|false|false|false|false|false|false|false|false|CC
+
+hue	others	hue|_start_|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|hue|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|of|illumin|false|false|false|false|false|false|false|false|false|DT
+illuminant	others	illumin|the|remain|false|false|false|false|false|false|false|false|false|JJ
+remain	others	remain|illumin|a|false|false|false|false|false|false|false|false|false|VBP
+a	others	a|remain|matter|false|false|false|false|false|false|false|false|false|DT
+matter	others	matter|a|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|matter|controversi|false|false|false|false|false|false|false|false|false|IN
+controversy	others	controversi|of|comput|false|false|false|false|false|false|false|false|false|NN
+Computational	others	comput|controversi|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+neuroscience	others	neurosci|_start_|allow|false|false|false|false|false|false|false|false|false|NN
+allows	others	allow|neurosci|test|false|false|false|false|false|false|false|false|false|VBZ
+test	others	test|allow|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|test|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|of|compat|false|false|false|false|false|false|false|false|false|DT
+compatibility	others	compat|the|between|false|false|false|false|false|false|false|false|false|NN
+between	others	between|compat|physiolog|false|false|false|false|false|false|false|false|false|IN
+physiological	others	physiolog|between|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+data	others	datum|_start_|and|false|false|false|false|false|false|false|false|false|NNS
+and	others	and|datum|comput|false|false|false|false|false|false|false|false|false|CC
+computational	others	comput|and|theori|false|false|false|false|false|false|false|false|false|JJ
+theories	others	theori|comput|of|false|false|false|false|false|false|false|false|false|NNS
+of	others	of|theori|light|false|false|false|false|false|false|false|false|false|IN
+lightness	others	light|of|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|light|color|false|false|false|false|false|false|false|false|false|CC
+color	others	color|and|constanc|false|false|false|false|false|false|false|false|false|NN
+constancy	others	constanc|color|we|false|false|false|false|false|false|false|false|false|NN
+We	others	we|constanc|_end_|true|false|false|false|false|false|false|false|false|PRP
+
+present	others	present|_start_|here|false|false|false|false|false|false|false|false|false|JJ
+here	others	here|present|a|false|false|false|false|false|false|false|false|false|RB
+a	others	a|here|quantit|false|false|false|false|false|false|false|false|false|DT
+quantitative	others	quantit|a|investig|false|false|false|false|false|false|false|false|false|JJ
+investigation	others	investig|quantit|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|investig|lumin|false|false|false|false|false|false|false|false|false|IN
+luminance	others	lumin|of|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|lumin|color|false|false|false|false|false|false|false|false|false|CC
+color	others	color|and|_end_|false|false|false|false|false|false|false|false|false|NN
+
+contrast	others	contrast|_start_|process|false|false|false|false|false|false|false|false|false|NN
+processing	others	process|contrast|us|false|false|false|false|false|false|false|false|false|NN
+using	others	us|process|comput|false|false|false|false|false|false|false|false|false|VBG
+computer	others	comput|us|base|false|false|false|false|false|false|false|false|false|NN
+based	others	base|comput|model|false|false|false|false|false|false|false|false|false|VBN
+models	others	model|base|of|false|false|false|false|false|false|false|false|false|NNS
+of	others	of|model|neural|false|false|false|false|false|false|false|false|false|IN
+neural	others	neural|of|network|false|false|false|false|false|false|false|false|false|JJ
+networks	others	network|neural|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+derived	others	deriv|_start_|from|false|false|false|false|false|false|false|false|false|VBN
+from	others	from|deriv|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|from|anatomi|false|false|false|false|false|false|false|false|false|DT
+anatomy	others	anatomi|the|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|anatomi|physiolog|false|false|false|false|false|false|false|false|false|CC
+physiology	others	physiolog|and|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|physiolog|these|false|false|false|false|false|false|false|false|false|IN
+these	others	these|of|visual|false|false|false|false|false|false|false|false|false|DT
+visual	others	visual|these|function|false|false|false|false|false|false|false|false|false|JJ
+functions	others	function|visual|_end_|false|false|false|false|false|false|false|false|false|NNS
+

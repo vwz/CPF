@@ -1,0 +1,69 @@
+Type	others	type|_start_|cmu|true|false|false|false|false|false|false|false|false|NN
+cmu	others	cmu|type|c|false|false|false|false|false|false|false|false|false|NN
+cs	others	c|cmu|sc|false|false|false|false|false|false|false|false|false|NNS
+scs	others	sc|c|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+Topic	others	topic|_start_|cs\/psc|true|false|false|false|false|false|false|false|false|NN
+CS\/PSC	others	cs\/psc|topic|seminar|false|false|false|false|false|false|false|false|false|NNP
+Seminar	others	seminar|cs\/psc|12\/3|true|false|false|false|false|false|false|false|false|NNP
+12\/3	others	12\/3|seminar|4:00|false|false|false|false|false|false|false|false|false|CD
+4:00	others	4:00|12\/3|pm|false|false|false|false|false|false|false|false|false|CD
+pm	others	pm|4:00|kai|false|false|false|false|false|false|false|false|false|NN
+Kai	speaker	kai|pm|li|true|false|false|false|false|true|false|false|false|NNP
+Li	speaker	li|kai|weh|true|false|false|false|false|true|false|false|false|NNP
+WeH	location	weh|li|5409|false|false|false|false|false|false|false|false|false|NN
+5409	location	5409|weh|_end_|false|false|false|false|false|false|false|false|false|CD
+
+Dates	others	date|_start_|3-dec-93|true|false|false|false|false|false|false|false|false|NNS
+3-Dec-93	others	3-dec-93|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|4:00|true|false|false|false|false|false|false|false|false|NNP
+4:00	stime	4:00|time|pm|false|false|false|false|false|false|false|false|false|CD
+PM	stime	pm|4:00|_end_|false|true|false|true|false|false|false|false|false|NN
+
+PostedBy	others	postedbi|_start_|trg|false|false|false|false|true|false|false|false|false|NNP
+trg	others	trg|postedbi|on|false|false|false|false|false|false|false|false|false|NN
+on	others	on|trg|3-dec-93|false|false|false|false|false|false|false|false|false|IN
+3-Dec-93	others	3-dec-93|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|3-dec-93|07:59|false|false|false|false|false|false|false|false|false|IN
+07:59	others	07:59|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|07:59|n3|false|false|false|false|false|false|false|false|false|IN
+N3	others	n3|from|sp.cs.cmu.edu|false|false|false|false|false|false|false|false|false|NN
+SP.CS.CMU.EDU	others	sp.cs.cmu.edu|n3|-lrb-|false|false|false|false|false|false|false|false|false|NN
+-LRB-	others	-lrb-|sp.cs.cmu.edu|thoma|false|false|false|false|false|false|false|false|false|-LRB-
+Thomas	others	thoma|-lrb-|gross|true|false|false|false|false|false|false|false|false|NNP
+Gross	others	gross|thoma|-rrb-|true|false|false|false|false|false|false|false|false|NNP
+-RRB-	others	-rrb-|gross|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+Computer	others	comput|_start_|systems\/pittsburgh|true|false|false|false|false|false|false|false|false|NN
+Systems\/Pittsburgh	others	systems\/pittsburgh|comput|supercomput|false|false|false|false|false|false|false|false|false|NNP
+Supercomputing	others	supercomput|systems\/pittsburgh|center|true|false|false|false|false|false|false|false|false|NNP
+Center	others	center|supercomput|seminar|true|false|false|false|false|false|false|false|false|NNP
+Seminar	others	seminar|center|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Virtual	others	virtual|_start_|memori|true|false|false|false|false|false|false|false|false|JJ
+Memory	others	memori|virtual|map|true|false|false|false|false|false|false|false|false|NN
+Mapped	others	map|memori|network|true|false|false|false|false|false|false|false|false|VBD
+Network	others	network|map|interfac|true|false|false|false|false|false|false|false|false|NNP
+Interface	others	interfac|network|for|true|false|false|false|false|false|false|false|false|NNP
+for	others	for|interfac|shrimp|false|false|false|false|false|false|false|false|false|IN
+SHRIMP	others	shrimp|for|multicomput|false|true|false|true|false|false|false|false|false|NNP
+multicomputer	others	multicomput|shrimp|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Princeton	others	princeton|_start_|univers|true|false|false|false|false|false|false|false|false|NNP
+University	others	univers|princeton|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Friday	others	fridai|_start_|dec|true|false|false|false|false|false|false|false|true|NNP
+Dec	others	dec|fridai|3rd|true|false|false|false|false|false|false|false|true|NNP
+3rd	others	3rd|dec|1993|false|false|false|false|false|false|false|false|true|CD
+1993	others	1993|3rd|at|false|false|false|false|false|false|false|false|true|CD
+at	others	at|1993|4:00|false|false|false|false|false|false|false|false|false|IN
+4:00	stime	4:00|at|p.|false|false|false|false|false|false|false|false|false|CD
+p.	stime	p.|4:00|m|false|false|false|false|false|false|false|false|false|NN
+m	stime	m|p.|in|false|false|false|false|false|false|false|false|false|NN
+in	others	in|m|weh|false|false|false|false|false|false|false|false|false|IN
+WeH	location	weh|in|5409|false|false|false|false|false|false|false|false|false|NN
+5409	location	5409|weh|_end_|false|false|false|false|false|false|false|false|false|CD
+

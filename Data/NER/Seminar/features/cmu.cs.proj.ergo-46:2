@@ -1,0 +1,65 @@
+Type	others	type|_start_|cmu|true|false|false|false|false|false|false|false|false|NN
+cmu	others	cmu|type|c|false|false|false|false|false|false|false|false|false|NN
+cs	others	c|cmu|proj|false|false|false|false|false|false|false|false|false|NNS
+proj	others	proj|c|ergo|false|false|false|false|false|false|false|false|false|NN
+ergo	others	ergo|proj|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Topic	others	topic|_start_|model|true|false|false|false|false|false|false|false|false|NN
+Model	others	model|topic|theori|true|false|false|false|false|false|false|false|false|NNP
+Theory	others	theori|model|seminar|true|false|false|false|false|false|false|false|false|NNP
+Seminar	others	seminar|theori|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Dates	others	date|_start_|13-mar-90|true|false|false|false|false|false|false|false|false|NNS
+13-Mar-90	others	13-mar-90|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|4:30|true|false|false|false|false|false|false|false|false|NNP
+4:30	stime	4:30|time|pm|false|false|false|false|false|false|false|false|false|CD
+PM	stime	pm|4:30|_end_|false|true|false|true|false|false|false|false|false|NN
+
+PostedBy	others	postedbi|_start_|rami|false|false|false|false|true|false|false|false|false|NNP
+Rami	others	rami|postedbi|grossberg|true|false|false|false|false|true|false|false|false|NNP
+Grossberg	others	grossberg|rami|on|true|false|false|false|false|true|false|false|false|NNP
+on	others	on|grossberg|09-mar-90|false|false|false|false|false|false|false|false|false|IN
+09-Mar-90	others	09-mar-90|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|09-mar-90|11:10|false|false|false|false|false|false|false|false|false|IN
+11:10	others	11:10|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|11:10|theory.cs.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+THEORY.CS.CMU.EDU	others	theory.cs.cmu.edu|from|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+Due	others	due|_start_|to|true|false|false|false|false|false|false|false|false|JJ
+to	others	to|due|except|false|false|false|false|false|false|false|false|false|TO
+exceptional	others	except|to|circumst|false|false|false|false|false|false|false|false|false|JJ
+circumstances	others	circumst|except|the|false|false|false|false|false|false|false|false|false|NNS
+the	others	the|circumst|first|false|false|false|false|false|false|false|false|false|DT
+first	others	first|the|meet|false|false|false|false|false|false|false|false|false|JJ
+meeting	others	meet|first|will|false|false|false|false|false|false|false|false|false|NN
+will	others	will|meet|be|false|false|false|false|false|false|false|false|false|MD
+be	others	be|will|on|false|false|false|false|false|false|false|false|false|VB
+on	others	on|be|tuesdai|false|false|false|false|false|false|false|false|false|IN
+Tuesday	others	tuesdai|on|_end_|true|false|false|false|false|false|false|false|true|NNP
+
+afternoon	others	afternoon|_start_|-lrb-|false|false|false|false|false|false|false|false|false|NN
+-LRB-	others	-lrb-|afternoon|instead|false|false|false|false|false|false|false|false|false|-LRB-
+instead	others	instead|-lrb-|of|false|false|false|false|false|false|false|false|false|RB
+of	others	of|instead|wednesdai|false|false|false|false|false|false|false|false|false|IN
+Wednesday	others	wednesdai|of|-rrb-|true|false|false|false|false|false|false|false|true|NNP
+-RRB-	others	-rrb-|wednesdai|on|false|false|false|false|false|false|false|false|false|-RRB-
+on	others	on|-rrb-|march|false|false|false|false|false|false|false|false|false|IN
+March	others	march|on|13|true|false|false|false|false|false|false|false|true|NNP
+13	others	13|march|in|false|false|false|false|false|false|false|false|true|CD
+in	others	in|13|weh|false|false|false|false|false|false|false|false|false|IN
+WeH	location	weh|in|6121|false|false|false|false|false|false|false|false|false|NN
+6121	location	6121|weh|at|false|false|false|false|false|false|false|false|false|CD
+at	others	at|6121|4:30|false|false|false|false|false|false|false|false|false|IN
+4:30	stime	4:30|at|pm|false|false|false|false|false|false|false|false|false|CD
+PM	stime	pm|4:30|_end_|false|true|false|true|false|false|false|false|false|NN
+
+Organizers	others	organ|_start_|michael|true|false|false|false|false|false|false|false|false|NNS
+Michael	others	michael|organ|albert|true|false|false|false|false|true|false|false|false|NNP
+Albert	others	albert|michael|and|true|false|false|false|false|true|false|false|false|NNP
+and	others	and|albert|rami|false|false|false|false|false|false|false|false|false|CC
+Rami	others	rami|and|grossberg|true|false|false|false|false|true|false|false|false|NNP
+Grossberg	others	grossberg|rami|_end_|true|false|false|false|false|true|false|false|false|NNP
+

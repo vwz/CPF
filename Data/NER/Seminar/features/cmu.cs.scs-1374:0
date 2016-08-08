@@ -1,0 +1,194 @@
+Type	others	type|_start_|cmu|true|false|false|false|false|false|false|false|false|NN
+cmu	others	cmu|type|c|false|false|false|false|false|false|false|false|false|NN
+cs	others	c|cmu|sc|false|false|false|false|false|false|false|false|false|NNS
+scs	others	sc|c|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+Topic	others	topic|_start_|cmt|true|false|false|false|false|false|false|false|false|NN
+CMT	others	cmt|topic|research|false|true|false|true|false|false|false|false|false|NNP
+Research	others	research|cmt|seminar|true|false|false|false|false|false|false|false|false|NNP
+Seminar	others	seminar|research|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Dates	others	date|_start_|24-nov-92|true|false|false|false|false|false|false|false|false|NNS
+24-Nov-92	others	24-nov-92|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|4:00|true|false|false|false|false|false|false|false|false|NNP
+4:00	stime	4:00|time|pm|false|false|false|false|false|false|false|false|false|CD
+PM	stime	pm|4:00|_end_|false|true|false|true|false|false|false|false|false|NN
+
+PostedBy	others	postedbi|_start_|teruko|false|false|false|false|true|false|false|false|false|NNP
+teruko	others	teruko|postedbi|on|false|false|false|false|false|false|false|false|false|NN
+on	others	on|teruko|18-nov-92|false|false|false|false|false|false|false|false|false|IN
+18-Nov-92	others	18-nov-92|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|18-nov-92|09:44|false|false|false|false|false|false|false|false|false|IN
+09:44	others	09:44|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|09:44|munich.mt.cs.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+MUNICH.MT.CS.CMU.EDU	others	munich.mt.cs.cmu.edu|from|-lrb-|false|false|false|false|false|false|false|false|false|NN
+-LRB-	others	-lrb-|munich.mt.cs.cmu.edu|teruko|false|false|false|false|false|false|false|false|false|-LRB-
+Teruko	others	teruko|-lrb-|mitamura|true|false|false|false|false|true|false|false|false|NNP
+Mitamura	others	mitamura|teruko|-rrb-|true|false|false|false|false|true|false|false|false|NNP
+-RRB-	others	-rrb-|mitamura|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+CMT	others	cmt|_start_|research|false|true|false|true|false|false|false|false|false|NNP
+RESEARCH	others	research|cmt|seminar|false|true|false|true|false|false|false|false|false|NNP
+SEMINAR	others	seminar|research|_end_|false|true|false|true|false|false|false|false|false|NN
+
+Hierarchical	others	hierarch|_start_|lexic|true|false|false|false|false|false|false|false|false|JJ
+Lexical	others	lexic|hierarch|structur|true|false|false|false|false|false|false|false|false|JJ
+Structure	others	structur|lexic|and|true|false|false|false|false|false|false|false|false|NN
+and	others	and|structur|map|false|false|false|false|false|false|false|false|false|CC
+Mapping	others	map|and|_end_|true|false|false|false|false|false|false|false|false|NN
+
+in	others	in|_start_|machin|false|false|false|false|false|false|false|false|false|IN
+Machine	others	machin|in|translat|true|false|false|false|false|false|false|false|false|NN
+Translation	others	translat|machin|_end_|true|false|false|false|false|false|false|false|false|NN
+
+Design	others	design|_start_|and|true|false|false|false|false|false|false|false|false|NN
+and	others	and|design|implement|false|false|false|false|false|false|false|false|false|CC
+Implementation	others	implement|and|in|true|false|false|false|false|false|false|false|false|NN
+in	others	in|implement|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|in|kant|false|false|false|false|false|false|false|false|false|DT
+KANT	others	kant|the|system|false|true|false|true|false|false|false|false|false|NNP
+System	others	system|kant|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Center	others	center|_start_|for|true|false|false|false|false|false|false|false|false|NNP
+for	others	for|center|machin|false|false|false|false|false|false|false|false|false|IN
+Machine	others	machin|for|translat|true|false|false|false|false|false|false|false|false|NN
+Translation	others	translat|machin|_end_|true|false|false|false|false|false|false|false|false|NN
+
+Tuesday	others	tuesdai|_start_|novemb|true|false|false|false|false|false|false|false|true|NNP
+November	others	novemb|tuesdai|24|true|false|false|false|false|false|false|false|true|NNP
+24	others	24|novemb|_end_|false|false|false|false|false|false|false|false|true|CD
+
+Large-scale	others	large-scal|_start_|knowledge-bas|false|false|false|false|false|false|false|false|false|JJ
+knowledge-based	others	knowledge-bas|large-scal|machin|false|false|false|false|false|false|false|false|false|JJ
+machine	others	machin|knowledge-bas|translat|false|false|false|false|false|false|false|false|false|NN
+translation	others	translat|machin|requir|false|false|false|false|false|false|false|false|false|NN
+requires	others	requir|translat|signific|false|false|false|false|false|false|false|false|false|VBZ
+significant	others	signific|requir|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+amounts	others	amount|_start_|of|false|false|false|false|false|false|false|false|false|NNS
+of	others	of|amount|lexic|false|false|false|false|false|false|false|false|false|IN
+lexical	others	lexic|of|knowledg|false|false|false|false|false|false|false|false|false|JJ
+knowledge	others	knowledg|lexic|in|false|false|false|false|false|false|false|false|false|NN
+in	others	in|knowledg|order|false|false|false|false|false|false|false|false|false|IN
+order	others	order|in|to|false|false|false|false|false|false|false|false|false|NN
+to	others	to|order|map|false|false|false|false|false|false|false|false|false|TO
+map	others	map|to|syntact|false|false|false|false|false|false|false|false|false|VB
+syntactic	others	syntact|map|structur|false|false|false|false|false|false|false|false|false|JJ
+structures	others	structur|syntact|to|false|false|false|false|false|false|false|false|false|NNS
+to	others	to|structur|_end_|false|false|false|false|false|false|false|false|false|TO
+
+conceptual	others	conceptu|_start_|structur|false|false|false|false|false|false|false|false|false|JJ
+structures	others	structur|conceptu|in|false|false|false|false|false|false|false|false|false|NNS
+In	others	in|structur|my|true|false|false|false|false|false|false|false|false|IN
+my	others	my|in|talk|false|false|false|false|false|false|false|false|false|PRP$
+talk	others	talk|my|i|false|false|false|false|false|false|false|false|false|NN
+I	others	i|talk|will|false|false|true|true|false|false|false|false|false|PRP
+will	others	will|i|present|false|false|false|false|false|false|false|false|false|MD
+present	others	present|will|a|false|false|false|false|false|false|false|false|false|VB
+a	others	a|present|framework|false|false|false|false|false|false|false|false|false|DT
+framework	others	framework|a|in|false|false|false|false|false|false|false|false|false|NN
+in	others	in|framework|which|false|false|false|false|false|false|false|false|false|IN
+which	others	which|in|_end_|false|false|false|false|false|false|false|false|false|WDT
+
+lexical	others	lexic|_start_|knowledg|false|false|false|false|false|false|false|false|false|JJ
+knowledge	others	knowledg|lexic|be|false|false|false|false|false|false|false|false|false|NN
+is	others	be|knowledg|separ|false|false|false|false|false|false|false|false|false|VBZ
+separated	others	separ|be|into|false|false|false|false|false|false|false|false|false|VBN
+into	others	into|separ|differ|false|false|false|false|false|false|false|false|false|IN
+different	others	differ|into|level|false|false|false|false|false|false|false|false|false|JJ
+levels	others	level|differ|of|false|false|false|false|false|false|false|false|false|NNS
+of	others	of|level|represent|false|false|false|false|false|false|false|false|false|IN
+representation	others	represent|of|_end_|false|false|false|false|false|false|false|false|false|NN
+
+arranged	others	arrang|_start_|in|false|false|false|false|false|false|false|false|false|VBN
+in	others	in|arrang|a|false|false|false|false|false|false|false|false|false|IN
+a	others	a|in|hierarch|false|false|false|false|false|false|false|false|false|DT
+hierarchical	others	hierarch|a|model|false|false|false|false|false|false|false|false|false|JJ
+model	others	model|hierarch|base|false|false|false|false|false|false|false|false|false|NN
+based	others	base|model|on|false|false|false|false|false|false|false|false|false|VBN
+on	others	on|base|principl|false|false|false|false|false|false|false|false|false|IN
+principles	others	principl|on|of|false|false|false|false|false|false|false|false|false|NNS
+of	others	of|principl|knowledg|false|false|false|false|false|false|false|false|false|IN
+knowledge	others	knowledg|of|_end_|false|false|false|false|false|false|false|false|false|NN
+
+representation	others	represent|_start_|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|represent|lexic|false|false|false|false|false|false|false|false|false|CC
+lexical	others	lexic|and|semant|false|false|false|false|false|false|false|false|false|JJ
+semantics	others	semant|lexic|the|false|false|false|false|false|false|false|false|false|NNS
+The	others	the|semant|propos|true|false|false|false|false|false|false|false|false|DT
+proposed	others	propos|the|methodolog|false|false|false|false|false|false|false|false|false|VBN
+methodology	others	methodolog|propos|be|false|false|false|false|false|false|false|false|false|NN
+is	others	be|methodolog|_end_|false|false|false|false|false|false|false|false|false|VBZ
+
+language-independent	others	language-independ|_start_|and|false|false|false|false|false|false|false|false|false|JJ
+and	others	and|language-independ|have|false|false|false|false|false|false|false|false|false|CC
+has	others	have|and|be|false|false|false|false|false|false|false|false|false|VBZ
+been	others	be|have|us|false|false|false|false|false|false|false|false|false|VBN
+used	others	us|be|to|false|false|false|false|false|false|false|false|false|VBN
+to	others	to|us|organ|false|false|false|false|false|false|false|false|false|TO
+organize	others	organ|to|lexic|false|false|false|false|false|false|false|false|false|VB
+lexical	others	lexic|organ|knowledg|false|false|false|false|false|false|false|false|false|JJ
+knowledge	others	knowledg|lexic|_end_|false|false|false|false|false|false|false|false|false|NN
+
+for	others	for|_start_|both|false|false|false|false|false|false|false|false|false|IN
+both	others	both|for|english|false|false|false|false|false|false|false|false|false|DT
+English	others	english|both|and|true|false|false|false|false|false|false|false|false|JJ
+and	others	and|english|japanes|false|false|false|false|false|false|false|false|false|CC
+Japanese	others	japanes|and|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+I	others	i|_start_|will|false|false|true|true|false|false|false|false|false|PRP
+will	others	will|i|give|false|false|false|false|false|false|false|false|false|MD
+give	others	give|will|a|false|false|false|false|false|false|false|false|false|VB
+a	others	a|give|brief|false|false|false|false|false|false|false|false|false|DT
+brief	others	brief|a|overview|false|false|false|false|false|false|false|false|false|JJ
+overview	others	overview|brief|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|overview|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|of|principl|false|false|false|false|false|false|false|false|false|DT
+principles	others	principl|the|of|false|false|false|false|false|false|false|false|false|NNS
+of	others	of|principl|lexic|false|false|false|false|false|false|false|false|false|IN
+lexical	others	lexic|of|semant|false|false|false|false|false|false|false|false|false|JJ
+semantics	others	semant|lexic|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+and	others	and|_start_|frame-bas|false|false|false|false|false|false|false|false|false|CC
+frame-based	others	frame-bas|and|knowledg|false|false|false|false|false|false|false|false|false|JJ
+knowledge	others	knowledg|frame-bas|represent|false|false|false|false|false|false|false|false|false|NN
+representation	others	represent|knowledg|as|false|false|false|false|false|false|false|false|false|NN
+as	others	as|represent|thei|false|false|false|false|false|false|false|false|false|IN
+they	others	thei|as|relat|false|false|false|false|false|false|false|false|false|PRP
+relate	others	relat|thei|to|false|false|false|false|false|false|false|false|false|VBP
+to	others	to|relat|lexic|false|false|false|false|false|false|false|false|false|TO
+lexical	others	lexic|to|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+structures	others	structur|_start_|for|false|false|false|false|false|false|false|false|false|NNS
+for	others	for|structur|practic|false|false|false|false|false|false|false|false|false|IN
+practical	others	practic|for|mt|false|false|false|false|false|false|false|false|false|JJ
+MT	others	mt|practic|and|false|true|false|true|false|false|false|false|false|NNP
+and	others	and|mt|illustr|false|false|false|false|false|false|false|false|false|CC
+illustrate	others	illustr|and|how|false|false|false|false|false|false|false|false|false|VB
+how	others	how|illustr|the|false|false|false|false|false|false|false|false|false|WRB
+the	others	the|how|propos|false|false|false|false|false|false|false|false|false|DT
+proposed	others	propos|the|framework|false|false|false|false|false|false|false|false|false|VBN
+framework	others	framework|propos|_end_|false|false|false|false|false|false|false|false|false|NN
+
+will	others	will|_start_|be|false|false|false|false|false|false|false|false|false|MD
+be	others	be|will|us|false|false|false|false|false|false|false|false|false|VB
+used	others	us|be|in|false|false|false|false|false|false|false|false|false|VBN
+in	others	in|us|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|in|kant|false|false|false|false|false|false|false|false|false|DT
+KANT	others	kant|the|system|false|true|false|true|false|false|false|false|false|NNP
+system	others	system|kant|to|false|false|false|false|false|false|false|false|false|NN
+to	others	to|system|organ|false|false|false|false|false|false|false|false|false|TO
+organize	others	organ|to|lexic|false|false|false|false|false|false|false|false|false|VB
+lexical	others	lexic|organ|entri|false|false|false|false|false|false|false|false|false|JJ
+entries	others	entri|lexic|and|false|false|false|false|false|false|false|false|false|NNS
+and	others	and|entri|_end_|false|false|false|false|false|false|false|false|false|CC
+
+mapping	others	map|_start_|rule|false|false|false|false|false|false|false|false|false|VBG
+rules	others	rule|map|for|false|false|false|false|false|false|false|false|false|NNS
+for	others	for|rule|large-scal|false|false|false|false|false|false|false|false|false|IN
+large-scale	others	large-scal|for|applic|false|false|false|false|false|false|false|false|false|JJ
+applications	others	applic|large-scal|_end_|false|false|false|false|false|false|false|false|false|NNS
+

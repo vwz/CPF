@@ -1,0 +1,137 @@
+Type	others	type|_start_|cmu|true|false|false|false|false|false|false|false|false|NN
+cmu	others	cmu|type|c|false|false|false|false|false|false|false|false|false|NN
+cs	others	c|cmu|proj|false|false|false|false|false|false|false|false|false|NNS
+proj	others	proj|c|nectar|false|false|false|false|false|false|false|false|false|NN
+nectar	others	nectar|proj|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Topic	others	topic|_start_|supercomput|true|false|false|false|false|false|false|false|false|NN
+Supercomputing	others	supercomput|topic|seminar|true|false|false|false|false|false|false|false|false|VBG
+Seminar	others	seminar|supercomput|thi|true|false|false|false|false|false|false|false|false|NN
+this	others	thi|seminar|fridai|false|false|false|false|false|false|false|false|true|DT
+Friday	others	fridai|thi|_end_|true|false|false|false|false|false|false|false|true|NNP
+
+Dates	others	date|_start_|26-oct-90|true|false|false|false|false|false|false|false|false|NNS
+26-Oct-90	others	26-oct-90|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|4:00|true|false|false|false|false|false|false|false|false|NNP
+4:00	stime	4:00|time|pm|false|false|false|false|false|false|false|false|false|CD
+PM	stime	pm|4:00|_end_|false|true|false|true|false|false|false|false|false|NN
+
+Place	others	place|_start_|wean|true|false|false|false|false|false|false|false|false|NN
+Wean	location	wean|place|5409|true|false|false|false|false|false|false|false|false|VB
+5409	location	5409|wean|_end_|false|false|false|false|false|false|false|false|false|CD
+
+PostedBy	others	postedbi|_start_|ht|false|false|false|false|true|false|false|false|false|NNP
+HT	others	ht|postedbi|kung|false|true|false|true|false|false|false|false|false|NNP
+Kung	others	kung|ht|on|true|false|false|false|false|false|false|false|false|NNP
+on	others	on|kung|25-oct-90|false|false|false|false|false|false|false|false|false|IN
+25-Oct-90	others	25-oct-90|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|25-oct-90|15:46|false|false|false|false|false|false|false|false|false|IN
+15:46	others	15:46|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|15:46|ius3|false|false|false|false|false|false|false|false|false|IN
+IUS3	others	ius3|from|ius.cs.cmu.edu|false|false|false|false|false|false|false|false|false|NN
+IUS.CS.CMU.EDU	others	ius.cs.cmu.edu|ius3|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+The	others	the|_start_|seminar|true|false|false|false|false|false|false|false|false|DT
+seminar	others	seminar|the|be|false|false|false|false|false|false|false|false|false|NN
+is	others	be|seminar|sponsor|false|false|false|false|false|false|false|false|false|VBZ
+sponsored	others	sponsor|be|by|false|false|false|false|false|false|false|false|false|VBN
+by	others	by|sponsor|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|by|pittsburgh|false|false|false|false|false|false|false|false|false|DT
+Pittsburgh	others	pittsburgh|the|supercomput|true|false|false|false|false|false|false|false|false|NNP
+Supercomputing	others	supercomput|pittsburgh|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Center	others	center|_start_|and|true|false|false|false|false|false|false|false|false|NNP
+and	others	and|center|the|false|false|false|false|false|false|false|false|false|CC
+the	others	the|and|cmu|false|false|false|false|false|false|false|false|false|DT
+CMU	others	cmu|the|school|false|true|false|true|false|false|false|false|false|NNP
+School	others	school|cmu|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|school|comput|false|false|false|false|false|false|false|false|false|IN
+Computer	others	comput|of|scienc|true|false|false|false|false|false|false|false|false|NNP
+Science	others	scienc|comput|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Time	others	time|_start_|fri|true|false|false|false|false|false|false|false|false|NNP
+Fri	others	fri|time|oct|true|false|false|false|false|false|false|false|true|NNP
+Oct	others	oct|fri|26|true|false|false|false|false|false|false|false|true|NNP
+26	others	26|oct|at|false|false|false|false|false|false|false|false|true|CD
+at	others	at|26|4:00|false|false|false|false|false|false|false|false|false|IN
+4:00	stime	4:00|at|pm|false|false|false|false|false|false|false|false|false|CD
+pm	stime	pm|4:00|-lrb-|false|false|false|false|false|false|false|false|false|NN
+-LRB-	others	-lrb-|pm|coffe|false|false|false|false|false|false|false|false|false|-LRB-
+Coffee	others	coffe|-lrb-|and|true|false|false|false|false|false|false|false|false|NNP
+and	others	and|coffe|cooki|false|false|false|false|false|false|false|false|false|CC
+Cookies	others	cooki|and|at|true|false|false|false|false|false|false|false|false|NNS
+at	others	at|cooki|3:45|false|false|false|false|false|false|false|false|false|IN
+3:45	others	3:45|at|pm|false|false|false|false|false|false|false|false|false|CD
+pm	others	pm|3:45|-rrb-|false|false|false|false|false|false|false|false|false|NN
+-RRB-	others	-rrb-|pm|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+Place	others	place|_start_|wean|true|false|false|false|false|false|false|false|false|NN
+Wean	location	wean|place|5409|true|false|false|false|false|false|false|false|false|VB
+5409	location	5409|wean|_end_|false|false|false|false|false|false|false|false|false|CD
+
+High	others	high|_start_|speed|true|false|false|false|false|false|false|false|false|JJ
+Speed	others	speed|high|digit|true|false|false|false|false|false|false|false|false|NN
+Digital	others	digit|speed|telecommun|true|false|false|false|false|false|false|false|false|NNP
+Telecommunication	others	telecommun|digit|network|true|false|false|false|false|false|false|false|false|NNP
+Networks	others	network|telecommun|and|true|false|false|false|false|false|false|false|false|NNP
+and	others	and|network|_end_|false|false|false|false|false|false|false|false|false|CC
+
+Switches	others	switch|_start_|_end_|true|false|false|false|false|false|false|false|false|NNS
+
+Bell	others	bell|_start_|northern|true|false|false|false|false|false|false|false|false|NNP
+Northern	others	northern|bell|research|true|false|false|false|false|false|false|false|false|NNP
+Research	others	research|northern|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+ttawa	others	ttawa|_start_|ontario|false|false|false|false|false|false|false|false|false|NN
+Ontario	others	ontario|ttawa|canada|true|false|false|false|false|false|false|false|false|NNP
+Canada	others	canada|ontario|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+The	others	the|_start_|digit|true|false|false|false|false|false|false|false|false|DT
+digital	others	digit|the|telecommun|false|false|false|false|false|false|false|false|false|JJ
+telecommunications	others	telecommun|digit|network|false|false|false|false|false|false|false|false|false|NN
+network	others	network|telecommun|contain|false|false|false|false|false|false|false|false|false|NN
+contains	others	contain|network|user|false|false|false|false|false|false|false|false|false|VBZ
+user	others	user|contain|_end_|false|false|false|false|false|false|false|false|false|NN
+
+terminals	others	termin|_start_|transmiss|false|false|false|false|false|false|false|false|false|NNS
+transmission	others	transmiss|termin|facil|false|false|false|false|false|false|false|false|false|NN
+facilities	others	facil|transmiss|and|false|false|false|false|false|false|false|false|false|NNS
+and	others	and|facil|switch|false|false|false|false|false|false|false|false|false|CC
+switches	others	switch|and|as|false|false|false|false|false|false|false|false|false|VBZ
+As	others	as|switch|_end_|true|false|false|false|false|false|false|false|false|IN
+
+the	others	the|_start_|process|false|false|false|false|false|false|false|false|false|DT
+processing	others	process|the|capac|false|false|false|false|false|false|false|false|false|NN
+capacity	others	capac|process|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|capac|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|of|termimat|false|false|false|false|false|false|false|false|false|DT
+termimatically	others	termimat|the|in|false|false|false|false|false|false|false|false|false|RB
+In	others	in|termimat|thi|true|false|false|false|false|false|false|false|false|IN
+this	others	thi|in|seminar|false|false|false|false|false|false|false|false|false|DT
+seminar	others	seminar|thi|we|false|false|false|false|false|false|false|false|false|NN
+we	others	we|seminar|_end_|false|false|false|false|false|false|false|false|false|PRP
+
+discuss	others	discuss|_start_|network|false|false|false|false|false|false|false|false|false|VB
+network	others	network|discuss|architectur|false|false|false|false|false|false|false|false|false|NN
+architectures	others	architectur|network|as|false|false|false|false|false|false|false|false|false|NNS
+as	others	as|architectur|well|false|false|false|false|false|false|false|false|false|RB
+well	others	well|as|as|false|false|false|false|false|false|false|false|false|RB
+as	others	as|well|switch|false|false|false|false|false|false|false|false|false|IN
+switching	others	switch|as|technolog|false|false|false|false|false|false|false|false|false|VBG
+technology	others	technolog|switch|to|false|false|false|false|false|false|false|false|false|NN
+to	others	to|technolog|_end_|false|false|false|false|false|false|false|false|false|TO
+
+deal	others	deal|_start_|with|false|false|false|false|false|false|false|false|false|NN
+with	others	with|deal|broadband|false|false|false|false|false|false|false|false|false|IN
+broadband	others	broadband|with|servic|false|false|false|false|false|false|false|false|false|NN
+services	others	servic|broadband|and|false|false|false|false|false|false|false|false|false|NNS
+and	others	and|servic|the|false|false|false|false|false|false|false|false|false|CC
+the	others	the|and|associ|false|false|false|false|false|false|false|false|false|DT
+associated	others	associ|the|capac|false|false|false|false|false|false|false|false|false|VBN
+capacity	others	capac|associ|_end_|false|false|false|false|false|false|false|false|false|NN
+
+explosion	others	explos|_start_|_end_|false|false|false|false|false|false|false|false|false|NN
+

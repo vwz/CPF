@@ -1,0 +1,333 @@
+Type	others	type|_start_|cmu|true|false|false|false|false|false|false|false|false|NN
+cmu	others	cmu|type|c|false|false|false|false|false|false|false|false|false|NN
+cs	others	c|cmu|sc|false|false|false|false|false|false|false|false|false|NNS
+scs	others	sc|c|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+Who	others	who|_start_|prof.|true|false|false|false|false|false|false|false|false|WP
+Prof.	speaker	prof.|who|klau|false|false|false|false|false|true|false|false|false|NNP
+Klaus	speaker	klau|prof.|sutner|true|false|false|false|false|true|false|false|false|NNP
+Sutner	speaker	sutner|klau|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+Computer	others	comput|_start_|scienc|true|false|false|false|false|false|false|false|false|NNP
+Science	others	scienc|comput|depart|true|false|false|false|false|false|false|false|false|NNP
+Department	others	depart|scienc|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Stevens	others	steven|_start_|institut|true|false|false|false|false|false|false|false|false|NNP
+Institute	others	institut|steven|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|institut|technolog|false|false|false|false|false|false|false|false|false|IN
+Technology	others	technolog|of|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Hoboken	others	hoboken|_start_|nj|true|false|false|false|false|false|false|false|false|NNP
+NJ	others	nj|hoboken|07030|false|true|false|true|false|false|false|false|false|NNP
+07030	others	07030|nj|_end_|false|false|false|false|false|false|false|false|false|CD
+
+Topic	others	topic|_start_|teach|true|false|false|false|false|false|false|false|false|NN
+Teaching	others	teach|topic|automata|true|false|false|false|false|false|false|false|false|NNP
+Automata	others	automata|teach|theori|true|false|false|false|false|false|false|false|false|NNP
+Theory	others	theori|automata|by|true|false|false|false|false|false|false|false|false|NNP
+by	others	by|theori|comput|false|false|false|false|false|false|false|false|false|IN
+Computer	others	comput|by|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Dates	others	date|_start_|12-nov-93|true|false|false|false|false|false|false|false|false|NNS
+12-Nov-93	others	12-nov-93|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|12:00|true|false|false|false|false|false|false|false|false|NNP
+12:00	stime	12:00|time|pm|false|false|false|false|false|false|false|false|false|CD
+PM	stime	pm|12:00|_end_|false|true|false|true|false|false|false|false|false|NN
+
+Place	others	place|_start_|weh|true|false|false|false|false|false|false|false|false|NN
+WeH	location	weh|place|4623|false|false|false|false|false|false|false|false|false|NN
+4623	location	4623|weh|_end_|false|false|false|false|false|false|false|false|false|CD
+
+Host	others	host|_start_|dana|true|false|false|false|false|false|false|false|false|NN
+Dana	others	dana|host|scott|true|false|false|false|false|true|false|false|false|NNP
+Scott	others	scott|dana|-lrb-|true|false|false|false|false|true|false|false|false|NNP
+-LRB-	others	-lrb-|scott|asst|false|false|false|false|false|false|false|false|false|-LRB-
+Asst	others	asst|-lrb-|rebecca|true|false|false|false|false|false|false|false|false|NNP
+Rebecca	others	rebecca|asst|clark|true|false|false|false|false|true|false|false|false|NNP
+Clark	others	clark|rebecca|x8-6737|true|false|false|false|false|true|false|false|false|NNP
+x8-6737	others	x8-6737|clark|-rrb-|false|false|false|false|false|false|false|false|false|NN
+-RRB-	others	-rrb-|x8-6737|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+PostedBy	others	postedbi|_start_|rebec|false|false|false|false|true|false|false|false|false|NNP
+rebec	others	rebec|postedbi|on|false|false|false|false|false|false|false|false|false|NN
+on	others	on|rebec|10-nov-93|false|false|false|false|false|false|false|false|false|IN
+10-Nov-93	others	10-nov-93|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|10-nov-93|10:15|false|false|false|false|false|false|false|false|false|IN
+10:15	others	10:15|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|10:15|gnome.cs.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+GNOME.CS.CMU.EDU	others	gnome.cs.cmu.edu|from|-lrb-|false|false|false|false|false|false|false|false|false|NN
+-LRB-	others	-lrb-|gnome.cs.cmu.edu|rebecca|false|false|false|false|false|false|false|false|false|-LRB-
+Rebecca	others	rebecca|-lrb-|clark|true|false|false|false|false|true|false|false|false|NNP
+Clark	others	clark|rebecca|-rrb-|true|false|false|false|false|true|false|false|false|NNP
+-RRB-	others	-rrb-|clark|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+What	others	what|_start_|special|true|false|false|false|false|false|false|false|false|WDT
+Special	others	special|what|seminar|true|false|false|false|false|false|false|false|false|JJ
+Seminar	others	seminar|special|_end_|true|false|false|false|false|false|false|false|false|NN
+
+Who	others	who|_start_|prof.|true|false|false|false|false|false|false|false|false|WP
+Prof.	speaker	prof.|who|klau|false|false|false|false|false|true|false|false|false|NNP
+Klaus	speaker	klau|prof.|sutner|true|false|false|false|false|true|false|false|false|NNP
+Sutner	speaker	sutner|klau|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+Computer	others	comput|_start_|scienc|true|false|false|false|false|false|false|false|false|NNP
+Science	others	scienc|comput|depart|true|false|false|false|false|false|false|false|false|NNP
+Department	others	depart|scienc|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Stevens	others	steven|_start_|institut|true|false|false|false|false|false|false|false|false|NNP
+Institute	others	institut|steven|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|institut|technolog|false|false|false|false|false|false|false|false|false|IN
+Technology	others	technolog|of|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Hoboken	others	hoboken|_start_|nj|true|false|false|false|false|false|false|false|false|NNP
+NJ	others	nj|hoboken|07030|false|true|false|true|false|false|false|false|false|NNP
+07030	others	07030|nj|_end_|false|false|false|false|false|false|false|false|false|CD
+
+E-Mail	others	e-mail|_start_|sutner@aiki.stevens-tech.edu|false|false|false|false|false|false|false|false|false|NN
+sutner@aiki.stevens-tech.edu	others	sutner@aiki.stevens-tech.edu|e-mail|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Topic	others	topic|_start_|teach|true|false|false|false|false|false|false|false|false|NN
+Teaching	others	teach|topic|automata|true|false|false|false|false|false|false|false|false|NNP
+Automata	others	automata|teach|theori|true|false|false|false|false|false|false|false|false|NNP
+Theory	others	theori|automata|by|true|false|false|false|false|false|false|false|false|NNP
+by	others	by|theori|comput|false|false|false|false|false|false|false|false|false|IN
+Computer	others	comput|by|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Date	others	date|_start_|12-nov-93|true|false|false|false|false|false|false|false|false|NN
+12-Nov-93	others	12-nov-93|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|12:00|true|false|false|false|false|false|false|false|false|NNP
+12:00	stime	12:00|time|pm|false|false|false|false|false|false|false|false|false|CD
+pm	stime	pm|12:00|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Place	others	place|_start_|weh|true|false|false|false|false|false|false|false|false|NN
+WeH	location	weh|place|4623|false|false|false|false|false|false|false|false|false|NN
+4623	location	4623|weh|_end_|false|false|false|false|false|false|false|false|false|CD
+
+Host	others	host|_start_|dana|true|false|false|false|false|false|false|false|false|NN
+Dana	others	dana|host|scott|true|false|false|false|false|true|false|false|false|NNP
+Scott	others	scott|dana|-lrb-|true|false|false|false|false|true|false|false|false|NNP
+-LRB-	others	-lrb-|scott|asst|false|false|false|false|false|false|false|false|false|-LRB-
+Asst	others	asst|-lrb-|rebecca|true|false|false|false|false|false|false|false|false|NNP
+Rebecca	others	rebecca|asst|clark|true|false|false|false|false|true|false|false|false|NNP
+Clark	others	clark|rebecca|x8-6737|true|false|false|false|false|true|false|false|false|NNP
+x8-6737	others	x8-6737|clark|-rrb-|false|false|false|false|false|false|false|false|false|NN
+-RRB-	others	-rrb-|x8-6737|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+ABSTRACT	others	abstract|_start_|we|false|true|false|true|false|false|false|false|false|NN
+We	others	we|abstract|will|true|false|false|false|false|false|false|false|false|PRP
+will	others	will|we|demonstr|false|false|false|false|false|false|false|false|false|MD
+demonstrate	others	demonstr|will|the|false|false|false|false|false|false|false|false|false|VB
+the	others	the|demonstr|sytem|false|false|false|false|false|false|false|false|false|DT
+sytem	others	sytem|the|automaton|false|false|false|false|false|false|false|false|false|NN
+automata	others	automaton|sytem|that|false|false|false|false|false|false|false|false|false|NN
+that	others	that|automaton|implement|false|false|false|false|false|false|false|false|false|WDT
+implements	others	implement|that|_end_|false|false|false|false|false|false|false|false|false|VBZ
+
+finite	others	finit|_start_|state|false|false|false|false|false|false|false|false|false|JJ
+state	others	state|finit|machin|false|false|false|false|false|false|false|false|false|NN
+machines	others	machin|state|the|false|false|false|false|false|false|false|false|false|NNS
+The	others	the|machin|system|true|false|false|false|false|false|false|false|false|DT
+system	others	system|the|consist|false|false|false|false|false|false|false|false|false|NN
+consists	others	consist|system|of|false|false|false|false|false|false|false|false|false|VBZ
+of	others	of|consist|a|false|false|false|false|false|false|false|false|false|IN
+a	others	a|of|mathematica|false|false|false|false|false|false|false|false|false|DT
+Mathematica	others	mathematica|a|packag|true|false|false|false|false|false|false|false|false|NNP
+package	others	packag|mathematica|_end_|false|false|false|false|false|false|false|false|false|NN
+
+together	others	togeth|_start_|with|false|false|false|false|false|false|false|false|false|RB
+with	others	with|togeth|a|false|false|false|false|false|false|false|false|false|IN
+a	others	a|with|special|false|false|false|false|false|false|false|false|false|DT
+special	others	special|a|purpos|false|false|false|false|false|false|false|false|false|JJ
+purpose	others	purpos|special|calcul|false|false|false|false|false|false|false|false|false|NN
+calculator	others	calcul|purpos|that|false|false|false|false|false|false|false|false|false|NN
+that	others	that|calcul|commun|false|false|false|false|false|false|false|false|false|WDT
+communicate	others	commun|that|via|false|false|false|false|false|false|false|false|false|VBP
+via	others	via|commun|_end_|false|false|false|false|false|false|false|false|false|IN
+
+MathLink	others	mathlink|_start_|most|false|false|false|false|false|false|false|false|false|NNP
+Most	others	most|mathlink|of|true|false|false|false|false|false|false|false|false|JJS
+of	others	of|most|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|of|standard|false|false|false|false|false|false|false|false|false|DT
+standard	others	standard|the|oper|false|false|false|false|false|false|false|false|false|JJ
+operations	others	oper|standard|on|false|false|false|false|false|false|false|false|false|NNS
+on	others	on|oper|finit|false|false|false|false|false|false|false|false|false|IN
+finite	others	finit|on|state|false|false|false|false|false|false|false|false|false|JJ
+state	others	state|finit|machin|false|false|false|false|false|false|false|false|false|NN
+machines	others	machin|state|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+are	others	be|_start_|implement|false|false|false|false|false|false|false|false|false|VBP
+implemented	others	implement|be|includ|false|false|false|false|false|false|false|false|false|VBN
+including	others	includ|implement|the|false|false|false|false|false|false|false|false|false|VBG
+the	others	the|includ|comput|false|false|false|false|false|false|false|false|false|DT
+computation	others	comput|the|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|comput|syntact|false|false|false|false|false|false|false|false|false|IN
+syntactic	others	syntact|of|semigroup|false|false|false|false|false|false|false|false|false|JJ
+semigroups	others	semigroup|syntact|and|false|false|false|false|false|false|false|false|false|NNS
+and	others	and|semigroup|_end_|false|false|false|false|false|false|false|false|false|CC
+
+their	others	thei|_start_|decomposit|false|false|false|false|false|false|false|false|false|PRP$
+decomposition	others	decomposit|thei|into|false|false|false|false|false|false|false|false|false|NN
+into	others	into|decomposit|d-class|false|false|false|false|false|false|false|false|false|IN
+D-classes	others	d-class|into|document|false|false|false|false|false|false|false|false|false|NNS
+Documentation	others	document|d-class|for|true|false|false|false|false|false|false|false|false|NN
+for	others	for|document|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|for|system|false|false|false|false|false|false|false|false|false|DT
+system	others	system|the|be|false|false|false|false|false|false|false|false|false|NN
+is	others	be|system|_end_|false|false|false|false|false|false|false|false|false|VBZ
+
+available	others	avail|_start_|in|false|false|false|false|false|false|false|false|false|JJ
+in	others	in|avail|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|in|form|false|false|false|false|false|false|false|false|false|DT
+form	others	form|the|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|form|mathematica|false|false|false|false|false|false|false|false|false|IN
+Mathematica	others	mathematica|of|notebook|true|false|false|false|false|false|false|false|false|NNP
+notebooks	others	notebook|mathematica|as|false|false|false|false|false|false|false|false|false|NNS
+as	others	as|notebook|well|false|false|false|false|false|false|false|false|false|RB
+well	others	well|as|as|false|false|false|false|false|false|false|false|false|RB
+as	others	as|well|in|false|false|false|false|false|false|false|false|false|IN
+in	others	in|as|print|false|false|false|false|false|false|false|false|false|IN
+printed	others	print|in|_end_|false|false|false|false|false|false|false|false|false|VBN
+
+form	others	form|_start_|the|false|false|false|false|false|false|false|false|false|NN
+The	others	the|form|automaton|true|false|false|false|false|false|false|false|false|DT
+automata	others	automaton|the|packag|false|false|false|false|false|false|false|false|false|NN
+package	others	packag|automaton|have|false|false|false|false|false|false|false|false|false|NN
+has	others	have|packag|be|false|false|false|false|false|false|false|false|false|VBZ
+been	others	be|have|us|false|false|false|false|false|false|false|false|false|VBN
+used	others	us|be|as|false|false|false|false|false|false|false|false|false|VBN
+as	others	as|us|a|false|false|false|false|false|false|false|false|false|IN
+a	others	a|as|teach|false|false|false|false|false|false|false|false|false|DT
+teaching	others	teach|a|tool|false|false|false|false|false|false|false|false|false|NN
+tool	others	tool|teach|in|false|false|false|false|false|false|false|false|false|NN
+in	others	in|tool|a|false|false|false|false|false|false|false|false|false|IN
+a	others	a|in|_end_|false|false|false|false|false|false|false|false|false|DT
+
+standard	others	standard|_start_|graduat|false|false|false|false|false|false|false|false|false|JJ
+graduate	others	graduat|standard|cours|false|false|false|false|false|false|false|false|false|NN
+course	others	cours|graduat|on|false|false|false|false|false|false|false|false|false|NN
+on	others	on|cours|automaton|false|false|false|false|false|false|false|false|false|IN
+automata	others	automaton|on|theori|false|false|false|false|false|false|false|false|false|NN
+theory	others	theori|automaton|the|false|false|false|false|false|false|false|false|false|NN
+The	others	the|theori|finit|true|false|false|false|false|false|false|false|false|DT
+finite	others	finit|the|state|false|false|false|false|false|false|false|false|false|JJ
+state	others	state|finit|machin|false|false|false|false|false|false|false|false|false|NN
+machine	others	machin|state|_end_|false|false|false|false|false|false|false|false|false|NN
+
+calculator	others	calcul|_start_|can|false|false|false|false|false|false|false|false|false|NN
+can	others	can|calcul|also|false|false|false|false|false|false|false|false|false|MD
+also	others	also|can|oper|false|false|false|false|false|false|false|false|false|RB
+operate	others	oper|also|independ|false|false|false|false|false|false|false|false|false|VB
+independently	others	independ|oper|of|false|false|false|false|false|false|false|false|false|RB
+of	others	of|independ|mathematica|false|false|false|false|false|false|false|false|false|IN
+Mathematica	others	mathematica|of|and|true|false|false|false|false|false|false|false|false|NNP
+and	others	and|mathematica|be|false|false|false|false|false|false|false|false|false|CC
+is	others	be|and|_end_|false|false|false|false|false|false|false|false|false|VBZ
+
+helpful	others	help|_start_|in|false|false|false|false|false|false|false|false|false|JJ
+in	others	in|help|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|in|studi|false|false|false|false|false|false|false|false|false|DT
+study	others	studi|the|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|studi|linear|false|false|false|false|false|false|false|false|false|IN
+linear	others	linear|of|cellular|false|false|false|false|false|false|false|false|false|JJ
+cellular	others	cellular|linear|automaton|false|false|false|false|false|false|false|false|false|JJ
+automata	others	automaton|cellular|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Recent	others	recent|_start_|version|true|false|false|false|false|false|false|false|false|JJ
+versions	others	version|recent|of|false|false|false|false|false|false|false|false|false|NNS
+of	others	of|version|mathematica|false|false|false|false|false|false|false|false|false|IN
+Mathematica	others	mathematica|of|be|true|false|false|false|false|false|false|false|false|NNP
+are	others	be|mathematica|equip|false|false|false|false|false|false|false|false|false|VBP
+equipped	others	equip|be|with|false|false|false|false|false|false|false|false|false|VBN
+with	others	with|equip|mathlink|false|false|false|false|false|false|false|false|false|IN
+MathLink	others	mathlink|with|a|false|false|false|false|false|false|false|false|false|NNP
+a	others	a|mathlink|high|false|false|false|false|false|false|false|false|false|DT
+high	others	high|a|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+level	others	level|_start_|commun|false|false|false|false|false|false|false|false|false|NN
+communications	others	commun|level|protocol|false|false|false|false|false|false|false|false|false|NNS
+protocol	others	protocol|commun|that|false|false|false|false|false|false|false|false|false|NN
+that	others	that|protocol|allow|false|false|false|false|false|false|false|false|false|WDT
+allows	others	allow|that|on|false|false|false|false|false|false|false|false|false|VBZ
+one	others	on|allow|to|false|false|false|false|false|false|false|false|false|CD
+to	others	to|on|connect|false|false|false|false|false|false|false|false|false|TO
+connect	others	connect|to|extern|false|false|false|false|false|false|false|false|false|VB
+external	others	extern|connect|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+programs	others	program|_start_|to|false|false|false|false|false|false|false|false|false|NNS
+to	others	to|program|a|false|false|false|false|false|false|false|false|false|TO
+a	others	a|to|mathematica|false|false|false|false|false|false|false|false|false|DT
+Mathematica	others	mathematica|a|kernel|true|false|false|false|false|false|false|false|false|NNP
+kernel	others	kernel|mathematica|probabl|false|false|false|false|false|false|false|false|false|NN
+Probably	others	probabl|kernel|the|true|false|false|false|false|false|false|false|false|RB
+the	others	the|probabl|most|false|false|false|false|false|false|false|false|false|DT
+most	others	most|the|us|false|false|false|false|false|false|false|false|false|RBS
+useful	others	us|most|aspect|false|false|false|false|false|false|false|false|false|JJ
+aspect	others	aspect|us|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|aspect|_end_|false|false|false|false|false|false|false|false|false|IN
+
+MathLink	others	mathlink|_start_|be|false|false|false|false|false|false|false|false|false|NNP
+is	others	be|mathlink|the|false|false|false|false|false|false|false|false|false|VBZ
+the	others	the|be|fact|false|false|false|false|false|false|false|false|false|DT
+fact	others	fact|the|that|false|false|false|false|false|false|false|false|false|NN
+that	others	that|fact|it|false|false|false|false|false|false|false|false|false|IN
+it	others	it|that|enabl|false|false|false|false|false|false|false|false|false|PRP
+enables	others	enabl|it|on|false|false|false|false|false|false|false|false|false|VBZ
+one	others	on|enabl|to|false|false|false|false|false|false|false|false|false|CD
+to	others	to|on|us|false|false|false|false|false|false|false|false|false|TO
+use	others	us|to|mathematica|false|false|false|false|false|false|false|false|false|VB
+Mathematica	others	mathematica|us|as|true|false|false|false|false|false|false|false|false|NNP
+as	others	as|mathematica|a|false|false|false|false|false|false|false|false|false|IN
+a	others	a|as|_end_|false|false|false|false|false|false|false|false|false|DT
+
+frontend	others	frontend|_start_|to|false|false|false|false|false|false|false|false|false|NN
+to	others	to|frontend|a|false|false|false|false|false|false|false|false|false|TO
+a	others	a|to|special|false|false|false|false|false|false|false|false|false|DT
+special	others	special|a|purpos|false|false|false|false|false|false|false|false|false|JJ
+purpose	others	purpos|special|program|false|false|false|false|false|false|false|false|false|NN
+program	others	program|purpos|mathematica|false|false|false|false|false|false|false|false|false|NN
+Mathematica	others	mathematica|program|can|true|false|false|false|false|false|false|false|false|NNP
+can	others	can|mathematica|then|false|false|false|false|false|false|false|false|false|MD
+then	others	then|can|be|false|false|false|false|false|false|false|false|false|RB
+be	others	be|then|_end_|false|false|false|false|false|false|false|false|false|VB
+
+employed	others	emploi|_start_|to|false|false|false|false|false|false|false|false|false|VBN
+to	others	to|emploi|displai|false|false|false|false|false|false|false|false|false|TO
+display	others	displai|to|manipul|false|false|false|false|false|false|false|false|false|VB
+manipulate	others	manipul|displai|and|false|false|false|false|false|false|false|false|false|VB
+and	others	and|manipul|document|false|false|false|false|false|false|false|false|false|CC
+document	others	document|and|the|false|false|false|false|false|false|false|false|false|VB
+the	others	the|document|datum|false|false|false|false|false|false|false|false|false|DT
+data	others	datum|the|gener|false|false|false|false|false|false|false|false|false|NNS
+generated	others	gener|datum|by|false|false|false|false|false|false|false|false|false|VBN
+by	others	by|gener|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|by|_end_|false|false|false|false|false|false|false|false|false|DT
+
+external	others	extern|_start_|program|false|false|false|false|false|false|false|false|false|JJ
+program	others	program|extern|_end_|false|false|false|false|false|false|false|false|false|NN
+
+After	others	after|_start_|the|true|false|false|false|false|false|false|false|false|IN
+the	others	the|after|lectur|false|false|false|false|false|false|false|false|false|DT
+lecture	others	lectur|the|prof.|false|false|false|false|false|false|false|false|false|NN
+Prof.	speaker	prof.|lectur|sutner|false|false|false|false|false|true|false|false|false|NNP
+Sutner	speaker	sutner|prof.|will|true|false|false|false|false|true|false|false|false|NNP
+will	others	will|sutner|be|false|false|false|false|false|false|false|false|false|MD
+be	others	be|will|glad|false|false|false|false|false|false|false|false|false|VB
+glad	others	glad|be|to|false|false|false|false|false|false|false|false|false|JJ
+to	others	to|glad|demonstr|false|false|false|false|false|false|false|false|false|TO
+demonstrate	others	demonstr|to|and|false|false|false|false|false|false|false|false|false|VB
+and	others	and|demonstr|_end_|false|false|false|false|false|false|false|false|false|CC
+
+discuss	others	discuss|_start_|the|false|false|false|false|false|false|false|false|false|VB
+the	others	the|discuss|us|false|false|false|false|false|false|false|false|false|DT
+use	others	us|the|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|us|mathlink|false|false|false|false|false|false|false|false|false|IN
+MathLink	others	mathlink|of|and|false|false|false|false|false|false|false|false|false|NNP
+and	others	and|mathlink|he|false|false|false|false|false|false|false|false|false|CC
+his	others	he|and|automaton|false|false|false|false|false|false|false|false|false|PRP$
+automata	others	automaton|he|packag|false|false|false|false|false|false|false|false|false|NN
+package	others	packag|automaton|_end_|false|false|false|false|false|false|false|false|false|NN
+

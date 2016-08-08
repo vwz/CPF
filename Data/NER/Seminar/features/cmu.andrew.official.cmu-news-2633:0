@@ -1,0 +1,137 @@
+Type	others	type|_start_|cmu.andrew.official.cmu-new|true|false|false|false|false|false|false|false|false|NN
+cmu.andrew.official.cmu-news	others	cmu.andrew.official.cmu-new|type|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+Topic	others	topic|_start_|coffe|true|false|false|false|false|false|false|false|false|NN
+Coffee	others	coffe|topic|talk|true|false|false|false|false|false|false|false|false|NNP
+Talk	others	talk|coffe|_end_|true|false|false|false|false|false|false|false|false|NN
+
+Dates	others	date|_start_|29-mar-95|true|false|false|false|false|false|false|false|false|NNS
+29-Mar-95	others	29-mar-95|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|8:00|true|false|false|false|false|false|false|false|false|NNP
+8:00	stime	8:00|time|pm|false|false|false|false|false|false|false|false|false|CD
+PM	stime	pm|8:00|_end_|false|true|false|true|false|false|false|false|false|NN
+
+PostedBy	others	postedbi|_start_|edmund|false|false|false|false|true|false|false|false|false|NNP
+Edmund	others	edmund|postedbi|j.|true|false|false|false|false|true|false|false|false|NNP
+J.	others	j.|edmund|delanei|false|false|false|false|false|true|false|false|false|NNP
+Delaney	others	delanei|j.|on|true|false|false|false|false|true|false|false|false|NNP
+on	others	on|delanei|28-mar-95|false|false|false|false|false|false|false|false|false|IN
+28-Mar-95	others	28-mar-95|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|28-mar-95|09:29|false|false|false|false|false|false|false|false|false|IN
+09:29	others	09:29|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|09:29|andrew.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+andrew.cmu.edu	others	andrew.cmu.edu|from|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+Coffee	others	coffe|_start_|talk|true|false|false|false|false|false|false|false|false|NNP
+Talk	others	talk|coffe|be|true|false|false|false|false|false|false|false|false|NN
+is	others	be|talk|a|false|false|false|false|false|false|false|false|false|VBZ
+an	others	a|be|inform|false|false|false|false|false|false|false|false|false|DT
+informal	others	inform|a|discuss|false|false|false|false|false|false|false|false|false|JJ
+discussion	others	discuss|inform|which|false|false|false|false|false|false|false|false|false|NN
+which	others	which|discuss|provid|false|false|false|false|false|false|false|false|false|WDT
+provides	others	provid|which|woman|false|false|false|false|false|false|false|false|false|VBZ
+women	others	woman|provid|a|false|false|false|false|false|false|false|false|false|NNS
+an	others	a|woman|_end_|false|false|false|false|false|false|false|false|false|DT
+
+opportunity	others	opportun|_start_|to|false|false|false|false|false|false|false|false|false|NN
+to	others	to|opportun|meet|false|false|false|false|false|false|false|false|false|TO
+meet	others	meet|to|in|false|false|false|false|false|false|false|false|false|VB
+in	others	in|meet|a|false|false|false|false|false|false|false|false|false|IN
+a	others	a|in|casual|false|false|false|false|false|false|false|false|false|DT
+casual	others	casual|a|set|false|false|false|false|false|false|false|false|false|JJ
+setting	others	set|casual|drink|false|false|false|false|false|false|false|false|false|NN
+drink	others	drink|set|coffe|false|false|false|false|false|false|false|false|false|NN
+coffee	others	coffe|drink|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|coffe|discuss|false|false|false|false|false|false|false|false|false|CC
+discuss	others	discuss|and|_end_|false|false|false|false|false|false|false|false|false|VBP
+
+important	others	import|_start_|issu|false|false|false|false|false|false|false|false|false|JJ
+issues	others	issu|import|coffe|false|false|false|false|false|false|false|false|false|NNS
+Coffee	others	coffe|issu|talk|true|false|false|false|false|false|false|false|false|NNP
+Talk	others	talk|coffe|offer|true|false|false|false|false|false|false|false|false|NN
+offers	others	offer|talk|a|false|false|false|false|false|false|false|false|false|VBZ
+an	others	a|offer|outlet|false|false|false|false|false|false|false|false|false|DT
+outlet	others	outlet|a|for|false|false|false|false|false|false|false|false|false|NN
+for	others	for|outlet|all|false|false|false|false|false|false|false|false|false|IN
+all	others	all|for|viewpoint|false|false|false|false|false|false|false|false|false|DT
+viewpoints	others	viewpoint|all|it|false|false|false|false|false|false|false|false|false|NNS
+It	others	it|viewpoint|be|true|false|false|false|false|false|false|false|false|PRP
+is	others	be|it|_end_|false|false|false|false|false|false|false|false|false|VBZ
+
+open	others	open|_start_|to|false|false|false|false|false|false|false|false|false|JJ
+to	others	to|open|anyon|false|false|false|false|false|false|false|false|false|TO
+anyone	others	anyon|to|who|false|false|false|false|false|false|false|false|false|NN
+who	others	who|anyon|want|false|false|false|false|false|false|false|false|false|WP
+wants	others	want|who|to|false|false|false|false|false|false|false|false|false|VBZ
+to	others	to|want|speak|false|false|false|false|false|false|false|false|false|TO
+speak	others	speak|to|or|false|false|false|false|false|false|false|false|false|VB
+or	others	or|speak|just|false|false|false|false|false|false|false|false|false|CC
+just	others	just|or|listen|false|false|false|false|false|false|false|false|false|RB
+listen	others	listen|just|to|false|false|false|false|false|false|false|false|false|VB
+to	others	to|listen|topic|false|false|false|false|false|false|false|false|false|TO
+topics	others	topic|to|relat|false|false|false|false|false|false|false|false|false|NNS
+relating	others	relat|topic|to|false|false|false|false|false|false|false|false|false|VBG
+to	others	to|relat|_end_|false|false|false|false|false|false|false|false|false|TO
+
+women	others	woman|_start_|everyon|false|false|false|false|false|false|false|false|false|NNS
+Everyone	others	everyon|woman|be|true|false|false|false|false|false|false|false|false|NN
+is	others	be|everyon|welcom|false|false|false|false|false|false|false|false|false|VBZ
+welcome	others	welcom|be|coffe|false|false|false|false|false|false|false|false|false|JJ
+Coffee	others	coffe|welcom|and|true|false|false|false|false|false|false|false|false|NNP
+and	others	and|coffe|chocol|false|false|false|false|false|false|false|false|false|CC
+chocolate	others	chocol|and|be|false|false|false|false|false|false|false|false|false|NN
+are	others	be|chocol|guarante|false|false|false|false|false|false|false|false|false|VBP
+guaranteed	others	guarante|be|at|false|false|false|false|false|false|false|false|false|VBN
+at	others	at|guarante|everi|false|false|false|false|false|false|false|false|false|IN
+every	others	everi|at|_end_|false|false|false|false|false|false|false|false|false|DT
+
+discussion	others	discuss|_start_|_end_|false|false|false|false|false|false|false|false|false|NN
+
+The	others	the|_start_|next|true|false|false|false|false|false|false|false|false|DT
+next	others	next|the|on|false|false|false|false|false|false|false|false|false|JJ
+one	others	on|next|will|false|false|false|false|false|false|false|false|false|CD
+will	others	will|on|be|false|false|false|false|false|false|false|false|false|MD
+be	others	be|will|on|false|false|false|false|false|false|false|false|false|VB
+on	others	on|be|march|false|false|false|false|false|false|false|false|false|IN
+March	others	march|on|29th|true|false|false|false|false|false|false|false|true|NNP
+29th	others	29th|march|at|false|false|false|false|false|false|false|false|true|CD
+at	others	at|29th|8|false|false|false|false|false|false|false|false|false|IN
+8	stime	8|at|p.|false|false|false|false|false|false|false|false|false|CD
+p.	stime	p.|8|m|false|false|false|false|false|false|false|false|false|NN
+m	stime	m|p.|in|false|false|false|false|false|false|false|false|false|NN
+in	others	in|m|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|in|women|false|false|false|false|false|false|false|false|false|DT
+Women	location	women|the|'s|true|false|false|false|false|false|false|false|false|NNP
+'s	location	's|women|center|false|false|false|false|false|false|false|false|false|POS
+Center	location	center|'s|the|true|false|false|false|false|false|false|false|false|NNP
+The	others	the|center|_end_|true|false|false|false|false|false|false|false|false|DT
+
+topic	others	topic|_start_|be|false|false|false|false|false|false|false|false|false|NN
+is	others	be|topic|explor|false|false|false|false|false|false|false|false|false|VBZ
+Exploring	others	explor|be|societi|true|false|false|false|false|false|false|false|false|NNP
+Society	others	societi|explor|'s|true|false|false|false|false|false|false|false|false|NNP
+'s	others	's|societi|imag|false|false|false|false|false|false|false|false|false|POS
+Images	others	imag|'s|of|true|false|false|false|false|false|false|false|false|NNS
+of	others	of|imag|woman|false|false|false|false|false|false|false|false|false|IN
+Women	others	woman|of|_end_|true|false|false|false|false|false|false|false|false|NNS
+
+If	others	if|_start_|you|true|false|false|false|false|false|false|false|false|IN
+you	others	you|if|have|false|false|false|false|false|false|false|false|false|PRP
+have	others	have|you|ani|false|false|false|false|false|false|false|false|false|VBP
+any	others	ani|have|comment|false|false|false|false|false|false|false|false|false|DT
+comments	others	comment|ani|or|false|false|false|false|false|false|false|false|false|NNS
+or	others	or|comment|suggest|false|false|false|false|false|false|false|false|false|CC
+suggestions	others	suggest|or|contact|false|false|false|false|false|false|false|false|false|NNS
+contact	others	contact|suggest|suzann|false|false|false|false|false|false|false|false|false|NN
+Suzanne	others	suzann|contact|paddock|true|false|false|false|false|true|false|false|false|NNP
+Paddock	others	paddock|suzann|at|true|false|false|false|false|true|false|false|false|NNP
+at	others	at|paddock|_end_|false|false|false|false|false|false|false|false|false|IN
+
+x8-2075	others	x8-2075|_start_|or|false|false|false|false|false|false|false|false|false|NN
+or	others	or|x8-2075|email|false|false|false|false|false|false|false|false|false|CC
+email	others	email|or|sp4y|false|false|false|false|false|false|false|false|false|NN
+sp4y	others	sp4y|email|_end_|false|false|false|false|false|false|false|false|false|NN
+

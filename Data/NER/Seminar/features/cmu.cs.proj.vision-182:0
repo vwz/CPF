@@ -1,0 +1,56 @@
+Type	others	type|_start_|cmu|true|false|false|false|false|false|false|false|false|NN
+cmu	others	cmu|type|c|false|false|false|false|false|false|false|false|false|NN
+cs	others	c|cmu|proj|false|false|false|false|false|false|false|false|false|NNS
+proj	others	proj|c|vision|false|false|false|false|false|false|false|false|false|NN
+vision	others	vision|proj|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Topic	others	topic|_start_|iu|true|false|false|false|false|false|false|false|false|NN
+IUS	others	iu|topic|seminar|false|true|false|true|false|false|false|false|false|NNS
+seminar	others	seminar|iu|for|false|false|false|false|false|false|false|false|false|NN
+for	others	for|seminar|mondai|false|false|false|false|false|false|false|false|false|IN
+Monday	others	mondai|for|lunch|true|false|false|false|false|false|false|false|true|NNP
+lunch	others	lunch|mondai|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Dates	others	date|_start_|19-sep-83|true|false|false|false|false|false|false|false|false|NNS
+19-Sep-83	others	19-sep-83|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|12:45|true|false|false|false|false|false|false|false|false|NNP
+12:45	stime	12:45|time|_end_|false|false|false|false|false|false|false|false|false|CD
+
+PostedBy	others	postedbi|_start_|on|false|false|false|false|true|false|false|false|false|NNP
+on	others	on|postedbi|17-sep-83|false|false|false|false|false|false|false|false|false|IN
+17-Sep-83	others	17-sep-83|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|17-sep-83|17:31|false|false|false|false|false|false|false|false|false|IN
+17:31	others	17:31|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|17:31|_end_|false|false|false|false|false|false|false|false|false|IN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+The	others	the|_start_|iu|true|false|false|false|false|false|false|false|false|DT
+IUS	others	iu|the|seminar|false|true|false|true|false|false|false|false|false|NN
+seminar	others	seminar|iu|on|false|false|false|false|false|false|false|false|false|NN
+on	others	on|seminar|mondai|false|false|false|false|false|false|false|false|false|IN
+Monday	others	mondai|on|will|true|false|false|false|false|false|false|false|true|NNP
+will	others	will|mondai|take|false|false|false|false|false|false|false|false|false|MD
+take	others	take|will|place|false|false|false|false|false|false|false|false|false|VB
+place	others	place|take|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|place|12:45|false|false|false|false|false|false|false|false|false|IN
+12:45	stime	12:45|at|and|false|false|false|false|false|false|false|false|false|CD
+and	others	and|12:45|pizza|false|false|false|false|false|false|false|false|false|CC
+pizza	others	pizza|and|will|false|false|false|false|false|false|false|false|false|NN
+will	others	will|pizza|_end_|false|false|false|false|false|false|false|false|false|MD
+
+be	others	be|_start_|provid|false|false|false|false|false|false|false|false|false|VB
+provided	others	provid|be|for|false|false|false|false|false|false|false|false|false|VBN
+for	others	for|provid|lunch|false|false|false|false|false|false|false|false|false|IN
+lunch	others	lunch|for|we|false|false|false|false|false|false|false|false|false|NN
+We	others	we|lunch|'ll|true|false|false|false|false|false|false|false|false|PRP
+'ll	others	'll|we|go|false|false|false|false|false|false|false|false|false|MD
+go	others	go|'ll|around|false|false|false|false|false|false|false|false|false|VB
+around	others	around|go|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|around|room|false|false|false|false|false|false|false|false|false|DT
+room	others	room|the|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|room|make|false|false|false|false|false|false|false|false|false|CC
+make	others	make|and|introduct|false|false|false|false|false|false|false|false|false|VB
+introductions	others	introduct|make|_end_|false|false|false|false|false|false|false|false|false|NNS
+

@@ -1,0 +1,72 @@
+Type	others	type|_start_|cmu|true|false|false|false|false|false|false|false|false|NN
+cmu	others	cmu|type|c|false|false|false|false|false|false|false|false|false|NN
+cs	others	c|cmu|robot|false|false|false|false|false|false|false|false|false|NNS
+robotics	others	robot|c|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+Topic	others	topic|_start_|donath|true|false|false|false|false|false|false|false|false|NN
+DONATH	speaker	donath|topic|talk|false|true|false|true|false|true|false|false|false|NN
+TALK	others	talk|donath|move|false|true|false|true|false|false|false|false|false|NNP
+MOVED	others	move|talk|_end_|false|true|false|true|false|false|false|false|false|VBD
+
+Dates	others	date|_start_|10-oct-91|true|false|false|false|false|false|false|false|false|NNS
+10-Oct-91	others	10-oct-91|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|1:30|true|false|false|false|false|false|false|false|false|NNP
+1:30	stime	1:30|time|3:00|false|false|false|false|false|false|true|false|false|CD
+3:00	etime	3:00|1:30|pm|false|false|false|false|false|false|false|true|false|CD
+PM	etime	pm|3:00|_end_|false|true|false|true|false|false|false|false|false|NN
+
+PostedBy	others	postedbi|_start_|jean|false|false|false|false|true|false|false|false|false|NNP
+jean	others	jean|postedbi|on|false|false|false|false|false|false|false|false|false|NN
+on	others	on|jean|09-oct-91|false|false|false|false|false|false|false|false|false|IN
+09-Oct-91	others	09-oct-91|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|09-oct-91|10:02|false|false|false|false|false|false|false|false|false|IN
+10:02	others	10:02|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|10:02|a.gp.cs.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+A.GP.CS.CMU.EDU	others	a.gp.cs.cmu.edu|from|-lrb-|false|false|false|false|false|false|false|false|false|NNP
+-LRB-	others	-lrb-|a.gp.cs.cmu.edu|jean|false|false|false|false|false|false|false|false|false|-LRB-
+Jean	others	jean|-lrb-|harplei|true|false|false|false|false|false|false|false|false|NNP
+Harpley	others	harplei|jean|-rrb-|true|false|false|false|false|false|false|false|false|NNP
+-RRB-	others	-rrb-|harplei|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+The	others	the|_start_|time|true|false|false|false|false|false|false|false|false|DT
+time	others	time|the|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|time|place|false|false|false|false|false|false|false|false|false|CC
+place	others	place|and|for|false|false|false|false|false|false|false|false|false|NN
+for	others	for|place|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|for|max|false|false|false|false|false|false|false|false|false|DT
+Max	speaker	max|the|donath|true|false|false|false|false|true|false|false|false|NNP
+Donath	speaker	donath|max|talk|true|false|false|false|false|true|false|false|false|NNP
+talk	others	talk|donath|scarecrow|false|false|false|false|false|false|false|false|false|NN
+Scarecrow	others	scarecrow|talk|behavior|true|false|false|false|false|false|false|false|false|NNP
+Behavioral	others	behavior|scarecrow|control|true|false|false|false|false|false|false|false|false|NNP
+Control	others	control|behavior|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|control|_end_|false|false|false|false|false|false|false|false|false|IN
+
+Mobile	others	mobil|_start_|robot|true|false|false|false|false|false|false|false|false|NNP
+Robots	others	robot|mobil|base|true|false|false|false|false|false|false|false|false|NNP
+Based	others	base|robot|on|true|false|false|false|false|false|false|false|false|VBD
+on	others	on|base|reflex|false|false|false|false|false|false|false|false|false|IN
+Reflexive	others	reflex|on|model|true|false|false|false|false|false|false|false|false|NNP
+Models	others	model|reflex|have|true|false|false|false|false|false|false|false|false|NNS
+has	others	have|model|be|false|false|false|false|false|false|false|false|false|VBZ
+been	others	be|have|move|false|false|false|false|false|false|false|false|false|VBN
+moved	others	move|be|to|false|false|false|false|false|false|false|false|false|VBN
+to	others	to|move|1:30|false|false|false|false|false|false|false|false|false|TO
+1:30	stime	1:30|to|to|false|false|false|false|false|false|false|false|false|CD
+to	others	to|1:30|3:00|false|false|false|false|false|false|false|false|false|TO
+3:00	etime	3:00|to|pm|false|false|false|false|false|false|false|false|false|CD
+PM	etime	pm|3:00|_end_|false|true|false|true|false|false|false|false|false|NNP
+
+in	others	in|_start_|wean|false|false|false|false|false|false|false|false|false|IN
+Wean	location	wean|in|4623|true|false|false|false|false|false|false|false|false|JJ
+4623	location	4623|wean|the|false|false|false|false|false|false|false|false|false|CD
+The	others	the|4623|date|true|false|false|false|false|false|false|false|false|DT
+date	others	date|the|be|false|false|false|false|false|false|false|false|false|NN
+is	others	be|date|unchang|false|false|false|false|false|false|false|false|false|VBZ
+unchanged	others	unchang|be|tomorrow|false|false|false|false|false|false|false|false|false|JJ
+tomorrow	others	tomorrow|unchang|10\/10\/91|false|false|false|false|false|false|false|false|true|NN
+10\/10\/91	others	10\/10\/91|tomorrow|_end_|false|false|false|false|false|false|false|false|true|CD
+

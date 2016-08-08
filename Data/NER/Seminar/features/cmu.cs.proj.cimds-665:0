@@ -1,0 +1,94 @@
+Type	others	type|_start_|cmu|true|false|false|false|false|false|false|false|false|NN
+cmu	others	cmu|type|c|false|false|false|false|false|false|false|false|false|NN
+cs	others	c|cmu|proj|false|false|false|false|false|false|false|false|false|NNS
+proj	others	proj|c|cimd|false|false|false|false|false|false|false|false|false|NN
+cimds	others	cimd|proj|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+Who	others	who|_start_|mark|true|false|false|false|false|false|false|false|false|WP
+Mark	speaker	mark|who|fox|true|false|false|false|false|true|false|false|false|NNP
+Fox	speaker	fox|mark|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+Topic	others	topic|_start_|object|true|false|false|false|false|false|false|false|false|NN
+Object	others	object|topic|program|true|false|false|false|false|false|false|false|false|NNP
+Programming	others	program|object|in|true|false|false|false|false|false|false|false|false|NNP
+in	others	in|program|srl|false|false|false|false|false|false|false|false|false|IN
+SRL	others	srl|in|_end_|false|true|false|true|false|false|false|false|false|NNP
+
+Dates	others	date|_start_|13-nov-9|true|false|false|false|false|false|false|false|false|NNS
+13-Nov-9	others	13-nov-9|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|11:00|true|false|false|false|false|false|false|false|false|NNP
+11:00	stime	11:00|time|am|false|false|false|false|false|false|false|false|false|CD
+AM	stime	am|11:00|12:00|false|true|false|true|false|false|true|false|false|NNP
+12:00	etime	12:00|am|pm|false|false|false|false|false|false|false|true|false|CD
+PM	etime	pm|12:00|_end_|false|true|false|true|false|false|false|false|false|NN
+
+Place	others	place|_start_|isl|true|false|false|false|false|false|false|false|false|NN
+ISL	location	isl|place|confer|false|true|false|true|false|false|false|false|false|NN
+conference	location	confer|isl|room|false|false|false|false|false|false|false|false|false|NN
+room	location	room|confer|_end_|false|false|false|false|false|false|false|false|false|NN
+
+PostedBy	others	postedbi|_start_|mark|false|false|false|false|true|false|false|false|false|NNP
+Mark	others	mark|postedbi|fox|true|false|false|false|false|true|false|false|false|NNP
+Fox	others	fox|mark|on|true|false|false|false|false|true|false|false|false|NNP
+on	others	on|fox|04-nov-84|false|false|false|false|false|false|false|false|false|IN
+04-Nov-84	others	04-nov-84|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|04-nov-84|21:28|false|false|false|false|false|false|false|false|false|IN
+21:28	others	21:28|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|21:28|cmu-ri-isl1|false|false|false|false|false|false|false|false|false|IN
+CMU-RI-ISL1	others	cmu-ri-isl1|from|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+ISL	others	isl|_start_|seminar|false|true|false|true|false|false|false|false|false|NNP
+SEMINAR	others	seminar|isl|_end_|false|true|false|true|false|false|false|false|false|NN
+
+TITLE	others	titl|_start_|object|false|true|false|true|false|false|false|false|false|NN
+Object	others	object|titl|program|true|false|false|false|false|false|false|false|false|NNP
+Programming	others	program|object|in|true|false|false|false|false|false|false|false|false|NNP
+in	others	in|program|srl|false|false|false|false|false|false|false|false|false|IN
+SRL	others	srl|in|_end_|false|true|false|true|false|false|false|false|false|NNP
+
+SPEAKER	others	speaker|_start_|mark|false|true|false|true|false|false|false|false|false|NN
+Mark	speaker	mark|speaker|fox|true|false|false|false|false|true|false|false|false|NNP
+Fox	speaker	fox|mark|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+DATE	others	date|_start_|tuesdai|false|true|false|true|false|false|false|false|false|NN
+Tuesday	others	tuesdai|date|nov|true|false|false|false|false|false|false|false|true|NNP
+Nov	others	nov|tuesdai|13|true|false|false|false|false|false|false|false|true|NNP
+13	others	13|nov|_end_|false|false|false|false|false|false|false|false|true|CD
+
+TIME	others	time|_start_|11am|false|true|false|true|false|false|false|false|false|NN
+11am	stime	11am|time|noon|false|false|false|false|false|false|false|false|false|JJ
+noon	etime	noon|11am|_end_|false|false|false|false|false|false|false|true|false|NN
+
+PLACE	others	place|_start_|isl|false|true|false|true|false|false|false|false|false|NN
+ISL	location	isl|place|confer|false|true|false|true|false|false|false|false|false|NN
+conference	location	confer|isl|room|false|false|false|false|false|false|false|false|false|NN
+room	location	room|confer|_end_|false|false|false|false|false|false|false|false|false|NN
+
+This	others	thi|_start_|seminar|true|false|false|false|false|false|false|false|false|DT
+seminar	others	seminar|thi|will|false|false|false|false|false|false|false|false|false|NN
+will	others	will|seminar|describ|false|false|false|false|false|false|false|false|false|MD
+describe	others	describ|will|the|false|false|false|false|false|false|false|false|false|VB
+the	others	the|describ|concept|false|false|false|false|false|false|false|false|false|DT
+concept	others	concept|the|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|concept|object|false|false|false|false|false|false|false|false|false|IN
+object	others	object|of|program|false|false|false|false|false|false|false|false|false|NN
+programming	others	program|object|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|program|_end_|false|false|false|false|false|false|false|false|false|CC
+
+its	others	it|_start_|implement|false|false|false|false|false|false|false|false|false|PRP$
+implementation	others	implement|it|in|false|false|false|false|false|false|false|false|false|NN
+in	others	in|implement|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|in|srl|false|false|false|false|false|false|false|false|false|DT
+SRL	others	srl|the|knowledg|false|true|false|true|false|false|false|false|false|NN
+knowledge	others	knowledg|srl|environ|false|false|false|false|false|false|false|false|false|NN
+environment	others	environ|knowledg|all|false|false|false|false|false|false|false|false|false|NN
+All	others	all|environ|lab|true|false|false|false|false|false|false|false|false|DT
+lab	others	lab|all|member|false|false|false|false|false|false|false|false|false|NN
+members	others	member|lab|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+should	others	should|_start_|attend|false|false|false|false|false|false|false|false|false|MD
+attend	others	attend|should|_end_|false|false|false|false|false|false|false|false|false|VB
+

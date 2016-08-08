@@ -1,0 +1,53 @@
+Type	others	type|_start_|cmu|true|false|false|false|false|false|false|false|false|NN
+cmu	others	cmu|type|c|false|false|false|false|false|false|false|false|false|NN
+cs	others	c|cmu|proj|false|false|false|false|false|false|false|false|false|NNS
+proj	others	proj|c|vision|false|false|false|false|false|false|false|false|false|NN
+vision	others	vision|proj|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Topic	others	topic|_start_|victor|true|false|false|false|false|false|false|false|false|NN
+Victor	speaker	victor|topic|milenkov|true|false|false|false|false|true|false|false|false|NNP
+Milenkovic	speaker	milenkov|victor|at|true|false|false|false|false|true|false|false|false|NNP
+at	others	at|milenkov|iu|false|false|false|false|false|false|false|false|false|IN
+IUS	others	iu|at|seminar|false|true|false|true|false|false|false|false|false|NN
+seminar	others	seminar|iu|5\/21|false|false|false|false|false|false|false|false|false|NN
+5\/21	others	5\/21|seminar|_end_|false|false|false|false|false|false|false|false|false|CD
+
+Dates	others	date|_start_|21-may-84|true|false|false|false|false|false|false|false|false|NNS
+21-May-84	others	21-may-84|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|3:30|true|false|false|false|false|false|false|false|false|NNP
+3:30	stime	3:30|time|_end_|false|false|false|false|false|false|false|false|false|CD
+
+PostedBy	others	postedbi|_start_|on|false|false|false|false|true|false|false|false|false|NNP
+on	others	on|postedbi|18-may-84|false|false|false|false|false|false|false|false|false|IN
+18-May-84	others	18-may-84|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|18-may-84|17:22|false|false|false|false|false|false|false|false|false|IN
+17:22	others	17:22|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|17:22|_end_|false|false|false|false|false|false|false|false|false|IN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+Victor	speaker	victor|_start_|milenkov|true|false|false|false|false|true|false|false|false|NNP
+Milenkovic	speaker	milenkov|victor|will|true|false|false|false|false|true|false|false|false|NNP
+will	others	will|milenkov|be|false|false|false|false|false|false|false|false|false|MD
+be	others	be|will|speak|false|false|false|false|false|false|false|false|false|VB
+speaking	others	speak|be|at|false|false|false|false|false|false|false|false|false|VBG
+at	others	at|speak|mondai|false|false|false|false|false|false|false|false|false|IN
+Monday	others	mondai|at|'s|true|false|false|false|false|false|false|false|true|NNP
+'s	others	's|mondai|iu|false|false|false|false|false|false|false|false|false|POS
+IUS	others	iu|'s|seminar|false|true|false|true|false|false|false|false|false|NN
+seminar	others	seminar|iu|on|false|false|false|false|false|false|false|false|false|NN
+on	others	on|seminar|he|false|false|false|false|false|false|false|false|false|IN
+his	others	he|on|work|false|false|false|false|false|false|false|false|false|PRP$
+work	others	work|he|_end_|false|false|false|false|false|false|false|false|false|NN
+
+on	others	on|_start_|quadtre|false|false|false|false|false|false|false|false|false|IN
+quadtrees	others	quadtre|on|in|false|false|false|false|false|false|false|false|false|NNS
+In	others	in|quadtre|8.220|true|false|false|false|false|false|false|false|false|IN
+8.220	location	8.220|in|start|false|false|false|false|false|false|false|false|false|CD
+starting	others	start|8.220|at|false|false|false|false|false|false|false|false|false|VBG
+at	others	at|start|3:30|false|false|false|false|false|false|false|false|false|IN
+3:30	stime	3:30|at|as|false|false|false|false|false|false|false|false|false|CD
+as	others	as|3:30|usual|false|false|false|false|false|false|false|false|false|IN
+usual	others	usual|as|_end_|false|false|false|false|false|false|false|false|false|JJ
+

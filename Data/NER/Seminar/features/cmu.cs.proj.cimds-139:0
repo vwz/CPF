@@ -1,0 +1,72 @@
+Type	others	type|_start_|cmu|true|false|false|false|false|false|false|false|false|NN
+cmu	others	cmu|type|c|false|false|false|false|false|false|false|false|false|NN
+cs	others	c|cmu|proj|false|false|false|false|false|false|false|false|false|NNS
+proj	others	proj|c|cimd|false|false|false|false|false|false|false|false|false|NN
+cimds	others	cimd|proj|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+Topic	others	topic|_start_|dec|true|false|false|false|false|false|false|false|false|NN
+DEC	others	dec|topic|present|false|true|false|true|false|false|false|false|false|NNP
+presentation	others	present|dec|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Dates	others	date|_start_|13-apr-82|true|false|false|false|false|false|false|false|false|NNS
+13-Apr-82	others	13-apr-82|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|1:30|true|false|false|false|false|false|false|false|false|NNP
+1:30	stime	1:30|time|pm|false|false|false|false|false|false|false|false|false|CD
+PM	stime	pm|1:30|_end_|false|true|false|true|false|false|false|false|false|NN
+
+PostedBy	others	postedbi|_start_|on|false|false|false|false|true|false|false|false|false|NNP
+on	others	on|postedbi|06-apr-82|false|false|false|false|false|false|false|false|false|IN
+06-Apr-82	others	06-apr-82|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|06-apr-82|20:25|false|false|false|false|false|false|false|false|false|IN
+20:25	others	20:25|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|20:25|_end_|false|false|false|false|false|false|false|false|false|IN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+Ed	speaker	ed|_start_|barron|true|false|false|false|false|true|false|false|false|NNP
+Barron	speaker	barron|ed|and|true|false|false|false|false|true|false|false|false|NNP
+and	others	and|barron|other|false|false|false|false|false|false|false|false|false|CC
+others	others	other|and|from|false|false|false|false|false|false|false|false|false|NNS
+from	others	from|other|dec|false|false|false|false|false|false|false|false|false|IN
+DEC	others	dec|from|will|false|true|false|true|false|false|false|false|false|NNP
+will	others	will|dec|be|false|false|false|false|false|false|false|false|false|MD
+be	others	be|will|give|false|false|false|false|false|false|false|false|false|VB
+giving	others	give|be|a|false|false|false|false|false|false|false|false|false|VBG
+a	others	a|give|present|false|false|false|false|false|false|false|false|false|DT
+presentation	others	present|a|on|false|false|false|false|false|false|false|false|false|NN
+on	others	on|present|thei|false|false|false|false|false|false|false|false|false|IN
+their	others	thei|on|work|false|false|false|false|false|false|false|false|false|PRP$
+work	others	work|thei|in|false|false|false|false|false|false|false|false|false|NN
+in	others	in|work|_end_|false|false|false|false|false|false|false|false|false|IN
+
+CAD\/CAM\/MIS	others	cad\/cam\/mi|_start_|model|false|false|false|false|false|false|false|false|false|NN
+modelling	others	model|cad\/cam\/mi|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|model|simul|false|false|false|false|false|false|false|false|false|CC
+simulation	others	simul|and|work|false|false|false|false|false|false|false|false|false|NN
+work	others	work|simul|on|false|false|false|false|false|false|false|false|false|NN
+on	others	on|work|tuesdai|false|false|false|false|false|false|false|false|false|IN
+Tuesday	others	tuesdai|on|april|true|false|false|false|false|false|false|false|true|NNP
+April	others	april|tuesdai|13|true|false|false|false|false|false|false|false|true|NNP
+13	others	13|april|from|false|false|false|false|false|false|false|false|true|CD
+from	others	from|13|1:30|false|false|false|false|false|false|false|false|false|IN
+1:30	stime	1:30|from|pm|false|false|false|false|false|false|false|false|false|CD
+pm	stime	pm|1:30|_end_|false|false|false|false|false|false|false|false|false|NN
+
+on	others	on|_start_|in|false|false|false|false|false|false|false|false|false|IN
+in	others	in|on|4623|false|false|false|false|false|false|false|false|false|IN
+4623	location	4623|in|-lrb-|false|false|false|false|false|false|false|false|false|CD
+-LRB-	location	-lrb-|4623|-rrb-|false|false|false|false|false|false|false|false|false|-LRB-
+-RRB-	location	-rrb-|-lrb-|the|false|false|false|false|false|false|false|false|false|-RRB-
+the	location	the|-rrb-|fleec|false|false|false|false|false|false|false|false|false|DT
+fleecing	location	fleec|the|room|false|false|false|false|false|false|false|false|false|VBG
+room	location	room|fleec|all|false|false|false|false|false|false|false|false|false|NN
+All	others	all|room|those|true|false|false|false|false|false|false|false|false|PDT
+those	others	those|all|who|false|false|false|false|false|false|false|false|false|DT
+who	others	who|those|can|false|false|false|false|false|false|false|false|false|WP
+can	others	can|who|be|false|false|false|false|false|false|false|false|false|MD
+are	others	be|can|ask|false|false|false|false|false|false|false|false|false|VBP
+asked	others	ask|be|to|false|false|false|false|false|false|false|false|false|VBN
+to	others	to|ask|attend|false|false|false|false|false|false|false|false|false|TO
+attend	others	attend|to|_end_|false|false|false|false|false|false|false|false|false|VB
+

@@ -1,0 +1,110 @@
+Type	others	type|_start_|cmu.andrew.org|true|false|false|false|false|false|false|false|false|NN
+cmu.andrew.org	others	cmu.andrew.org|type|heinz|false|false|false|false|false|false|false|false|false|NN
+heinz	others	heinz|cmu.andrew.org|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Topic	others	topic|_start_|brownbag|true|false|false|false|false|false|false|false|false|NN
+Brownbag	others	brownbag|topic|talk|true|false|false|false|false|false|false|false|false|NN
+talk	others	talk|brownbag|on|false|false|false|false|false|false|false|false|false|NN
+on	others	on|talk|healthcar|false|false|false|false|false|false|false|false|false|IN
+healthcare	others	healthcar|on|polici|false|false|false|false|false|false|false|false|false|NN
+policy	others	polici|healthcar|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Dates	others	date|_start_|11-nov-93|true|false|false|false|false|false|false|false|false|NNS
+11-Nov-93	others	11-nov-93|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|12:30|true|false|false|false|false|false|false|false|false|NNP
+12:30	stime	12:30|time|_end_|false|false|false|false|false|false|false|false|false|CD
+
+PostedBy	others	postedbi|_start_|f.|false|false|false|false|true|false|false|false|false|NNP
+F.	others	f.|postedbi|ted|false|false|false|false|false|true|false|false|false|NNP
+Ted	others	ted|f.|tschang|true|false|false|false|false|true|false|false|false|NNP
+Tschang	others	tschang|ted|on|true|false|false|false|false|true|false|false|false|NNP
+on	others	on|tschang|8-nov-93|false|false|false|false|false|false|false|false|false|IN
+8-Nov-93	others	8-nov-93|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|8-nov-93|11:24|false|false|false|false|false|false|false|false|false|IN
+11:24	others	11:24|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|11:24|andrew.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+andrew.cmu.edu	others	andrew.cmu.edu|from|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+As	others	as|_start_|part|true|false|false|false|false|false|false|false|false|IN
+part	others	part|as|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|part|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|of|continu|false|false|false|false|false|false|false|false|false|DT
+continuing	others	continu|the|seri|false|false|false|false|false|false|false|false|false|VBG
+series	others	seri|continu|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|seri|brownbag|false|false|false|false|false|false|false|false|false|IN
+brownbag	others	brownbag|of|lunch|false|false|false|false|false|false|false|false|false|NN
+lunch	others	lunch|brownbag|seminar|false|false|false|false|false|false|false|false|false|NN
+seminars	others	seminar|lunch|there|false|false|false|false|false|false|false|false|false|NNS
+there	others	there|seminar|will|false|false|false|false|false|false|false|false|false|EX
+will	others	will|there|_end_|false|false|false|false|false|false|false|false|false|MD
+
+be	others	be|_start_|a|false|false|false|false|false|false|false|false|false|VB
+a	others	a|be|brownbag|false|false|false|false|false|false|false|false|false|DT
+brownbag	others	brownbag|a|lunch|false|false|false|false|false|false|false|false|false|NN
+lunch	others	lunch|brownbag|discuss|false|false|false|false|false|false|false|false|false|NN
+discussion	others	discuss|lunch|on|false|false|false|false|false|false|false|false|false|NN
+on	others	on|discuss|healthcar|false|false|false|false|false|false|false|false|false|IN
+healthcare	others	healthcar|on|thi|false|false|false|false|false|false|false|false|false|NN
+this	others	thi|healthcar|thursdai|false|false|false|false|false|false|false|false|true|DT
+Thursday	others	thursdai|thi|at|true|false|false|false|false|false|false|false|true|NNP
+at	others	at|thursdai|12.30|false|false|false|false|false|false|false|false|false|IN
+12.30	stime	12.30|at|in|false|false|false|false|false|false|false|false|false|CD
+in	others	in|12.30|_end_|false|false|false|false|false|false|false|false|false|IN
+
+room	location	room|_start_|1001|false|false|false|false|false|false|false|false|false|NN
+1001	location	1001|room|_end_|false|false|false|false|false|false|false|false|true|CD
+
+Cindy	speaker	cindi|_start_|bryce|true|false|false|false|false|true|false|false|false|NNP
+Bryce	speaker	bryce|cindi|and|true|false|false|false|false|true|false|false|false|NNP
+and	others	and|bryce|steve|false|false|false|false|false|false|false|false|false|CC
+Steve	speaker	steve|and|roehrig|true|false|false|false|false|true|false|false|false|NNP
+Roehrig	speaker	roehrig|steve|will|true|false|false|false|false|true|false|false|false|NNP
+will	others	will|roehrig|be|false|false|false|false|false|false|false|false|false|MD
+be	others	be|will|moder|false|false|false|false|false|false|false|false|false|VB
+moderating	others	moder|be|the|false|false|false|false|false|false|false|false|false|VBG
+the	others	the|moder|discuss|false|false|false|false|false|false|false|false|false|DT
+discussion	others	discuss|the|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Readings	others	read|_start_|will|true|false|false|false|false|false|false|false|false|NNS
+will	others	will|read|be|false|false|false|false|false|false|false|false|false|MD
+be	others	be|will|provid|false|false|false|false|false|false|false|false|false|VB
+provided	others	provid|be|in|false|false|false|false|false|false|false|false|false|VBN
+in	others	in|provid|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|in|loung|false|false|false|false|false|false|false|false|false|DT
+lounge	others	loung|the|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|loung|read|false|false|false|false|false|false|false|false|false|CC
+reading	others	read|and|room|false|false|false|false|false|false|false|false|false|NN
+room	others	room|read|pleas|false|false|false|false|false|false|false|false|false|NN
+Please	others	pleas|room|take|true|false|false|false|false|false|false|false|false|VB
+take	others	take|pleas|_end_|false|false|false|false|false|false|false|false|false|VB
+
+one	others	on|_start_|if|false|false|false|false|false|false|false|false|false|CD
+if	others	if|on|you|false|false|false|false|false|false|false|false|false|IN
+you	others	you|if|be|false|false|false|false|false|false|false|false|false|PRP
+are	others	be|you|attend|false|false|false|false|false|false|false|false|false|VBP
+attending	others	attend|be|if|false|false|false|false|false|false|false|false|false|VBG
+If	others	if|attend|you|true|false|false|false|false|false|false|false|false|IN
+you	others	you|if|have|false|false|false|false|false|false|false|false|false|PRP
+have	others	have|you|ani|false|false|false|false|false|false|false|false|false|VBP
+any	others	ani|have|topic|false|false|false|false|false|false|false|false|false|DT
+topics	others	topic|ani|in|false|false|false|false|false|false|false|false|false|NNS
+in	others	in|topic|mind|false|false|false|false|false|false|false|false|false|IN
+mind	others	mind|in|that|false|false|false|false|false|false|false|false|false|NN
+that	others	that|mind|you|false|false|false|false|false|false|false|false|false|IN
+you	others	you|that|would|false|false|false|false|false|false|false|false|false|PRP
+'d	others	would|you|_end_|false|false|false|false|false|false|false|false|false|MD
+
+like	others	like|_start_|to|false|false|false|false|false|false|false|false|false|IN
+to	others	to|like|discuss|false|false|false|false|false|false|false|false|false|TO
+discuss	others	discuss|to|pleas|false|false|false|false|false|false|false|false|false|VB
+please	others	pleas|discuss|e-mail|false|false|false|false|false|false|false|false|false|VB
+e-mail	others	e-mail|pleas|on|false|false|false|false|false|false|false|false|false|JJ
+one	others	on|e-mail|of|false|false|false|false|false|false|false|false|false|CD
+of	others	of|on|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|of|two|false|false|false|false|false|false|false|false|false|DT
+two	others	two|the|moder|false|false|false|false|false|false|false|false|false|CD
+moderators	others	moder|two|_end_|false|false|false|false|false|false|false|false|false|NNS
+

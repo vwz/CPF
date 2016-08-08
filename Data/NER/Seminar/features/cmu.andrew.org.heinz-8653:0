@@ -1,0 +1,97 @@
+Type	others	type|_start_|cmu.andrew.org|true|false|false|false|false|false|false|false|false|NN
+cmu.andrew.org	others	cmu.andrew.org|type|heinz|false|false|false|false|false|false|false|false|false|NN
+heinz	others	heinz|cmu.andrew.org|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Topic	others	topic|_start_|artsnet|true|false|false|false|false|false|false|false|false|NN
+ArtsNet	others	artsnet|topic|final|false|false|false|false|false|false|false|false|false|NNP
+final	others	final|artsnet|present|false|false|false|false|false|false|false|false|false|JJ
+presentation	others	present|final|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Dates	others	date|_start_|25-apr-9|true|false|false|false|false|false|false|false|false|NNS
+25-Apr-9	others	25-apr-9|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|12:30|true|false|false|false|false|false|false|false|false|NNP
+12:30	stime	12:30|time|pm|false|false|false|false|false|false|false|false|false|CD
+PM	stime	pm|12:30|_end_|false|true|false|true|false|false|false|false|false|NN
+
+Place	others	place|_start_|room|true|false|false|false|false|false|false|false|false|NN
+Room	location	room|place|1001|true|false|false|false|false|false|false|false|false|NN
+1001	location	1001|room|hamburg|false|false|false|false|false|false|false|false|true|CD
+Hamburg	location	hamburg|1001|hall|true|false|false|false|false|false|false|false|false|NNP
+Hall	location	hall|hamburg|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+PostedBy	others	postedbi|_start_|carol|false|false|false|false|true|false|false|false|false|NNP
+Carol	others	carol|postedbi|r|true|false|false|false|false|true|false|false|false|NNP
+R	others	r|carol|hopkin|false|false|true|true|false|true|false|false|false|NNP
+Hopkins	others	hopkin|r|on|true|false|false|false|false|true|false|false|false|NNP
+on	others	on|hopkin|19-apr-95|false|false|false|false|false|false|false|false|false|IN
+19-Apr-95	others	19-apr-95|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|19-apr-95|12:49|false|false|false|false|false|false|false|false|false|IN
+12:49	others	12:49|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|12:49|andrew.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+andrew.cmu.edu	others	andrew.cmu.edu|from|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+The	others	the|_start_|artsnet|true|false|false|false|false|false|false|false|false|DT
+ArtsNet	others	artsnet|the|system|false|false|false|false|false|false|false|false|false|NNP
+systems	others	system|artsnet|synthesi|false|false|false|false|false|false|false|false|false|NNS
+synthesis	others	synthesi|system|group|false|false|false|false|false|false|false|false|false|NN
+group	others	group|synthesi|will|false|false|false|false|false|false|false|false|false|NN
+will	others	will|group|be|false|false|false|false|false|false|false|false|false|MD
+be	others	be|will|make|false|false|false|false|false|false|false|false|false|VB
+making	others	make|be|thei|false|false|false|false|false|false|false|false|false|VBG
+their	others	thei|make|final|false|false|false|false|false|false|false|false|false|PRP$
+final	others	final|thei|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+presentation	others	present|_start_|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|present|you|false|false|false|false|false|false|false|false|false|CC
+you	others	you|and|be|false|false|false|false|false|false|false|false|false|PRP
+are	others	be|you|welcom|false|false|false|false|false|false|false|false|false|VBP
+welcome	others	welcom|be|to|false|false|false|false|false|false|false|false|false|JJ
+to	others	to|welcom|attend|false|false|false|false|false|false|false|false|false|TO
+attend	others	attend|to|_end_|false|false|false|false|false|false|false|false|false|VB
+
+Date	others	date|_start_|april|true|false|false|false|false|false|false|false|false|NN
+April	others	april|date|25|true|false|false|false|false|false|false|false|true|NNP
+25	others	25|april|_end_|false|false|false|false|false|false|false|false|true|CD
+
+Time	others	time|_start_|12:30|true|false|false|false|false|false|false|false|false|NNP
+12:30	stime	12:30|time|p.|false|false|false|false|false|false|false|false|false|CD
+p.	stime	p.|12:30|m|false|false|false|false|false|false|false|false|false|NN
+m	stime	m|p.|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Place	others	place|_start_|room|true|false|false|false|false|false|false|false|false|NN
+Room	location	room|place|1001|true|false|false|false|false|false|false|false|false|NN
+1001	location	1001|room|hamburg|false|false|false|false|false|false|false|false|true|CD
+Hamburg	location	hamburg|1001|hall|true|false|false|false|false|false|false|false|false|NNP
+Hall	location	hall|hamburg|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+You	others	you|_start_|mai|true|false|false|false|false|false|false|false|false|PRP
+may	others	mai|you|bring|false|false|false|false|false|false|false|false|false|MD
+bring	others	bring|mai|you|false|false|false|false|false|false|false|false|false|VB
+your	others	you|bring|brown|false|false|false|false|false|false|false|false|false|PRP$
+brown	others	brown|you|bag|false|false|false|false|false|false|false|false|false|JJ
+bag	others	bag|brown|lunch|false|false|false|false|false|false|false|false|false|NN
+lunch	others	lunch|bag|_end_|false|false|false|false|false|false|false|false|false|NN
+
+We	others	we|_start_|be|true|false|false|false|false|false|false|false|false|PRP
+are	others	be|we|proud|false|false|false|false|false|false|false|false|false|VBP
+proud	others	proud|be|of|false|false|false|false|false|false|false|false|false|JJ
+of	others	of|proud|we|false|false|false|false|false|false|false|false|false|IN
+our	others	we|of|internet|false|false|false|false|false|false|false|false|false|PRP$
+Internet	others	internet|we|art|true|false|false|false|false|false|false|false|false|NN
+arts	others	art|internet|manag|false|false|false|false|false|false|false|false|false|NNS
+management	others	manag|art|servic|false|false|false|false|false|false|false|false|false|NN
+service	others	servic|manag|_end_|false|false|false|false|false|false|false|false|false|NN
+
+and	others	and|_start_|would|false|false|false|false|false|false|false|false|false|CC
+would	others	would|and|like|false|false|false|false|false|false|false|false|false|MD
+like	others	like|would|to|false|false|false|false|false|false|false|false|false|VB
+to	others	to|like|show|false|false|false|false|false|false|false|false|false|TO
+show	others	show|to|it|false|false|false|false|false|false|false|false|false|VB
+it	others	it|show|to|false|false|false|false|false|false|false|false|false|PRP
+to	others	to|it|you|false|false|false|false|false|false|false|false|false|TO
+you	others	you|to|carol|false|false|false|false|false|false|false|false|false|PRP
+Carol	others	carol|you|_end_|true|false|false|false|false|true|false|false|false|NNP
+

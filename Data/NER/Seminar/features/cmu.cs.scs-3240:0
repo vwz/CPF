@@ -1,0 +1,73 @@
+Type	others	type|_start_|cmu|true|false|false|false|false|false|false|false|false|NN
+cmu	others	cmu|type|c|false|false|false|false|false|false|false|false|false|NN
+cs	others	c|cmu|sc|false|false|false|false|false|false|false|false|false|NNS
+scs	others	sc|c|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+Topic	others	topic|_start_|psc\/c|true|false|false|false|false|false|false|false|false|NN
+PSC\/CS	others	psc\/c|topic|seminar|false|false|false|false|false|false|false|false|false|NN
+Seminar	others	seminar|psc\/c|9\/30|true|false|false|false|false|false|false|false|false|NN
+9\/30	others	9\/30|seminar|denni|false|false|false|false|false|false|false|false|false|CD
+Dennis	speaker	denni|9\/30|gannon|true|false|false|false|false|true|false|false|false|NNP
+Gannon	speaker	gannon|denni|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+Dates	others	date|_start_|30-sep-94|true|false|false|false|false|false|false|false|false|NNS
+30-Sep-94	others	30-sep-94|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|4:00|true|false|false|false|false|false|false|false|false|NNP
+4:00	stime	4:00|time|pm|false|false|false|false|false|false|false|false|false|CD
+PM	stime	pm|4:00|_end_|false|true|false|true|false|false|false|false|false|NN
+
+Place	others	place|_start_|sei|true|false|false|false|false|false|false|false|false|NN
+SEI	location	sei|place|auditorium|false|true|false|true|false|false|false|false|false|NNP
+Auditorium	location	auditorium|sei|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+PostedBy	others	postedbi|_start_|pr|false|false|false|false|true|false|false|false|false|NNP
+prs	others	pr|postedbi|on|false|false|false|false|false|false|false|false|false|NNS
+on	others	on|pr|29-sep-94|false|false|false|false|false|false|false|false|false|IN
+29-Sep-94	others	29-sep-94|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|29-sep-94|10:36|false|false|false|false|false|false|false|false|false|IN
+10:36	others	10:36|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|10:36|n2|false|false|false|false|false|false|false|false|false|IN
+N2	others	n2|from|sp.cs.cmu.edu|false|false|false|false|false|false|false|false|false|NN
+SP.CS.CMU.EDU	others	sp.cs.cmu.edu|n2|-lrb-|false|false|false|false|false|false|false|false|false|NN
+-LRB-	others	-lrb-|sp.cs.cmu.edu|peter|false|false|false|false|false|false|false|false|false|-LRB-
+peter	others	peter|-lrb-|steenkist|false|false|false|false|false|false|false|false|false|NN
+steenkiste	others	steenkist|peter|-rrb-|false|false|false|false|false|false|false|false|false|NN
+-RRB-	others	-rrb-|steenkist|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+Tools	others	tool|_start_|for|true|false|false|false|false|false|false|false|false|NNS
+for	others	for|tool|object|false|false|false|false|false|false|false|false|false|IN
+Object	others	object|for|orient|true|false|false|false|false|false|false|false|false|NNP
+Oriented	others	orient|object|program|true|false|false|false|false|false|false|false|false|NNP
+Programming	others	program|orient|on|true|false|false|false|false|false|false|false|false|NNP
+on	others	on|program|massiv|false|false|false|false|false|false|false|false|false|IN
+Massively	others	massiv|on|parallel|true|false|false|false|false|false|false|false|false|RB
+Parallel	others	parallel|massiv|system|true|false|false|false|false|false|false|false|false|JJ
+Systems	others	system|parallel|_end_|true|false|false|false|false|false|false|false|false|NNPS
+
+Dennis	speaker	denni|_start_|gannon|true|false|false|false|false|true|false|false|false|NNP
+Gannon	speaker	gannon|denni|univers|true|false|false|false|false|true|false|false|false|NNP
+University	others	univers|gannon|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|univers|indiana|false|false|false|false|false|false|false|false|false|IN
+Indiana	others	indiana|of|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+No	others	no|_start_|abstract|true|false|false|false|false|false|false|false|false|DT
+abstract	others	abstract|no|avail|false|false|false|false|false|false|false|false|false|JJ
+available	others	avail|abstract|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+Where	others	where|_start_|sei|true|false|false|false|false|false|false|false|false|WRB
+SEI	location	sei|where|auditorium|false|true|false|true|false|false|false|false|false|NNP
+Auditorium	location	auditorium|sei|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Date	others	date|_start_|fridai|true|false|false|false|false|false|false|false|false|NN
+Friday	others	fridai|date|septemb|true|false|false|false|false|false|false|false|true|NNP
+September	others	septemb|fridai|30|true|false|false|false|false|false|false|false|true|NNP
+30	others	30|septemb|_end_|false|false|false|false|false|false|false|false|true|CD
+
+Time	others	time|_start_|4:00|true|false|false|false|false|false|false|false|false|NNP
+4:00	stime	4:00|time|p.|false|false|false|false|false|false|false|false|false|CD
+p.	stime	p.|4:00|m|false|false|false|false|false|false|false|false|false|NN
+m	stime	m|p.|_end_|false|false|false|false|false|false|false|false|false|NN
+

@@ -1,0 +1,78 @@
+Type	others	type|_start_|cmu|true|false|false|false|false|false|false|false|false|NN
+cmu	others	cmu|type|c|false|false|false|false|false|false|false|false|false|NN
+cs	others	c|cmu|sc|false|false|false|false|false|false|false|false|false|NNS
+scs	others	sc|c|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+Who	others	who|_start_|ronald|true|false|false|false|false|false|false|false|false|WP
+Ronald	speaker	ronald|who|rivest|true|false|false|false|false|true|false|false|false|NNP
+Rivest	speaker	rivest|ronald|mi|true|false|false|false|false|true|false|false|false|NNP
+MI	others	mi|rivest|question|false|true|false|true|false|false|false|false|false|NNP
+questions	others	question|mi|or|false|false|false|false|false|false|false|false|false|NNS
+or	others	or|question|comment|false|false|false|false|false|false|false|false|false|CC
+comments	others	comment|or|for|false|false|false|false|false|false|false|false|false|NNS
+for	others	for|comment|ron|false|false|false|false|false|false|false|false|false|IN
+Ron	others	ron|for|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+Topic	others	topic|_start_|ron|true|false|false|false|false|false|false|false|false|NN
+Ron	others	ron|topic|rivest-distingish|true|false|false|false|false|true|false|false|false|NNP
+Rivest-Distingished	others	rivest-distingish|ron|lectur|false|false|false|false|false|false|false|false|false|NNP
+Lecture	others	lectur|rivest-distingish|series-w|true|false|false|false|false|false|false|false|false|NNP
+Series-wed	others	series-w|lectur|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+Dates	others	date|_start_|14-nov-90|true|false|false|false|false|false|false|false|false|NNS
+14-Nov-90	others	14-nov-90|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|3:30|true|false|false|false|false|false|false|false|false|NNP
+3:30	stime	3:30|time|pm|false|false|false|false|false|false|false|false|false|CD
+PM	stime	pm|3:30|_end_|false|true|false|true|false|false|false|false|false|NN
+
+Place	others	place|_start_|7500|true|false|false|false|false|false|false|false|false|NN
+7500	location	7500|place|weh|false|false|false|false|false|false|false|false|false|CD
+WeH	location	weh|7500|_end_|false|false|false|false|false|false|false|false|false|NN
+
+PostedBy	others	postedbi|_start_|terri|false|false|false|false|true|false|false|false|false|NNP
+Terri	others	terri|postedbi|stanku|true|false|false|false|false|true|false|false|false|NNP
+Stankus	others	stanku|terri|on|true|false|false|false|false|true|false|false|false|NNP
+on	others	on|stanku|13-nov-90|false|false|false|false|false|false|false|false|false|IN
+13-Nov-90	others	13-nov-90|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|13-nov-90|14:57|false|false|false|false|false|false|false|false|false|IN
+14:57	others	14:57|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|14:57|b.gp.cs.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+B.GP.CS.CMU.EDU	others	b.gp.cs.cmu.edu|from|_end_|false|false|false|false|false|false|false|false|false|NNP
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+Just	others	just|_start_|a|true|false|false|false|false|false|false|false|false|RB
+a	others	a|just|remind|false|false|false|false|false|false|false|false|false|DT
+reminder	others	remind|a|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Date	others	date|_start_|thi|true|false|false|false|false|false|false|false|false|NN
+This	others	thi|date|wednesdai|true|false|false|false|false|false|false|false|true|DT
+Wednesday	others	wednesdai|thi|novemb|true|false|false|false|false|false|false|false|true|NNP
+November	others	novemb|wednesdai|14th|true|false|false|false|false|false|false|false|true|NNP
+14th	others	14th|novemb|_end_|false|false|false|false|false|false|false|false|true|JJ
+
+time	others	time|_start_|3:30|false|false|false|false|false|false|false|false|false|NN
+3:30	stime	3:30|time|p.|false|false|false|false|false|false|false|false|false|CD
+p.	stime	p.|3:30|m|false|false|false|false|false|false|false|false|false|NN
+m	stime	m|p.|_end_|false|false|false|false|false|false|false|false|false|NN
+
+place	others	place|_start_|7500|false|false|false|false|false|false|false|false|false|NN
+7500	location	7500|place|weh|false|false|false|false|false|false|false|false|false|CD
+WeH	location	weh|7500|_end_|false|false|false|false|false|false|false|false|false|NN
+
+EVENT	others	event|_start_|distinguish|false|true|false|true|false|false|false|false|false|NN
+DISTINGUISHED	others	distinguish|event|lectur|false|true|false|true|false|false|false|false|false|VBN
+LECTURE	others	lectur|distinguish|seri|false|true|false|true|false|false|false|false|false|NN
+SERIES	others	seri|lectur|_end_|false|true|false|true|false|false|false|false|false|NN
+
+SPEAKER	others	speaker|_start_|ronald|false|true|false|true|false|false|false|false|false|NN
+Ronald	speaker	ronald|speaker|rivest|true|false|false|false|false|true|false|false|false|NNP
+Rivest	speaker	rivest|ronald|mi|true|false|false|false|false|true|false|false|false|NNP
+MI	others	mi|rivest|question|false|true|false|true|false|false|false|false|false|NNP
+questions	others	question|mi|or|false|false|false|false|false|false|false|false|false|NNS
+or	others	or|question|comment|false|false|false|false|false|false|false|false|false|CC
+comments	others	comment|or|for|false|false|false|false|false|false|false|false|false|NNS
+for	others	for|comment|ron|false|false|false|false|false|false|false|false|false|IN
+Ron	others	ron|for|_end_|true|false|false|false|false|true|false|false|false|NNP
+

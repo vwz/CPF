@@ -1,0 +1,367 @@
+Type	others	type|_start_|cmu.misc.environmental-health-and-safeti|true|false|false|false|false|false|false|false|false|NN
+cmu.misc.environmental-health-and-safety	others	cmu.misc.environmental-health-and-safeti|type|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Topic	others	topic|_start_|epp|true|false|false|false|false|false|false|false|false|NN
+EPP	others	epp|topic|talk|false|true|false|true|false|false|false|false|false|NN
+TALK	others	talk|epp|household|false|true|false|true|false|false|false|false|false|NNP
+Household	others	household|talk|demand|true|false|false|false|false|false|false|false|false|NNP
+Demand	others	demand|household|for|true|false|false|false|false|false|false|false|false|NN
+for	others	for|demand|garbag|false|false|false|false|false|false|false|false|false|IN
+Garbage	others	garbag|for|and|true|false|false|false|false|false|false|false|false|NNP
+and	others	and|garbag|recycl|false|false|false|false|false|false|false|false|false|CC
+Recycling	others	recycl|and|collect|true|false|false|false|false|false|false|false|false|NNP
+Collection	others	collect|recycl|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Dates	others	date|_start_|27-jan-94|true|false|false|false|false|false|false|false|false|NNS
+27-Jan-94	others	27-jan-94|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|4:30|true|false|false|false|false|false|false|false|false|NNP
+4:30	stime	4:30|time|pm|false|false|false|false|false|false|false|false|false|CD
+PM	stime	pm|4:30|_end_|false|true|false|true|false|false|false|false|false|NN
+
+PostedBy	others	postedbi|_start_|julio|false|false|false|false|true|false|false|false|false|NNP
+Julio	others	julio|postedbi|ken|true|false|false|false|false|true|false|false|false|NNP
+Ken	others	ken|julio|rosenblatt|true|false|false|false|false|true|false|false|false|NNP
+Rosenblatt	others	rosenblatt|ken|on|true|false|false|false|false|true|false|false|false|NNP
+on	others	on|rosenblatt|24-jan-94|false|false|false|false|false|false|false|false|false|IN
+24-Jan-94	others	24-jan-94|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|24-jan-94|19:57|false|false|false|false|false|false|false|false|false|IN
+19:57	others	19:57|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|19:57|ius5|false|false|false|false|false|false|false|false|false|IN
+IUS5	others	ius5|from|ius.cs.cmu.edu|false|false|false|false|false|false|false|false|false|NN
+IUS.CS.CMU.EDU	others	ius.cs.cmu.edu|ius5|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+Begin	others	begin|_start_|forward|true|false|false|false|false|false|false|false|false|NNP
+Forwarded	others	forward|begin|messag|true|false|false|false|false|false|false|false|false|NNP
+Message	others	messag|forward|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+In	others	in|_start_|articl|true|false|false|false|false|false|false|false|false|IN
+article	others	articl|in|-lrb-|false|false|false|false|false|false|false|false|false|NN
+-LRB-	others	-lrb-|articl|cmu.andrew.assocs.gso+ohf3hmi00ufaa0vfnd@andrew.cmu.edu|false|false|false|false|false|false|false|false|false|-LRB-
+cmu.andrew.assocs.gso+ohF3hmi00UfAA0vFNd@andrew.cmu.edu	others	cmu.andrew.assocs.gso+ohf3hmi00ufaa0vfnd@andrew.cmu.edu|-lrb-|-rrb-|false|false|false|false|false|false|false|false|false|NN
+-RRB-	others	-rrb-|cmu.andrew.assocs.gso+ohf3hmi00ufaa0vfnd@andrew.cmu.edu|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+Tse-Sung	others	tse-sung|_start_|wu|false|false|false|false|false|true|false|false|false|NNP
+Wu	others	wu|tse-sung|write|true|false|false|false|false|true|false|false|false|NNP
+writes	others	write|wu|_end_|false|false|false|false|false|false|false|false|false|VBZ
+
+Thursday	others	thursdai|_start_|januari|true|false|false|false|false|false|false|false|true|NNP
+January	others	januari|thursdai|27|true|false|false|false|false|false|false|false|true|NNP
+27	others	27|januari|at|false|false|false|false|false|false|false|false|true|CD
+at	others	at|27|4:30|false|false|false|false|false|false|false|false|false|IN
+4:30	stime	4:30|at|pm|false|false|false|false|false|false|false|false|false|CD
+pm	stime	pm|4:30|_end_|false|false|false|false|false|false|false|false|false|NN
+
+in	others	in|_start_|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|in|epp|false|false|false|false|false|false|false|false|false|DT
+EPP	location	epp|the|confer|false|true|false|true|false|false|false|false|false|NN
+conference	location	confer|epp|room|false|false|false|false|false|false|false|false|false|NN
+room	location	room|confer|locat|false|false|false|false|false|false|false|false|false|NN
+located	location	locat|room|in|false|false|false|false|false|false|false|false|false|JJ
+in	location	in|locat|bh-129|false|false|false|false|false|false|false|false|false|IN
+BH-129	location	bh-129|in|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Heinz	others	heinz|_start_|school|true|false|false|false|false|false|false|false|false|NNP
+School	others	school|heinz|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Household	others	household|_start_|demand|true|false|false|false|false|false|false|false|false|NNP
+Demand	others	demand|household|for|true|false|false|false|false|false|false|false|false|NN
+for	others	for|demand|garbag|false|false|false|false|false|false|false|false|false|IN
+Garbage	others	garbag|for|and|true|false|false|false|false|false|false|false|false|NNP
+and	others	and|garbag|recycl|false|false|false|false|false|false|false|false|false|CC
+Recycling	others	recycl|and|collect|true|false|false|false|false|false|false|false|false|NNP
+Collection	others	collect|recycl|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+with	others	with|_start_|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|with|start|false|false|false|false|false|false|false|false|false|DT
+Start	others	start|the|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|start|a|false|false|false|false|false|false|false|false|false|IN
+a	others	a|of|price|false|false|false|false|false|false|false|false|false|DT
+Price	others	price|a|per|true|false|false|false|false|false|false|false|false|NN
+per	others	per|price|bag|false|false|false|false|false|false|false|false|false|IN
+Bag	others	bag|per|_end_|true|false|false|false|false|false|false|false|false|NN
+
+All	others	all|_start_|be|true|false|false|false|false|false|false|false|false|DT
+are	others	be|all|invit|false|false|false|false|false|false|false|false|false|VBP
+invited	others	invit|be|to|false|false|false|false|false|false|false|false|false|VBN
+to	others	to|invit|attend|false|false|false|false|false|false|false|false|false|TO
+attend	others	attend|to|_end_|false|false|false|false|false|false|false|false|false|VB
+
+This	others	thi|_start_|paper|true|false|false|false|false|false|false|false|false|DT
+paper	others	paper|thi|estim|false|false|false|false|false|false|false|false|false|NN
+estimates	others	estim|paper|household|false|false|false|false|false|false|false|false|false|VBZ
+household	others	household|estim|reaction|false|false|false|false|false|false|false|false|false|NN
+reaction	others	reaction|household|to|false|false|false|false|false|false|false|false|false|NN
+to	others	to|reaction|the|false|false|false|false|false|false|false|false|false|TO
+the	others	the|to|implemen|false|false|false|false|false|false|false|false|false|DT
+implemenation	others	implemen|the|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|implemen|a|false|false|false|false|false|false|false|false|false|IN
+a	others	a|of|_end_|false|false|false|false|false|false|false|false|false|DT
+
+volume-based	others	volume-bas|_start_|price|false|false|false|false|false|false|false|false|false|JJ
+pricing	others	price|volume-bas|program|false|false|false|false|false|false|false|false|false|NN
+program	others	program|price|for|false|false|false|false|false|false|false|false|false|NN
+for	others	for|program|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|for|collecion|false|false|false|false|false|false|false|false|false|DT
+collecion	others	collecion|the|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|collecion|residenti|false|false|false|false|false|false|false|false|false|IN
+residential	others	residenti|of|garbag|false|false|false|false|false|false|false|false|false|JJ
+garbage	others	garbag|residenti|_end_|false|false|false|false|false|false|false|false|false|NN
+
+We	others	we|_start_|gather|true|false|false|false|false|false|false|false|false|PRP
+gather	others	gather|we|origin|false|false|false|false|false|false|false|false|false|VBP
+original	others	origin|gather|datum|false|false|false|false|false|false|false|false|false|JJ
+data	others	datum|origin|on|false|false|false|false|false|false|false|false|false|NNS
+on	others	on|datum|weight|false|false|false|false|false|false|false|false|false|IN
+weight	others	weight|on|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|weight|volum|false|false|false|false|false|false|false|false|false|CC
+volume	others	volum|and|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|volum|weekli|false|false|false|false|false|false|false|false|false|IN
+weekly	others	weekli|of|garbag|false|false|false|false|false|false|false|false|false|JJ
+garbage	others	garbag|weekli|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|garbag|_end_|false|false|false|false|false|false|false|false|false|CC
+
+recycling	others	recycl|_start_|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|recycl|75|false|false|false|false|false|false|false|false|false|IN
+75	others	75|of|household|false|false|false|false|false|false|false|false|false|CD
+households	others	household|75|in|false|false|false|false|false|false|false|false|false|NNS
+in	others	in|household|charlottesvil|false|false|false|false|false|false|false|false|false|IN
+Charlottesville	others	charlottesvil|in|virgina|true|false|false|false|false|false|false|false|false|NNP
+Virgina	others	virgina|charlottesvil|both|true|false|false|false|false|false|false|false|false|NNP
+both	others	both|virgina|befor|false|false|false|false|false|false|false|false|false|DT
+before	others	befor|both|and|false|false|false|false|false|false|false|false|false|IN
+and	others	and|befor|_end_|false|false|false|false|false|false|false|false|false|CC
+
+after	others	after|_start_|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|after|implement|false|false|false|false|false|false|false|false|false|DT
+implementation	others	implement|the|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|implement|a|false|false|false|false|false|false|false|false|false|IN
+a	others	a|of|program|false|false|false|false|false|false|false|false|false|DT
+program	others	program|a|which|false|false|false|false|false|false|false|false|false|NN
+which	others	which|program|requir|false|false|false|false|false|false|false|false|false|WDT
+requires	others	requir|which|a|false|false|false|false|false|false|false|false|false|VBZ
+an	others	a|requir|eighty-c|false|false|false|false|false|false|false|false|false|DT
+eighty-cent	others	eighty-c|a|_end_|false|false|false|false|false|false|false|false|false|JJ
+
+sticker	others	sticker|_start_|on|false|false|false|false|false|false|false|false|false|NN
+on	others	on|sticker|each|false|false|false|false|false|false|false|false|false|IN
+each	others	each|on|bag|false|false|false|false|false|false|false|false|false|DT
+bag	others	bag|each|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|bag|garbag|false|false|false|false|false|false|false|false|false|IN
+garbage	others	garbag|of|thi|false|false|false|false|false|false|false|false|false|NN
+This	others	thi|garbag|datum|true|false|false|false|false|false|false|false|false|DT
+data	others	datum|thi|set|false|false|false|false|false|false|false|false|false|NN
+set	others	set|datum|be|false|false|false|false|false|false|false|false|false|NN
+is	others	be|set|the|false|false|false|false|false|false|false|false|false|VBZ
+the	others	the|be|first|false|false|false|false|false|false|false|false|false|DT
+first	others	first|the|of|false|false|false|false|false|false|false|false|false|JJ
+of	others	of|first|it|false|false|false|false|false|false|false|false|false|IN
+its	others	it|of|kind|false|false|false|false|false|false|false|false|false|PRP$
+kind	others	kind|it|_end_|false|false|false|false|false|false|false|false|false|NN
+
+We	others	we|_start_|estim|true|false|false|false|false|false|false|false|false|PRP
+estimate	others	estim|we|household|false|false|false|false|false|false|false|false|false|VBP
+household	others	household|estim|demand|false|false|false|false|false|false|false|false|false|NN
+demands	others	demand|household|for|false|false|false|false|false|false|false|false|false|NNS
+for	others	for|demand|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|for|collect|false|false|false|false|false|false|false|false|false|DT
+collection	others	collect|the|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|collect|garbag|false|false|false|false|false|false|false|false|false|IN
+garbage	others	garbag|of|and|false|false|false|false|false|false|false|false|false|NN
+and	others	and|garbag|_end_|false|false|false|false|false|false|false|false|false|CC
+
+recyclable	others	recycl|_start_|materi|false|false|false|false|false|false|false|false|false|JJ
+material	others	materi|recycl|the|false|false|false|false|false|false|false|false|false|NN
+the	others	the|materi|effect|false|false|false|false|false|false|false|false|false|DT
+effect	others	effect|the|on|false|false|false|false|false|false|false|false|false|NN
+on	others	on|effect|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|on|densiti|false|false|false|false|false|false|false|false|false|DT
+density	others	densiti|the|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|densiti|household|false|false|false|false|false|false|false|false|false|IN
+household	others	household|of|garbag|false|false|false|false|false|false|false|false|false|NN
+garbage	others	garbag|household|_end_|false|false|false|false|false|false|false|false|false|NN
+
+and	others	and|_start_|the|false|false|false|false|false|false|false|false|false|CC
+the	others	the|and|amount|false|false|false|false|false|false|false|false|false|DT
+amount	others	amount|the|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|amount|illeg|false|false|false|false|false|false|false|false|false|IN
+illegal	others	illeg|of|dump|false|false|false|false|false|false|false|false|false|JJ
+dumping	others	dump|illeg|conduct|false|false|false|false|false|false|false|false|false|VBG
+conducted	others	conduct|dump|by|false|false|false|false|false|false|false|false|false|VBN
+by	others	by|conduct|houshold|false|false|false|false|false|false|false|false|false|IN
+housholds	others	houshold|by|we|false|false|false|false|false|false|false|false|false|NNS
+We	others	we|houshold|also|true|false|false|false|false|false|false|false|false|PRP
+also	others	also|we|emploi|false|false|false|false|false|false|false|false|false|RB
+employ	others	emploi|also|_end_|false|false|false|false|false|false|false|false|false|VBP
+
+a	others	a|_start_|basic|false|false|false|false|false|false|false|false|false|DT
+basic	others	basic|a|probit|false|false|false|false|false|false|false|false|false|JJ
+probit	others	probit|basic|model|false|false|false|false|false|false|false|false|false|NN
+model	others	model|probit|to|false|false|false|false|false|false|false|false|false|NN
+to	others	to|model|estim|false|false|false|false|false|false|false|false|false|TO
+estimate	others	estim|to|the|false|false|false|false|false|false|false|false|false|VB
+the	others	the|estim|probabl|false|false|false|false|false|false|false|false|false|DT
+probability	others	probabl|the|that|false|false|false|false|false|false|false|false|false|NN
+that	others	that|probabl|a|false|false|false|false|false|false|false|false|false|IN
+a	others	a|that|househod|false|false|false|false|false|false|false|false|false|DT
+househod	others	househod|a|choos|false|false|false|false|false|false|false|false|false|NN
+chooses	others	choos|househod|_end_|false|false|false|false|false|false|false|false|false|VBZ
+
+each	others	each|_start_|of|false|false|false|false|false|false|false|false|false|DT
+of	others	of|each|sever|false|false|false|false|false|false|false|false|false|IN
+several	others	sever|of|method|false|false|false|false|false|false|false|false|false|JJ
+methods	others	method|sever|avail|false|false|false|false|false|false|false|false|false|NNS
+available	others	avail|method|to|false|false|false|false|false|false|false|false|false|JJ
+to	others	to|avail|reduc|false|false|false|false|false|false|false|false|false|TO
+reduce	others	reduc|to|thei|false|false|false|false|false|false|false|false|false|VB
+their	others	thei|reduc|garbag|false|false|false|false|false|false|false|false|false|PRP$
+garbage	others	garbag|thei|_end_|false|false|false|false|false|false|false|false|false|NN
+
+In	others	in|_start_|respons|true|false|false|false|false|false|false|false|false|IN
+response	others	respons|in|to|false|false|false|false|false|false|false|false|false|NN
+to	others	to|respons|the|false|false|false|false|false|false|false|false|false|TO
+the	others	the|to|implement|false|false|false|false|false|false|false|false|false|DT
+implementation	others	implement|the|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|implement|thi|false|false|false|false|false|false|false|false|false|IN
+this	others	thi|of|volume-bas|false|false|false|false|false|false|false|false|false|DT
+volume-based	others	volume-bas|thi|price|false|false|false|false|false|false|false|false|false|JJ
+pricing	others	price|volume-bas|program|false|false|false|false|false|false|false|false|false|NN
+program	others	program|price|_end_|false|false|false|false|false|false|false|false|false|NN
+
+we	others	we|_start_|find|false|false|false|false|false|false|false|false|false|PRP
+find	others	find|we|that|false|false|false|false|false|false|false|false|false|VBP
+that	others	that|find|household|false|false|false|false|false|false|false|false|false|IN
+households	others	household|that|-lrb-|false|false|false|false|false|false|false|false|false|NNS
+-LRB-	others	-lrb-|household|1|false|false|false|false|false|false|false|false|false|-LRB-
+1	others	1|-lrb-|-rrb-|false|false|false|false|false|false|false|false|false|CD
+-RRB-	others	-rrb-|1|reduc|false|false|false|false|false|false|false|false|false|-RRB-
+reduced	others	reduc|-rrb-|the|false|false|false|false|false|false|false|false|false|VBD
+the	others	the|reduc|weight|false|false|false|false|false|false|false|false|false|DT
+weight	others	weight|the|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|weight|thei|false|false|false|false|false|false|false|false|false|IN
+their	others	thei|of|garbag|false|false|false|false|false|false|false|false|false|PRP$
+garbage	others	garbag|thei|by|false|false|false|false|false|false|false|false|false|NN
+by	others	by|garbag|_end_|false|false|false|false|false|false|false|false|false|IN
+
+14.0	others	14.0|_start_|-lrb-|false|false|false|false|false|false|false|false|false|CD
+-LRB-	others	-lrb-|14.0|2|false|false|false|false|false|false|false|false|false|-LRB-
+2	others	2|-lrb-|-rrb-|false|false|false|false|false|false|false|false|false|LS
+-RRB-	others	-rrb-|2|reduc|false|false|false|false|false|false|false|false|false|-RRB-
+reduced	others	reduc|-rrb-|the|false|false|false|false|false|false|false|false|false|VBD
+the	others	the|reduc|volum|false|false|false|false|false|false|false|false|false|DT
+volume	others	volum|the|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|volum|garbag|false|false|false|false|false|false|false|false|false|IN
+garbage	others	garbag|of|by|false|false|false|false|false|false|false|false|false|NN
+by	others	by|garbag|37.0|false|false|false|false|false|false|false|false|false|IN
+37.0	others	37.0|by|and|false|false|false|false|false|false|false|false|false|CD
+and	others	and|37.0|-lrb-|false|false|false|false|false|false|false|false|false|CC
+-LRB-	others	-lrb-|and|3|false|false|false|false|false|false|false|false|false|-LRB-
+3	others	3|-lrb-|-rrb-|false|false|false|false|false|false|false|false|false|LS
+-RRB-	others	-rrb-|3|increas|false|false|false|false|false|false|false|false|false|-RRB-
+increased	others	increas|-rrb-|the|false|false|false|false|false|false|false|false|false|VBD
+the	others	the|increas|_end_|false|false|false|false|false|false|false|false|false|DT
+
+weight	others	weight|_start_|of|false|false|false|false|false|false|false|false|false|NN
+of	others	of|weight|thei|false|false|false|false|false|false|false|false|false|IN
+their	others	thei|of|recycl|false|false|false|false|false|false|false|false|false|PRP$
+recyclable	others	recycl|thei|materi|false|false|false|false|false|false|false|false|false|JJ
+materials	others	materi|recycl|by|false|false|false|false|false|false|false|false|false|NNS
+by	others	by|materi|15.7|false|false|false|false|false|false|false|false|false|IN
+15.7	others	15.7|by|we|false|false|false|false|false|false|false|false|false|CD
+We	others	we|15.7|estim|true|false|false|false|false|false|false|false|false|PRP
+estimate	others	estim|we|that|false|false|false|false|false|false|false|false|false|VBP
+that	others	that|estim|_end_|false|false|false|false|false|false|false|false|false|IN
+
+additional	others	addit|_start_|illeg|false|false|false|false|false|false|false|false|false|JJ
+illegal	others	illeg|addit|or|false|false|false|false|false|false|false|false|false|JJ
+or	others	or|illeg|at|false|false|false|false|false|false|false|false|false|CC
+at	others	at|or|least|false|false|false|false|false|false|false|false|false|IN
+least	others	least|at|suspici|false|false|false|false|false|false|false|false|false|JJS
+suspicious	others	suspici|least|dispos|false|false|false|false|false|false|false|false|false|JJ
+disposal	others	dispos|suspici|account|false|false|false|false|false|false|false|false|false|NN
+accounts	others	account|dispos|for|false|false|false|false|false|false|false|false|false|NNS
+for	others	for|account|_end_|false|false|false|false|false|false|false|false|false|IN
+
+0.486	others	0.486|_start_|pound|false|false|false|false|false|false|false|false|false|CD
+pounds	others	pound|0.486|per|false|false|false|false|false|false|false|false|false|NNS
+per	others	per|pound|week|false|false|false|false|false|false|false|false|false|IN
+week	others	week|per|per|false|false|false|false|false|false|false|false|false|NN
+per	others	per|week|person|false|false|false|false|false|false|false|false|false|IN
+person	others	person|per|in|false|false|false|false|false|false|false|false|false|NN
+in	others	in|person|charlottesvil|false|false|false|false|false|false|false|false|false|IN
+Charlottesville	others	charlottesvil|in|or|true|false|false|false|false|false|false|false|false|NNP
+or	others	or|charlottesvil|32|false|false|false|false|false|false|false|false|false|CC
+32	others	32|or|of|false|false|false|false|false|false|false|false|false|CD
+of	others	of|32|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|of|total|false|false|false|false|false|false|false|false|false|DT
+total	others	total|the|_end_|false|false|false|false|false|false|false|false|false|NN
+
+reduction	others	reduct|_start_|in|false|false|false|false|false|false|false|false|false|NN
+in	others	in|reduct|garbag|false|false|false|false|false|false|false|false|false|IN
+garbage	others	garbag|in|observ|false|false|false|false|false|false|false|false|false|NN
+observed	others	observ|garbag|at|false|false|false|false|false|false|false|false|false|VBN
+at	others	at|observ|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|at|curb|false|false|false|false|false|false|false|false|false|DT
+curb	others	curb|the|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Refreshments	others	refresh|_start_|_end_|true|false|false|false|false|false|false|false|false|NNS
+
+
+Also	others	also|_start_|pleas|true|false|false|false|false|false|false|false|false|RB
+please	others	pleas|also|note|false|false|false|false|false|false|false|false|false|VB
+note	others	note|pleas|the|false|false|false|false|false|false|false|false|false|NN
+the	others	the|note|next|false|false|false|false|false|false|false|false|false|DT
+next	others	next|the|seminar|false|false|false|false|false|false|false|false|false|JJ
+seminar	others	seminar|next|be|false|false|false|false|false|false|false|false|false|NN
+is	others	be|seminar|schedul|false|false|false|false|false|false|false|false|false|VBZ
+scheduled	others	schedul|be|for|false|false|false|false|false|false|false|false|false|VBN
+for	others	for|schedul|_end_|false|false|false|false|false|false|false|false|false|IN
+
+Thursday	others	thursdai|_start_|februari|true|false|false|false|false|false|false|false|true|NNP
+February	others	februari|thursdai|3|true|false|false|false|false|false|false|false|true|NNP
+3	others	3|februari|1994|false|false|false|false|false|false|false|false|true|CD
+1994	others	1994|3|_end_|false|false|false|false|false|false|false|false|true|CD
+
+Dr.	others	dr.|_start_|daniel|false|false|false|false|false|true|false|false|false|NNP
+Daniel	others	daniel|dr.|reed|true|false|false|false|false|true|false|false|false|NNP
+Reed	others	reed|daniel|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+Post-Doctoral	others	post-doctor|_start_|research|false|false|false|false|false|false|false|false|false|NNP
+Researcher	others	research|post-doctor|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Dept.	others	dept.|_start_|of|false|false|false|false|false|false|false|false|false|NNP
+of	others	of|dept.|epp|false|false|false|false|false|false|false|false|false|IN
+EPP	others	epp|of|_end_|false|true|false|true|false|false|false|false|false|NN
+
+Predicting	others	predict|_start_|prefer|true|false|false|false|false|false|false|false|false|VBG
+Preferences	others	prefer|predict|_end_|true|false|false|false|false|false|false|false|false|NNPS
+
+Upcoming	others	upcom|_start_|_end_|true|false|false|false|false|false|false|false|false|VBG
+
+February	others	februari|_start_|10|true|false|false|false|false|false|false|false|true|NNP
+10	others	10|februari|milind|false|false|false|false|false|false|false|false|true|CD
+Milind	others	milind|10|kandlikar|true|false|false|false|false|true|false|false|false|NNP
+Kandlikar	others	kandlikar|milind|phd|true|false|false|false|false|true|false|false|false|NNP
+PhD	others	phd|kandlikar|candid|false|false|false|false|false|true|false|false|false|NNP
+Candidate	others	candid|phd|epp|true|false|false|false|false|false|false|false|false|NNP
+EPP	others	epp|candid|_end_|false|true|false|true|false|false|false|false|false|NN
+
+February	others	februari|_start_|17|true|false|false|false|false|false|false|false|true|NNP
+17	others	17|februari|lara|false|false|false|false|false|false|false|false|true|CD
+Lara	others	lara|17|wolfson|true|false|false|false|false|true|false|false|false|NNP
+Wolfson	others	wolfson|lara|phd|true|false|false|false|false|true|false|false|false|NNP
+PhD	others	phd|wolfson|candid|false|false|false|false|false|true|false|false|false|NNP
+Candidate	others	candid|phd|statist|true|false|false|false|false|false|false|false|false|NNP
+Statistics	others	statist|candid|_end_|true|false|false|false|false|false|false|false|false|NNPS
+
+February	others	februari|_start_|24|true|false|false|false|false|false|false|false|true|NNP
+24	others	24|februari|tba|false|false|false|false|false|false|false|false|true|CD
+TBA	others	tba|24|_end_|false|true|false|true|false|false|false|false|false|NN
+
+
+End	others	end|_start_|forward|true|false|false|false|false|false|false|false|false|NN
+Forwarded	others	forward|end|messag|true|false|false|false|false|false|false|false|false|VBN
+Message	others	messag|forward|_end_|true|false|false|false|false|false|false|false|false|NN
+

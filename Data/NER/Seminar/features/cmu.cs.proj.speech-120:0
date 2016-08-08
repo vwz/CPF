@@ -1,0 +1,124 @@
+Type	others	type|_start_|cmu|true|false|false|false|false|false|false|false|false|NN
+cmu	others	cmu|type|c|false|false|false|false|false|false|false|false|false|NN
+cs	others	c|cmu|proj|false|false|false|false|false|false|false|false|false|NNS
+proj	others	proj|c|speech|false|false|false|false|false|false|false|false|false|NN
+speech	others	speech|proj|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Topic	others	topic|_start_|cam|true|false|false|false|false|false|false|false|false|NN
+Cam	speaker	cam|topic|searl|true|false|false|false|false|false|false|false|false|NNP
+Searle	speaker	searl|cam|'s|true|false|false|false|false|false|false|false|false|NNP
+'s	others	's|searl|talk|false|false|false|false|false|false|false|false|false|POS
+talks	others	talk|'s|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+Dates	others	date|_start_|28-apr-83|true|false|false|false|false|false|false|false|false|NNS
+28-Apr-83	others	28-apr-83|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|1:30|true|false|false|false|false|false|false|false|false|NNP
+1:30	stime	1:30|time|2:30|false|false|false|false|false|false|true|false|false|CD
+2:30	etime	2:30|1:30|_end_|false|false|false|false|false|false|false|true|false|CD
+
+PostedBy	others	postedbi|_start_|on|false|false|false|false|true|false|false|false|false|NNP
+on	others	on|postedbi|27-apr-83|false|false|false|false|false|false|false|false|false|IN
+27-Apr-83	others	27-apr-83|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|27-apr-83|10:23|false|false|false|false|false|false|false|false|false|IN
+10:23	others	10:23|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|10:23|_end_|false|false|false|false|false|false|false|false|false|IN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+Campbell	speaker	campbel|_start_|searl|true|false|false|false|false|false|false|false|false|NNP
+Searle	speaker	searl|campbel|will|true|false|false|false|false|false|false|false|false|NNP
+will	others	will|searl|give|false|false|false|false|false|false|false|false|false|MD
+give	others	give|will|a|false|false|false|false|false|false|false|false|false|VB
+a	others	a|give|talk|false|false|false|false|false|false|false|false|false|DT
+talk	others	talk|a|to|false|false|false|false|false|false|false|false|false|NN
+to	others	to|talk|the|false|false|false|false|false|false|false|false|false|TO
+the	others	the|to|speech|false|false|false|false|false|false|false|false|false|DT
+speech	others	speech|the|group|false|false|false|false|false|false|false|false|false|NN
+group	others	group|speech|specul|false|false|false|false|false|false|false|false|false|NN
+speculating	others	specul|group|on|false|false|false|false|false|false|false|false|false|VBG
+on	others	on|specul|_end_|false|false|false|false|false|false|false|false|false|IN
+
+higher	others	higher|_start_|level|false|false|false|false|false|false|false|false|false|JJR
+level	others	level|higher|represent|false|false|false|false|false|false|false|false|false|NN
+representations	others	represent|level|of|false|false|false|false|false|false|false|false|false|NNS
+of	others	of|represent|speech|false|false|false|false|false|false|false|false|false|IN
+speech	others	speech|of|us|false|false|false|false|false|false|false|false|false|NN
+using	others	us|speech|princip|false|false|false|false|false|false|false|false|false|VBG
+principal	others	princip|us|compon|false|false|false|false|false|false|false|false|false|JJ
+component	others	compon|princip|_end_|false|false|false|false|false|false|false|false|false|NN
+
+analysis	others	analysi|_start_|on|false|false|false|false|false|false|false|false|false|NN
+on	others	on|analysi|thursdai|false|false|false|false|false|false|false|false|false|IN
+Thursday	others	thursdai|on|1:30|true|false|false|false|false|false|false|false|true|NNP
+1:30	stime	1:30|thursdai|2:30|false|false|false|false|false|false|true|false|false|CD
+2:30	etime	2:30|1:30|in|false|false|false|false|false|false|false|true|false|CD
+in	others	in|2:30|weh|false|false|false|false|false|false|false|false|false|IN
+WeH	location	weh|in|8220|false|false|false|false|false|false|false|false|false|NN
+8220	location	8220|weh|-lrb-|false|false|false|false|false|false|false|false|false|CD
+-LRB-	others	-lrb-|8220|note|false|false|false|false|false|false|false|false|false|-LRB-
+NOTE	others	note|-lrb-|chang|false|true|false|true|false|false|false|false|false|VBP
+CHANGE	others	chang|note|in|false|true|false|true|false|false|false|false|false|NN
+IN	others	in|chang|time|false|true|false|true|false|false|false|false|false|IN
+TIME	others	time|in|-rrb-|false|true|false|true|false|false|false|false|false|NN
+-RRB-	others	-rrb-|time|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+Hope	others	hope|_start_|y'|true|false|false|false|false|false|false|false|false|NNP
+y'	others	y'|hope|all|false|false|false|false|false|false|false|false|false|VBD
+all	others	all|y'|can|false|false|false|false|false|false|false|false|false|DT
+can	others	can|all|make|false|false|false|false|false|false|false|false|false|MD
+make	others	make|can|it|false|false|false|false|false|false|false|false|false|VB
+it	others	it|make|cam|false|false|false|false|false|false|false|false|false|PRP
+Cam	others	cam|it|still|true|false|false|false|false|true|false|false|false|NN
+still	others	still|cam|have|false|false|false|false|false|false|false|false|false|RB
+has	others	have|still|free|false|false|false|false|false|false|false|false|false|VBZ
+free	others	free|have|time|false|false|false|false|false|false|false|false|false|JJ
+time	others	time|free|on|false|false|false|false|false|false|false|false|false|NN
+on	others	on|time|thursdai|false|false|false|false|false|false|false|false|false|IN
+Thursday	others	thursdai|on|morn|true|false|false|false|false|false|false|false|true|NNP
+morning	others	morn|thursdai|_end_|false|false|false|false|false|false|false|false|false|NN
+
+so	others	so|_start_|let|false|false|false|false|false|false|false|false|false|RB
+let	others	let|so|i|false|false|false|false|false|false|false|false|false|VB
+me	others	i|let|know|false|false|false|false|false|false|false|false|false|PRP
+know	others	know|i|if|false|false|false|false|false|false|false|false|false|VB
+if	others	if|know|you|false|false|false|false|false|false|false|false|false|IN
+you	others	you|if|would|false|false|false|false|false|false|false|false|false|PRP
+'d	others	would|you|like|false|false|false|false|false|false|false|false|false|MD
+like	others	like|would|to|false|false|false|false|false|false|false|false|false|VB
+to	others	to|like|meet|false|false|false|false|false|false|false|false|false|TO
+meet	others	meet|to|with|false|false|false|false|false|false|false|false|false|VB
+with	others	with|meet|he|false|false|false|false|false|false|false|false|false|IN
+him	others	he|with|cam|false|false|false|false|false|false|false|false|false|PRP
+Cam	others	cam|he|'s|true|false|false|false|false|true|false|false|false|NN
+'s	others	's|cam|talk|false|false|false|false|false|false|false|false|false|POS
+talk	others	talk|'s|to|false|false|false|false|false|false|false|false|false|NN
+to	others	to|talk|the|false|false|false|false|false|false|false|false|false|TO
+the	others	the|to|ee|false|false|false|false|false|false|false|false|false|DT
+EE	others	ee|the|_end_|false|true|false|true|false|false|false|false|false|NN
+
+department	others	depart|_start_|on|false|false|false|false|false|false|false|false|false|NN
+on	others	on|depart|auditori|false|false|false|false|false|false|false|false|false|IN
+auditory	others	auditori|on|phase|false|false|false|false|false|false|false|false|false|JJ
+phase	others	phase|auditori|percept|false|false|false|false|false|false|false|false|false|NN
+perception	others	percept|phase|will|false|false|false|false|false|false|false|false|false|NN
+will	others	will|percept|be|false|false|false|false|false|false|false|false|false|MD
+be	others	be|will|in|false|false|false|false|false|false|false|false|false|VB
+in	others	in|be|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|in|scaif|false|false|false|false|false|false|false|false|false|DT
+Scaife	location	scaif|the|hall|true|false|false|false|false|false|false|false|false|NNP
+Hall	location	hall|scaif|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+auditorium	others	auditorium|_start_|on|false|false|false|false|false|false|false|false|false|NN
+on	others	on|auditorium|thursdai|false|false|false|false|false|false|false|false|false|IN
+Thursday	others	thursdai|on|at|true|false|false|false|false|false|false|false|true|NNP
+at	others	at|thursdai|3:30|false|false|false|false|false|false|false|false|false|IN
+3:30	stime	3:30|at|p.|false|false|false|false|false|false|false|false|false|CD
+p.	stime	p.|3:30|m|false|false|false|false|false|false|false|false|false|NN
+m	stime	m|p.|-lrb-|false|false|false|false|false|false|false|false|false|NN
+-LRB-	others	-lrb-|m|donut|false|false|false|false|false|false|false|false|false|-LRB-
+Donuts	others	donut|-lrb-|at|true|false|false|false|false|false|false|false|false|NNP
+at	others	at|donut|3:15|false|false|false|false|false|false|false|false|false|IN
+3:15	others	3:15|at|-rrb-|false|false|false|false|false|false|false|false|false|CD
+-RRB-	others	-rrb-|3:15|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+

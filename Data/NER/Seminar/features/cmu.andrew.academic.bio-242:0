@@ -1,0 +1,159 @@
+Type	others	type|_start_|cmu|true|false|false|false|false|false|false|false|false|NN
+cmu	others	cmu|type|andrew|false|false|false|false|false|false|false|false|false|NN
+andrew	others	andrew|cmu|academ|false|false|false|false|false|true|false|false|false|NN
+academic	others	academ|andrew|bio|false|false|false|false|false|false|false|false|false|JJ
+bio	others	bio|academ|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Topic	others	topic|_start_|mhc|true|false|false|false|false|false|false|false|false|NN
+MHC	others	mhc|topic|class|false|true|false|true|false|false|false|false|false|NN
+Class	others	class|mhc|ii|true|false|false|false|false|false|false|false|false|NN
+II	others	ii|class|a|false|true|false|true|false|false|false|false|false|CD
+A	others	a|ii|target|false|false|true|true|false|false|false|false|false|DT
+Target	others	target|a|for|true|false|false|false|false|false|false|false|false|NN
+for	others	for|target|specif|false|false|false|false|false|false|false|false|false|IN
+Specific	others	specif|for|immunomodul|true|false|false|false|false|false|false|false|false|JJ
+Immunomodulation	others	immunomodul|specif|of|true|false|false|false|false|false|false|false|false|NN
+of	others	of|immunomodul|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|of|_end_|false|false|false|false|false|false|false|false|false|DT
+
+Immune	others	immun|_start_|respons|true|false|false|false|false|false|false|false|false|JJ
+Response	others	respons|immun|_end_|true|false|false|false|false|false|false|false|false|NN
+
+Dates	others	date|_start_|3-may-95|true|false|false|false|false|false|false|false|false|NNS
+3-May-95	others	3-may-95|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|3:30|true|false|false|false|false|false|false|false|false|NNP
+3:30	stime	3:30|time|pm|false|false|false|false|false|false|false|false|false|CD
+PM	stime	pm|3:30|_end_|false|true|false|true|false|false|false|false|false|NN
+
+Place	others	place|_start_|mellon|true|false|false|false|false|false|false|false|false|NN
+Mellon	location	mellon|place|institut|true|false|false|false|false|false|false|false|false|NNP
+Institute	location	institut|mellon|confer|true|false|false|false|false|false|false|false|false|NNP
+Conference	location	confer|institut|room|true|false|false|false|false|false|false|false|false|NNP
+Room	location	room|confer|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+PostedBy	others	postedbi|_start_|helena|false|false|false|false|true|false|false|false|false|NNP
+Helena	others	helena|postedbi|r.|true|false|false|false|false|true|false|false|false|NNP
+R.	others	r.|helena|frei|false|false|false|false|false|true|false|false|false|NNP
+Frey	others	frei|r.|on|true|false|false|false|false|true|false|false|false|NNP
+on	others	on|frei|26-apr-95|false|false|false|false|false|false|false|false|false|IN
+26-Apr-95	others	26-apr-95|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|26-apr-95|11:09|false|false|false|false|false|false|false|false|false|IN
+11:09	others	11:09|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|11:09|andrew.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+andrew.cmu.edu	others	andrew.cmu.edu|from|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+Seminar	others	seminar|_start_|depart|true|false|false|false|false|false|false|false|false|NN
+Departments	others	depart|seminar|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|depart|biolog|false|false|false|false|false|false|false|false|false|IN
+Biological	others	biolog|of|scienc|true|false|false|false|false|false|false|false|false|NNP
+Sciences	others	scienc|biolog|_end_|true|false|false|false|false|false|false|false|false|NNPS
+
+Carnegie	others	carnegi|_start_|mellon|true|false|false|false|false|false|false|false|false|NNP
+Mellon	others	mellon|carnegi|and|true|false|false|false|false|false|false|false|false|NNP
+and	others	and|mellon|univers|false|false|false|false|false|false|false|false|false|CC
+University	others	univers|and|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|univers|pittsburgh|false|false|false|false|false|false|false|false|false|IN
+Pittsburgh	others	pittsburgh|of|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Name	others	name|_start_|dr.|true|false|false|false|false|false|false|false|false|VB
+Dr.	speaker	dr.|name|jeffrei|false|false|false|false|false|true|false|false|false|NNP
+Jeffrey	speaker	jeffrei|dr.|d.|true|false|false|false|false|true|false|false|false|NNP
+D.	speaker	d.|jeffrei|herm|false|false|false|false|false|true|false|false|false|NNP
+Hermes	speaker	herm|d.|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+Affiliation	others	affili|_start_|depart|true|false|false|false|false|false|false|false|false|NN
+Department	others	depart|affili|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|depart|autoimmun|false|false|false|false|false|false|false|false|false|IN
+Autoimmune	others	autoimmun|of|diseas|true|false|false|false|false|false|false|false|false|NN
+Diseases	others	diseas|autoimmun|research|true|false|false|false|false|false|false|false|false|NNS
+Research	others	research|diseas|biophys|true|false|false|false|false|false|false|false|false|NNP
+Biophysical	others	biophys|research|chemistri|true|false|false|false|false|false|false|false|false|NNP
+Chemistry	others	chemistri|biophys|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Merck	others	merck|_start_|research|true|false|false|false|false|false|false|false|false|NNP
+Research	others	research|merck|laboratori|true|false|false|false|false|false|false|false|false|NNP
+Laboratories	others	laboratori|research|_end_|true|false|false|false|false|false|false|false|false|NNPS
+
+Title	others	titl|_start_|mhc|true|false|false|false|false|false|false|false|false|NN
+MHC	others	mhc|titl|class|false|true|false|true|false|false|false|false|false|NN
+Class	others	class|mhc|ii|true|false|false|false|false|false|false|false|false|NN
+II	others	ii|class|a|false|true|false|true|false|false|false|false|false|CD
+A	others	a|ii|target|false|false|true|true|false|false|false|false|false|DT
+Target	others	target|a|for|true|false|false|false|false|false|false|false|false|NN
+for	others	for|target|specif|false|false|false|false|false|false|false|false|false|IN
+Specific	others	specif|for|immunomodul|true|false|false|false|false|false|false|false|false|JJ
+Immunomodulation	others	immunomodul|specif|of|true|false|false|false|false|false|false|false|false|NN
+of	others	of|immunomodul|the|false|false|false|false|false|false|false|false|false|IN
+the	others	the|of|_end_|false|false|false|false|false|false|false|false|false|DT
+
+Immune	others	immun|_start_|respons|true|false|false|false|false|false|false|false|false|JJ
+Response	others	respons|immun|_end_|true|false|false|false|false|false|false|false|false|NN
+
+Host\/e-mail	others	host\/e-mail|_start_|robert|false|false|false|false|false|false|false|false|false|NN
+Robert	others	robert|host\/e-mail|murphi|true|false|false|false|false|true|false|false|false|NNP
+Murphy	others	murphi|robert|murphy@a.cfr.cmu.edu|true|false|false|false|false|true|false|false|false|NNP
+murphy@a.cfr.cmu.edu	others	murphy@a.cfr.cmu.edu|murphi|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Date	others	date|_start_|wednesdai|true|false|false|false|false|false|false|false|false|NN
+Wednesday	others	wednesdai|date|mai|true|false|false|false|false|false|false|false|true|NNP
+May	others	mai|wednesdai|3|true|false|false|false|false|false|false|false|true|NNP
+3	others	3|mai|1995|false|false|false|false|false|false|false|false|true|CD
+1995	others	1995|3|_end_|false|false|false|false|false|false|false|false|true|CD
+
+Time	others	time|_start_|3:30|true|false|false|false|false|false|false|false|false|NNP
+3:30	stime	3:30|time|p.|false|false|false|false|false|false|false|false|false|CD
+p.	stime	p.|3:30|m|false|false|false|false|false|false|false|false|false|NN
+m	stime	m|p.|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Place	others	place|_start_|mellon|true|false|false|false|false|false|false|false|false|NN
+Mellon	location	mellon|place|institut|true|false|false|false|false|false|false|false|false|NNP
+Institute	location	institut|mellon|confer|true|false|false|false|false|false|false|false|false|NNP
+Conference	location	confer|institut|room|true|false|false|false|false|false|false|false|false|NNP
+Room	location	room|confer|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Sponsor	others	sponsor|_start_|merck|true|false|false|false|false|false|false|false|false|NN
+MERCK	others	merck|sponsor|research|false|true|false|true|false|false|false|false|false|NNP
+RESEARCH	others	research|merck|laboratori|false|true|false|true|false|false|false|false|false|NNP
+LABORATORIES	others	laboratori|research|_end_|false|true|false|true|false|false|false|false|false|NNS
+
+Schedule	others	schedul|_start_|for|true|false|false|false|false|false|false|false|false|NN
+for	others	for|schedul|1995|false|false|false|false|false|false|false|false|false|IN
+1995	others	1995|for|follow|false|false|false|false|false|false|false|false|true|CD
+follows	others	follow|1995|-lrb-|false|false|false|false|false|false|false|false|false|VBZ
+-LRB-	others	-lrb-|follow|as|false|false|false|false|false|false|false|false|false|-LRB-
+as	others	as|-lrb-|of|false|false|false|false|false|false|false|false|false|IN
+of	others	of|as|4\/26\/95|false|false|false|false|false|false|false|false|false|IN
+4\/26\/95	others	4\/26\/95|of|-rrb-|false|false|false|false|false|false|false|false|true|CD
+-RRB-	others	-rrb-|4\/26\/95|_end_|false|false|false|false|false|false|false|false|false|-RRB-
+
+Biological	others	biolog|_start_|scienc|true|false|false|false|false|false|false|false|false|NNP
+Sciences	others	scienc|biolog|seminar|true|false|false|false|false|false|false|false|false|NNPS
+Seminars	others	seminar|scienc|1994-1995|true|false|false|false|false|false|false|false|false|NNPS
+1994-1995	others	1994-1995|seminar|_end_|false|false|false|false|false|false|false|false|true|CD
+
+Date	others	date|_start_|speaker|true|false|false|false|false|false|false|false|false|NN
+Speaker	others	speaker|date|host|true|false|false|false|false|false|false|false|false|NNP
+Host	others	host|speaker|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+April	others	april|_start_|26|true|false|false|false|false|false|false|false|true|NNP
+26	others	26|april|helen|false|false|false|false|false|false|false|false|true|CD
+Helen	others	helen|26|salz|true|false|false|false|false|true|false|false|false|NNP
+Salz	others	salz|helen|javier|true|false|false|false|false|true|false|false|false|NNP
+Javier	others	javier|salz|l|true|false|false|false|false|true|false|false|false|NNP
+L	others	l|javier|pez|false|false|true|true|false|true|false|false|false|NNP
+pez	others	pez|l|_end_|false|false|false|false|false|false|false|false|false|NN
+
+May	others	mai|_start_|3|true|false|false|false|false|false|false|false|true|NNP
+3	others	3|mai|jefferei|false|false|false|false|false|false|false|false|true|CD
+Jefferey	others	jefferei|3|herm|true|false|false|false|false|true|false|false|false|NNP
+Hermes	others	herm|jefferei|bob|true|false|false|false|false|true|false|false|false|NNP
+Bob	others	bob|herm|murphi|true|false|false|false|false|true|false|false|false|NNP
+Murphy	others	murphi|bob|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+MERCK	others	merck|_start_|research|false|true|false|true|false|false|false|false|false|NNP
+RESEARCH	others	research|merck|laboratori|false|true|false|true|false|false|false|false|false|NNP
+LABORATORIES	others	laboratori|research|_end_|false|true|false|true|false|false|false|false|false|NNS
+

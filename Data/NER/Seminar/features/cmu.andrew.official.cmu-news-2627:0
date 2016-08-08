@@ -1,0 +1,123 @@
+Type	others	type|_start_|cmu.andrew.official.cmu-new|true|false|false|false|false|false|false|false|false|NN
+cmu.andrew.official.cmu-news	others	cmu.andrew.official.cmu-new|type|_end_|false|false|false|false|false|false|false|false|false|NNS
+
+Topic	others	topic|_start_|picosecond|true|false|false|false|false|false|false|false|false|NN
+Picosecond	others	picosecond|topic|motion|true|false|false|false|false|false|false|false|false|NNP
+Motion	others	motion|picosecond|in|true|false|false|false|false|false|false|false|false|NNP
+in	others	in|motion|protein|false|false|false|false|false|false|false|false|false|IN
+Proteins	others	protein|in|experi|true|false|false|false|false|false|false|false|false|NNPS
+Experiments	others	experi|protein|analysi|true|false|false|false|false|false|false|false|false|NNS
+Analysis	others	analysi|experi|_end_|true|false|false|false|false|false|false|false|false|NN
+
+Mathematical	others	mathemat|_start_|simul|true|false|false|false|false|false|false|false|false|JJ
+Simulation	others	simul|mathemat|and|true|false|false|false|false|false|false|false|false|NN
+and	others	and|simul|interpret|false|false|false|false|false|false|false|false|false|CC
+Interpretations	others	interpret|and|_end_|true|false|false|false|false|false|false|false|false|NNS
+
+Dates	others	date|_start_|29-mar-95|true|false|false|false|false|false|false|false|false|NNS
+29-Mar-95	others	29-mar-95|date|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Time	others	time|_start_|3:30|true|false|false|false|false|false|false|false|false|NNP
+3:30	stime	3:30|time|pm|false|false|false|false|false|false|false|false|false|CD
+PM	stime	pm|3:30|_end_|false|true|false|true|false|false|false|false|false|NN
+
+Place	others	place|_start_|mellon|true|false|false|false|false|false|false|false|false|NN
+Mellon	location	mellon|place|institut|true|false|false|false|false|false|false|false|false|NNP
+Institute	location	institut|mellon|confer|true|false|false|false|false|false|false|false|false|NNP
+Conference	location	confer|institut|room|true|false|false|false|false|false|false|false|false|NNP
+Room	location	room|confer|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+PostedBy	others	postedbi|_start_|edmund|false|false|false|false|true|false|false|false|false|NNP
+Edmund	others	edmund|postedbi|j.|true|false|false|false|false|true|false|false|false|NNP
+J.	others	j.|edmund|delanei|false|false|false|false|false|true|false|false|false|NNP
+Delaney	others	delanei|j.|on|true|false|false|false|false|true|false|false|false|NNP
+on	others	on|delanei|24-mar-95|false|false|false|false|false|false|false|false|false|IN
+24-Mar-95	others	24-mar-95|on|at|false|false|false|false|false|false|false|false|false|NN
+at	others	at|24-mar-95|09:52|false|false|false|false|false|false|false|false|false|IN
+09:52	others	09:52|at|from|false|false|false|false|false|false|false|false|false|CD
+from	others	from|09:52|andrew.cmu.edu|false|false|false|false|false|false|false|false|false|IN
+andrew.cmu.edu	others	andrew.cmu.edu|from|_end_|false|false|false|false|false|false|false|false|false|NN
+
+Abstract	others	abstract|_start_|_end_|true|false|false|false|false|false|false|false|false|JJ
+
+Seminar	others	seminar|_start_|depart|true|false|false|false|false|false|false|false|false|NN
+Departments	others	depart|seminar|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|depart|biolog|false|false|false|false|false|false|false|false|false|IN
+Biological	others	biolog|of|scienc|true|false|false|false|false|false|false|false|false|NNP
+Sciences	others	scienc|biolog|_end_|true|false|false|false|false|false|false|false|false|NNPS
+
+and	others	and|_start_|chemistri|false|false|false|false|false|false|false|false|false|CC
+Chemistry	others	chemistri|and|cmu|true|false|false|false|false|false|false|false|false|NNP
+CMU	others	cmu|chemistri|_end_|false|true|false|true|false|false|false|false|false|NNP
+
+Name	others	name|_start_|dr.|true|false|false|false|false|false|false|false|false|VB
+Dr.	speaker	dr.|name|franklyn|false|false|false|false|false|true|false|false|false|NNP
+Franklyn	speaker	franklyn|dr.|g.|true|false|false|false|false|true|false|false|false|NNP
+G.	speaker	g.|franklyn|prendergast|false|false|false|false|false|true|false|false|false|NNP
+Prendergast	speaker	prendergast|g.|_end_|true|false|false|false|false|true|false|false|false|NNP
+
+Affiliation	others	affili|_start_|depart|true|false|false|false|false|false|false|false|false|NN
+Department	others	depart|affili|of|true|false|false|false|false|false|false|false|false|NNP
+of	others	of|depart|biochemistri|false|false|false|false|false|false|false|false|false|IN
+Biochemistry	others	biochemistri|of|and|true|false|false|false|false|false|false|false|false|NNP
+and	others	and|biochemistri|molecular|false|false|false|false|false|false|false|false|false|CC
+Molecular	others	molecular|and|biologi|true|false|false|false|false|false|false|false|false|JJ
+Biology	others	biologi|molecular|_end_|true|false|false|false|false|false|false|false|false|NN
+
+Mayo	others	mayo|_start_|foundat|true|false|false|false|false|false|false|false|false|NNP
+Foundation	others	foundat|mayo|clinc|true|false|false|false|false|false|false|false|false|NNP
+Clinc	others	clinc|foundat|and|true|false|false|false|false|false|false|false|false|NNP
+and	others	and|clinc|medic|false|false|false|false|false|false|false|false|false|CC
+Medical	others	medic|and|school|true|false|false|false|false|false|false|false|false|NNP
+School	others	school|medic|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Title	others	titl|_start_|picosecond|true|false|false|false|false|false|false|false|false|NN
+Picosecond	others	picosecond|titl|motion|true|false|false|false|false|false|false|false|false|NNP
+Motion	others	motion|picosecond|in|true|false|false|false|false|false|false|false|false|NNP
+in	others	in|motion|protein|false|false|false|false|false|false|false|false|false|IN
+Proteins	others	protein|in|experi|true|false|false|false|false|false|false|false|false|NNPS
+Experiments	others	experi|protein|analysi|true|false|false|false|false|false|false|false|false|NNS
+Analysis	others	analysi|experi|_end_|true|false|false|false|false|false|false|false|false|NN
+
+Mathematical	others	mathemat|_start_|simul|true|false|false|false|false|false|false|false|false|JJ
+Simulation	others	simul|mathemat|and|true|false|false|false|false|false|false|false|false|NN
+and	others	and|simul|interpret|false|false|false|false|false|false|false|false|false|CC
+Interpretations	others	interpret|and|_end_|true|false|false|false|false|false|false|false|false|NNS
+
+Host\/e-mail	others	host\/e-mail|_start_|lan|false|false|false|false|false|false|false|false|false|NNP
+Lans	others	lan|host\/e-mail|taylor/taylor@a.cfr.cmu.edu|true|false|false|false|false|false|false|false|false|NNP
+Taylor/taylor@a.cfr.cmu.edu	others	taylor/taylor@a.cfr.cmu.edu|lan|_end_|false|false|false|false|false|false|false|false|false|NNP
+
+Date	others	date|_start_|wednesdai|true|false|false|false|false|false|false|false|false|NN
+Wednesday	others	wednesdai|date|march|true|false|false|false|false|false|false|false|true|NNP
+March	others	march|wednesdai|29|true|false|false|false|false|false|false|false|true|NNP
+29	others	29|march|1995|false|false|false|false|false|false|false|false|true|CD
+1995	others	1995|29|_end_|false|false|false|false|false|false|false|false|true|CD
+
+Time	others	time|_start_|3:30|true|false|false|false|false|false|false|false|false|NNP
+3:30	stime	3:30|time|p.m.|false|false|false|false|false|false|false|false|false|CD
+p.m.	stime	p.m.|3:30|_end_|false|false|false|false|false|false|false|false|false|RB
+
+Place	others	place|_start_|mellon|true|false|false|false|false|false|false|false|false|NN
+Mellon	location	mellon|place|institut|true|false|false|false|false|false|false|false|false|NNP
+Institute	location	institut|mellon|confer|true|false|false|false|false|false|false|false|false|NNP
+Conference	location	confer|institut|room|true|false|false|false|false|false|false|false|false|NNP
+Room	location	room|confer|_end_|true|false|false|false|false|false|false|false|false|NNP
+
+Co-Sponsor	others	co-sponsor|_start_|sscienc|false|false|false|false|false|false|false|false|false|NN
+Sscience	others	sscienc|co-sponsor|and|true|false|false|false|false|false|false|false|false|NN
+and	others	and|sscienc|technolog|false|false|false|false|false|false|false|false|false|CC
+Technology	others	technolog|and|center|true|false|false|false|false|false|false|false|false|NN
+Center	others	center|technolog|and|true|false|false|false|false|false|false|false|false|NN
+and	others	and|center|w.m.|false|false|false|false|false|false|false|false|false|CC
+W.M.	others	w.m.|and|keck|false|false|false|false|false|false|false|false|false|NNP
+Keck	others	keck|w.m.|center|true|false|false|false|false|false|false|false|false|NNP
+Center	others	center|keck|for|true|false|false|false|false|false|false|false|false|NNP
+for	others	for|center|_end_|false|false|false|false|false|false|false|false|false|IN
+
+Advanced	others	advanc|_start_|train|true|false|false|false|false|false|false|false|false|NNP
+Training	others	train|advanc|in|true|false|false|false|false|false|false|false|false|NNP
+in	others	in|train|comput|false|false|false|false|false|false|false|false|false|IN
+Computational	others	comput|in|biologi|true|false|false|false|false|false|false|false|false|NNP
+Biology	others	biologi|comput|_end_|true|false|false|false|false|false|false|false|false|NNP
+
